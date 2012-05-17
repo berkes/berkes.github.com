@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="{% if page.lang == nil %}en{% else %}{{ escape page.lang }}{% endif %}">
   <head>
     <meta charset="utf-8">
     <title>{{ page.title }}</title>
@@ -25,7 +25,7 @@
   </head>
 
   <body>
-
+   {{ page.lang || debug }}
     <div class="navbar">
       <div class="navbar-inner">
         <div class="container">
