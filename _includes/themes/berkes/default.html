@@ -36,29 +36,31 @@
 <body>
 	<!-- container -->
 	<div class="container">
-    <header class="row">
-      <div class="twelve columns">
+    <header>
+      <div class="row">
         <a href="{{ HOME_PATH }}" title="Home">
           <img src="{{ ASSET_PATH }}/images/logo.png" alt="Logo" title="{{site.title}}" />
         </a>
       </div>
 
       <nav id="main" class="row">
-        <ul class="nav-bar">
+        <div class="onion">
+        <ul>
           <li>
-          <a href="{{ BASE_PATH }}{{ site.JB.about_path }}" class="main">EN / About</a>
+          <a href="{{ BASE_PATH }}{{ site.JB.about_path }}">EN / About</a>
           </li>
           <li>
-          <a href="{{ BASE_PATH }}{{ site.JB.about_path }}" class="main">EN / Articles</a>
+          <a href="{{ BASE_PATH }}{{ site.JB.about_path }}">EN / Articles</a>
           </li>
           <li>
-          <a href="{{ BASE_PATH }}{{ site.JB.about_path }}" class="main">NL / Over</a>
+          <a href="{{ BASE_PATH }}{{ site.JB.about_path }}">NL / Over</a>
           </li>
           <li>
-          <a href="{{ BASE_PATH }}{{ site.JB.about_path }}" class="main">NL / Artikelen</a>
+          <a href="{{ BASE_PATH }}{{ site.JB.about_path }}">NL / Artikelen</a>
           </li>
         </ul>
-        </nav>
+        </div>
+      </nav>
     </header>
 
     <section id="main-content" class="row">
@@ -92,6 +94,5 @@
       </div>
     </div>
   </div>
-  {% include JB/analytics %}
 </body>
 </html>
