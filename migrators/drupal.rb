@@ -16,15 +16,26 @@ module Jekyll
     # Reads a MySQL database via Sequel and creates a post file for each post
     # in wp_posts that has post_status = 'publish'. This restriction is made
     # because 'draft' posts are not guaranteed to have valid dates.
-    QUERY = "SELECT n.nid, \
-                    n.title, \
-                    nr.body, \
-                    n.created, \
-                    n.status \
-             FROM node AS n, \
-                  node_revisions AS nr \
-             WHERE (n.type = 'blog' OR n.type = 'story') \
-             AND n.vid = nr.vid "
+    QUERY = "SELECT n.nid,
+                    n.title,
+                    nr.body,
+                    n.created,
+                    n.status,
+                    td.name as tag
+             FROM node AS n
+             INNER JOIN node_revisions AS nr ON nr.vid = n.vid
+             INNER JOIN term_node AS tn ON tn.nid = n.nid
+             INNER JOIN term_data AS td ON td.tid = tn.tid
+             WHERE (n.type = 'blog' OR n.type = 'story')"
+    # QUERY = "SELECT n.nid, \
+    #                 n.title, \
+    #                 nr.body, \
+    #                 n.created, \
+    #                 n.status \
+    #          FROM node AS n, \
+    #               node_revisions AS nr \
+    #          WHERE (n.type = 'blog' OR n.type = 'story') \
+    #          AND n.vid = nr.vid "
 
     def self.process(dbname, user, pass, host = 'localhost', prefix = '')
       db = Sequel.mysql(dbname, :user => user, :password => pass, :host => host, :encoding => 'utf8')
@@ -51,7 +62,18 @@ module Jekyll
 EOF
       end
 
+      # Loop over results and group the tags.
+      posts = {}
       db[QUERY].each do |post|
+        if posts.has_key? post[:nid]
+          posts[post[:nid]][:tags] << post[:tag]
+        else
+          post[:tags] = [post[:tag]]
+          posts[post[:nid]] = post
+        end
+      end
+
+      posts.each do |nid, post|
         # Get required fields and construct Jekyll compatible name
         #
         node_id = post[:nid]
@@ -59,6 +81,7 @@ EOF
         content = DownmarkIt.to_markdown post[:body]
         created = post[:created]
         time = Time.at(created)
+        tags = post[:tags].map {|t| t.to_s.force_encoding("UTF-8") }
         is_published = post[:status] == 1
         dir = is_published ? "_posts" : "_drafts"
         slug = title.strip.downcase.gsub(/(&|&amp;)/, ' and ').gsub(/[\s\.\/\\]/, '-').gsub(/[^\w-]/, '').gsub(/[-_]{2,}/, '-').gsub(/^[-_]/, '').gsub(/[-_]$/, '')
@@ -70,6 +93,7 @@ EOF
            'layout' => 'post',
            'title' => title.to_s.force_encoding("UTF-8"),
            'created' => created,
+           'tags' => tags,
          }.delete_if { |k,v| v.nil? || v == ''}.to_yaml
 
         # Write out the data and content to file
