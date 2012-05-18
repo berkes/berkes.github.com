@@ -24,7 +24,7 @@ module Jekyll
              FROM node AS n, \
                   node_revisions AS nr \
              WHERE (n.type = 'blog' OR n.type = 'story') \
-             AND n.vid = nr.vid"
+             AND n.vid = nr.vid "
 
     def self.process(dbname, user, pass, host = 'localhost', prefix = '')
       db = Sequel.mysql(dbname, :user => user, :password => pass, :host => host, :encoding => 'utf8')
@@ -53,6 +53,7 @@ EOF
 
       db[QUERY].each do |post|
         # Get required fields and construct Jekyll compatible name
+        #
         node_id = post[:nid]
         title = post[:title]
         content = DownmarkIt.to_markdown post[:body]
@@ -67,7 +68,7 @@ EOF
         # to YAML for the header
         data = {
            'layout' => 'post',
-           'title' => title.to_s,
+           'title' => title.to_s.force_encoding("UTF-8"),
            'created' => created,
          }.delete_if { |k,v| v.nil? || v == ''}.to_yaml
 
@@ -79,21 +80,21 @@ EOF
         end
 
         # Make a file to redirect from the old Drupal URL
-        if is_published
-          aliases = db["SELECT dst FROM #{prefix}url_alias WHERE src = ?", "node/#{node_id}"].all
+        # if is_published
+        #   aliases = db["SELECT dst FROM #{prefix}url_alias WHERE src = ?", "node/#{node_id}"].all
 
-          aliases.push(:dst => "node/#{node_id}")
+        #   aliases.push(:dst => "node/#{node_id}")
 
-          aliases.each do |url_alias|
-            FileUtils.mkdir_p url_alias[:dst]
-            File.open("#{url_alias[:dst]}/index.md", "w") do |f|
-              f.puts "---"
-              f.puts "layout: refresh"
-              f.puts "refresh_to_post_id: /#{time.strftime("%Y/%m/%d/") + slug}"
-              f.puts "---"
-            end
-          end
-        end
+        #   aliases.each do |url_alias|
+        #     FileUtils.mkdir_p url_alias[:dst]
+        #     File.open("#{url_alias[:dst]}/index.md", "w") do |f|
+        #       f.puts "---"
+        #       f.puts "layout: refresh"
+        #       f.puts "refresh_to_post_id: /#{time.strftime("%Y/%m/%d/") + slug}"
+        #       f.puts "---"
+        #     end
+        #   end
+        # end
       end
 
       # TODO: Make dirs & files for nodes of type 'page'
