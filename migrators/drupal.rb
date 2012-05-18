@@ -3,6 +3,8 @@ require 'sequel'
 require 'fileutils'
 require 'yaml'
 
+require File.join(File.dirname(__FILE__), "downmark_it")
+
 # NOTE: This converter requires Sequel and the MySQL gems.
 # The MySQL gem can be difficult to install on OS X. Once you have MySQL
 # installed, running the following commands should work:
@@ -53,7 +55,7 @@ EOF
         # Get required fields and construct Jekyll compatible name
         node_id = post[:nid]
         title = post[:title]
-        content = post[:body]
+        content = DownmarkIt.to_markdown post[:body]
         created = post[:created]
         time = Time.at(created)
         is_published = post[:status] == 1

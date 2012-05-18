@@ -16,7 +16,7 @@
 #
 # =License
 # This code is licensed under MIT License
-require 'Hpricot'
+require 'hpricot'
 
 module DownmarkIt
 	# TODO: Add nested unordered lists inside ordered list and vice versa support
