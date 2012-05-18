@@ -1,0 +1,31 @@
+<article>
+  <header>
+    <h1>{{ page.title }}</h1>
+  </header> 
+  <div class="body">
+    {{ content }}
+  </div>
+  <footer>
+    <time datetime="{{ page.date | date_to_xmlschema }}"
+    pubdate="pubdate">
+      Posted on {{ page.date | date_to_long_string }}
+    </time>
+    in
+    {% if page.location %}{{ page.location }}{% endif %}
+    {% unless page.tags == empty %}
+      {% assign tags_list = page.tags %}
+      {% include themes/berkes/tags_list.yml %}
+    {% endunless %}
+  </footer>
+</article>
+
+<div id="related">
+  <h2>Related Posts</h2>
+  <ul class="posts">
+    {% for post in site.related_posts limit:3 %}
+      <li><span>{{ post.date | date_to_string }}</span> &raquo; <a href="{{ post.url }}">{{ post.title }}</a></li>
+    {% endfor %}
+  </ul>
+</div>
+
+{% include JB/comments %}

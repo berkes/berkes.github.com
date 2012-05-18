@@ -1,0 +1,13 @@
+/* TEAM */
+	Developer, Desinger, Architect: Bèr Kessels
+	Contact: ber curlything webschuur dot com
+	Twitter: @berkes
+	From:Nijmegen, Netherlands
+
+/* THANKS */
+
+
+/* SITE */
+	Language:English / Nederlands
+	Doctype:HTML5
+	IDE:Gedit, Gmate, Ubuntu
