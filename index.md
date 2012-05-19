@@ -4,6 +4,24 @@ title: Bèr ‘berkes’ Kessels
 tagline: Supporting tagline
 ---
 {% include JB/setup %}
+
+<section class="about nl" lang="nl">
+## Over Bèr Kessels 
+
+Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod
+tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At
+vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren,
+no sea takimata sanctus est Lorem ipsum dolor sit amet.
+</section>
+<section class="about en" lang="en">
+## About Bèr Kessels 
+
+Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod
+tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At
+vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren,
+no sea takimata sanctus est Lorem ipsum dolor sit amet.
+</section>
+
 <section class="posts nl" lang="nl">
 ## Nederlandse Artikelen ##
 <ul class="posts">
