@@ -37,7 +37,7 @@ module Jekyll
     #          WHERE (n.type = 'blog' OR n.type = 'story') \
     #          AND n.vid = nr.vid "
 
-    def self.process(dbname, user, pass, host = 'localhost', prefix = '')
+    def self.process(dbname, user, pass, host = 'localhost', prefix = '', lang = '')
       db = Sequel.mysql(dbname, :user => user, :password => pass, :host => host, :encoding => 'utf8')
 
       if prefix != ''
@@ -94,6 +94,7 @@ EOF
            'title' => title.to_s.force_encoding("UTF-8"),
            'created' => created,
            'tags' => tags,
+           'lang' => lang,
          }.delete_if { |k,v| v.nil? || v == ''}.to_yaml
 
         # Write out the data and content to file
