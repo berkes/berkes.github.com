@@ -39,3 +39,4 @@ Usage:
 {% endif %}
 {% assign pages_list = nil %}
 {% assign group = nil %}
+{% assign lang = nil %}
