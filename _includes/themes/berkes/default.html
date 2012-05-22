@@ -51,19 +51,18 @@
           <a href="{{ BASE_PATH }}{{ site.JB.about_path }}">EN / About</a>
           </li>
           <li>
-          <a href="{{ BASE_PATH }}{{ site.JB.about_path }}">EN / Articles</a>
+          <a href="{{ BASE_PATH }}{{ site.JB.archive_path }}">EN / Articles</a>
           </li>
           <li>
-          <a href="{{ BASE_PATH }}{{ site.JB.about_path }}">NL / Over</a>
+          <a href="{{ BASE_PATH }}{{ site.JB.over_path }}">NL / Over</a>
           </li>
           <li>
-          <a href="{{ BASE_PATH }}{{ site.JB.about_path }}">NL / Artikelen</a>
+          <a href="{{ BASE_PATH }}{{ site.JB.archief_path }}">NL / Artikelen</a>
           </li>
         </ul>
         </div>
       </nav>
     </header>
-
     <section id="main-content" class="row">
       {{ content }}
     </section>
@@ -86,9 +85,10 @@
         <a href="http://creativecommons.org/licenses/by-sa/3.0/" rel="license">Creative Commons Atrribute-Share-alike 3.0 Unported license</a>
       </div>
       <div class="four columns">
-        <a class="extra" href="{{ BASE_PATH }}{{ site.JB.archive_path }}">Archive</a> <br />
-        <a class="extra" href="{{ BASE_PATH }}{{ site.JB.pages_path }}">Pages</a> <br /> 
-        <a class="extra" href="{{ BASE_PATH }}{{ site.JB.categories_path }}">Categories</a> <br />
+        <a class="extra" href="{{ BASE_PATH }}{{ site.JB.archive_path
+          }}">Archive (All English articles)</a> <br />
+        <a class="extra" href="{{ BASE_PATH }}{{ site.JB.archief_path
+          }}">Archief (Alle Nederlandse artikelen)</a> <br />
         <a class="extra" href="{{ BASE_PATH }}{{ site.JB.tags_path }}">Tags</a> <br />
         <a href="http://feeds.feedburner.com/{{ site.author.feedburner }}"> RSS </a> <br />
       </div>
