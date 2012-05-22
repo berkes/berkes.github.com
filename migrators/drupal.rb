@@ -21,6 +21,7 @@ module Jekyll
                     nr.body,
                     n.created,
                     n.status,
+                    nr.format,
                     td.name as tag
              FROM node AS n
              INNER JOIN node_revisions AS nr ON nr.vid = n.vid
@@ -78,7 +79,13 @@ EOF
         #
         node_id = post[:nid]
         title = post[:title]
-        content = DownmarkIt.to_markdown post[:body]
+        case post[:format]
+        when 4
+          content = post[:body]
+        when 1
+        when 3
+          content = DownmarkIt.to_markdown post[:body]
+        end
         created = post[:created]
         time = Time.at(created)
         tags = post[:tags].map {|t| t.to_s.force_encoding("UTF-8") }

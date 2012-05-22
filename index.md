@@ -43,7 +43,7 @@ no sea takimata sanctus est Lorem ipsum dolor sit amet.<br/>
 <h2>English Articles</h2>
 <ul class="posts">
   {% for post in site.posts %}
-    {% if post.lang == nil || post.lang == "en" %}
+    {% if post.lang == nil or post.lang == "en" %}
       <li><span>{{ post.date | date_to_string }}</span> &raquo; <a href="{{ BASE_PATH }}{{ post.url }}">{{ post.title }}</a></li>
     {% endif %}
   {% endfor %}
