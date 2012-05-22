@@ -9,21 +9,20 @@ tagline: Supporting tagline
 <section class="six columns about nl" lang="nl">
 <h2>Over Bèr Kessels</h2>
 <p>
-Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod
-tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At
-vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren,
-no sea takimata sanctus est Lorem ipsum dolor sit amet. <br/>
+Ik ben Bèr Kessels, een freelance webontwikkelaar. Ik focus me op
+het ontwikkelen en marketen van <em>cutting edge</em> websites, 
+met Open Source technologie.
+<br/>
 <a href="over.html">Meer »</a>
 </p>
 </section>
 <section class="six columns about en" lang="en">
 <h2>About Bèr Kessels</h2>
 <p>
-Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod
-tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At
-vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren,
-no sea takimata sanctus est Lorem ipsum dolor sit amet.<br/> 
-<a href="over.html">More »</a>
+I am Bèr Kessels, a freelance webdeveloper, focused on development and
+marketing of cutting edge websites, with Open Source technology.
+<br/>
+<a href="about.html">More »</a>
 </p>
 </section>
 </div>
