@@ -3,10 +3,10 @@ layout: post_archive
 title: The CMC and CMF landscape
 created: 1167131788
 tags:
-- Drupal
 - Project Management
 - PHP
 - Drupal Talk
+- Drupal
 - Ruby
 - Ruby on Rails
 lang: en

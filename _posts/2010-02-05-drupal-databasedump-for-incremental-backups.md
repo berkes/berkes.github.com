@@ -3,11 +3,11 @@ layout: post_archive
 title: Drupal Databasedump for incremental backups.
 created: 1265370001
 tags:
-- Drupal
 - Server
 - Tips and tricks
 - Drupal Talk
 - Drupal Hosting
+- Drupal
 lang: en
 ---
 Attached is a <a href="http://webschuur.com/files/dump_fractured_database.tar_.gz">simple script to backup Drupal databases in an incremental-archive-friendly way (1.7KB)</a>. 

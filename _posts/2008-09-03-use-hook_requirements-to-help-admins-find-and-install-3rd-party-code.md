@@ -3,11 +3,11 @@ layout: post_archive
 title: Use hook_requirements to help admins find and install 3rd party code
 created: 1220445872
 tags:
-- Drupal
 - Project Management
 - PHP
 - Library
 - Drupal Talk
+- Drupal
 lang: en
 ---
 A handy snippet for module developers that use external libraries. 

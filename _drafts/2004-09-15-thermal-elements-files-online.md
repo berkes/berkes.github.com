@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: post_archive
 title: thermal-elements files online
 created: 1095231052
 tags:

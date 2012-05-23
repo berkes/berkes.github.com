@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: post_archive
 title: Content layout
 created: 1095231351
 tags:

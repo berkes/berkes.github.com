@@ -3,11 +3,11 @@ layout: post_archive
 title: ! 'What to choose: Flexinode versus CCK!'
 created: 1163515843
 tags:
-- Drupal
 - Project Management
 - Tips and tricks
 - Theming
 - Drupal Talk
+- Drupal
 - Flexinode
 lang: en
 ---

@@ -3,9 +3,9 @@ layout: post_archive
 title: Minor sidenotes for Tagadelic users, regarding SA-CONTRIB-2011-013
 created: 1300302500
 tags:
-- Drupal
 - PHP
 - Drupal Talk
+- Drupal
 lang: en
 ---
 [Tagadelic](http://drupal.org/project/tagadelic), Drupals tag-cloud module, was found with a security vulnerability. From the [advisory](http://drupal.org/node/1095030): 

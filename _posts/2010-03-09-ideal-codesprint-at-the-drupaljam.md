@@ -3,9 +3,9 @@ layout: post_archive
 title: iDEAL codesprint at the Drupaljam
 created: 1268162695
 tags:
-- Drupal
 - PHP
 - Drupal Talk
+- Drupal
 - Usability
 lang: en
 ---

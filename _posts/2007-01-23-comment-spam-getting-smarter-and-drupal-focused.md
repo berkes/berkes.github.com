@@ -3,8 +3,8 @@ layout: post_archive
 title: Comment spam getting smarter and Drupal-focused
 created: 1169553076
 tags:
-- Drupal
 - Drupal Talk
+- Drupal
 lang: en
 ---
 On various of my sites I have seen an increase of "smart spam". Spam aimed, so it seems, specifically at Drupal sites. 

@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: post_archive
 title: Start of Thermal Elements
 created: 1094651315
 tags:

@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: post_archive
 title: ! 'Case Study: blind reading'
 created: 1086891299
 tags:

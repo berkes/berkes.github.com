@@ -3,9 +3,9 @@ layout: post_archive
 title: A better way to variable_get() and t() in Drupal.
 created: 1330605343
 tags:
-- Drupal
 - Programming
 - Tips and tricks
+- Drupal
 lang: en
 ---
 When programming in Drupal, [repeating default values in variable_get](http://drupal.stackexchange.com/questions/23162/using-variable-get-in-multiple-places-without-duplicating-default) and repeating strings in translations, all over the place, is a very strong [codesmell](http://martinfowler.com/bliki/CodeSmell.html).
