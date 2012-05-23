@@ -1,10 +1,12 @@
 ---
 layout: page
-title : Archive
+title : Archive, English articles
 header : Post Archive
 group: navigation
+lang: en
 ---
 {% include JB/setup %}
 
+{% assign lang = "en" %}
 {% assign posts_collate = site.posts %}
 {% include JB/posts_collate %}
