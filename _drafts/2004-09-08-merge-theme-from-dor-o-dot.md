@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: post_archive
 title: merge theme from dor-o dot.
 created: 1094654166
 tags:

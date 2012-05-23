@@ -3,11 +3,11 @@ layout: post_archive
 title: Clean and maintainable pattern for blocks development in Drupal 6
 created: 1293798762
 tags:
-- Drupal
 - Programming
 - PHP
 - Tips and tricks
 - Drupal Talk
+- Drupal
 - Drupal Blog
 lang: en
 ---

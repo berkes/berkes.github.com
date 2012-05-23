@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: post_archive
 title: Scrapbook
 created: 1081884058
 tags:
