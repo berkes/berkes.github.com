@@ -1,3 +1,6 @@
+.highlight {
+  background-color: transparent;
+}
 .container,
 p {
   font-family: 'Arvo', serif;
@@ -41,7 +44,17 @@ article footer {
   /** 22px for the swallow, 30 for whitespace **/
   background: transparent url("../images/swallow_black_hr.png") no-repeat scroll top center;
 }
+article pre {
+  border: 1px solid #cfcdcd;
+  display: block;
+  font-family: Monaco, Andale Mono, Courir New, monospace;
 
+  padding: 1.3rem;
+  margin: 0 1em 1em 1em;
+
+  white-space: pre-wrap;
+  word-wrap: break-word;
+}
 /***************************************************************************
  *                                  GRID                                   *
  ***************************************************************************/
