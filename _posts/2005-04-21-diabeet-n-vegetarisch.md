@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: post_archive
 title: Diabeet én vegetarisch
 created: 1114067279
 tags:

@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: post_archive
 title: Open Source projecten als perfecte CV
 created: 1186265850
 tags:

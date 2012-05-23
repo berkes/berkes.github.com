@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: post_archive
 title: Schrijf nooit welkom
 created: 1191877503
 tags:

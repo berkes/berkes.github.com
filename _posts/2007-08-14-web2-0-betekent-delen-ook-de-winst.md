@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: post_archive
 title: web2.0 betekent delen. Ook de winst
 created: 1187083416
 tags:

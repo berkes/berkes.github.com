@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: post_archive
 title: Een scriptie over Usergenerated content en aansprakelijkheid
 created: 1234102439
 tags:

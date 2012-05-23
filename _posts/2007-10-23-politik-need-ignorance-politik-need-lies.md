@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: post_archive
 title: politik need ignorance politik need lies
 created: 1193170101
 tags:

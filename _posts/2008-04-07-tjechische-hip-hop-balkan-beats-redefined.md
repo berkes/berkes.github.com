@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: post_archive
 title: Tjechische Hip-Hop, Balkan Beats redefined
 created: 1207563974
 tags:

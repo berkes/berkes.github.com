@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: post_archive
 title: Verantwoord Webwinkelen
 created: 1191786496
 tags:

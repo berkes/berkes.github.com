@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: post_archive
 title: Gemiste Freestylers
 created: 1091881266
 tags:

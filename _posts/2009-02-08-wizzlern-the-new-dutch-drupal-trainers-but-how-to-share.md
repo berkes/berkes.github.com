@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: post_archive
 title: Wizzlern, the new Dutch Drupal Trainers, but how to share?
 created: 1234104564
 tags:

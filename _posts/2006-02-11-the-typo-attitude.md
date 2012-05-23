@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: post_archive
 title: The typo attitude.
 created: 1139648247
 tags:

@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: post_archive
 title: To Martel or not to Martel, is niet eens een vraag.
 created: 1163754517
 tags:

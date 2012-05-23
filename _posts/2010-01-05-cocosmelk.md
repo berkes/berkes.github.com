@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: post_archive
 title: Cocosmelk
 created: 1262720934
 tags:

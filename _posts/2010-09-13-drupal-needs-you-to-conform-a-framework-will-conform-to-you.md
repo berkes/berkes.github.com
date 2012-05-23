@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: post_archive
 title: Drupal needs you to conform, a framework will conform to you.
 created: 1284386608
 tags:

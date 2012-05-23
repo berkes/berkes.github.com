@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: post_archive
 title: We are experiencing a strange, database bug on RemixReading
 created: 1094662176
 tags:

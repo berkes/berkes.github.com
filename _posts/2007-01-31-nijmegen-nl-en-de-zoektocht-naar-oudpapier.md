@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: post_archive
 title: Nijmegen.nl en de zoektocht naar oudpapier.
 created: 1170261478
 tags:

@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: post_archive
 title: Hoe je je kunstwerken vooral niet op het internet moet zetten
 created: 1185478147
 tags:

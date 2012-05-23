@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: post_archive
 title: Story of a Drupal-Beleiver installing Joomla! 1.5 Beta
 created: 1168945292
 tags:

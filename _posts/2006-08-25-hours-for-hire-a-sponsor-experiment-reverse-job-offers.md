@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: post_archive
 title: Hours for hire, a sponsor experiment, Reverse Job Offers,
 created: 1156510449
 tags:

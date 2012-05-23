@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: post_archive
 title: ! 'fight back spam: the new way'
 created: 1110905389
 tags:

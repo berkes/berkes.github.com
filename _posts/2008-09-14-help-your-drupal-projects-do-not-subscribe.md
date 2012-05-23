@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: post_archive
 title: ! 'Help your Drupal projects: do not ''subscribe'''
 created: 1221411180
 tags:

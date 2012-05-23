@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: post_archive
 title: Userposts.module
 created: 1094661916
 tags:

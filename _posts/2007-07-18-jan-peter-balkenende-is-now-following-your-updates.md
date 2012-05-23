@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: post_archive
 title: Jan-Peter Balkenende is now following your updates
 created: 1184751490
 tags:

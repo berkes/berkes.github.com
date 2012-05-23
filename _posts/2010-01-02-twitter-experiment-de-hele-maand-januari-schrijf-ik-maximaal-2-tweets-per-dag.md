@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: post_archive
 title: ! 'Twitter experiment: de hele maand Januari schrijf ik maximaal 2 tweets per
   dag'
 created: 1262438399

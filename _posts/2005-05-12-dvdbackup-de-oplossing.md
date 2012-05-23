@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: post_archive
 title: DVDbackup de oplossing?
 created: 1115930017
 tags:

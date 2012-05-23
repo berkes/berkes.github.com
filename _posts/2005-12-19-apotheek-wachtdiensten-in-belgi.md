@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: post_archive
 title: Apotheek wachtdiensten in België
 created: 1135006892
 tags:

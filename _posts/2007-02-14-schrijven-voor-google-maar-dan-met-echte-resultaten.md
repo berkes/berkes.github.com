@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: post_archive
 title: Schrijven voor Google, maar dan met echte resultaten.
 created: 1171453423
 tags:

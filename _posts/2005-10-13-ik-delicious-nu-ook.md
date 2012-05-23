@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: post_archive
 title: ik delicious nu ook
 created: 1129219226
 tags:

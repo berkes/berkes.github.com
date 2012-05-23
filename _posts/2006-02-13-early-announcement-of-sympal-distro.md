@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: post_archive
 title: Early announcement of sympal distro
 created: 1139818819
 tags:

@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: post_archive
 title: Mars, Snickers of Twix. Van 2,09 euro, voor 1,64 euro!
 created: 1232463445
 tags:

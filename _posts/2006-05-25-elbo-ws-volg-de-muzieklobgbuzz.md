@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: post_archive
 title: elbo ws - volg de muzieklobgbuzz
 created: 1148553992
 tags:

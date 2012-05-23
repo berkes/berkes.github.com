@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: post_archive
 title: firefox sillyness
 created: 1122192686
 tags:

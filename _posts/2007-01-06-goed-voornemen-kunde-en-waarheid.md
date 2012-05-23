@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: post_archive
 title: ! 'Goed Voornemen: kunde en waarheid'
 created: 1168094304
 tags:

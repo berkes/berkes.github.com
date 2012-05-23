@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: post_archive
 title: ! '"mag ik de foto''s van uw tienerdochters misschien zien?" - ja, fuck effe
   op.'
 created: 1242118513

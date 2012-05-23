@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: post_archive
 title: Industry kills music
 created: 1188064338
 tags:

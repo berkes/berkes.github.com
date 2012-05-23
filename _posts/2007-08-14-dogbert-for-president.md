@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: post_archive
 title: Dogbert for president
 created: 1187072652
 tags:

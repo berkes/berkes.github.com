@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: post_archive
 title: ! 'Videocast: how to use tagadelic URLs to create fancy tagclouds.'
 created: 1160061100
 tags:

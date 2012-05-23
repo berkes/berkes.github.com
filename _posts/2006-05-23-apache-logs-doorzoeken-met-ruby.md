@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: post_archive
 title: Apache logs doorzoeken met Ruby
 created: 1148408291
 tags:

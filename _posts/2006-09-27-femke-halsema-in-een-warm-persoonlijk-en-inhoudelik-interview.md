@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: post_archive
 title: Femke Halsema in een warm, persoonlijk en inhoudelik interview
 created: 1159381953
 tags:

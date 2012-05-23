@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: post_archive
 title: KDE search Service for Drupaldocs
 created: 1110367250
 tags:

@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: post_archive
 title: Botha overleden
 created: 1162329385
 tags:

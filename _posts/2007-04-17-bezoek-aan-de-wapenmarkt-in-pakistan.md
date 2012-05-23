@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: post_archive
 title: Bezoek aan de wapenmarkt in Pakistan.
 created: 1176816894
 tags:

@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: post_archive
 title: ! 'Kiva: ontwikkelingshulp anno 2007'
 created: 1191775598
 tags:

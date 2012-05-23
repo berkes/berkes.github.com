@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: post_archive
 title: ! 'probeer KDE 3.5: Klax'
 created: 1124781282
 tags:

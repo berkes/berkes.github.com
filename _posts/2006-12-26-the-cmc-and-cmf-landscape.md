@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: post_archive
 title: The CMC and CMF landscape
 created: 1167131788
 tags:

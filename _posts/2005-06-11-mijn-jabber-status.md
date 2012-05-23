@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: post_archive
 title: Mijn Jabber status
 created: 1118510923
 tags:

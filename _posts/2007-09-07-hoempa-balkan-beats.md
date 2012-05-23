@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: post_archive
 title: ! 'Hoempa: Balkan beats'
 created: 1189155546
 tags:

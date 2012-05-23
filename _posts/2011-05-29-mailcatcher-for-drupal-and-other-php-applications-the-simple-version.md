@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: post_archive
 title: Mailcatcher for Drupal and other PHP-applications - The simple version
 created: 1306674909
 tags:

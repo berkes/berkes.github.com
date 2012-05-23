@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: post_archive
 title: Nieuw Volkslied en SEO :)
 created: 1192099443
 tags:

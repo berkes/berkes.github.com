@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: post_archive
 title: Git mirror for Basetheme Genesis
 created: 1266679732
 tags:

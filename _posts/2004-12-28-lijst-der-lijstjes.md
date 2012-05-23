@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: post_archive
 title: lijst der lijstjes
 created: 1104256645
 tags:

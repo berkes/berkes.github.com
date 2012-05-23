@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: post_archive
 title: Stop-motion streetart animatie
 created: 1211060109
 tags:

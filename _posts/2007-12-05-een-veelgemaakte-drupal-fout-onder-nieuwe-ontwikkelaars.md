@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: post_archive
 title: Een veelgemaakte Drupal fout onder nieuwe ontwikkelaars
 created: 1196892333
 tags:

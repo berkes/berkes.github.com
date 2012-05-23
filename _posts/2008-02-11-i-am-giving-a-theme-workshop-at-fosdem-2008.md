@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: post_archive
 title: I am giving a theme workshop at FOSDEM 2008
 created: 1202722461
 tags:

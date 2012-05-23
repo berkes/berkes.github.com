@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: post_archive
 title: Hyves RSS feeds
 created: 1177772464
 tags:

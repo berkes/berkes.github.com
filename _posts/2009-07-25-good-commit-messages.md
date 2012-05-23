@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: post_archive
 title: Good commit messages
 created: 1248549819
 tags:

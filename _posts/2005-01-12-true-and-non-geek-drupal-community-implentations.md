@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: post_archive
 title: True and non-geek drupal community implentations
 created: 1105491005
 tags:

@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: post_archive
 title: Op Apple kun je geen kritiek hebben.
 created: 1289232388
 tags:

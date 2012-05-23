@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: post_archive
 title: Drupal CVS Quickref Sheet
 created: 1202721623
 tags:

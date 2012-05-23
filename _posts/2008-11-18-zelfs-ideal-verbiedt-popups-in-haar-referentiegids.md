@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: post_archive
 title: ! '"Zelfs iDEAL verbiedt popups in haar referentiegids"'
 created: 1226993973
 tags:

@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: post_archive
 title: check, check, check! ready to go sziget!
 created: 1123537355
 tags:

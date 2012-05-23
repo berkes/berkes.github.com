@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: post_archive
 title: De perfecte server installeren
 created: 1156925151
 tags:

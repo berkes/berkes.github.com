@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: post_archive
 title: Venlo vs. Beesel
 created: 1164237314
 tags:

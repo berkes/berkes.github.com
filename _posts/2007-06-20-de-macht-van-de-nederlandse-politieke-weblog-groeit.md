@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: post_archive
 title: De macht van de Nederlandse politieke weblog groeit
 created: 1182354370
 tags:

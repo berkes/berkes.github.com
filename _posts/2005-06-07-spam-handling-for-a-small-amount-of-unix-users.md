@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: post_archive
 title: Spam handling for a small amount of unix users
 created: 1118152972
 tags:

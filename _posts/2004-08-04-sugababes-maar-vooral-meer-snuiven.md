@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: post_archive
 title: Sugababes maar vooral meer snuiven.
 created: 1091621302
 tags:

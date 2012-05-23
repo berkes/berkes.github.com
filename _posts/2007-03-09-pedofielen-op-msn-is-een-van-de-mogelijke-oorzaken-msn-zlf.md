@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: post_archive
 title: Pedofielen op MSN, is een van de mogelijke oorzaken MSN zélf?
 created: 1173472949
 tags:

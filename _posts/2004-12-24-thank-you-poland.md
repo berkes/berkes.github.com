@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: post_archive
 title: Thank you Poland.
 created: 1103881850
 tags:

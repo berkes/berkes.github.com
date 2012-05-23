@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: post_archive
 title: ! 'What to choose: Flexinode versus CCK!'
 created: 1163515843
 tags:

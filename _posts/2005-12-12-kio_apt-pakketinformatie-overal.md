@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: post_archive
 title: kio_apt pakketinformatie overal
 created: 1134423658
 tags:

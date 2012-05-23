@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: post_archive
 title: the globalize.t for Drupal?
 created: 1145785452
 tags:

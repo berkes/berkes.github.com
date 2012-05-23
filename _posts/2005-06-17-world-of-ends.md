@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: post_archive
 title: world of ends
 created: 1119015771
 tags:

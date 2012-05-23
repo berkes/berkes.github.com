@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: post_archive
 title: Project directories in Apache
 created: 1082637440
 tags:

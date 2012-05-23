@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: post_archive
 title: I want Nuke
 created: 1191169008
 tags:

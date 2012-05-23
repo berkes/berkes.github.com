@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: post_archive
 title: Disallow anyone but you, to reach the update files
 created: 1167994421
 tags:

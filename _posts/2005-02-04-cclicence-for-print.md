@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: post_archive
 title: CClicence for print
 created: 1107505864
 tags:

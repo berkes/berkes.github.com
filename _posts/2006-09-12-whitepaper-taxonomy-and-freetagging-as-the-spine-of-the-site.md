@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: post_archive
 title: whitepaper Taxonomy and freetagging as the spine of the site
 created: 1158053410
 tags:

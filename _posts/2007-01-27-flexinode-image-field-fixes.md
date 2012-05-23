@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: post_archive
 title: Flexinode image field fixes
 created: 1169906024
 tags:

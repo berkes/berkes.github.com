@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: post_archive
 title: Kaltenecker Trio
 created: 1091794275
 tags:

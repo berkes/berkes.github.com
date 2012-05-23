@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: post_archive
 title: ! 'Nuke to Drupal Theme conversion: Prepare images'
 created: 1110216426
 tags:

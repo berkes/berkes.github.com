@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: post_archive
 title: ekudos module voor Drupal
 created: 1173793852
 tags:

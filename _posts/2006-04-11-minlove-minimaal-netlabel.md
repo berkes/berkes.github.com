@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: post_archive
 title: minlove, minimaal netlabel
 created: 1144788796
 tags:

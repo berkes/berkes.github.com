@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: post_archive
 title: Will Drupal become the next editorial tool (and cease being a community tool
   altogether?)
 created: 1265808462

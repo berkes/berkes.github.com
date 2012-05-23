@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: post_archive
 title: België over de verkiezingsuitslag
 created: 1164272147
 tags:

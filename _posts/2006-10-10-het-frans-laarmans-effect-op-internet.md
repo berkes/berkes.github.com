@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: post_archive
 title: Het Frans Laarmans effect op internet
 created: 1160509871
 tags:

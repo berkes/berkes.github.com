@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: post_archive
 title: Coldplay X&Y, de eerste reactie
 created: 1117407706
 tags:

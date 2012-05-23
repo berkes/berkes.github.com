@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: post_archive
 title: Bird Gerhl - Antony & the johnsons
 created: 1137514859
 tags:

@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: post_archive
 title: Dataverzameling, door Yahoo en Google, en waarom dat ook voor jou belangrijk
   is
 created: 1171286033

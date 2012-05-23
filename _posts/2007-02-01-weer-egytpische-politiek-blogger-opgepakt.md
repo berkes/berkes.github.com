@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: post_archive
 title: Weer Egytpische politiek blogger opgepakt.
 created: 1170340636
 tags:

@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: post_archive
 title: te koop. leuk appartement voor starters die net willen beginnen.
 created: 1217104819
 tags:

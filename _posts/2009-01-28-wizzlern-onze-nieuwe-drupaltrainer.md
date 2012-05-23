@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: post_archive
 title: Wizzlern. Onze nieuwe Drupaltrainer
 created: 1233123824
 tags:

@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: post_archive
 title: Rara wat klopt hier niet?
 created: 1251230281
 tags:

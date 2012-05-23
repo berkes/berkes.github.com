@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: post_archive
 category: nl
 tags : [test, proef]
 lang: nl

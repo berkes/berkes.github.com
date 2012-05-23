@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: post_archive
 title: Berlin Berlin op de Nederland 3
 created: 1181066427
 tags:

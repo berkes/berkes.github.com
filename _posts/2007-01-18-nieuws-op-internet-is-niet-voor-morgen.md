@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: post_archive
 title: Nieuws op internet is niet voor morgen
 created: 1169132282
 tags:

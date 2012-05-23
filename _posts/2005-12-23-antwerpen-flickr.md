@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: post_archive
 title: Antwerpen @ Flickr
 created: 1135378332
 tags:

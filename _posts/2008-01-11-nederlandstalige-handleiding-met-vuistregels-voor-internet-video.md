@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: post_archive
 title: Nederlandstalige handleiding met vuistregels voor internet video
 created: 1200045725
 tags:

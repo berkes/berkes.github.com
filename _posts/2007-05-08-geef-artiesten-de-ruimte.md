@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: post_archive
 title: Geef artiesten de ruimte!
 created: 1178620501
 tags:

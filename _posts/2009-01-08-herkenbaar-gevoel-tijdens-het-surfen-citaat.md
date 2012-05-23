@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: post_archive
 title: Herkenbaar gevoel tijdens het surfen (citaat)
 created: 1231418025
 tags:

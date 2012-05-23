@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: post_archive
 title: Flexinode fields no longer found recursively
 created: 1170751798
 tags:

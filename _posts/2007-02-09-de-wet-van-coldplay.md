@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: post_archive
 title: De wet van Coldplay
 created: 1171042181
 tags:

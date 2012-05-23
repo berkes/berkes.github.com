@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: post_archive
 title: Drupal is ook minder geschikt voor afwijkende, custom interactie en functionele
   ontwerpen
 created: 1299755590

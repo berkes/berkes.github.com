@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: post_archive
 title: Bedrijfsstrategie, vrijheid voorop.
 created: 1183241149
 tags:

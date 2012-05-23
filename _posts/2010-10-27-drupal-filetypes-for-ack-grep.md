@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: post_archive
 title: Drupal filetypes for Ack grep.
 created: 1288183361
 tags:

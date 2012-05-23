@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: post_archive
 title: Zinvol? geweld
 created: 1177625021
 tags:

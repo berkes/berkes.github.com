@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: post_archive
 title: Waarvan Akte, niet supervernieuwend, wel stukken beter dan "het andere".
 created: 1168949271
 tags:

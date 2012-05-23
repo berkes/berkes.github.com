@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: post_archive
 title: De NS laat ons keihard vallen
 created: 1165919409
 tags:

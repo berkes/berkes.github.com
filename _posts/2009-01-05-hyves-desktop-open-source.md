@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: post_archive
 title: Hyves Desktop Open Source
 created: 1231159399
 tags:

@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: post_archive
 title: ! '"Ruby-on-rails is minder goed dan PHP want het is moeilijk te hosten"'
 created: 1301563367
 tags:

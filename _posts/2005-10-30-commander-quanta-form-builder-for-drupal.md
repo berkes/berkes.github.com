@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: post_archive
 title: Commander (Quanta) form builder for Drupal
 created: 1130672093
 tags:

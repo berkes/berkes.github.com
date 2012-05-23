@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: post_archive
 title: Should genetic code go open source?
 created: 1087942485
 tags:

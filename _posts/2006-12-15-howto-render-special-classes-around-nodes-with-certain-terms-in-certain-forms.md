@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: post_archive
 title: ! 'HOWTO: render special classes around nodes with certain terms (in certain
   forms)'
 created: 1166195042

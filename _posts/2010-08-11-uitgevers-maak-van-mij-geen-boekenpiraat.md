@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: post_archive
 title: ! 'Uitgevers: maak van mij geen boekenpiraat'
 created: 1281507464
 tags:

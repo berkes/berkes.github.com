@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: post_archive
 title: Enkele goede reacties op mijn stelling "Drupal verkeerde keus voor overheidssites"
   uitgelicht
 created: 1300802440

@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: post_archive
 title: comment spam
 created: 1102970364
 tags:

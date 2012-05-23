@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: post_archive
 title: Dabr.nl naar Twa.sh
 created: 1261315066
 tags:

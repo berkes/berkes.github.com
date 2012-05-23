@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: post_archive
 title: grappige spam
 created: 1129909930
 tags:

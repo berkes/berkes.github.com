@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: post_archive
 title: Multitouch bar
 created: 1184911951
 tags:

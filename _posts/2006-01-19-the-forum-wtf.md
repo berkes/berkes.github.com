@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: post_archive
 title: the forum WTF
 created: 1137670155
 tags:

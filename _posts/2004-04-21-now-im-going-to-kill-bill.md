@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: post_archive
 title: Now im going to Kill Bill
 created: 1082571484
 tags:

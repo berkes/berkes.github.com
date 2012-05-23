@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: post_archive
 title: Mij pleidooi op De nieuwe reporter krijgt terecht wind van voren van Erwin
   Blom.
 created: 1169325384

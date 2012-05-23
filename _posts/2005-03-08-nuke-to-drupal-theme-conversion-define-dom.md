@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: post_archive
 title: ! 'Nuke to Drupal Theme conversion: define DOM'
 created: 1110290358
 tags:

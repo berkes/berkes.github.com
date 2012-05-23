@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: post_archive
 title: my phone is dead
 created: 1105115039
 tags:

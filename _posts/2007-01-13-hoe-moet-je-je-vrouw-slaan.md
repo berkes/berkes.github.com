@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: post_archive
 title: Hoe moet je je vrouw slaan
 created: 1168690772
 tags:

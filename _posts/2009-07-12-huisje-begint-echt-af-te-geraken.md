@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: post_archive
 title: Huisje begint echt af te geraken
 created: 1247432799
 tags:

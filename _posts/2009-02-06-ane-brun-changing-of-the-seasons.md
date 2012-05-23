@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: post_archive
 title: Ane Brun - Changing of the Seasons
 created: 1233930346
 tags:

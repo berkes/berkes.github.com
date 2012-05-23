@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: post_archive
 title: Remixreading content types
 created: 1095231607
 tags:

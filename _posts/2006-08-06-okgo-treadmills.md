@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: post_archive
 title: OKgo treadmills
 created: 1154862475
 tags:

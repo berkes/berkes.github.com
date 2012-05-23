@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: post_archive
 title: ! 'Overridability: A good parameter in chosing your platform'
 created: 1184100249
 tags:

@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: post_archive
 title: I call him free who is led solely by reason
 created: 1194983857
 tags:

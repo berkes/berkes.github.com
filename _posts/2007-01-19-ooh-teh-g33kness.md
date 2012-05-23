@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: post_archive
 title: Ooh teh G33kness :^)
 created: 1169198069
 tags:

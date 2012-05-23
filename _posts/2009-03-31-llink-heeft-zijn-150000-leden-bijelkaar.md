@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: post_archive
 title: Llink heeft zijn 150000 leden bijelkaar
 created: 1238513768
 tags:

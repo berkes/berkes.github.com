@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: post_archive
 title: Congrats to you
 created: 1166607040
 tags:

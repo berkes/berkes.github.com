@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: post_archive
 title: Drupal's statistics suck.(less?)
 created: 1172682771
 tags:

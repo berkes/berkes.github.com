@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: post_archive
 title: leestekenloze generatie?
 created: 1232212405
 tags:

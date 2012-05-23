@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: post_archive
 title: trackbacks weer aan
 created: 1116938787
 tags:

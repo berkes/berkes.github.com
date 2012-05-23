@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: post_archive
 title: Help Bert de Winter Door
 created: 1193824860
 tags:

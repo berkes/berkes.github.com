@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: post_archive
 title: Val ik daar Drupal aan of af?
 created: 1300715726
 tags:

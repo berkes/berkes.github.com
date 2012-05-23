@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: post_archive
 title: ! 'deepmix juweeltjes: DJ Милованов'
 created: 1134994832
 tags:

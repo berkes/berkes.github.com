@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: post_archive
 title: telegraafismes
 created: 1164983350
 tags:

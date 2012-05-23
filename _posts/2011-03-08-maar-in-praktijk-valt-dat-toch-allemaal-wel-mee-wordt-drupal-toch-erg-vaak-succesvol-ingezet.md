@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: post_archive
 title: Maar in praktijk valt dat toch allemaal wel mee, wordt Drupal toch erg vaak
   succesvol ingezet?
 created: 1299587164

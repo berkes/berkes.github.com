@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: post_archive
 title: ! 'Minder is meer: ontwerpen en opzetten van je site'
 created: 1172580116
 tags:

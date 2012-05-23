@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: post_archive
 title: Automatically Play  a CD with Zinf in Windows
 created: 1093179375
 tags:

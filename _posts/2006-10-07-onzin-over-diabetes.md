@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: post_archive
 title: onzin over Diabetes
 created: 1160236019
 tags:

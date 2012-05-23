@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: post_archive
 title: Goedkope draagbare computer voor ontwikkelingslanden
 created: 1107185595
 tags:

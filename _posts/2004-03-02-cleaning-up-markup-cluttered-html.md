@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: post_archive
 title: Cleaning up markup cluttered HTML
 created: 1078183440
 tags:

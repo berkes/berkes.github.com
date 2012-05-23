@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: post_archive
 title: quicktags release, highlighting the hooks!
 created: 1148505801
 tags:

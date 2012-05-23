@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: post_archive
 title: Afspraak met de dokter
 created: 1112722246
 tags:

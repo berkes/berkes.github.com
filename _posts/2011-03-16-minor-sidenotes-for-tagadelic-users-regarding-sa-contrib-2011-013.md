@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: post_archive
 title: Minor sidenotes for Tagadelic users, regarding SA-CONTRIB-2011-013
 created: 1300302500
 tags:

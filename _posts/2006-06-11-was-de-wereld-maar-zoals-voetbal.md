@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: post_archive
 title: Was de wereld maar zoals voetbal.
 created: 1150012083
 tags:

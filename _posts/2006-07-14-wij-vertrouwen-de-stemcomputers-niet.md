@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: post_archive
 title: Wij vertrouwen de stemcomputers niet
 created: 1152883853
 tags:

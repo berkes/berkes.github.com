@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: post_archive
 title: La jetée op Youtube
 created: 1200602231
 tags:

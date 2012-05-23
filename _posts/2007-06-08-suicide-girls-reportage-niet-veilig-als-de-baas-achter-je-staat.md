@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: post_archive
 title: Suicide Girls reportage (Niet Veilig Als de Baas Achter Je Staat)
 created: 1181337113
 tags:

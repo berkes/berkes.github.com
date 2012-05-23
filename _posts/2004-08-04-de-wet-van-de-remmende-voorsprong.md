@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: post_archive
 title: De wet van de remmende voorsprong
 created: 1091636273
 tags:

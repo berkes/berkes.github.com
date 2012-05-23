@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: post_archive
 title: Diabetes, Sync en FUD (en hoe het gevaarlijk is)
 created: 1187723389
 tags:

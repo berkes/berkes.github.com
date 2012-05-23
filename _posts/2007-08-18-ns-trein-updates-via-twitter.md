@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: post_archive
 title: NS Trein updates via Twitter
 created: 1187434999
 tags:

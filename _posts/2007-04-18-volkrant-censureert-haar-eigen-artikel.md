@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: post_archive
 title: Volkrant censureert haar eigen artikel.
 created: 1176922293
 tags:

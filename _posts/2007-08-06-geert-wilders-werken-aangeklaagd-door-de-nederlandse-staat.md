@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: post_archive
 title: ! '"Geert Wilders Werken" aangeklaagd door de Nederlandse Staat'
 created: 1186399443
 tags:

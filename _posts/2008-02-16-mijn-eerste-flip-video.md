@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: post_archive
 title: Mijn eerste Flip Video
 created: 1203176947
 tags:

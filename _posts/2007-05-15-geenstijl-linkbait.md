@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: post_archive
 title: Geenstijl linkbait.
 created: 1179265700
 tags:

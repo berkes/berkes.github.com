@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: post_archive
 title: Nymfaeum running CVS and flexinode
 created: 1087323380
 tags:

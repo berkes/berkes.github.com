@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: post_archive
 title: ! '2007: het gedecentraliseerde web3.0'
 created: 1166815286
 tags:

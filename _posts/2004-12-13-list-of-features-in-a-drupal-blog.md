@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: post_archive
 title: List of features in a drupal blog
 created: 1102967381
 tags:

@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: post_archive
 title: Make Me Sutainable
 created: 1183536324
 tags:

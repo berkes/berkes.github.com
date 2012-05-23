@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: post_archive
 title: ! 'Iteration 02: Layout of the page.'
 created: 1150890088
 tags:

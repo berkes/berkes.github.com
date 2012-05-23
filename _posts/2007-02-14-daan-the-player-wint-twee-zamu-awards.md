@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: post_archive
 title: Daan - The Player wint twee zamu awards
 created: 1171478506
 tags:

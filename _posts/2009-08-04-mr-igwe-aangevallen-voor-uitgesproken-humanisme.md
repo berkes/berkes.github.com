@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: post_archive
 title: Mr. Igwe aangevallen voor uitgesproken Humanisme
 created: 1249413313
 tags:

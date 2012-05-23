@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: post_archive
 title: Waar gaat de wereld heen?
 created: 1187432770
 tags:

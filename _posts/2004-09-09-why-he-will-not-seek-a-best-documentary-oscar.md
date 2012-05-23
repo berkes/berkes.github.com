@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: post_archive
 title: Why He Will Not Seek a Best Documentary Oscar
 created: 1094723025
 tags:

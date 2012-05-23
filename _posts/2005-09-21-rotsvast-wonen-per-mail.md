@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: post_archive
 title: Rotsvast wonen per mail
 created: 1127317392
 tags:

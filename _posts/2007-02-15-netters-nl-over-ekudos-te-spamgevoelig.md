@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: post_archive
 title: ! 'Netters.nl over ekudos: te spamgevoelig?'
 created: 1171577305
 tags:

@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: post_archive
 title: Drupal Databasedump for incremental backups.
 created: 1265370001
 tags:

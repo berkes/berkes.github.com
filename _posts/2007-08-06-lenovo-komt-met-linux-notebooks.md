@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: post_archive
 title: Lenovo komt met Linux notebooks
 created: 1186428190
 tags:

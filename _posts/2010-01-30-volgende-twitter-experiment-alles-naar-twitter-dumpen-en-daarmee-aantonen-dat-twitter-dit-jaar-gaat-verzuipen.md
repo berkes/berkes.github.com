@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: post_archive
 title: ! 'Volgende twitter-experiment: alles naar twitter dumpen. (en daarmee aantonen
   dat twitter dit jaar gaat verzuipen)'
 created: 1264847891

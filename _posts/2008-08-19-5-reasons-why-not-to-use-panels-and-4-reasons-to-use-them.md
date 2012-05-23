@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: post_archive
 title: 5 reasons why not to use panels (and 4 reasons to use them)
 created: 1219158959
 tags:

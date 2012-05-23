@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: post_archive
 title: HOWTO create a real menu trail in primary and secondary links
 created: 1160748265
 tags:

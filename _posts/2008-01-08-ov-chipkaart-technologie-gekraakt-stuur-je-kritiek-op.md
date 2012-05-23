@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: post_archive
 title: OV-chipkaart technologie gekraakt, stuur je kritiek op.
 created: 1199827139
 tags:

@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: post_archive
 title: Kerstmis bestaat niet, "oerhollands" ook niet.
 created: 1166562129
 tags:

@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: post_archive
 title: Snipplr Drupal's code snippet feed
 created: 1190925065
 tags:

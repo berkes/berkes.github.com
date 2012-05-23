@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: post_archive
 title: Mede Embedded bloggers vandaag
 created: 1173089643
 tags:

@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: post_archive
 title: Niemand kan garanderen dat u op de eerste pagina in Google komt
 created: 1174475829
 tags:

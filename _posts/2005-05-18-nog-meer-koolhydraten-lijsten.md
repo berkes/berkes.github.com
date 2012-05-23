@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: post_archive
 title: Nog meer koolhydraten lijsten
 created: 1116411561
 tags:

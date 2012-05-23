@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: post_archive
 title: HOWTO turn Drupal into an authenticate-only site with users from an LDAP directory.
 created: 1171745883
 tags:

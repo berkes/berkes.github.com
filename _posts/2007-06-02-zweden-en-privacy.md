@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: post_archive
 title: Zweden en privacy
 created: 1180803916
 tags:

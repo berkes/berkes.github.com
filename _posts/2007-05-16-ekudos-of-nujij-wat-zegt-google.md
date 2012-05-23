@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: post_archive
 title: ! 'Ekudos of Nujij: wat zegt google?'
 created: 1179349773
 tags:

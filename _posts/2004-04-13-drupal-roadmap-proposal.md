@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: post_archive
 title: Drupal Roadmap, Proposal
 created: 1081885112
 tags:

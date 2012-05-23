@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: post_archive
 title: ! 'Google MAps implementatie: waar investeert Triodosbank'
 created: 1233230838
 tags:

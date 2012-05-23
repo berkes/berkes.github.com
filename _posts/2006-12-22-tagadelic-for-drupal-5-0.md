@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: post_archive
 title: Tagadelic for Drupal 5.0
 created: 1166806538
 tags:

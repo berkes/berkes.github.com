@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: post_archive
 title: ROOD "DWARS MOET KIEZEN TUSSEN SOCIALISME OF LIBERALISME"
 created: 1175194391
 tags:

@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: post_archive
 title: Geweldige afgang voor de Telegraaf en haar napraters
 created: 1176718945
 tags:

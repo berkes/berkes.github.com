@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: post_archive
 title: ! 'electro base in the space: vocode.com'
 created: 1120588042
 tags:

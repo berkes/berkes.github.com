@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: post_archive
 title: Starski and tonic sets
 created: 1126291366
 tags:

@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: post_archive
 title: Ubuntu 10.04 - countdown
 created: 1271107491
 tags:

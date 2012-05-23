@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: post_archive
 title: Digg voor extragratis muziekjes
 created: 1173388190
 tags:

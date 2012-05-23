@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: post_archive
 title: Four troublesome notes with Drupal module-updates and upgrades.
 created: 1286960488
 tags:

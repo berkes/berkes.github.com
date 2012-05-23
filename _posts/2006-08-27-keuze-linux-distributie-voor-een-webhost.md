@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: post_archive
 title: Keuze linux distributie voor een webhost
 created: 1156707198
 tags:

@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: post_archive
 title: Meningen van zeven Nederlanders volgens De NEM, pardon, Maurice de Hond.
 created: 1246312889
 tags:

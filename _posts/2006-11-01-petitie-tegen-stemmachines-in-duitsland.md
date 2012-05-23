@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: post_archive
 title: Petitie tegen stemmachines in Duitsland
 created: 1162389268
 tags:

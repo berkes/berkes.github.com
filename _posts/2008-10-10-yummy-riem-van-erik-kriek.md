@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: post_archive
 title: Yummy riem van Erik Kriek
 created: 1223652548
 tags:

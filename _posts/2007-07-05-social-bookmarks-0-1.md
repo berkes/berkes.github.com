@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: post_archive
 title: Social Bookmarks 0.1
 created: 1183634752
 tags:

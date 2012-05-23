@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: post_archive
 title: URL shortners roundabout
 created: 1240003911
 tags:

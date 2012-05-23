@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: post_archive
 title: Zoot Woman -- We Won't Break
 created: 1198766095
 tags:

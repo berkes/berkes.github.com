@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: post_archive
 title: De Basis moet intuïtief zijn
 created: 1226348015
 tags:

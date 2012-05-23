@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: post_archive
 title: Groenlinks moet profileren, of onderdoen voor SP in de oppositie.
 created: 1166606513
 tags:

@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: post_archive
 title: Sky Captain and the World of Tomorrow
 created: 1106781800
 tags:

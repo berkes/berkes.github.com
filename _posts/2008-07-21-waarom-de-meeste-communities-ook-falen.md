@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: post_archive
 title: Waarom de meeste communities (ook) falen
 created: 1216627623
 tags:

@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: post_archive
 title: ! 'Foutje: natrena bevat wel koolhydraten!'
 created: 1114149984
 tags:

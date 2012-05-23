@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: post_archive
 title: ! 'Next generation tags: tags with more context.'
 created: 1137702620
 tags:

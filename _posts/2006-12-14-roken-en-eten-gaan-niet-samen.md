@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: post_archive
 title: Roken en eten gaan niet samen.
 created: 1166122052
 tags:

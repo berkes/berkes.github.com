@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: post_archive
 title: Nog ééń nachtje slapen en dan zit ik op Dour
 created: 1184187273
 tags:

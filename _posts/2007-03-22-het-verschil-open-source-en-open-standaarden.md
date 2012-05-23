@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: post_archive
 title: ! 'Het verschil: Open Source en Open Standaarden'
 created: 1174575261
 tags:

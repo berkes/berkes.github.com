@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: post_archive
 title: De Sint, is iedereens Vrind 2.0.
 created: 1193823305
 tags:

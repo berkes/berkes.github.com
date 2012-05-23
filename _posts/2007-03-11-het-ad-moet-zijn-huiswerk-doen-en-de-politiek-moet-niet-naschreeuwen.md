@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: post_archive
 title: Het AD moet zijn huiswerk doen (en de politiek moet niet naschreeuwen)
 created: 1173609522
 tags:

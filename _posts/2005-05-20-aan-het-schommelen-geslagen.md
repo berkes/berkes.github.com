@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: post_archive
 title: aan het schommelen geslagen
 created: 1116584518
 tags:

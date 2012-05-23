@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: post_archive
 title: Delhaize voeding & diabetes
 created: 1114023965
 tags:

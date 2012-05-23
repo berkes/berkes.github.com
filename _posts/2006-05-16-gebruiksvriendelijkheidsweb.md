@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: post_archive
 title: Gebruiksvriendelijkheidsweb
 created: 1147761171
 tags:

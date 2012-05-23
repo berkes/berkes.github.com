@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: post_archive
 title: Het Klein Antwerps Vakantieboek
 created: 1090788935
 tags:

@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: post_archive
 title: ! 'Ultimaker 3D printer. '
 created: 1333397274
 tags:

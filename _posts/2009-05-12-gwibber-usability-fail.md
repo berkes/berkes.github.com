@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: post_archive
 title: Gwibber usability FAIL
 created: 1242129067
 tags:

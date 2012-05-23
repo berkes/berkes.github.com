@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: post_archive
 title: Leipeshitouwe
 created: 1191441133
 tags:

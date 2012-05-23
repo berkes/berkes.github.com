@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: post_archive
 title: ! '"Rain or some other act of God"'
 created: 1225358421
 tags:

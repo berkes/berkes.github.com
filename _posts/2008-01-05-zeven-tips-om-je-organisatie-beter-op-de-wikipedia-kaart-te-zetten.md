@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: post_archive
 title: Zeven tips om je organisatie beter op de wikipedia kaart te zetten
 created: 1199539728
 tags:

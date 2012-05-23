@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: post_archive
 title: ! 'Belgen nemen PCM over: de redding?'
 created: 1236076389
 tags:

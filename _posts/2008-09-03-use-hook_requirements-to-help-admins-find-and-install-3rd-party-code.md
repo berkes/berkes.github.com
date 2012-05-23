@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: post_archive
 title: Use hook_requirements to help admins find and install 3rd party code
 created: 1220445872
 tags:

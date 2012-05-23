@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: post_archive
 title: Status update-je Thailand (geen foto's, alleen lettertjes)
 created: 1272709933
 tags:

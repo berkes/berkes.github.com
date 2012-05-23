@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: post_archive
 title: Quality control for contributions.
 created: 1153987351
 tags:

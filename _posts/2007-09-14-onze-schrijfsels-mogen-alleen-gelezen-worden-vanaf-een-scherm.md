@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: post_archive
 title: Onze schrijfsels mogen alleen gelezen worden vanaf een scherm
 created: 1189776848
 tags:

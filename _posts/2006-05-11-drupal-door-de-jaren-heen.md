@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: post_archive
 title: Drupal door de jaren heen
 created: 1147353030
 tags:

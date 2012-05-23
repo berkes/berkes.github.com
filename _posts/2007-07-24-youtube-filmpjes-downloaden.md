@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: post_archive
 title: Youtube filmpjes downloaden
 created: 1185313984
 tags:

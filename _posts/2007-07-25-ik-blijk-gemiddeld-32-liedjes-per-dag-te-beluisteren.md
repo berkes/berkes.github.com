@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: post_archive
 title: Ik blijk gemiddeld 32 liedjes per dag te beluisteren.
 created: 1185354414
 tags:

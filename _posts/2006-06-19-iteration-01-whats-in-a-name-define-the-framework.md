@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: post_archive
 title: ! 'Iteration 01: Whats in a name, define the framework'
 created: 1150745984
 tags:

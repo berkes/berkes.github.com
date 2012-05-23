@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: post_archive
 title: Reply on "Drupal is Shit" by Nathan Whitworth
 created: 1249397785
 tags:

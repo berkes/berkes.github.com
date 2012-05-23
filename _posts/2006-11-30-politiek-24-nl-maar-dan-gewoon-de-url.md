@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: post_archive
 title: Politiek 24 . nl maar dan gewoon de url
 created: 1164915755
 tags:

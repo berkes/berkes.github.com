@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: post_archive
 title: Toegankelijkheid gestest van 10+1 partij-websites.
 created: 1275492090
 tags:

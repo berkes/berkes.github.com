@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: post_archive
 title: Alcohol en Diabetes
 created: 1115154143
 tags:

@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: post_archive
 title: op mijn to-see lijstje
 created: 1108908130
 tags:

@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: post_archive
 title: ! 'Good CMS (Drupal) designers are rare: ten points on how to find your perfect
   designer'
 created: 1185478787

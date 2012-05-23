@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: post_archive
 title: eBay of je eigen winkel?
 created: 1190062133
 tags:

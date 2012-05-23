@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: post_archive
 title: Songographie -- Saucers race
 created: 1164817880
 tags:

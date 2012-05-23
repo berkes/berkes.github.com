@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: post_archive
 title: written while listening to
 created: 1150216821
 tags:

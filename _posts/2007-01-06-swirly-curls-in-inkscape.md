@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: post_archive
 title: Swirly curls in Inkscape
 created: 1168119157
 tags:

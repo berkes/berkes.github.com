@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: post_archive
 title: sympal, webschuur op groene stroom.
 created: 1160838129
 tags:

@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: post_archive
 title: Hosting, the foundation
 created: 1126614132
 tags:

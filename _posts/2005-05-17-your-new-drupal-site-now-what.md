@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: post_archive
 title: Your new drupal site, now what?
 created: 1116328026
 tags:

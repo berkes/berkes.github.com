@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: post_archive
 title: Youtube - het grootste muziekarchief allertijden
 created: 1254780624
 tags:

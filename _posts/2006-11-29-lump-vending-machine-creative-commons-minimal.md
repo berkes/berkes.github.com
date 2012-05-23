@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: post_archive
 title: Lump -- Vending Machine -- Creative Commons Minimal
 created: 1164803190
 tags:

@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: post_archive
 title: Vanop DrupalCOM
 created: 1129709873
 tags:

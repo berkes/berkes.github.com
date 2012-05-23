@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: post_archive
 title: Feedbakc on deliciously Drupal theme
 created: 1157134547
 tags:

@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: post_archive
 title: Het huis van crimson
 created: 1171390129
 tags:

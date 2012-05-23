@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: post_archive
 title: A better way to variable_get() and t() in Drupal.
 created: 1330605343
 tags:

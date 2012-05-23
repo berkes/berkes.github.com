@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: post_archive
 title: Voortgangs schermpjes centraliseren onder KDE
 created: 1148474407
 tags:

@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: post_archive
 title: Depeche Mode - Another victim of the loudness race
 created: 1146570793
 tags:

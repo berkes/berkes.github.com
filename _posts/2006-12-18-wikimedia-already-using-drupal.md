@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: post_archive
 title: Wikimedia already using Drupal
 created: 1166470982
 tags:

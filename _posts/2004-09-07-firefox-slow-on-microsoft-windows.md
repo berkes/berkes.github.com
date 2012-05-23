@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: post_archive
 title: Firefox slow on Microsoft Windows?
 created: 1094554787
 tags:

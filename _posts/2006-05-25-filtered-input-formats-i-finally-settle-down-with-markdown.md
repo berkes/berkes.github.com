@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: post_archive
 title: Filtered input formats, I finally settle down with markdown.
 created: 1148564391
 tags:

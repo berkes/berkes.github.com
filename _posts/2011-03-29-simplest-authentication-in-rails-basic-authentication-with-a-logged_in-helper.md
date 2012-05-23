@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: post_archive
 title: ! 'Simplest authentication in Rails: Basic Authentication with a logged_in?
   helper.'
 created: 1301404313

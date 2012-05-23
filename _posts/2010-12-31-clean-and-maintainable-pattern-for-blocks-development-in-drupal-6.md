@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: post_archive
 title: Clean and maintainable pattern for blocks development in Drupal 6
 created: 1293798762
 tags:

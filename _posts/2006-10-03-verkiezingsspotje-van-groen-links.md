@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: post_archive
 title: Verkiezingsspotje van Groen Links
 created: 1159889232
 tags:

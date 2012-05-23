@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: post_archive
 title: Bèr Kessels
 created: 1167145597
 tags:

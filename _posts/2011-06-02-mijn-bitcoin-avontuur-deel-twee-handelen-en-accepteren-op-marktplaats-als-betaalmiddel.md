@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: post_archive
 title: ! 'Mijn bitcoin avontuur, deel twee: handelen en accepteren (op marktplaats)
   als betaalmiddel.'
 created: 1307021277

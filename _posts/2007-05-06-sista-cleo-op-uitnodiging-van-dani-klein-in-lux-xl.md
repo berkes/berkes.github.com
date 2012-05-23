@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: post_archive
 title: Sista Cleo op uitnodiging van Dani Klein in Lux XL.
 created: 1178452534
 tags:

@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: post_archive
 title: Lucid - Electric Supplements vol.1
 created: 1138651545
 tags:

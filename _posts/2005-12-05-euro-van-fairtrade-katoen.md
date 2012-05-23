@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: post_archive
 title: Euro van fairtrade katoen
 created: 1133773641
 tags:

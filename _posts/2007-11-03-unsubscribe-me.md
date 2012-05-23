@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: post_archive
 title: Unsubscribe Me
 created: 1194104995
 tags:

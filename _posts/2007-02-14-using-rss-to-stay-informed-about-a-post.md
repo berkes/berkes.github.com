@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: post_archive
 title: Using RSS to stay informed about a post
 created: 1171484043
 tags:

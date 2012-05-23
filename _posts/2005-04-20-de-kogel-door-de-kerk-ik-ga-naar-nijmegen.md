@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: post_archive
 title: ! 'De kogel door de kerk: ik ga naar Nijmegen'
 created: 1114025478
 tags:

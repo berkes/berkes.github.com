@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: post_archive
 title: De lage koolhydraten-trend
 created: 1116144616
 tags:

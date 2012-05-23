@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: post_archive
 title: Normalising users and people
 created: 1161426576
 tags:

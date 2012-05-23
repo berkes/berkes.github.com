@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: post_archive
 title: Zet de Hyves open
 created: 1179087494
 tags:

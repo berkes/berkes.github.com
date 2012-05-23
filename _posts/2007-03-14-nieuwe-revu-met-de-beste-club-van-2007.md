@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: post_archive
 title: Nieuwe revu met de beste club van 2007
 created: 1173905555
 tags:

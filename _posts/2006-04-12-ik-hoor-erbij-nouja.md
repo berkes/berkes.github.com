@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: post_archive
 title: ik hoor erbij (nouja..)
 created: 1144872121
 tags:

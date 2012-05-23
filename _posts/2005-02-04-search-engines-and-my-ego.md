@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: post_archive
 title: search engines and my ego.
 created: 1107517991
 tags:

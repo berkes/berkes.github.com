@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: post_archive
 title: hmmmmm ambient, zzzzzz
 created: 1103198028
 tags:

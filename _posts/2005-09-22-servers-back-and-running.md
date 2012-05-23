@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: post_archive
 title: Servers back and running
 created: 1127380933
 tags:

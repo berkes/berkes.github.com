@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: post_archive
 title: Sage alternative stylesheet
 created: 1093966075
 tags:

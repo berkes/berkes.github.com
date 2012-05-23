@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: post_archive
 title: ! 'Brickslate: Moving phptemplate a step closer to perfection :)'
 created: 1139479454
 tags:

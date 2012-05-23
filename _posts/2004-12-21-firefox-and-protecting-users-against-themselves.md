@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: post_archive
 title: firefox, and protecting users against themselves.
 created: 1103643155
 tags:

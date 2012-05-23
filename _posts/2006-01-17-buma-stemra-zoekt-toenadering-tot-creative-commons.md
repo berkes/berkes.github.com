@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: post_archive
 title: BUMA/STEMRA zoekt toenadering tot Creative Commons
 created: 1137533681
 tags:

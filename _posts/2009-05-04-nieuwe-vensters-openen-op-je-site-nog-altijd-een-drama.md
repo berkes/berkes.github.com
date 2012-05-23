@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: post_archive
 title: ! 'Nieuwe vensters openen op je site: nog altijd een drama'
 created: 1241451185
 tags:

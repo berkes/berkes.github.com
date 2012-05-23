@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: post_archive
 title: ! '"Het politieke klimaat" volgens het web'
 created: 1158790975
 tags:

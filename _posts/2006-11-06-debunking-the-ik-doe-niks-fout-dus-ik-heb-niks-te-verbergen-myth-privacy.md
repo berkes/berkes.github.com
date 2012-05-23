@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: post_archive
 title: ! 'Debunking the "ik doe niks fout, dus ik heb niks te verbergen" myth: Privacy'
 created: 1162810469
 tags:

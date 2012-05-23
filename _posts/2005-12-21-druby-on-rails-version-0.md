@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: post_archive
 title: Druby on rails (version 0)
 created: 1135162716
 tags:

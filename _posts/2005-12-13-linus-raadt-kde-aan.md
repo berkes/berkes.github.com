@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: post_archive
 title: Linus raadt KDE aan.
 created: 1134482170
 tags:

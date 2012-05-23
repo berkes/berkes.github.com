@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: post_archive
 title: Wij treden uw privacy met voeten, en zijn er nog trots op ook!
 created: 1186492343
 tags:

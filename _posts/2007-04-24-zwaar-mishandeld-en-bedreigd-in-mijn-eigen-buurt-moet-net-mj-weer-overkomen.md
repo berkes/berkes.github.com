@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: post_archive
 title: Zwaar Mishandeld en bedreigd in mijn eigen buurt. Moet net míj weer overkomen...
 created: 1177401476
 tags:

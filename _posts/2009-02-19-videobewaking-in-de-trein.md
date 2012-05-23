@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: post_archive
 title: Videobewaking in de trein
 created: 1235047448
 tags:

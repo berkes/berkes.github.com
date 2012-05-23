@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: post_archive
 title: kus en klap
 created: 1122190481
 tags:

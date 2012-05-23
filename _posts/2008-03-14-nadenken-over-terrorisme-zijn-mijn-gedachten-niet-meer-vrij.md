@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: post_archive
 title: Nadenken over Terrorisme. Zijn mijn gedachten niet meer vrij?
 created: 1205501041
 tags:

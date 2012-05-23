@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: post_archive
 title: Ideal Payment API
 created: 1262634495
 tags:

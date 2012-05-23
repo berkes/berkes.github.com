@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: post_archive
 title: Met één toetsenbord en muis meerdere PC's bedienen
 created: 1262887978
 tags:

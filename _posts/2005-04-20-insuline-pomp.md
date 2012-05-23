@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: post_archive
 title: insuline pomp
 created: 1114023404
 tags:

@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: post_archive
 title: waarom de Nederlandse digg nooit iets gaat worden.
 created: 1179649904
 tags:

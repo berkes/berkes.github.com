@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: post_archive
 title: Sky Sail trekt schepen over de oceaan
 created: 1115373508
 tags:

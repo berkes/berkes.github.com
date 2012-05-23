@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: post_archive
 title: Why I chose to disclose a security issue and not report it to Drupal securty
   team.
 created: 1296748306

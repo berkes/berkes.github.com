@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: post_archive
 title: ! 'Verborgen Open Source: de kracht, of haar zwakte?'
 created: 1186052228
 tags:

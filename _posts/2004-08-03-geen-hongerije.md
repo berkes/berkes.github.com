@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: post_archive
 title: Geen Hongerije
 created: 1091539175
 tags:

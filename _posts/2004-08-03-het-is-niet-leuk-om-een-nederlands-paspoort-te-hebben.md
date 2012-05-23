@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: post_archive
 title: Het is niet leuk om een Nederlands paspoort te hebben.
 created: 1091539467
 tags:

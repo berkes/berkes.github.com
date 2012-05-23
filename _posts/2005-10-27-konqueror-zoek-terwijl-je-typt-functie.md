@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: post_archive
 title: Konqueror zoek terwijl je typt functie
 created: 1130398664
 tags:

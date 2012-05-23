@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: post_archive
 title: ! 'Piwik: open source web analytics: alternatief voor Google Analytics'
 created: 1253191016
 tags:

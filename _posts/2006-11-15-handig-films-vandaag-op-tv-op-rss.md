@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: post_archive
 title: ! 'handig: films vandaag op TV op RSS'
 created: 1163607071
 tags:

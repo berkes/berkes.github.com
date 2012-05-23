@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: post_archive
 title: Time Management or Creative People, gratis E-book.
 created: 1199647431
 tags:

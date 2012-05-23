@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: post_archive
 title: Levenslang zonnig en lekker eten
 created: 1114014238
 tags:

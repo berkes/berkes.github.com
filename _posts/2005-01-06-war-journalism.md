@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: post_archive
 title: war journalism
 created: 1105014795
 tags:

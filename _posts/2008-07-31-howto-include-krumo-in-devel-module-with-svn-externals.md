@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: post_archive
 title: HOWTO include krumo in devel module with svn externals
 created: 1217518993
 tags:

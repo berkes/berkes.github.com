@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: post_archive
 title: FeVote test for tagadelic
 created: 1190809919
 tags:

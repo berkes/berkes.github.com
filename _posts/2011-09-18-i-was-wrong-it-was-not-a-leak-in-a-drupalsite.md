@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: post_archive
 title: ! 'I was wrong: It was not a leak in a Drupalsite.'
 created: 1316376171
 tags:

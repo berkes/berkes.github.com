@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: post_archive
 title: ! 'Iteration 00: The kickoff'
 created: 1150745154
 tags:

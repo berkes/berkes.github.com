@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: post_archive
 title: Fancy Rays in inkscape
 created: 1168355338
 tags:

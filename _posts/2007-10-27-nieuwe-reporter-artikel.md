@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: post_archive
 title: Nieuwe reporter artikel
 created: 1193503887
 tags:

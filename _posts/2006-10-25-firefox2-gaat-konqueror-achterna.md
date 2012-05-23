@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: post_archive
 title: Firefox2 gaat Konqueror achterna :)
 created: 1161793150
 tags:

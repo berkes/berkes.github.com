@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: post_archive
 title: ! 'Arnoud Boer: "Oproep aan Tweede Kamer: Bescherm onze privacy!"'
 created: 1186733441
 tags:

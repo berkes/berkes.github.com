@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: post_archive
 title: Ik zou misschien wel eens suikerziekte kunnen hebben.
 created: 1112461769
 tags:

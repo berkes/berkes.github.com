@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: post_archive
 title: browsercam and flickr for reporting
 created: 1102524091
 tags:

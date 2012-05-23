@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: post_archive
 title: waarom ik woon waar ik woon.
 created: 1137015287
 tags:

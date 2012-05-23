@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: post_archive
 title: De grote krabbel non-conversatie
 created: 1187167760
 tags:

@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: post_archive
 title: Belastingdienst - Zou ook beter open kunnen gaan?
 created: 1171374197
 tags:

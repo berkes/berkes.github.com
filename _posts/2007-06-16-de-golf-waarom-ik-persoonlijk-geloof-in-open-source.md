@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: post_archive
 title: ! 'De Golf: Waarom ik, persoonlijk, geloof in Open Source.'
 created: 1182028733
 tags:

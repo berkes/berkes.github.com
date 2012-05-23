@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: post_archive
 title: Popups, externe links in nieuwe vensters en slijters
 created: 1175889444
 tags:

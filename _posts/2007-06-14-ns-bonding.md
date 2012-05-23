@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: post_archive
 title: NS-bonding
 created: 1181857071
 tags:

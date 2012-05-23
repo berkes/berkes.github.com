@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: post_archive
 title: wij stoppen ook met het ondersteunen van Internet Explorer 6
 created: 1265193364
 tags:

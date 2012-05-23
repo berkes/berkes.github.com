@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: post_archive
 title: ! 'Dutch Bloggies 2007: Bler is genomineerd'
 created: 1168807976
 tags:

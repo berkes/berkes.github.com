@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: post_archive
 title: ! '"Wie niet linkt, is inkt": Mabels edit'
 created: 1188490712
 tags:

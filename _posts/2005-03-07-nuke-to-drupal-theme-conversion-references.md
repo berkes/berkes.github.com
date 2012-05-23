@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: post_archive
 title: ! 'Nuke to Drupal Theme Conversion: References'
 created: 1110214939
 tags:

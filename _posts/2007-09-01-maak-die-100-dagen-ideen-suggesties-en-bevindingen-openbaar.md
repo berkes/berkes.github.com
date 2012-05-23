@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: post_archive
 title: Maak die 100-dagen ideeën, suggesties en bevindingen openbaar!
 created: 1188656576
 tags:

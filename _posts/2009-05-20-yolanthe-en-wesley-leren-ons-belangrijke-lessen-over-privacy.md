@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: post_archive
 title: Yolanthe en Wesley leren ons belangrijke lessen over privacy
 created: 1242853587
 tags:

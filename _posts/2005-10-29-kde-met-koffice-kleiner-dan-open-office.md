@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: post_archive
 title: KDE met koffice kleiner dan open office?
 created: 1130538929
 tags:

@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: post_archive
 title: Nieuwe CSS zengardens
 created: 1209979651
 tags:

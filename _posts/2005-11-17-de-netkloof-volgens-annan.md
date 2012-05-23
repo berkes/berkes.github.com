@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: post_archive
 title: De netkloof volgens Annan
 created: 1132216012
 tags:

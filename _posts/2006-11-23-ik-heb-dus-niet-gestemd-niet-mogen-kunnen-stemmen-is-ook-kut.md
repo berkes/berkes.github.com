@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: post_archive
 title: Ik heb dus niet gestemd. Niet mogen/kunnen stemmen is ook kut
 created: 1164238362
 tags:

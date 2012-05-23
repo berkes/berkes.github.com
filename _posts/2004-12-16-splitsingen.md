@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: post_archive
 title: splitsingen.
 created: 1103152610
 tags:

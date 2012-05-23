@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: post_archive
 title: Mooie hoogresolutie satellietfoto's
 created: 1147773025
 tags:

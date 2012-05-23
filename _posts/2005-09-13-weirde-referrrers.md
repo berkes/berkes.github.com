@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: post_archive
 title: weirde referrrers
 created: 1126605028
 tags:

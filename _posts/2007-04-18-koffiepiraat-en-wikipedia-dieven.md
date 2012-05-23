@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: post_archive
 title: Koffiepiraat, en wikipedia dieven
 created: 1176902297
 tags:

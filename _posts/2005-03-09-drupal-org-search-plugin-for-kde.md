@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: post_archive
 title: Drupal.org Search plugin for KDE
 created: 1110368710
 tags:

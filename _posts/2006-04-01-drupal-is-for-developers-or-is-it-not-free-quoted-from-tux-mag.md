@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: post_archive
 title: «Drupal is for developers, or is it not?» Free quoted from tux mag.
 created: 1143916257
 tags:

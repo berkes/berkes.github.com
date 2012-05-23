@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: post_archive
 title: Politiek Blogger Alaa opgepakt
 created: 1147420067
 tags:

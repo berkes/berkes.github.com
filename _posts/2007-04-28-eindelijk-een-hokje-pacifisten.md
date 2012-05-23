@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: post_archive
 title: eindelijk een hokje :) pacifisten
 created: 1177794242
 tags:

@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: post_archive
 title: Snel HTML entities opzoeken
 created: 1184004070
 tags:

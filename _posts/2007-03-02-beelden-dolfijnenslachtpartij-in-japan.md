@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: post_archive
 title: Beelden Dolfijnenslachtpartij in Japan
 created: 1172863305
 tags:

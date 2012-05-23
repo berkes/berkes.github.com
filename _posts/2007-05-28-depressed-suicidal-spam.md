@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: post_archive
 title: depressed suicidal spam
 created: 1180306609
 tags:

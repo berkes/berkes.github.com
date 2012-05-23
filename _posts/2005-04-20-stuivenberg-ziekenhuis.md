@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: post_archive
 title: Stuivenberg ziekenhuis.
 created: 1114021356
 tags:

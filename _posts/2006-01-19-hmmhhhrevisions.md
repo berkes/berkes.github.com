@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: post_archive
 title: hmmhhhRevisions
 created: 1137710569
 tags:

@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: post_archive
 title: Flickr^D^D^D yahoo naait zijn klanten een lekker oor aan.
 created: 1170246957
 tags:

@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: post_archive
 title: onder die baggy zit volgens mij gewoon een panty
 created: 1127332593
 tags:

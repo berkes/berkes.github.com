@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: post_archive
 title: ! 'Open Source Festival: ZXZW begint mooi experiment'
 created: 1234451793
 tags:

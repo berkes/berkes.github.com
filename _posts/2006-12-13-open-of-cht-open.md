@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: post_archive
 title: Open of écht Open
 created: 1166006702
 tags:

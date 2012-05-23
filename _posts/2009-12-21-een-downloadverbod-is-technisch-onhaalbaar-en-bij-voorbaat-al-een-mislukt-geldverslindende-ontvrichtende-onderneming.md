@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: post_archive
 title: Een downloadverbod is technisch onhaalbaar en bij voorbaat al een mislukt,
   geldverslindende, ontvrichtende onderneming
 created: 1261393815

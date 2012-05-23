@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: post_archive
 title: Spread Open Media
 created: 1189289252
 tags:

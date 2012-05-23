@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: post_archive
 title: SCO hacked?
 created: 1101725633
 tags:

@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: post_archive
 title: ! 'Multisite: where to put what: files and directory layout'
 created: 1130448576
 tags:

@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: post_archive
 title: Vier dans-hypes op een rij.
 created: 1199210587
 tags:

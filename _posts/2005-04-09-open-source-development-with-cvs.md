@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: post_archive
 title: Open Source Development with CVS
 created: 1113033374
 tags:

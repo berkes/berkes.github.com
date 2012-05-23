@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: post_archive
 title: Moet je Drupal7 gaan gebruiken voor een nieuwe Drupalsite?
 created: 1285593475
 tags:

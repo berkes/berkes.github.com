@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: post_archive
 title: The history of Drupal Theme Garden
 created: 1168521149
 tags:

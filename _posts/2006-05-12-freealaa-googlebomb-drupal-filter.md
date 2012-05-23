@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: post_archive
 title: Freealaa googlebomb Drupal filter.
 created: 1147422100
 tags:

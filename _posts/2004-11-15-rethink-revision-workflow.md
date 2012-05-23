@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: post_archive
 title: Rethink revision workflow
 created: 1100507000
 tags:

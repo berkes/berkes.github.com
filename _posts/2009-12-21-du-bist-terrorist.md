@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: post_archive
 title: Du bist Terrorist!
 created: 1261412798
 tags:

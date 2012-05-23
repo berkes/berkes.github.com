@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: post_archive
 title: Mandala Underground van Marionette Man
 created: 1194276613
 tags:

@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: post_archive
 title: VPRO begint vier themakanalen op YouToube
 created: 1177058676
 tags:

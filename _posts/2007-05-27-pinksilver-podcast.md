@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: post_archive
 title: Pinksilver Podcast
 created: 1180272104
 tags:

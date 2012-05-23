@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: post_archive
 title: A posteriori (wijsheid achteraf)
 created: 1174413950
 tags:

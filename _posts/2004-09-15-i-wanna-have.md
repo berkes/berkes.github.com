@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: post_archive
 title: I wanna have!
 created: 1095274086
 tags:

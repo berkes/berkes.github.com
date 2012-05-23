@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: post_archive
 title: IRC beats google, honderd keer zo snel
 created: 1185477275
 tags:

@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: post_archive
 title: Drupal iDEAL codesprint
 created: 1265119404
 tags:

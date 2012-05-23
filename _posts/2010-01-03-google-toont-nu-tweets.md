@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: post_archive
 title: Google toont nu tweets
 created: 1262556884
 tags:

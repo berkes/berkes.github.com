@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: post_archive
 title: Nieuwe doorbraak type 1 diabetes
 created: 1124724857
 tags:

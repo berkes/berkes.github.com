@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: post_archive
 title: The Incognito Traveller EP
 created: 1206021125
 tags:

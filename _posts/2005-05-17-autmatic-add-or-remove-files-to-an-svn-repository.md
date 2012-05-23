@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: post_archive
 title: Autmatic add or remove files to an SVN repository
 created: 1116348368
 tags:

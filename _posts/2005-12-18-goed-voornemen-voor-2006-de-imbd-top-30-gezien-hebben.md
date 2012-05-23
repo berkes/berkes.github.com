@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: post_archive
 title: ! 'Goed voornemen voor 2006: de IMBD top 30 gezien hebben'
 created: 1134937078
 tags:

@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: post_archive
 title: Inbox leeghouden
 created: 1188589375
 tags:

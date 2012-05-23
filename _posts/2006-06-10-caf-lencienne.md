@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: post_archive
 title: Café l'encienne
 created: 1149969915
 tags:

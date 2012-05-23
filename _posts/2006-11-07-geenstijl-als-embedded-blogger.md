@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: post_archive
 title: Geenstijl als embedded blogger
 created: 1162900290
 tags:

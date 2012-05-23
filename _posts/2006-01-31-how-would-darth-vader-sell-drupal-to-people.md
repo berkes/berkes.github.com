@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: post_archive
 title: How would Darth Vader sell Drupal to people?
 created: 1138696697
 tags:

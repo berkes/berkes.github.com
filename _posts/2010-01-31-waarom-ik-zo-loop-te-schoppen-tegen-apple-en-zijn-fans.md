@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: post_archive
 title: Waarom ik zo loop te schoppen tegen Apple (en zijn fans)
 created: 1264957003
 tags:

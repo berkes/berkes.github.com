@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: post_archive
 title: Artikel 19, Ik heb het recht om te praten, dus ik zal praten.
 created: 1176821348
 tags:

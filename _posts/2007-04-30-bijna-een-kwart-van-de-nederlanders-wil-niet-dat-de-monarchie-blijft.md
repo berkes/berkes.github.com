@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: post_archive
 title: Bijna een kwart van de Nederlanders wil niet dat de monarchie blijft.
 created: 1177934870
 tags:

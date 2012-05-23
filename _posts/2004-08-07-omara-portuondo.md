@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: post_archive
 title: Omara Portuondo
 created: 1091881440
 tags:

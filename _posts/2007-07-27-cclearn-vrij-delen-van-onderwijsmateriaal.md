@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: post_archive
 title: ! 'ccLearn: vrij delen van onderwijsmateriaal'
 created: 1185518415
 tags:

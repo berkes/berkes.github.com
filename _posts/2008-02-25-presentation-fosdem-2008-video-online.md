@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: post_archive
 title: Presentation FOSDEM 2008 video online
 created: 1203937230
 tags:

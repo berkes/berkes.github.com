@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: post_archive
 title: Grid Systems, Drupal and Semantics (why CSS frameworks are not that bad in
   Drupal)
 created: 1276854578

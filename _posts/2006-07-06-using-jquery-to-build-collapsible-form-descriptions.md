@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: post_archive
 title: Using jQuery to build 'collapsible form descriptions'.
 created: 1152217978
 tags:

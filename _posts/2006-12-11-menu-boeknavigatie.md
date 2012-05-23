@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: post_archive
 title: menu boeknavigatie
 created: 1165840326
 tags:

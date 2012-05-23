@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: post_archive
 title: De Ark van Noach en de Creatieleer
 created: 1203714566
 tags:

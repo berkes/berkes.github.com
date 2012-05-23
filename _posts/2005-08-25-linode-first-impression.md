@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: post_archive
 title: ! 'Linode: first impression'
 created: 1125002254
 tags:

@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: post_archive
 title: Kubuntu dapper, af tot in details!
 created: 1149264403
 tags:

@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: post_archive
 title: Centering an item vertical and horizontal
 created: 1078181040
 tags:

@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: post_archive
 title: Suds and Soda
 created: 1101943735
 tags:

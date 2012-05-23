@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: post_archive
 title: ! 'Het Timmerholt: vooral op tijd eten.'
 created: 1113242503
 tags:

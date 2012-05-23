@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: post_archive
 title: Shakespeare copyrighted??
 created: 1094812277
 tags:

@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: post_archive
 title: Help maintainers maintain. And helping contributors help the maintainers.
 created: 1178024359
 tags:

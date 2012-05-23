@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: post_archive
 title: Herken (en gebruik) de Drogreden.
 created: 1171829106
 tags:

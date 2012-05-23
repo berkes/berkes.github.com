@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: post_archive
 title: Getting Things Done
 created: 1185274358
 tags:

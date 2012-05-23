@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: post_archive
 title: Hoe veilig is openID nu eigenlijk?
 created: 1197051488
 tags:

@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: post_archive
 title: waarmaarraar.nl de minst originele krant van Nederland
 created: 1185829886
 tags:

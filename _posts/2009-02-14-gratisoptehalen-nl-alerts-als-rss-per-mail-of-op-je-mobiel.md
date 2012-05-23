@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: post_archive
 title: gratisoptehalen.nl alerts als RSS, per mail of op je mobiel
 created: 1234634918
 tags:

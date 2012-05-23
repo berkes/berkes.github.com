@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: post_archive
 title: NVJ ook vor de blogger. artikel op DNR
 created: 1175591484
 tags:

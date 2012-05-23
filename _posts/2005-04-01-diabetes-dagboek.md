@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: post_archive
 title: Diabetes dagboek
 created: 1112373609
 tags:

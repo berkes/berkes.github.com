@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: post_archive
 title: Mysql server down again
 created: 1094724420
 tags:

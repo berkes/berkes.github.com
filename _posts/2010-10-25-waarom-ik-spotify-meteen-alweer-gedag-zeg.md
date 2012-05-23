@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: post_archive
 title: Waarom ik spotify meteen alweer gedag zeg.
 created: 1288002901
 tags:

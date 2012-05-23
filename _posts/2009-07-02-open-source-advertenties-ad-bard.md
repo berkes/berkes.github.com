@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: post_archive
 title: Open Source Advertenties - Ad Bard
 created: 1246521764
 tags:

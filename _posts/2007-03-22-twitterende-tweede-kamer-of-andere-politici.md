@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: post_archive
 title: Twitterende Tweede Kamer (of andere politici)?
 created: 1174562295
 tags:

@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: post_archive
 title: The hard choice between HEAD and stable. Back to 4.6. (again)
 created: 1136463086
 tags:

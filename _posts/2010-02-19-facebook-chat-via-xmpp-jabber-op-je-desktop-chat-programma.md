@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: post_archive
 title: Facebook chat via XMPP (jabber) op je desktop-chat-programma.
 created: 1266570532
 tags:

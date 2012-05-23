@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: post_archive
 title: Localization server local pakage generator from SVN (hacked up script)
 created: 1234778161
 tags:

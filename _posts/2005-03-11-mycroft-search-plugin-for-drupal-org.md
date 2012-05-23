@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: post_archive
 title: Mycroft Search plugin for Drupal.org
 created: 1110528458
 tags:

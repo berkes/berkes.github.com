@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: post_archive
 title: Design principles for creating Good Classes let you write Good Drupal Modules.
 created: 1276166851
 tags:

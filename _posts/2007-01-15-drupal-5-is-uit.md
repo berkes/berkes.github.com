@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: post_archive
 title: Drupal 5 is uit.
 created: 1168866295
 tags:

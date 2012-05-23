@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: post_archive
 title: Stemcomputers open source maken, niet de ultieme oplossing
 created: 1172829404
 tags:

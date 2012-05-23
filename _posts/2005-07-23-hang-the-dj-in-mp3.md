@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: post_archive
 title: Hang the DJ in mp3
 created: 1122154131
 tags:

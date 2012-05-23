@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: post_archive
 title: Commotie over verkeersdode
 created: 1174907288
 tags:

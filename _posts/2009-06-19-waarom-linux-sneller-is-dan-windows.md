@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: post_archive
 title: Waarom Linux sneller is dan Windows.
 created: 1245390560
 tags:

@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: post_archive
 title: Lokale klokkenluiderssite Opennu is een farce
 created: 1292865186
 tags:

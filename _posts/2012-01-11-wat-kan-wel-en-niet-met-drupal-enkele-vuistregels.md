@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: post_archive
 title: ! 'Wat kan wel en niet met Drupal: enkele vuistregels'
 created: 1326295999
 tags:

@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: post_archive
 title: Persoonlijk eindejaarslijstje
 created: 1199032026
 tags:

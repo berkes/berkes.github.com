@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: post_archive
 title: The gimp splash screen contest
 created: 1102617214
 tags:

@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: post_archive
 title: Brainstorming
 created: 1087633808
 tags:

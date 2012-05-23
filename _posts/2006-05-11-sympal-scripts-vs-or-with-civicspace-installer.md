@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: post_archive
 title: Sympal scripts vs. or with Civicspace installer
 created: 1147334641
 tags:

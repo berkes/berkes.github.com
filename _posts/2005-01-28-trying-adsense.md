@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: post_archive
 title: trying adsense
 created: 1106869941
 tags:

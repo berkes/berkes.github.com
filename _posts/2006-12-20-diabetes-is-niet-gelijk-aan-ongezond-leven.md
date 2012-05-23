@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: post_archive
 title: Diabetes is niet gelijk aan ongezond leven!
 created: 1166643396
 tags:

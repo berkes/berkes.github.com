@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: post_archive
 title: De kunst van het goed mailen
 created: 1188893513
 tags:

@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: post_archive
 title: Liedje 30.000 op last FM
 created: 1179931379
 tags:

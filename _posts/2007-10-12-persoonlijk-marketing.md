@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: post_archive
 title: Persoonlijk marketing
 created: 1192142286
 tags:

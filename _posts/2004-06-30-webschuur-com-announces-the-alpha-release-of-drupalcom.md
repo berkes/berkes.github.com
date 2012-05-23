@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: post_archive
 title: webschuur.com announces the alpha release of drupalCOM
 created: 1088629917
 tags:

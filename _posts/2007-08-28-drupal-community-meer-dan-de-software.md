@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: post_archive
 title: ! 'Drupal Community: Meer dan de software'
 created: 1188284458
 tags:

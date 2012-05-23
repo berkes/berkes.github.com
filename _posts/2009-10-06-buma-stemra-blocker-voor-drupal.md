@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: post_archive
 title: Buma/Stemra Blocker voor Drupal
 created: 1254864022
 tags:

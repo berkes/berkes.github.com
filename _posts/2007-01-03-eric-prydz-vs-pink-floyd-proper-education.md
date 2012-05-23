@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: post_archive
 title: Eric Prydz vs Pink Floyd -- Proper Education
 created: 1167816389
 tags:

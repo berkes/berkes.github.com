@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: post_archive
 title: ! '''last'' van een leesoog. Over informatieoverflow.'
 created: 1181683195
 tags:

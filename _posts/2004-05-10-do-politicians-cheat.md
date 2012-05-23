@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: post_archive
 title: Do politicians cheat?
 created: 1084212964
 tags:

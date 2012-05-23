@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: post_archive
 title: I've been waiting for a guide to come and take me by the hand
 created: 1154734149
 tags:

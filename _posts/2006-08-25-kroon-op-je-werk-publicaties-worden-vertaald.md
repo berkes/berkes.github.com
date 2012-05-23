@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: post_archive
 title: ! 'Kroon op je werk: publicaties worden vertaald'
 created: 1156513676
 tags:

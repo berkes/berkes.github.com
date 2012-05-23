@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: post_archive
 title: Indymedia Belgium RSS
 created: 1094479354
 tags:

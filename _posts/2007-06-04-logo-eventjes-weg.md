@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: post_archive
 title: logo eventjes weg.
 created: 1180990121
 tags:

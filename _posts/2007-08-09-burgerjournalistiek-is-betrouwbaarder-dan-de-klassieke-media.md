@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: post_archive
 title: Burgerjournalistiek is betrouwbaarder dan de klassieke media
 created: 1186648152
 tags:

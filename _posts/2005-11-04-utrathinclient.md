@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: post_archive
 title: utrathinclient
 created: 1131099742
 tags:

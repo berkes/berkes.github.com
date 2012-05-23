@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: post_archive
 title: Bler, nu met 100% meer activity-stream
 created: 1262946543
 tags:

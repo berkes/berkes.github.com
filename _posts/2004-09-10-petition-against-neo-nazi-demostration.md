@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: post_archive
 title: Petition against neo nazi demostration
 created: 1094772229
 tags:

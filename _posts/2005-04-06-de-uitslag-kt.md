@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: post_archive
 title: De uitslag, k#t
 created: 1112809219
 tags:

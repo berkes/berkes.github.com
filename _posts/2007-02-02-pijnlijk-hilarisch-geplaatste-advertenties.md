@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: post_archive
 title: Pijnlijk, hilarisch geplaatste advertenties.
 created: 1170414110
 tags:

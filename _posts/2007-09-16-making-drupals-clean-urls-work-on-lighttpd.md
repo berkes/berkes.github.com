@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: post_archive
 title: Making Drupals clean URLS work on lighttpd
 created: 1189953560
 tags:

@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: post_archive
 title: ! 'Privacy tip: traceer je adresgegevens met extra voorletters.'
 created: 1184100754
 tags:

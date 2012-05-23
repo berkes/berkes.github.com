@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: post_archive
 title: Gnomoradio Log
 created: 1100214863
 tags:

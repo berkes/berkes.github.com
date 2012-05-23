@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: post_archive
 title: Nijmegen dan eindelijk op het nachtnet?
 created: 1242047088
 tags:

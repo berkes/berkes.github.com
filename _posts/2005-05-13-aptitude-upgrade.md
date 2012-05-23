@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: post_archive
 title: Aptitude upgrade
 created: 1115970894
 tags:

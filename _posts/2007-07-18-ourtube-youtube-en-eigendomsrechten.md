@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: post_archive
 title: OurTube, Youtube en eigendomsrechten
 created: 1184784454
 tags:

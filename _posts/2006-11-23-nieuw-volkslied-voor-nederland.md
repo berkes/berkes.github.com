@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: post_archive
 title: Nieuw volkslied voor Nederland
 created: 1164273129
 tags:

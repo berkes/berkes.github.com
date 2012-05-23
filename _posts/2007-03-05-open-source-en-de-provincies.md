@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: post_archive
 title: Open Source en de provincies
 created: 1173099504
 tags:

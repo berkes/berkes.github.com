@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: post_archive
 title: jabber at webschuur
 created: 1127473538
 tags:

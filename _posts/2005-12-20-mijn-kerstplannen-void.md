@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: post_archive
 title: ! 'Mijn kerstplannen: Void'
 created: 1135099028
 tags:

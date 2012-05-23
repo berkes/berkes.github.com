@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: post_archive
 title: Dischosting
 created: 1130611768
 tags:

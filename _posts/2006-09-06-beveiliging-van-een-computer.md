@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: post_archive
 title: Beveiliging van een computer
 created: 1157495058
 tags:

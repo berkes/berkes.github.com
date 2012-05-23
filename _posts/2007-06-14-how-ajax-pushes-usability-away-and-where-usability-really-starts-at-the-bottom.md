@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: post_archive
 title: ! 'How ajax pushes usability away. And where usability really starts: at the
   bottom.'
 created: 1181853385

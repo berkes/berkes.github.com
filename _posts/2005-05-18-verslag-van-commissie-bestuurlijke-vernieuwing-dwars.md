@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: post_archive
 title: verslag van Commissie Bestuurlijke Vernieuwing, DWARS
 created: 1116432224
 tags:

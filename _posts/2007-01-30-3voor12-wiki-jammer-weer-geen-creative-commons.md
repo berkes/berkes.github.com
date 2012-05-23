@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: post_archive
 title: 3voor12 wiki, jammer weer geen Creative Commons
 created: 1170191900
 tags:

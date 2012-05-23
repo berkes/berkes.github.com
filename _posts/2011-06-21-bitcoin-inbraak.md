@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: post_archive
 title: Bitcoin inbraak,
 created: 1308652427
 tags:

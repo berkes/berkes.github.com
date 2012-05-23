@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: post_archive
 title: Wat voor eikels zijn jullie
 created: 1146395384
 tags:

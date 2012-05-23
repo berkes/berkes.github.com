@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: post_archive
 title: Prorail onderhoud en risicomanagement
 created: 1261518910
 tags:

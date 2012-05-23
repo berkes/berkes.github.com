@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: post_archive
 title: ! 'Service Links: Nederlandse Versie'
 created: 1262095004
 tags:

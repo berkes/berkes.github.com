@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: post_archive
 title: We hollen de eeuw van Open Source hardware binnen
 created: 1187086679
 tags:

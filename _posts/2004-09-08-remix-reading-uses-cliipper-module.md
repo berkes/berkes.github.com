@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: post_archive
 title: Remix Reading uses cliipper.module
 created: 1094661818
 tags:

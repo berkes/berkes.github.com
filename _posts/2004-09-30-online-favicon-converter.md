@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: post_archive
 title: online favicon converter
 created: 1096553300
 tags:

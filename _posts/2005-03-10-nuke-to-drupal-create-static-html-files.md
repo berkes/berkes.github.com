@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: post_archive
 title: ! 'Nuke to Drupal: Create static HTML files.'
 created: 1110451412
 tags:

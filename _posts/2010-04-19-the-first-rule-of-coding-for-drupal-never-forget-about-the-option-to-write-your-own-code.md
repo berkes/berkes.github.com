@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: post_archive
 title: ! 'The first rule of coding for Drupal: never forget about the option to write
   your own code.'
 created: 1271665784

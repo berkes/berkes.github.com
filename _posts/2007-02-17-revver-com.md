@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: post_archive
 title: Revver.com
 created: 1171724389
 tags:

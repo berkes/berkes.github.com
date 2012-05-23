@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: post_archive
 title: Websites veiliger maken met Privoxy
 created: 1168543345
 tags:

@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: post_archive
 title: Waarom ik geen Fair Trade wijn koop (en drink)
 created: 1265966438
 tags:

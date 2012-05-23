@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: post_archive
 title: Gelukkige verjaardag, Drupal!
 created: 1137354229
 tags:

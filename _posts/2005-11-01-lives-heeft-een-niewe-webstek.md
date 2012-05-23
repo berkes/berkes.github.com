@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: post_archive
 title: Lives heeft een niewe webstek
 created: 1130880359
 tags:

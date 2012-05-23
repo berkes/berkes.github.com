@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: post_archive
 title: Foto's van Dour
 created: 1248618190
 tags:

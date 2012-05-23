@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: post_archive
 title: Embedded blogger bij Groenlinks
 created: 1173035889
 tags:

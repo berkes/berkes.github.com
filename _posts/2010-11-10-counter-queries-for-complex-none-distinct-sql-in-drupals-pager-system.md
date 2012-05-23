@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: post_archive
 title: Counter queries for complex, none-distinct SQL in Drupals Pager system.
 created: 1289420164
 tags:

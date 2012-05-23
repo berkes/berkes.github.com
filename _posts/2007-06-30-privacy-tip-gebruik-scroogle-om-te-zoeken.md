@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: post_archive
 title: ! 'Privacy tip: gebruik scroogle om te zoeken'
 created: 1183230978
 tags:

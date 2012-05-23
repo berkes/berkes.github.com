@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: post_archive
 title: Open Source Software en winst maken.
 created: 1162203875
 tags:

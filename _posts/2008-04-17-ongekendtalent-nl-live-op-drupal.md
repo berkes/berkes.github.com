@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: post_archive
 title: Ongekendtalent.nl live (op Drupal)
 created: 1208437248
 tags:

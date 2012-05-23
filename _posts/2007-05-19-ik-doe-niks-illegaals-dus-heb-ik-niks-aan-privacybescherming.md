@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: post_archive
 title: Ik doe niks illegaals, dus heb ik niks aan privacybescherming.
 created: 1179565347
 tags:

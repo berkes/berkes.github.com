@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: post_archive
 title: Geert en Barry
 created: 1245057116
 tags:

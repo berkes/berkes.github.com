@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: post_archive
 title: Bler statistiekjes
 created: 1167925152
 tags:

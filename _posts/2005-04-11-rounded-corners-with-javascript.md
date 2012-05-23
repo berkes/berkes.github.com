@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: post_archive
 title: Rounded corners with javascript
 created: 1113251957
 tags:

@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: post_archive
 title: Indymedia servers still gone
 created: 1097309038
 tags:
