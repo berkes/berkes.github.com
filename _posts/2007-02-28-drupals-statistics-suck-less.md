@@ -3,10 +3,10 @@ layout: post_archive
 title: Drupal's statistics suck.(less?)
 created: 1172682771
 tags:
-- Drupal
 - Server
 - Drupal Talk
 - Drupal Hosting
+- Drupal
 lang: en
 ---
 There, got your attention. Still, this is an often heard complaint, most of the times in nicer words though. Just look at the [large amount of requests (with patches) for the statistics module](http://drupal.org/project/issues?projects=3060&components=statistics.module&categories=task,feature&states=1,16,8,13,14,15). Nearly all of them cover things such as 'don't track this and that', or 'also track foo'. And apparently, it seems even [Dries](http://buytaert.net/) agrees. Or at least he seems to need [more statistics](http://www.w3counter.com) then only those provided by Drupal:

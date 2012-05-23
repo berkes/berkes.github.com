@@ -3,10 +3,10 @@ layout: post_archive
 title: Localization server local pakage generator from SVN (hacked up script)
 created: 1234778161
 tags:
-- Drupal
 - Project Management
 - Tips and tricks
 - Drupal Talk
+- Drupal
 lang: en
 ---
 Unless I missed a feature entirely, <a href="http://drupal.org/project/l10n_server">Drupal Localization Server</a> does not really allow packages from external sources to be parsed in its "local package connector". It only eats tarballs with the exact names as they are released from Drupal.org. For example _tagadelic-5.x-1.2.tar.gz_ and nothing else. Well, off course the 5.x-1.2 can vary. 

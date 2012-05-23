@@ -4,12 +4,12 @@ title: ! 'How ajax pushes usability away. And where usability really starts: at 
   bottom.'
 created: 1181853385
 tags:
-- Drupal
 - Programming
 - PHP
 - Tips and tricks
 - Design
 - Drupal Talk
+- Drupal
 - Usability
 - Ruby
 - AJAX

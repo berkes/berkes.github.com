@@ -3,11 +3,11 @@ layout: post_archive
 title: ! '2007: Web3.0 the Distributed Collaboration Web'
 created: 1166899655
 tags:
-- Drupal
 - Knowledge Management
 - Collaborative Writing
 - Weblogging
 - Drupal Talk
+- Drupal
 lang: en
 ---
 ![Eboy web2.0 poster](http://webschuur.com/sites/webschuur.com/files/eboy.png) 2006 was all about [two-dot-oh](http://hello.eboy.com/eboy/product-detail/?token=FOO&pic=0&). Whatever that may be precisely, everyone agrees about the fact its all about 'collaboration'.

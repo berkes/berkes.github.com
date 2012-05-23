@@ -3,9 +3,9 @@ layout: post_archive
 title: Lots of missing files in development of Drupal? Switch off Drupal's error handling
 created: 1262725609
 tags:
-- Drupal
 - Tips and tricks
 - Drupal Talk
+- Drupal
 - Drupal Blog
 lang: en
 ---

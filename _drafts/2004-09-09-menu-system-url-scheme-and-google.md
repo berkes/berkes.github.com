@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: post_archive
 title: Menu System, url scheme and Google
 created: 1094733842
 tags:

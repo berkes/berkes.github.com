@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: post_archive
 title: i18n for multilingual content
 created: 1095243179
 tags:

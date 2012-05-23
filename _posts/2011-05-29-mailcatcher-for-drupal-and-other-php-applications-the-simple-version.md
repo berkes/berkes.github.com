@@ -3,9 +3,9 @@ layout: post_archive
 title: Mailcatcher for Drupal and other PHP-applications - The simple version
 created: 1306674909
 tags:
-- Drupal
 - PHP
 - Drupal Talk
+- Drupal
 - Drupal Blog
 - Ruby
 - Ruby on Rails

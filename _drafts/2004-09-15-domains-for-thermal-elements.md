@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: post_archive
 title: domains for thermal-elements
 created: 1095232619
 tags:

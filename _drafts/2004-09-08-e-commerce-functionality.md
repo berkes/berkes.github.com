@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: post_archive
 title: E-commerce functionality
 created: 1094651857
 tags:

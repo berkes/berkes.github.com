@@ -3,10 +3,10 @@ layout: post_archive
 title: Drupal needs you to conform, a framework will conform to you.
 created: 1284386608
 tags:
-- Drupal
 - Project Management
 - Tips and tricks
 - Drupal Talk
+- Drupal
 lang: en
 ---
 An answer on <a href="http://stackoverflow.com/questions/3697789/why-use-symfony-not-drupal/3698456#3698456">stackoverflow</a> to the endless question "should I choose Drupal or Foo" gets the whole problem with many Drupalprojects in one sentence: 
