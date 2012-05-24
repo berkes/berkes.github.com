@@ -3,8 +3,6 @@ require 'sequel'
 require 'fileutils'
 require 'yaml'
 
-require 'debugger'
-
 require File.join(File.dirname(__FILE__), "downmark_it")
 
 # NOTE: This converter requires Sequel and the MySQL gems.
