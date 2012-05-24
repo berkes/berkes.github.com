@@ -74,6 +74,7 @@ article .content {
  ***************************************************************************/
 nav#main ul li {
   display: inline;
+  white-space: nowrap;
 }
 nav#main {
   background: transparent url("../images/header_pretty.png") repeat-x scroll top right;
