@@ -12,6 +12,9 @@ h1, h2, h3, h4, h5, h6 {
 article .body ul {
   list-style-type: circle;
 }
+article .body li {
+  margin-left: 1em;
+}
 article .body q, article .body blockquote {
   padding: 0 10px;
   quotes: "«" "»";
@@ -28,13 +31,11 @@ article .body strong {
 article .body em {
   font-style: italic;
 }
-article.body figure {
-  margin: 0;
+article figure {
+  margin: 0 0 1em 0;
 }
-article.body figure img {
-  border: 1px solid #cfcdcd;
-}
-article.body figure figcaption {
+article figure figcaption {
+  margin: 0 1em;
   color: #cfcdcd;
   text-align: right;
 }
