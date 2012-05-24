@@ -9,7 +9,9 @@ tags:
 - Debian
 lang: nl
 ---
-Met [alacarte]() zijn we aan het kijken naar een oplossing voor onze nieuwe servers. Een van de eerste en belangrijkste beslissingen is het kiezen van de distributie (het soort Linux) zeg maar.Ik ben gaan zoeken op 'tInterweb en heb wat boeiend leesvoer gevonden. We hebben vier vectoren aan de hand waarvan we de keuze kunnen maken: - Beschikbaarheid van de voor ons benodigde pakketten.
+Met [alacarte]() zijn we aan het kijken naar een oplossing voor onze nieuwe servers. Een van de eerste en belangrijkste beslissingen is het kiezen van de distributie (het soort Linux) zeg maar.
+
+Ik ben gaan zoeken op 'tInterweb en heb wat boeiend leesvoer gevonden. We hebben vier vectoren aan de hand waarvan we de keuze kunnen maken: - Beschikbaarheid van de voor ons benodigde pakketten.
 - Indeling en uitvoering van configuratie (consistentie, logica, gebruiksgemak).
 - Security, update-model of snelheid van het dichten van gaten.
 - Hoeveelheid en kwaliteit van support (al dan niet gewoon internet-pages).

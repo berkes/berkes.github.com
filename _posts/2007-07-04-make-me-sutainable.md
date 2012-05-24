@@ -11,7 +11,9 @@ tags:
 - Green
 lang: nl
 ---
-Via [Twitter](http://twitter.com/factoryjoe/statuses/133129682) kwam ik bij dit interessante concept: een duurzame community [make me sustainable](http://makemesustainable.com) Duurzaam als in "groen" en "milieu".Het idee is simpel:   1. Maak een profiel aan
+Via [Twitter](http://twitter.com/factoryjoe/statuses/133129682) kwam ik bij dit interessante concept: een duurzame community [make me sustainable](http://makemesustainable.com) Duurzaam als in "groen" en "milieu".
+
+Het idee is simpel:   1. Maak een profiel aan
   2. Kijk waar je staat in relatie tot de community-genoten
   3. Verbeter jezelf
   4. Vertel de wereld daarover

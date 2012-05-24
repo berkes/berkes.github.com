@@ -14,4 +14,6 @@ tags:
 - AJAX
 lang: en
 ---
-Nice tip for all the Drupal hackers out there: [snipplr code snippets for Drupal](http://snipplr.com/all/tags/drupal/). It also has an [RSS feed](http://snipplr.com/rss/tags/drupal). Obviously, as with any unknown source, one should never ever use these snippets (except when you know PHP well).Oh, and there is a nice [jQuery feed](http://snipplr.com/all/tags/jquery/) too. 
+Nice tip for all the Drupal hackers out there: [snipplr code snippets for Drupal](http://snipplr.com/all/tags/drupal/). It also has an [RSS feed](http://snipplr.com/rss/tags/drupal). Obviously, as with any unknown source, one should never ever use these snippets (except when you know PHP well).
+
+Oh, and there is a nice [jQuery feed](http://snipplr.com/all/tags/jquery/) too. 

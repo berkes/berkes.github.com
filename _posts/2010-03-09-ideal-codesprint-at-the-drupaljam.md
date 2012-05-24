@@ -15,4 +15,6 @@ I will be hosting a [Drupal iDEAL Codesprint ](http://drupaljam.nl/sessies/drupa
  - Document the generic API concept: mission statement and short introduction
  - Write (stubs of) howto's and help-texts
  - Distribute the code/development issues and todo's
-Time of the sprint will follow. Sprint will be in English, unless there are no none-dutch speakers at all attending.&nbsp;For my initial work, refer to [the ideal-payment-api on Github](http://github.com/berkes/Drupal-iDeal-payment-api) (note the crappy documenation :).For some of the TODOs with _this_ api, see the [issue list](http://github.com/berkes/Drupal-iDeal-payment-api/issues)Note: It is not yet sure if we will take this one as our starting-point, or merely as one of the references and code-pieces.  
+Time of the sprint will follow. Sprint will be in English, unless there are no none-dutch speakers at all attending.&nbsp;For my initial work, refer to [the ideal-payment-api on Github](http://github.com/berkes/Drupal-iDeal-payment-api) (note the crappy documenation :).
+
+For some of the TODOs with _this_ api, see the [issue list](http://github.com/berkes/Drupal-iDeal-payment-api/issues)Note: It is not yet sure if we will take this one as our starting-point, or merely as one of the references and code-pieces.  

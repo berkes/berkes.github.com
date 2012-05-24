@@ -6,7 +6,9 @@ tags:
 - Server
 lang: en
 ---
-This slightly modified webalizr.conf does DNS lookups. The modifcations were made using the <a href="ftp://ftp.mrunix.net/pub/webalizer/DNS.README">webalizer DNS readme</a>.
+This slightly modified webalizr.conf does DNS lookups. The modifcations were made using the <a href="ftp://ftp.mrunix.net/pub/webalizer/DNS.
+
+README">webalizer DNS readme</a>.
 
 <code>
 #!/bin/sh

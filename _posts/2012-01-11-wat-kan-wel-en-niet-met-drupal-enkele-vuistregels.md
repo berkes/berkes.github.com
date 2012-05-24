@@ -9,7 +9,13 @@ lang: nl
 
 Recent ontving ik weer twee mails met daarin de Gouden Vraag: "Wanneer moet ik Drupal nu gebruiken, en wanneer niet". Van de laatste kreeg ik toestemming om de vraag en mijn antwoorden uit te werken tot deze blogpost; anoniem uiteraard.
 > 
-...Ik werk zelf al enige jaren met X [Een bekend ander CMS, of "ons eigen systeem"; BK] en dat systeem ken ik nu redelijk goed.Door vragen van klanten/ontevredenheid met doorontwikkeling/zoektocht naar meer flexibiliteit ben ik eens naar Drupal gaan kijken.Ik denk er daarom aan om over te stappen maar daarvoor zou ik _graag willen weten wat niet kan met Drupal._
+...
+
+Ik werk zelf al enige jaren met X [Een bekend ander CMS, of "ons eigen systeem"; BK] en dat systeem ken ik nu redelijk goed.
+
+Door vragen van klanten/ontevredenheid met doorontwikkeling/zoektocht naar meer flexibiliteit ben ik eens naar Drupal gaan kijken.
+
+Ik denk er daarom aan om over te stappen maar daarvoor zou ik _graag willen weten wat niet kan met Drupal._
 
 Wie dat weet, en kan toepassen, heeft goud in handen en kan makkelijkprijzen van boven de $300/uur vragen. Ofwel: dat weet niemand.
 > 
@@ -24,15 +30,25 @@ Maar zelf hanteer ik enkele vuistregels, helaas niet erg concreet;
 
 Drupal is een CMS, geen [framework (pdf)](http://www.riehle.org/computer-science/research/dissertation/diss-a4.pdf). Helaas is "[framework](http://stackoverflow.com/questions/301240/whats-a-php-framework-and-whats-a-good-one)" een vage term, daarom enkele stellingen:
 
-Een framework doet geen aannames over het gedrag, de look en de feel van het te bouwen eindproduct.Een framework heeft een duidelijke doelgroep: de bouwers van applicaties, zoals websites (niet persé programmeurs).Een framework biedt een technische basis en infrastructuur.Een framework biedt een technische infrastructuur die het bouwen en/of programmeren efficiënter maakt.
+Een framework doet geen aannames over het gedrag, de look en de feel van het te bouwen eindproduct.
 
-Drupal voldoet hier niet écht aan; het is niet alleen opnionated over hoe je moet ontwikkelen, het is vooral opinionated over hoe het gebouwde resultaat zal werken en er zal uitzien.Vergeleken met een CMS als Joomla! voldoet Drupal hier wel meer aan. En is daarom meer een framework dan Joomla!Maar vergeleken met Codeignitor, Symfony, Rails of Django is het véél minder een framework. Drupal valt dan veel meer in decategorie bij Joomla! Typo3 en Wordpress, dan bij Symfony of Django.
+Een framework heeft een duidelijke doelgroep: de bouwers van applicaties, zoals websites (niet persé programmeurs).
+
+Een framework biedt een technische basis en infrastructuur.
+
+Een framework biedt een technische infrastructuur die het bouwen en/of programmeren efficiënter maakt.
+
+Drupal voldoet hier niet écht aan; het is niet alleen opnionated over hoe je moet ontwikkelen, het is vooral opinionated over hoe het gebouwde resultaat zal werken en er zal uitzien.
+
+Vergeleken met een CMS als Joomla! voldoet Drupal hier wel meer aan. En is daarom meer een framework dan Joomla!Maar vergeleken met Codeignitor, Symfony, Rails of Django is het véél minder een framework. Drupal valt dan veel meer in decategorie bij Joomla! Typo3 en Wordpress, dan bij Symfony of Django.
 
 Omdat een CMS al volledig functioneel is (na installatie kun je meteen aan de slag, is het een werkende site), heeft het vastgestelde "manieren".
 
 Immers, na installatie heb je een werkend CMS. Hoe dat CMS je content benaderd, de workflow heeft bepaald, menusystemen ingeregeld heeft en wat de look en de feel is, liggen vast in de basis van dit systeem.
 
-Drupal heeft dus een eigen wijze. En je moet dus je projectmanagement, wireframes, designs en workflows inrichten volgens hoe Drupal dat "wil". Niet andersom.Wil je een CMS, Drupal, _exact_ laten gedragen zoals in je functioneel ontwerpen of technisch ontwerpen is vastgelegd, dan moet je twee keer zoveel ontwikkelen en eindig je met een drie keer zo complex systeem. Core doet manier-A. Uitbreiding X wordt ontwikkeld om manier-A ongedaan te maken. Uitbreiding Y wordt ontwikkeld om manier-B te implementeren.
+Drupal heeft dus een eigen wijze. En je moet dus je projectmanagement, wireframes, designs en workflows inrichten volgens hoe Drupal dat "wil". Niet andersom.
+
+Wil je een CMS, Drupal, _exact_ laten gedragen zoals in je functioneel ontwerpen of technisch ontwerpen is vastgelegd, dan moet je twee keer zoveel ontwikkelen en eindig je met een drie keer zo complex systeem. Core doet manier-A. Uitbreiding X wordt ontwikkeld om manier-A ongedaan te maken. Uitbreiding Y wordt ontwikkeld om manier-B te implementeren.
 
 **Ben in je in de positie om de TO's, FO's, wireframes en designs te maken met kennis van Drupal's "eigen wijze", dan zul je vooral mét Drupal kunnen werken, in plaats van tégen Drupal te moet werken.**
 ## Database-geörienteerd, geen abstractie.
@@ -50,7 +66,9 @@ Ook zul je vooraf duidelijk moeten hebben dat zulke koppelingen daarom, in prakt
 
 Voor een middelmatig complexe site heb je al snel over de vijftigmodules nodig. Om bijvoorbeeld de functionaliteit waarmee Wordpressstandaard komt na te bouwen in een Drupalblogsite kun je rekenen opdertig modules of meer. Dat is een enorme payload die mede beheerd,geüpdate en geconfigureerd moet worden. Daargelaten dat een groterehoeveelheid modules bijna altijd een negatief effect op de performanceheeft. Hou hier rekening mee bij het ramen van de lopende kosten: eengrotere server, een tijdrovende upgrade, update en beheerprocedure eneen toenemende complexiteit bij het (door)ontwikkelen.
 
-Uiteraard is de correcte oplossing om simpelweg "niet een exacte Wordpress te willen nabouwen". Waar Drupal standaard mee komt, is al genoeg om te kunnen gaan bloggen.Ondanks dat dit een bekende vuistregel is, heeft het merendeel van de Drupalsites waar ik inzage in gehad heb veel meer dan die vijftig modules. Eerder rond de 100 modules, dan rond de 10.
+Uiteraard is de correcte oplossing om simpelweg "niet een exacte Wordpress te willen nabouwen". Waar Drupal standaard mee komt, is al genoeg om te kunnen gaan bloggen.
+
+Ondanks dat dit een bekende vuistregel is, heeft het merendeel van de Drupalsites waar ik inzage in gehad heb veel meer dan die vijftig modules. Eerder rond de 100 modules, dan rond de 10.
 
 Ook hier draait het weer om essentiële keuzes maken: je kunt heel goed bloggen met een Drupal zonder énige extra module. Pas als je allerlei eisen aan je workflow gaat stellen heb je modules nodig. Pas als je allerlei toeters en bellen erbij wilt, moet je enkele tientallen modules integreren, opmaken en doorontwikkelen.
 
@@ -66,8 +84,12 @@ Een typisch maatwerk-theme, waarbij het design al rekening houd metDrupal, kost 
 **Beperk je het themen enkel en alleen tot het aanpassen van de code in je theme? Dan ben je welliswaar beperkt in de mogelijkheden, maar is de klus zeer overzichtelijk en weinig werk. Maar betrek je het introduceren van allerlei functionaliteit erbij; of wil je in het theme ook bepalen hoe zaken zich gedragen, dan wordt het veruit de grootste klus van het bouwen van je website.**
 ## Met een houten kano de oceaan oversteken.
 
-Verder wil ik met nadruk wijzen op het feit dat dit vuistregels zijn, geen wetten van Meden en Perzen.Ik weet ook wel dat er altijd ergens een voorbeeld te vinden is van eensite die mijn ongelijk "bewijst".
+Verder wil ik met nadruk wijzen op het feit dat dit vuistregels zijn, geen wetten van Meden en Perzen.
 
-Maar als iemand in een houten kano de Atlantische oceaan overgestoken is,bewijst dat alleen maar dat je met een houten kano die oceaan over kunt steken. Het is geenszins eenbewijs tegen een algemene stelling zoals "een houten kano is geen geschikt vaartuig om de oceaan over te steken".Meer concreet: uiteraard zijn er mooie Drupalsites gebouwd die externe databases gebruiken voor hun content; maar daarmeeis nog niet gezegd dat _over het algemeen_  het integreren van externe bronnen, een zeer moeilijke klus is, in Drupal.
+Ik weet ook wel dat er altijd ergens een voorbeeld te vinden is van eensite die mijn ongelijk "bewijst".
+
+Maar als iemand in een houten kano de Atlantische oceaan overgestoken is,bewijst dat alleen maar dat je met een houten kano die oceaan over kunt steken. Het is geenszins eenbewijs tegen een algemene stelling zoals "een houten kano is geen geschikt vaartuig om de oceaan over te steken".
+
+Meer concreet: uiteraard zijn er mooie Drupalsites gebouwd die externe databases gebruiken voor hun content; maar daarmeeis nog niet gezegd dat _over het algemeen_  het integreren van externe bronnen, een zeer moeilijke klus is, in Drupal.
 
 Heb ik wat vuistregels over het hoofd gezien? Wat zijn jou vuistregels? Zijn er dingen die Drupal volgens jou absoluut niet kan? Of zijn er gebieden of cases waar Drupal juist het allerbeste inzetbaar blijkt?

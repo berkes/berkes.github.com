@@ -17,9 +17,15 @@ De meerderheid, was, tegen verwachting, positief. Tegen verwachting, omdat olifa
 
 De enige inhoudelijke reactie waar ik niet meteen een antwoord op heb, is van [MexMast op Maandag 21 Maart 2011 17:07](http://webwereld.nl/article/comments/id/106086) (helaas kan ik niet direct linken naar webwereld reacties, dus even zelf zoeken.)
 <!--break-->> 
-mja lijkt mij een gevaarlijke veralgemening [zie hieronder, BK], als wanhoopsargument. dat het om veel geld gaat veranderd weinig aan het geheel. Tuurlijk kom je er niet door je neef 50 euro te geven voor een zondagje werk.Je zegt letterlijk dat alle overheids websites die drupal gebruiken de verkeerde keuze hebben gemaakt. En dat is vrees ik, uw persoonlijke voorkeur ten spijt, manifest onjuist.De voorbeelden van overheids websites die op drupal draaien zijn veelvuldig aanwezig, tenzij je een paar voorbeelden kan aanhalen van drupal websites en vergelijkbare websites waar de drupal variant veel duurder uitdraaide qua total cost of ownership of functionaliteit. Ik betwijfel het ten zeerste.
+mja lijkt mij een gevaarlijke veralgemening [zie hieronder, BK], als wanhoopsargument. dat het om veel geld gaat veranderd weinig aan het geheel. Tuurlijk kom je er niet door je neef 50 euro te geven voor een zondagje werk.
 
-Dat ik _letterlijk_ zeg dat alle overheids websites die Drupal gebruiken een verkeerde keus maakten is niet waar. Ik insinueer dat wél, maar  blijf telkens terugkomen op "grote Drupalprojecten". Mijn oorspronkelijke titel was ook **Er zijn betere alternatieven voor Drupal**. De Webwereld redactie heeft dat wat aangescherpt; omdat ik dat toch in het artikel zélf goed onderbouw en nuanceer.Ik zeg zeker niet dat overheden verre van Drupal moeten blijven. Ik herhaal: voor veel grote Drupalprojecten kan beter een andere omgeving worden gekozen. Wat ik verder onderbouw.
+Je zegt letterlijk dat alle overheids websites die drupal gebruiken de verkeerde keuze hebben gemaakt. En dat is vrees ik, uw persoonlijke voorkeur ten spijt, manifest onjuist.
+
+De voorbeelden van overheids websites die op drupal draaien zijn veelvuldig aanwezig, tenzij je een paar voorbeelden kan aanhalen van drupal websites en vergelijkbare websites waar de drupal variant veel duurder uitdraaide qua total cost of ownership of functionaliteit. Ik betwijfel het ten zeerste.
+
+Dat ik _letterlijk_ zeg dat alle overheids websites die Drupal gebruiken een verkeerde keus maakten is niet waar. Ik insinueer dat wél, maar  blijf telkens terugkomen op "grote Drupalprojecten". Mijn oorspronkelijke titel was ook **Er zijn betere alternatieven voor Drupal**. De Webwereld redactie heeft dat wat aangescherpt; omdat ik dat toch in het artikel zélf goed onderbouw en nuanceer.
+
+Ik zeg zeker niet dat overheden verre van Drupal moeten blijven. Ik herhaal: voor veel grote Drupalprojecten kan beter een andere omgeving worden gekozen. Wat ik verder onderbouw.
 
 Dat er daarmee dus ook veel overheids-website successvol op Drupal draaien is eenvoudig bewezen en herhaaldelijk aangekaart in reacties. Deze reacties hebben het artikel selectief gelezen, of eenvoudigweg niet gelezen. Want dan hadden ze zeker begrepen dat ik nergens beweer dat _ieder_ overheidsproject _bij Drupal vandaan moet blijven_. Maar dat ik stel dat _grote, bouw-intensieve projecten beter af zijn met andere omgevingen dan Drupal_. Deze nuance kan ik schijnbaar niet vaak genoeg herhalen.
 

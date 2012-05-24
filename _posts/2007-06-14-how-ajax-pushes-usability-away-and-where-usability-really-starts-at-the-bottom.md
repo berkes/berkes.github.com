@@ -30,7 +30,9 @@ The three mistakes made most often are:
 
 The first one is rather obvious. Those that don't understand this, should recall the [Days Of Horror](http://www.jalix.org/ressources/internet/dhtml/_dynduo/dynduo/). And they should be banned to Geo cities or any other long-dead web-page community, to play with snowflakes and overly C3wl [mouse-cursor-banners](http://www.javascriptkit.com/script/script2/sparkler.shtml).
 
-The second one is a huge problem, again. [revver](http://one.revver.com), for example, has built some weird upload thingy-majik in flash and javascript, instead of using the proven and working [input file](http://www.456bereastreet.com/lab/form_controls/file/) field. Obviously this weird homebrewn file selector breaks in many browsers: it took me (Admitted, on Linux, KDE, ubuntu) four browsers to find one that could actually upload a file there. I left revver for blip.TV, obviously.
+The second one is a huge problem, again. [revver](http://one.revver.com), for example, has built some weird upload thingy-majik in flash and javascript, instead of using the proven and working [input file](http://www.456bereastreet.com/lab/form_controls/file/) field. Obviously this weird homebrewn file selector breaks in many browsers: it took me (Admitted, on Linux, KDE, ubuntu) four browsers to find one that could actually upload a file there. I left revver for blip.
+
+TV, obviously.
 Another fine example is how the arrogance of designers (Sure I know better how some field should look, then interface developers from large multinationals found after over 10 years of research).
 
 The third one, however, is the worst, because it happens all over the place. It makes us, developers, lazy. We finally found a closet to hide all our crappy interfaces, so that when mammy comes looking, the room looks clean.

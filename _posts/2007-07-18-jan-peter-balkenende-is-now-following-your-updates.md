@@ -8,4 +8,6 @@ tags:
 - Twitter
 lang: nl
 ---
-Zonet kreeg ik dit hilarische berichtje: > Jan-Peter Balkenende (Balkenende) is now following your updates on Twitter.Het lijkt erop dat mijn [voorspelling](http://bler.webschuur.com/twitterende_tweede_kamer_of_andere_politici), (erg laat) dan toch uitkomt? :)
+Zonet kreeg ik dit hilarische berichtje: > Jan-Peter Balkenende (Balkenende) is now following your updates on Twitter.
+
+Het lijkt erop dat mijn [voorspelling](http://bler.webschuur.com/twitterende_tweede_kamer_of_andere_politici), (erg laat) dan toch uitkomt? :)
