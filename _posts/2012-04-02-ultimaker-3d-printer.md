@@ -11,7 +11,9 @@ Yes! Hij is binnen, hij werkt en ik ben dolgelukkig: Mijn [Ultimaker](https://sh
 
 [![Ultimaker printing black lines of plastic as bottom](http://berkes.openphoto.me/photo/12/create/68f27/600x950.jpg "Ultimaker in actie")
 
-Meer Foto's »](http://berkes.openphoto.me/photos/tags-ultimaker/list?size=440x292xCR) Voor diegenen die het concept helemaal niet kennen: dit zijn zelfbouw-apparaten waarmee je (vooral) plastic dingen kun printen. Daadwerkelijke, fysieke dingen. Ik ervan overtuigd dat we aan het begin van een tweede revolutie staan; en ik wil daar uiteraard dolgraag bijzijn.
+[Meer Foto's »](http://berkes.openphoto.me/photos/tags-ultimaker/list?size=440x292xCR)
+
+Voor diegenen die het concept helemaal niet kennen: dit zijn zelfbouw-apparaten waarmee je (vooral) plastic dingen kun printen. Daadwerkelijke, fysieke dingen. Ik ervan overtuigd dat we aan het begin van een tweede revolutie staan; en ik wil daar uiteraard dolgraag bijzijn.
 
 Vandaar dus deze aankoop. Na lang zoeken bleek vooral vanwege importheffingen, en mijn zeer geringe ervaring met de materie. de bovengenoemde Ultimaker de beste koop. Bekender is de Amerikaanse [Makerbot](http://store.makerbot.com/), maar die is alles bij elkaar duurder om naar Nederland te krijgen dat onze eigen Ultimaker. De goedkoopste, mooiste, maar ook meest gedurfde viriant printer is de [Mendel](http://reprap.org/wiki/Mendel), uit de series van echte zelfbouwprinters. Gedurfd, want je koopt vooral losse onderdelen (pijpen, schroeven, draadjes, motoren enzovoort) en print dan de printer zélf uit!
 
