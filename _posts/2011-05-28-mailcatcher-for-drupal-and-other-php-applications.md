@@ -11,7 +11,8 @@ tags:
 - Ruby on Rails
 lang: en
 ---
-**UPDATE** Please see the [version of this article](http://webschuur.com/publications/blogs/2011-05-29-catchmail_for_drupal_and_other_phpapplications_the_simple_version), the latest malcatcher has its own sendmail replacement, making installation for PHP a lot simpler.
+
+**UPDATE** Please see the [newer version of this article](/2011/05/29/mailcatcher-for-drupal-and-other-php-applications-the-simple-version/), the latest malcatcher has its own sendmail replacement, making installation for PHP a lot simpler.
 
 **Problem:** on development (and test) you don't want to send out mail. But you /do/ want to test it. You certainly don't want to be in my shoes when a client called me, telling she recieved dozens of confused and angry mails from users on her site, after I fired up cron on my local development machine. And sent out approximately 3000 notification mails to users, with stuff like "new post for you: "W000t, fieldz0rz developmentz in CCK is workinggggg!". Not cool.
 
@@ -19,9 +20,7 @@ lang: en
 
 **Solution:** the brilliant Ruby application named [mailcatcher](https://github.com/sj26/mailcatcher). This is a simple SMTP server, which shows the mails sent to it, in a handy webapplication. The webapplication features debug-tools such as headers, and source displaying.
 
-![Screenshot of a Drupal password recorvery mail in Mailcatcher](http://webschuur.com/files/mailcatcher.png)
-
-<!--break-->
+![Screenshot of a Drupal password recorvery mail in Mailcatcher](/images/inline/mailcatcher.png)
 
 Additional problem: PHP on none-windows machines, cannot deliver mail to an arbitrary SMTP server. It requires a sendmail program being invoked somewhere. Drupal does not allow sending mail to any smtp server without additional configuration. Solution for that is the ultralight sendmail alternative [msmtp](http://msmtp.sourceforge.net). If we configure msmtp to act as sendmail and deliver mail to mailcatcher, we are fine: *Drupal » PHP mail() » /bin/msmtp --foo --bar » Mailcatcher*
 
