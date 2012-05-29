@@ -18,12 +18,11 @@ Why I prefer Github over Drupal, a crosspost from [an issue on Drupal.org](https
 In the end, It should be for the best for all of us.
 
 Obviously, Github lacks a few things, most of which are easily solvable due to the distributed nature of Git. Depending on how much Drupal projects I will continue to maintain (I am evaluating that right now), I might release some of my tools which help me here.
+
 * Drupal automatically builds releases. You now need to push to two remotes if you wish nightly builds (the -dev version).
 * Update and security infrastructure is built around hosting and maintaining on Drupal.org entirely. You host elsewhere? You won't be able to push out new security releases to your users.
 * Drupal has a really strange (and anoyingly [incompatible with de-facto standards](http://nvie.com/posts/a-successful-git-branching-model/)) workflow and branching model. Aliasing and simply ignoring most Drupal standards helps a lot.
-* **BUT IF IT IS NOT ON DRUPLA.
-
-OGR IT IS NOT OFFICIAL!!11onone.** Sadly a module has to be released on Drupal.org to be taken in consideration in most projects. Personally, I find that smallminded. Since there are [great projects not on Drupal.org](https://twitter.com/#!/github_drupal). But facing the facts: a module has to be on drupal.org, so if you host elsewhere, you still need to host on Drupal.org too. Meaning two environments, twice the fiddling and thrice the amount of Description/readme/changelog copypastig. By hosting on Drupal.org alone, you avoid most of this.
+* **BUT IF IT IS NOT ON DRUPLA.OGR IT IS NOT OFFICIAL!!11onone.** Sadly a module has to be released on Drupal.org to be taken in consideration in most projects. Personally, I find that smallminded. Since there are [great projects not on Drupal.org](https://twitter.com/#!/github_drupal). But facing the facts: a module has to be on drupal.org, so if you host elsewhere, you still need to host on Drupal.org too. Meaning two environments, twice the fiddling and thrice the amount of Description/readme/changelog copypastig. By hosting on Drupal.org alone, you avoid most of this.
 
 [1]: The most hilarious and sad example is the fact that when I decided to move my tickets over from Drupal.org to Github, I closed the ticket-feature on Tagadelic; you should no longer be able to post tickets there.. But due to some bug, this feature does not work: So now I have to keep replying on tickets on drupal.org, telling people the tickets are closed there. Sigh.
 
