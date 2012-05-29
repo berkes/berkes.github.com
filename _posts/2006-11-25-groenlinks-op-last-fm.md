@@ -1,8 +1,6 @@
 ---
 layout: post_archive
-title: GroenLinks op Last.
-
-FM
+title: GroenLinks op Last.FM
 created: 1164465423
 tags:
 - ''
