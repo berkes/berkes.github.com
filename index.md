@@ -36,7 +36,7 @@ marketing of cutting edge websites, with Open Source technology.
     {% endif %}
   {% endfor %}
 </ul>
-<a href="artchief.html">Archief »</a>
+<a href="archief.html">Archief »</a>
 </section>
 <section class="six columns posts" lang="en">
 <h2>English Articles</h2>
