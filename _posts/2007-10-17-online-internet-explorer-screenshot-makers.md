@@ -20,7 +20,8 @@ Then, last, put on your Teflon-suit, make a cup of coffee, make sure there is so
 To do that on Mac, or Linux, you either should install the great [IEs4linux](http://www.tatanka.com.br/ies4linux/page/Main_Page) (linux only) get yourself a windows licence (couple of hundreds bucks, so think twice) and a virtual machine, or use one of these great online services: 
 
 * [browsershots.org](http://browsershots.org)
-* [browsrcamp](http://browsrcamp.com)* [icapture](http://danvine.com/icapture/)
+* [browsrcamp](http://browsrcamp.com)
+* [icapture](http://danvine.com/icapture/)
 * [iecapture](http://danvine.com/iecapture/)Some services cost a few dollars, but offer a little more:
 * [Browsercam](http://browsercam.com)
 * [IE Renderer](http://ipinfo.info/netrenderer/index.php)
