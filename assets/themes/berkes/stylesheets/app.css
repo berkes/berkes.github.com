@@ -56,6 +56,13 @@ article pre {
   white-space: pre-wrap;
   word-wrap: break-word;
 }
+code {
+  font-family: Monaco, Andale Mono, Courir New, monospace;
+  background-color: #eee;
+}
+p code {
+  padding: 1px 5px;
+}
 /***************************************************************************
  *                                  GRID                                   *
  ***************************************************************************/
@@ -70,6 +77,31 @@ article pre {
     -o-column-gap: "20px";
     column-gap: "20px";
   }
+}
+/***************************************************************************
+ *                                  Tags                                   *
+ ***************************************************************************/
+.label {
+  position:relative;
+}
+.label .size {
+  position:absolute;
+  top:-4px;
+  right:-4px;
+  background-color:#fff;
+  color:#000;
+  padding:2px;
+  font-family:tahoma, arial, 'sans-serif';
+  font-size:9px;
+  font-weight:bold;
+
+  border: 1px solid #000;
+  -webkit-border-radius: 2px;
+  -moz-border-radius: 2px;
+  border-radius: 2px;
+}
+.label:hover .size {
+  display:none;
 }
 
 /***************************************************************************
