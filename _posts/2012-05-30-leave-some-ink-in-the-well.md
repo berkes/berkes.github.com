@@ -53,7 +53,9 @@ failing.
 What do you do? Commit the unfinished state? `git stash` it? just leave
 it as it is?
 
-You could leave some ink in the well:
+You could leave some ink in the well. Using a simple `@INK` marker.
+
+For example:
 
 {% highlight ruby %}
 def by_ranking
