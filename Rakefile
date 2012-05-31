@@ -8,6 +8,7 @@ CONFIG = {
   'version' => "0.2.13",
   'posts' => File.join(SOURCE, "_posts"),
   'post_ext' => "markdown",
+  'editor' => 'gvim'
 }
 
 # Path configuration helper
@@ -28,7 +29,6 @@ module JB
       path.compact!
       File.__send__ :join, path
     end
-  
   end #Path
 end #JB
 
@@ -36,6 +36,10 @@ end #JB
 desc "Begin a new post in #{CONFIG['posts']}"
 task :post do
   abort("rake aborted: '#{CONFIG['posts']}' directory not found.") unless FileTest.directory?(CONFIG['posts'])
+
+  layout = ENV['layout'] || 'medium'
+  lang = ENV['lang'] || 'en'
+
   title = ENV["title"] || "new-post"
   slug = title.downcase.strip.gsub(' ', '-').gsub(/[^\w-]/, '')
   begin
@@ -52,14 +56,15 @@ task :post do
   puts "Creating new post: #{filename}"
   open(filename, 'w') do |post|
     post.puts "---"
-    post.puts "layout: post"
+    post.puts "layout: post_#{layout}"
     post.puts "title: \"#{title.gsub(/-/,' ')}\""
-    post.puts 'description: ""'
-    post.puts "category: "
     post.puts "tags: []"
+    post.puts "lang: #{lang}"
     post.puts "---"
     post.puts "{% include JB/setup %}"
   end
+
+  system "gvim #{filename}"
 end # task :post
 
 # Usage: rake page name="about.html"
