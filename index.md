@@ -1,5 +1,5 @@
 ---
-layout: page
+layout: default
 title: Bèr ‘berkes’ Kessels
 tagline: Supporting tagline
 ---

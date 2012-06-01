@@ -6,13 +6,22 @@ group: navigation
 lang: nl
 ---
 
-I am Bèr Kessels, a freelance webdeveloper, focused on development and
-marketing of cutting edge websites, with Open Source technology.
+I am Bèr Kessels, a freelance **webdeveloper**, focused on development and
+marketing of **cutting edge** websites, with **Open Source technology**. I am
+based in Nijmegen, Netherlands, and can work from home or at your venue.
 
+My handle on most networks is **berkes**.
+
+## Contact
+You can contact me about work by [email](ber@webschuur.com) or phone
+(+31)(0)629075065.
+
+## Drupal
 I used to develop in Drupal. For over 10 years, that was the one and
 only environment I worked, trained people in, developed with, and gave
 consultancy about. 
 
+## Ruby and Ruby on Rails
 Nowadays I mostly develop in Ruby on Rails, a framework that fits my and
 my clients' needs far better: I am a webdeveloper who wants to give
 clients a web-application that is 100% the way they want it. I love
