@@ -3,7 +3,7 @@ layout: page
 title : About Bèr Kessels
 header : About Bèr Kessels
 group: navigation
-lang: nl
+lang: en
 ---
 
 I am Bèr Kessels, a freelance **webdeveloper**, focused on development and
