@@ -2,11 +2,14 @@ require "rubygems"
 require 'rake'
 require 'yaml'
 require 'time'
+require 'fileutils'
 
 SOURCE = "."
 CONFIG = {
   'version' => "0.2.13",
   'posts' => File.join(SOURCE, "_posts"),
+  'images' => File.join(SOURCE, "images"),
+  'images_templates' => File.join(SOURCE, "_images_templates"),
   'post_ext' => "markdown",
   'editor' => 'gvim'
 }
@@ -43,7 +46,8 @@ task :post do
   title = ENV["title"] || "new-post"
   slug = title.downcase.strip.gsub(' ', '-').gsub(/[^\w-]/, '')
   begin
-    date = (ENV['date'] ? Time.parse(ENV['date']) : Time.now).strftime('%Y-%m-%d')
+    now = (ENV['date'] ? Time.parse(ENV['date']) : Time.now)
+    date = now.strftime('%Y-%m-%d')
   rescue Exception => e
     puts "Error - date format must be YYYY-MM-DD, please check you typed it correctly!"
     exit -1
@@ -64,7 +68,24 @@ task :post do
     post.puts "{% include JB/setup %}"
   end
 
-  system "gvim #{filename}"
+  # Map layouts to image_layouts
+  image_layout = case layout
+    when "long" then "landscape"
+    when "short" then "portrait"
+    when "medium" then "panorama"
+  end
+
+  imagefile = File.join(CONFIG['images'], now.year.to_s, "%02d" % now.month, "%02d" % now.day, "#{slug}.png");
+  if File.exists?(imagefile)
+    abort("rake aborted!") if ask("#{imagefile} already exists. Do you want to overwrite?", ['y', 'n']) == 'n'
+  end
+
+  template_imagefile = next_image! image_layout
+  puts "Copying image: #{template_imagefile} to #{imagefile}"
+  mkdir_p File.dirname(imagefile)
+  FileUtils.copy(template_imagefile, imagefile)
+
+  system "#{CONFIG['editor']} #{filename}"
 end # task :post
 
 # Usage: rake page name="about.html"
@@ -111,5 +132,45 @@ def get_stdin(message)
   STDIN.gets.chomp
 end
 
-#Load custom rake scripts
-Dir['_rake/*.rake'].each { |r| load r }
+# Gives the name of the next to-be-used image.
+def next_image layout
+  number = last_used(layout)+1
+  imagefile = File.join(CONFIG["images_templates"], "#{layout}-#{number}.png")
+  imagefile if File.exists?(imagefile)
+end
+
+# Same as next_image, but increments the pointer.
+def next_image! layout
+  image = next_image layout
+  if image
+    inc_last_used! layout
+  end
+  image
+end
+
+# Finds the last used image of a certain layout.
+def inc_last_used! layout
+  number = last_used layout
+  set_last_used number+1, layout
+end
+
+# Finds the last used imagenumber of a certain layout.
+def last_used layout
+  number = "0"
+  filename = File.join(CONFIG["images_templates"], "last_#{layout}")
+
+  if File.exists?(filename)
+    number = File.open(filename, 'r').readline || number
+  else
+    last_used = number
+  end
+
+  number.to_i
+end
+# sets the last used image.
+def set_last_used number, layout
+  filename = File.join(CONFIG["images_templates"], "last_#{layout}")
+  File.open(filename, 'w') do |pointer|
+    pointer.puts number
+  end
+end
