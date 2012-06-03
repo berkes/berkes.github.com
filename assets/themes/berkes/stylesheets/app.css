@@ -72,10 +72,10 @@ p code {
     -webkit-column-count: 2;
     -o-column-count: 2;
     column-count: 2;
-    -moz-column-gap: "20px";
-    -webkit-column-gap: "20px";
-    -o-column-gap: "20px";
-    column-gap: "20px";
+    -moz-column-gap: 42px;
+    -webkit-column-gap: 42px;
+    -o-column-gap: 42px;
+    column-gap: 42px;
   }
 }
 /***************************************************************************
