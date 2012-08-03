@@ -185,7 +185,7 @@ and, most importantly can be tested trough and trough.
 ### Deploy. Just do it.
 I write my blog in [Jekyll](http://jekyllrb.com/), where publishing a new
 article is a deployment. I don't blog that often, but experiencing how
-simple and fast deployments are, has brought some if my deployment-fear
+simple and fast deployments are, has brought some of my deployment-fear
 down.
 
 For the other systems, I use
