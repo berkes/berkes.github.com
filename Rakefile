@@ -36,7 +36,7 @@ module JB
 end #JB
 
 # Usage: rake post title="A Title" [date="2012-02-09"]
-desc "Begin a new post in #{CONFIG['posts']}"
+desc "Begin a new post in #{CONFIG['posts']} [layout=(long|short|medium)][lang=(en|nl)][date=YYYY-mm-dd][title=TITLE]"
 task :post do
   abort("rake aborted: '#{CONFIG['posts']}' directory not found.") unless FileTest.directory?(CONFIG['posts'])
 
