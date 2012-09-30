@@ -76,38 +76,15 @@ programming of a website. It really wants to be a CMS, albeit a flexible one. Ra
 
 Development in with click-and-point, offers little challenge for me. Learning, where and how to find, evaluate
 and configure the umpteenth gallery-slider-view-plugin offers no challenge, nor satisfaction. 
-I found this approach of clicking together a site, to have several more
-downsides. 
-
-I could never give my clients 100% of what they wish. That umpteenth
-slideshow-module might bring me 70% of what my client wants and has
-designed. With the addition of two more modules, and some gluecode I
-might get to 90%, while adding somthing like 70% unwished and unused
-functionality and code. We now have a large, complex, hackish slideshow,
-which is still not up to my client's wishes.
-
-It is inefficient. Keeping yourself informed about the huge amount of
-ever shifting modules is a full dayjob. So "selecting modules" is a hard
-and tough job. We even had a special section in our trainings on that.
-But even when found, you still need to learn its interface, get to know
-its bugs, weird edge cases and undocumented features. This is worse with
-complex modules such as Display-suite, panels and so on. 
-
-It makes your project incomprehensible and unmaintainable. Having
-hundred or more modules in a project is not an exception nowadays. I've
-helped in projects were a site had over 800 modules. All of them in use!
-Introducing a complex module like [Display Suite](https://drupal.org/project/ds) 
-just to be able to switch template-files based on context is not a good
-option. Don't get me wrong. Views, Panels, Display Suite, Contexts,
-Spaces and so on, are works of great art. But also gigantic complex
-beasts. Yet all these are unneeded in a framework that has proper tools
-and layers available. Writing a query, and outputting the result to JSON
-requires hours of investigation, several addon-modules on top of views
-and leaves you with a pile of modules no-one truly understands. Compare
-that to [a few lines of PHP](http://coenraets.org/blog/2011/12/restful-services-with-jquery-php-and-the-slim-framework/) which achieve not only more, but allow much more flexibility and freedom then views, CCK and another five addon-modules will ever allow you.
+I also found this approach of clicking together a site, to not satisfy
+my clients; not being able to deliver 100% what they wish. And I found
+it inefficient: especially when my programming skills grew. I could
+churn out a few objects and a hook or two that output the exact JSON I
+want, much faster then I would ever be able to click together some 
+[Services](https://drupal.org/project/services) configuration.
 
 In my search to more challenging Drupal-work, I helped several large
-sites solve some of their performance-issues. Helped many project with
+sites, to solve some of their performance-issues. Helped many project with
 their problematic Drupal-development and -deployment. I Taught many developers how
 to write themes, modules and how to deploy. Unfortunately the challenges
 did not revive my love for Drupal, but only took me further from it. I
