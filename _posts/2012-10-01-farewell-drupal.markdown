@@ -5,12 +5,12 @@ tags: [Drupal, Rails, Goodbye]
 lang: en
 ---
 {% include JB/setup %}
-Over [eleven years](https://drupal.org/user/1783) years ago, I got [https://drupal.org/user/2663](involved in Drupal), after running two
+Over [eleven years](https://drupal.org/user/1783) years ago, I got [involved in Drupal](https://drupal.org/user/2663), after running two
 personal blogs on Drupal. A few years later, to my surprise, I found myself to be
-amongst the first few people to [http://web.archive.org/web/20040606050259/http://drupal.org/services](offer commercial and professional Drupal services).
+amongst the first few people to [offer commercial and professional Drupal services](http://web.archive.org/web/20040606050259/http://drupal.org/services).
 
 And boy, it was a ride. With no IT-education, other then
-[webmonkey](webmonkey.com), the fantastic Drupal-community allowed me to
+[webmonkey](http://webmonkey.com), the fantastic Drupal-community allowed me to
 piggyback and stand on shoulders. Great, strong shoulders. 
 
 I grew. I learned. And I learned how to program somewhat decent. 
