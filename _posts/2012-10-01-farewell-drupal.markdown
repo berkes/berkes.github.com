@@ -5,7 +5,7 @@ tags: [Drupal, Rails, Goodbye]
 lang: en
 ---
 {% include JB/setup %}
-Over [eleven years](https://drupal.org/user/1783) years ago, I got [involved in Drupal](https://drupal.org/user/2663), after running two
+Over [eleven years](https://drupal.org/user/1783) ago, I got [involved in Drupal](https://drupal.org/user/2663), after running two
 personal blogs on Drupal. A few years later, to my surprise, I found myself to be
 amongst the first few people to [offer commercial and professional Drupal services](http://web.archive.org/web/20040606050259/http://drupal.org/services).
 
@@ -102,6 +102,6 @@ was never going to be the developer-tool I hoped it to become.
 I will put down all my Drupal-work and finish the remaining
 few of my running Drupal-projects. Both those with clients, and those things like a stable release of tagadelic2 for Drupal 7. I will obviously announce those here.
 
-Moving on to [exiting](http://nodejs.org/) new [technologies](http://www.mongodb.org/), [tools](http://www.sinatrarb.com/) and [development platforms](http://rubyonrails.org/) that fit better with my workflow and programming-experience. 
+Moving on to [exciting](http://nodejs.org/) new [technologies](http://www.mongodb.org/), [tools](http://www.sinatrarb.com/) and [development platforms](http://rubyonrails.org/) that fit better with my workflow and programming-experience. 
 
 Goodbye, it was a fantastic bunch of shoulders to be allowed to stand on!
