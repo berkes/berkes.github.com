@@ -85,7 +85,7 @@ want, much faster then I would ever be able to click together some
 
 In my search to more challenging Drupal-work, I helped several large
 sites, to solve some of their performance-issues. Helped many project with
-their problematic Drupal-development and -deployment. I Taught many developers how
+their problematic Drupal-development and -deployment. I taught many developers how
 to write themes, modules and how to deploy. Unfortunately the challenges
 did not revive my love for Drupal, but only took me further from it. I
 came to realize that most of the problems stem from the way the Drupal
