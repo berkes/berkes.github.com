@@ -156,3 +156,6 @@ footer.main {
   /** 22px for the swallow, 30 for whitespace **/
   background: transparent url("../images/swallow_black_hr.png") no-repeat scroll top center;
 }
+div#author {
+  margin-top: 30px;
+}

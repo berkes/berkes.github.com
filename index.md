@@ -9,9 +9,7 @@ tagline: Supporting tagline
 <section class="six columns about" lang="nl">
 <h2>Over Bèr Kessels</h2>
 <p>
-Ik ben Bèr Kessels, een freelance webontwikkelaar. Ik focus me op
-het ontwikkelen en marketen van <em>cutting edge</em> websites, 
-met Open Source technologie.
+Bèr Kessels is een ervaren webdeveloper met een grote passie voor techniek en Open Source. Een gouden combinatie om de techniek goed en efficiënt toe te passen.
 <br/>
 <a href="over.html">Meer »</a>
 </p>
@@ -19,8 +17,9 @@ met Open Source technologie.
 <section class="six columns about" lang="en">
 <h2>About Bèr Kessels</h2>
 <p>
-I am Bèr Kessels, a freelance webdeveloper, focused on development and
-marketing of cutting edge websites, with Open Source technology.
+Bèr Kessels is an experienced webdeveloper  with a great passion for
+technology and Open Source. A golden combination to implement that technology in a good and efficient
+way. 
 <br/>
 <a href="about.html">More »</a>
 </p>
