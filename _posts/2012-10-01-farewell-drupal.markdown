@@ -9,7 +9,7 @@ Over [eleven years](https://drupal.org/user/1783) ago, I got [involved in Drupal
 personal blogs on Drupal. A few years later, to my surprise, I found myself to be
 amongst the first few people to [offer commercial and professional Drupal services](http://web.archive.org/web/20040606050259/http://drupal.org/services).
 
-And boy, it was a ride. With no IT-education, other then
+And boy, it was a ride. With no IT-education, other than
 [webmonkey](http://webmonkey.com), the fantastic Drupal-community allowed me to
 piggyback and stand on shoulders. Great, strong shoulders. 
 
@@ -20,10 +20,10 @@ Real-world projects every day, bumping into issues that, as I found, had
 been "solved" ages ago in academical books and studies. I learned that
 "talk is silver, code is gold" is simply not true. Code that is
 discussed, thought about, refactored, and then discussed again, is of a
-much higher quality then code that is "just done". I learned that
-properly architecturing something, turns it into far more then gold. I
+much higher quality than code that is "just done". I learned that
+properly architecturing something, turns it into far more than gold. I
 often complained about "[horse-tack](https://en.wikipedia.org/wiki/Blinders)-coding" in Drupal.
-Where working on small, isolated issues was (and is) always preferred over refactoring larger parts. This has led to a lot of repetition, inconsistent APIs and very unpredictable behaviour. I learned about encapsulation, separation of concerns, loose-coupling and more such well-known principals. All of which Drupal lacks, or ignores. I had the feeling I grew faster then Drupal.
+Where working on small, isolated issues was (and is) always preferred over refactoring larger parts. This has led to a lot of repetition, inconsistent APIs and very unpredictable behaviour. I learned about encapsulation, separation of concerns, loose-coupling and more such well-known principals. All of which Drupal lacks, or ignores. I had the feeling I grew faster than Drupal.
 
 I also came across _Ruby on Rails_ and found that there were actually real,
 technical solutions for several of my gripes with Drupal. We are talking 2005,
@@ -45,16 +45,16 @@ more clearly: there was a lot of work for me to do, in order to make
 Drupal something as elegant and nice to work with as Rails. In an ever
 growing Drupalcommunity, I decided that my voice and code in this was
 only noise; especially since that community [clearly has a different idea
-about webdevelopment](http://buytaert.net/views-in-drupal-8) then I have.
+about webdevelopment](http://buytaert.net/views-in-drupal-8) than I have.
 
 Around that time (beginning of 2009), I co-founded [Wizzlern](http://wizzlern.nl/). We developed
 training and education for Drupal.
-Training people allows you to meet professionals with lots of different backgrounds. People who have formal training in IT. People with much more in-the-field experience then I will probably ever have. And people who are critical. About things in Drupal.
+Training people allows you to meet professionals with lots of different backgrounds. People who have formal training in IT. People with much more in-the-field experience than I will probably ever have. And people who are critical. About things in Drupal.
 
 But developing several training-courses also required me to dive really deep into the what and
 the why behind things. I suddenly had to paint the big picture around an
 inconsistent and weird API, answer questions like: Why are modules so hard to find? How come there are so few pretty
-themes, compared to wordpress? Why is it so much harder to use then
+themes, compared to wordpress? Why is it so much harder to use than
 Wordpress? Why can't we find a decent workflow to develop in a team and deploy? Feedback from experienced webdevelopers (in Java, Python, .net and PHP-frameworks) made me realize even more that there was something amiss for me.
 
 It became harder for me to defend that, harder to explain my passion for the system, its quircks and its community. They say, that once you have looked in the kitchen of your favorite restaurant, you never want to eat there again. That could be the case here. Or maybe it is because I am a vegetarian.
@@ -72,7 +72,7 @@ Unfortunately, I cannot find the exact quote, this one is from my vague memory a
 
 However, the bigger picture became more clear to me: something we have seen happening in Drupal for a while
 now: It focuses on the click-and-point development of website, not on the
-programming of a website. It really wants to be a CMS, albeit a flexible one. Rather then what I consider the future: a developer-platform that allows me [to build a CMS](http://labs.talkingpointsmemo.com/2011/07/the-twilight-of-the-cms.php).
+programming of a website. It really wants to be a CMS, albeit a flexible one. Rather than what I consider the future: a developer-platform that allows me [to build a CMS](http://labs.talkingpointsmemo.com/2011/07/the-twilight-of-the-cms.php).
 
 Development in with click-and-point, offers little challenge for me. Learning, where and how to find, evaluate
 and configure the umpteenth gallery-slider-view-plugin offers no challenge, nor satisfaction. 
@@ -80,7 +80,7 @@ I also found this approach of clicking together a site, to not satisfy
 my clients; not being able to deliver 100% what they wish. And I found
 it inefficient: especially when my programming skills grew. I could
 churn out a few objects and a hook or two that output the exact JSON I
-want, much faster then I would ever be able to click together some 
+want, much faster than I would ever be able to click together some 
 [Services](https://drupal.org/project/services) configuration.
 
 In my search to more challenging Drupal-work, I helped several large
