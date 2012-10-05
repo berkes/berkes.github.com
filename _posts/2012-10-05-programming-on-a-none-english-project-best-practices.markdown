@@ -1,6 +1,6 @@
 ---
 layout: post_short
-title: "Programming on a None English Project; best practices"
+title: "Programming on a Non-English Project; best practices"
 tags: [project management, localization]
 lang: en
 ---
@@ -16,6 +16,9 @@ actually people out there who write Russian code, Swedish documentation
 or use Dutch classnames? WTF?" this post is probably not for you either
 (But take this with you before leaving: there are. A lot).
 
+**Edit:** as [offbytwo, a redditor] kindly points out, it is
+non-English, not _none-English_. Guess that proves that I am none-English
+(sic) to begin with :).
 ## The Client.
 
 They will most probably communicate in your local language. Not in
@@ -26,7 +29,7 @@ It makes no sense trying to enforce this in English, that only creates
 friction in an area (feedback, requirements) where you want as little
 friction as possible. If anything, you may want to designate one person
 to translating this input before it goes into your other systems. But
-often it is good enough to simply put the none-English input as-is into
+often it is good enough to simply put the non-English input as-is into
 your project.
 
 ## The Team.
@@ -139,7 +142,7 @@ And when upstream software is English, you'll see that even more.
 
 In all cases, it is best  to just use English for commit-messages. For
 one, because you will be referring to (English!) code in the messages,
-but also, because mixing English and none-English requires more mental
+but also, because mixing English and non-English requires more mental
 energy from the reviewer, when she or he has to toggle all the time. 
 
 There is only one reason to write commit-messages in your native tongue:
