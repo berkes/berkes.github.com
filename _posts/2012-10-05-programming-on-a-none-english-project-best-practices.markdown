@@ -16,7 +16,8 @@ actually people out there who write Russian code, Swedish documentation
 or use Dutch classnames? WTF?" this post is probably not for you either
 (But take this with you before leaving: there are. A lot).
 
-**Edit:** as [offbytwo, a redditor] kindly points out, it is
+**Edit:** as [offbytwo, a
+redditor](http://www.reddit.com/r/programming/comments/10zffv/programming_on_a_none_english_project_best/c6hy06s) kindly points out, it is
 non-English, not _none-English_. Guess that proves that I am none-English
 (sic) to begin with :).
 ## The Client.
