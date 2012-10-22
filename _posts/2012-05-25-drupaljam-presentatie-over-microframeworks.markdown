@@ -1,7 +1,7 @@
 ---
 layout: post_short
 title: "DrupalJam presentatie over Microframeworks"
-tags: [Drupal, Microframeworks, Presentatie, Sinatra]
+tags: [drupal, microframeworks, presentatie, sinatra]
 lang: nl
 ---
 {% include JB/setup %}

@@ -1,7 +1,7 @@
 ---
 layout: post_medium
 title: "After almost twelve years of Drupal, I am saying goodbye"
-tags: [Drupal, Rails, Goodbye]
+tags: [drupal, rails, goodbye]
 lang: en
 ---
 {% include JB/setup %}
