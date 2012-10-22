@@ -4,7 +4,7 @@ title: Politiek 24 . nl maar dan gewoon de url
 created: 1164915755
 tags:
 - toegankelijkheid
-- Politics
+- politics
 - media
 lang: nl
 ---

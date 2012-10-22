@@ -3,7 +3,7 @@ layout: post_archive
 title: Toggle your webservers' production environment by using symlinks
 created: 1283974361
 tags:
-- ''
+
 lang: en
 ---
 I love simple. If I can do something in a simple way, that, is the way I will do it. Releasing new features, updates or upgrades of sites can be a PIASS, even when you use the whole shebang of version-control systems, release-management environments and what more. 

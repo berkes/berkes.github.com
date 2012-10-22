@@ -4,8 +4,8 @@ title: sympal, webschuur op groene stroom.
 created: 1160838129
 tags:
 - sympal
-- Server
-- Dwars
+- server
+- dwars
 - energie
 lang: nl
 ---

@@ -3,7 +3,7 @@ layout: post_archive
 title: Patents kill innovation!
 created: 1084538808
 tags:
-- ''
+
 lang: nl
 ---
 [![](http://aful.org/images/patent_square.png)](http://petition.eurolinux.org)

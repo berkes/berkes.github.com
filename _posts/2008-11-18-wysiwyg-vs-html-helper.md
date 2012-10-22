@@ -3,11 +3,11 @@ layout: post_archive
 title: WYSIWYG vs. "HTML Helper"
 created: 1227026060
 tags:
-- Drupal
-- WYSIWYG
+- drupal
+- wysiwyg
 - editor
-- HTML Helper
-- Mark Smarty
+- html helper
+- mark smarty
 - webdevelopment
 lang: nl
 ---

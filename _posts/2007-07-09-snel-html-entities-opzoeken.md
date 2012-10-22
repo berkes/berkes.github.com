@@ -4,7 +4,7 @@ title: Snel HTML entities opzoeken
 created: 1184004070
 tags:
 - webdevelopment
-- AJAX
+- ajax
 - referentie
 lang: nl
 ---

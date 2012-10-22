@@ -56,6 +56,13 @@ article pre {
   white-space: pre-wrap;
   word-wrap: break-word;
 }
+code {
+  font-family: Monaco, Andale Mono, Courir New, monospace;
+  background-color: #eee;
+}
+p code {
+  padding: 1px 5px;
+}
 /***************************************************************************
  *                                  GRID                                   *
  ***************************************************************************/
@@ -65,11 +72,36 @@ article pre {
     -webkit-column-count: 2;
     -o-column-count: 2;
     column-count: 2;
-    -moz-column-gap: "20px";
-    -webkit-column-gap: "20px";
-    -o-column-gap: "20px";
-    column-gap: "20px";
+    -moz-column-gap: 42px;
+    -webkit-column-gap: 42px;
+    -o-column-gap: 42px;
+    column-gap: 42px;
   }
+}
+/***************************************************************************
+ *                                  Tags                                   *
+ ***************************************************************************/
+.label {
+  position:relative;
+}
+.label .size {
+  position:absolute;
+  top:-4px;
+  right:-4px;
+  background-color:#fff;
+  color:#000;
+  padding:2px;
+  font-family:tahoma, arial, 'sans-serif';
+  font-size:9px;
+  font-weight:bold;
+
+  border: 1px solid #000;
+  -webkit-border-radius: 2px;
+  -moz-border-radius: 2px;
+  border-radius: 2px;
+}
+.label:hover .size {
+  display:none;
 }
 
 /***************************************************************************
@@ -123,4 +155,7 @@ footer.main {
   padding-top: 52px;
   /** 22px for the swallow, 30 for whitespace **/
   background: transparent url("../images/swallow_black_hr.png") no-repeat scroll top center;
+}
+div#author {
+  margin-top: 30px;
 }

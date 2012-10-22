@@ -3,9 +3,9 @@ layout: post_archive
 title: DM stith - Pity Dance. mijmerflamenco.
 created: 1234518137
 tags:
-- Music
-- MD Stith
-- Folk
+- music
+- md stith
+- folk
 - flamenco
 - duyster
 lang: nl

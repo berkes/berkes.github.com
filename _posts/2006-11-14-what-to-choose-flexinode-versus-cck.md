@@ -3,12 +3,12 @@ layout: post_archive
 title: ! 'What to choose: Flexinode versus CCK!'
 created: 1163515843
 tags:
-- Project Management
-- Tips and tricks
-- Theming
-- Drupal Talk
-- Drupal
-- Flexinode
+- project management
+- tips and tricks
+- theming
+- drupal
+- drupal
+- flexinode
 lang: en
 ---
 <img src="http://webschuur.com/sites/webschuur.com/files/406969_knights.jpg" style="float:left" alt="fighting knights"/>On the forums, the mailinglist and in my personal inbox I see a lot of people who don't know what to choose: Flexinode or CCK. So I decided to write down all my ideas about this in a single article.
@@ -36,8 +36,14 @@ Not true. Allthough it is not as heavy under construction as CCK, and has far le
 
 I am not sure about the exact numbers, but a rough guess, based on the download statistics, tells me that there are still more Flexinode-using-sites out there then CCK-using sites. 
 
-Flexinode's upgrade to 4.7 was a horrible experience. At the time of upgrading it was unmaintained, resulting in about 5 developers working independent on new features, upgrades to 4.7 and on bugfixes. This broke Flexinode so badly that when I took over the project as maintainer, I spent two full weekends only undoing CVS commits. Right now the 4.7 download tarballs are still a mess, because of incorrect branches and merges made during that "age of chaos". For the 5.X upgrade I am doing this in a much more structured way, this post being the first step in that project. But I can assure that there will be a 5.X release of Flexinode, simply because I need it :).
-After that release, we will branch off into a stable bugfix 5.X branch (which will ensure you don't need tough upgrades etceteras) and a clean branch, which will be a branch that allows us to clean out Flexinode code and API's as well as introduce new features and so. 
+Flexinode's upgrade to 4.7 was a horrible experience. At the time of upgrading it was unmaintained, resulting in about 5 developers working independent on new features, upgrades to 4.7 and on bugfixes. This broke Flexinode so badly that when I took over the project as maintainer, I spent two full weekends only undoing CVS commits. Right now the 4.7 download tarballs are still a mess, because of incorrect branches and merges made during that "age of chaos". For the 5.
+
+X upgrade I am doing this in a much more structured way, this post being the first step in that project. But I can assure that there will be a 5.
+
+X release of Flexinode, simply because I need it :).
+After that release, we will branch off into a stable bugfix 5.
+
+X branch (which will ensure you don't need tough upgrades etceteras) and a clean branch, which will be a branch that allows us to clean out Flexinode code and API's as well as introduce new features and so. 
 
 ## CCK is going to go into core.
 I doubt it. Not in its current form anyway, if I understood Dries correct. The chances are there that the upgrade from CCK to some fields system in core will be easier then the one from Flexinode, due to the architectural differences, but choosing CCK because 'in future it will be part of the official Drupal' is a bad idea. 

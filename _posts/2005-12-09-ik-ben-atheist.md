@@ -3,10 +3,14 @@ layout: post_archive
 title: Ik ben... Atheist.
 created: 1134123342
 tags:
-- ''
+
 lang: nl
 ---
-En dat wist ik inderdaad al :) Maar wat ik wel heel vreemd vindt is dat ik het blijkbaar met 75% van de satansistische ideen eens ben o_0. Dat ik sterk naar Boeddisme neig is nog wel te overkomen, dat ik blijkbaar van alle wereldreligies , de Islam het meest vindt aansluitenverbaast me ook. Ik vermoed dat mijn anti-Jasus keuzes me Satanist maken, en mijn "islam rating" omhoog brengt, ofzo. Anyway, het is maar een testje. Wel grappig. <!--break--><table border="0" cellpadding="5" cellspacing="0" width="600"><tr><td>![](http://images.quizfarm.com/1110084217atheism.GIF)</td><td> You scored as <b>atheism</b>. You are... an atheist, though you probably already knew this. Also, you probably have several people praying daily for your soul.Instead of simply being "nonreligious," atheists strongly believe in the lack of existence of a higher being, or God.<br /><br /><table border="0" width="300" cellspacing="0" cellpadding="0"><tr><td>
+En dat wist ik inderdaad al :) Maar wat ik wel heel vreemd vindt is dat ik het blijkbaar met 75% van de satansistische ideen eens ben o_0. Dat ik sterk naar Boeddisme neig is nog wel te overkomen, dat ik blijkbaar van alle wereldreligies , de Islam het meest vindt aansluitenverbaast me ook. Ik vermoed dat mijn anti-Jasus keuzes me Satanist maken, en mijn "islam rating" omhoog brengt, ofzo. Anyway, het is maar een testje. Wel grappig. <!--break--><table border="0" cellpadding="5" cellspacing="0" width="600"><tr><td>![](http://images.quizfarm.com/1110084217atheism.
+
+GIF)</td><td> You scored as <b>atheism</b>. You are... an atheist, though you probably already knew this. Also, you probably have several people praying daily for your soul.
+
+Instead of simply being "nonreligious," atheists strongly believe in the lack of existence of a higher being, or God.<br /><br /><table border="0" width="300" cellspacing="0" cellpadding="0"><tr><td>
 atheism
 </td><td><table border="1" cellpadding="0" cellspacing="0" width="79" bgcolor="#dddddd"><tr><td></td></tr></table></td><td><font face="Arial" size="1">79%</font></td></tr><tr><td>
 Satanism

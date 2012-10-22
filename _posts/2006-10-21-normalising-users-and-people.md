@@ -3,11 +3,11 @@ layout: post_archive
 title: Normalising users and people
 created: 1161426576
 tags:
-- Programming
-- Tips and tricks
-- Ruby
-- Ruby on Rails
-- Railfrog
+- programming
+- tips and tricks
+- ruby
+- ruby on rails
+- railfrog
 lang: en
 ---
 In many database driven applications (web-apps) you need some sort of user-system. A system to manage log-in facilities and rights management etceteras. A general "mistake" I see all over the place is that a user equals a person, in these systems. I decided to make a decent normalised concept for this and document it for once :). 

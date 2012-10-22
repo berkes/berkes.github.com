@@ -3,8 +3,8 @@ layout: post_archive
 title: ! 'Nuke to Drupal Theme conversion: Prepare images'
 created: 1110216426
 tags:
-- osViews *nuke2Drupal
-- Drupal Talk
+- osviews *nuke2drupal
+- drupal
 lang: en
 ---
 Now I will convert all the images into useable snippets. One requirement of mine is that I use PNG, because of itw power. Another requirement is that we use CSS everywhere, so images should be useable as background patterns etc. 

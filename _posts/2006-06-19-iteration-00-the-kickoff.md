@@ -3,11 +3,11 @@ layout: post_archive
 title: ! 'Iteration 00: The kickoff'
 created: 1150745154
 tags:
-- PHP
-- Theming
-- CSS
-- Drupal Talk
-- WhatsInItsName theme design blog
+- php
+- theming
+- css
+- drupal
+- whatsinitsname theme design blog
 lang: en
 ---
 I am currently developing a new theme for a new site and I decided to blog the process once. The theme is called «[WhatsInItsName](/taxonomy/term/65)» and so is the "tag".

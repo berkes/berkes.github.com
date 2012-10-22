@@ -3,10 +3,10 @@ layout: post_archive
 title: Counter queries for complex, none-distinct SQL in Drupals Pager system.
 created: 1289420164
 tags:
-- Programming
-- PHP
-- Tips and tricks
-- Drupal
+- programming
+- php
+- tips and tricks
+- drupal
 lang: en
 ---
 I think everyone knows these moments: You have a problem, a question. And just by asking that question, the answer pops up in your head. It happens to me often, when programming. 

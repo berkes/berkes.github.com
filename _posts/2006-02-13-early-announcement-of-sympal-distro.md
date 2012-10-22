@@ -3,7 +3,7 @@ layout: post_archive
 title: Early announcement of sympal distro
 created: 1139818819
 tags:
-- Drupal Talk
+- drupal
 - sympal.nl
 lang: en
 ---
@@ -35,6 +35,8 @@ My problem is mostly time. I really want to get this rolling, but I really lack 
 The philosophy is «<em>Sympal for developers. Developers for the users</em>» Meaning you do all the administration, all the development and configuration. Your users/clients should theoretically not even need to have admin rights....
 
 The idea is all based on the agile development methods in <a href="http://www.rubyonrails.org/">Ruby on Rails</a>: You invoke a commandline script. That generates code for you. For example
-path/to/scripts/generate_node.PHP simplenode news newsitems will add a 
+path/to/scripts/generate_node.
+
+PHP simplenode news newsitems will add a 
 modules/news/news.module that allows users to add "newsitems" built after a "template module" called "simple" (story rip-off). And it will add a themes/the_site_name/node-news.tpl.php
 (obviously the_site_name is replaced by acmeinc_com for example)

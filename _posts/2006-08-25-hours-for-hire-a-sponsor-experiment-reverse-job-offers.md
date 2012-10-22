@@ -3,11 +3,11 @@ layout: post_archive
 title: Hours for hire, a sponsor experiment, Reverse Job Offers,
 created: 1156510449
 tags:
-- Project Management
-- Programming
-- PHP
-- Theming
-- Drupal Talk
+- project management
+- programming
+- php
+- theming
+- drupal
 lang: en
 ---
 Yesterday I received two cancellation for projects in the next months, good for a total of over 200 reserved hours. So I am free (as in beer). This leaves a fabulous chance for an experiment I have been wanting to do for a long while: _Reverse Job Offers_.

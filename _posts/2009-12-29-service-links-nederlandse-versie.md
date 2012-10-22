@@ -6,8 +6,8 @@ tags:
 - service_links
 - ekudos
 - nujij
-- MSN
-- Drupal
+- msn
+- drupal
 - module
 - nederlands
 lang: nl

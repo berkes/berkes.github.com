@@ -3,24 +3,47 @@ layout: page
 title : About Bèr Kessels
 header : About Bèr Kessels
 group: navigation
-lang: nl
+lang: en
 ---
 
-I am Bèr Kessels, a freelance webdeveloper, focused on development and
-marketing of cutting edge websites, with Open Source technology.
+I am Bèr Kessels, a freelance **webdeveloper**, I focus on development
+and marketing of **cutting edge websites and applications**, with **Open
+Source** technology. I live in Nijmegen, the Netherlands and work from
+my office or at my clients place.
 
-I used to develop in Drupal. For over 10 years, that was the one and
-only environment I worked, trained people in, developed with, and gave
-consultancy about. 
+My handle on most networks is **berkes**.
 
-Nowadays I mostly develop in Ruby on Rails, a framework that fits my and
-my clients' needs far better: I am a webdeveloper who wants to give
-clients a web-application that is 100% the way they want it. I love
-that. And I love new stuff.
+My broad interest allows me to take many different factors, different
+users, and various stakeholders into account when developing a project.
+It also enables me to give lead to various teams, or to work within such
+teams. My huge passion for Open Source, makes that I am well known to
+the newest, cutting edge, technologies, systems and tools out there. And
+that I can estimate when such technologies can be used most effectively.
 
-This is my personal and corporate blog. You will find thoughts,
-opinions, manuals and nice findings on this blog.
+With over 14 years of webdevelopment-experience, in various projects,
+ranging from enormous applications at large enterprise- and media
+corporations, to small blogs for family and friends, I can estimate
+projects and their risks very well. 
+This experience, together with a large array of (self built) tools and
+methodologies, make me an efficient developer.
+
+I mostly work with [Ruby on Rails](http://rubyonrails.org). A
+professional, Open Source platform which powers enormous (e.g.
+Twitter.com) and tiny applications. With, obviously, a very large and
+knowledgeable community behind it. But I also have a lot of experience
+with alternative tools and systems, which make me a good candidate to
+help find or apply the best technology for _your_ project.
+
+## Contact
+You can contact me about work by [email](ber@webschuur.com) or phone
+(+31)(0)629075065.
 
 * Code on [Github](https://github.com/berkes/)
-* Business network on [LinkedIn](http://www.linkedin.com/profile?viewProfile=&key=9270755).
+* CV and Business network on [LinkedIn](http://www.linkedin.com/profile?viewProfile=&key=9270755).
 * Knowledgebase at [Stackoverflow](http://stackoverflow.com/users/73673/berkes)
+
+## Disclaimer
+This is my personal and corporate blog. You will find thoughts,
+opinions, manuals and nice findings on this blog. The archives go back
+as far as 2001. Opinions change, ideas shift, so don't take anything too
+serious, here.

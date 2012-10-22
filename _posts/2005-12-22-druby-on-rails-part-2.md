@@ -3,9 +3,9 @@ layout: post_archive
 title: Druby on Rails part 2
 created: 1135258796
 tags:
-- Theming
-- Drupal Talk
-- Ruby
+- theming
+- drupal
+- ruby
 lang: en
 ---
 And now something positive. 

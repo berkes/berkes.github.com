@@ -3,10 +3,10 @@ layout: post_archive
 title: Valkhof Tiltshifted
 created: 1246545767
 tags:
-- Waalbrug
-- Valkhof
+- waalbrug
+- valkhof
 - tiltshift
-- Nijmegen
+- nijmegen
 - image
 lang: nl
 ---

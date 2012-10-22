@@ -3,10 +3,10 @@ layout: post_archive
 title: Story of a Drupal-Beleiver installing Joomla! 1.5 Beta
 created: 1168945292
 tags:
-- PHP
-- Theming
-- Drupal Talk
-- Drupal
+- php
+- theming
+- drupal
+- drupal
 lang: en
 ---
 For a client I installed [Joomla! 1.5](http://www.joomla.org/) Beta, with the ultimate goal to develop a new template (theme). I thought it to be a good idea to write down my experiences for all the fellow Drupal believers.

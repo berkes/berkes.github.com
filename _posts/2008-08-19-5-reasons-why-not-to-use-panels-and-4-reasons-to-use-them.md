@@ -3,13 +3,13 @@ layout: post_archive
 title: 5 reasons why not to use panels (and 4 reasons to use them)
 created: 1219158959
 tags:
-- Project Management
-- PHP
-- Tips and tricks
-- Design
-- Theming
-- Drupal Talk
-- Drupal
+- project management
+- php
+- tips and tricks
+- design
+- theming
+- drupal
+- drupal
 lang: en
 ---
 Drupal's block system is far from ideal. It was designed back in the threecolumn-era, was improved to work beyond three-columns-content-in-middle layouts, but is still unsuited for more complex layouts. 

@@ -3,8 +3,8 @@ layout: post_archive
 title: Hosting, the foundation
 created: 1126614132
 tags:
-- Drupal Talk
-- Drupal Hosting
+- drupal
+- drupal hosting
 lang: en
 ---
 For various projects, I am developing some small provisioning systems for drupal multisite environments.<!--break-->

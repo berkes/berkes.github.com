@@ -4,9 +4,9 @@ title: Grid Systems, Drupal and Semantics (why CSS frameworks are not that bad i
   Drupal)
 created: 1276854578
 tags:
-- PHP
-- Theming
-- CSS
+- php
+- theming
+- css
 lang: en
 ---
 It seems Grid systems, or CSS frameworks, are being picked up by the Drupal themer community. I think this is a good thing. Some think it is a bad thing. So let us have a look at the downsides and upsides of grid systems in Drupal.

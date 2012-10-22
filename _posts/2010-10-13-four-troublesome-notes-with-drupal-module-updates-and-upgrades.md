@@ -3,9 +3,9 @@ layout: post_archive
 title: Four troublesome notes with Drupal module-updates and upgrades.
 created: 1286960488
 tags:
-- Project Management
-- Drupal Talk
-- Drupal
+- project management
+- drupal
+- drupal
 lang: en
 ---
 On [stackoverflow](http://stackoverflow.com/questions/3920629/how-to-upgrade-drupal-modules/3922112#3922112), I wrote an answer to someone having issues with Drupal module-upgrades. Something I thought worth noting down here too. There are many gotcha's in module-upgrades, that people find out sooner or later. Often found out in not-so-nice-ways. :)

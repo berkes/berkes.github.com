@@ -4,16 +4,16 @@ title: Drupal is ook minder geschikt voor afwijkende, custom interactie en funct
   ontwerpen
 created: 1299755590
 tags:
-- UX
-- Ruby-on-rails
-- Projectmanagement
-- Overheden
+- ux
+- ruby on rails
+- projectmanagement
+- overheden
 - interactieontwerp
 - functioneel ontwerp
 - frameworks
-- Drupal
-- Django
-- Design
+- drupal
+- django
+- design
 lang: nl
 ---
 
@@ -29,7 +29,9 @@ Hier doet zich in het geval van een CMS een interessant gegeven voor, namelijk d
 > 
 Er moet dan wel een techneut bijzitten die kan bijsturen, zodat we Drupal optimaal gebruiken en geen zaken gaan bouwen die in Drupal heel moeilijk blijken.
 
-Klinkt redelijk: dat de gebruikte techniek optimaal ingezet wordt. Dat je al tijdens de eerste ideeënfase Drupals ins- en outs leert kennen en je daardoor laat leiden, is geen verkeerde werkwijze.En zo voorkom je honderden uren ontwikkelen van een detail, dat, achter bezien, die honderden uren helemaal niet waard blijkt.
+Klinkt redelijk: dat de gebruikte techniek optimaal ingezet wordt. Dat je al tijdens de eerste ideeënfase Drupals ins- en outs leert kennen en je daardoor laat leiden, is geen verkeerde werkwijze.
+
+En zo voorkom je honderden uren ontwikkelen van een detail, dat, achter bezien, die honderden uren helemaal niet waard blijkt.
 
 Ook een goed idee: om zaken die al voor jou uitgewerk werden gratis in te zetten: scheelt geld.
 > 
@@ -50,7 +52,9 @@ Men zegt niet voor niets dat [A large portion of time spent building [...] is sp
 En daarmee hebben we design, ontwerp, en beheer ook meteen te pakken.
 ## Design:
 > 
-Designers moeten zich confirmeren naar het CMS en hoe daarin zaken gedaan worden.Nu moet gezegd worden dat Drupal misschien niet het makkelijkst te leren is voor ontwerpers (themers), maar zeker een van de (zo niet de aller-) flexibelste qua design.
+Designers moeten zich confirmeren naar het CMS en hoe daarin zaken gedaan worden.
+
+Nu moet gezegd worden dat Drupal misschien niet het makkelijkst te leren is voor ontwerpers (themers), maar zeker een van de (zo niet de aller-) flexibelste qua design.
 
 Overigens heerst onder Drupal-ontwerpers ook veel ongenoegen over dat themen. Dat heeft voor een groot deel een architectuur-technische oorzaak: Drupal is niet MVC, heeft geen "ontworpen" theme-laag, maar grotendeels een organisch gegroeid "gebied". Dat resulteerde in een inconsistente en rommelige "interface", waarbij interface de gereedschapskist is, waarmee de ontwerper/themer aan de slag gaat.
 ## (Interactie) Ontwerp
@@ -66,35 +70,40 @@ Dan is "Drupal optimaal gebruiken" opeens veel minder waardevol, omdat je gewoon
 
 Wanneer je zo een site bouwt, waarin je heel veel moet "undo-en", eindig je niet zelden met honderd, hondervijftig modules. Waarvan een groot deel heel, project- of casespecifiek gebouwd is.
 
-Overigens kent het gemiddelde Rails-project waarmee ik bekend ben, ook ongeveer 50 externe, vereiste bibliotheken (gems). Maar vijftig bibliotheken is iets heel anders dan hondervijftig modules. Mijn ervaring met Django, Symfony, of .NET projecten is te gering om hier een generieke uitspraak over te kunnen doen, maar ik verwacht ongeveer hetzelfde. Een recent CakePHP project dat ik bouwde had twee zulke bilbiotheken: een PDF-library en een Twitter-libary. Niks meer.
+Overigens kent het gemiddelde Rails-project waarmee ik bekend ben, ook ongeveer 50 externe, vereiste bibliotheken (gems). Maar vijftig bibliotheken is iets heel anders dan hondervijftig modules. Mijn ervaring met Django, Symfony, of .
+
+NET projecten is te gering om hier een generieke uitspraak over te kunnen doen, maar ik verwacht ongeveer hetzelfde. Een recent CakePHP project dat ik bouwde had twee zulke bilbiotheken: een PDF-library en een Twitter-libary. Niks meer.
 
 In Drupalprojecten kom ik niet zelden het volgende patroon tegen:
-- Core doet X1
-- Contrib module maakt daarvan X3
-- Eigen module maakt deel van contrib module ongedaan en maakt het gewenste resultaat X2
-- Het theme en theme-preprocessors bouwen daarvan X2'.
+* Core doet X1
+* Contrib module maakt daarvan X3
+* Eigen module maakt deel van contrib module ongedaan en maakt het gewenste resultaat X2
+* Het theme en theme-preprocessors bouwen daarvan X2'.
 
 Dat is ook wat developmentseed bedoelde met "undoing". En er zit dus twee keer zoveel code en twee keer zoveel features in dan nodig: eerst de features en daarvoor nodige code die niet gebruikt gaan worden. En vervolgens code om die features weer te verbergen.
 
 Een ander, veelvoorkomend patroon is:
-- Contrib A doet X op zijn eigen maniertje, niet helemaal passend bij het interactieontwerp.
-- Contrib B doet Y op een ander, eigen maniertje.
-- Eigen module zorgt dat X en Y consistent zijn en samenwerken volgens het interactieontwerp.
-- Theme gebruikt deze data, verwerkt en past ze aan, tot een custom-interface.
+* Contrib A doet X op zijn eigen maniertje, niet helemaal passend bij het interactieontwerp.
+* Contrib B doet Y op een ander, eigen maniertje.
+* Eigen module zorgt dat X en Y consistent zijn en samenwerken volgens het interactieontwerp.
+* Theme gebruikt deze data, verwerkt en past ze aan, tot een custom-interface.
 
-Dat heet in Drupal meestal "gluecode". Omdat het een CMS is, en geen framework, hebben modules (en core) deze "maniertjes". Een (goede) bibliotheek heeft geen maniertjes, maar is hoogstends "opinionated"; wat betekent dat het technische aannames doet, zoals bijvoorbeeld de naamgeving van je database.Dit patroon veroorzaakt ook een zogenaamde "tight coupling" tussen het theme en de implementatie. Een theme kan niet werken zonder dat alledrie modules beschikbaar zijn, én exact volgens een patroon ingeregeld. En andersom zal zonder het theme (of met een ander theme) de site heel anders (of helemaal niet) werken. "Tight coupling" is een bekende oorzaak van veel beheerproblemen en van enorm veel bugs.
+Dat heet in Drupal meestal "gluecode". Omdat het een CMS is, en geen framework, hebben modules (en core) deze "maniertjes". Een (goede) bibliotheek heeft geen maniertjes, maar is hoogstends "opinionated"; wat betekent dat het technische aannames doet, zoals bijvoorbeeld de naamgeving van je database.
+
+Dit patroon veroorzaakt ook een zogenaamde "tight coupling" tussen het theme en de implementatie. Een theme kan niet werken zonder dat alledrie modules beschikbaar zijn, én exact volgens een patroon ingeregeld. En andersom zal zonder het theme (of met een ander theme) de site heel anders (of helemaal niet) werken. "Tight coupling" is een bekende oorzaak van veel beheerproblemen en van enorm veel bugs.
 
 Een Drupalmodule is echter bibliotheek, implementatie en vaak nog design daarvan, in één. Een bibliotheek is enkel bibliotheek. De implementatie, en al helemaal het design is aan de bouwer. Er is dus geen undoing nodig. En geen gluecode (of: iemand zei me ooit: bouwen met Django is alléén maar gluecode schrijven).
 
 Wanneer je in Django een paar [Packages](http://djangopackages.com/) (bibliotheken) binnenhaalt, of in Rails een paar Gems opneemt, is het patroon heel anders:
-- Core doet niets.
-- Gem X biedt een aantal, geabstraheerde, helpers aan.
-- Jou Rails app gebruikt die helpers om, met custom code, het gewenste resultaat te krijgen.
+* Core doet niets.
+* Gem X biedt een aantal, geabstraheerde, helpers aan.
+* Jou Rails app gebruikt die helpers om, met custom code, het gewenste resultaat te krijgen.
 
 Een voorbeeld:
-- Rails heeft van zichzelf geen uploadfunctionaliteit.
-- [Carrierwave](https://github.com/jnicklas/carrierwave) bied de mogelijkheid om heel eenvoudig files aan "objecten" toe te voegen.
-- Het door jou ontwikkelde "article" model, gebruikt enkele regels code om plaatjes aan artikelen toe te voegen, deze te bewerken (thumbnails, watermarks enzovoort) en de resultaten beschikbaar te maken en weer te geven.
+
+* Rails heeft van zichzelf geen uploadfunctionaliteit.
+* [Carrierwave](https://github.com/jnicklas/carrierwave) bied de mogelijkheid om heel eenvoudig files aan "objecten" toe te voegen.
+* Het door jou ontwikkelde "article" model, gebruikt enkele regels code om plaatjes aan artikelen toe te voegen, deze te bewerken (thumbnails, watermarks enzovoort) en de resultaten beschikbaar te maken en weer te geven.
 
 Voor beheer is dus belangrijk dat, om het gewenste "ontwerp" te bereiken, met een CMS vaak erg veel extra modules, addons of eigen code meegeleverd moet worden. Die veelal erg uiteenloopt qua implementatie, veiligheid en kwaliteit. 150 modules beheren is een hel. En helemaal als een groot deel daarvan gluecode en ondoing is.
 

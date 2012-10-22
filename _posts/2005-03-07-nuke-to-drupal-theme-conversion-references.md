@@ -3,8 +3,8 @@ layout: post_archive
 title: ! 'Nuke to Drupal Theme Conversion: References'
 created: 1110214939
 tags:
-- osViews *nuke2Drupal
-- Drupal Talk
+- osviews *nuke2drupal
+- drupal
 lang: en
 ---
 I am starting the conversion to Drupal with a theme conversion. For this, I see two solutions: 

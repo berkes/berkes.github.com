@@ -4,10 +4,10 @@ title: ! 'The first rule of coding for Drupal: never forget about the option to 
   your own code.'
 created: 1271665784
 tags:
-- Project Management
-- PHP
-- Drupal Talk
-- Drupal Blog
+- project management
+- php
+- drupal
+- drupal blog
 lang: en
 ---
 <a href="http://www.yelvington.com/content/first-rule-coding-drupal">yelvington writes</a>: "The first rule of coding for Drupal: We do not write code for Drupal." I must say, that after years , I come to the exact opposite conclusion. Right now, I should be writing another webshop (instead I am writing a blog-post, but this article is not about procastrination :)).

@@ -3,8 +3,8 @@ layout: post_archive
 title: Drupal 4.7 en 5.x hebben een zeer gevaarlijk lek
 created: 1170146293
 tags:
-- Drupal
-- Open Source
+- drupal
+- open source
 - webdevelopment
 lang: nl
 ---

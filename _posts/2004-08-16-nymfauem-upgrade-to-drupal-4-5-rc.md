@@ -3,7 +3,7 @@ layout: post_archive
 title: nymfauem upgrade to Drupal 4.5 RC
 created: 1092648354
 tags:
-- ''
+
 lang: en
 ---
 This morning Drupal announced its <a href="http://drupal.org/node/view/10094">freeze for the 4.5 release</a>,. Since we, at nymfaeum, were working with the unreleased alpha version, this was a great time for one of the last updates.

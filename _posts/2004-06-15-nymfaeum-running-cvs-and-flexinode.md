@@ -3,8 +3,8 @@ layout: post_archive
 title: Nymfaeum running CVS and flexinode
 created: 1087323380
 tags:
-- Collaborative Writing
-- Social Software
+- collaborative writing
+- social software
 lang: en
 ---
 A new project is placed on the benchmarks in the webschuur.com, <a href="http://www.nymfaeum.nl">nymfaeum, a collaborative writing site</a>.<!--break-->

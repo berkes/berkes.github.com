@@ -1,7 +1,7 @@
 ---
 layout: post_medium
 title: "Een nieuw weblog"
-tags: [Drupal, Jekyll]
+tags: [drupal, jekyll]
 lang: nl
 ---
 {% include JB/setup %}

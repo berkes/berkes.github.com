@@ -3,7 +3,7 @@ layout: post_archive
 title: Mosterd na de maaltijd
 created: 1276504307
 tags:
-- Politiek
+- politiek
 - media
 lang: nl
 ---

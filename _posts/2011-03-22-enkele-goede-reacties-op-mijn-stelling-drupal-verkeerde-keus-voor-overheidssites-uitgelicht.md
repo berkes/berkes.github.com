@@ -4,9 +4,9 @@ title: Enkele goede reacties op mijn stelling "Drupal verkeerde keus voor overhe
   uitgelicht
 created: 1300802440
 tags:
-- Ruby-on-rails
-- Overheden
-- Drupal
+- ruby on rails
+- overheden
+- drupal
 - discussie
 lang: nl
 ---
@@ -17,9 +17,15 @@ De meerderheid, was, tegen verwachting, positief. Tegen verwachting, omdat olifa
 
 De enige inhoudelijke reactie waar ik niet meteen een antwoord op heb, is van [MexMast op Maandag 21 Maart 2011 17:07](http://webwereld.nl/article/comments/id/106086) (helaas kan ik niet direct linken naar webwereld reacties, dus even zelf zoeken.)
 <!--break-->> 
-mja lijkt mij een gevaarlijke veralgemening [zie hieronder, BK], als wanhoopsargument. dat het om veel geld gaat veranderd weinig aan het geheel. Tuurlijk kom je er niet door je neef 50 euro te geven voor een zondagje werk.Je zegt letterlijk dat alle overheids websites die drupal gebruiken de verkeerde keuze hebben gemaakt. En dat is vrees ik, uw persoonlijke voorkeur ten spijt, manifest onjuist.De voorbeelden van overheids websites die op drupal draaien zijn veelvuldig aanwezig, tenzij je een paar voorbeelden kan aanhalen van drupal websites en vergelijkbare websites waar de drupal variant veel duurder uitdraaide qua total cost of ownership of functionaliteit. Ik betwijfel het ten zeerste.
+mja lijkt mij een gevaarlijke veralgemening [zie hieronder, BK], als wanhoopsargument. dat het om veel geld gaat veranderd weinig aan het geheel. Tuurlijk kom je er niet door je neef 50 euro te geven voor een zondagje werk.
 
-Dat ik _letterlijk_ zeg dat alle overheids websites die Drupal gebruiken een verkeerde keus maakten is niet waar. Ik insinueer dat wél, maar  blijf telkens terugkomen op "grote Drupalprojecten". Mijn oorspronkelijke titel was ook **Er zijn betere alternatieven voor Drupal**. De Webwereld redactie heeft dat wat aangescherpt; omdat ik dat toch in het artikel zélf goed onderbouw en nuanceer.Ik zeg zeker niet dat overheden verre van Drupal moeten blijven. Ik herhaal: voor veel grote Drupalprojecten kan beter een andere omgeving worden gekozen. Wat ik verder onderbouw.
+Je zegt letterlijk dat alle overheids websites die drupal gebruiken de verkeerde keuze hebben gemaakt. En dat is vrees ik, uw persoonlijke voorkeur ten spijt, manifest onjuist.
+
+De voorbeelden van overheids websites die op drupal draaien zijn veelvuldig aanwezig, tenzij je een paar voorbeelden kan aanhalen van drupal websites en vergelijkbare websites waar de drupal variant veel duurder uitdraaide qua total cost of ownership of functionaliteit. Ik betwijfel het ten zeerste.
+
+Dat ik _letterlijk_ zeg dat alle overheids websites die Drupal gebruiken een verkeerde keus maakten is niet waar. Ik insinueer dat wél, maar  blijf telkens terugkomen op "grote Drupalprojecten". Mijn oorspronkelijke titel was ook **Er zijn betere alternatieven voor Drupal**. De Webwereld redactie heeft dat wat aangescherpt; omdat ik dat toch in het artikel zélf goed onderbouw en nuanceer.
+
+Ik zeg zeker niet dat overheden verre van Drupal moeten blijven. Ik herhaal: voor veel grote Drupalprojecten kan beter een andere omgeving worden gekozen. Wat ik verder onderbouw.
 
 Dat er daarmee dus ook veel overheids-website successvol op Drupal draaien is eenvoudig bewezen en herhaaldelijk aangekaart in reacties. Deze reacties hebben het artikel selectief gelezen, of eenvoudigweg niet gelezen. Want dan hadden ze zeker begrepen dat ik nergens beweer dat _ieder_ overheidsproject _bij Drupal vandaan moet blijven_. Maar dat ik stel dat _grote, bouw-intensieve projecten beter af zijn met andere omgevingen dan Drupal_. Deze nuance kan ik schijnbaar niet vaak genoeg herhalen.
 
@@ -46,8 +52,9 @@ Maar ook met veel complexe omgevingen. Met legacy-databases, ingewikkelde koppel
 Nogmaals: hiermee is niet gezegd dat automatisch alle overheidsprojecten hiermee te maken hebben. Overheden zetten ook regelmatig tijdelijke, kleine of ingekapselde sites in. Voor wijkinformatie, evenementen, PR, acties, bouwprojecten enzovoort. In dit soort projecten kan veel vaker wel dan niet, een CMS ideaal ingezet worden. Voor de [site van het bouwproject naast mijn deur](http://www.nieuwevoorstad.nl), bijvoorbeeld, is een CMS misschien zelfs al te groot en complex. Laat staan dat een raamwerk daar efficient ingezet kon worden.
 
 Kortom: eenieder die roept dat ik specs moet kennen, of dat een overheidsproject meer is dan ontwikkeling alleen, vraag ik te reageren. Geef me voorbeelden, indicaties, projecten en sites waarbij:
-- Er niet, of minimaal ontwikkeld is. Waar Drupal als eenvoudige blokkendoos is ingezet, met een leuk theme erbij en misschien een enkel custom module-tje. Kortom: dat Drupal is ingezet in een project waar het optimaal voor is. En of het totale budget hiervoor minder dan 4 nullen had.
-- Het ontwikkelen, optuigen, migreren en ander development-werk uiteindelijk minder dan 30% van het totale budget opneemt. Waar het, als geheel, om een groot project ging, maar het inzetten van Drupal slechts een klein onderdeeltje is. Waarbij binnen een "groot" project dus toch nauwelijks ontwikkeld is.
+
+* Er niet, of minimaal ontwikkeld is. Waar Drupal als eenvoudige blokkendoos is ingezet, met een leuk theme erbij en misschien een enkel custom module-tje. Kortom: dat Drupal is ingezet in een project waar het optimaal voor is. En of het totale budget hiervoor minder dan 4 nullen had.
+* Het ontwikkelen, optuigen, migreren en ander development-werk uiteindelijk minder dan 30% van het totale budget opneemt. Waar het, als geheel, om een groot project ging, maar het inzetten van Drupal slechts een klein onderdeeltje is. Waarbij binnen een "groot" project dus toch nauwelijks ontwikkeld is.
 
 Voor die projecten zou inderdaad van de buitenkant lijken dat Drupal niet het goede systeem is, want teveel ontwikkeling. Maar zal bij nader inzien Drupal toch zeer geschikt blijken.
 

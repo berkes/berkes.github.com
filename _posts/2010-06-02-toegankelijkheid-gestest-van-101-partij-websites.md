@@ -9,7 +9,13 @@ tags:
 - accessability
 lang: nl
 ---
-Hoe goed, of slecht voldoen de websites van politieke partijen aan de toegankelijkheidsrichtlijnen? Ik verklap het antwoord alvast: Slecht.De piratenpartij is de enige die de basisrichtlijnen op orde heeft. Maar ze heeft enkele details ook niet op orde. Het slechts scoren Groenlinks en SGP, met 8 fouten, waaronder vooral veel belangrijke fouten.Waarom deze lijst? Websites die voldoen aan deze richtlijnen zijn toegankelijk voor iedereen, bijvoorbeeld mensen met voorleesapparaten of braille-terminals. Mogelijk kan dit lijstje iets laten zien over de aandacht die de partijen besteedden aan toegankelijkheid van hun sites. En dus wat ze nu al zélf doen voor toegankelijkheden van minderheden tot hun informatie. Uitereraard is er veel meer dan een validatie van een site. Dus zoek vooral door naar de standpunten van partijen over toegankelijkheid van minderheden tot informatie (en overheidsdiensten en dergelijke).De test is gedaan met een WAI validator. Een simpele check, waar ook de nederlandse stichting Drempelvrij gebruik van maakt.<!--break-->  - [CDA](http://verkiezingen.cda.nl/) - [Faal, 4 fouten](http://www.cynthiasays.com/mynewtester/cynthia.exe?rptmode=2&url1=http%3A%2F%2Fverkiezingen.cda.nl%2F)
+Hoe goed, of slecht voldoen de websites van politieke partijen aan de toegankelijkheidsrichtlijnen? Ik verklap het antwoord alvast: Slecht.
+
+De piratenpartij is de enige die de basisrichtlijnen op orde heeft. Maar ze heeft enkele details ook niet op orde. Het slechts scoren Groenlinks en SGP, met 8 fouten, waaronder vooral veel belangrijke fouten.
+
+Waarom deze lijst? Websites die voldoen aan deze richtlijnen zijn toegankelijk voor iedereen, bijvoorbeeld mensen met voorleesapparaten of braille-terminals. Mogelijk kan dit lijstje iets laten zien over de aandacht die de partijen besteedden aan toegankelijkheid van hun sites. En dus wat ze nu al zélf doen voor toegankelijkheden van minderheden tot hun informatie. Uitereraard is er veel meer dan een validatie van een site. Dus zoek vooral door naar de standpunten van partijen over toegankelijkheid van minderheden tot informatie (en overheidsdiensten en dergelijke).
+
+De test is gedaan met een WAI validator. Een simpele check, waar ook de nederlandse stichting Drempelvrij gebruik van maakt.<!--break-->  - [CDA](http://verkiezingen.cda.nl/) - [Faal, 4 fouten](http://www.cynthiasays.com/mynewtester/cynthia.exe?rptmode=2&url1=http%3A%2F%2Fverkiezingen.cda.nl%2F)
   - [PVDA](http://nu.pvda.nl/) - [Faal, 4 fouten. ](http://www.cynthiasays.com/mynewtester/cynthia.exe?rptmode=2&url1=http%3A%2F%2Fnu.pvda.nl%2F)
   - [SP](http://www.sp.nl/2010/campagnesite/) - [Faal, maar 3 fouten.](http://www.cynthiasays.com/mynewtester/cynthia.exe?rptmode=2&url1=http%3A%2F%2Fwww.sp.nl%2F2010%2Fcampagnesite%2F)
   - [VVD](http://www.vvd.nl/) - [Faal, 5 fouten.](http://www.cynthiasays.com/mynewtester/cynthia.exe?rptmode=2&url1=http%3A%2F%2Fwww.vvd.nl%2F)

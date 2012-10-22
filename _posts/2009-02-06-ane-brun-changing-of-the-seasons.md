@@ -3,8 +3,8 @@ layout: post_archive
 title: Ane Brun - Changing of the Seasons
 created: 1233930346
 tags:
-- Music
-- Noorwegen
+- music
+- noorwegen
 - singersongwriter
 - duyster
 - download

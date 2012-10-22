@@ -3,7 +3,7 @@ layout: post_archive
 title: Status update-je Thailand (geen foto's, alleen lettertjes)
 created: 1272709933
 tags:
-- Thailand 2010
+- thailand 2010
 - holiday
 lang: nl
 ---

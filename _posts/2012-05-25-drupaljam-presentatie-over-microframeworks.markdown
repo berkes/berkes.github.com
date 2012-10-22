@@ -1,7 +1,7 @@
 ---
 layout: post_short
 title: "DrupalJam presentatie over Microframeworks"
-tags: [Drupal, Microframeworks, Presentatie, Sinatra]
+tags: [drupal, microframeworks, presentatie, sinatra]
 lang: nl
 ---
 {% include JB/setup %}
@@ -10,10 +10,13 @@ Voor [DrupalJam 2012](http://drupaljam.nl/) werd mij gevraagd een sessievoorstel
 dienen. Het leek me passend om een aan Drupal-gerelateerd onderwerp te
 zoeken; welke niet direct over Drupal zélf gaat.
 
-**Op deze plek zullen links naar de presentatie en andere resources
-verschijnen na afloop van de presentatie**
-
 Vandaar: [Microframeworks](http://drupaljam.nl/sessie/microframeworks-queen-drupal-en-haar-onderdanen). En hoe je deze in een Drupalomgeving of -project kunt inzetten.
+
+## Update: resources
+
+* [De presentatie](http://berk.es/microframeworks/#/this-qr) ([source](https://github.com/berkes/microframeworks/tree/develop))
+* [De voorbeeld applicatie, "questions"](https://github.com/berkes/microframeworks-questions)
+* [Overzicht van frameworks voor PHP, Python en Ruby](http://berk.es/microframeworks/#/voorbeelden).
 
 # Microframenworks: Queen Drupal en haar onderdanen #
 

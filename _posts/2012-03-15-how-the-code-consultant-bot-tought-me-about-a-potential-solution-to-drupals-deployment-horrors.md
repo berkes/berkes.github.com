@@ -4,7 +4,7 @@ title: How the Code Consultant Bot tought me about a potential solution to Drupa
   deployment horrors.
 created: 1331807160
 tags:
-- ''
+
 lang: en
 ---
 I just learned about the [Code Consultant Bot](https://code-consultant.appspot.com/), a chat-bot version of the [Rubber Duck](http://www.codinghorror.com/blog/2012/03/rubber-duck-problem-solving.html). 

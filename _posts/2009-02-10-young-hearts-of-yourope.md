@@ -3,8 +3,8 @@ layout: post_archive
 title: Young hearts of yourope
 created: 1234302908
 tags:
-- Music
-- Politics
+- music
+- politics
 - europe
 lang: nl
 ---

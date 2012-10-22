@@ -5,7 +5,7 @@ created: 1194104995
 tags:
 - internet
 - marketing
-- Campagne
+- campagne
 - viral
 lang: nl
 ---

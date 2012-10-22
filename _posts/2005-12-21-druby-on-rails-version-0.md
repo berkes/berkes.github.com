@@ -3,8 +3,8 @@ layout: post_archive
 title: Druby on rails (version 0)
 created: 1135162716
 tags:
-- Drupal Talk
-- Ruby
+- drupal
+- ruby
 lang: en
 ---
 <strong>A Drupal developer's first impression of Ruby on Rails.</strong>

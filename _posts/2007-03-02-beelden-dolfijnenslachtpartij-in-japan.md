@@ -3,8 +3,8 @@ layout: post_archive
 title: Beelden Dolfijnenslachtpartij in Japan
 created: 1172863305
 tags:
-- Dwars
-- GroenLinks
+- dwars
+- groenlinks
 - dolfins
 - massacre
 lang: nl

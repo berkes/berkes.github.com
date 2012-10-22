@@ -3,7 +3,7 @@ layout: post_archive
 title: ! 'Brickslate: Moving phptemplate a step closer to perfection :)'
 created: 1139479454
 tags:
-- Drupal Talk
+- drupal
 lang: en
 ---
 It is still a proof of concept: More of a hacked up phptemplate engine, with loads of documented ideas, then a downloadable project. but, since I beleive in early releases (peer reviews++) I decided to blog about this. 

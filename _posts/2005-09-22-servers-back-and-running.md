@@ -3,7 +3,7 @@ layout: post_archive
 title: Servers back and running
 created: 1127380933
 tags:
-- Server
+- server
 lang: en
 ---
 Slowly but surely Lycos is restoring from some strange error (or was it a mistake) 

@@ -3,7 +3,7 @@ layout: post_archive
 title: hmmhhhRevisions
 created: 1137710569
 tags:
-- Drupal Talk
+- drupal
 lang: en
 ---
 With all the whining, nagging, negativisms and couldbedonebetters, I almost forget to write about all that great stuff that happens to Drupal in the mean time. All the work that <a href="http://acko.net/">great</a> <a href="http://drupal.org/services/gerhard">people</a> <a href="http://www.drupal4hu.com/">put</a> into <a href="http://www.buytaert.net/">Drupal</a> Hell, I could go on marking ever single word in the <a href="http://en.wikipedia.org/wiki/Brothers_Grimm">Grimm bundle</a> with A-s, to adress all those great people, sorry to those whom I forgot, I did not forget you! :)

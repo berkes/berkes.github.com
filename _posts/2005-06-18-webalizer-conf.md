@@ -3,10 +3,12 @@ layout: post_archive
 title: webalizer.conf
 created: 1119079631
 tags:
-- Server
+- server
 lang: en
 ---
-This slightly modified webalizr.conf does DNS lookups. The modifcations were made using the <a href="ftp://ftp.mrunix.net/pub/webalizer/DNS.README">webalizer DNS readme</a>.
+This slightly modified webalizr.conf does DNS lookups. The modifcations were made using the <a href="ftp://ftp.mrunix.net/pub/webalizer/DNS.
+
+README">webalizer DNS readme</a>.
 
 <code>
 #!/bin/sh

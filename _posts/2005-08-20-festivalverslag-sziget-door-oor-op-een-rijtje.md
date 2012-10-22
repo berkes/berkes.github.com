@@ -3,7 +3,7 @@ layout: post_archive
 title: festivalverslag sziget door OOR op een rijtje
 created: 1124521932
 tags:
-- Music
+- music
 - sziget 2005 blog
 lang: nl
 ---

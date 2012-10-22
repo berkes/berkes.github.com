@@ -3,7 +3,7 @@ layout: post_archive
 title: webschuur.com announces the alpha release of drupalCOM
 created: 1088629917
 tags:
-- Digital Leaflet
+- digital leaflet
 lang: en
 ---
 DrupalCOM is a repackaging of the default drupal installation. 
