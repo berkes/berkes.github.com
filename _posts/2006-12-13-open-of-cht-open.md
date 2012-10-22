@@ -3,11 +3,11 @@ layout: post_archive
 title: Open of écht Open
 created: 1166006702
 tags:
-- Open Source
-- Dwars
+- open source
+- dwars
 - documenten
-- ODF
-- OpenXML
+- odf
+- openxml
 lang: nl
 ---
 Recentelijk is een nieuwe Microsoft Office uitgebracht. Voor het eerst is het standaard fomraat (zeg maar de .doc bestandjes) open. In die zin, dat het duidelijk beschreven, gedocumenteerd, en zelfs door de officiele standaarden organisatie [ECMA](http://www.ecma-international.org/memento/index.html) als standaard is bestempeld.

@@ -4,9 +4,9 @@ title: Drupal iDEAL codesprint
 created: 1265119404
 tags:
 - opensource
-- iDEAL
-- Drupal
-- DrupalJam
+- ideal
+- drupal
+- drupaljam
 - codesprint
 lang: nl
 ---

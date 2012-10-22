@@ -3,7 +3,7 @@ layout: post_archive
 title: Greensnet
 created: 1122478641
 tags:
-- Social Software
+- social software
 lang: en
 ---
 <?phpif ($_GET['q'] == 'node/201') {  header("HTTP/1.1 301 Moved Permanently");   header("Location: http://greensnet.org");   exit();}?>![sunflower](sites/webschuur.com/files/sunflower_sm.jpg)
@@ -16,50 +16,50 @@ The System will provide you with a huge range of features, the current features 
 Blogs 
 <ul><li>Threaded, sortable, searchable comments </li><li>Every user gets a blog </li><li>Run a powerful Scoop style community blog with peer moderation / promotion </li><li>RSS feeds for community blogs and user blogs </li><li>Import and republish remote blog entries via RSS </li></ul>- Photo Galleries 
 <ul><li>User Galleries </li><li>Community Galleries </li><li>Comments for images </li></ul>- User Profiles 
-- Friend / Buddy Tracking 
+- friend / buddy tracking 
 <ul><li>Add friends to your list and keep track of their postings </li></ul>- Polls 
-- File storage 
+- file storage 
 
 Send targeted email
-- Can handle up to 500,000 emails at once 
-- Query engine to for dynamic lists 
-- Save queries for future use 
-- Save, edit, and web-publish mails 
+- can handle up to 500,000 emails at once 
+- query engine to for dynamic lists 
+- save queries for future use 
+- save, edit, and web-publish mails 
 
  
 
 Import and Aggregate Remote Content
-- Sort, categorize, and republish imported content 
-- Republish remote content as 
+- sort, categorize, and republish imported content 
+- republish remote content as 
 <ul><li>Static Page </li><li>Blog posts </li><li>Forum threads </li></ul>
 Manage your groups membership and contacts
-- Sort and Search by any contact type 
-- Import member contact info via Excel CSV 
-- An account on one CivicSpace site can be used to log into another CivicSpace site 
-- Account profiles can be copied over automatically via FOAF 
+- sort and search by any contact type 
+- import member contact info via excel csv 
+- an account on one civicspace site can be used to log into another civicspace site 
+- account profiles can be copied over automatically via foaf 
 
 Organize Events
-- Let members RSVP / email attendees 
-- Ride-Share board can organize carpooling 
-- Sync Events / Calendar with any other CivicSpace Site (via event name space RSS) 
-- Display events as Calendar or as List 
-- Export events to iCal 
+- let members rsvp / email attendees 
+- ride-share board can organize carpooling 
+- sync events / calendar with any other civicspace site (via event name space rss) 
+- display events as calendar or as list 
+- export events to ical 
 
 Collaboratively create, edit, and publish documents
-- JavaScript WYSIWIG Editor 
-- Textile markup 
-- Create Books 
+- javascript wysiwig editor 
+- textile markup 
+- create books 
 <ul><li>Automatically create hierarchy / index for pages </li><li>Revisioning system lets you roll back user changes </li><li>â€œPrinter-Friendlyâ€? export </li></ul>
 Easily create discussion forum + mailing lists
-- Greenspace supports â€œYahoo-Groups styleâ€? message forums 
+- greenspace supports â€œyahoo-groups styleâ€? message forums 
 <ul><li>You can mail entries to the forum </li><li>You can post entries to the forum that will be sent out as mail the list </li></ul>- Threaded and searchable 
-- Threads can be locked 
-- Threads never expires 
-- Create multiple forum + mailing-lists 
+- threads can be locked 
+- threads never expires 
+- create multiple forum + mailing-lists 
 
 Create forms and surveys for data collection
-- Use web based interface to dynamically create web-surveys 
-- Export collected data as Excell CSVâ€™s 
+- use web based interface to dynamically create web-surveys 
+- export collected data as excell csvâ€™s 
 
 And More! (We are just getting startedâ€¦.)
 

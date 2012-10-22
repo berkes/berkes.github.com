@@ -3,7 +3,7 @@ layout: post_archive
 title: ! 'Ekudos of Nujij: wat zegt google?'
 created: 1179349773
 tags:
-- Web2.0
+- web2.0
 - nieuws
 - ekudos
 - nujij

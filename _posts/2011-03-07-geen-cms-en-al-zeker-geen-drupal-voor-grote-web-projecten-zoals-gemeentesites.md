@@ -3,10 +3,10 @@ layout: post_archive
 title: Geen CMS en al zeker geen Drupal voor grote web-projecten zoals gemeentesites.
 created: 1299510460
 tags:
-- Overheden
-- Projectmanagement
-- Drupal
-- Ruby-on-rails
+- overheden
+- projectmanagement
+- drupal
+- ruby-on-rails
 - frameworks
 lang: nl
 ---

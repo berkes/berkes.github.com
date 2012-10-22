@@ -3,10 +3,10 @@ layout: post_archive
 title: VPRO Luisterpaal muziek downloaden (als ogg of mp3)
 created: 1175096312
 tags:
-- Music
-- VPRO
+- music
+- vpro
 - stout
-- OGG
+- ogg
 - download
 lang: nl
 ---

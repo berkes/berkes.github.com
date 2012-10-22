@@ -3,11 +3,11 @@ layout: post_archive
 title: YUI-grids overwegingen
 created: 1221058595
 tags:
-- YUI
-- Yahoo
-- Webdesign
+- yui
+- yahoo
+- webdesign
 - grids
-- CSS
+- css
 lang: nl
 ---
 Toen ik voor het eerst vernam van [Yahoo GRIDS (YUI)](http://developer.yahoo.com/yui/grids/) en later van [Google Blueprint](http://www.blueprintcss.org/) was ik onplezierig verrast. Grids zijn bedoeld om het ontwerpen en layouten van sites veel makkelijker te maken. En daarin slagen ze wonderwel. Maar ik vond dit alles maar niets.

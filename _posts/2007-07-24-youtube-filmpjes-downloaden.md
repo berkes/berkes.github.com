@@ -6,8 +6,8 @@ tags:
 - download
 - film
 - youtube
-- Dailymotion
-- VideoDownloader
+- dailymotion
+- videodownloader
 - clive
 - gnash
 - metacafe-dl

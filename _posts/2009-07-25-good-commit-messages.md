@@ -3,8 +3,8 @@ layout: post_archive
 title: Good commit messages
 created: 1248549819
 tags:
-- Programming
-- Tips and tricks
+- programming
+- tips and tricks
 lang: en
 ---
 <a href="http://cola.tuxfamily.org/">Git Cola</a> provided a very nice dialog explaining me how to improve my commit message: 

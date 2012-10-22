@@ -8,9 +8,9 @@ tags:
 - webwinkel
 - online shopping
 - shirts
-- Cosmetica
-- Suits
-- Mode
+- cosmetica
+- suits
+- mode
 lang: nl
 ---
 Een klein en (hoop ik) onvolledig lijstje met Fair Trade en/of verantwoorde webwinkels. De meeste webwinkels vond ik via het project "[made-by](http://www.made-by.nl/)" van solidaridad.

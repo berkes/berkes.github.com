@@ -4,9 +4,9 @@ title: Enkele goede reacties op mijn stelling "Drupal verkeerde keus voor overhe
   uitgelicht
 created: 1300802440
 tags:
-- Ruby-on-rails
-- Overheden
-- Drupal
+- ruby-on-rails
+- overheden
+- drupal
 - discussie
 lang: nl
 ---

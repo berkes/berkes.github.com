@@ -3,10 +3,10 @@ layout: post_archive
 title: ! 'Debunking the "ik doe niks fout, dus ik heb niks te verbergen" myth: Privacy'
 created: 1162810469
 tags:
-- Politics
-- Dwars
+- politics
+- dwars
 - privacy
-- GroenLinks
+- groenlinks
 lang: nl
 ---
 Op [webwereld](http://www.webwereld.nl/comments/43583) stonden in een discussie over lekken in Firefox een par hele interessante, concrete en vooral "makkelijke" voorbeelden over waarom privacy toch echt wel belangrijk is. Ook als je "niks fout doet". - Je vraagt een offerte maar die krijg je niet omdat je goksites hebt bezocht.

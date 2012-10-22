@@ -3,12 +3,12 @@ layout: post_archive
 title: ! 'Minder is meer: ontwerpen en opzetten van je site'
 created: 1172580116
 tags:
-- Drupal
-- Design
+- drupal
+- design
 - toegankelijkheid
 - webdevelopment
 - accessability
-- CMS
+- cms
 lang: nl
 ---
 [Zen](http://www.csszengarden.com/), minder is meer enzovoort. Zulke ontwerprincipes zijn er niet voor niks. **Zij helpen de bezoeker te focusen op datgene wat jij wilt dat zij ziet. Ze helpt de site leesbaar te maken en geeft bovenal rust, zodat de bezoeker kan doen waarvoor zij kwam.**Deze kotre inleiding komt van [Sympal](http://help.sympal.nl/minder_is_meer_ontwerpen_en_opzetten_van_je_site), waar ik haar schreef specifiek voor Drupal sites. Maar eigenlijk is het belangrijk voor alle sites. Vandaar de aangepaste versie hier.

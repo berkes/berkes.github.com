@@ -3,10 +3,10 @@ layout: post_archive
 title: Keuze linux distributie voor een webhost
 created: 1156707198
 tags:
-- Server
-- Open Source
-- Linux
-- Debian
+- server
+- open source
+- linux
+- debian
 lang: nl
 ---
 Met [alacarte]() zijn we aan het kijken naar een oplossing voor onze nieuwe servers. Een van de eerste en belangrijkste beslissingen is het kiezen van de distributie (het soort Linux) zeg maar.
