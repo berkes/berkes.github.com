@@ -4,7 +4,7 @@ title: CDPATH, add paths to your "cd" which are accessible from anywhere on your
   for autocopletion.
 created: 1325581764
 tags:
-- ''
+
 lang: en
 ---
 Whenever you use the commandline a lot, you will be browsing to certain directories a lot. Most graphical filebrowsers offer some sort of bookmarking system. So that you can browse to the place where you have your invoices with only two clicks, instead of clicking all trough Documents » Administration » Finance » 2012 » 01. 

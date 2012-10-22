@@ -3,7 +3,7 @@ layout: post_archive
 title: Fixed the theme
 created: 1086988965
 tags:
-- ''
+
 lang: en
 ---
 I started from scratch and re-designed the theme totally. Well, in fact everything looks the same, but it is not. All has been rewritten. 

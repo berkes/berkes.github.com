@@ -3,7 +3,7 @@ layout: post_archive
 title: Problems of a monopolist
 created: 1084185713
 tags:
-- ''
+
 lang: nl
 ---
 Once you are virtually the only one providing software, you come to stand before very difficault issues, it seems.

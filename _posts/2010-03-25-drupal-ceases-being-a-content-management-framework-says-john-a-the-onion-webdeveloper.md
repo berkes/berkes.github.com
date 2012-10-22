@@ -4,7 +4,7 @@ title: ! '"Drupal ceases being a Content Management Framework", says John a The 
   webdeveloper.'
 created: 1269543881
 tags:
-- ''
+
 lang: en
 ---
 Since a while I have been going on about how I think Drupal is not a framework. Some call it a CMF, Content Management Framework. Some even dare to call it a web application framework (WAF). I think the latter have simply never worked with a real framework. But the CMF may be a correct label to put on Drupal. Or. Actually: might have once been.

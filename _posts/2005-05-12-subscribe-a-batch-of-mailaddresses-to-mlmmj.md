@@ -3,7 +3,7 @@ layout: post_archive
 title: Subscribe a batch of mailaddresses to mlmmj
 created: 1115896250
 tags:
-- ''
+
 lang: en
 ---
 This small and simple perl script will iterate over a textfile with mailaddresses. For each address (one line in that file), it will execute the subscription command.

@@ -4,7 +4,7 @@ title: Load Rubygems environment variables on startup (requie 'gemname' gives 'n
   found')
 created: 1271233037
 tags:
-- ''
+
 lang: en
 ---
 Small note to self (When I blog about something, I tend to remember it better). 

@@ -4,7 +4,7 @@ title: ! '3voor12 flash rippen: flash? muziek als flash? ze hebben het web echt 
   begrepen.'
 created: 1135677486
 tags:
-- ''
+
 lang: nl
 ---
 Een paar mensen [vroegen mij hoe je flash kon rippen van 3voor12](http://bler.webschuur.com/3voor12_real_streams_rippen_en_luisteren#comment-2106). Het gaat om de [luisterpaal, bijvoorbeeld](http://3voor12.vpro.nl/3voor12/luisterpaal/luisterpaalmain.shtml).

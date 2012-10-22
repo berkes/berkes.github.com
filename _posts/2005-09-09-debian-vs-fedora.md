@@ -3,7 +3,7 @@ layout: post_archive
 title: debian vs fedora
 created: 1126254666
 tags:
-- ''
+
 lang: nl
 ---
 ... en de winnaar is: Debian!Sinds een par dagen ben ik bezig met het inrichten van onze niewe server. Leuk werk, ware het niet dat het op [Fedora core 3](http://fedora.redhat.com/) moet. Ik wil eigenlijk [Debian](http://www.debian.org/), maar omdat dat niet ondersteund wordt door [degene waar we de server huren](http://www.amenworld.nl/static/index_652.html).

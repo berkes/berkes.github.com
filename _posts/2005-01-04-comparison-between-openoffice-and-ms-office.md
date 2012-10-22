@@ -3,7 +3,7 @@ layout: post_archive
 title: Comparison between OpenOffice and MS-Office
 created: 1104859178
 tags:
-- ''
+
 lang: nl
 ---
 One to remember: a real world comparison between open-office and microsoft office. [Office 2003 vs. Openoffice.

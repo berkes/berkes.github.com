@@ -3,7 +3,7 @@ layout: post_archive
 title: Drupal topsites
 created: 1135646898
 tags:
-- ''
+
 lang: en
 ---
 Je Drupal site promoten is niets anders dan het promoten van eender welke site. Dus veel met je url te koop lopen, overal je links achterlaten (nooit spammen!!) en vooral gewoon goede content aanleveren. 

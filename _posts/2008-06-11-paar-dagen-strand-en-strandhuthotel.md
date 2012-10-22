@@ -3,7 +3,7 @@ layout: post_archive
 title: Paar dagen strand (en strandhuthotel)
 created: 1213173168
 tags:
-- ''
+
 lang: nl
 ---
 [![P1070225-1](http://farm4.static.flickr.com/3083/2546373270_c66530aeba.jpg)](http://www.flickr.com/photos/georg-erber/2546373270/ "flickr photo")<br /><br />

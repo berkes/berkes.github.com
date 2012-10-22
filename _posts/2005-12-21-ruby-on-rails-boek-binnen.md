@@ -3,7 +3,7 @@ layout: post_archive
 title: Ruby on rails boek binnen
 created: 1135170712
 tags:
-- ''
+
 lang: nl
 ---
 Hiephoi. De postbode bracht me vanochtend een nieuw juweeltje. [Agile Web Development with Rails](http://www.pragmaticprogrammer.com/titles/rails/index.html). Oftewel, iets van "flitsend web ontwikklen met rails" in het Nederlands.

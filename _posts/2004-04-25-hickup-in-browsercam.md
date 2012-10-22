@@ -3,7 +3,7 @@ layout: post_archive
 title: Hickup in browsercam
 created: 1082930178
 tags:
-- ''
+
 lang: nl
 ---
 For a while now i have been using [browsercam](http://www.browsercam.com). This is one of the few sites where I seriously think that I should get payd access to. They offer great services for webdesigners. Ever thought "how would this look in browser X that i do not have?". This is he solution. Subscription is free, for a demo that latsts six days. After that you will have to pay.

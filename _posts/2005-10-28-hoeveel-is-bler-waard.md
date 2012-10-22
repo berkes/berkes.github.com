@@ -3,7 +3,7 @@ layout: post_archive
 title: Hoeveel is Bler waard?
 created: 1130488082
 tags:
-- ''
+
 lang: nl
 ---
 <div style="border: 1px solid #cccccc; background-color: white; width: 115px; text-align: center; padding: 0 0 10px 0;">

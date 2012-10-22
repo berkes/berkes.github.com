@@ -3,7 +3,7 @@ layout: post_archive
 title: Tmobile.nl ontoegankelijke website II
 created: 1134044528
 tags:
-- ''
+
 lang: nl
 ---
 [Tmobile antwoordde mij](http://bler.webschuur.com/tmobile_nl_ontoegankelijke_website) met een geheel en al te voorspellen email, die ik hier niet publiceer. Wel mijn reactie.

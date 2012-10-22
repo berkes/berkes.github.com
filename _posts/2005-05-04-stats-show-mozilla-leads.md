@@ -3,7 +3,7 @@ layout: post_archive
 title: Stats show Mozilla leads.
 created: 1115220517
 tags:
-- ''
+
 lang: en
 ---
 As of the first of may, I installed <a href="http://www.mrunix.net/webalizer/">webalizer</a> on the webschuur servers, which host about ten sites. I did this, to get access to mored detailed statistics then Drupal can (and should) offer. 

@@ -3,7 +3,7 @@ layout: post_archive
 title: Nederlandstalig boek over GIMP
 created: 1135537422
 tags:
-- ''
+
 lang: nl
 ---
 [The Gimp](http://www.gimp.org/ "gratis photoshop alternatief") is een fotobewerkingsprogrmma uit de Open Source stal. Dat betekent dat het gratis is (al houdt open source wel wat meer in). Maar bovendien kan het zich zeker meten met pakketten als photoshop, qua features en professionaliteit.

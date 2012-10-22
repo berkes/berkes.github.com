@@ -3,7 +3,7 @@ layout: post_archive
 title: Dosis relativeriingsvermogen
 created: 1102506334
 tags:
-- ''
+
 lang: nl
 ---
 Gisteravond heb ik even op het #drupal IRC kanaal gediscussieerd met een paar andere ontwikkelaars over de Vrije School (waldorf schools). Ik als ervaringsdeskundige, een andere omdat hij zijn kinderen op deze school heeft en weer een andere als criticus. De weblinks, voor en tegen, vlogen om de oren.

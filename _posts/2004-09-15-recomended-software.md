@@ -3,7 +3,7 @@ layout: post_archive
 title: Recomended software
 created: 1095231773
 tags:
-- ''
+
 lang: en
 ---
 Sites made by webschuur.com are always accessible to all people with all browsers. "Accessible" is a term that will be agreed upon when signing the contract and defining the project-details. No additional software, or plugins are neede for browsing the site.

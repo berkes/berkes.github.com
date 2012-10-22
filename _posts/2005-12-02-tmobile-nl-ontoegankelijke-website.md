@@ -3,7 +3,7 @@ layout: post_archive
 title: Tmobile.nl ontoegankelijke website.
 created: 1133521371
 tags:
-- ''
+
 lang: nl
 ---
 Zojuist wilde ik bij t-mobile mijn email/pop settings instellen, zodat ik vanaf mijn telefoon kan mailen en dus kan mobloggen. En natuurlijk ook, zodat ik mijn (gefilterde!) mail kan bekijken op mijn telefoon.

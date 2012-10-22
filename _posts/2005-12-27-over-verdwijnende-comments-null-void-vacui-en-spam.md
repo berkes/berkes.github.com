@@ -3,7 +3,7 @@ layout: post_archive
 title: Over verdwijnende Comments, Null-Void-Vacui en spam
 created: 1135679456
 tags:
-- ''
+
 lang: nl
 ---
 Eens in de zoveel tijd duik ik mijn comment-systeem in en maak daar alles eens goed schoon (hmm, die gewoonte zou ik in mijn keuken ook eens moeten toepassen :)). Wat schetste mijn verbazing: mijn spamfilter was een beetje te streng geweest en had vrolijk jullie schrijfsels als spam aangemerkt. en paar, althan.

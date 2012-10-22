@@ -3,7 +3,7 @@ layout: post_archive
 title: Drupal.org documents improvements.
 created: 1086275320
 tags:
-- ''
+
 lang: nl
 ---
 Here you find my idea of how the index of the [Drupal Documentation](http://drupal.org/handbook) should be modeled. The idea is simple: MAke the sections on drupal.org mirrors of eachother. We now have four support forums "Pre Installation issues", "Installation issues", "Upgrading issues"and post installation issues". I would like the books to follow this structure. So I introduced four new pages under the "administer section", that resemble these. The FAQ should remain there, imo.<br /><br />On top of that I wrote a small guideline paragraph. To point people to the fact that books are not meant for asking queestions, but rather for documentation. Comments should thus only be used for discussing the article, not asking help.<br /><br />- General information about Drupal

@@ -3,7 +3,7 @@ layout: post_archive
 title: Drupal cookies and privacy laws
 created: 1108744664
 tags:
-- ''
+
 lang: en
 ---
 "The use of internetcookies is in contradiction with all privacyrules in the EU", according to the <a href="http://odur.let.rug.nl/alfa/scripties/NicolineBraat.pdf">thesis</a> about the collecting of personal details on internet, by a Groninger student in IT, <a href="http://odur.let.rug.nl/alfa/scripties/NicolineBraat.html">Nicoline Braat</a>.

@@ -3,7 +3,7 @@ layout: post_archive
 title: Why not to use -dev versions of Drupal-modules.
 created: 1332500091
 tags:
-- ''
+
 lang: en
 ---
 [Cross post from a Reddit Thread](http://www.reddit.com/r/drupal/comments/r8p2b/to_drupal_newbies_if_youre_not_yet_using_boost_do/). Comments are most welcome [there](http://www.reddit.com/r/drupal/comments/r8p2b/to_drupal_newbies_if_youre_not_yet_using_boost_do/c43zghj?context=3)

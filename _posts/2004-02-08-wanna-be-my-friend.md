@@ -3,7 +3,7 @@ layout: post_archive
 title: wanna be my friend?
 created: 1076276760
 tags:
-- ''
+
 lang: nl
 ---
 It makes me think of the old days in primary school a bit. The one with the cooles, most expensive and most marbles got the most friends.

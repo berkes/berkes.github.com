@@ -3,7 +3,7 @@ layout: post_archive
 title: Bler.partyfashion.net is moving
 created: 1086184849
 tags:
-- ''
+
 lang: en
 ---
 Since the idea of webschuur is that it is a meeting point for various project relations, such as developers, clients and colleagues, we are moving to a networked system.

@@ -3,7 +3,7 @@ layout: post_archive
 title: dork gets p0wned
 created: 1212414077
 tags:
-- ''
+
 lang: nl
 ---
 [![dork gets p0wned](http://farm3.static.flickr.com/2132/2544335167_f8579859b8.jpg)](http://www.flickr.com/photos/bler/2544335167/ "flickr photo")<br /><br />

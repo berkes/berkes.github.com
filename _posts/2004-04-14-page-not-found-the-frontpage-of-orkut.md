@@ -3,7 +3,7 @@ layout: post_archive
 title: Page not found? The frontpage of orkut.
 created: 1081895582
 tags:
-- ''
+
 lang: nl
 ---
 How can one have his or her frontpage a 404 page not found? Really odd.

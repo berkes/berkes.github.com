@@ -3,7 +3,7 @@ layout: post_archive
 title: Dabr.nl released. Mobile frontend for Twitter
 created: 1252758640
 tags:
-- ''
+
 lang: en
 ---
 [Dabr.nl](http://dabr.nl) is released! Dabr is an [Open Source](http://code.google.com/p/dabr/) mobile frontend to twitter. It is better then m.twitter.com, self-hosted, and it is open source![David Carrington](http://davidcarrington.co.uk/) invented and built it. I merely installed and configured it for my Dutch servers. So to become a Dutch mirror for dabr!More about [Dabr.nl on the about page](http://dabr.nl/).
