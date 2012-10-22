@@ -4,7 +4,7 @@ title: The history of Drupal Theme Garden
 created: 1168521149
 tags:
 - theming
-- drupal talk
+- drupal
 - drupal
 lang: en
 ---

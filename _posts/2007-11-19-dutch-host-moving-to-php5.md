@@ -5,7 +5,7 @@ created: 1195502678
 tags:
 - project management
 - php
-- drupal talk
+- drupal
 - drupal hosting
 lang: en
 ---

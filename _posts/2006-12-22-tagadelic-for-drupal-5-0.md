@@ -3,7 +3,7 @@ layout: post_archive
 title: Tagadelic for Drupal 5.0
 created: 1166806538
 tags:
-- drupal talk
+- drupal
 lang: en
 ---
 > Hi, you may have already been asked this numerous times, but I couldn't

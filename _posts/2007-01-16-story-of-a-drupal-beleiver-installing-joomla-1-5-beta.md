@@ -5,7 +5,7 @@ created: 1168945292
 tags:
 - php
 - theming
-- drupal talk
+- drupal
 - drupal
 lang: en
 ---

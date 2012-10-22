@@ -3,7 +3,7 @@ layout: post_archive
 title: Manage remote git modules in your gitted Drupal with submodules
 created: 1262444011
 tags:
-- drupal talk
+- drupal
 - drupal
 lang: en
 ---

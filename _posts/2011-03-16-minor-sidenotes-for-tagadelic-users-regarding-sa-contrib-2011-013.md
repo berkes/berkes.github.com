@@ -4,7 +4,7 @@ title: Minor sidenotes for Tagadelic users, regarding SA-CONTRIB-2011-013
 created: 1300302500
 tags:
 - php
-- drupal talk
+- drupal
 - drupal
 lang: en
 ---

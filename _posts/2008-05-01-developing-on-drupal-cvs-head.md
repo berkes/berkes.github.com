@@ -4,7 +4,7 @@ title: Developing on Drupal CVS HEAD
 created: 1209652296
 tags:
 - project management
-- drupal talk
+- drupal
 - drupal
 lang: en
 ---

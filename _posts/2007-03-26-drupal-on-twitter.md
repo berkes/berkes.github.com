@@ -6,7 +6,7 @@ tags:
 - php
 - collaborative writing
 - social software
-- drupal talk
+- drupal
 - drupal
 lang: en
 ---

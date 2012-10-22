@@ -5,7 +5,7 @@ created: 1189953560
 tags:
 - php
 - server
-- drupal talk
+- drupal
 - drupal hosting
 - drupal
 lang: en

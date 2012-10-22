@@ -8,7 +8,7 @@ tags:
 - design
 - theming
 - css
-- drupal talk
+- drupal
 - drupal
 lang: en
 ---

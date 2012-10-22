@@ -3,7 +3,7 @@ layout: post_archive
 title: ! 'Next generation tags: tags with more context.'
 created: 1137702620
 tags:
-- drupal talk
+- drupal
 lang: en
 ---
 Recently I noticed some interesting use of tags, around the web. On <a href="http://de.lirio.us/rubric/entries/tags/license:gpl">de.lirio.us</a> I found people using the colon to give more meaning to tags, like <em>license:gpl</em>. Another famous one is the for:some_username in del.icio.us. All that triggered me. 

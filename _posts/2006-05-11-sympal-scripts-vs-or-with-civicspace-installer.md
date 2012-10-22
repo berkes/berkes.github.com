@@ -6,7 +6,7 @@ tags:
 - project management
 - php
 - server
-- drupal talk
+- drupal
 - sympal.nl
 - ruby on rails
 lang: en

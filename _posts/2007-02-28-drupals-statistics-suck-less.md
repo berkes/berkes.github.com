@@ -4,7 +4,7 @@ title: Drupal's statistics suck.(less?)
 created: 1172682771
 tags:
 - server
-- drupal talk
+- drupal
 - drupal hosting
 - drupal
 lang: en

@@ -6,7 +6,7 @@ tags:
 - project management
 - php
 - library
-- drupal talk
+- drupal
 - drupal
 lang: en
 ---

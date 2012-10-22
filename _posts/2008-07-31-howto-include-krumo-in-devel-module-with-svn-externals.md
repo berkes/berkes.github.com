@@ -5,7 +5,7 @@ created: 1217518993
 tags:
 - project management
 - tips and tricks
-- drupal talk
+- drupal
 - dat doe je zo
 lang: en
 ---

@@ -10,7 +10,7 @@ tags:
 - design
 - theming
 - css
-- drupal talk
+- drupal
 - drupal
 - usability
 - drupal blog

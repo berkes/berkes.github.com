@@ -3,7 +3,7 @@ layout: post_archive
 title: Flexinode update
 created: 1167049673
 tags:
-- drupal talk
+- drupal
 - flexinode
 lang: en
 ---

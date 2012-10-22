@@ -5,7 +5,7 @@ created: 1102524091
 tags:
 - theming
 - css
-- drupal talk
+- drupal
 lang: en
 ---
 I use browsercam and flickr for reports of website designs. 

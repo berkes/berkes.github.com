@@ -3,7 +3,7 @@ layout: post_archive
 title: quicktags release, highlighting the hooks!
 created: 1148505801
 tags:
-- drupal talk
+- drupal
 lang: en
 ---
 [Quicktags](http://drupal.org/project/quicktags) ([screenshot+install](http://www.webschuur.com/modules/quicktags)) was just released for 4.7. I cleaned out the whole part, had a big fight with FormsAPI (had to abuse theme functions to insert the JS, but okay) and I rewrote the hooks part. Yes, quicktags has hooks to let you insert your own quicktag buttons!

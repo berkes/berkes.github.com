@@ -4,7 +4,7 @@ title: Five serious security issues and configurations, I found in recent client
   sites
 created: 1223737347
 tags:
-- drupal talk
+- drupal
 - drupal
 lang: en
 ---

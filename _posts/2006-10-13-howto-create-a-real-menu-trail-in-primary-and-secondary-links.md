@@ -7,7 +7,7 @@ tags:
 - tips and tricks
 - theming
 - css
-- drupal talk
+- drupal
 - stl_stella
 lang: en
 ---

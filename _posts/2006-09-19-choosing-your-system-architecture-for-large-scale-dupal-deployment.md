@@ -4,7 +4,7 @@ title: Choosing your system architecture for large scale Dupal deployment.
 created: 1158663251
 tags:
 - php
-- drupal talk
+- drupal
 - drupal hosting
 - sympal.nl
 - ruby

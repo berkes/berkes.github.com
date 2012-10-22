@@ -4,7 +4,7 @@ title: Drupal with apache in a chrooted jail
 created: 1147185377
 tags:
 - server
-- drupal talk
+- drupal
 - sympal.nl
 lang: en
 ---

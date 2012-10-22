@@ -7,7 +7,7 @@ tags:
 - jabber
 - xmpp
 - open standards
-- opensource
+- open source
 - empathy
 - pidgin
 - adium

@@ -4,7 +4,7 @@ title: jabber at webschuur
 created: 1127473538
 tags:
 - server
-- drupal talk
+- drupal
 lang: en
 ---
 I have been a long time fan of Jabber. And now that <a href="http://talk.google.com">google talk</a> runs on jabber too, I decided to take the plunge and have a look at the server, hows, if and why's.

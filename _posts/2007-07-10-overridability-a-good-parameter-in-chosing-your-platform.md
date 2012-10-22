@@ -6,7 +6,7 @@ tags:
 - project management
 - programming
 - php
-- drupal talk
+- drupal
 - ruby
 - ruby on rails
 lang: en

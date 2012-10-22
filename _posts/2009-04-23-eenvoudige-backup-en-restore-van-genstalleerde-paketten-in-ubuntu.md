@@ -4,7 +4,7 @@ title: Eenvoudige backup en restore van geïnstalleerde paketten in Ubuntu.
 created: 1240500297
 tags:
 - ubuntu
-- opensource
+- open source
 - dpkg
 - debian
 - backup-manager

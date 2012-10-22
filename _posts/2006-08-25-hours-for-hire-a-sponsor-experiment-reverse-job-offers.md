@@ -7,7 +7,7 @@ tags:
 - programming
 - php
 - theming
-- drupal talk
+- drupal
 lang: en
 ---
 Yesterday I received two cancellation for projects in the next months, good for a total of over 200 reserved hours. So I am free (as in beer). This leaves a fabulous chance for an experiment I have been wanting to do for a long while: _Reverse Job Offers_.

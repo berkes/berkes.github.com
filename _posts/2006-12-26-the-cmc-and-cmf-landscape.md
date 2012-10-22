@@ -5,7 +5,7 @@ created: 1167131788
 tags:
 - project management
 - php
-- drupal talk
+- drupal
 - drupal
 - ruby
 - ruby on rails

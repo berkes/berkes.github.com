@@ -4,7 +4,7 @@ title: Why I chose to disclose a security issue and not report it to Drupal secu
   team.
 created: 1296748306
 tags:
-- drupal talk
+- drupal
 - drupal
 - drupal blog
 lang: en

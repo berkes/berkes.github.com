@@ -4,7 +4,7 @@ title: Why I withdraw my Pledge to have Tagadelic ready for Drupal 7
 created: 1275652355
 tags:
 - php
-- drupal talk
+- drupal
 - drupal
 lang: en
 ---

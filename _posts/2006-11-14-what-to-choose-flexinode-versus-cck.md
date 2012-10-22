@@ -6,7 +6,7 @@ tags:
 - project management
 - tips and tricks
 - theming
-- drupal talk
+- drupal
 - drupal
 - flexinode
 lang: en

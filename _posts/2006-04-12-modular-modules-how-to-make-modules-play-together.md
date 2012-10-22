@@ -5,7 +5,7 @@ created: 1144849850
 tags:
 - project management
 - organisation management
-- drupal talk
+- drupal
 - drupal
 lang: en
 ---

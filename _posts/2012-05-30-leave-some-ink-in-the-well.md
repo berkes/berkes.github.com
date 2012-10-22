@@ -2,7 +2,7 @@
 layout: post_long
 title: "Leave some Ink in the Well"
 tags:
-- coding corner
+- programming
 - tips and tricks
 lang: en
 ---

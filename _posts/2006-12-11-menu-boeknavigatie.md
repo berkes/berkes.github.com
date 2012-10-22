@@ -3,7 +3,7 @@ layout: post_archive
 title: menu boeknavigatie
 created: 1165840326
 tags:
-- coding corner
+- programming
 - drupal
 - sympal
 - open source

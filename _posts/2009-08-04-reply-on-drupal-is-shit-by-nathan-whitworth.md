@@ -3,7 +3,7 @@ layout: post_archive
 title: Reply on "Drupal is Shit" by Nathan Whitworth
 created: 1249397785
 tags:
-- drupal talk
+- drupal
 - drupal
 lang: en
 ---

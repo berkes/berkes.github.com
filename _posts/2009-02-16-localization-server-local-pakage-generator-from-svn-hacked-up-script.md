@@ -5,7 +5,7 @@ created: 1234778161
 tags:
 - project management
 - tips and tricks
-- drupal talk
+- drupal
 - drupal
 lang: en
 ---

@@ -6,7 +6,7 @@ tags:
 - knowledge management
 - collaborative writing
 - weblogging
-- drupal talk
+- drupal
 - drupal
 - comment module
 - blog module

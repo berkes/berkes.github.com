@@ -8,7 +8,7 @@ tags:
 - tips and tricks
 - design
 - theming
-- drupal talk
+- drupal
 - drupal
 lang: en
 ---

@@ -5,7 +5,7 @@ title: Drupal is ook minder geschikt voor afwijkende, custom interactie en funct
 created: 1299755590
 tags:
 - ux
-- ruby-on-rails
+- ruby on rails
 - projectmanagement
 - overheden
 - interactieontwerp

@@ -3,7 +3,7 @@ layout: post_archive
 title: Project directories in Apache
 created: 1082637440
 tags:
-- coding corner
+- programming
 lang: nl
 ---
 Because I work for various clients on various projects, I wanted to configure my localhost apache server in a way that all my projects can be automatically recognised by apache.<br /><br />Each of my projects gets a new directory under ~&frasl;Documents in the form PRJ_project where PRJ is a globally used project code (use it in my mail, time tracking etceteras) and project is the humanreadable name. <br /><br />Each of these folders contains various subfolders: ~&frasl;Documents&frasl;PRJ_project&frasl;res~&frasl;Documents&frasl;PRJ_project&frasl;admin~&frasl;Documents&frasl;PRJ_project&frasl;wwwetc.

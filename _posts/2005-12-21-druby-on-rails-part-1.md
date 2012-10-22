@@ -3,7 +3,7 @@ layout: post_archive
 title: Druby on Rails part 1
 created: 1135199843
 tags:
-- drupal talk
+- drupal
 - ruby
 lang: en
 ---

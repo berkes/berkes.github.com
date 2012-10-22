@@ -3,7 +3,7 @@ layout: post_archive
 title: Veilig surfen volgens NRC next
 created: 1167779169
 tags:
-- coding corner
+- programming
 - open source
 - security
 lang: nl

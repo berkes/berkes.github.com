@@ -3,7 +3,7 @@ layout: post_archive
 title: Rethink revision workflow
 created: 1100507000
 tags:
-- drupal talk
+- drupal
 lang: en
 ---
 <a href="http://drupal.org/user/10681">elias1884</a> Writes: please overthink the revision system default workflow as well. don't look at the revision system as an isolated system but as a part of the whole workflow system!<!--break-->

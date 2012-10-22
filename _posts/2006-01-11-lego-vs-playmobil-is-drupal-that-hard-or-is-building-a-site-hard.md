@@ -3,7 +3,7 @@ layout: post_archive
 title: ! 'Lego vs Playmobil : Is Drupal that hard, or is building a site hard?'
 created: 1136979297
 tags:
-- drupal talk
+- drupal
 - usability
 lang: en
 ---

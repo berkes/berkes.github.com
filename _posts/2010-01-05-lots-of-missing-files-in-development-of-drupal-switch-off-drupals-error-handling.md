@@ -4,7 +4,7 @@ title: Lots of missing files in development of Drupal? Switch off Drupal's error
 created: 1262725609
 tags:
 - tips and tricks
-- drupal talk
+- drupal
 - drupal
 - drupal blog
 lang: en

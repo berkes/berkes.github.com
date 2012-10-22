@@ -4,7 +4,7 @@ title: ! 'Nuke to Drupal Theme conversion: Prepare HTML'
 created: 1110218052
 tags:
 - osviews *nuke2drupal
-- drupal talk
+- drupal
 lang: en
 ---
 We now need a barebones HTML file. Before starting with this , we need to knwo the areas, or regions we will use. <!--break-->

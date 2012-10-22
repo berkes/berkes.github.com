@@ -6,7 +6,7 @@ tags:
 - php
 - theming
 - css
-- drupal talk
+- drupal
 - whatsinitsname theme design blog
 lang: en
 ---

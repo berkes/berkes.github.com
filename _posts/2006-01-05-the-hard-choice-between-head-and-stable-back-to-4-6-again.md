@@ -5,7 +5,7 @@ created: 1136463086
 tags:
 - remix reading
 - local web news
-- drupal talk
+- drupal
 - sympal.nl
 lang: en
 ---

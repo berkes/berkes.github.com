@@ -3,7 +3,7 @@ layout: post_archive
 title: Natoshiba is dood.
 created: 1129477392
 tags:
-- coding corner
+- programming
 - wishlist
 lang: nl
 ---

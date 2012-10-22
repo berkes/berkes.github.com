@@ -3,7 +3,7 @@ layout: post_archive
 title: Drupal Roadmap, Proposal
 created: 1081885112
 tags:
-- coding corner
+- programming
 lang: nl
 ---
   This is a summarised and ordered version of the thread on drupal.org "battle plans".<!--break-->        - Usability improvements [Dries, Chris Johnson]              

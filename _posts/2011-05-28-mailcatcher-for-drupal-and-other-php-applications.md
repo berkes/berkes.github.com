@@ -4,7 +4,7 @@ title: Mailcatcher for Drupal and other PHP-applications
 created: 1306591723
 tags:
 - php
-- drupal talk
+- drupal
 - drupal
 - drupal blog
 - ruby

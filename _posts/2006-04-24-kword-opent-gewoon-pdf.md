@@ -3,7 +3,7 @@ layout: post_archive
 title: Kword opent gewoon PDF
 created: 1145867728
 tags:
-- coding corner
+- programming
 - kde
 lang: nl
 ---

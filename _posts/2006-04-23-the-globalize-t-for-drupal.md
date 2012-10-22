@@ -3,7 +3,7 @@ layout: post_archive
 title: the globalize.t for Drupal?
 created: 1145785452
 tags:
-- drupal talk
+- drupal
 - ruby
 - ruby on rails
 lang: en

@@ -4,7 +4,7 @@ title: Hyves Desktop Open Source
 created: 1231159399
 tags:
 - qt
-- opensource
+- open source
 - kde
 - hyves
 lang: nl

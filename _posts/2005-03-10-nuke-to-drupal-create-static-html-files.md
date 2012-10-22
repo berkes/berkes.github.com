@@ -4,7 +4,7 @@ title: ! 'Nuke to Drupal: Create static HTML files.'
 created: 1110451412
 tags:
 - osviews *nuke2drupal
-- drupal talk
+- drupal
 lang: en
 ---
 After finishing the barebones, we need to create a static HTML file, that will be chopped up into various temaplate files later. 

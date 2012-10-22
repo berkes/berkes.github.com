@@ -4,7 +4,7 @@ title: Flexinode bug list now resembling reality...
 created: 1167777368
 tags:
 - php
-- drupal talk
+- drupal
 - flexinode
 lang: en
 ---

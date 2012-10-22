@@ -4,7 +4,7 @@ title: Ancient, sure. But does it show regression?
 created: 1152889589
 tags:
 - php
-- drupal talk
+- drupal
 - usability
 lang: en
 ---

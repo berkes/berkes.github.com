@@ -7,7 +7,7 @@ tags:
 - collaborative writing
 - social software
 - weblogging
-- drupal talk
+- drupal
 lang: en
 ---
 ## Taxonomy and freetagging as the spine of the site

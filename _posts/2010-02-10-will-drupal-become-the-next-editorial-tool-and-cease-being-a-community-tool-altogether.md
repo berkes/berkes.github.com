@@ -5,7 +5,7 @@ title: Will Drupal become the next editorial tool (and cease being a community t
 created: 1265808462
 tags:
 - social software
-- drupal talk
+- drupal
 - drupal
 lang: en
 ---

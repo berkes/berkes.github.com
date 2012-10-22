@@ -3,7 +3,7 @@ layout: post_archive
 title: DVDbackup de oplossing?
 created: 1115930017
 tags:
-- coding corner
+- programming
 lang: nl
 ---
 Vandaag heb ik zitten spelen met [DVDbackup](http://dvd-create.sourceforge.net/dvdbackup-readme.html). Ik had eenvoudigweg genoeg van [k3b](http://www.k3b.org/). Nooit lijkt het zomaar te werken. Bovendien heb ik het niet zo op applicaties die 'alles' proberen te doen. Ze doen dan namelijk nooit precies alles goed.

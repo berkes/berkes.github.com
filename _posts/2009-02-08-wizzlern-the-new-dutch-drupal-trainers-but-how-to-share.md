@@ -8,7 +8,7 @@ tags:
 - collaborative writing
 - tips and tricks
 - theming
-- drupal talk
+- drupal
 - drupal
 - drupal blog
 - videocasts

@@ -3,7 +3,7 @@ layout: post_archive
 title: The gimp splash screen contest
 created: 1102617214
 tags:
-- coding corner
+- programming
 - activist
 lang: nl
 ---

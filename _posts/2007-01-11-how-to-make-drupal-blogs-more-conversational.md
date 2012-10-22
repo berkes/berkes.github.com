@@ -7,7 +7,7 @@ tags:
 - php
 - collaborative writing
 - weblogging
-- drupal talk
+- drupal
 - drupal
 - drupal blog
 lang: en

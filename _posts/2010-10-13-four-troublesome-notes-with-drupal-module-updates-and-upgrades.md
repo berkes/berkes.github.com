@@ -4,7 +4,7 @@ title: Four troublesome notes with Drupal module-updates and upgrades.
 created: 1286960488
 tags:
 - project management
-- drupal talk
+- drupal
 - drupal
 lang: en
 ---

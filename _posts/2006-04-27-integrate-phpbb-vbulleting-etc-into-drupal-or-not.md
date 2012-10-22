@@ -6,7 +6,7 @@ tags:
 - project management
 - organisation management
 - social software
-- drupal talk
+- drupal
 lang: en
 ---
 Huston, we have a problem.

@@ -7,7 +7,7 @@ tags:
 - php
 - tips and tricks
 - theming
-- drupal talk
+- drupal
 - drupal
 lang: en
 ---

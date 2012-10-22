@@ -3,7 +3,7 @@ layout: post_archive
 title: grappige spam
 created: 1129909930
 tags:
-- coding corner
+- programming
 lang: nl
 ---
 Soms is spam echt grappig. Er zat een virus aan deze mail waarin zogenaamd de details staan. Niet openen dus op een windows machien.

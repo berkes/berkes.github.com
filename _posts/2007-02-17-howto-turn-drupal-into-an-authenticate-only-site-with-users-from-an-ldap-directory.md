@@ -4,7 +4,7 @@ title: HOWTO turn Drupal into an authenticate-only site with users from an LDAP 
 created: 1171745883
 tags:
 - php
-- drupal talk
+- drupal
 - drupal hosting
 - drupal
 lang: en

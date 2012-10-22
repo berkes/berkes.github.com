@@ -3,7 +3,7 @@ layout: post_archive
 title: firefox sillyness
 created: 1122192686
 tags:
-- coding corner
+- programming
 - activist
 lang: nl
 ---

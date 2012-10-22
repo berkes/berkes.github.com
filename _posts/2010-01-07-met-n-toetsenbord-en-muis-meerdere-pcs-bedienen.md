@@ -6,7 +6,7 @@ tags:
 - x2x
 - linux
 - ubuntu
-- opensource
+- open source
 - ssh
 - kvm.
 lang: nl

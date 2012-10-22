@@ -3,7 +3,7 @@ layout: post_archive
 title: Voortgangs schermpjes centraliseren onder KDE
 created: 1148474407
 tags:
-- coding corner
+- programming
 - kde
 - open source
 lang: nl

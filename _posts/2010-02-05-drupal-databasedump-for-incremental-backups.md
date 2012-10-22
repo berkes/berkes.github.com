@@ -5,7 +5,7 @@ created: 1265370001
 tags:
 - server
 - tips and tricks
-- drupal talk
+- drupal
 - drupal hosting
 - drupal
 lang: en

@@ -3,7 +3,7 @@ layout: post_archive
 title: Comment spam getting smarter and Drupal-focused
 created: 1169553076
 tags:
-- drupal talk
+- drupal
 - drupal
 lang: en
 ---

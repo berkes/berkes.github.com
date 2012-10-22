@@ -8,7 +8,7 @@ tags:
 - php
 - tips and tricks
 - design
-- drupal talk
+- drupal
 - drupal
 - usability
 - ruby

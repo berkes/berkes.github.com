@@ -3,7 +3,7 @@ layout: post_archive
 title: Getting local getting personal
 created: 1138286448
 tags:
-- drupal talk
+- drupal
 - sympal.nl
 lang: en
 ---

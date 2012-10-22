@@ -3,7 +3,7 @@ layout: post_archive
 title: Pedofielen op chatsites. 'Het is technisch onmogelijk om....'
 created: 1174406120
 tags:
-- opensource
+- open source
 - msn
 - jabber
 - pedofielen

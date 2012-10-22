@@ -4,7 +4,7 @@ title: iDEAL codesprint at the Drupaljam
 created: 1268162695
 tags:
 - php
-- drupal talk
+- drupal
 - drupal
 - usability
 lang: en

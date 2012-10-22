@@ -4,7 +4,7 @@ title: Disallow anyone but you, to reach the update files
 created: 1167994421
 tags:
 - server
-- drupal talk
+- drupal
 - drupal
 lang: en
 ---

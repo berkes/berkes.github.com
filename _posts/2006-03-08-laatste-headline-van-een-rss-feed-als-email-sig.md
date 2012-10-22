@@ -3,7 +3,7 @@ layout: post_archive
 title: laatste headline van een RSS feed als email sig.
 created: 1141812918
 tags:
-- coding corner
+- programming
 - ruby
 lang: nl
 ---

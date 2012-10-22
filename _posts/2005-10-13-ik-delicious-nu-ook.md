@@ -3,7 +3,7 @@ layout: post_archive
 title: ik delicious nu ook
 created: 1129219226
 tags:
-- coding corner
+- programming
 lang: nl
 ---
 Eindelijk.... zullen we maar zeggen.

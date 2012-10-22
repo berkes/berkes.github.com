@@ -4,7 +4,7 @@ title: Maar in praktijk valt dat toch allemaal wel mee, wordt Drupal toch erg va
   succesvol ingezet?
 created: 1299587164
 tags:
-- ruby-on-rails
+- ruby on rails
 - projectmanagement
 - overheden
 - frameworks

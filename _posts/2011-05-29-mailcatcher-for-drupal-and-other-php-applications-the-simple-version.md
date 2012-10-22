@@ -4,7 +4,7 @@ title: Mailcatcher for Drupal and other PHP-applications - The simple version
 created: 1306674909
 tags:
 - php
-- drupal talk
+- drupal
 - drupal
 - drupal blog
 - ruby

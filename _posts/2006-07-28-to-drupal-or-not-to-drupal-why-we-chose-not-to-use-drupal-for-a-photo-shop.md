@@ -3,7 +3,7 @@ layout: post_archive
 title: To Drupal or not to Drupal, why we chose not to use Drupal for a photo shop.
 created: 1154077078
 tags:
-- drupal talk
+- drupal
 - newsphoto eu
 lang: en
 ---

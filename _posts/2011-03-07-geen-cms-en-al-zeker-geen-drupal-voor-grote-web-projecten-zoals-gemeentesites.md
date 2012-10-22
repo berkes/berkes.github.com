@@ -6,7 +6,7 @@ tags:
 - overheden
 - projectmanagement
 - drupal
-- ruby-on-rails
+- ruby on rails
 - frameworks
 lang: nl
 ---

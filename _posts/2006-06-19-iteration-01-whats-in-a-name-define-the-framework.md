@@ -5,7 +5,7 @@ created: 1150745984
 tags:
 - theming
 - css
-- drupal talk
+- drupal
 - whatsinitsname theme design blog
 lang: en
 ---

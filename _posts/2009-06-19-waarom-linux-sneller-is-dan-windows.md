@@ -5,7 +5,7 @@ created: 1245390560
 tags:
 - ubuntu
 - linux
-- opensource
+- open source
 - performance
 - windows
 lang: nl

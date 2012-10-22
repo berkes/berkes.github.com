@@ -3,7 +3,7 @@ layout: post_archive
 title: Dischosting
 created: 1130611768
 tags:
-- drupal talk
+- drupal
 - drupal hosting
 lang: en
 ---

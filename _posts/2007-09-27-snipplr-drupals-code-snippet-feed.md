@@ -8,7 +8,7 @@ tags:
 - tips and tricks
 - theming
 - css
-- drupal talk
+- drupal
 - drupal
 - ruby
 - ajax
