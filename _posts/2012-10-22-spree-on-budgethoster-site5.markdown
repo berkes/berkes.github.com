@@ -1,6 +1,6 @@
 ---
 layout: post_medium
-title: "Spree on budgethoster Site5"
+title: "Spree e-commerce on budgethoster Site5"
 tags: [whitepaper, ruby-on-rails, spree, e-commerce, hosting, site5,
 git-deploy]
 lang: en
@@ -114,6 +114,9 @@ nagios checking actually kind-of solves this too, since it acts as a
 All in all, I am very happy with this host. It offers far (far!) more then one
 would expect from a €5/month. In my "enterprise"-jobs, I have to deal with €500-and-up-per-month
 hosters who have far worse deals, support, deployment and uptime.
+
+Their absolute biggest downside is the way their bulkhosting environment holds them back from upgrading to Ruby 1.9.3. 
+So, if you depend on a reasonable recent Ruby-version, bad luck. 
 
 ## Git Deploy
 
