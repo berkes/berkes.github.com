@@ -52,8 +52,9 @@ Maar ook met veel complexe omgevingen. Met legacy-databases, ingewikkelde koppel
 Nogmaals: hiermee is niet gezegd dat automatisch alle overheidsprojecten hiermee te maken hebben. Overheden zetten ook regelmatig tijdelijke, kleine of ingekapselde sites in. Voor wijkinformatie, evenementen, PR, acties, bouwprojecten enzovoort. In dit soort projecten kan veel vaker wel dan niet, een CMS ideaal ingezet worden. Voor de [site van het bouwproject naast mijn deur](http://www.nieuwevoorstad.nl), bijvoorbeeld, is een CMS misschien zelfs al te groot en complex. Laat staan dat een raamwerk daar efficient ingezet kon worden.
 
 Kortom: eenieder die roept dat ik specs moet kennen, of dat een overheidsproject meer is dan ontwikkeling alleen, vraag ik te reageren. Geef me voorbeelden, indicaties, projecten en sites waarbij:
-- Er niet, of minimaal ontwikkeld is. Waar Drupal als eenvoudige blokkendoos is ingezet, met een leuk theme erbij en misschien een enkel custom module-tje. Kortom: dat Drupal is ingezet in een project waar het optimaal voor is. En of het totale budget hiervoor minder dan 4 nullen had.
-- Het ontwikkelen, optuigen, migreren en ander development-werk uiteindelijk minder dan 30% van het totale budget opneemt. Waar het, als geheel, om een groot project ging, maar het inzetten van Drupal slechts een klein onderdeeltje is. Waarbij binnen een "groot" project dus toch nauwelijks ontwikkeld is.
+
+* Er niet, of minimaal ontwikkeld is. Waar Drupal als eenvoudige blokkendoos is ingezet, met een leuk theme erbij en misschien een enkel custom module-tje. Kortom: dat Drupal is ingezet in een project waar het optimaal voor is. En of het totale budget hiervoor minder dan 4 nullen had.
+* Het ontwikkelen, optuigen, migreren en ander development-werk uiteindelijk minder dan 30% van het totale budget opneemt. Waar het, als geheel, om een groot project ging, maar het inzetten van Drupal slechts een klein onderdeeltje is. Waarbij binnen een "groot" project dus toch nauwelijks ontwikkeld is.
 
 Voor die projecten zou inderdaad van de buitenkant lijken dat Drupal niet het goede systeem is, want teveel ontwikkeling. Maar zal bij nader inzien Drupal toch zeer geschikt blijken.
 

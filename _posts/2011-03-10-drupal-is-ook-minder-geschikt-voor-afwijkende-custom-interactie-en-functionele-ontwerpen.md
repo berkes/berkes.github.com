@@ -75,18 +75,18 @@ Overigens kent het gemiddelde Rails-project waarmee ik bekend ben, ook ongeveer 
 NET projecten is te gering om hier een generieke uitspraak over te kunnen doen, maar ik verwacht ongeveer hetzelfde. Een recent CakePHP project dat ik bouwde had twee zulke bilbiotheken: een PDF-library en een Twitter-libary. Niks meer.
 
 In Drupalprojecten kom ik niet zelden het volgende patroon tegen:
-- Core doet X1
-- Contrib module maakt daarvan X3
-- Eigen module maakt deel van contrib module ongedaan en maakt het gewenste resultaat X2
-- Het theme en theme-preprocessors bouwen daarvan X2'.
+* Core doet X1
+* Contrib module maakt daarvan X3
+* Eigen module maakt deel van contrib module ongedaan en maakt het gewenste resultaat X2
+* Het theme en theme-preprocessors bouwen daarvan X2'.
 
 Dat is ook wat developmentseed bedoelde met "undoing". En er zit dus twee keer zoveel code en twee keer zoveel features in dan nodig: eerst de features en daarvoor nodige code die niet gebruikt gaan worden. En vervolgens code om die features weer te verbergen.
 
 Een ander, veelvoorkomend patroon is:
-- Contrib A doet X op zijn eigen maniertje, niet helemaal passend bij het interactieontwerp.
-- Contrib B doet Y op een ander, eigen maniertje.
-- Eigen module zorgt dat X en Y consistent zijn en samenwerken volgens het interactieontwerp.
-- Theme gebruikt deze data, verwerkt en past ze aan, tot een custom-interface.
+* Contrib A doet X op zijn eigen maniertje, niet helemaal passend bij het interactieontwerp.
+* Contrib B doet Y op een ander, eigen maniertje.
+* Eigen module zorgt dat X en Y consistent zijn en samenwerken volgens het interactieontwerp.
+* Theme gebruikt deze data, verwerkt en past ze aan, tot een custom-interface.
 
 Dat heet in Drupal meestal "gluecode". Omdat het een CMS is, en geen framework, hebben modules (en core) deze "maniertjes". Een (goede) bibliotheek heeft geen maniertjes, maar is hoogstends "opinionated"; wat betekent dat het technische aannames doet, zoals bijvoorbeeld de naamgeving van je database.
 
@@ -95,14 +95,15 @@ Dit patroon veroorzaakt ook een zogenaamde "tight coupling" tussen het theme en 
 Een Drupalmodule is echter bibliotheek, implementatie en vaak nog design daarvan, in één. Een bibliotheek is enkel bibliotheek. De implementatie, en al helemaal het design is aan de bouwer. Er is dus geen undoing nodig. En geen gluecode (of: iemand zei me ooit: bouwen met Django is alléén maar gluecode schrijven).
 
 Wanneer je in Django een paar [Packages](http://djangopackages.com/) (bibliotheken) binnenhaalt, of in Rails een paar Gems opneemt, is het patroon heel anders:
-- Core doet niets.
-- Gem X biedt een aantal, geabstraheerde, helpers aan.
-- Jou Rails app gebruikt die helpers om, met custom code, het gewenste resultaat te krijgen.
+* Core doet niets.
+* Gem X biedt een aantal, geabstraheerde, helpers aan.
+* Jou Rails app gebruikt die helpers om, met custom code, het gewenste resultaat te krijgen.
 
 Een voorbeeld:
-- Rails heeft van zichzelf geen uploadfunctionaliteit.
-- [Carrierwave](https://github.com/jnicklas/carrierwave) bied de mogelijkheid om heel eenvoudig files aan "objecten" toe te voegen.
-- Het door jou ontwikkelde "article" model, gebruikt enkele regels code om plaatjes aan artikelen toe te voegen, deze te bewerken (thumbnails, watermarks enzovoort) en de resultaten beschikbaar te maken en weer te geven.
+
+* Rails heeft van zichzelf geen uploadfunctionaliteit.
+* [Carrierwave](https://github.com/jnicklas/carrierwave) bied de mogelijkheid om heel eenvoudig files aan "objecten" toe te voegen.
+* Het door jou ontwikkelde "article" model, gebruikt enkele regels code om plaatjes aan artikelen toe te voegen, deze te bewerken (thumbnails, watermarks enzovoort) en de resultaten beschikbaar te maken en weer te geven.
 
 Voor beheer is dus belangrijk dat, om het gewenste "ontwerp" te bereiken, met een CMS vaak erg veel extra modules, addons of eigen code meegeleverd moet worden. Die veelal erg uiteenloopt qua implementatie, veiligheid en kwaliteit. 150 modules beheren is een hel. En helemaal als een groot deel daarvan gluecode en ondoing is.
 

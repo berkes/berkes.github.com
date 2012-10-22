@@ -31,8 +31,9 @@ Een barebone is eigenlijk geen systeem, platform of omgeving, maar juist het ont
 ## Open Source
 
 «Gemeente Grootezee heeft nu DuurBetaaldCMS X, dus Drupal is Open Source, dus beter.» Is een veelgehoord argument. Laat vooropstaan dat juist voor publieke diensten zoals gemeentesites twee dingen enorm belangrijk zijn:
-- Voor bezoekers en gebruikers: Toegankelijkheid en voldoen aan standaarden.
-- Voor overheden: Onafhankelijk zijn van bedrijven, contracten en licenties.
+
+* Voor bezoekers en gebruikers: Toegankelijkheid en voldoen aan standaarden.
+* Voor overheden: Onafhankelijk zijn van bedrijven, contracten en licenties.
 
 Maar Drupal is zeker niet de enige oplossing die [hieraan kan voldoen](http://isoc.nl/consultatie/resultaten.odt). Open Source betekent ook niet, dat iets als Open Source ingekocht moet worden. Een gemeente kan best een bestaand closed source pakket opkopen of iets geheel van de grond af aan laten ontwikkelen en het dan Open Source vrijgeven!Ik zie zelfs veel overheidsprojecten waar men Drupal modules heeft laten ontwikkelen die niet vrijgegeven zijn!Gelukkig blijken ook enkele projecten [wel](http://drupal.org/project/rijkshuisstijl) het [geval](https://drupal.org/project/digid). In elk geval is het gebruiken van Open Source nog geen garantie dat de investering ook bij de gemeenschap terugkomt.
 

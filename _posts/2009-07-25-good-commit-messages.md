@@ -11,9 +11,9 @@ lang: en
 <blockquote>
 A good commit message has the following format:
 
-- First line: Describe in one sentence what you did.
-- Second line: Blank
-- Remaining lines: Describe why this change is good.
+* First line: Describe in one sentence what you did.
+* Second line: Blank
+* Remaining lines: Describe why this change is good.
 </blockquote>
 
 I did some additional research and found some good other guidelines.
