@@ -3,12 +3,12 @@ layout: post_archive
 title: The CMC and CMF landscape
 created: 1167131788
 tags:
-- Project Management
-- PHP
-- Drupal Talk
-- Drupal
-- Ruby
-- Ruby on Rails
+- project management
+- php
+- drupal
+- drupal
+- ruby
+- ruby on rails
 lang: en
 ---
 '[Drupal considered dangerous](http://poorbuthappy.com/ease/archives/2006/12/09/3382/drupal-considered-dangerous-for-startups)' has been echoing trough the RSS feeds for the last days. More often then not, the word Ruby has been mentioned. To kill some FUD before it is even spread, I wrote a short intro on [what Ruby and Ruby on Rails are](http://groups.drupal.org/node/2176), and how they stand newt to Drupal.

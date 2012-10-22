@@ -1,7 +1,7 @@
 ---
 layout: post_medium
 title: "Standardising the technology stack (or CMS) is silly"
-tags: [CMS, techonolgy, management]
+tags: [cms, techonolgy, management]
 lang: en
 ---
 {% include JB/setup %}

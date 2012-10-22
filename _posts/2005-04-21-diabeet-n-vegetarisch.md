@@ -3,7 +3,7 @@ layout: post_archive
 title: Diabeet én vegetarisch
 created: 1114067279
 tags:
-- Diabetes blog
+- diabetes blog
 lang: nl
 ---
 Al jaren eet ik geen vlees meer. Uit overtuiging, en omdat het [gezonder](http://nl.wikipedia.org/wiki/Gezonde_voeding) is. Ook eet ik geen vis, uit overtuiging en omdat ik vis verafschuw. Echt, ik kan me bijna niets smerigers voorstellen om te eten dan iets wat in water heeft geleefd.

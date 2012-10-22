@@ -26,7 +26,9 @@ Usage:
     {% endfor %}
   {% else %}
     {% for tag in tags_list %}
-      <a href="{{ BASE_PATH }}{{ site.JB.tags_path }}#{{ tag[0] }}-ref" class="black radius label">{{ tag[0] }}<span class="size">{{ tag[1].size }}</span></a>
+      {% if tag[1].size > 1 %}
+        <a href="{{ BASE_PATH }}{{ site.JB.tags_path }}#{{ tag[0] }}-ref" class="black radius label">{{ tag[0] }}<span class="size">{{ tag[1].size }}</span></a>
+      {% endif %}
     {% endfor %}
   {% endif %}
 {% endif %}

@@ -3,10 +3,10 @@ layout: post_archive
 title: Nieuwe CSS zengardens
 created: 1209979651
 tags:
-- CSS
-- Webdesign
+- css
+- webdesign
 - webdevelopment
-- Standards
+- standards
 lang: nl
 ---
 In mijn RSS feeds zag ik dat de [CSS Zengarden](http://www.csszengarden.com/?cssfile=/213/213.css&page=0) weer vier nieuwe designs online heeft gezet. ([CSS zengarden feed hier](http://www.csszengarden.com/zengarden.xml))Voor hen die het niet kennen: CSS zengarden is een initiatief om te laten zien dat je met CSS heel mooie sites kunt bouwen. Helaas nog altijd actueel, want de vervloekte photoshop/dreamweaver of flash-only-sites worden nog altijd gebouwd.

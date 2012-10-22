@@ -3,8 +3,8 @@ layout: post_archive
 title: Quick and Dirty Vitalist to Rememberthemilk migration script.
 created: 1215114377
 tags:
-- Project Management
-- Ruby
+- project management
+- ruby
 lang: en
 ---
 Because I decided to try [Remember the milk](https://www.rememberthemilk.com) again for my Getting Things Done thingies, I had to import all my stuff from [vitalist.com](http://vitalist.com). In order to do so, I hacked together a [dirty Ruby script](http://snipplr.com/view/7104/rough-vitalist-to-rememberthemilk-conversion/). It may help someone who  is trying to achieve the same.

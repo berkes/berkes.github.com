@@ -5,7 +5,7 @@ created: 1168543345
 tags:
 - security
 - privacy
-- Proxy
+- proxy
 lang: nl
 ---
 In mijn [artikel voor het NRC](http://bler.webschuur.com/nrcnext_met_mijn_bijdrage_erin_harry_hacker_surft_ook_mee) next schreef ik al dat een proxy zoals tor de veiligheid van jezelf kan verhogen. Ook schreef ik in die reactie dat het gebruiken van zomaar een gratis of commerciële proxy je privacy of veiligheid helemaal niet ten goede hoeft te komen: iedere malloot kan immers die proxy draaien, en jij hebt geen flauw idee wat ze doen met al jou informatie die door die proxy gaat. Daarom is het misschien wel het verstandigs om zelf een proxy te draaien, lokaal. Uiteraard zal een lokale proxy geen invloed hebben op je privacy, immers, het IP adres van waarop je surft is nog altijd dat van jezelf: je identiteit op het web verandert er niet door.

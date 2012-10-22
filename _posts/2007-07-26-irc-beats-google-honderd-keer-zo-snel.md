@@ -3,11 +3,11 @@ layout: post_archive
 title: IRC beats google, honderd keer zo snel
 created: 1185477275
 tags:
-- Web2.0
+- web2.0
 - internet
-- Web3.0
+- web3.0
 - web1.0
-- IRC
+- irc
 lang: nl
 ---
 Ik kwam van een lange treinrit thuis. Zet mijn scherm aan, log in en vervolgens begint mijn pc als een gek te rammelen. Mijn [mailprogramma](http://kontact.kde.org/) staat helemaal te flippen; nee, Open Source is geen garantie voor 100% stabiliteit.

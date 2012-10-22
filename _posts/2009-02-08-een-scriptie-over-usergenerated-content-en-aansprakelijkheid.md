@@ -3,11 +3,11 @@ layout: post_archive
 title: Een scriptie over Usergenerated content en aansprakelijkheid
 created: 1234102439
 tags:
-- Web2.0
-- USer-generated content
-- UGC
-- NCRV
-- Creative Commons
+- web2.0
+- user-generated content
+- ugc
+- ncrv
+- creative commons
 - auteursrecht
 lang: nl
 ---

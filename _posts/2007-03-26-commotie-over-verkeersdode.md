@@ -3,8 +3,8 @@ layout: post_archive
 title: Commotie over verkeersdode
 created: 1174907288
 tags:
-- Politiek
-- Drugs
+- politiek
+- drugs
 lang: nl
 ---
 Laten we eens alle kanten van het bericht [Commotie over paddo-dode](http://www.nu.nl/news/1020544/12/Commotie_over_paddo-dode_(video).html) bekijken, voor we meteen wijzen naar schuldigen.

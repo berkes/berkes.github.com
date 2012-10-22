@@ -3,17 +3,17 @@ layout: post_archive
 title: Good commit messages
 created: 1248549819
 tags:
-- Programming
-- Tips and tricks
+- programming
+- tips and tricks
 lang: en
 ---
 <a href="http://cola.tuxfamily.org/">Git Cola</a> provided a very nice dialog explaining me how to improve my commit message: 
 <blockquote>
 A good commit message has the following format:
 
-- First line: Describe in one sentence what you did.
-- Second line: Blank
-- Remaining lines: Describe why this change is good.
+* First line: Describe in one sentence what you did.
+* Second line: Blank
+* Remaining lines: Describe why this change is good.
 </blockquote>
 
 I did some additional research and found some good other guidelines.

@@ -4,13 +4,13 @@ title: ! 'Volgende twitter-experiment: alles naar twitter dumpen. (en daarmee aa
   dat twitter dit jaar gaat verzuipen)'
 created: 1264847891
 tags:
-- Twitter
+- twitter
 - blog
 - lastfm
 - facebook
 - voorspelling
 - activity-stream
-- RSS
+- rss
 lang: nl
 ---
 Mijn [maand twinderen](http://bler.webschuur.com/twitter_experiment_de_hele_maand_januari_schrijf_ik_maximaal_2_tweets_per_dag) is goed bevallen. Over het concrete resultaat schrijf ik nog een nieuwe blogpost, maar het aantal replies, followers en vooral de kwaliteit van de schrijfsels ging vooruit. Nu ga ik het experiment doortrekken en doe ik het precies andersom; twitter wordt één maand lang mijn centrale dump-plek. Iedere tool, applicaite of dienst die ik gebruik, die naar twitter kan posten laat ik dat ook doen. Ongeveer wat mijn [Activity stream](http://bler.webschuur.com/activity_stream) hier al doet.<!--break-->Ik ben namelijk overtuigd dat twitter dit jaar gaat knappen. De twuchtbel spat uiteen als gevolg van de enorm toenemende ruis. Tenzij -en eigenlijk hoop ik daar vooral op- twitter zelf met oplossingen komt om de ruis uit te filteren. En met filteren bedoel ik niet dat ik niks meer wil horen over dat stomme iDing, maar filteren van allerlei automatische tweets. Bijvoorbeeld in de vorm die facebook al heeft, waarmee ik kan aangeven nooit meer van die mafia-op-de-boerderij berichten te willen zien. Met automatsiche tweets bedoel ik bijvoorbeeld iphones die melding maken dat je op zoveel graden noorderbreedte en zoveel zuiderbreedte bent aangekomen. Gaap. Of tweets die vanuit RSS-feeds gevoed worden (als ik die feed wil volgen, gebruik ik wel een feedreader, dankje). Tweets dat je de zoveelduizendste foto van jezelf liet maken, tweets vanuit je mediaspeler die iedereen vertellen waar je naar luistert, welke sites je bookmarkt, dat je een foto op flickr zette, of hoveel je nu weer [weegt](http://www.elektroretailmagazine.nl/2010/01/12/twitterende-weegschaal/).

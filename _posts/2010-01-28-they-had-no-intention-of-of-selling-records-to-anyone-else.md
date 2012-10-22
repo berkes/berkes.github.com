@@ -3,7 +3,7 @@ layout: post_archive
 title: ! '"They had no intention of of selling records to anyone else"'
 created: 1264713376
 tags:
-- Music
+- music
 - ska
 - rocksteady
 - reggae

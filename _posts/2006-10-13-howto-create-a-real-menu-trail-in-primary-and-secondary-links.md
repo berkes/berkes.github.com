@@ -3,12 +3,12 @@ layout: post_archive
 title: HOWTO create a real menu trail in primary and secondary links
 created: 1160748265
 tags:
-- PHP
-- Tips and tricks
-- Theming
-- CSS
-- Drupal Talk
-- STL_stella
+- php
+- tips and tricks
+- theming
+- css
+- drupal
+- stl_stella
 lang: en
 ---
 The menu system in Drupal is very complex, both from the inside and from the outside. One part of the menu is the  concept of primary and secondary links. these links are usually printed across the top of your page. The good news is that they are menu-items, like any other, the bad news is that the HTML is different from the other menu's.  

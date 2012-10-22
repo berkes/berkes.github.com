@@ -3,7 +3,7 @@ layout: post_archive
 title: ! 'Small but Useful modules: are they worth the pain?'
 created: 1275551670
 tags:
-- ''
+
 lang: en
 ---
 A [blogpost on Merge](http://blog.merge.nl/2010/06/03/10-small-but-useful-drupal-modules-part-2/) brought a question back that has haunted me for a while now. **What about all these small modules?**First part of that question is: **How to deal with the many small modules, day-to-day?**. Quite often, I see sites that drag more then 50 modules along. Most often these are really very simple sites.

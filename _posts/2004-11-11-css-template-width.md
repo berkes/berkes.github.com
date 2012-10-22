@@ -3,7 +3,7 @@ layout: post_archive
 title: ! 'CSS template: width'
 created: 1100197553
 tags:
-- ''
+
 lang: en
 ---
 Template for web sites that are designed with fixed minimum and maximum widths, but also allow text resizing under Gecko and MSIE (and probably others).  There are a couple of tricks to doing this, since MSIE doesn't follow the rules, but it can be done or well approximated.  Here are some of the basics I've come across that are needed in the CSS and (X)HTML:

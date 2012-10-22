@@ -3,7 +3,7 @@ layout: post_archive
 title: KDE met koffice kleiner dan open office?
 created: 1130538929
 tags:
-- Coding Corner
+- programming
 lang: nl
 ---
 Een par KDE developers hebben de moeite genomen projecten te meten aan hun [aantal regels programmacode](http://www.valdyas.org/fading/index.cgi/2005/10/29#kloc). Daaruit blijkt dat KDE en Koffice tezamen nog altijd kleiner zijn dan OpenOffice. Vandaar dat openoffice zo traag is. (NB als het is geïnstalleerd is OO.o nog altijd VELE malen kleiner dan MS office! die laatste heeft allerhande trucjes om het pakket sneller te doen lijken ingebouwd in windows).

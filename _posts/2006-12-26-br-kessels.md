@@ -3,7 +3,7 @@ layout: post_archive
 title: Bèr Kessels
 created: 1167145597
 tags:
-- Me
+- me
 lang: nl
 ---
 ![](http://bler.webschuur.com/sites/bler.webschuur.com/files/Ber_ 005_BW85x85.png) Bèr Kessels is zelfstandig ondernemer, eigenaar van [webschuur.com](http://webschuur.com), [Drupal ontwikkelaar](http://drupal.org/user/2663), of eigenlijk meer algemeen: [Libre/Open Source](http://bler.webschuur.com/categorieen/site_classification/open_source) software [![the way of the hacker](http://bler.webschuur.com/sites/bler.webschuur.com/files/hacker.png)hacker](http://nl.wikipedia.org/wiki/Hacker).- [Mijn LinkedIn netwerk](http://www.linkedin.com/in/webschuur)

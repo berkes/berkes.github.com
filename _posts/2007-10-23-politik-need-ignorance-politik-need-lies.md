@@ -3,8 +3,8 @@ layout: post_archive
 title: politik need ignorance politik need lies
 created: 1193170101
 tags:
-- Music
-- Politics
+- music
+- politics
 lang: nl
 ---
 Een tijdje geleden bracht Manu Chao zijn oude-nieuwe CD uit, [La Radiolina](http://www.mp3sparks.com/r2/Manu_Chao/La_Radiolina/group_5371/album_7/mcatalog.shtml?albref=14). Veel van hetzelfde, in een nieuwig jasje. Super dus. Het Album is echter een hele grote stap terug richting [Mano Negra](http://nl.wikipedia.org/wiki/Mano_Negra), qua teksten vooral. scherper, harder en aggressiever. De muziek is ook een stukje punkier op momenten, al herken je veel riedeltjes uit Manu Cha's overbekende vorige albums.

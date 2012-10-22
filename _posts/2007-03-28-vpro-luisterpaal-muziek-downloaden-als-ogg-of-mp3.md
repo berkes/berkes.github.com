@@ -3,10 +3,10 @@ layout: post_archive
 title: VPRO Luisterpaal muziek downloaden (als ogg of mp3)
 created: 1175096312
 tags:
-- Music
-- VPRO
+- music
+- vpro
 - stout
-- OGG
+- ogg
 - download
 lang: nl
 ---
@@ -17,4 +17,5 @@ Sla onderstaand op in een bestandje luisterpaal.sh, en voer dat uit met de argum
 Want "ze" zeggen dan wel heel vaak "maar op Linux is Dit en Dat heel moeilijk". Zal best, maar op linux zijn heel veel zaken, heel veel makkelijk. Een scriptje schrijven om een luisterpaal van de VPRO leeg te zuigen, (en ik heb de ballen verstand van de taal Bash waar ik het in schreef, het kan dus veel sneller als je goed bent) kost minder dan 10 minuten. En eens je zo'n scriptje hebt, en het ene beetje uitbreid (drie regeltjes extra) kunnen zelfs de Wijs-en-Klik lutsers het gebruiken. Aan jou de eer een front-endje eraan te knopen dus (Firefox plugin, iemand?)**update 08-02-2008**. Iemand van de VPRO heeft mij vriendelijk verzocht deze pagina te verwijderen. Ik verwijder geen pagina's, dus mijn antwoord was "nee", met een uitleg waarom, hoe en wat enzovoort.
 
 Wel heb ik beloofd een paar opmerkingen op te nemen:- Het bovenstaande script werkt al een tijdje niet meer. Ik heb geen plannen het te updaten, want het was vooral een proof of concept.
-- Ik wil nogmaals benadrukken dat muziek stelen niet netjes is. Dat het **niet aan jou is om te bepalen of iemand zijn werk gratis moet weggeven**. Als je vind dat muziek gratis moet zijn, zoek dan naar artiesten die er wel voor kozen hun muziek gratis weg te geven. Daarvan zijn er genoeg
+* Ik wil nogmaals benadrukken dat muziek stelen niet netjes is. Dat het **niet aan jou is om te bepalen of iemand zijn werk gratis moet weggeven**. Als je vind dat muziek gratis moet zijn, zoek dan naar artiesten die er wel voor kozen hun muziek gratis weg te geven. Daarvan zijn er genoeg
+

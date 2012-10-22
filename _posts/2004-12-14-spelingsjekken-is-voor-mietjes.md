@@ -3,7 +3,7 @@ layout: post_archive
 title: spelingsjekken is voor mietjes
 created: 1103035982
 tags:
-- ''
+
 lang: nl
 ---
 Als je goed knipt en plakt heb je nergens last van. Kijk maar: ik heb NUL fout in het hele dictee 2004!:<!--break-->Normen en waardenOndanks zijn chronische ingewandsziekte begon de comicus zijn dagelijkse cadans met een eigenzinnige gedachte-exercitie over normen en waarden, oftewel gedragingen die hij graag geïmplanteerd zag bij vreemde vogels in zijnniet-geseculariseerde santenkraam.

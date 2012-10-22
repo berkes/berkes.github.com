@@ -3,8 +3,8 @@ layout: post_archive
 title: Open Source en de provincies
 created: 1173099504
 tags:
-- GroenLinks
-- Groenlinks Embedded
+- groenlinks
+- groenlinks embedded
 lang: nl
 ---
 Een provincie heeft vooral veel te zeggen over hoe zaken georganisseerd worden. Niet eens zozeer in wetjes en regeltjes, maar vooral als adviserende en sturende overheid.

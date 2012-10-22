@@ -3,9 +3,9 @@ layout: post_archive
 title: ! 'Goed Voornemen: kunde en waarheid'
 created: 1168094304
 tags:
-- Music
-- Movie Monger
-- Politics
+- music
+- movie monger
+- politics
 - bler
 - webschuur
 - blog

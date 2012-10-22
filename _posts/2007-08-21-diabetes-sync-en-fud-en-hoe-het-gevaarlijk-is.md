@@ -3,10 +3,10 @@ layout: post_archive
 title: Diabetes, Sync en FUD (en hoe het gevaarlijk is)
 created: 1187723389
 tags:
-- Diabetes blog
-- Diabetes
-- Bakker
-- Sync
+- diabetes blog
+- diabetes
+- bakker
+- sync
 lang: nl
 ---
 Ik ben diabeet. Nog niet heel lang, maar lang genoeg om toch de achtergrond goed te weten. Ik ben ook nieuwsgierig genoeg om alles er over te _willen_ weten. Lang genoeg ook om me genoeg ingelezen te hebben en mezelf kenner te durven noemen.

@@ -3,7 +3,7 @@ layout: post_archive
 title: Gnomoradio Log
 created: 1100214863
 tags:
-- Music
+- music
 lang: nl
 ---
 I installed [Gnomoradio](http://www.gnomoradio.org) today again. Its a great tool to find new music, for free. Legal new music, that is!I intend to use this page a log for great songs I come by with this radio.

@@ -3,8 +3,8 @@ layout: post_archive
 title: ! 'Lego vs Playmobil : Is Drupal that hard, or is building a site hard?'
 created: 1136979297
 tags:
-- Drupal Talk
-- Usability
+- drupal
+- usability
 lang: en
 ---
 ![](http://www.webschuur.com/sites/webschuur.com/files/Legobitar.jpg) When I was a kid I kind of looked down on the [Playmobil Kids](http://www.playmobil.com/index.html). I preferred [Lego](http://www.lego.com:80/eng/create/productPage.aspx?family=creator). It gave me huge power to build my own toys, and allowed me to be creative. It allowed me to build what I had in mind, not to only play the way some marketing department thought I should play.

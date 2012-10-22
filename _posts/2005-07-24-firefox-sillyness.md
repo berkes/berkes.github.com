@@ -3,8 +3,8 @@ layout: post_archive
 title: firefox sillyness
 created: 1122192686
 tags:
-- Coding Corner
-- Activist
+- programming
+- activist
 lang: nl
 ---
 With all respect to the great work at firefox, the software still sucks. And I am not referring to how pages are rendered, or how some pages or plugins break. That is a problem at the side of the webdevelopers, not the browser developers. No, I mean features. Firefox wants to do far too much, and with that, it completely breaks my system administration and my desktop experience. Because of all this, I firmly stick to Konqueror. And I suggest to all Mac users, that they stick to Safari. If IE did not suck that hard with regards to security, and broken CSS rendering, I would suggest all windows users to use IE. Having your native dialogs should be enough reason already to stick to these browsers.

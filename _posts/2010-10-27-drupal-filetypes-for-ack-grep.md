@@ -3,7 +3,7 @@ layout: post_archive
 title: Drupal filetypes for Ack grep.
 created: 1288183361
 tags:
-- Drupal
+- drupal
 lang: en
 ---
 How often did I not think "sigh, I wish I could just _grep_ this pile of invoices for that date". But unfortunately, the all-powerfull search-tool <a href="http://www.kingcomputerservices.com/unix_101/grep_this.htm">grep</a> is not available <acronym title="In real life">IRL</acronym>. But it is available on most unices, including all Linux systems and OSX. 

@@ -3,7 +3,7 @@ layout: post_archive
 title: Commander (Quanta) form builder for Drupal
 created: 1130672093
 tags:
-- Drupal Talk
+- drupal
 lang: en
 ---
 This is a first attempt to create a nice widget or wizard for Drupal form building, using form API. It is useful in quanata, or any other application that can run kommander forms. Basically, it just runs a kommander script and parses the values in a string, that is then outputted. That string is a form.### Todo's

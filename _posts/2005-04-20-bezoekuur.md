@@ -3,7 +3,7 @@ layout: post_archive
 title: Bezoekuur
 created: 1114023521
 tags:
-- ''
+
 lang: nl
 ---
 Nog een heel fijn ding aan dat Stuivenbergziekenhuis is het bezoekuur. Een heel (heel) groot uur. Van 12:00 tot 19:30 om precies te zijn.

@@ -3,8 +3,8 @@ layout: post_archive
 title: Using jQuery to build 'collapsible form descriptions'.
 created: 1152217978
 tags:
-- Theming
-- Drupal Talk
+- theming
+- drupal
 lang: en
 ---
 In Joomla! one can have very nifty ['floating' help balloons](http://www.bosrup.com/web/overlib/) with his/her forms. Its not built into core, but it's available as popular addon. After some investigation I chose to implement some jQuery implementation.

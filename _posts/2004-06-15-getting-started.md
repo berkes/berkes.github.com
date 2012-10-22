@@ -3,7 +3,7 @@ layout: post_archive
 title: Getting started
 created: 1087285660
 tags:
-- ''
+
 lang: en
 ---
 How to get started working with four different people handeling four different disciplines? We are all looking at each other and think, now what?

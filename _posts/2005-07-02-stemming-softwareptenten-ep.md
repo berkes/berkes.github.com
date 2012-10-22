@@ -3,7 +3,7 @@ layout: post_archive
 title: Stemming softwareptenten EP
 created: 1120331178
 tags:
-- Activist
+- activist
 lang: nl
 ---
 Volgende week dindsdag of woensdag stemmen de europarlementariërs weer voor de [omstreden softwarepatentwetten](http://www.nosoftwarepatents.com/nl/m/basics/index.html).

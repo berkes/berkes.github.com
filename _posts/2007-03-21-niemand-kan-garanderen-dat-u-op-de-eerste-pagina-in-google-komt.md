@@ -5,7 +5,7 @@ created: 1174475829
 tags:
 - google
 - marketing
-- SEO
+- seo
 lang: nl
 ---
 Een of andere telemarketeer belde me net met een 'top aanbieding'. Ik mocht zowaar mijn [website](http://webschuur.com/) op [allebedrijveninnijmegen](http://www.allebedrijveninnijmegen.nl/) laten zetten. En dat kostte me _nog geen €25 per maand_.

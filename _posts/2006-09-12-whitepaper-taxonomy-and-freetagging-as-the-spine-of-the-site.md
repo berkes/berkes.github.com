@@ -3,11 +3,11 @@ layout: post_archive
 title: whitepaper Taxonomy and freetagging as the spine of the site
 created: 1158053410
 tags:
-- Organisation management
-- Collaborative Writing
-- Social Software
-- Weblogging
-- Drupal Talk
+- organisation management
+- collaborative writing
+- social software
+- weblogging
+- drupal
 lang: en
 ---
 ## Taxonomy and freetagging as the spine of the site

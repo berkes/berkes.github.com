@@ -3,12 +3,12 @@ layout: post_archive
 title: Make Me Sutainable
 created: 1183536324
 tags:
-- Web2.0
+- web2.0
 - internet
-- Dwars
-- GroenLinks
-- Community
-- Green
+- dwars
+- groenlinks
+- community
+- green
 lang: nl
 ---
 Via [Twitter](http://twitter.com/factoryjoe/statuses/133129682) kwam ik bij dit interessante concept: een duurzame community [make me sustainable](http://makemesustainable.com) Duurzaam als in "groen" en "milieu".

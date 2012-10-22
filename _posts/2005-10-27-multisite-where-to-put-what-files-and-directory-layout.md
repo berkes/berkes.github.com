@@ -3,7 +3,7 @@ layout: post_archive
 title: ! 'Multisite: where to put what: files and directory layout'
 created: 1130448576
 tags:
-- Drupal Hosting
+- drupal hosting
 lang: en
 ---
 For our new multisite environement we are buidling, I need to get the initial set up correctly done. We work wit vhosts, so that dicatates very much how and where the files and repositories aer located. <!--break-->## Drupal Root

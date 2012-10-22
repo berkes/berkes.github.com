@@ -4,7 +4,7 @@ title: NVJ ook vor de blogger. artikel op DNR
 created: 1175591484
 tags:
 - media
-- deNieuweReporter
+- denieuwereporter
 - weblog
 - kranten
 - bescherming

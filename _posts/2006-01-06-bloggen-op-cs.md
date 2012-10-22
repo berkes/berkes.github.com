@@ -3,7 +3,7 @@ layout: post_archive
 title: Bloggen op CS
 created: 1136565005
 tags:
-- ''
+
 lang: nl
 ---
 Leuk om eens te proberen. Internetten via een hotspot op het station. Het is een beetje te duur om vaak te doen, maar met €1,50 voor een kwartier is het wel leuk om eens mee te spelen.

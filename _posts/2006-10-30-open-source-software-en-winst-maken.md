@@ -3,10 +3,10 @@ layout: post_archive
 title: Open Source Software en winst maken.
 created: 1162203875
 tags:
-- Drupal
+- drupal
 - webschuur
-- Linux
-- Open Source
+- linux
+- open source
 - marketing
 - economics
 lang: nl

@@ -3,10 +3,10 @@ layout: post_archive
 title: Open Source Advertenties - Ad Bard
 created: 1246521764
 tags:
-- Open Source
+- open source
 - google ads
 - adverteren
-- Ad Bard
+- ad bard
 lang: nl
 ---
 Mijn sites hebben advertenties. En sinds kort heb ik op [webschuur.com](http://webschuur.com/publications/blogs/2009-02-16-localization_server_local_pakage_generator_from_svn_hacked_up_script) Google ads ingeruild voor AdBard Advertenties.

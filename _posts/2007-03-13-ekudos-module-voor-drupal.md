@@ -3,9 +3,9 @@ layout: post_archive
 title: ekudos module voor Drupal
 created: 1173793852
 tags:
-- Drupal
+- drupal
 - sympal
-- Web2.0
+- web2.0
 - webschuur
 - webdevelopment
 - ekudos

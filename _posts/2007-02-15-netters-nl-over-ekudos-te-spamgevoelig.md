@@ -3,8 +3,8 @@ layout: post_archive
 title: ! 'Netters.nl over ekudos: te spamgevoelig?'
 created: 1171577305
 tags:
-- Web2.0
-- Open Source
+- web2.0
+- open source
 - yads
 - ekudos
 - spam

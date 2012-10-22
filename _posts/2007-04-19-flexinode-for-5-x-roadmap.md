@@ -3,8 +3,8 @@ layout: post_archive
 title: Flexinode for 5.x roadmap.
 created: 1176978476
 tags:
-- Drupal Talk
-- Flexinode
+- drupal
+- flexinode
 lang: en
 ---
 I have been receiving quite some (aggressive and unkind) requests for [flexinode](http://drupal.org/project/flexinode). I don't really mind if people are rude, I just hope these people understand that by being rude they actually reach the opposite of their goal: instead of me jumping up and fixing their problem, I'd think: well, if this is all I get for the effort, why bother. It strengthens my believe that Open Source is a scratch your own itch, selfish, concept.

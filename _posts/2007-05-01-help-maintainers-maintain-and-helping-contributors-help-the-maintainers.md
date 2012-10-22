@@ -3,7 +3,7 @@ layout: post_archive
 title: Help maintainers maintain. And helping contributors help the maintainers.
 created: 1178024359
 tags:
-- Drupal Talk
+- drupal
 lang: en
 ---
 This morning I found an email in my inbox telling me that I am a bad maintainer and that I am making people fork my modules. The mail was not meant to go to me, but the sender hit reply and thought he was moaning about me to someone else. Basically I was asking for my modules to be forked because I was too ### to release a new version. I don't release a version unless I am confident it is release-worthy: when I have used it myself.

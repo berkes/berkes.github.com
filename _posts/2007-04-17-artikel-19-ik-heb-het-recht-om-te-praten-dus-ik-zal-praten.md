@@ -4,8 +4,8 @@ title: Artikel 19, Ik heb het recht om te praten, dus ik zal praten.
 created: 1176821348
 tags:
 - internet
-- Vrijheid
-- Universele verklaring van de rechten vande mens
+- vrijheid
+- universele verklaring van de rechten vande mens
 lang: nl
 ---
 Het kan geen kwaad af en toe eens belangrijke en [essientiële](http://www.unhchr.ch/udhr/lang/dut.htm) zaken te herhalen. Bij dezen. > Een ieder heeft recht op vrijheid van mening en meningsuiting. Dit recht omvat de vrijheid om zonder inmenging een mening te koesteren en om door alle middelen en ongeacht grenzen inlichtingen en denkbeelden op te sporen, te ontvangen en door te geven.

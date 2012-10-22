@@ -3,7 +3,7 @@ layout: post_archive
 title: firefox, and protecting users against themselves.
 created: 1103643155
 tags:
-- Activist
+- activist
 lang: nl
 ---
 An interesting blog about security in Firefox. Not the security in code, but that of "protecting users against themselves". My answer to this is: True, firefox needs better signatures etc. But that will not solve the issue. People will click "ok" anyway.

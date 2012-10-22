@@ -4,7 +4,7 @@ title: Nijmegen.nl en de zoektocht naar oudpapier.
 created: 1170261478
 tags:
 - internet
-- Nijmegen
+- nijmegen
 - gemeente
 - web0.1
 lang: nl

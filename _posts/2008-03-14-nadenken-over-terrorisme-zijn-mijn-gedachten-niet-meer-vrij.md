@@ -3,7 +3,7 @@ layout: post_archive
 title: Nadenken over Terrorisme. Zijn mijn gedachten niet meer vrij?
 created: 1205501041
 tags:
-- Politics
+- politics
 lang: nl
 ---
 Een [overheidscampagne](http://www.nederlandtegenterrorisme.nl) tegen terrorisme. Schijnt nodig te zijn, al betwijfel ik ten zeerste het effect van zo een campagne. Ik vermoed dat het vooral bedoeld is om "de man in de straat" te laten zien dat "ze" er wel degelijk iets aan doen. Maar deze campagne slaat de laatste maand wel erg eng ver door. Zoals te lezen is mogen we niet eens meer alles [denken](http://www.nederlandtegenterrorisme.nl/werken-met-jongeren/jongeren-en-terrorisme). > Steeds meer mensen werken in Nederland samen om te voorkomen dat iemand terroristische ideeën krijgt.

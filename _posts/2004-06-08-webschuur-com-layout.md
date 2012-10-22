@@ -3,7 +3,7 @@ layout: post_archive
 title: webschuur.com layout
 created: 1086713691
 tags:
-- ''
+
 lang: en
 ---
 I ran into the exact same bug that kept me so long from releasing partyfasnion.net. 

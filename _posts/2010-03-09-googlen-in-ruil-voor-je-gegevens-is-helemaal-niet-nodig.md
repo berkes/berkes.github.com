@@ -4,7 +4,7 @@ title: Googlen in ruil voor je gegevens is helemaal niet nodig.
 created: 1268124500
 tags:
 - privacy
-- NRC*Next
+- nrc*next
 - google
 lang: nl
 ---

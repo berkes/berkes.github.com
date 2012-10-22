@@ -3,9 +3,9 @@ layout: post_archive
 title: The history of Drupal Theme Garden
 created: 1168521149
 tags:
-- Theming
-- Drupal Talk
-- Drupal
+- theming
+- drupal
+- drupal
 lang: en
 ---
 On [Drupal.org](http://drupal.org) I announced the discontinuation of [themes.drupal.org](http://themes.drupal.org/), better known as Drupal Theme Garden. A small history and some inside information on the reason for this discontinuation are on their place here, I think.

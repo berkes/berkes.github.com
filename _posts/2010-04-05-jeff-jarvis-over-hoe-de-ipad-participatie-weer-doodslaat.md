@@ -5,8 +5,8 @@ created: 1270464862
 tags:
 - ipad
 - information
-- Freedom
-- DRM
+- freedom
+- drm
 - apple
 lang: nl
 ---

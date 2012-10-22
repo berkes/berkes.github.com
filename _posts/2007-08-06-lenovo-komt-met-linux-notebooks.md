@@ -3,12 +3,12 @@ layout: post_archive
 title: Lenovo komt met Linux notebooks
 created: 1186428190
 tags:
-- Linux
-- Open Source
-- Lenovo
-- Isabella
-- Notebook
-- IBM
+- linux
+- open source
+- lenovo
+- isabella
+- notebook
+- ibm
 lang: nl
 ---
 Mijn laptop, **I**sa**b**ella (de M moet je erbij fantaseren), is een IBM. Ik ben nog nooit tevredener geweest over een stukje hardware. _Ze_ zeggen ook niet voor niks dat je met IBM nooit fout kunt gaan. Inmiddels is de hele hardware toko van IBM, verkocht aan China en heet het Lenovo. Maar Lenovo doet er alles aan de goede naam van IBM hoog te houden.

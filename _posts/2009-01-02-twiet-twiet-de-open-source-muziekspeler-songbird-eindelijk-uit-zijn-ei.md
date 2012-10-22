@@ -4,10 +4,10 @@ title: Twiet Twiet, de Open Source muziekspeler Songbird eindelijk uit zijn ei.
 created: 1230886304
 tags:
 - software
-- opensource
+- open source
 - muziekspeler
-- Muziek
-- amaroK
+- muziek
+- amarok
 - songbird
 lang: nl
 ---

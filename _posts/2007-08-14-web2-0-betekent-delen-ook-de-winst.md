@@ -3,7 +3,7 @@ layout: post_archive
 title: web2.0 betekent delen. Ook de winst
 created: 1187083416
 tags:
-- Web2.0
+- web2.0
 - google
 - adverteren
 - ekudos

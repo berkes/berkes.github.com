@@ -3,9 +3,9 @@ layout: post_archive
 title: Disallow anyone but you, to reach the update files
 created: 1167994421
 tags:
-- Server
-- Drupal Talk
-- Drupal
+- server
+- drupal
+- drupal
 lang: en
 ---
 With a simple addition you can dissalow anyone but you to reach update.php on your site. Off course Drupals update.php is secured and requires you to edit the file in order to update. But at that moment (no matter how short time that may be) anyone can start upgrading your site. Especially when upgrading multisites this can be dangerous: it may take two days to finish all the upgrades: two days that anyone can break any of your databases.

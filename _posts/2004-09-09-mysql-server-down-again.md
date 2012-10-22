@@ -3,7 +3,7 @@ layout: post_archive
 title: Mysql server down again
 created: 1094724420
 tags:
-- Remix Reading
+- remix reading
 lang: en
 ---
 Last night our ibiblio MySQL server was down. I have a stron feeling that thios was due to our strange mysql but in the forums. The odd thing is that I tried to log into teh database, but found nothing there: no corrupted tables, nor anything else. 

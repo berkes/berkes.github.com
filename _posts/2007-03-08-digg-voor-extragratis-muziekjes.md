@@ -3,11 +3,11 @@ layout: post_archive
 title: Digg voor extragratis muziekjes
 created: 1173388190
 tags:
-- Music
+- music
 - podcast
-- Creative Commons
+- creative commons
 - free
-- MP3
+- mp3
 - ekudos
 - gratis
 - stemmen

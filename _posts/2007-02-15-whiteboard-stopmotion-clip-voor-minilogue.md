@@ -3,9 +3,9 @@ layout: post_archive
 title: Whiteboard stopmotion clip voor minilogue
 created: 1171551096
 tags:
-- Creative Commons
+- creative commons
 - art
-- Minimal
+- minimal
 - netaudio
 - animation
 lang: nl

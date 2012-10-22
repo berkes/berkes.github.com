@@ -3,8 +3,8 @@ layout: post_archive
 title: Meeloper of vasthoudend, fluid of fixed
 created: 1169480958
 tags:
-- Design
-- CSS
+- design
+- css
 - ontwerp
 lang: nl
 ---

@@ -4,8 +4,8 @@ title: Lump -- Vending Machine -- Creative Commons Minimal
 created: 1164803190
 tags:
 - podcast
-- Creative Commons
-- Minimal
+- creative commons
+- minimal
 - netaudio
 lang: nl
 ---

@@ -3,9 +3,9 @@ layout: post_archive
 title: Knip-en-plak-bloggen.
 created: 1170775147
 tags:
-- Open Source
-- Dwars
-- GroenLinks
+- open source
+- dwars
+- groenlinks
 - woss
 lang: nl
 ---

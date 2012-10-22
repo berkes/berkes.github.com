@@ -3,7 +3,7 @@ layout: post_archive
 title: Drupal.org Search plugin for KDE
 created: 1110368710
 tags:
-- Coding Corner
+- programming
 lang: nl
 ---
 This is a small search plugin to search Drupal from the KDE desktop.<!--break-->Make a textfile with (be aware of linebreaks when copy-pasting!)<pre>[Desktop Entry]Charset=utf8Hidden=falseKeys=drupalName=Drupal.orgQuery=http://drupal.org/search/node/\\{@}ServiceTypes=SearchProviderType=Service</pre>Inside it.

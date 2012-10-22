@@ -3,10 +3,10 @@ layout: post_archive
 title: Hyves Desktop Open Source
 created: 1231159399
 tags:
-- QT
-- opensource
-- KDE
-- Hyves
+- qt
+- open source
+- kde
+- hyves
 lang: nl
 ---
 Bericht van Hyves: hun [nieuwe Desktopversie](http://raymond.hyves.nl/blog/18764963/Pretty_Cute_Hyves_voor_op_je_PC/Ro4D/) is gelanceerd. Het mooie is dat ze de OpenSource omgeving [QT](http://trolltech.com/products) gebruiken. Bekend van onder meer KDE. Het niet zo goede nieuws is dat niet te achterhalen is, met welke licentie de uiteindelijke versie weggegeven wordt. Als je gebruikmaakt van QT hoeft je gebouwde applicatie natuurlijk net persé Open Source te zijn. Maar als je beweert dat het ook op Linux moet kunnen werken wil ik dat natuurlijk eerst zien. > Ook werkt het direct op de Mac en zelfs Linux, dat is ook wel eens anders geweest.

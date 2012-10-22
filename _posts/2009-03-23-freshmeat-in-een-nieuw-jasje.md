@@ -4,8 +4,8 @@ title: freshmeat in een nieuw jasje
 created: 1237822916
 tags:
 - freshmeat
-- opensource
-- Sorfware
+- open source
+- sorfware
 lang: nl
 ---
 <div class="zemanta-img">[!["They only call them pigs when they're al...](http://farm1.static.flickr.com/156/434733216_cb393da74d_m.jpg)](http://www.flickr.com/photos/32182083@N00/434733216)

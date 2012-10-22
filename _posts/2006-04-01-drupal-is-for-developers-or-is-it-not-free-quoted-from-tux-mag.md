@@ -3,8 +3,8 @@ layout: post_archive
 title: «Drupal is for developers, or is it not?» Free quoted from tux mag.
 created: 1143916257
 tags:
-- Drupal Talk
-- Drupal
+- drupal
+- drupal
 lang: en
 ---
 In the latest [tux magazine](http://www.tuxmagazine.com), you can read a letter sent in by someone called Alexander. He refers to a webpage that explains why [Linux is not Windows](http://linux.oneandoneis2.org/LNW.htm), and why it cannot be that way.

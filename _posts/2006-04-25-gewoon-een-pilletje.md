@@ -3,7 +3,7 @@ layout: post_archive
 title: gewoon een pilletje
 created: 1145989899
 tags:
-- ''
+
 lang: nl
 ---
 Het is weer lente. Dus de afslankmiddelen zitten weer overal in de lucht. Net als de lightproducten, en andere dingen om mee aan "je lijn te werken".

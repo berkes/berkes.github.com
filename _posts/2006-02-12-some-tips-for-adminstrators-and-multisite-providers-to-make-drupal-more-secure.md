@@ -3,7 +3,7 @@ layout: post_archive
 title: Some tips for adminstrators and multisite providers to make Drupal more secure.
 created: 1139761003
 tags:
-- Drupal Talk
+- drupal
 - sympal.nl
 lang: en
 ---

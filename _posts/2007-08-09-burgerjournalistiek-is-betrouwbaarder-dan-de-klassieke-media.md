@@ -5,7 +5,7 @@ created: 1186648152
 tags:
 - weblog
 - burgerjournalistiek
-- DNS
+- dns
 - klassieke media
 lang: nl
 ---

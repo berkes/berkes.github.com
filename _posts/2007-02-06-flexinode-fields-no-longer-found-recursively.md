@@ -3,9 +3,9 @@ layout: post_archive
 title: Flexinode fields no longer found recursively
 created: 1170751798
 tags:
-- PHP
-- Drupal
-- Flexinode
+- php
+- drupal
+- flexinode
 lang: en
 ---
 I just added 'recursive FALSE' to [file_scan_directory](http://api.drupal.org/api/4.7/function/file_scan_directory): fields in contrib and other subdirectories are no longer automatically added to the fieldlist. One needs to copy the fields to the root dir, in order to activate them.

@@ -3,10 +3,10 @@ layout: post_archive
 title: Modular modules, how to make modules play together
 created: 1144849850
 tags:
-- Project Management
-- Organisation management
-- Drupal Talk
-- Drupal
+- project management
+- organisation management
+- drupal
+- drupal
 lang: en
 ---
 I am currently helping someone [build a big community site](http://incubator.beauty-coach.nl), and day after day we run into problems that boil down to one problem. Modules hate eachother, do not integrate, and use completely different methods.

@@ -3,7 +3,7 @@ layout: post_archive
 title: Anti RSI voor KDE, rsibreak
 created: 1134663395
 tags:
-- ''
+
 lang: nl
 ---
 A tijden gebruik ik een [klein scriptje](/anti_rsi_voor_kde) om mij te herinneren af en toe te pauzeren. Uiteraard leerde ik me op den duur vanzelf aan deze schermpjes klein te maken en gewoon door te werken.

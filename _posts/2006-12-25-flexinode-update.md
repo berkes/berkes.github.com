@@ -3,8 +3,8 @@ layout: post_archive
 title: Flexinode update
 created: 1167049673
 tags:
-- Drupal Talk
-- Flexinode
+- drupal
+- flexinode
 lang: en
 ---
 After my [attempt to kill certain rumors around flexinode](http://webschuur.com/node/669), I got quite some mails from people asking me "but what is the status"?Well, anyone who did his or her [homework](http://drupal.org/project/issues/flexinode), would not ask that question, but would run away in terror. Anyway, here is the answer:Flexinode never _really_ worked on 4.7, not according to my standards anyway, yet it was released before I took over and I decided to keep it released and mop up the mess as much as I could. And no, its not abandoned, it is simply swamped in issues, so much that adding your bugreport to that heap will not get it fixed: duplicates, people copy-pasting error-logs and then never coming back with more info, etceteras. There is too much in that queue to actually work on getting anything solved in there.

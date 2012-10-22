@@ -3,7 +3,7 @@ layout: post_archive
 title: Verslaafd aan online computerspellen
 created: 1131114262
 tags:
-- ''
+
 lang: nl
 ---
 Zojuist las ik een erg onrustbarend [nieuwtje op webwereld](http://www.webwereld.nl/ref/rss/38188). Een chinees meisje zou zijn overleden omdat ze zich helemaal kapot-ge-warcraft had. Warcraft is een [MMORPG](http://nl.wikipedia.org/wiki/MMORPG), een groot online spel. Deze zijn erg verslavend, en ook erg tijdvretend. Daar alle tijd dat je ligt te slapen,of zit te eten, je niet online kunt zijn, en je dus niet aan het spel kan deelnemen, en je dus afzwakt in de rankings van het spel. De anderen gaan immers wel gewoon door.

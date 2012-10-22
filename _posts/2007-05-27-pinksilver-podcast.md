@@ -3,9 +3,9 @@ layout: post_archive
 title: Pinksilver Podcast
 created: 1180272104
 tags:
-- Music
-- Creative Commons
-- Minimal
+- music
+- creative commons
+- minimal
 - electronic
 - ambient
 lang: nl

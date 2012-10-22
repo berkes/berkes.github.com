@@ -5,7 +5,7 @@ created: 1179265700
 tags:
 - groen links
 - woss
-- OSS
+- oss
 lang: nl
 ---
 Zo af en toe schreefschrijf ik wat voor de werkgroep Open Source van Groen Links. Dus, toen uit de beerput van Neerlandsch Internet weer wat woordjes [opborrelden](http://www.geenstijl.nl/mt/archieven/874701.html#comments), dit keer over Open Source kon dit Wilders Marketing Team het uiteraard niet laten om even naar [mijn artikel op die GroenLinks blog](http://woss.groenlinksweblog.nl/blog/2007/02/16/open_source_is_niet_een_speeltje_van_nerds_het_is_hip) te linken bij wijze van grap.

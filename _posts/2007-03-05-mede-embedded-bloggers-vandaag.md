@@ -3,8 +3,8 @@ layout: post_archive
 title: Mede Embedded bloggers vandaag
 created: 1173089643
 tags:
-- GroenLinks
-- Groenlinks Embedded
+- groenlinks
+- groenlinks embedded
 lang: nl
 ---
 Ik ben niet alleen, vandaag blog ik samen met drie andere webloggers. En natuurlijk Jeroen Steenman, van [linkselente](http://linkselente.nl).

@@ -4,18 +4,18 @@ title: ! 'Good CMS (Drupal) designers are rare: ten points on how to find your p
   designer'
 created: 1185478787
 tags:
-- Project Management
-- Organisation management
-- PHP
-- Design
-- Theming
-- CSS
-- Drupal Talk
-- Drupal
-- Usability
-- Drupal Blog
-- Ruby
-- AJAX
+- project management
+- organisation management
+- php
+- design
+- theming
+- css
+- drupal
+- drupal
+- usability
+- drupal blog
+- ruby
+- ajax
 lang: en
 ---
 update: after some stupid editing of mine, I brought the points down to six. [thanks to Bert](http://willy.boerland.com) for telling me I am fool.

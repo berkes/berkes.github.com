@@ -3,7 +3,7 @@ layout: post_archive
 title: Waaraan moet een goede Drupal partij voldoen? Hoe vind ik een goed Drupalbedrijf?
 created: 1215689954
 tags:
-- Drupal
+- drupal
 lang: en
 ---
 De laatste maanden heeft zo ongeveer ieder Nederlands webdevelopmentbedrijf Drupal "in haar portfolio". Dat staat tussen aanhalingstekens omdat het gros nog nooit iets concreets met Drupal deed, maar eenvoudigweg hoopt op kosten van de klant Drupal kennis op te gaan doen. Ze gaan er vanuit dat "het wel losloopt". Ik heb argumenten gehoord uiteenlopend van "we hebben het handboek eens goed doorgenomen" tot "onze eigen documentatiesite draait ook al op Drupal". Helaas is Drupal echter niet als "de anderen", zoals joomla!, Wordpress, of het gemiddelde thuisgebrouwen-MKB-asp project. Drupal blijkt altijd weerbarstiger, maar vooral lastiger dan veel bedrijven en ontwikkelaars denken. Drupal ontwikkeling vereist namelijk professionele kennis en aanpak, maar vooral veel Drupal-ervaring. Mijn tip tijdens het zoeken naar een goede ontwikkelpartij, is daarom om altijd te vragen naar hun Drupal-portfolio.

@@ -3,7 +3,7 @@ layout: post_archive
 title: Delhaize voeding & diabetes
 created: 1114023965
 tags:
-- Diabetes blog
+- diabetes blog
 lang: nl
 ---
 Tja. Nu ben ik dus thuis. Mijn eerste spuitje gezet zonder een zuster erbij :).

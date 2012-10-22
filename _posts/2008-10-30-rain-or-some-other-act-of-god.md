@@ -3,12 +3,12 @@ layout: post_archive
 title: ! '"Rain or some other act of God"'
 created: 1225358421
 tags:
-- Politics
+- politics
 - obama
 - mccain
-- God
-- Religion
-- Atheïsme
+- god
+- religion
+- atheïsme
 - regen
 lang: nl
 ---

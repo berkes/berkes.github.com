@@ -3,11 +3,11 @@ layout: post_archive
 title: Hoe veilig is openID nu eigenlijk?
 created: 1197051488
 tags:
-- Server
-- Open Source
+- server
+- open source
 - internet
-- openID
-- Identity
+- openid
+- identity
 lang: nl
 ---
 openId wekt veel verwarring bij veel mensen. Laat ik daarom kort en bondig proberen uit te leggen hoe het eigenlijk werkt: wat de idee achter openID is.**openID Doelstelling:** Je privé gegevens maar op één veilige, centrale plek opslaan.**Servers:** OpenID is open. Het staat iedereen, dus ook jou, en dus ook de maffia of onze overheid, vrij om een openID server te beginnen. De server is de plek waar jij je eenmalig registreert en waar jij je gegevens opslaat. Stel dat we een vooruitstrevende overheid hadden gehad, dan zou die een openID provider kunnen worden, een openID server gaan beheren dus. Op bijvoorbeeld: uwgegevens.nl. uwgegevens.nl is heel goed beveiligd, je kunt alleen inloggen met je paspoortnummer, een vingerafdruk enzovoort. Stel jij vertrouwt de overheid genoeg, om daar je gegevens, zoals je mailadres je naam, je foto en eventueel je postadres achter te laten. Dan maak jij een profiel aan op uwgegevens.nl, en is je openid **berkes.uwgegevens.nl**.

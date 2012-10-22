@@ -3,8 +3,8 @@ layout: post_archive
 title: To Drupal or not to Drupal, why we chose not to use Drupal for a photo shop.
 created: 1154077078
 tags:
-- Drupal Talk
-- Newsphoto EU
+- drupal
+- newsphoto eu
 lang: en
 ---
 In a thread on the Drupal development mailinglists someone asked for experience with Drupal as a photo and image server.

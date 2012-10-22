@@ -4,11 +4,11 @@ title: Meningen van zeven Nederlanders volgens De NEM, pardon, Maurice de Hond.
 created: 1246312889
 tags:
 - brief
-- NEM
-- De Hond
-- Maurice
-- Metro
-- De Pers
+- nem
+- de hond
+- maurice
+- metro
+- de pers
 lang: nl
 ---
 Mijn brief aan de metro- en de Persredactie. Beiden hadden vandaag dit mooie persbericht overgenomen. Beste redactrice of redacteur,Uw bericht in de krant vandaag meldde dat X procent van de Nederlanders het ergens oneens mee was. Of eens. Dat weet ik niet meer. Net als het bijbehorende percentage.

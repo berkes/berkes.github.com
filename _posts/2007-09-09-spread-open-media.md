@@ -3,12 +3,12 @@ layout: post_archive
 title: Spread Open Media
 created: 1189289252
 tags:
-- Open Source
-- OGG
-- Campagne
-- Open Media
-- Vorbis
-- Theora
+- open source
+- ogg
+- campagne
+- open media
+- vorbis
+- theora
 lang: nl
 ---
 Open mediaformaten [verdienen veel meer aandacht.](http://spreadopenmedia.org)Ik heb al mijn muziek in een open / vrij formaat staan: [Ogg Vorbis](http://nl.wikipedia.org/wiki/Ogg_Vorbis). Ogg heeft een aantal voordelen (waaronder veel betere geluidskwaliteit dan windpws media of MP3). Een ander voordeel is het ontbreken van DRM. Geen fabrikant kan mij vertekken waar, wie, hoe, hoe vaak enzovoort ik mijn muziek mag luisteren.

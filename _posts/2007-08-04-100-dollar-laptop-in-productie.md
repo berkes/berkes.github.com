@@ -3,9 +3,9 @@ layout: post_archive
 title: $100 dollar laptop in productie
 created: 1186237362
 tags:
-- Open Source
-- Onderwijs
-- OLPC
+- open source
+- onderwijs
+- olpc
 - ontwikkeling
 - derde wereld
 lang: nl

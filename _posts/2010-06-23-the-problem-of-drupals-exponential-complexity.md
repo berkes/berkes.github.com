@@ -3,7 +3,7 @@ layout: post_archive
 title: The problem of Drupals exponential complexity
 created: 1277294977
 tags:
-- ''
+
 lang: en
 ---
 Over the last days, I helped a client with some bugs in a really complex Drupal site. The site is that complex, because clients "needs" and "wishes" were to be met. So gradually more and more modules were stacked onto this Drupal. Resulting in a site that no-one can really grasp. At all. Now, if modules in Drupal were entirely self-contained and very loosely coupled, something I [consider good practice](/publications/blogs/2010-06-10-design_principles_for_creating_good_classes_let_you_write_good_drupal_modules), this would be of little problem.

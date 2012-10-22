@@ -3,9 +3,9 @@ layout: post_archive
 title: ! 'handig: films vandaag op TV op RSS'
 created: 1163607071
 tags:
-- Movie Monger
-- Web2.0
-- RSS
+- movie monger
+- web2.0
+- rss
 - televisie
 lang: nl
 ---

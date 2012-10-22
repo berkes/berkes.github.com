@@ -3,9 +3,9 @@ layout: post_archive
 title: Ancient, sure. But does it show regression?
 created: 1152889589
 tags:
-- PHP
-- Drupal Talk
-- Usability
+- php
+- drupal
+- usability
 lang: en
 ---
 ![screenshot of 4.0?](http://webschuur.com/sites/webschuur.com/files/2062.png) While browsing Freshmeat (looking for a database structure visualiser) I thought "lets see [Drupal's entry](http://freshmeat.net/projects/drupal)".

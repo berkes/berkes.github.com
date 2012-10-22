@@ -3,9 +3,9 @@ layout: post_archive
 title: ! 'Drupal Community: Meer dan de software'
 created: 1188284458
 tags:
-- Drupal
-- Community
-- Blip.tv
+- drupal
+- community
+- blip.tv
 - interview
 lang: nl
 ---

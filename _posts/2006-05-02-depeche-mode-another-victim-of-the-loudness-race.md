@@ -3,7 +3,7 @@ layout: post_archive
 title: Depeche Mode - Another victim of the loudness race
 created: 1146570793
 tags:
-- Music
+- music
 lang: nl
 ---
 [Rudy](http://www.ru-d.net/) wees me op een [heel boeiend artikel over het nieuwe album van Depeche Mode](http://brianstagg.co.uk/p_t_a_clipressed/). En over hoe het compleet ver**** is door de editors/producers, omdat deie het "hard" willen laten klinken.> [...] as it's not my intention to criticize the band, but illustrate how modern "louder is better" CD mastering methods have spoilt what should and could have been a great album. Having listened to the CD a few times I was satisfied with the quality of the songs, but it was nagging at me that something didn't sound right. I'm not talking about musical style or if the vocals and instrumentation were up to scratch, but the overall sound quality of the recording. Having heard with my ears that something wasn't right, I decided to use my eyes to see what what could have gone wrong...

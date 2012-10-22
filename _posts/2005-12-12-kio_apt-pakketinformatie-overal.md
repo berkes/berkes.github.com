@@ -3,8 +3,8 @@ layout: post_archive
 title: kio_apt pakketinformatie overal
 created: 1134423658
 tags:
-- KDE
-- Open Source
+- kde
+- open source
 lang: nl
 ---
 Wederom een verborgen diamantje: kio_apt, op mijn kubuntu staat die standaard geïnstalleerd, ikk weet niet of andere apt linux distros het ook hebben.

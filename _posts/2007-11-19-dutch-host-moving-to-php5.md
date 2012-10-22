@@ -3,10 +3,10 @@ layout: post_archive
 title: Dutch host moving to PHP5
 created: 1195502678
 tags:
-- Project Management
-- PHP
-- Drupal Talk
-- Drupal Hosting
+- project management
+- php
+- drupal
+- drupal hosting
 lang: en
 ---
 Good news. My servermanager and [Drupal host](http://www.sense-hosting.nl), just announced they are moving their infrastructure to PHP5. Entirely. [PHP5 is really important if you want a future-proof hoster](http://gophp5.org/).

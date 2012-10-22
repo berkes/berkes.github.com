@@ -3,14 +3,14 @@ layout: post_archive
 title: De mythe van het opsplitsen van content en stijl
 created: 1226498618
 tags:
-- CSS
-- YUI
-- Drupalyuibasetheme
-- Drupal
-- Semantics
-- HTML
-- Standards
-- Open Source
+- css
+- yui
+- drupalyuibasetheme
+- drupal
+- semantics
+- html
+- standards
+- open source
 lang: nl
 ---
 <div class="zemanta-img" style="margin: 1em; float: right; display: block;">[![A graphical depiction of a very simple css doc...](http://upload.wikimedia.org/wikipedia/commons/thumb/8/86/CSS.svg/202px-CSS.svg.png)](http://commons.wikipedia.org/wiki/Image:CSS.svg)

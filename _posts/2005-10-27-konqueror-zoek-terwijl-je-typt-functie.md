@@ -3,9 +3,9 @@ layout: post_archive
 title: Konqueror zoek terwijl je typt functie
 created: 1130398664
 tags:
-- KDE
+- kde
 - konqueror truukjes
-- Open Source
+- open source
 lang: nl
 ---
 In Firefox had je een heel handige functie genaamd '[type ahead](http://www.mozilla.org/access/type-ahead/)'. Als je tijdens het surfen "Bè" typt opent FF een zoekvenster en gaat in de pagina zoeken naar alles waar Bè in voor komt.

@@ -3,11 +3,11 @@ layout: post_archive
 title: ! 'Het verschil: Open Source en Open Standaarden'
 created: 1174575261
 tags:
-- Open Source
+- open source
 - software
-- Politiek
-- Open Standaarden
-- GPL
+- politiek
+- open standaarden
+- gpl
 lang: nl
 ---
 [Overal](http://www.trouw.nl/hetnieuws/economie/article665808.ece/De_overheid_moet_aan_de_goedkope_software) is er [opeens](http://www.automatiseringgids.nl/ag/nieuws/nieuws/toon_nieuwsbericht.jsp?di=314374) [buzz](http://woss.groenlinksweblog.nl/blog/2007/03/21/algemeen_overleg_ez_over_de_motie_vendrik) over OpenNogwat. Directe oorzaak is een kamerdebat over de motie vendrik gisteren.

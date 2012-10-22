@@ -3,12 +3,12 @@ layout: post_archive
 title: Waarom de meeste communities (ook) falen
 created: 1216627623
 tags:
-- Community
-- Drupal
-- Marketingfacts
+- community
+- drupal
+- marketingfacts
 - marketing
 - internet
-- Web2.0
+- web2.0
 lang: nl
 ---
 [Marketingfacts]( http://www.marketingfacts.nl/berichten/20080721_waarom_de_meeste_online_communities_falen/) pikte een [tweetal]( http://blogs.wsj.com/biztech/2008/07/16/why-most-online-communities-fail/) heel [boeiende]( http://www.informationweek.com/news/internet/social_network/showArticle.jhtml?articleID=209101307) Engelstalige artikelen op die ik dit weekeind las en waarin een heleboel vermoedens die ik koesterde, onderschreven worden. Vermoedens over het "waarom" van het falen van een community. Al sinds een jaar of vijf bouw ik hoofdzakelijk communitysites voor klanten. Sommigen zijn echte grote communities geworden, anderen een stille dood gestorven (en alles daartussenin). Al in 2004 riep ik tegen klaten dat "identiteit" nummer één was. In de brede zin. Op [Drupal.org](http://drupal.org/node/7615) hadden we toen al boeiende discussies hierover.

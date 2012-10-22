@@ -3,9 +3,9 @@ layout: post_archive
 title: Nieuwe revu met de beste club van 2007
 created: 1173905555
 tags:
-- Music
-- Web2.0
-- Nijmegen
+- music
+- web2.0
+- nijmegen
 - '2007'
 lang: nl
 ---

@@ -3,7 +3,7 @@ layout: post_archive
 title: Geef artiesten de ruimte!
 created: 1178620501
 tags:
-- Creative Commons
+- creative commons
 lang: nl
 ---
 In 2006, tijdens een debat op Noorderslag heeft [Buma/Stemra aangekondigd](http://creativecommons.nl/nieuws/?p=94) met creative Commons licenties te zullen gaan werken. Buma Stemra behartigt de belangen van Nederlandse <s>artiesten</s>platenmagnaten en als zodanig is zij de eerste organisatie die vrijere en modernere licenties mogelijk moet maken.

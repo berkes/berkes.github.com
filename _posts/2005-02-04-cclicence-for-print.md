@@ -3,7 +3,7 @@ layout: post_archive
 title: CClicence for print
 created: 1107505864
 tags:
-- Coding Corner
+- programming
 lang: nl
 ---
 Because of some reason webdesigners seem to have no cluen about the power of CSS when it comes to printing. I was pointed to this fact once aghain, by a blog entry on [Karl Jonsson's Weblog� Creative Commons "Bug"](http://www.cyberlaw.se/kalle/index.php?p=256 "Karl Jonsson's Weblog � Creative Commons %u201CBug%u201D")<!--break-->> What is the reason for this bug? Surely, I cannot be the first person to notice it? I actually like reading on screens (especially that of my PDA) so I rarely print anything. I did notice the bug when I first applied a CC license to my blog and changed it by hand (see top right) but the severity of the problem only just struck me.

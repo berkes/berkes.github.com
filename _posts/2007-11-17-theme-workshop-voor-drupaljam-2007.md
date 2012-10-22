@@ -3,11 +3,11 @@ layout: post_archive
 title: Theme workshop voor DrupalJam 2007
 created: 1195289980
 tags:
-- PHP
-- Design
-- Theming
-- CSS
-- Drupal Talk
+- php
+- design
+- theming
+- css
+- drupal
 lang: en
 ---
 At the [first Dutch DrupalJam](http://groups.drupal.org/node/6449), I gave my workshop theming Below, you can find the slideshow and the resources for the live demo, The presentation is Dutch though. You can also find the presentation (and more) on [slideshare](http://www.slideshare.net/berkes/workshop-theming-drupaljam-2007), so you can re-use, or embed it on your own site.

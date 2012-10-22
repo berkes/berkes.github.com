@@ -5,7 +5,7 @@ title: Mij pleidooi op De nieuwe reporter krijgt terecht wind van voren van Erwi
 created: 1169325384
 tags:
 - copyright
-- Creative Commons
+- creative commons
 - media
 lang: nl
 ---

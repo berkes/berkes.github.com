@@ -4,8 +4,8 @@ title: Embedded blogger bij Groenlinks
 created: 1173035889
 tags:
 - verkiezingen
-- GroenLinks
-- Groenlinks Embedded
+- groenlinks
+- groenlinks embedded
 - provinciale staten
 lang: nl
 ---

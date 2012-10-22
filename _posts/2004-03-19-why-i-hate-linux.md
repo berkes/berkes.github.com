@@ -3,7 +3,7 @@ layout: post_archive
 title: Why i hate Linux
 created: 1079717880
 tags:
-- ''
+
 lang: nl
 ---
 Ãnd why I love it too.

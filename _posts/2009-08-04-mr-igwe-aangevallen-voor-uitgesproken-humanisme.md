@@ -3,11 +3,11 @@ layout: post_archive
 title: Mr. Igwe aangevallen voor uitgesproken Humanisme
 created: 1249413313
 tags:
-- Atheïsme
-- Humanisme
-- Mensenrechten
-- Human Rights
-- Nigeria
+- atheïsme
+- humanisme
+- mensenrechten
+- human rights
+- nigeria
 lang: nl
 ---
 Via [Culture Kitchen]() kwam ik bij een erg schokkende gebeurtenis. In mijn eigen woorden en samengevat: Meneer Leo Igwe is volledig gemolesteerd door een groep Christenen uit een lokale kerk omdat hij Humanisme en atheïsme verdedigde. Daarom schreef ik onderstaande brief aan de in Nederland gevestigde ambassade voor Nigeria. For none-Duch speakers: you can modify belowmentioned letter and re-send it to the Nigerian ambassador based in your country. Find the names and addresses in [ this list](http://www.ngex.com/nigeria/govt/officials/ambassador.htm).> Dear Proffessor Mary Lar,As ambassador for Nigeria in the Netherlands I write you on personal basis about a Nigerian issue I was pointed to, regarding one of the Nigerian citizens. My concern is an issue pointed to by a United States civilian Liza Sabatar, concerning mister Leo Igwe. More information on this issue can be found in the links pointing to several (local) African newswebsites on the article posted at: http://culturekitchen.com/mole333/blog/leo_igwe_culture_kitchen_contributor_attackedAccording to several sources, mister Igwe was attacked by several Nigerian citizens, who were clearly not acting under any form of governmental protection, law, or other governmental organisation. As far as I can confirm from such a distance. From what I can read on the various local and international newsresources, mr Leo was attacked mostly for his ideas and his outspokeness on these ideas.

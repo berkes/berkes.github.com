@@ -4,7 +4,7 @@ title: Inbox leeghouden
 created: 1188589375
 tags:
 - werk
-- GTD
+- gtd
 - getting things done
 - 43 folders
 - email

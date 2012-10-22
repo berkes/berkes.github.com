@@ -5,11 +5,11 @@ created: 1171453423
 tags:
 - google
 - toegankelijkheid
-- SEO
-- deNieuweReporter
-- Inktomi
-- Yahoo
-- Meta
+- seo
+- denieuwereporter
+- inktomi
+- yahoo
+- meta
 lang: nl
 ---
 Vandaag op de nieuwe reporter een stukje voor Journalisten [over Zoekmachine optimalisatie](http://www.denieuwereporter.nl/?p=780). Goed dat dit wordt aangestipt, vooral gezien vanuit de kant van een schrijver. Jammer dat het artikel een nogal vertekend beeld schetst. En daarmee eigenlijk de plank misslaat. De Heilige drie-eenheid voor betere resultaten in Zoekmachines (oftewel mijn geheim recept): <!--break-->1. Zorg dat je artikel verspreid wordt. Links vanop andere blogs, andere websites, en in planet/RSS feeds verhogen je ranking. Dit is de basis van google (en tegenwoordig ook MSN, en Yahoo/Inktomi) en heet bij google PageRank[tm]. Hoe meer links, geplaatst op andere hoog-rankende sites, hoe beter je resultaat in de zoekmachines. 

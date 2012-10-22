@@ -3,10 +3,10 @@ layout: post_archive
 title: To Martel or not to Martel, is niet eens een vraag.
 created: 1163754517
 tags:
-- Politics
-- GroenLinks
-- Amnesty
-- Marteling
+- politics
+- groenlinks
+- amnesty
+- marteling
 lang: nl
 ---
 Feit: Nederlandse overheidsfunctionarissen hebben gemarteld.

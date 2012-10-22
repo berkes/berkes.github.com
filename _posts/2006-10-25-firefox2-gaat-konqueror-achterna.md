@@ -3,9 +3,9 @@ layout: post_archive
 title: Firefox2 gaat Konqueror achterna :)
 created: 1161793150
 tags:
-- KDE
+- kde
 - konqueror truukjes
-- Open Source
+- open source
 - firefox
 - software
 lang: nl

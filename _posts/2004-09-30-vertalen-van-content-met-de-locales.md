@@ -3,7 +3,7 @@ layout: post_archive
 title: Vertalen van content met de locales
 created: 1096565853
 tags:
-- ''
+
 lang: en
 ---
 Dit document legt uit hoe het vertalen van inhoud met de webinterface in zijn werk gaat. 

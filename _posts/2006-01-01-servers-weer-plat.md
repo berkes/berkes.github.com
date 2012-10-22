@@ -3,7 +3,7 @@ layout: post_archive
 title: servers weer plat
 created: 1136131738
 tags:
-- ''
+
 lang: nl
 ---
 Ongeveer een half jaar geleden besloot ik naar lycos VPS te verhuizen, nadat ik daar positieve verhalen over had gelezen op diverse webhosting fora. Het was toen nog heel nieuw. Lycos biedt goedkope virtuele servers aan. Servers waar je dus volledige root access had en ik alles dues zo kan indelen zoals ik het graag zie. Bovendien een uitermate leuke speeltuin en een leerschool. de hoofdreden waarom ik die flexibiliteit wilde was omdat ik dan aan de slag kon met multisite hosting. Dat is zoiets als heel veel sites die draaien op een codebase.

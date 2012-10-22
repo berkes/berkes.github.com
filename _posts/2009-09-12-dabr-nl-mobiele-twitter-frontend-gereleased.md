@@ -4,7 +4,7 @@ title: ! 'Dabr.nl: mobiele twitter frontend gereleased'
 created: 1252759952
 tags:
 - dabr
-- Distribution
+- distribution
 lang: nl
 ---
 [Dabr.nl](http://dabr.nl) is gereleased! Dabr is een [Open Source](http://code.google.com/p/dabr/) mobiele omgeving voor Twitter. Het is beter dan m.twitter.com, kan zelf gehost worden, en is open source![David Carrington](http://davidcarrington.co.uk/) bedacht en bouwde het, ik heb het enkel geïnstalleerd en geconfigureerd voor mijn Nederlandse servers. Zodoende ben ik een Nederlandse mirror voor Dabr!Meer over [Dabr.nl op de _about_ pagina](http://dabr.nl/about).

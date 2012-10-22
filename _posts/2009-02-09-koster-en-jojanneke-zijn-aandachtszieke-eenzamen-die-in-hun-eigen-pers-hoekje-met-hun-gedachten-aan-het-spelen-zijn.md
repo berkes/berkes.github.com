@@ -4,8 +4,8 @@ title: Koster en Jojanneke zijn aandachtszieke eenzamen die in hun eigen Pers Ho
   met hun gedachten aan het spelen zijn.
 created: 1234167855
 tags:
-- Twitter
-- De Pers
+- twitter
+- de pers
 - koster en jojanneke
 lang: nl
 ---

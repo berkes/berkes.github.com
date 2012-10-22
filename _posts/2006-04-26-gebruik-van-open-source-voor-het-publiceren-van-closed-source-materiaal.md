@@ -3,7 +3,7 @@ layout: post_archive
 title: Gebruik van Open Source voor het publiceren van Closed Source materiaal
 created: 1146039738
 tags:
-- Activist
+- activist
 lang: nl
 ---
 Vaak krijg ik de vraag of het gebruiken van vrije software voor het bouwen van een website ([Drupal](http://drupal.org)) gevolgen heeft voor de copyrights op het gepubliceerde werk. Microsoft heeft recent inderdaad campagne gevoerd waarin ze het deden lijken alsof alles dat met Free en Open Source Software (FOSS)  in aanraking kwam erdoor werd geïnfecteerd. Ze noemden FOSS zelfs een «kanker die de IT economie van binnenuit wegvreet».

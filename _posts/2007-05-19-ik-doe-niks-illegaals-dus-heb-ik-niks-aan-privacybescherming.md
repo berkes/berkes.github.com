@@ -3,11 +3,11 @@ layout: post_archive
 title: Ik doe niks illegaals, dus heb ik niks aan privacybescherming.
 created: 1179565347
 tags:
-- Politics
-- Dwars
+- politics
+- dwars
 - google
 - privacy
-- Yahoo
+- yahoo
 - data
 lang: nl
 ---

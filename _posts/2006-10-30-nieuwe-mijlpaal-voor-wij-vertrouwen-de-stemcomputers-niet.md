@@ -3,10 +3,10 @@ layout: post_archive
 title: Nieuwe mijlpaal voor "Wij vertrouwen de stemcomputers niet"
 created: 1162243806
 tags:
-- Activist
-- Politics
+- activist
+- politics
 - verkiezingen
-- opensource
+- open source
 lang: nl
 ---
 Vandaag heeft de stichting [Wij vertrouwen de stemcomputers niet](http://www.wijvertrouwenstemcomputersniet.nl/) een belangrijke overwinning geboekt. Nadat de stichting bewezen heeft dat stemmachines niet veilig zijn en er daarom [in Amsterdam geen stemmachines zullen zijn](http://www.minbzk.nl/aspx/get.aspx?xdl=/views/bzk/xdl/page&SitIdt=10&VarIdt=1&ItmIdt=99733).

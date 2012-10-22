@@ -3,11 +3,11 @@ layout: post_archive
 title: ! 'ccLearn: vrij delen van onderwijsmateriaal'
 created: 1185518415
 tags:
-- Open Source
-- Creative Commons
-- Freedom
-- Onderwijs
-- ccLearn
+- open source
+- creative commons
+- freedom
+- onderwijs
+- cclearn
 - plasterk
 lang: nl
 ---

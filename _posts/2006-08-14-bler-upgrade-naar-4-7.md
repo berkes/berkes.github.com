@@ -3,8 +3,8 @@ layout: post_archive
 title: Bler upgrade naar 4.7
 created: 1155551382
 tags:
-- Coding Corner
-- Drupal
+- programming
+- drupal
 - bler
 - sympal
 lang: nl

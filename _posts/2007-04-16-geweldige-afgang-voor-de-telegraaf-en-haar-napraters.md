@@ -3,8 +3,8 @@ layout: post_archive
 title: Geweldige afgang voor de Telegraaf en haar napraters
 created: 1176718945
 tags:
-- Dwars
-- Politiek
+- dwars
+- politiek
 - telegraaf
 - moslims
 lang: nl

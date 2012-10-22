@@ -3,12 +3,12 @@ layout: post_archive
 title: Mailcatcher for Drupal and other PHP-applications - The simple version
 created: 1306674909
 tags:
-- PHP
-- Drupal Talk
-- Drupal
-- Drupal Blog
-- Ruby
-- Ruby on Rails
+- php
+- drupal
+- drupal
+- drupal blog
+- ruby
+- ruby on rails
 lang: en
 ---
 This is an updated version of my [earlier post](http://berk.es/2011/05/28/mailcatcher-for-drupal-and-other-php-applications/). Since msmtp is no longer needed, things are a lot simpler, hence the new article.

@@ -4,7 +4,7 @@ title: Lokale klokkenluiderssite Opennu is een farce
 created: 1292865186
 tags:
 - wikileaks
-- Politics
+- politics
 lang: nl
 ---
 Vandaag releaste Michel Spekkers een "[Lokale wikileaks](http://opennu.nl)". Ik ben enorm voorstander van transparantie en van wat wikileaks doet. Ik kan het daarom alleen maar toejuichen als het voorbeeld van wikileaks gevolgd wordt en de beweging Decentraliseert. Dat maakt de beweging alleen maar sterker. Maar wat hier gereleased is, is verre van een wikileaks. Ik durf zelfs te stellen: een farce. Een klokkenluiders-outlet (wikileaks) staat of valt bij één zeer belangrijke voorwaarde: • Anonimiteit moet gegarandeerd zijn. Nu én in de toekomst.

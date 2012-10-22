@@ -3,10 +3,10 @@ layout: post_archive
 title: Drupal iDEAL codesprint
 created: 1265119404
 tags:
-- opensource
-- iDEAL
-- Drupal
-- DrupalJam
+- open source
+- ideal
+- drupal
+- drupaljam
 - codesprint
 lang: nl
 ---
@@ -17,8 +17,10 @@ Het plan is om met 5 of 6 developers (meer mag ook, maar kan het vinden van ruim
 Ik verzorg een switch, kan ook evt een wireless router meenemen als we enkel wireless hebben. Deelnemers verzorgen zelf laptops.
 
 Ik ben druk alle (drupal) en andere OSScode aan het verzamelen. Doel is: - een centraal Open Source ideal interface opzetten. (niet persé Drupalspecifiek)
-- Centrale Drupal-ideal beginnersdocumentatie inrichten en ook al deels vullen. 
-- Drupal specifieke ideal-module, of modules neerzetten. 
+
+* Centrale Drupal-ideal beginnersdocumentatie inrichten en ook al deels vullen. 
+* Drupal specifieke ideal-module, of modules neerzetten. 
+
 Na de Drupaljam wil ik één Drupal.org projectpagina hebben staan met documentatie en eerste code waar ontwikkelaars en gebruikers iDEAL-modules kunnen vinden. En mogelijk één ideal-API pagina waarop een OpenSource iDEAL-bibliotheek te vinden is (als alternatief voor de verscheidenheid aan gesloten en soms moeilijk te verkrijgen en implementeren code van de verschillende banken).
 
 Dat laatste zou niet Drupal-specifiek zijn, maar wél OpenSource. Hopelijk kunnen we ontwikkelaars uit bijvoorbeeld magento, Joomla! en wordpress hierbij betrekken.

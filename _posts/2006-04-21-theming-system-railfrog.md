@@ -3,8 +3,8 @@ layout: post_archive
 title: Theming system railfrog
 created: 1145607872
 tags:
-- Theming
-- Railfrog
+- theming
+- railfrog
 lang: en
 ---
 Codename kiss. (Because a kiss turns the frog into a prince.)To develop a theme system for Railfrog, we need to look at other systems, reuse existing libraries, but most of all, DoI It Right and Futureproof.

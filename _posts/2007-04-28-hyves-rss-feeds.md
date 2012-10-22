@@ -3,9 +3,9 @@ layout: post_archive
 title: Hyves RSS feeds
 created: 1177772464
 tags:
-- Web2.0
-- RSS
-- Hyves
+- web2.0
+- rss
+- hyves
 - social software
 lang: nl
 ---

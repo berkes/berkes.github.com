@@ -3,11 +3,11 @@ layout: post_archive
 title: Drupal 5 is uit.
 created: 1168866295
 tags:
-- Drupal
+- drupal
 - webschuur
-- Open Source
+- open source
 - webdevelopment
-- CMS
+- cms
 lang: nl
 ---
 [Drupal 5 is uit](http://drupal.org/drupal-5.0) ([Graaf dit](http://digg.com/software/Drupal_5_0_is_out_Happy_Birthday)). Hiephoi. Ik heb, zoals vorig jaar aangekondigd, weinig bijgedragen aan deze release, ik heb me deels terugetrokken uit het core-gedoe.

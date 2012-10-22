@@ -1,7 +1,7 @@
 ---
 layout: post_medium
 title: "git deploy or: How I Learned to Stop Worrying and Love Deployment"
-tags: [git, Drupal, deployment]
+tags: [git, drupal, deployment]
 lang: en
 ---
 {% include JB/setup %}

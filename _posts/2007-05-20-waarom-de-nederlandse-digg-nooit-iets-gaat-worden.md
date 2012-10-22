@@ -3,7 +3,7 @@ layout: post_archive
 title: waarom de Nederlandse digg nooit iets gaat worden.
 created: 1179649904
 tags:
-- Web2.0
+- web2.0
 - nieuws
 - ekudos
 - social software

@@ -3,7 +3,7 @@ layout: post_archive
 title: Champagne
 created: 1103812240
 tags:
-- Diabetes blog
+- diabetes blog
 - eten
 lang: nl
 ---

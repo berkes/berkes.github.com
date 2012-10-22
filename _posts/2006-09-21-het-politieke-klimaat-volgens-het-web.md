@@ -3,7 +3,7 @@ layout: post_archive
 title: ! '"Het politieke klimaat" volgens het web'
 created: 1158790975
 tags:
-- Politics
+- politics
 - internet
 - troonrede
 lang: nl

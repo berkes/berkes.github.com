@@ -3,8 +3,8 @@ layout: post_archive
 title: laatste headline van een RSS feed als email sig.
 created: 1141812918
 tags:
-- Coding Corner
-- Ruby
+- programming
+- ruby
 lang: nl
 ---
 Vaak kan het boeiend zijn om de laatste headline van bijvoorbeeld je weblog, of je bedrijfssite in de voet-text (signature) van je mail te zetten. Merk op dat dit uiteraard niet werkt bij online mail zoals hotmail!Dit Ruby scriptje draait dagelijks met mijn [crontab](http://en.wikipedia.org/wiki/Crontab). Het gebruikt [simpleRSS](http://simple-rss.rubyforge.org/) en is in feite mijn eerste helemaal zelfgebrouwen bruikbare ruby 'toepassing' (ahum).

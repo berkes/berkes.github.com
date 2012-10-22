@@ -3,7 +3,7 @@ layout: post_archive
 title: De lage koolhydraten-trend
 created: 1116144616
 tags:
-- Diabetes blog
+- diabetes blog
 lang: nl
 ---
 Ik ben er blij mee. [De trend](http://www.nytimes.com/2005/05/15/business/15sugar.html?ex=1273809600&en=e2a18209d6223a67&ei=5090&partner=rssuserland&emc=rss) om overal maar kunstmatige zoetstoffen in te stoppen, en de naam Light erop te plakken.

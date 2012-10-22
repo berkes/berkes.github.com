@@ -3,7 +3,7 @@ layout: post_archive
 title: ! 'Piwik 0.5.5 out. New plugin: AnonymizeIP'
 created: 1269870506
 tags:
-- ''
+
 lang: en
 ---
 I run <a href="http://piwik.org/">piwik, the Open Source web analytics</a> tool on the webschuur server to track some clients' sites and this site. 

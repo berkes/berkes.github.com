@@ -3,7 +3,7 @@ layout: post_archive
 title: ! '"Ruby-on-rails is minder goed dan PHP want het is moeilijk te hosten"'
 created: 1301563367
 tags:
-- Ruby
+- ruby
 lang: nl
 ---
 Op mijn diverse artikelen over de geschikheid van Drupal ook veel reacties van mensen die de plank helemaal misslaan. Zoals "Kan wel zijn, dat je in Rails makkelijker kan bouwen, maar Rails is moeilijk te hosten". Sidenote: Ik heb slechts heel weinig ervaring met Python-hosting (enkel trac projectmanagement), dus durft hoogstens te zeggen dat ik verwacht dat onderstaand daar ook voor geldt.

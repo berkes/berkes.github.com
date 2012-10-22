@@ -3,9 +3,9 @@ layout: post_archive
 title: Schrijf nooit welkom
 created: 1191877503
 tags:
-- SEO
+- seo
 - usability
-- Schrijven voor Internet
+- schrijven voor internet
 - welkom
 - gebruiksgemak
 lang: nl

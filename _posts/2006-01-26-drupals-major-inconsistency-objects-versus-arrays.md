@@ -3,7 +3,7 @@ layout: post_archive
 title: Drupals major inconsistency, objects versus arrays
 created: 1138306157
 tags:
-- Drupal Talk
+- drupal
 lang: en
 ---
 Drupal is well known for its clean code (in core at least) and its strict rules to protect that clean code. However, especially since the form API, but actually since the menu made the entrance, we have one mayor inconsistency: use of objects and arrays.

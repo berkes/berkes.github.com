@@ -3,12 +3,12 @@ layout: post_archive
 title: Design principles for creating Good Classes let you write Good Drupal Modules.
 created: 1276166851
 tags:
-- Project Management
-- Programming
-- PHP
-- Tips and tricks
-- Drupal Talk
-- Drupal
+- project management
+- programming
+- php
+- tips and tricks
+- drupal
+- drupal
 lang: en
 ---
 Drupal is not object oriënted (OO). No really, <a href="http://drupal.org/node/547518">it is not</a>! It merely borrows some design principles from OO, and uses some design concepts (such as the <a href="http://en.wikipedia.org/wiki/Observer_pattern">Observer Pattern</a>, or hooks, in Drupal) from OO. 

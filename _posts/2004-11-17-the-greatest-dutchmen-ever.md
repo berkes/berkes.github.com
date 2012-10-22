@@ -3,7 +3,7 @@ layout: post_archive
 title: The Greatest Dutchmen ever.
 created: 1100706647
 tags:
-- ''
+
 lang: nl
 ---
 ...or: Why media should not try to write history.

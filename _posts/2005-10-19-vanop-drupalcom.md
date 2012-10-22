@@ -3,7 +3,7 @@ layout: post_archive
 title: Vanop DrupalCOM
 created: 1129709873
 tags:
-- Coding Corner
+- programming
 lang: nl
 ---
 De derde dag van [DrupalCOM]([]rupal.org/conference-amsterdam-2005[]) in Amsterdam. Omdat mijn laptop net donderdag doodging, tik ik dit op een oude fujitsu lifebook (120MHz, 13MB ram) met damn small linux daarop.

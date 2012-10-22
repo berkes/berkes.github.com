@@ -3,14 +3,14 @@ layout: post_archive
 title: We hollen de eeuw van Open Source hardware binnen
 created: 1187086679
 tags:
-- Design
-- Open Source
-- Hardware
-- Make
-- DIY
-- Long Tail
-- Chris Anderson
-- OpenMoko
+- design
+- open source
+- hardware
+- make
+- diy
+- long tail
+- chris anderson
+- openmoko
 lang: nl
 ---
 Met de komst van de [OpenMoko](http://www.openmoko.org), de volledig open source telefoon, lijkt het dat [ Chris Anderson](http://www.eetimes.com/news/latest/showArticle.jhtml?articleID=201500039) (bekend van het boek 'the long tail') volledig gelijk gaat krijgen.

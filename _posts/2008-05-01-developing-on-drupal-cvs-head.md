@@ -3,9 +3,9 @@ layout: post_archive
 title: Developing on Drupal CVS HEAD
 created: 1209652296
 tags:
-- Project Management
-- Drupal Talk
-- Drupal
+- project management
+- drupal
+- drupal
 lang: en
 ---
 Most people develop and maintain their contributions in the last branch, effectively ignoring HEAD.

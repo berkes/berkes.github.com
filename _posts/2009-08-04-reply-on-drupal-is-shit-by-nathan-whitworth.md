@@ -3,8 +3,8 @@ layout: post_archive
 title: Reply on "Drupal is Shit" by Nathan Whitworth
 created: 1249397785
 tags:
-- Drupal Talk
-- Drupal
+- drupal
+- drupal
 lang: en
 ---
 Nathan Whitworth's blog has come up as solution to many of my Zend-problems i came across. I consider him an expert on PHP development. Reading a post [Drupal is Shit](http://blog.nathanwhitworth.co.uk/opinions/drupal-is-shit.html) by him, made me think. Twice.  > But Drupal is much more powerful than Wordpress! I can here the echoes of Drupal fans already and I’m not even going to try and disagree with them, I shall take it for granted; If you’re building “complex” websites then Drupal is more more suited to the job than Wordpress. Fine, I’ll accept that without a fight, but I will say this; if you’re building “complex” websites, then a solid MVC framework is far, far more powerful, flexible and scalable than Drupal ever will be.

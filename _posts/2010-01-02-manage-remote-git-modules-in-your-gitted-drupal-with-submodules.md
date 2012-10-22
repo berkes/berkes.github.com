@@ -3,8 +3,8 @@ layout: post_archive
 title: Manage remote git modules in your gitted Drupal with submodules
 created: 1262444011
 tags:
-- Drupal Talk
-- Drupal
+- drupal
+- drupal
 lang: en
 ---
 This small howto describes the concept of adding Drupal modules to your project's git repository. For that, you can use the git command <a href="http://book.git-scm.com/5_submodules.html">git submodules</a>.

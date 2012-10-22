@@ -3,9 +3,9 @@ layout: post_archive
 title: Petitie tegen stemmachines in Duitsland
 created: 1162389268
 tags:
-- Politics
+- politics
 - verkiezingen
-- Duitsland
+- duitsland
 lang: nl
 ---
 In Duitsland blijkt ook al een actie te lopen [tegen stemmachines](http://www.wijvertrouwenstemcomputersniet.nl) in hun huidige vorm.

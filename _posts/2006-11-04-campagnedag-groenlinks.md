@@ -3,8 +3,8 @@ layout: post_archive
 title: Campagnedag Groenlinks
 created: 1162630651
 tags:
-- Politics
-- Dwars
+- politics
+- dwars
 - groen links
 - verkiezingen
 - campagnedag

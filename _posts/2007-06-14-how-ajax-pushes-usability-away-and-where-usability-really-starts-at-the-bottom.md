@@ -4,15 +4,15 @@ title: ! 'How ajax pushes usability away. And where usability really starts: at 
   bottom.'
 created: 1181853385
 tags:
-- Programming
-- PHP
-- Tips and tricks
-- Design
-- Drupal Talk
-- Drupal
-- Usability
-- Ruby
-- AJAX
+- programming
+- php
+- tips and tricks
+- design
+- drupal
+- drupal
+- usability
+- ruby
+- ajax
 lang: en
 ---
 Ajax is no longer hot, its a commodity. Rich javascript is found all over the place. This is a bad thing. Or at least something we should be worried about. We, being people who care about usability.

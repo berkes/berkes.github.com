@@ -3,7 +3,7 @@ layout: post_archive
 title: De don, dit is toch hoop ik echt een knipoog
 created: 1140960952
 tags:
-- ''
+
 lang: nl
 ---
 Via [Dwars](http://dwars.org) werd ik op [deze geweldige rap](http://www.justitie.nl/Images/Donner_podcast_tcm74-107703.mp3) (ughe) attent gemaakt. [Minister Donner](http://www.justitie.nl/nieuws/60225_De_Don.asp) op en slap The Box Beatje die verteld waarom zijn drugsbeleid is zoals het is. Ervoor legt hij indie podcast uit waarom de achterdeur naar coffeeshops gesloten moet blijven. Helaas (of gelukkig!) zit dat betoogje zo vol gaten dat eenZzwitserse kaas er jaloers op zou worden. Dit is overigens een reactie op [de uitspaken van Gerd Leers](http://www.maastricht.nl/maastricht/show/id=162530) dat coffeshops óf moeten sluiten. Allemaal. Óf dat de hele lijn gelegaliseerd moet worden, en niet alleen het laatste stukje van de logistiek (de coffeshop moet uiteindeljik zijn shit ergens vandaan halen).
