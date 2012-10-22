@@ -3,9 +3,9 @@ layout: post_archive
 title: ROOD "DWARS MOET KIEZEN TUSSEN SOCIALISME OF LIBERALISME"
 created: 1175194391
 tags:
-- Dwars
-- GroenLinks
-- SP
+- dwars
+- groenlinks
+- sp
 lang: nl
 ---
 ROOD, de Nederlandse SP-Jongeren [halen hard uit naar DWARS](http://rood.sp.nl/discussie/id/559), de GroenLinks jongeren. Ik had in hun comments een lang antwoord gecomponeerd, maar een reactie mag blijkbaar niet langer dan 200 woorden zijn. Daarom plaats ik het hieronder en link ik vanuit het comment naar hier.

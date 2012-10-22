@@ -3,15 +3,15 @@ layout: post_archive
 title: Wizzlern, the new Dutch Drupal Trainers, but how to share?
 created: 1234104564
 tags:
-- Project Management
-- Knowledge Management
-- Collaborative Writing
-- Tips and tricks
-- Theming
-- Drupal Talk
-- Drupal
-- Drupal Blog
-- Videocasts
+- project management
+- knowledge management
+- collaborative writing
+- tips and tricks
+- theming
+- drupal talk
+- drupal
+- drupal blog
+- videocasts
 lang: en
 ---
 [Erik](http://drupal.org/user/73854) and [I (Bèr Kessels)](http://drupal.org/user/2663) decided in December last year, that the Netherlands needed a Drupal trainingshop. And that we are going to run it: [Wizzlern](http://wizzlern.nl). We are not the first Dutch trainers, bytheway; our friends at Krimson run the [first Dutch trainingshop](http://krimson.be/en/training). But they are situated in Belgium, and we in the Netherlands. Right now, we are in the middle of a grand writing-sprint. Getting all the training-material ready, getting a nice branding (logo), installing and configuring an e-learning platform, and getting the word out in the open about our new Drupal initiative. A lot more work then one would think:I am writing two modules (from scratch), building and designing two entirely new themes (one on phptemplate, the other in pure PHP) and generating several screencasts. Since all the work is in Dutch, it makes little sense to release all this work as-is, it needs the context of a training to be valuable.

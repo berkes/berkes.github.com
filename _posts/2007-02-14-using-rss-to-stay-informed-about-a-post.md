@@ -3,11 +3,11 @@ layout: post_archive
 title: Using RSS to stay informed about a post
 created: 1171484043
 tags:
-- Knowledge Management
-- Collaborative Writing
-- Weblogging
-- Drupal Talk
-- Drupal
+- knowledge management
+- collaborative writing
+- weblogging
+- drupal talk
+- drupal
 - comment module
 - blog module
 lang: en

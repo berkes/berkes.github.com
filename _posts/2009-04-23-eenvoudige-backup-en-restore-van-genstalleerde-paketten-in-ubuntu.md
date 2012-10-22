@@ -6,7 +6,7 @@ tags:
 - ubuntu
 - opensource
 - dpkg
-- Debian
+- debian
 - backup-manager
 - backup
 - apt

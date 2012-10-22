@@ -3,8 +3,8 @@ layout: post_archive
 title: Druby on Rails part 1
 created: 1135199843
 tags:
-- Drupal Talk
-- Ruby
+- drupal talk
+- ruby
 lang: en
 ---
 So the next issue. I cant recall why I numbered my first post as 0, but ill leave it with that. True Geeks Start Counting At Zero.

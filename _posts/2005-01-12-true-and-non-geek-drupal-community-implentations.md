@@ -3,7 +3,7 @@ layout: post_archive
 title: True and non-geek drupal community implentations
 created: 1105491005
 tags:
-- Social Software
+- social software
 lang: en
 ---
 For a new project I am investigation some true and non-geek (that is: not a site about sites, or a site about software) communities. A community off course must have some size. I came up with this list:

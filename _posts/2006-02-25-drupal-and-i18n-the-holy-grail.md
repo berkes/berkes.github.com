@@ -3,8 +3,8 @@ layout: post_archive
 title: Drupal and i18n, the holy grail?
 created: 1140875294
 tags:
-- Drupal Talk
-- Newsphoto EU
+- drupal talk
+- newsphoto eu
 - sympal.nl
 lang: en
 ---

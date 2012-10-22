@@ -4,7 +4,7 @@ title: ! '''last'' van een leesoog. Over informatieoverflow.'
 created: 1181683195
 tags:
 - internet
-- Develpoment
+- develpoment
 - information
 lang: nl
 ---

@@ -3,7 +3,7 @@ layout: post_archive
 title: splitsingen.
 created: 1103152610
 tags:
-- Ik heb niet getwijfeld over België
+- ik heb niet getwijfeld over belgië
 lang: nl
 ---
 Bijna iedere dag kom je voor momenten te staan dat je keuzess moet maken. Maar soms blijkne ze heel groot en heb je meer dan een dag nodig om ze af te wegen. Ik heb dus al bijna anderhalf jaar nodig om te weten waarheen ik nu eigenlijk wil. Dus heb ik besloten deze grote keuze maar op te delen ion vele kleintjes.

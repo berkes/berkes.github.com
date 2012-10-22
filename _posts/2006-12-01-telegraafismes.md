@@ -3,7 +3,7 @@ layout: post_archive
 title: telegraafismes
 created: 1164983350
 tags:
-- Dwars
+- dwars
 - nieuws
 - media
 lang: nl

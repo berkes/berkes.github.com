@@ -3,7 +3,7 @@ layout: post_archive
 title: ! 'Kiva: ontwikkelingshulp anno 2007'
 created: 1191775598
 tags:
-- Web2.0
+- web2.0
 - '2007'
 - ontwikkelingshulp
 lang: nl

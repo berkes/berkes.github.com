@@ -4,7 +4,7 @@ title: Google toont nu tweets
 created: 1262556884
 tags:
 - google
-- Twitter
+- twitter
 - microblogging
 - identica
 - berkes

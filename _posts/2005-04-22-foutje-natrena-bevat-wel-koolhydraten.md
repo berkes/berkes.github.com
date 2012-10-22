@@ -3,7 +3,7 @@ layout: post_archive
 title: ! 'Foutje: natrena bevat wel koolhydraten!'
 created: 1114149984
 tags:
-- Diabetes blog
+- diabetes blog
 lang: nl
 ---
 In het ziekenhuis kreeg ik  bij mijn koffie altijd een zakje Natrena. Ik drink mijn koffie zonder suiker, ook voor mijn diagnose, dus ik had wat zakjes in mijn tas gestopt voor thuis.

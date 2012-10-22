@@ -4,9 +4,9 @@ title: Zet de Hyves open
 created: 1179087494
 tags:
 - internet
-- Hyves
+- hyves
 - web1.0
-- API
+- api
 - webdevlopment
 lang: nl
 ---

@@ -3,8 +3,8 @@ layout: post_archive
 title: Drupal with apache in a chrooted jail
 created: 1147185377
 tags:
-- Server
-- Drupal Talk
+- server
+- drupal talk
 - sympal.nl
 lang: en
 ---

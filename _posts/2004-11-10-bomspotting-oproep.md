@@ -3,7 +3,7 @@ layout: post_archive
 title: Bomspotting oproep
 created: 1100109801
 tags:
-- Activist
+- activist
 lang: nl
 ---
 De campagne Bomspotting gaat zijn zevende jaar in. Blikvangers waren de Bomspotting-acties in Kleine Brogel en op SHAPE, het militaire hoofdkwartier van de NAVO in Bergen. De acties van burgerlijke ongehoorzaamheid op deze twee plaatsen maken duidelijk waar het in deze campagne om draait: een verwijdering van de kernwapens uit België én een denuclearisering van de NAVO-strategie.<!--break-->De resultaten tot hier toe zijn reeds aanzienlijk. Dankzij onze acties weten de meeste Vlamingen nu dat er kernwapens aanwezig zijn op Kleine Brogel en groeit de verontwaardiging, dienden duizenden mensen reeds een klacht in tegen de Belgische Staat en staan kernwapens terug op de politieke agenda.

@@ -4,9 +4,9 @@ title: Open Source projecten als perfecte CV
 created: 1186265850
 tags:
 - werk
-- Open Source
+- open source
 - development
-- CV
+- cv
 lang: nl
 ---
 [Dries](http://buytaert.net/on-hiring-drupal-talent-2) heeft weer eens een geweldig punt gemaakt. Zijn artikel gaat over het inhuren van Drupal talent, maar hij heeft het feitelijk over het inhuren en vinden van goed Open Source talent.

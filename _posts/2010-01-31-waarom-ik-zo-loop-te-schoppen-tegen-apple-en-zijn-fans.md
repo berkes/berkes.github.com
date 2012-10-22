@@ -7,7 +7,7 @@ tags:
 - rdf
 - jobs
 - hacking
-- Freedom
+- freedom
 - apple
 lang: nl
 ---

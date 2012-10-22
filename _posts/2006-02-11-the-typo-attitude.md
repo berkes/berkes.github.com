@@ -3,7 +3,7 @@ layout: post_archive
 title: The typo attitude.
 created: 1139648247
 tags:
-- Drupal Talk
+- drupal talk
 lang: en
 ---
 Typo comes with a big (quite polite, actually) red warning sign telling you to keep out, if you are not willing to learn. They tell you [its going to be hard](http://typo3.org/about/new-to-typo3/), and tough, and above all, that there is a big chance you don't need TYPO3 at all.> Do you really need TYPO3? That is also a question you have to answer as fast as possible. Lets say you want to go from your home to the supermarket. For this purpose you would be really frustrated if someone told you to fly down there in a big jumbojet, right? (...unless you live in Australia)  You would have to spend a lot of time learning to fly it. And you would be frustrated and unable to see the point. Because you would need only a bicycle to get there! Its the same with TYPO3. Many websites really don't need a CMS like TYPO3. But some sites do! The most important thing you can do to not waste your time here is to figure out if TYPO3 is what you need - or if it's too much.

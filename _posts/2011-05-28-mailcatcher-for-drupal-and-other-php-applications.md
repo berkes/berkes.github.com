@@ -3,12 +3,12 @@ layout: post_archive
 title: Mailcatcher for Drupal and other PHP-applications
 created: 1306591723
 tags:
-- PHP
-- Drupal Talk
-- Drupal
-- Drupal Blog
-- Ruby
-- Ruby on Rails
+- php
+- drupal talk
+- drupal
+- drupal blog
+- ruby
+- ruby on rails
 lang: en
 ---
 

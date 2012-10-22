@@ -5,8 +5,8 @@ title: Een downloadverbod is technisch onhaalbaar en bij voorbaat al een mislukt
 created: 1261393815
 tags:
 - tor
-- Proxy
-- IP
+- proxy
+- ip
 - https
 - downloadverbod
 lang: nl

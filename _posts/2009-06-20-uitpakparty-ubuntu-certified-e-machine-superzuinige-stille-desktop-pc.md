@@ -4,9 +4,9 @@ title: ! 'Uitpakparty: Ubuntu certified E-machine, superzuinige, stille desktop-
 created: 1245507884
 tags:
 - ubuntu
-- Open Source
+- open source
 - pc
-- Hardware
+- hardware
 - computer
 - energie
 lang: nl

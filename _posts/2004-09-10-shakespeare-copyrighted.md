@@ -3,7 +3,7 @@ layout: post_archive
 title: Shakespeare copyrighted??
 created: 1094812277
 tags:
-- Activist
+- activist
 lang: nl
 ---
 The BBC announced that the British Libary has put [high resolution images of shakespeares](http://prodigi.bl.uk/treasures/shakespeare/record.asp) works online. One thing I am really annoyed by, though is the fact that it is all copyrighted. Why? Is it not the British tax payer that payed to get those images online? Why is that same tax-payer then not allowed to re-use those images he or she has already payed for? Or at least have a say on whether or not those images should be copyrighted.

@@ -3,10 +3,10 @@ layout: post_archive
 title: ! 'Iteration 01: Whats in a name, define the framework'
 created: 1150745984
 tags:
-- Theming
-- CSS
-- Drupal Talk
-- WhatsInItsName theme design blog
+- theming
+- css
+- drupal talk
+- whatsinitsname theme design blog
 lang: en
 ---
 If you have been following some of the recent CSS and webdesign trends, you might have noticed the trend slowly bending towards semantic correct designs. As it should have been from the start. 

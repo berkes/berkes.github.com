@@ -5,7 +5,7 @@ created: 1265966438
 tags:
 - biologisch
 - ecologisch
-- Groen
+- groen
 - fairtrade
 lang: nl
 ---

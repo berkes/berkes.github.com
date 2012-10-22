@@ -3,7 +3,7 @@ layout: post_archive
 title: Filtered input formats, I finally settle down with markdown.
 created: 1148564391
 tags:
-- Drupal Talk
+- drupal talk
 lang: en
 ---
 I have gone trough a lot of stadia of liking, useing and disliking various input formats. and most of the times ended up using plain-ol'-HTML. With [quicktags](http://www.webschuur.com/modules/quicktags) this is more then enough for a blog. But when making up more complex documents, for example with lists, and headings, HTML is far too much work to type. And now I landed with markdown. And I love it. And I just saw that [groups.drupal.org](http://groups.drupal.org) is using it too. (Good choice, Moshe!)

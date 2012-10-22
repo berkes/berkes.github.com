@@ -3,10 +3,10 @@ layout: post_archive
 title: Lots of missing files in development of Drupal? Switch off Drupal's error handling
 created: 1262725609
 tags:
-- Tips and tricks
-- Drupal Talk
-- Drupal
-- Drupal Blog
+- tips and tricks
+- drupal talk
+- drupal
+- drupal blog
 lang: en
 ---
 When testing, or developing an existing site, one often does not copy over all the filebase. 

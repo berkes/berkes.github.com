@@ -3,7 +3,7 @@ layout: post_archive
 title: Presentation drupal in files communities
 created: 1129497961
 tags:
-- Drupal Talk
+- drupal talk
 - files
 lang: en
 ---

@@ -3,7 +3,7 @@ layout: post_archive
 title: ! 'Drupal and the carpenter: Drupal can do you harm?'
 created: 1166731647
 tags:
-- Drupal Talk
+- drupal talk
 lang: en
 ---
 Back in the days when I lived in South Africa, I had a good friend, a quite young [Sangoma](http://en.wikipedia.org/wiki/Sangoma), he told me an ancient wisdom (Though I guess he actually made it up himself) __"A good carpenter never blames his tools for a broken table"__. The explanation is twofold: A good carpenter does not have bad tools, a good carpenter is a good carpenter because he knows how to __choose__ his tools. But if, with those good tools, his table still breaks, he will blame himself, either for trying to build a table that is too hard for him to build, or for simply not doing his job well. That is what made him a good carpenter: __He leared from his mistakes__. <!--break-->In a [recent discussion](http://lists.drupal.org/pipermail/consulting/2006-December/001452.html) on a Drupal mailinglist, about a post where Drupal is presented as "not the best choice for all cases", the fingers qickly pointed at the Drupal page 'is Drupal right for you'. Drupal is presenting itself as too good, to which I agree, I [brought this up a while ago](http://webschuur.com/node/480) already.

@@ -3,10 +3,10 @@ layout: post_archive
 title: Buma/Stemra Blocker voor Drupal
 created: 1254864022
 tags:
-- Politics
+- politics
 - module
-- Drupal
-- Buma
+- drupal
+- buma
 lang: nl
 ---
 De [BS blocker](http://github.com/berkes/BS-Blocker) is een enorm eenvoudige [Drupal](drupal.nl)module. De module zet bij installatie de IP adressen van Teezir in de Access-rules van Drupal: Teezir wordt dan van uw site geweerd.[Download hem hier](http://github.com/berkes/BS-Blocker/downloads)UPDATE: de laastste **versie, 0.3**, haalt online nieuwe te blokkeren adressen op. Hiervoor moet je a Drupal site cron draaien, en moet je server toestaan dat externe bestanden geöpend kunnen worden. Kan dat niet, dan kun je zelf het bestandje ip-adresses.txt vervangen en zal dat door de cron opgepakt worden.

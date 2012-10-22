@@ -3,7 +3,7 @@ layout: post_archive
 title: Oxfam's Big Sound Music, only supports Microsoft products.
 created: 1086068011
 tags:
-- Activist
+- activist
 lang: nl
 ---
 Oxfam launched a new campaign called "[Big Sound Music](http://www.bignoisemusic.com)". It allows people to buy and download digital music. A part of the profit is donated to the "Make Fair Trade" campaign. Unfortunately they chose to use the technology from the multinational OD2. This means that only windows users, with the latest Windows Media Player can access the music. <!--break-->

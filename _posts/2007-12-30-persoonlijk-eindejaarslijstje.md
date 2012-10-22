@@ -3,8 +3,8 @@ layout: post_archive
 title: Persoonlijk eindejaarslijstje
 created: 1199032026
 tags:
-- Music
-- Muziek
+- music
+- muziek
 - eindejaarslijstje
 - '2007'
 lang: nl

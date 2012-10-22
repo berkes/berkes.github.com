@@ -6,7 +6,7 @@ tags:
 - webdevelopment
 - usability
 - popups
-- iDEAL
+- ideal
 lang: nl
 ---
 Een goed argument naar je klanten toe, die weer over popups of nieuwe-vensters openen,> Nota bene: De iDEAL Referentiegids stelt als regel, dat de redirect naar de issuer binnen hetbrowserwindow moet plaatsvinden waarin de consument op de Betaalknop heeft gedrukt. Daarbijmoet de volledige pagina van de acceptant vervangen worden door de volledige pagina van degekozen issuer. Het gebruik van een tweede browserwindow (pop-ups) of frames is dus niettoegestaan.

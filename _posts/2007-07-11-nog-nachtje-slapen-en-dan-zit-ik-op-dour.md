@@ -3,10 +3,10 @@ layout: post_archive
 title: Nog ééń nachtje slapen en dan zit ik op Dour
 created: 1184187273
 tags:
-- Music
-- Dour2007
+- music
+- dour2007
 - dour
-- Festival
+- festival
 lang: nl
 ---
 Zo. Tandenborstel ingepakt. Kilo's reserve insuline en naalden in mijn tas, en hop, morgen in de trein naar Zuid Belgïe, het [Dour Festival](http://www.dourfestival.be/nl/?l=nl). Ik heb er zin an.

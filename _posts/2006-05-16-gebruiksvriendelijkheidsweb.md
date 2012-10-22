@@ -3,7 +3,7 @@ layout: post_archive
 title: Gebruiksvriendelijkheidsweb
 created: 1147761171
 tags:
-- Activist
+- activist
 lang: nl
 ---
 Leuk woord "gebruiksvriendelijk". Helaas bijna een contradictio in terminis als het in een zin voorkomt met "internet" of "websites". En het lijkt wel helemaal onmogelijk te worden als je een "ontwerper" of "programmeur" (De twee uitersten in het web-ontwikkel-spectrum) alléén los laat op een site.

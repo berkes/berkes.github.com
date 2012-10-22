@@ -3,10 +3,10 @@ layout: post_archive
 title: Foto's van Dour
 created: 1248618190
 tags:
-- Dour09
+- dour09
 - dour
-- Music
-- Festival
+- music
+- festival
 - fotos
 lang: nl
 ---

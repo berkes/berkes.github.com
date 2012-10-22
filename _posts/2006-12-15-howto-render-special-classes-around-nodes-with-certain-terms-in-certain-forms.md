@@ -4,11 +4,11 @@ title: ! 'HOWTO: render special classes around nodes with certain terms (in cert
   forms)'
 created: 1166195042
 tags:
-- PHP
-- Theming
-- CSS
-- Drupal Talk
-- WhatsInItsName theme design blog
+- php
+- theming
+- css
+- drupal talk
+- whatsinitsname theme design blog
 lang: en
 ---
 An often requested feature for sections module (or Theming in general) is to be able to style nodes with certain terms (and therefore forums) different.

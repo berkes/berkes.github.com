@@ -3,8 +3,8 @@ layout: post_archive
 title: Nieuwe mijlpaal voor "Wij vertrouwen de stemcomputers niet"
 created: 1162243806
 tags:
-- Activist
-- Politics
+- activist
+- politics
 - verkiezingen
 - opensource
 lang: nl

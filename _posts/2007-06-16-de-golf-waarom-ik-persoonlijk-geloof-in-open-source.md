@@ -4,7 +4,7 @@ title: ! 'De Golf: Waarom ik, persoonlijk, geloof in Open Source.'
 created: 1182028733
 tags:
 - bler
-- Open Source
+- open source
 - persoonlijk
 lang: nl
 ---

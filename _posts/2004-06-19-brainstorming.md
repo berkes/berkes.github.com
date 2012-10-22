@@ -3,7 +3,7 @@ layout: post_archive
 title: Brainstorming
 created: 1087633808
 tags:
-- Collaborative Writing
+- collaborative writing
 lang: en
 ---
 The Nymfaeum Press project has started. Technicaly we are up in the air. But it looks like nothing, there is no content. There is hardly a plan for the technical posibilities of Drupal

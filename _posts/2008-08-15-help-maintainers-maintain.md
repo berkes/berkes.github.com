@@ -3,10 +3,10 @@ layout: post_archive
 title: Help maintainers maintain
 created: 1218813939
 tags:
-- Project Management
-- Organisation management
-- Drupal Talk
-- Drupal
+- project management
+- organisation management
+- drupal talk
+- drupal
 lang: en
 ---
 So, there is a good thing you, as non-coder can do: clean up your mess :)Submitting issues is a good thing. Without that, there is hardly a way to improve a piece of software; after all: the only relevant test is real use.

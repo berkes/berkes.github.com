@@ -3,7 +3,7 @@ layout: post_archive
 title: Indymedia servers still gone
 created: 1097309038
 tags:
-- Activist
+- activist
 lang: nl
 ---
 [The FBI issued an order to Rackspace](http://indymedia.org/en/static/fbi) in the US (Indymedia's provider with offices in the US and London) to [remove physically one of their servers](/our). The order was so short term that Rackspace had to give away our hard drives in the UK. Amongst others, my dearest and beloveth [Antwerp IM is down](http://antwerpen.indymedia.org/).

@@ -4,7 +4,7 @@ title: Met één toetsenbord en muis meerdere PC's bedienen
 created: 1262887978
 tags:
 - x2x
-- Linux
+- linux
 - ubuntu
 - opensource
 - ssh

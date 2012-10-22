@@ -3,13 +3,13 @@ layout: post_archive
 title: Suicide Girls reportage (Niet Veilig Als de Baas Achter Je Staat)
 created: 1181337113
 tags:
-- TV
-- VPRO
+- tv
+- vpro
 - film
-- Suicide Girls
-- DVD
+- suicide girls
+- dvd
 - burlesque
-- Grrrl
+- grrrl
 lang: nl
 ---
 Eindelijk heb ik eens [de DVD](http://video.google.com/videoplay?docid=-1334738470972765734) van de [Suicide Girls](http://suicidegirls.com) bekeken. Al tijden had ik hem op mijn hardeschijf staan, gisteren eens op DVD gebrand en vandaag bekeken. <embed style="width:400px; height:326px;" id="VideoPlayback" type="application/x-shockwave-flash" src="http://video.google.com/googleplayer.swf?docId=-1334738470972765734&hl=nl" flashvars=""> </embed>Het is erg Amerikaans. Ik kan geen Nova verslag van Kurpershoek herinneren, ook geen CNN report, dat zó duidelijk de Amerikaanse cultuur laat zien. Juist omdat Suicide Girls uit de niche komt. Juist omdat hun hele unique selling point die "niche" (eufemistisch 'Underground', genoemd, in de reportage) is, geeft het een duidelijk beeld. Het gaat dus om uiterlijk, maar eerst en vooral om het gezien worden van dat uiterlijk. Een samenleving die draait om uiterlijk, moet ook gezien worden, anders heb je immers niks aan dat uiterlijk.

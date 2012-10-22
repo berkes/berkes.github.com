@@ -3,8 +3,8 @@ layout: post_archive
 title: the forum WTF
 created: 1137670155
 tags:
-- Theming
-- Drupal Talk
+- theming
+- drupal talk
 lang: en
 ---
 I fear this is just one of those things where my perception of Drupal is just different then that of Dries et al.

@@ -3,8 +3,8 @@ layout: post_archive
 title: Offline ajax web-applicaties zijn niet de oplossing voor het probleem.
 created: 1180690754
 tags:
-- Web2.0
-- Open Source
+- web2.0
+- open source
 - usability
 - desktop2.0
 - development

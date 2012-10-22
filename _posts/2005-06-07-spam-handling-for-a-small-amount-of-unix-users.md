@@ -3,7 +3,7 @@ layout: post_archive
 title: Spam handling for a small amount of unix users
 created: 1118152972
 tags:
-- Server
+- server
 lang: en
 ---
 I run a server, where i use the default unix PAM user system for mail users. Dovecot runs as IMAP server, with PAM authentication, and each user has a default directoruy in /home/username, Maildir.

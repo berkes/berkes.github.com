@@ -3,7 +3,7 @@ layout: post_archive
 title: Firefox slow on Microsoft Windows?
 created: 1094554787
 tags:
-- Activist
+- activist
 lang: nl
 ---
 [Go here, if you are looking for methods to speed up firefox](http://users.tns.net/~skingery/weblog/2004/09/speed-up-firefox.html)The Dutch HCC has a quite section online with columns, of wich the latest was ["Bekeerd tot Firefox"](http://www4.hccnet.nl/404/index.cfm?fuseaction=achtergronden.

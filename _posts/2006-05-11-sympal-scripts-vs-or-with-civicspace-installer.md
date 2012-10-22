@@ -3,12 +3,12 @@ layout: post_archive
 title: Sympal scripts vs. or with Civicspace installer
 created: 1147334641
 tags:
-- Project Management
-- PHP
-- Server
-- Drupal Talk
+- project management
+- php
+- server
+- drupal talk
 - sympal.nl
-- Ruby on Rails
+- ruby on rails
 lang: en
 ---
 Yesterday <a href="http://www.digitaldivide.net/blog/geilhufe">David</a> pointed me at a <a href="http://www.youtube.com/watch?v=COg-orloxlY">cool screen-cast</a> of the Civicspace (CS) installer. His question was, how much Sympal scripts and its install system could use from and be used by the CS installer. Because I got this kind of questions more often, here is a summary and a small status report. 

@@ -3,7 +3,7 @@ layout: post_archive
 title: Swirly curls in Inkscape
 created: 1168119157
 tags:
-- Design
+- design
 lang: en
 ---
 ![Curlsy wishes](http://webschuur.com/sites/webschuur.com/files/13_result.png) I consider [veerle's](http://veerle.duoh.com/) blog one of the best webdesign resources around. Because Veerle is not only a great graphical designer (there are many of them on the web), with a keen eye for design, but also knows about accessability, CSS, interfaces and usability. She writes good manuals for Adobe programs.

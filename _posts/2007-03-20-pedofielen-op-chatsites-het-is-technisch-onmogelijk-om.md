@@ -4,8 +4,8 @@ title: Pedofielen op chatsites. 'Het is technisch onmogelijk om....'
 created: 1174406120
 tags:
 - opensource
-- MSN
-- Jabber
+- msn
+- jabber
 - pedofielen
 - veiligheid
 lang: nl

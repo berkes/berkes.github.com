@@ -4,9 +4,9 @@ title: Will Drupal become the next editorial tool (and cease being a community t
   altogether?)
 created: 1265808462
 tags:
-- Social Software
-- Drupal Talk
-- Drupal
+- social software
+- drupal talk
+- drupal
 lang: en
 ---
 Recently, I came to realise that Drupal is not a community platform any more, it has grown into an editorial tool over the last years. Sure, you can build a community on top of Drupal, but the tools to do so, are underdeveloped, stale, or even simply unfinished. 

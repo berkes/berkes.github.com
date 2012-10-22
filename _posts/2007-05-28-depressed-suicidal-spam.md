@@ -3,7 +3,7 @@ layout: post_archive
 title: depressed suicidal spam
 created: 1180306609
 tags:
-- Web2.0
+- web2.0
 - spam
 lang: nl
 ---

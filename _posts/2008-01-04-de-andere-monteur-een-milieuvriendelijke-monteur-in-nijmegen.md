@@ -3,9 +3,9 @@ layout: post_archive
 title: De Andere Monteur. Een milieuvriendelijke monteur (in Nijmegen)
 created: 1199449023
 tags:
-- Monteur
-- Milieu
-- Groen
+- monteur
+- milieu
+- groen
 - bedrijf
 lang: nl
 ---

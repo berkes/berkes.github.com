@@ -3,11 +3,11 @@ layout: post_archive
 title: Making Drupals clean URLS work on lighttpd
 created: 1189953560
 tags:
-- PHP
-- Server
-- Drupal Talk
-- Drupal Hosting
-- Drupal
+- php
+- server
+- drupal talk
+- drupal hosting
+- drupal
 lang: en
 ---
 <a href="http://www.lighttpd.net">Lighthttp</a> is a very good alternative for Apache. The exact details on why, how and when are outlined on <a href="http://www.lighttpd.net/benchmark">lighttpd's website</a>, but I choose it for my development environment; because it is light: having five forked apache processes idling around, merely to develop a simple module is way OTT, I think.

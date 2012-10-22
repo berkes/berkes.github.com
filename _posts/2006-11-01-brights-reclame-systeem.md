@@ -3,7 +3,7 @@ layout: post_archive
 title: Brights reclame systeem
 created: 1162384037
 tags:
-- Drupal
+- drupal
 - marketing
 lang: nl
 ---

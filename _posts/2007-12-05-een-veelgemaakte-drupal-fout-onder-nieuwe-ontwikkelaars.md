@@ -3,11 +3,11 @@ layout: post_archive
 title: Een veelgemaakte Drupal fout onder nieuwe ontwikkelaars
 created: 1196892333
 tags:
-- Drupal
+- drupal
 - webschuur
 - development
-- Projectmanagement
-- Opne Source
+- projectmanagement
+- opne source
 lang: nl
 ---
 Na nogal wat jaren Open Source web-ontwikkeling heb ik veel projecten ten gronde zien gaan aan dezelfde fout die veel beginnende Open Source ontwikkelaars maken. Ik ben vaak als reddende kapitein binnengehaald op dit soort projecten, projecten die aan hetzelfde syndroom leiden: Denken dat iets weinig tot niets kost omdat het als Open Source (gratis) beschikbaar is. Probeer altijd zeer gedetailleerde RFQs (offerte-aanvragen) te krijgen van een klant. Indien ze dit niet kunnen geven, ga dan met ze praten en stel het zelf op. Indien dat ook niet gaat, maak dan zelf een zeer gedetailleerde afbakening van de onderdelen. Ik heb teveel Drupal projecten ten onder zien gaan aan iets als volgt:> Klant: "1.7: Forum. Uitgebreid forum. Klanten kunnen inloggen en reacties achterlaten"Developer: "even kijken. Ah. Drupal heeft een forum. €400 op de offerte"klant: jamaar, ik wel mass-moderation. En waarom kan ik geen mail ontvangen als er nieuwe posts in het forum komen. Avatars wil ik ook. en mensen moeten plaatjes uploaden.

@@ -4,7 +4,7 @@ title: Wizzlern. Onze nieuwe Drupaltrainer
 created: 1233123824
 tags:
 - wizzlern
-- Drupal
+- drupal
 - webdevelopment
 - training
 lang: nl

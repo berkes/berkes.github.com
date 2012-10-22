@@ -3,7 +3,7 @@ layout: post_archive
 title: Autmatic add or remove files to an SVN repository
 created: 1116348368
 tags:
-- Library
+- library
 lang: en
 ---
 When you have added or removed a lot of fiels and directories in a local reopsitory, it can be a hard task to add them all by hand. These two small scripts help with adding or removing any files that were added or removed in the local repository. But use with care.

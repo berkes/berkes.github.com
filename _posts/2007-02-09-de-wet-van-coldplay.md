@@ -3,11 +3,11 @@ layout: post_archive
 title: De wet van Coldplay
 created: 1171042181
 tags:
-- Music
-- Web2.0
-- Open Source
-- amaroK
-- MP3
+- music
+- web2.0
+- open source
+- amarok
+- mp3
 - last.fm
 lang: nl
 ---

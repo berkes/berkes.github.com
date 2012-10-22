@@ -4,7 +4,7 @@ title: ! 'Arnoud Boer: "Oproep aan Tweede Kamer: Bescherm onze privacy!"'
 created: 1186733441
 tags:
 - privacy
-- CPB
+- cpb
 - tweede kamer
 lang: nl
 ---

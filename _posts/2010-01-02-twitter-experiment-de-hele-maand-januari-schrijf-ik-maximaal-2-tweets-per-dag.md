@@ -4,7 +4,7 @@ title: ! 'Twitter experiment: de hele maand Januari schrijf ik maximaal 2 tweets
   dag'
 created: 1262438399
 tags:
-- Twitter
+- twitter
 - tweets
 - persoonlijk
 - experiment

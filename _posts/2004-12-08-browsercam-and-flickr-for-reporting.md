@@ -3,9 +3,9 @@ layout: post_archive
 title: browsercam and flickr for reporting
 created: 1102524091
 tags:
-- Theming
-- CSS
-- Drupal Talk
+- theming
+- css
+- drupal talk
 lang: en
 ---
 I use browsercam and flickr for reports of website designs. 

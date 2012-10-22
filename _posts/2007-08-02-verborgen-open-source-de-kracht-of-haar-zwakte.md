@@ -3,12 +3,12 @@ layout: post_archive
 title: ! 'Verborgen Open Source: de kracht, of haar zwakte?'
 created: 1186052228
 tags:
-- Open Source
+- open source
 - firefox
 - apache
-- Jabber
-- Hyves
-- Kwekker
+- jabber
+- hyves
+- kwekker
 lang: nl
 ---
 Open Source Software (OSS) is allang niet meer weg te denken uit ons leven. Toch doen we dat de hele tijd: Open Source Software wegdenken.

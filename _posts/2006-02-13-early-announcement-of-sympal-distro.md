@@ -3,7 +3,7 @@ layout: post_archive
 title: Early announcement of sympal distro
 created: 1139818819
 tags:
-- Drupal Talk
+- drupal talk
 - sympal.nl
 lang: en
 ---

@@ -3,8 +3,8 @@ layout: post_archive
 title: Kerstmis bestaat niet, "oerhollands" ook niet.
 created: 1166562129
 tags:
-- Politics
-- Religion
+- politics
+- religion
 lang: nl
 ---
 Leuke hobby: Zoek bij iedere Christelijke feestdag de oorsprong van die dag. gristenen zijn gewoon (slachtoffers van) landverovertjes. Bij dezen de kerstdag: 25 December, beter bekend als "eerste kerstdag" of de dag dat Jezuke geboren werd, is eigenlijk gewoon de Romeinse feestdag [Sol Invictus](http://nl.wikipedia.org/wiki/Sol_Invictus), Zonnegodsdag.

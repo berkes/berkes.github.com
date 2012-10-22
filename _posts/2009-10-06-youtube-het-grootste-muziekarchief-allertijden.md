@@ -4,9 +4,9 @@ title: Youtube - het grootste muziekarchief allertijden
 created: 1254780624
 tags:
 - youtube
-- Brein
-- Buma
-- Stemra
+- brein
+- buma
+- stemra
 lang: nl
 ---
 Al een tijdje probeer ik voor blij [twitter](http://twitter.com/berkes) en [blip](http://blip.fm/berkes) geïnteresseerden een beetje van mijn muziekliefde over te dragen. Die is breed, maar de rode lijnen zijn Ska (rocksteady) en [duyster](http://www.stubru.be/programmas/duyster).

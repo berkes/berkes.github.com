@@ -3,7 +3,7 @@ layout: post_archive
 title: flutsitevanhetjaar.nl
 created: 1164030158
 tags:
-- Web2.0
+- web2.0
 - marketing
 lang: nl
 ---

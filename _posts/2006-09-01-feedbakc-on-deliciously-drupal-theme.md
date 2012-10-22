@@ -3,9 +3,9 @@ layout: post_archive
 title: Feedbakc on deliciously Drupal theme
 created: 1157134547
 tags:
-- Design
-- Theming
-- CSS
+- design
+- theming
+- css
 lang: en
 ---
 Here is a (rather large) image with annotations about the theme.

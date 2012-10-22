@@ -3,7 +3,7 @@ layout: post_archive
 title: Now im going to Kill Bill
 created: 1082571484
 tags:
-- Movie Monger
+- movie monger
 lang: nl
 ---
 [Kill Bill](http://www.kde-look.org/content/pre1/9087-1.jpg) II is running in the theatres in Antwerp since monday night. I was there, monday night at 10 (...) started talking to the audience while driving towards Bill. In order to ... well you can guess.

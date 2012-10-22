@@ -4,8 +4,8 @@ title: Zeven tips om je organisatie beter op de wikipedia kaart te zetten
 created: 1199539728
 tags:
 - wikipedia
-- SER
-- SEO
+- ser
+- seo
 lang: nl
 ---
 Wikipedia is een van de meest bezochte referenties op internet. Meestal kijken journalisten, schrijvers of anderszins geïnteresseerden eerst op Wikipedia als ze iets over een organisatie, plaats of persoon willen weten. Daarna pas op de "officiële pagina" van het instituut. Een goed Wikipedia lemma is daarom meestal belangrijker dan een goede eigen website. Kortom: het is van groot belang dat je Wikipedia lemma altijd relevant, goed informerend en volledig is. De meeste organisaties hebben een veel te kort, weinig informatief of zelfs helemaal geen Lemma. Bedenk wel dat hier een reden voor is: een niet bestaand lemma duidt meestal op "geen interesse". Mensen zijn niet geïnteresseerd in een lemma over de kapper op de hoek. Maar meestal wel in de geschiedenis van een poppodium of de producten van 'die rare fabriek hierachter'. Een paar tips hoe je een organisatie beter op wikipedia kunt krijgen. <!--break-->### 1. Nooit zelf gaan sleutelen.

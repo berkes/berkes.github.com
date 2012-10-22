@@ -3,7 +3,7 @@ layout: post_archive
 title: Sky Sail trekt schepen over de oceaan
 created: 1115373508
 tags:
-- Activist
+- activist
 lang: nl
 ---
 Volgens het Hamburger ingenieursbureau [Sky Sails](http://skysails.info/index.php?id=111) zijn in de nabije toekomst reusachtige matrasvormige vliegers in staat zeeschepen over de oceaan te trekken. Sky sails wil in 2005 het eerste vrachtschip met behulp van een reuzenvlieger over de zeeën en oceanen laten varen.

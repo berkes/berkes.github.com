@@ -4,8 +4,8 @@ title: Powerthief van GRL
 created: 1236854254
 tags:
 - graffity research lab
-- Streetart
-- Open Source
+- streetart
+- open source
 - powerthief
 lang: nl
 ---

@@ -3,11 +3,11 @@ layout: post_archive
 title: menu boeknavigatie
 created: 1165840326
 tags:
-- Coding Corner
-- Drupal
+- coding corner
+- drupal
 - sympal
-- Open Source
-- Dwars
+- open source
+- dwars
 lang: nl
 ---
 Voor onder andere [Dwars](http://www.dwars.org) en [Bezielen.nl](http://www.bezielen.nl) moest een [iets geavanceerder](http://drupal.org/handbook/modules/menu) systeem, maar wel met eenvoudigere bediening, worden bedacht.

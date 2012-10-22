@@ -3,8 +3,8 @@ layout: post_archive
 title: Druby on rails, gaining momentum.
 created: 1135512261
 tags:
-- Drupal Talk
-- Ruby
+- drupal talk
+- ruby
 lang: en
 ---
 When I started this [set of Druby blogs](http://www.webschuur.com/taxonomy/term/58+35), more as a 'note to myself', just to put down my thoughts I had, it seems. Today I spoke to [a Ruby on Rails developer](http://rubyonrailsblog.com/), who told me he had the same ideas, yet seen from the other side. While my posts till now are all about how we can get Drupal to be more developer-friendly, and easier to develop on top of, he thinks of developing a "[ CMS system similar to drupal](http://rubyonrailsblog.com/?p=3), however (his).. will be using object orientation and rails to structure the code.

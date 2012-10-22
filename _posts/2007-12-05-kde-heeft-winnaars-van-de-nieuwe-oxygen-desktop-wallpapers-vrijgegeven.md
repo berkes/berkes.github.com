@@ -3,8 +3,8 @@ layout: post_archive
 title: KDE heeft winnaars van de nieuwe Oxygen desktop wallpapers vrijgegeven
 created: 1196861774
 tags:
-- KDE
-- Open Source
+- kde
+- open source
 - fotos
 lang: nl
 ---

@@ -3,10 +3,10 @@ layout: post_archive
 title: ! 'I was wrong: It was not a leak in a Drupalsite.'
 created: 1316376171
 tags:
-- Drupal Talk
-- Drupal Hosting
+- drupal talk
+- drupal hosting
 - files
-- Drupal
+- drupal
 lang: en
 ---
 I [tweeted](https://twitter.com/#!/berkes/status/114399800132255744) too fast, and wrong:

@@ -3,10 +3,10 @@ layout: post_archive
 title: Wetenschap is de poëzie van de realiteit
 created: 1187363039
 tags:
-- Geloof
+- geloof
 - wetenschap
-- Dawkins
-- Atheïsme
+- dawkins
+- atheïsme
 - bijgeloof
 lang: nl
 ---

@@ -3,8 +3,8 @@ layout: post_archive
 title: ! 'Iteration 02: Layout of the page.'
 created: 1150890088
 tags:
-- Drupal Talk
-- WhatsInItsName theme design blog
+- drupal talk
+- whatsinitsname theme design blog
 lang: en
 ---
 The next step is to make a decision about the layout. Off course I have discussed several concepts and skethces with my client by now, so in reality I am not playing entirely fair. I already know what my site will look like, with some undefined details.

@@ -3,8 +3,8 @@ layout: post_archive
 title: Your new drupal site, now what?
 created: 1116328026
 tags:
-- Library
-- Email
+- library
+- email
 lang: en
 ---
 You received your own website in the webschuur. That is cool, but what now? how to proceed? 

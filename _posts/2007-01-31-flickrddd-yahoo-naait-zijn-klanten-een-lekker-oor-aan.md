@@ -3,7 +3,7 @@ layout: post_archive
 title: Flickr^D^D^D yahoo naait zijn klanten een lekker oor aan.
 created: 1170246957
 tags:
-- Web2.0
+- web2.0
 - privacy
 - flickr
 lang: nl

@@ -4,8 +4,8 @@ title: ! 'Simplest authentication in Rails: Basic Authentication with a logged_i
   helper.'
 created: 1301404313
 tags:
-- Ruby
-- Ruby on Rails
+- ruby
+- ruby on rails
 lang: en
 ---
 The, by far, simplest solution to add some form of authentication in Rails is basic authentication. It has a lot of downsides, but the simplicity is such a benefit that it may just outweight.

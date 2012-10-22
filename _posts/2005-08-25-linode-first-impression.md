@@ -3,8 +3,8 @@ layout: post_archive
 title: ! 'Linode: first impression'
 created: 1125002254
 tags:
-- Local web news
-- Drupal Hosting
+- local web news
+- drupal hosting
 lang: en
 ---
 While I write this, my first <a href="http://linode.com">linode.com VPS</a> is booting up. Well, not my fist, but the first linode I work on.

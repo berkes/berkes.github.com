@@ -3,11 +3,11 @@ layout: post_archive
 title: De perfecte server installeren
 created: 1156925151
 tags:
-- Server
-- Linux
-- Debian
-- Distribution
-- SuSE
+- server
+- linux
+- debian
+- distribution
+- suse
 lang: nl
 ---
 Onder de titel "the perfect setup" heeft howtoforge voor zowat iedere grote Linux variant een stap-voor-stap beschrijving om een webserver in te richten.

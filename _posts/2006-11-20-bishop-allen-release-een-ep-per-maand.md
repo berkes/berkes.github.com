@@ -3,7 +3,7 @@ layout: post_archive
 title: Bishop Allen, release een EP per maand
 created: 1164032166
 tags:
-- Music
+- music
 - podcast
 lang: nl
 ---

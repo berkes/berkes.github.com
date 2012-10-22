@@ -4,7 +4,7 @@ title: ! 'Google MAps implementatie: waar investeert Triodosbank'
 created: 1233230838
 tags:
 - webdevelopment
-- Web2.0
+- web2.0
 - triodos
 - investeren
 - google maps

@@ -3,8 +3,8 @@ layout: post_archive
 title: Fancy Rays in inkscape
 created: 1168355338
 tags:
-- Design
-- Inkscape
+- design
+- inkscape
 lang: en
 ---
 ![Flag of our Fellow Commies](http://webschuur.com/sites/webschuur.com/files/result_export.png) A really nice thing to do with [inkscape](http://inkscape.org) is to create rays. Rays are hot, maybe not as hot as [swirly curls](http://webschuur.com/publications/blogs/2007-01-06-swirly_curls_in_inkscape_0), but certainly worth your time.

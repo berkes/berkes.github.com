@@ -3,10 +3,10 @@ layout: post_archive
 title: Integrate PHPBB/Vbulleting etc. into Drupal? Or not?
 created: 1146152799
 tags:
-- Project Management
-- Organisation management
-- Social Software
-- Drupal Talk
+- project management
+- organisation management
+- social software
+- drupal talk
 lang: en
 ---
 Huston, we have a problem.

@@ -4,8 +4,8 @@ title: De grote krabbel non-conversatie
 created: 1187167760
 tags:
 - conversatie
-- Hyves
-- Krabbel
+- hyves
+- krabbel
 lang: nl
 ---
 Om een aantal redenen (later meer hierover op dit blog) ben ik Hyves echt gaan gebruiken de laatste tijd. En een ding begrijp ik niet. Hyves is een sociaal netwerk site. En één van de belangrijkste dingen van een sociaal netwerk is dat je kunt praten, babbelen, flauwehoeren en wat dies meer zij. Zoals dat kan in [Twitter](http://twitter.com/berkes) bjivoorbeeld.

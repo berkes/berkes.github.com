@@ -3,9 +3,9 @@ layout: post_archive
 title: Online Internet Explorer screenshot makers
 created: 1192612981
 tags:
-- Design
-- Theming
-- CSS
+- design
+- theming
+- css
 lang: en
 ---
 When creating a theme or design for your site, you should test your CSS designs on several browsers.

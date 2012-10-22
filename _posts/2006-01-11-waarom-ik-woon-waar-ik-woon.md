@@ -3,8 +3,8 @@ layout: post_archive
 title: waarom ik woon waar ik woon.
 created: 1137015287
 tags:
-- Ik heb niet getwijfeld over België
-- Antwerpen
+- ik heb niet getwijfeld over belgië
+- antwerpen
 lang: nl
 ---
 Heel vaak vragen mensen mij warom ik woon waar ik woon, Antwerpen, Borgerhout. Gisteren legde ik dat aan iemand uit met puur practische argumenten, ik was zelf erg onder de indruk van die argumenten. Heb jij het je ooit echt af gevraagd?.  - Wonen hier is goedkoop. €300 voor een appartement is normaal. €200 voor een kamer in een kot is vrij veel.

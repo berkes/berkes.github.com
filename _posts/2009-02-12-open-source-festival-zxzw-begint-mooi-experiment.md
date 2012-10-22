@@ -3,11 +3,11 @@ layout: post_archive
 title: ! 'Open Source Festival: ZXZW begint mooi experiment'
 created: 1234451793
 tags:
-- ZXZW
+- zxzw
 - wiki
-- Web2.0
-- Open Source
-- Festival
+- web2.0
+- open source
+- festival
 lang: nl
 ---
 Vorig jaar kwam ik voor het eerst op [ZXZW]() verzeild. Het bleek en geweldig festival.

@@ -3,9 +3,9 @@ layout: post_archive
 title: ! '2007: het gedecentraliseerde web3.0'
 created: 1166815286
 tags:
-- Web2.0
+- web2.0
 - webschuur
-- Web3.0
+- web3.0
 - '2007'
 lang: nl
 ---

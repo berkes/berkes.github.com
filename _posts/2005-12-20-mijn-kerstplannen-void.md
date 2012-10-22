@@ -3,7 +3,7 @@ layout: post_archive
 title: ! 'Mijn kerstplannen: Void'
 created: 1135099028
 tags:
-- Diabetes blog
+- diabetes blog
 lang: nl
 ---
 Drukdruk. Dus gelukkig een goede reden om de hele kerst vrolijk aan me voorbij telaten gaan. God, wat heb ik daar een hekel aan, kerst. Met mijn [suiker](/taxonomy/term/22) is (uit)eten ook nog irritant, dus dat maakt het alleen nog maar vervelender.

@@ -3,7 +3,7 @@ layout: post_archive
 title: Diabetes is niet gelijk aan ongezond leven!
 created: 1166643396
 tags:
-- Diabetes blog
+- diabetes blog
 lang: nl
 ---
 DiabetesIn het NOS journaal was net een stukje over diabetes. Over het feit dat in China steeds meer diabetes-patienten komen.

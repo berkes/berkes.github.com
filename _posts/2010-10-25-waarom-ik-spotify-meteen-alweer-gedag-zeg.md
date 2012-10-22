@@ -5,7 +5,7 @@ created: 1288002901
 tags:
 - spotify
 - service
-- Muziek
+- muziek
 lang: nl
 ---
 Ik ga spotify even een kans. Aangezien ik meer dan €10 per maand aan muziek uitgeef, leek mij het model van spotify ook wel te boeien: voor €10 per maand onbeperkt muziekluisteren. Nieuwe, oude, muziek uit eigen bibliotheek, muziek van vrienden enzovoort. Mooi model. Alleen niet voor mij.<!--break-->  - Met wat crativiteit, is er zeker geen gebrek aan (legale) gratis muziek. Mijn "Nooit beluisterd" playlist bevat voor 4 weken, 2 dagen en 3 uur muziek, nog.

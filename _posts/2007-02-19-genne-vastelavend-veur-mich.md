@@ -3,10 +3,10 @@ layout: post_archive
 title: Genne Vastelôavend veur mich
 created: 1171924167
 tags:
-- GroenLinks
-- Venlo
-- Me
-- Vasteloavend
+- groenlinks
+- venlo
+- me
+- vasteloavend
 - carnaval
 lang: nl
 ---

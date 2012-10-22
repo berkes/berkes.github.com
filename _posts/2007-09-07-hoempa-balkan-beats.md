@@ -3,9 +3,9 @@ layout: post_archive
 title: ! 'Hoempa: Balkan beats'
 created: 1189155546
 tags:
-- Music
+- music
 - podcast
-- Balkan
+- balkan
 lang: nl
 ---
 Vanavond is er weer een [Balkan Beats Party](http://www.merleyn.nl/cms/index.php?id=38,355,0,0,1,0) in [Merleyn](http://www.merleyn.nl/cms/). Het is inmiddels allang niet hip (als in: nieuw en on-ontgonnen) meer, die balkan beats feestjes, maar nog wel erg lekker. Een paar jaar geleden via Berlijn veroverde de (russische) zigeunermuziek de hippe feestjes in Europa, anno 2007 heeft ieder provincie-festivalletje zijn eigen zigeunermuziekuurtje.

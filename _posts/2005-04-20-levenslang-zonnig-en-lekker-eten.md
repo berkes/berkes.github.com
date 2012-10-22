@@ -3,8 +3,8 @@ layout: post_archive
 title: Levenslang zonnig en lekker eten
 created: 1114014238
 tags:
-- Wishlist
-- Diabetes blog
+- wishlist
+- diabetes blog
 lang: nl
 ---
 Na wat zoeken heb ik het gevonden: een [kookboek voor diabetici.](http://www.diabetesvereniging.nl/ASP/DisplayItem.asp?id=44) Amazon heeft er wel een paar in het Amerikaans, maarja, de Amerikanen hebben allemaal van die superonhandige maateenheden. En daar draait het nu juist om bij het koken met diabetes: de hoeveelheden.

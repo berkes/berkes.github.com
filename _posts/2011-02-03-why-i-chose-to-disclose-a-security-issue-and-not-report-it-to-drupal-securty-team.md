@@ -4,9 +4,9 @@ title: Why I chose to disclose a security issue and not report it to Drupal secu
   team.
 created: 1296748306
 tags:
-- Drupal Talk
-- Drupal
-- Drupal Blog
+- drupal talk
+- drupal
+- drupal blog
 lang: en
 ---
 Okay. So I did not play nice. In fact, I probably brought quite some sites *out there* in trouble, by disclosing a Drupal [security issue on Twitter](http://twitter.com/#!/berkes/status/32125321654312960), without mentioning it to the security Team.

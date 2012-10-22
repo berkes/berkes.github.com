@@ -3,9 +3,9 @@ layout: post_archive
 title: Flexinode image field fixes
 created: 1169906024
 tags:
-- PHP
-- Drupal
-- Flexinode
+- php
+- drupal
+- flexinode
 lang: en
 ---
 This morning I waded trough all the image-field bugs for Flexinode. Most of the issues were duplicates (Folks, please, search and read other issues when filing new ones), but there were some serious validation problems.

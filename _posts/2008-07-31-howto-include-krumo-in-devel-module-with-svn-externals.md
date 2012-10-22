@@ -3,9 +3,9 @@ layout: post_archive
 title: HOWTO include krumo in devel module with svn externals
 created: 1217518993
 tags:
-- Project Management
-- Tips and tricks
-- Drupal Talk
+- project management
+- tips and tricks
+- drupal talk
 - dat doe je zo
 lang: en
 ---

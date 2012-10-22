@@ -3,7 +3,7 @@ layout: post_archive
 title: Help.sympal.nl weer eens opgepakt
 created: 1166352665
 tags:
-- Drupal
+- drupal
 - sympal
 - help
 lang: nl

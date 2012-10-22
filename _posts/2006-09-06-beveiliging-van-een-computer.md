@@ -3,7 +3,7 @@ layout: post_archive
 title: Beveiliging van een computer
 created: 1157495058
 tags:
-- Linux
+- linux
 - security
 lang: nl
 ---

@@ -3,13 +3,13 @@ layout: post_archive
 title: Choosing your system architecture for large scale Dupal deployment.
 created: 1158663251
 tags:
-- PHP
-- Drupal Talk
-- Drupal Hosting
+- php
+- drupal talk
+- drupal hosting
 - sympal.nl
-- Ruby
-- Ruby on Rails
-- Railfrog
+- ruby
+- ruby on rails
+- railfrog
 lang: en
 ---
 This is a [morphological overview](http://webschuur.com/sites/webschuur.com/files/vhost_admin_morpho.png), to display all te options for deploying a Drupal (and/ or Joomla!! or any other CMS) hosting system.

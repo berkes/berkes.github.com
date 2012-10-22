@@ -3,12 +3,12 @@ layout: post_archive
 title: ! 'Overridability: A good parameter in chosing your platform'
 created: 1184100249
 tags:
-- Project Management
-- Programming
-- PHP
-- Drupal Talk
-- Ruby
-- Ruby on Rails
+- project management
+- programming
+- php
+- drupal talk
+- ruby
+- ruby on rails
 lang: en
 ---
 A good practice. A notorious problem when working with Drupal. An impossibility when moulding Joomla! 1.x into your customers wishes: how to override defaults without forking off (within a tight planning and budget).

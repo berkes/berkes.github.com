@@ -3,9 +3,9 @@ layout: post_archive
 title: de Provincies en Creative Commons (cultuurbeleid enzo)
 created: 1173104401
 tags:
-- Creative Commons
-- GroenLinks
-- Groenlinks Embedded
+- creative commons
+- groenlinks
+- groenlinks embedded
 lang: nl
 ---
 [Creative Commons](http://creativecommons.nl) is zo'n ander ding waar ik erg achter sta. Of eigenlijk voor "vrijere cultuur". Maar dat klinkt zo zwaar.

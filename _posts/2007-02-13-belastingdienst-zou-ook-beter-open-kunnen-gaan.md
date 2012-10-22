@@ -3,11 +3,11 @@ layout: post_archive
 title: Belastingdienst - Zou ook beter open kunnen gaan?
 created: 1171374197
 tags:
-- Linux
-- Open Source
-- Mac
-- Vista
-- Belastingdienst
+- linux
+- open source
+- mac
+- vista
+- belastingdienst
 lang: nl
 ---
 Tijdens het <s>vragenuurtje</s>(edit @ 19.05) vragenuurtje van de tweede kamer  (waarin de vraagster overigens liet blijken niet eens het verschil tussen "De Kompjoeter en Software, te weten, maar dat terzijde) werden vragen gesteld over het niet werken van de electronische aangifte van belasting die niet zou werken op Windows Vista.

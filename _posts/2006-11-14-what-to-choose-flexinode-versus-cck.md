@@ -3,12 +3,12 @@ layout: post_archive
 title: ! 'What to choose: Flexinode versus CCK!'
 created: 1163515843
 tags:
-- Project Management
-- Tips and tricks
-- Theming
-- Drupal Talk
-- Drupal
-- Flexinode
+- project management
+- tips and tricks
+- theming
+- drupal talk
+- drupal
+- flexinode
 lang: en
 ---
 <img src="http://webschuur.com/sites/webschuur.com/files/406969_knights.jpg" style="float:left" alt="fighting knights"/>On the forums, the mailinglist and in my personal inbox I see a lot of people who don't know what to choose: Flexinode or CCK. So I decided to write down all my ideas about this in a single article.

@@ -3,7 +3,7 @@ layout: post_archive
 title: Moet je Drupal7 gaan gebruiken voor een nieuwe Drupalsite?
 created: 1285593475
 tags:
-- Drupal
+- drupal
 lang: nl
 ---
 In een recente mailcorrespondentie voorzag ik iemand van wat advies over Drupal 7. Drupal 7 is de Drupal die binnenkort gereleased zal worden als opvolger van Drupal 6. Drupal6 is daarmee niet ten einde, mogelijk blijft deze nog jaren onderhouden. Drupal 5 komt daarmee wél te vervallen. De mail vroeg: > Ik wil eigenlijk gaan beginnen met D7 aangezien deze er nu bijna is en het project sowieso nog wel een 4-tal maanden zal duren.

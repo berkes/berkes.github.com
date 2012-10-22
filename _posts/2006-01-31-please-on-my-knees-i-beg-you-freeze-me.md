@@ -3,7 +3,7 @@ layout: post_archive
 title: please, on my knees I beg you. freeze me.
 created: 1138739887
 tags:
-- Drupal Talk
+- drupal talk
 lang: en
 ---
 Two [fellow](http://www.angrydonuts.com/node/26) [planeteers](http://www.reyero.net/en/node/113) talking about about the way 4.7 is rather defrosted, in a few hours time. Not a good sign. I am not going to.. not, not. no. well. I give in: yes. Drupal 4.7 release (only the release!!) is a (rather trivial) [mistake](http://www.webschuur.com/node/410) till now. And yes. We all are just as guilty as anyone else! Probaly the ones seeing it (now) are even more guilty, because they (I) should have noticed it ealier.

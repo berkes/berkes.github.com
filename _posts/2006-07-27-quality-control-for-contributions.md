@@ -3,7 +3,7 @@ layout: post_archive
 title: Quality control for contributions.
 created: 1153987351
 tags:
-- Drupal Talk
+- drupal talk
 lang: en
 ---
 In the past, this issue has come up every so often. Lately it seems the talk about this has not really stopped. Quality control for contributions. In this article I try to explain why I beleive quality assurance, or else other radical matters are a necessity for the health of Drupal.

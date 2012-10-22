@@ -3,13 +3,13 @@ layout: post_archive
 title: Git mirror for Basetheme Genesis
 created: 1266679732
 tags:
-- Project Management
-- PHP
-- Design
-- Theming
-- CSS
-- Drupal Talk
-- Drupal
+- project management
+- php
+- design
+- theming
+- css
+- drupal talk
+- drupal
 lang: en
 ---
 The fabulous basetheme [Genesis](http://drupal.org/project/genesis) is now [mirrored on Git](http://github.com/berkes/Genesis). This has several advantages. A basetheme is used as scaffolding for your own theme. During upgrades and bugfixes, however, your altered version will be hard to keep in sync. Usually this costs a lot of manual labour; eliminating one of the advantages of a basetheme: continuous re-use of existing work.

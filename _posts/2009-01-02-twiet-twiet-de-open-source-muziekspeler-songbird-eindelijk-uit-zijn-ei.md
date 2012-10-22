@@ -6,8 +6,8 @@ tags:
 - software
 - opensource
 - muziekspeler
-- Muziek
-- amaroK
+- muziek
+- amarok
 - songbird
 lang: nl
 ---

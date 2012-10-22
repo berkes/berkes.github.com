@@ -2,8 +2,8 @@
 layout: post_long
 title: "Leave some Ink in the Well"
 tags:
-- Coding Corner
-- Tips and Tricks
+- coding corner
+- tips and tricks
 lang: en
 ---
 {% include JB/setup %}

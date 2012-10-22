@@ -3,9 +3,9 @@ layout: post_archive
 title: Why I withdraw my Pledge to have Tagadelic ready for Drupal 7
 created: 1275652355
 tags:
-- PHP
-- Drupal Talk
-- Drupal
+- php
+- drupal talk
+- drupal
 lang: en
 ---
 Actually, it is very simple: I had a slot in February. And one in May. Both are gone now. But because of the lack of anything stable-ish, I decided to use that slot for diving into some documentation on the proposed (and some submitted) changes to 7. And on getting stuff synched and tagadelic migrated to [git(hub)](http://github.com/berkes/tagadelic).

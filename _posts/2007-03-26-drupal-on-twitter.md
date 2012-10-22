@@ -3,11 +3,11 @@ layout: post_archive
 title: Drupal on Twitter
 created: 1174912175
 tags:
-- PHP
-- Collaborative Writing
-- Social Software
-- Drupal Talk
-- Drupal
+- php
+- collaborative writing
+- social software
+- drupal talk
+- drupal
 lang: en
 ---
 I just modified, configured and installed the [Stammy RSS to Twitter script](http://paulstamatiou.com/2007/01/26/stammy-script-rss-to-twitter-using-php/).

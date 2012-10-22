@@ -5,9 +5,9 @@ created: 1195130727
 tags:
 - opensource
 - free
-- Miro
-- Open
-- Internet-televisie
+- miro
+- open
+- internet-televisie
 - digitiale televisie
 lang: nl
 ---

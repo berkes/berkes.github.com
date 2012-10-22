@@ -3,8 +3,8 @@ layout: post_archive
 title: Several reasons why I prefer Github over Drupal for Hosting my Drupal Projects.
 created: 1332497431
 tags:
-- 'Drupal'
-- 'Github'
+- 'drupal'
+- 'github'
 lang: en
 ---
 Why I prefer Github over Drupal, a crosspost from [an issue on Drupal.org](https://drupal.org/node/1494882#comment-5769558).

@@ -4,7 +4,7 @@ title: ! '"Pick up where you left last X" by not committing last changes, good b
   and pseudocode.'
 created: 1271318947
 tags:
-- Project Management
+- project management
 lang: en
 ---
 When programming, you often need to carry a single task on to the next day, or till "after the meeting" and such. I experimented and found a good method, to pick up where I left. Working [the GTD way](http://getontracks.org/ "Tracks: an open source, webbased Getting Things Done application"), well documented code, a good software architecutre all help keeping a project in line, up to speed and manageble. But it does not solve one thing, though: "picking up where you left". I have many clients, did many projects and have lots of strings attached. Hence I get disturbed very often. Even when you can focus entirely on one single programming task (lucky you!) five o'clock is the end of the day (or, in my case, 18:30).  Going on for another half hour or so is perfectly fine, but most often I cannot finish a single task and need to carry it on to the next day. Or till after that meeting. Getting back in the flow then, requires quite some effort. What I do, is twofolded: _work with pseudocode_ and _don't commit the last run_.

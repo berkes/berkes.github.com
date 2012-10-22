@@ -3,7 +3,7 @@ layout: post_archive
 title: List of features in a drupal blog
 created: 1102967381
 tags:
-- Weblogging
+- weblogging
 lang: en
 ---
 This page lists the features that are required to have a state-of-the-art drupal based weblog.

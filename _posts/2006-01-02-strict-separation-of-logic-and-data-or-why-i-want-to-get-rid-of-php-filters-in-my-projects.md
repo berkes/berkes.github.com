@@ -4,9 +4,9 @@ title: ! 'Strict separation of logic and data (or: why I want to get rid of PHP 
   in my projects)'
 created: 1136217019
 tags:
-- PHP
-- Drupal Talk
-- Usability
+- php
+- drupal talk
+- usability
 - sympal.nl
 lang: en
 ---

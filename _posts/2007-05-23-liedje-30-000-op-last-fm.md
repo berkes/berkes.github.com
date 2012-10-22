@@ -3,10 +3,10 @@ layout: post_archive
 title: Liedje 30.000 op last FM
 created: 1179931379
 tags:
-- Music
+- music
 - bler
-- Me
-- amaroK
+- me
+- amarok
 - last.fm
 - personal
 lang: nl

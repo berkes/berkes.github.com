@@ -3,8 +3,8 @@ layout: post_archive
 title: Natoshiba is dood.
 created: 1129477392
 tags:
-- Coding Corner
-- Wishlist
+- coding corner
+- wishlist
 lang: nl
 ---
 Een half jaar geleden had ik op ebay voor een habbekrats een laptop gekocht. Dezelfde als mijn oude laptop, die ik met behulp van een fixe kop koffie verzopen heb en daarna nog even een botsproef heb laten doorstaan (niet dus) (een meter recht naar beneden op de harde stoep. De schouderband van de laptoptas brak af).

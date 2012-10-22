@@ -4,8 +4,8 @@ title: Facebook chat via XMPP (jabber) op je desktop-chat-programma.
 created: 1266570532
 tags:
 - facebook
-- Jabber
-- XMPP
+- jabber
+- xmpp
 - open standards
 - opensource
 - empathy

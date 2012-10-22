@@ -3,10 +3,10 @@ layout: post_archive
 title: HOWTO turn Drupal into an authenticate-only site with users from an LDAP directory.
 created: 1171745883
 tags:
-- PHP
-- Drupal Talk
-- Drupal Hosting
-- Drupal
+- php
+- drupal talk
+- drupal hosting
+- drupal
 lang: en
 ---
 Drupal has a fantastic feature, the [hook_auth](http://api.drupal.org/api/5/function/hook_auth) to allow any third party to interact in the authentication process. This is used to authenticate against other Drupal sites over XMLRPC, it is used in the experimental openID integration, to allow authentication against any database, and so on.

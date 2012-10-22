@@ -3,9 +3,9 @@ layout: post_archive
 title: De Sint, is iedereens Vrind 2.0.
 created: 1193823305
 tags:
-- Web2.0
-- Twitter
-- Sinterklaas
+- web2.0
+- twitter
+- sinterklaas
 lang: nl
 ---
 Na een paar heftige weken, vanwege een [deadline](http://meer.trouw.nl), eindelijk wat rust. Tijd om weer wat meer te gaan bloggen, losse eindjes aan elkaar te knopen en ook om weer te twitteren.

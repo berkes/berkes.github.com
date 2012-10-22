@@ -3,11 +3,11 @@ layout: post_archive
 title: written while listening to
 created: 1150216821
 tags:
-- Coding Corner
-- Music
-- KDE
-- Ruby
-- Open Source
+- coding corner
+- music
+- kde
+- ruby
+- open source
 lang: nl
 ---
 Leuk ruby scriptje dat onder al mijn mails een regeltje voegt met wat ik op dat moment aan het luisteren was. Het gbruikt DCOP om de info uit [amarok](http://amarok.kde.org/) op te vragen. Omdat het DCOP gebruikt moet je uiteraard wel KDE en dus Linux hebben.

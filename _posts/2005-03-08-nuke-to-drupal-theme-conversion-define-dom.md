@@ -3,8 +3,8 @@ layout: post_archive
 title: ! 'Nuke to Drupal Theme conversion: define DOM'
 created: 1110290358
 tags:
-- osViews *nuke2Drupal
-- Drupal Talk
+- osviews *nuke2drupal
+- drupal talk
 lang: en
 ---
 Now that the sizes, the positions and some extras are known, I can make a DOM out of this:

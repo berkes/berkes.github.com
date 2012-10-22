@@ -3,8 +3,8 @@ layout: post_archive
 title: Wikimedia already using Drupal
 created: 1166470982
 tags:
-- Drupal Talk
-- Drupal
+- drupal talk
+- drupal
 lang: en
 ---
 [Dries](http://buytaert.net/mass-drupal-hosting) wrote that Jimmy Wales is [looking](http://news.yahoo.com/s/nm/20061211/bs_nm/internet_wikia_dc_1) at using Drupal for new services by Wikimedia.

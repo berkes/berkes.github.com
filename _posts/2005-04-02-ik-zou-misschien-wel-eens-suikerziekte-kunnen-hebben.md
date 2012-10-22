@@ -3,7 +3,7 @@ layout: post_archive
 title: Ik zou misschien wel eens suikerziekte kunnen hebben.
 created: 1112461769
 tags:
-- Diabetes blog
+- diabetes blog
 lang: nl
 ---
 Al een tijdje, ik weet niet precies hoe lang, heb ik ontzettend veel dorst, altijd een droge (heel erg droge) mond en moet ik belachelijk veel plassen. Natuurlijk had ik ooit wel van suikerziekte gehoord, ik heb immers op de Vrije School verplicht biologie gedaan... Maarja, ik had geen flauw idee (meer) wat de symptomen zijn.

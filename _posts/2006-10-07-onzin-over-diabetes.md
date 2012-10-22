@@ -3,7 +3,7 @@ layout: post_archive
 title: onzin over Diabetes
 created: 1160236019
 tags:
-- Diabetes blog
+- diabetes blog
 lang: nl
 ---
 Steeds vaker, als ik voor mijn Diabetes wat achtergrondinfo zoek, stuit ik op informatie, of behandelingen die complete onzin verkondigen, en soms zelfs gevaarlijk kunnen zijn. Het staat eenieder vrij om op internet neer te zetten wat hij of zij wil, dus ook onzin. Zo stuitte ik net op [newtreatments.org](http://www.newtreatments.org/dutchindex). Waarop gewoon keihard het volgende beweerd wordt: > Koolhydraten horen *NIET* thuis in het dieet van een diabetes-patient   Onder koolhydraten verstaan we voornamelijk suikers en zetmelen. Het hele idee van je suiker onder contrôle houden is juist om je koolhydraten heel gelijkmatig in te nemen, en de insuline daarop af te stemmen. Zo eet ik zelf bij iedere maaltijd precies tussen 80 en 90 gram Koolhydraten. als ik daarvan afwijk, dan kom ik dus in de problemen.
