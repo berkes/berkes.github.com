@@ -3,6 +3,7 @@ require 'rake'
 require 'yaml'
 require 'time'
 require 'fileutils'
+require 'jekyll'
 
 SOURCE = "."
 CONFIG = {
@@ -115,8 +116,38 @@ end # task :page
 
 desc "Launch preview environment"
 task :preview do
-  system "jekyll --auto --server --limit_posts 50"
+  system "jekyll --auto --server "
 end # task :preview
+
+desc "List tags used"
+task "tags:graph" do
+  jekyll = Jekyll::Site.new(Jekyll.configuration({}))
+  jekyll.read_posts('')
+  tags = {}
+  jekyll.posts.each do |post|
+    post.tags.each {|t| tags.has_key?(t) ? tags[t] += 1 : tags[t] = 1 }
+  end
+
+  tags.sort_by{|k,v| v }.each do |tag|
+    (20 - tag[0].size).times { print " " }
+    print "#{tag[0].slice(0,20)}: "
+    tag[1].times { print "#"}
+    print "#{tag[1]}\n"
+  end
+end
+
+desc "Remove a tag name=tagname"
+task "tags:remove" do
+  clean_posts = []
+  jekyll = Jekyll::Site.new(Jekyll.configuration({}))
+  jekyll.read_posts('')
+  jekyll.posts.select {|p| p.tags.include? ENV['name'] }.each do |post|
+    post.tags.reject! {|t| t == ENV['name']}
+    clean_posts << post
+  end
+  clean_posts.each{|p| puts "#{p.slug} #{p.tags.join(',')}"}
+end
+
 
 def ask(message, valid_options)
   if valid_options
