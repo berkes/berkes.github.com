@@ -1,7 +1,7 @@
 ---
 layout: post_medium
 title: "Spree e-commerce on budgethoster Site5"
-tags: [whitepaper, ruby-on-rails, spree, e-commerce, hosting, site5,
+tags: [whitepaper, ruby on rails, spree, e-commerce, hosting, server, site5,
 git-deploy]
 lang: en
 ---
