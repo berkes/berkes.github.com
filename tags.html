@@ -4,17 +4,18 @@ title: Tags
 header: Posts By Tag
 group: navigation
 ---
-{% include JB/setup %}
+{% include setup.yml %}
 
 {% assign tags_list = site.tags %}
-{% include themes/berkes/tags_list.yml %}
+{% include tags_list.yml %}
 
 {% for tag in site.tags %}
   {% if tag[1].size > 1 %}
     <h2 id="{{ tag[0] }}-ref">{{ tag[0] }}</h2>
     <ul>
-      {% assign pages_list = tag[1] %}
-      {% include JB/pages_list %}
+    {% for post in tag[1] %}
+      {% include li_for_post_with_date.yml %}
+    {% endfor %}
     </ul>
   {% endif %}
 {% endfor %}
