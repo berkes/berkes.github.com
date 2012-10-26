@@ -116,7 +116,7 @@ end # task :page
 
 desc "Launch preview environment"
 task :preview do
-  system "jekyll --auto --server "
+  system "jekyll --auto --server --limit_posts 20 "
 end # task :preview
 
 desc "List tags used"
