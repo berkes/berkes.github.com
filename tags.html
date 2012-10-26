@@ -13,8 +13,9 @@ group: navigation
   {% if tag[1].size > 1 %}
     <h2 id="{{ tag[0] }}-ref">{{ tag[0] }}</h2>
     <ul>
-      {% assign pages_list = tag[1] %}
-      {% include JB/pages_list %}
+    {% for post in tag[1] %}
+      {% include li_for_post_with_date.yml %}
+    {% endfor %}
     </ul>
   {% endif %}
 {% endfor %}
