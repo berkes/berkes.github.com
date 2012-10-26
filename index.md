@@ -3,7 +3,7 @@ layout: default
 title: Bèr ‘berkes’ Kessels
 tagline: Supporting tagline
 ---
-{% include JB/setup %}
+{% include setup.yml %}
 
 <div class="row">
 <section class="six columns about" lang="nl">
@@ -31,7 +31,7 @@ way.
 <ul class="posts">
   {% for post in site.posts limit:50 %}
     {% if post.lang == "nl" %}
-      <li><span>{{ post.date | date_to_string }}</span> &raquo; <a href="{{ BASE_PATH }}{{ post.url }}">{{ post.title }}</a></li>
+      {% include li_for_post_with_date.yml %}
     {% endif %}
   {% endfor %}
 </ul>

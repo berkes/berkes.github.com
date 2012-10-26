@@ -1,7 +1,6 @@
 ---
 layout: default
 ---
-{% include JB/setup %}
 <article>
   <header>
     <h1>{{ page.title }}</h1>
@@ -25,10 +24,10 @@ layout: default
     {% if page.location %}{{ page.location }}{% endif %}
     {% unless page.tags == empty %}
       {% assign tags_list = page.tags %}
-      {% include themes/berkes/tags_list.yml %}
+      {% include tags_list.yml %}
     {% endunless %}
   </footer>
 </article>
 
-{% include JB/about_author %}
-{% include JB/comments %}
+{% include about_author.yml %}
+{% include comments.yml %}
