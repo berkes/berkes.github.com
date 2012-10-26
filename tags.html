@@ -4,10 +4,10 @@ title: Tags
 header: Posts By Tag
 group: navigation
 ---
-{% include JB/setup %}
+{% include setup.yml %}
 
 {% assign tags_list = site.tags %}
-{% include themes/berkes/tags_list.yml %}
+{% include tags_list.yml %}
 
 {% for tag in site.tags %}
   {% if tag[1].size > 1 %}

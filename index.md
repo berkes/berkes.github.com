@@ -3,7 +3,7 @@ layout: default
 title: Bèr ‘berkes’ Kessels
 tagline: Supporting tagline
 ---
-{% include JB/setup %}
+{% include setup.yml %}
 
 <div class="row">
 <section class="six columns about" lang="nl">
