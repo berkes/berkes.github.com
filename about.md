@@ -34,6 +34,12 @@ knowledgeable community behind it. But I also have a lot of experience
 with alternative tools and systems, which make me a good candidate to
 help find or apply the best technology for _your_ project.
 
+My passion for technology extends to presentations as well. I have
+presented on many conferences and meetings, for large and small
+audiences. As workshop, lecture or even training. If you are looking for
+speakers, please don't hesitate to ask me, I'd love to present about
+cool technology.
+
 ## Contact
 You can contact me about work by [email](ber@webschuur.com) or phone
 (+31)(0)629075065.
