@@ -34,6 +34,12 @@ gemeenschap aan kundige ontwikkelaars. Maar ik heb ook ervaring met een
 breed scala aan alternatieven, en kan ik u dus ook goed helpen met het
 vinden of toepassen van de juiste technologie voor úw project.
 
+Mijn passie voor techniek leent zich uitermate voor presentaties. I heb
+dan ook uitgebreide ervaring in presentaties, workshops en trainingen
+voor kleine tot enorme groepen mensen. 
+Als je op zoek bent naar sprekers, vraag mij gerust. Ik wil graag komen
+uitwijden over een mooie en nieuwe technologie.
+
 ## Contact
 Je kunt me bereiken per [e-mail](ber@webschuur.com) of telefoon, op
 0629076065.
