@@ -1,7 +1,7 @@
 ---
 layout: page
-title : About Bèr Kessels
-header : About Bèr Kessels
+title : Over Bèr Kessels
+header : Over Bèr Kessels
 group: navigation
 lang: nl
 ---
