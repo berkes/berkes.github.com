@@ -6,7 +6,7 @@ tags:
 - tips and tricks
 lang: en
 ---
-{% include JB/setup %}
+
 
 Many writers know Hemingway's tip:
 

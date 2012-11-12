@@ -4,7 +4,7 @@ title: "3D printen walst de auteursrechten discussie binnen"
 tags: []
 lang: nl
 ---
-{% include JB/setup %}
+
 
 [Wired](http://www.wired.com/design/2012/05/3-d-printing-patent-law/)
 heeft een verhaal over Thomas Valenti. Als fan, ontwierp en

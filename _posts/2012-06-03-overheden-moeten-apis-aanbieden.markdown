@@ -4,7 +4,7 @@ title: "Overheden moeten APIs aanbieden"
 tags: []
 lang: nl
 ---
-{% include JB/setup %}
+
 
 President Obama heeft alle federale overheidsorganisaties in de
 Verenigde Staten twee maanden gegeven om [hun informatie via APIs aan te

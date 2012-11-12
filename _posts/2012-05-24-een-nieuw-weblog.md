@@ -4,7 +4,7 @@ title: "Een nieuw weblog"
 tags: [drupal, jekyll]
 lang: nl
 ---
-{% include JB/setup %}
+
 
 Zo. Eindelijk. Een nieuw weblog. Mijn oude blog stond op
 _bler.webschuur.com_ en op _webschuur.com_. Zo heet ook mijn bedrijf:

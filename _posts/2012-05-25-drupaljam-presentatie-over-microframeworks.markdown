@@ -4,7 +4,7 @@ title: "DrupalJam presentatie over Microframeworks"
 tags: [drupal, microframeworks, presentatie, sinatra]
 lang: nl
 ---
-{% include JB/setup %}
+
 
 Voor [DrupalJam 2012](http://drupaljam.nl/) werd mij gevraagd een sessievoorstel in te
 dienen. Het leek me passend om een aan Drupal-gerelateerd onderwerp te

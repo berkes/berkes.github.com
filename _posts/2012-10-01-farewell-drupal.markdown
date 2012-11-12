@@ -4,7 +4,7 @@ title: "After almost twelve years of Drupal, I am saying goodbye"
 tags: [drupal, rails, goodbye]
 lang: en
 ---
-{% include JB/setup %}
+
 Over [eleven years](https://drupal.org/user/1783) ago, I got [involved in Drupal](https://drupal.org/user/2663), after running two
 personal blogs on Drupal. A few years later, to my surprise, I found myself to be
 amongst the first few people to [offer commercial and professional Drupal services](http://web.archive.org/web/20040606050259/http://drupal.org/services).

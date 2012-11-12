@@ -5,7 +5,7 @@ tags: [whitepaper, ruby on rails, spree, e-commerce, hosting, server, site5,
 git-deploy]
 lang: en
 ---
-{% include JB/setup %}
+
 Recently I rolled out a
 Ruby-on-Rails/[Spree](http://spreecommerce.com)-based webshop on the
 budgethoster [Site5](htp://site5.com). I thought to share some gotcha's, reasoning

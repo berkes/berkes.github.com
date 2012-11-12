@@ -4,7 +4,7 @@ title: "Standardising the technology stack (or CMS) is silly"
 tags: [cms, techonolgy, management]
 lang: en
 ---
-{% include JB/setup %}
+
 
 I have been involved in many "we want to move all our websites to one
 technology" projects. Mostly Drupal. Mostly where people wanted to move

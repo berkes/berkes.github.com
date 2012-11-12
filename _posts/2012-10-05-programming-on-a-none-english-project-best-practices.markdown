@@ -4,7 +4,7 @@ title: "Programming on a Non-English Project; best practices"
 tags: [project management, localization]
 lang: en
 ---
-{% include JB/setup %}
+
 
 As a Dutch webdeveloper, I see mostly Dutch websites being built. And I
 see many team struggling with how to do this well. I developed a set of

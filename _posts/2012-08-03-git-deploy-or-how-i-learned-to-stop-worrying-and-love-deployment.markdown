@@ -4,7 +4,7 @@ title: "git deploy or: How I Learned to Stop Worrying and Love Deployment"
 tags: [git, drupal, deployment]
 lang: en
 ---
-{% include JB/setup %}
+
 
 One of the most surprising things I learned when moving away from
 Drupal-development towards Rails development, is the impact of fast and

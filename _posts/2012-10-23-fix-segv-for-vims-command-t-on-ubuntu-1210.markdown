@@ -4,7 +4,7 @@ title: "Fix SEGV for Vims command t on Ubuntu 12.10"
 tags: [vim, command-t, ubuntu, 12.10, howto]
 lang: en
 ---
-{% include JB/setup %}
+
 
 The upgrade to Ubuntu 12.10 upgraded my Ruby version to 1.9.3 (yay!). 
 

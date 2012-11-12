@@ -5,7 +5,7 @@ tags: [webdevelopment, webdesign, projectmanagement, TDD, BDD,
 outside-in]
 lang: en
 ---
-{% include JB/setup %}
+
 
 Designs should be leading when building a website or -application.
 There! I said it.

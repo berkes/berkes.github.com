@@ -4,7 +4,7 @@ title: "Map capslock to escape in Ubuntu Linux"
 tags: []
 lang: en
 ---
-{% include JB/setup %}
+
 
 If you are a Vim user, you probably want the [escape key more at hand](http://federico.galassi.net/2012/06/20/the-vim-holy-grail/). On Ubuntu (And probably every Gnome3 desktop) this is really very easy. It comes with point-and-click tools to map your key to about everything you can think of; and more. If you google this problem, you find all sorts of xmonad CLI commands. They work too, but this is far easier for the stupid Linux-user like me.
 
