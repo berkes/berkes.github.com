@@ -1,13 +1,15 @@
-/* TEAM */
-	Developer, Desinger, Architect: Bèr Kessels
-	Contact: ber curlything webschuur dot com
-	Twitter: @berkes
-	From:Nijmegen, Netherlands
+﻿/* TEAM */
+  Developer, Desinger, Architect :           Bèr Kessels           
+             Contact             : ber curlything webschuur dot com
+             Twitter             :             @berkes             
+               From              :      Nijmegen, Netherlands      
 
 /* THANKS */
-
+                  Anna Treurniet : Patient Wife, help with logo and
+                                                invaluable reviewer
+                                            http://annatreurniet.nl
 
 /* SITE */
-	Language:English / Nederlands
-	Doctype:HTML5
-	IDE:Gedit, Gmate, Ubuntu
+                        Language : English / Nederlands
+                        Doctype  :        HTML5        
+                          IDE    :  Vim, Bash, Ubuntu  
