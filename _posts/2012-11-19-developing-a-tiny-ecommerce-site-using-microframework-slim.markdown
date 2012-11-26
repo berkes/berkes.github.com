@@ -137,7 +137,7 @@ The above does the following:
 1. When the function is executed, we call `render` to tell what files under "/templates/" to render. We do this for `head.inc` and `footer.inc`.
 1. The template `landing.php` is rendered, but gets two variables passed along, which can then be [printed in landing.php](https://github.com/piratenpartij/lidworden/blob/develop/templates/landing.php). Note the "Bug" where we don't actually print the actions? This part has been rewritten so often that things got messed up a little.
 
-This is all code needed to create a [page, with a form](https://lidworden.piratenpart).
+This is all code needed to create a [page, with a form](https://lidworden.piratenpartij.nl).
 
 When you post this form, a slightly more complex function is called, the
 simplified version of that is:
