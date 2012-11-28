@@ -1,0 +1,33 @@
+﻿/* TEAM */
+  Developer, Desinger, Architect :           Bèr Kessels           
+             Contact             : ber curlything webschuur dot com
+             Twitter             :             @berkes             
+               From              :      Nijmegen, Netherlands      
+
+/* THANKS */
+                  Anna Treurniet : Patient Wife, help with logo and
+                                                invaluable reviewer
+                                            http://annatreurniet.nl
+
+/* SITE */
+                        Language : English / Nederlands
+                        Doctype  :        HTML5        
+                          IDE    :  Vim, Bash, Ubuntu  
+
+ _____________________
+< Bèr Likes Dinosaurs >
+ ---------------------
+\                             .       .
+ \                           / `.   .' " 
+  \                  .---.  <    > <    >  .---.
+   \                 |    \  \ - ~ ~ - /  /    |
+         _____          ..-~             ~-..-~
+        |     |   \~~~\.'                    `./~~~/
+       ---------   \__/                        \__/
+      .'  O    \     /               /       \  " 
+     (_____,    `._.'               |         }  \/~~~/
+      `----.          /       }     |        /    \__/
+            `-.      |       /      |       /      `. ,~~|
+                ~-.__|      /_ - ~ ^|      /- _      `..-'   
+                     |     /        |     /     ~-.     `-. _  _  _
+                     |_____|        |_____|         ~ - . _ _ _ _ _>
