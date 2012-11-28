@@ -23,19 +23,27 @@
    <link rel="author" href="{{ BASE_PATH }}/humans.txt" type="text/plain" />
    <link rel="shortcut icon" href="/favicon.ico" type="image/x-icon" />
    <!-- Included CSS Files -->
-   <link rel="stylesheet" href="{{ ASSET_PATH }}/stylesheets/foundation.css">
-   <link rel="stylesheet" href="{{ ASSET_PATH }}/stylesheets/pygments.css">
-   <link rel="stylesheet" href="{{ ASSET_PATH }}/stylesheets/app.css">
+   {% bundle %}
+     - /assets/stylesheets/foundation.css
+     - /assets/stylesheets/pygments.css
+     - /assets/stylesheets/app.css
+   {% endbundle %}
 
    <!--[if lt IE 9]>
-   <link rel="stylesheet" href="{{ ASSET_PATH }}/stylesheets/ie.css">
+   {% bundle %}
+    - /assets/stylesheets/ie.css
+   {% endbundle %}
    <![endif]-->
 
-   <script src="{{ ASSET_PATH }}/javascripts/modernizr.foundation.js"></script>
+   {% bundle %}
+     - /assets/javascripts/modernizr.foundation.js
+   {% endbundle %}
 
    <!-- IE Fix for HTML5 Tags -->
    <!--[if lt IE 9]>
-     <script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+   {% bundle %}
+     - http://html5shiv.googlecode.com/svn/trunk/html5.js
+   {% endbundle %}
    <![endif]-->
 
    <!-- Fonts -->
