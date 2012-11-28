@@ -12,7 +12,10 @@ CONFIG = {
   'images' => File.join(SOURCE, "images"),
   'images_templates' => File.join(SOURCE, "_images_templates"),
   'post_ext' => "markdown",
-  'editor' => 'gvim'
+  'editor' => 'gvim',
+  'branch' => "gh-pages",
+  'repo'   => "git@github.com:berkes/berkes.github.com.git",
+  'build_dir'   => "/home/ber/Documenten/BK_berkes/build/"
 }
 
 # Path configuration helper
@@ -148,6 +151,21 @@ task "tags:remove" do
   clean_posts.each{|p| puts "#{p.slug} #{p.tags.join(',')}"}
 end
 
+desc "Build site in _site"
+task "build" do
+  site_dir = File.join(CONFIG["build_dir"], "site")
+  FileUtils.mkdir_p(site_dir) unless File.exists? site_dir
+  system "jekyll --no-auto #{site_dir}"
+end
+
+desc "Publish to github pages"
+task "publish" do
+  work_tree = File.join(CONFIG["build_dir"], "site")
+  git_dir   = File.join(CONFIG["build_dir"], "dotgit")
+  git work_tree, git_dir, "add ."
+  git work_tree, git_dir, "commit -a -m 'updating documentation'"
+  git work_tree, git_dir, "push github gh-pages"
+end
 
 def ask(message, valid_options)
   if valid_options
@@ -161,6 +179,11 @@ end
 def get_stdin(message)
   print message
   STDIN.gets.chomp
+end
+
+def git work_tree, git_dir, command_string
+  #puts "git --git-dir=#{git_dir} --work-tree=#{work_tree} #{command_string}"
+  system "git --git-dir=#{git_dir} --work-tree=#{work_tree} #{command_string}"
 end
 
 # Gives the name of the next to-be-used image.
