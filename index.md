@@ -29,8 +29,10 @@ way.
 <section class="six columns posts" lang="nl">
 <h2>Nederlandse Artikelen</h2>
 <ul class="posts">
-  {% for post in site.posts limit:50 %}
-    {% if post.lang == "nl" %}
+  {% assign counter = '.' %}
+  {% for post in site.posts %}
+    {% if counter.size <= 25 and post.lang == "nl" %}
+      {% capture counter %}{{ counter | append:'.' }}{% endcapture %}
       {% include li_for_post_with_date.yml %}
     {% endif %}
   {% endfor %}
@@ -40,9 +42,11 @@ way.
 <section class="six columns posts" lang="en">
 <h2>English Articles</h2>
 <ul class="posts">
-  {% for post in site.posts limit:50 %}
-    {% if post.lang == nil or post.lang == "en" %}
-      <li><span>{{ post.date | date_to_string }}</span> &raquo; <a href="{{ BASE_PATH }}{{ post.url }}">{{ post.title }}</a></li>
+  {% assign counter = '.' %}
+  {% for post in site.posts %}
+    {% if counter.size <= 25 and post.lang == nil or post.lang == "en" %}
+      {% capture counter %}{{ counter | append:'.' }}{% endcapture %}
+      {% include li_for_post_with_date.yml %}
     {% endif %}
   {% endfor %}
 </ul>
