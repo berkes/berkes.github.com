@@ -1,8 +1,0 @@
-<figure>
-  <img src="/images/{{ page.id }}.png" alt="Woodcut from Doré. Purely illustrative" />
-  {% if page.lang == "nl" %}
-    <figcaption>Doré Houtsnede. De enige functie hiervan is een mooiere layout. En de gravures zijn gewoon mooi</figcaption>
-  {% else %}
-    <figcaption>Doré Woodcut. Its only function is to make the layout look better. And these images are really nice themselves</figcaption>
-  {% endif %}
-</figure>
