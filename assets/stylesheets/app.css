@@ -43,7 +43,7 @@ article footer {
   margin-top: 30px;
   padding-top: 52px;
   /** 22px for the swallow, 30 for whitespace **/
-  background: transparent url("../images/swallow_black_hr.png") no-repeat scroll top center;
+  background: transparent url("/asse/assets/images/swallow_black_hr.png") no-repeat scroll top center;
 }
 article pre {
   border: 1px solid #cfcdcd;
@@ -112,10 +112,10 @@ nav#main ul li {
   white-space: nowrap;
 }
 nav#main {
-  background: transparent url("../images/header_pretty.png") repeat-x scroll top right;
+  background: transparent url("/assets/images/header_pretty.png") repeat-x scroll top right;
 }
 nav#main .onion {
-  background: transparent url("../images/header_pretty.png") repeat-x scroll bottom right;
+  background: transparent url("/assets/images/header_pretty.png") repeat-x scroll bottom right;
 }
 nav#main ul {
   list-style: none;
@@ -131,7 +131,7 @@ nav#main a {
   text-decoration: none;
 }
 nav#main a.active, nav#main a:hover {
-  background: transparent url("../images/pointing_hand.png") no-repeat scroll 0px 8px;
+  background: transparent url("/assets/images/pointing_hand.png") no-repeat scroll 0px 8px;
   color: #212121;
 }
 @media only screen and (max-width: 767px) {
@@ -154,7 +154,7 @@ footer.main {
   margin-top: 30px;
   padding-top: 52px;
   /** 22px for the swallow, 30 for whitespace **/
-  background: transparent url("../images/swallow_black_hr.png") no-repeat scroll top center;
+  background: transparent url("/assets/images/swallow_black_hr.png") no-repeat scroll top center;
 }
 div#author {
   margin-top: 30px;
