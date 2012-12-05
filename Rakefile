@@ -162,6 +162,7 @@ desc "Publish to github pages"
 task "publish" do
   work_tree = File.join(CONFIG["build_dir"], "site")
   git_dir   = File.join(CONFIG["build_dir"], "dotgit")
+  git work_tree, git_dir, "add ."
   git work_tree, git_dir, "commit -a -m 'publishing site'"
   git work_tree, git_dir, "push github master"
 end
