@@ -162,8 +162,15 @@ desc "Publish to github pages"
 task "publish" do
   work_tree = File.join(CONFIG["build_dir"], "site")
   git_dir   = File.join(CONFIG["build_dir"], "dotgit")
-  git work_tree, git_dir, "commit -a -m 'updating documentation'"
-  git work_tree, git_dir, "push github gh-pages"
+  git work_tree, git_dir, "commit -a -m 'publishing site'"
+  git work_tree, git_dir, "push github master"
+end
+
+desc "Preview git status"
+task "publish:status" do
+  work_tree = File.join(CONFIG["build_dir"], "site")
+  git_dir   = File.join(CONFIG["build_dir"], "dotgit")
+  git work_tree, git_dir, "status"
 end
 
 def ask(message, valid_options)
