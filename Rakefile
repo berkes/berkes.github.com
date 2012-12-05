@@ -132,8 +132,8 @@ task "tags:graph" do
   end
 
   tags.sort_by{|k,v| v }.each do |tag|
-    (20 - tag[0].size).times { print " " }
-    print "#{tag[0].slice(0,20)}: "
+    (20 - tag[0].to_s.size).times { print " " }
+    print "#{tag[0].to_s.slice(0,20)}: "
     tag[1].times { print "#"}
     print "#{tag[1]}\n"
   end
