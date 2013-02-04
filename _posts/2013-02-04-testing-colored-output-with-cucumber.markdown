@@ -4,7 +4,6 @@ title: "Testing colored output with Cucumber"
 tags: [cucumber, BDD, Aruba, Rainbow, Thor]
 lang: en
 ---
-{% include JB/setup %}
 
 I am improving a Command line app to [manage my todos](https://github.com/berkes/todotxt). I am developing it entirely 'Behaviour Driven', using [Cucumber and Aruba](https://github.com/cucumber/aruba).
 
