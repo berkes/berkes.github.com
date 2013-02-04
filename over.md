@@ -42,7 +42,7 @@ uitwijden over een mooie en nieuwe technologie.
 
 ## Contact
 Je kunt me bereiken per [e-mail](ber@webschuur.com) of telefoon, op
-0629076065.
+06 29075065.
 
 * Code op [Github](https://github.com/berkes/)
 * Zakelijk netwerk op [LinkedIn](http://www.linkedin.com/profile?viewProfile=&key=9270755).
