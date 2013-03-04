@@ -8,11 +8,13 @@ lang: en
 Nearly a year ago, long before I decided to move out of [Drupalwork
 entirely](http://berk.es/2012/10/01/farewell-drupal/), I reported a security vulnarability in Drupal 7 core
 in imagecache. Since imagecache is used on most Drupal6 instances this
-problem occurs there too.
+problem occurs there too. I had the draft for this poste, tucked away on
+an offline disk (security-details should not live "online" or in "the
+cloud", ever); and, obviously, the day I arrive in Thailand for a
+vacation, Drupal released the CVE.
 
 I made a proof of concept, and a tool to test it. A screencast explaining the issue is found below:
-
-
+<iframe width="420" height="315" src="http://www.youtube.com/embed/JP7Q4co0shk" frameborder="0" allowfullscreen></iframe>
 
 The issue itself is really simple, the solution is hard; because
 Imagecache was designed "wrong" in the first place. Let me explain.
@@ -132,7 +134,7 @@ tool themselves (it is really simple) or use it to bring down your site.
 
 Because of this, I chose to cripple it a little. The tool cannot detect wether you have applied the
 security patch or not, or if you have different measures in place.
-Because of this, I have removed the crawling part too, limiting it to
+Because of this, I have removed the crawling and parrallel part too, limiting it to
 images and imagecache-styles found on the page you insert manually.
 
 The tool was made to investigate when and how a system would crash or
@@ -163,7 +165,9 @@ Don't do on-demand generation of things that require heavy work. In this
 case, derivatives needed for a user-avatar should be created when a user
 uploads that avatar. Even better is to let a [worker queue](http://en.wikipedia.org/wiki/Thread_pool_pattern) deal with the actual generation, that way dedicated machines can deal with the heavy lifting,
 and users don't have to wait in front of a loading page while you are
-making images.
+making images. For PHP the standard tool
+[Gearman](http://www.php.net/manual/en/book.gearman.php), has worked
+well for me; just don't expect it to be like resqueue, sidekiq or pythons RQ (yet).
 
 Magic "handyness" like allowing any image to be "imagecached" is
 usefull in development, but not in production. So, on your development
@@ -174,7 +178,8 @@ task while deploying to re-generated all your images there. Once. Before
 deploying.
 
 And for Drupal8: get rid of imagecache and implement a much simpler
-on-submit image-builder. Just create only the two or three derivatives for Story when
-a Story is created. This not only solves any such "unpredictable load"
+on-submit image-builder. It should create the derivatives for when
+a File is created and passes validations. This not only solves any such "unpredictable load"
 issues, it allows for much easier CDNs, static-file-servers, caching and
-more.
+more. The on-demand architecture has too much downsides to warrant the
+only upside: flexibility.
