@@ -41,7 +41,7 @@ Als je op zoek bent naar sprekers, vraag mij gerust. Ik wil graag komen
 uitwijden over een mooie en nieuwe technologie.
 
 ## Contact
-Je kunt me bereiken per [e-mail](ber@webschuur.com) of telefoon, op
+Je kunt me bereiken per [e-mail](mailto:ber@berk.es) of telefoon, op
 06 29075065.
 
 * Code op [Github](https://github.com/berkes/)

@@ -41,7 +41,7 @@ speakers, please don't hesitate to ask me, I'd love to present about
 cool technology.
 
 ## Contact
-You can contact me about work by [email](ber@webschuur.com) or phone
+You can contact me about work by [email](mailot:ber@berk.es) or phone
 (+31)(0)629075065.
 
 * Code on [Github](https://github.com/berkes/)
