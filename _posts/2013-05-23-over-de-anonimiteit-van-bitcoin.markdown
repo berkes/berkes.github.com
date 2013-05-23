@@ -6,7 +6,7 @@ lang: nl
 ---
 
 Het bedrijf dat in Nederland pintransacties verwerkt, *Equence*,
-[kondigde aan om ons pingedrag te verkopen]() aan geïnterresseerde
+[kondigde aan om ons pingedrag te verkopen](http://nos.nl/artikel/510009-banken-verkopen-pingedrag-klanten.html) aan geïnterresseerde
 marketeers en bedrijven. Ze beweren dat deze transacties anoniem zijn.
 Dat is onzin, pintransacties (Of iDeal, creditcard, Paypal of eender
 welke digitale transactie) kán eenvoudigweg niet anoniem zijn; je
