@@ -30,11 +30,11 @@ je rekening is niet meer dan een public en private keypair, je
 *portemonee*. En bitcoin werkt daarom niet met registratie: 
 iedereen die een public en private (geheime) keypair kan aanmaken, heeft onmiddellijk een werkende bitcoin-rekening. 
 In analogie
-met een bankrekening zou dat zijn: iedereen die een unieke bankrekening en
+met een bankrekening zou dat zijn: iedereen die een uniek bankrekeningnummer en
 bijbehorende pincode kan verzinnen en die kan onthouden, heeft een
 bankrekening; zonder dat het banksysteem daar ooit vanaf hoeft te weten.
 De cryptografie garandeert dat enkel jijzelf toegang hebt tot die
-bankrekening. En zorgt ervoor dat er nooit (in de praktische zin van "nooit": niet in
+bankrekening (dat de pincode precies de goede is om geld mee van de rekening over te maken). En zorgt ervoor dat er nooit (in de praktische zin van "nooit": niet in
 theoretische) twee mensen dezelfde bankrekening verzinnen.
 
 De portemonnee, en dan met name je public-key, moet echter niet naar jou
