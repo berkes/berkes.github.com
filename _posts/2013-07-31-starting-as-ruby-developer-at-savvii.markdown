@@ -5,7 +5,7 @@ tags: [savvi, wordpress]
 lang: en
 ---
 
-Monday (5th of Juli) I am starting at the startup [Savvii](http://savvii.nl). To
+Monday (5th of <del>Juli</del>August) I am starting at the startup [Savvii](http://savvii.nl). To
 be part of the team that wants to bring you the very best WordPress
 hosting in the Netherlands.
 
