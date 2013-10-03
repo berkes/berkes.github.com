@@ -20,6 +20,7 @@ We hebben er daarom al heel vroeg voor gekozen om alles als heel kleine, gefocus
 In ons geval willen we daarbij ook volledig onafhankelijk zijn van de locatie waarop iets draait. We kiezen ervoor om alle communicatie tussen alle componenten met <a href="https://www.ics.uci.edu/~fielding/pubs/dissertation/rest_arch_style.htm">RESTfull</a> JSON te laten communiceren. Dat betekent dat we alle communicatie over HTTP doen, waarbij we JSON rondsturen.
 <h3>Rule of Extensibility: Design for the future, because it will be here sooner than you think.</h3>
 We hebben een paar concrete uitgangspunten:
+
 * Alle componenten zullen doorontwikkeld of vervangen worden.
 * Alle componenten zullen op een moment falen, uitgaan of fouten vertonen.
 * De markt en de community rondom WordPress is heel veranderlijk.
