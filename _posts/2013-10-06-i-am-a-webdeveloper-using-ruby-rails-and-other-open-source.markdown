@@ -1,7 +1,7 @@
 ---
 layout: post_short
 title: "I am a webdeveloper (using Ruby, Rails and other Open Source)"
-tags: [savvii, WordPress, Drupal, Ruby, Rails]
+tags: [savvii, wordpress, drupal, ruby, rails]
 lang: en
 ---
 
