@@ -46,6 +46,7 @@ Je kunt me bereiken per [e-mail](mailto:ber@berk.es) of telefoon, op
 
 * Code op [Github](https://github.com/berkes/)
 * Zakelijk netwerk op [LinkedIn](http://www.linkedin.com/profile?viewProfile=&key=9270755).
+* Resumé van mijn Open Source software op [Github](http://resume.github.io/?berkes).
 * Kennisbank op [Stackoverflow](http://stackoverflow.com/users/73673/berkes)
 
 ## Disclaimer
