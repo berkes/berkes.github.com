@@ -46,7 +46,7 @@ GWK op de hoek. MtGox of de Europese [Bitcoin-central](https://bitcoin-central.n
 
 Enkele goed aangeschreven kantoren zijn:
 
-* [Bitconic](https://bitonic.nl/); betalen met iDeal.
+* [Bitonic](https://bitonic.nl/); betalen met iDeal (of gebruik [deze link naar Bitonic, waarmee ik een vergoeding ontvang](https://bitonic.nl/?refcode=pz3mBx94765).
 * [Bitcoin.de](https://www.bitcoin.de/en?cr=1); Betalen met
 bankoverschrijvingen.
 
