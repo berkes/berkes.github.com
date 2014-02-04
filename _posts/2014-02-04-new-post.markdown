@@ -1,0 +1,84 @@
+---
+layout: post_long
+title: "Uitgevers, geef mij niet de schuld, wanneer ik mijn ebooks niet
+van jullie koop!"
+tags: [piratebay, piracy, ebook, copyright]
+lang: nl
+---
+Schrijvers en uitgevers zijn bang. [Mensen kopen hun boeken niet meer](http://www.volkskrant.nl/vk/nl/3352/boeken/article/detail/3589862/2014/02/04/90-procent-van-boeken-op-e-readers-gratis-of-illegaal.dhtml). Goh. Al [in 2010](http://berk.es/2010/08/11/uitgevers-maak-van-mij-geen-boekenpiraat/) schreef ik al dat het veel makkelijker is om illegale boeken te krijgen dan legale. 
+
+Daar is niets in veranderd. (Ik kocht, trouwens, in 2013 voor bijna €200 boeken voor mijn e-reader,
+maar dat terzijde).
+
+Er zijn, voor mij, als fervent lezer, ongeveer de volgende
+mogelijkheden, in volgorde van moeilijkheid:
+
+* Het boek helemaal niet lezen.
+* Dan maar de papieren versie kopen.
+* Het boek illegaal downloaden.
+* Het boek kopen.
+
+Dat zit zo: Ik heb thuis geen Windows
+computers. Dus vallen alle boeken van bol.com en
+andere grote ebook verkopers automatisch af: je hebt daarvoor super
+gebruiksonvriendelijke, lelijke software nodig. Software die in de DRM
+voorziet: die voorkomt dat jij het boek uitleent aan je moeder, nadat je het uithebt. En deze software draait niet op Linux.
+
+Als je groepen mensen categorisch uitsluit uit je winkel, dan moet je niet raar
+opkijken als die groepen niets meer bij je willen kopen.
+
+Sommigen van jullie zoeken hun heil inmiddels in, wat heet, *on device
+purchase*, [direct op mijn
+e-reader een boek kopen](http://store.kobobooks.com/en-nl/); helaas ook met DRM, dus het gekochtte boek uitlenen aan mijn
+vrouw, zit er ook hier niet in (Iets wat ik uiteraard met een illegaal boek wel gewoon kan; met een papieren boek trouwens ook). Het is echter een kleine verbetering ten opzichte van
+helemaal niet kunnen kopen, omdat ik nu
+tenminste mág betalen. Maar slechts een héél kleine: Als Kobo verdwijnt
+(en, zoals jullie heel goed weten, boekenverkopers verdwijnen nogal
+vaak), of als ik besluit dat mijn volgende e-reader een Frobo moet zijn,
+ben ik al mijn aldaar gekochtte boeken voorgoed kwijt. Foetsie. Dat
+vooruitzicht maakt dat ik wel vijf keer nadenk om daar mijn boeken te
+kopen. En jullie zullen vast wel begrijpen dat als ik over een paar jaar
+mijn Frobo heb, ik deze boeken natuurlijk niet weer opnieuw ga kopen;
+dat de piratebay dan toch echt het betere alternatief is.
+
+En er zijn bij jullie collega-uitgevers van IT-boeken ook [heel verlichtte
+geesten](http://pragprog.com/) die DRM-vrije downloads verkopen. Ga daar
+eens mee praten. Hier kan ik de auteur ondersteunen door voor zijn boek te betalen. Het is heel makkelijk om te betalen, zelfs.Pragprog en O'Reilly verdienen veel aan me. Ik zou eerlijk gezegd niet eens weten of hun boeken ook illegaal te vinden zijn.
+
+Maar het ergste, beste uitgevers, is nog wel dat het illegaal downloaden
+helemaal niet zo gemakkelijk is. De
+gebruikerservaring (*experience*) is ronduit slecht. Als je al je weg
+vind in het oerwoud van torrent-sites, torrent-proxies,
+download-share-sites en versleutelde rar-bestandjes, dan zijn de
+gedownloadde boeken
+vaak van erg slechte kwaliteit. Zo zijn heel veel
+boeken heel slecht geconverteerd, met lelijke woordafbrekingen, vol
+spelfouten, ontbreken plaatjes en moet je vaak lang zoeken voor je een
+specifieke titel kunt vinden die ook nog eens downloadbaar is. Die
+*experience* kan écht veel beter, zonder grote investeringen. Daar
+betalen mensen als ik graag een paar euro voor; geloof me: dat heeft
+Netflix en Spotify allang bewezen. Daar zijn lessen geleerd: dóe daar
+wat mee. 
+
+Maar nog veel erger is dat veel boeken helemaal niet "digitaal" worden
+uitgegeven. Zijn jullie soms bang voor digitaal? Het is niet alsof het
+hele productieproces van een boek nog op typmachines en met van die
+letterbakken gaat, toch: je hebt ze echt wel digitaal.
+Daarbij blijkt dat de markt zó ontzettend verlegen zit om ebooks van
+boeken die jullie niet als ebook uitgeven, dat mensen ze zelf maar gaan
+maken: scannen, verbeteren, overtikken. Wat een moeite, wat een energie.
+Maar deze community is zo ontzettend groot, dat vrijwel alle relatief
+popuplaire boeken inmiddels op deze manier te vinden zijn. 
+Daar waar jullie uit angst voor piraten, boeken niet digitaal uitgaven,
+zijn jullie inmiddels zelfs overbodig gemaakt door diezelfde piraten.
+
+Dus hou onmiddelijk op met zeuren over piraterij. Er is maar één
+schuldige partij aan te wijzen en dat zijn jullie zelf. Jullie hebben
+gefaald om een goede, makkelijke manier aan te bieden waarmee mensen
+uberhaupt jullie boeken kunnen kopen. Jullie hebben vaak zelfs helemaal
+verzaakt om boeken digitaal te verkopen. Wanneer jullie dan nu naar mij,
+jullie klant, gaan wijzen dat ik niet genoeg boeken koop, dan zijn
+jullie naast dom en klantonvriendelijk, gewoon enorm slechte
+ondernemers, die het verdienen om failliet te gaan. Breng eerst je eigen
+shit op orde, pas je aan aan je klanten en hun wensen maar hou op met
+anderen de schuld te geven van je eigen fouten.
