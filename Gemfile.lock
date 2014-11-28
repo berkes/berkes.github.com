@@ -20,7 +20,6 @@ GEM
     posix-spawn (0.3.9)
     rake (10.4.0)
     rdiscount (1.6.8)
-    yui-compressor (0.12.0)
 
 PLATFORMS
   ruby
@@ -29,4 +28,3 @@ DEPENDENCIES
   jekyll (~> 0.11.2)
   rake
   rdiscount (~> 1.6.8)
-  yui-compressor
