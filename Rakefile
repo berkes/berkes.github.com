@@ -126,11 +126,11 @@ task "tags:remove" do
   clean_posts.each{|p| puts "#{p.slug} #{p.tags.join(',')}"}
 end
 
-desc "Build site in _site"
+desc "Build site in #{CONFIG["build_dir"]}site"
 task "build" do
   site_dir = File.join(CONFIG["build_dir"], "site")
   FileUtils.mkdir_p(site_dir) unless File.exists? site_dir
-  system "jekyll --no-auto #{site_dir}"
+  system "jekyll build #{site_dir}"
 end
 
 desc "Publish to github pages"
