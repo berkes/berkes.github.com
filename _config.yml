@@ -2,9 +2,8 @@
 # For more see: https://github.com/mojombo/jekyll/wiki/Permalinks
 permalink: /:categories/:year/:month/:day/:title 
 
-exclude: [".rvmrc", "Gemfile", "Gemfile.lock", ".rbenv-version", "README.md", "Rakefile", "changelog.md", "tags"]
-auto: true
-pygments: true
+exclude: [".rvmrc", "Gemfile", "Gemfile.lock", ".rbenv-version", "README.md", "Rakefile", "changelog.md"]
+highlighter: pygments
 markdown: rdiscount
 
 lsi: false
@@ -105,7 +104,4 @@ JB :
   # and include your custom code. Your custom file must be defined at:
   #   ./_includes/custom/[HELPER]
   # where [HELPER] is the name of the helper you are overriding.
-asset_bundler:
-  compress:
-    js: yui
-    css: yui
+  
