@@ -2,5 +2,7 @@
 source "https://rubygems.org"
 
 gem "rake"
-gem "jekyll", "~> 0.11.2"
+gem "execjs", "~> 2.2.2"
+gem "therubyracer", "~> 0.12.1"
+gem "jekyll", "~> 2.5.2"
 gem "rdiscount", "~> 1.6.8"
