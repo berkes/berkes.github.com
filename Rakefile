@@ -130,7 +130,7 @@ desc "Build site in #{CONFIG["build_dir"]}site"
 task "build" do
   site_dir = File.join(CONFIG["build_dir"], "site")
   FileUtils.mkdir_p(site_dir) unless File.exists? site_dir
-  system "jekyll build #{site_dir}"
+  system "jekyll build -d #{site_dir}"
 end
 
 desc "Publish to github pages"
