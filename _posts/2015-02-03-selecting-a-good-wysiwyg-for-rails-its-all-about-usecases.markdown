@@ -1,4 +1,4 @@
---
+---
 layout: post_short
 title: "Selecting a Good WYSIWYG for Rails: it's all about use-cases"
 tags: [rails, wysiwyg]
