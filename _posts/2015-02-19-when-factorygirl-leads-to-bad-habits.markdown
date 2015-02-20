@@ -6,7 +6,10 @@ lang: en
 ---
 
 [FactoryGirl](https://github.com/thoughtbot/factory_girl) is a solution for cleaning up the repetitive task of
-setting up test data, used in many Rails projects I think FactoryGirl encourages bad design by hiding design problems.
+setting up test data, used in many Rails projects.
+
+I think FactoryGirl encourages bad design by hiding design problems.
+
 The need for repetitive or complex test-data is an indication that your code and its API need improvement. Instead of improving the application, FactoryGirl enables you to only improve this in your test suite: that is not fixing at all, it is hiding the problem.
 
 ## Building up a state before we can test
