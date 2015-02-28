@@ -1,5 +1,5 @@
 ---
-layout: post_short
+layout: post
 title: "Programming on a Non-English Project; best practices"
 tags: [project management, localization]
 lang: en

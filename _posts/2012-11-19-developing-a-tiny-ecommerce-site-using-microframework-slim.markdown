@@ -1,5 +1,5 @@
 ---
-layout: post_long
+layout: post
 title: "Developing a tiny ecommerce site using microframework Slim"
 tags: [microframeworks, slim, PHP, iDeal, piratenpartij]
 lang: en

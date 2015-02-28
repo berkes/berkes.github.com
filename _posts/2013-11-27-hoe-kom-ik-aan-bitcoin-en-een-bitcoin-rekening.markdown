@@ -1,5 +1,5 @@
 ---
-layout: post_short
+layout: post
 title: "Hoe kom ik aan Bitcoin, en een Bitcoin rekening?"
 tags: [bitcoin]
 lang: nl

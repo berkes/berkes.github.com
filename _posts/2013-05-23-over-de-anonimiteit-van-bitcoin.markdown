@@ -1,5 +1,5 @@
 ---
-layout: post_medium
+layout: post
 title: "Over de anonimiteit van Bitcoin"
 tags: [bitcoin, privacy]
 lang: nl

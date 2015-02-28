@@ -1,5 +1,5 @@
 ---
-layout: post_short
+layout: post
 title: "Make cucumber open the browser with the current page"
 tags: [cucumber, bdd, rails, ruby]
 lang: en

@@ -1,5 +1,5 @@
 ---
-layout: post_short
+layout: post
 title: "Fix SEGV for Vims command t on Ubuntu 12.10"
 tags: [vim, command-t, ubuntu, 12.10, howto]
 lang: en

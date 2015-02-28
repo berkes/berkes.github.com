@@ -1,5 +1,5 @@
 ---
-layout: post_medium
+layout: post
 title: "Standardising the technology stack (or CMS) is silly"
 tags: [cms, techonolgy, management]
 lang: en

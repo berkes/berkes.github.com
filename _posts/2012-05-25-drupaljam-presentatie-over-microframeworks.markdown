@@ -1,5 +1,5 @@
 ---
-layout: post_short
+layout: post
 title: "DrupalJam presentatie over Microframeworks"
 tags: [drupal, microframeworks, presentatie, sinatra]
 lang: nl
