@@ -40,11 +40,10 @@ module JB
 end #JB
 
 # Usage: rake post title="A Title" [date="2012-02-09"]
-desc "Begin a new post in #{CONFIG['posts']} [layout=(long|short|medium)][lang=(en|nl)][date=YYYY-mm-dd][title=TITLE]"
+desc "Begin a new post in #{CONFIG['posts']} [lang=(en|nl)][date=YYYY-mm-dd][title=TITLE]"
 task :post do
   abort("rake aborted: '#{CONFIG['posts']}' directory not found.") unless FileTest.directory?(CONFIG['posts'])
 
-  layout = ENV['layout'] || 'medium'
   lang = ENV['lang'] || 'en'
 
   title = ENV["title"] || "new-post"
@@ -64,19 +63,10 @@ task :post do
   puts "Creating new post: #{filename}"
   open(filename, 'w') do |post|
     post.puts "---"
-    post.puts "layout: post_#{layout}"
     post.puts "title: \"#{title.gsub(/-/,' ')}\""
     post.puts "tags: []"
     post.puts "lang: #{lang}"
     post.puts "---"
-    post.puts "{% include JB/setup %}"
-  end
-
-  # Map layouts to image_layouts
-  image_layout = case layout
-    when "long" then "landscape"
-    when "short" then "portrait"
-    when "medium" then "panorama"
   end
 
   imagefile = File.join(CONFIG['images'], now.year.to_s, "%02d" % now.month, "%02d" % now.day, "#{slug}.png");
@@ -84,7 +74,7 @@ task :post do
     abort("rake aborted!") if ask("#{imagefile} already exists. Do you want to overwrite?", ['y', 'n']) == 'n'
   end
 
-  template_imagefile = next_image! image_layout
+  template_imagefile = next_image!
   puts "Copying image: #{template_imagefile} to #{imagefile}"
   mkdir_p File.dirname(imagefile)
   FileUtils.copy(template_imagefile, imagefile)
@@ -176,7 +166,7 @@ def next_image layout
 end
 
 # Same as next_image, but increments the pointer.
-def next_image! layout
+def next_image! layout="portrait"
   image = next_image layout
   if image
     inc_last_used! layout
