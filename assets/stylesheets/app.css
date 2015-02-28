@@ -48,6 +48,7 @@ article footer {
 article pre {
   border: 1px solid #cfcdcd;
   display: block;
+  width: 960px;
   font-family: Monaco, Andale Mono, Courir New, monospace;
 
   padding: 1.3rem;
@@ -55,6 +56,11 @@ article pre {
 
   white-space: pre-wrap;
   word-wrap: break-word;
+}
+article pre:hover,
+article pre:focus {
+  position: relative;
+  z-index: 9;
 }
 code {
   font-family: Monaco, Andale Mono, Courir New, monospace;
