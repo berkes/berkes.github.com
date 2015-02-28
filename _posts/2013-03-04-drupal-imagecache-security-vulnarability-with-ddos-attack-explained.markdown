@@ -1,5 +1,5 @@
 ---
-layout: post_long
+layout: post
 title: "Drupal Imagecache security vulnarability with DDOS attack explained"
 tags: [drupal, imagecache, security, ddos]
 lang: en

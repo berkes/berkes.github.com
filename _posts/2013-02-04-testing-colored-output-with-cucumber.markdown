@@ -1,5 +1,5 @@
 ---
-layout: post_short
+layout: post
 title: "Testing colored output with Cucumber"
 tags: [cucumber, BDD, Aruba, Rainbow, Thor]
 lang: en

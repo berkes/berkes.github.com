@@ -1,5 +1,5 @@
 ---
-layout: post_short
+layout: post
 title: "So, I am starting as Ruby Developer at Savvii"
 tags: [savvi, wordpress]
 lang: en

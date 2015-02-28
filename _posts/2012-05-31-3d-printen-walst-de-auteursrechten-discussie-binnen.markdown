@@ -1,5 +1,5 @@
 ---
-layout: post_short
+layout: post
 title: "3D printen walst de auteursrechten discussie binnen"
 tags: []
 lang: nl

@@ -1,5 +1,5 @@
 ---
-layout: post_long
+layout: post
 title: "Statische websites beheren anno 2012"
 tags: [git, jekyll, blog, webdevelopment]
 lang: nl

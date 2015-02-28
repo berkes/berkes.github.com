@@ -1,5 +1,5 @@
 ---
-layout: post_short
+layout: post
 title: "Why outside in Webdevelopment is Better; why Designs should be Leading."
 tags: [webdevelopment, webdesign, projectmanagement, TDD, BDD,
 outside-in]

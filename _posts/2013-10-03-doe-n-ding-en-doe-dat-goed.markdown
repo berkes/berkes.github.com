@@ -1,5 +1,5 @@
 ---
-layout: post_medium
+layout: post
 title: "Doe één ding en doe dat goed"
 tags: [savvii, rails, architecture]
 lang: nl

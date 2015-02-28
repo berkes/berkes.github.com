@@ -1,5 +1,5 @@
 ---
-layout: post_long
+layout: post
 title: "Tagadelic: TDD, OOP and seeking maintainer"
 tags: [tagadelic, Drupal, TDD, OOP]
 lang: en

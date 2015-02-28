@@ -1,5 +1,5 @@
 ---
-layout: post_short
+layout: post
 title: "Map capslock to escape in Ubuntu Linux"
 tags: []
 lang: en

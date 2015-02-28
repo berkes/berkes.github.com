@@ -1,5 +1,5 @@
 ---
-layout: post_medium
+layout: post
 title: "Bitcoins kopen? Weet wat je doet."
 tags: [bitcoin]
 lang: nl

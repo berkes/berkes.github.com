@@ -1,5 +1,5 @@
 ---
-layout: post_medium
+layout: post
 title: "Overheden moeten APIs aanbieden"
 tags: []
 lang: nl

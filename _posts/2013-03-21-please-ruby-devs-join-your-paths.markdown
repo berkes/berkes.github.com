@@ -1,5 +1,5 @@
 ---
-layout: post_short
+layout: post
 title: "Please, Ruby devs, join() your paths"
 tags: [ruby]
 lang: en

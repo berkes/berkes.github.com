@@ -1,5 +1,5 @@
 ---
-layout: post_medium
+layout: post
 title: "After almost twelve years of Drupal, I am saying goodbye"
 tags: [drupal, rails, goodbye]
 lang: en

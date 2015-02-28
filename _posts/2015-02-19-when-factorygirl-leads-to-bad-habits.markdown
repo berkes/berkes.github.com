@@ -1,5 +1,5 @@
 ---
-layout: post_long
+layout: post
 title: "When FactoryGirl leads to bad habits"
 tags: [rails]
 lang: en

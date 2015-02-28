@@ -1,5 +1,5 @@
 ---
-layout: post_long
+layout: post
 title: "Leave some Ink in the Well"
 tags:
 - programming

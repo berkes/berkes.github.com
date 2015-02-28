@@ -1,5 +1,5 @@
 ---
-layout: post_medium
+layout: post
 title: "git deploy or: How I Learned to Stop Worrying and Love Deployment"
 tags: [git, drupal, deployment]
 lang: en

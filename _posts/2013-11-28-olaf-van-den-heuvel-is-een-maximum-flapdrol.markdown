@@ -1,5 +1,5 @@
 ---
-layout: post_short
+layout: post
 title: "Olaf van den Heuvel is een maximum flapdrol"
 tags: [bitcoin]
 lang: nl

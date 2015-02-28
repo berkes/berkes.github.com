@@ -1,5 +1,5 @@
 ---
-layout: post_long
+layout: post
 title: "Uitgevers, geef mij niet de schuld, wanneer ik mijn ebooks niet
 van jullie koop!"
 tags: [piratebay, piracy, ebook, copyright]

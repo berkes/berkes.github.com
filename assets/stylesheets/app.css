@@ -4,7 +4,7 @@
 .container,
 p {
   font-family: 'Arvo', serif;
-  font-size:1.4rem;
+  font-size:1.6rem;
 }
 h1, h2, h3, h4, h5, h6 {
   font-family: "OFL Sorts Mill Goudy TT", serif;
@@ -66,17 +66,8 @@ p code {
 /***************************************************************************
  *                                  GRID                                   *
  ***************************************************************************/
-@media only screen and (min-width: 767px) {
-  article .content {
-    -moz-column-count: 2;
-    -webkit-column-count: 2;
-    -o-column-count: 2;
-    column-count: 2;
-    -moz-column-gap: 42px;
-    -webkit-column-gap: 42px;
-    -o-column-gap: 42px;
-    column-gap: 42px;
-  }
+article figure.decorative {
+  width: 469px;
 }
 /***************************************************************************
  *                                  Tags                                   *
