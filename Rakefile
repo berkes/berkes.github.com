@@ -67,7 +67,6 @@ task :post do
     post.puts "tags: []"
     post.puts "lang: #{lang}"
     post.puts "---"
-    post.puts "{% include JB/setup %}"
   end
 
   imagefile = File.join(CONFIG['images'], now.year.to_s, "%02d" % now.month, "%02d" % now.day, "#{slug}.png");
