@@ -38,7 +38,7 @@ Now that this works, it needs to be secured and cleaned up:
 {% highlight ruby %}
 module Spree
   ProductsController.class_eval do
-    helper_method sorting_param
+    helper_method :sorting_param
     alias_method :old_index, :index
 
     def index
