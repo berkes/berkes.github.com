@@ -7,7 +7,7 @@ lang: nl
 
 F/Rite air, [was een 1-aprilgrap van
 IEX](https://web.archive.org/web/20050831124638/http://www.iex.nl/columns/columns_artikel.asp?colid=3622) in 2005.
-Zij toonden hiermee aan dat mensen, zonder enig verstand, enige kennis
+Zij toonden hiermee aan dat mensen, zonder enige kennis
 van zaken, zonder enig onderzoek, aandelen kochten in een tech-bedrijf
 wat "gebakken lucht" verkocht. Dat was het hoogte (of laagte-)punt van
 de dot-com bubble.
