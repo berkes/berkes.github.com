@@ -4,7 +4,7 @@
  <title>Bèr ‘berkes’ Kessels</title>
  <link href="http://berk.es/atom.xml" rel="self"/>
  <link href="http://berk.es"/>
- <updated>2017-11-13T16:51:36+01:00</updated>
+ <updated>2017-11-13T17:11:10+01:00</updated>
  <id>http://berk.es</id>
  <author>
    <name>Bèr ‘berkes’ Kessels</name>
@@ -18,10 +18,10 @@
    <updated>2017-11-13T00:00:00+01:00</updated>
    <id>http://berk.es/2017/11/13/f-rite-air-ico</id>
    <content type="html">&lt;p&gt;F/Rite air, &lt;a href=&quot;https://web.archive.org/web/20050831124638/http://www.iex.nl/columns/columns_artikel.asp?colid=3622&quot;&gt;was een 1-aprilgrap van
-IEX&lt;/a&gt;.
+IEX&lt;/a&gt; in 2005.
 Zij toonden hiermee aan dat mensen, zonder enig verstand, enige kennis
 van zaken, zonder enig onderzoek, aandelen kochten in een tech-bedrijf
-wat &quot;gebakken lucht&quot; verkocht. Dat was het hoogte (of laagte?)punt van
+wat &quot;gebakken lucht&quot; verkocht. Dat was het hoogte (of laagte-)punt van
 de dot-com bubble.&lt;/p&gt;
 
 &lt;p&gt;Nu is er de blockchain bubble. Vooral zichtbaar in de vorm van ICO's.
@@ -38,25 +38,31 @@ betalen, een systeem bevat waarmee smart contracts geschreven kunnen
 worden.
 Klinkt vaag: daarom wat uitleg:&lt;/p&gt;
 
-&lt;p&gt;Een smart contract is een klein programma'tje wat verspreid wordt
-naar (en door) alle deelnemers op het Ethereum netwerk en welke dan door
-computer(s) op dat netwerk kan worden gedraaid. Een voorbeeld:&lt;/p&gt;
+&lt;p&gt;Een smart contract is een klein programma'tje dat verspreid wordt
+naar alle deelnemers op het Ethereum netwerk en welke dan door
+computer(s) op dat netwerk kan worden gedraaid. Het is dus openbaar,
+onafhankelijk en &quot;van iedereen&quot;. Een voorbeeld:&lt;/p&gt;
 
-&lt;p&gt;Een smart contract met een klein adreslijstje van 10 &quot;personen&quot;. Aan het
+&lt;p&gt;Een smart contract met daarin een klein adreslijstje van 10 &quot;personen&quot;. Aan het
 begin van de maand wordt in dit smart contract een bedrag gestort door
 Bas. En aan het einde van de maand, mogen deze 10 personen 1/10e van het
 bedrag innen.&lt;/p&gt;
 
-&lt;p&gt;Een heel simpele vorm van een &quot;loonadministratie&quot; zeg maar.  Gedurende
-de maand zit het &quot;bedrag&quot; vast, dus weten de tien werknemers zeker dat
-Bas er niet met de pot vandoor kan, ook al wonen deze 10 mensen over de
-hele wereld en staat Bas bekend als iemand die nogal vaak en snel
-failliet gaat: ze weten &lt;em&gt;zeker&lt;/em&gt; dat het loon van deze maand binnen komt:
-het staat immers al klaar in een Smart Contract, iets wat door iedereen
-gecontroleerd kan worden: wiskundig te bewijzen is, zelfs. Zonder dat
-iemand Bas kent, vertrouwt of zelfs maar weet wie het eigenlijk precies
-is, weet iedereen zeker dat 10 vastgestelde personen een bedrag aan het
-eind van de maand kunnen ophalen.&lt;/p&gt;
+&lt;p&gt;Een heel simpele vorm van een &quot;loonadministratie&quot; als smart contract:
+loonadministratie op de Blockchain; en we noemen het BlockWage.&lt;/p&gt;
+
+&lt;p&gt;Het doel en voordeel is niet meteen duidelijk, maar is er wel:&lt;/p&gt;
+
+&lt;p&gt;Gedurende de maand zit het &quot;bedrag&quot; vast: Baas Bas heeft het al
+overgemaakt, en kan het niet terughalen. De tien werknemers weten
+zeker dat Bas er niet met de pot vandoor kan, ook al wonen deze 10
+mensen over de hele wereld en staat Bas bekend als iemand die nogal vaak
+en snel &quot;failliet&quot; gaat: ze weten &lt;em&gt;zeker&lt;/em&gt; dat het loon van deze maand
+binnen komt: het staat immers al klaar in het Smart Contract, iets wat
+door iedereen gecontroleerd kan worden: wiskundig te bewijzen is, zelfs.
+Zonder dat iemand Bas kent, vertrouwt of zelfs maar weet wie het
+eigenlijk precies is, weet iedereen zeker dat 10 vastgestelde personen
+een bedrag aan het eind van de maand kunnen ophalen.&lt;/p&gt;
 
 &lt;p&gt;Je kunt dit zo ingewikkeld maken als je wilt. Met urenadministratie die
 voor de verdeling zorgt, of een democratisch stem-systeem in weer andere
@@ -88,14 +94,14 @@ En dat maakt hebberig.&lt;/p&gt;
 &lt;p&gt;Terug naar de ICO's. Wanneer iemand een heel set aan smart-contracts
 verzint om een bestaand systeem om te gooien, heeft deze vaak geld
 nodig. En omdat een &quot;lening van de bank&quot; duur, moeilijk en traag is, kun
-je net zo goed al heel vroeg investeerders aantrekken. En omdat een
-beursgang duur, moeilijk en traag is, en het opzetten van een
+je net zo goed al heel vroeg investeerders aantrekken: crowdfunding. En
+omdat een beursgang duur, moeilijk en traag is, en het opzetten van een
 aandelenstructuur dat ook is, kun je net zo goed diezelfde smart
 contracts inzetten. &quot;De eerste 20% van de WageCoins worden verkocht aan
 vroege deelnemers. De volgende 80% gebruikt om de lonen uit te betalen&quot;.
 Een PDFje erbij waarin je met wiskunde, statistiek en wat economie
 aantoont dat het de hele wereld gaat veranderen een miljoen dollar voor
-een tweet over jou WageCoin van &lt;a href=&quot;https://i.imgur.com/l6I6nlD.jpg&quot;&gt;een of andere
+een tweet over jou BlockWage/WageCoin van &lt;a href=&quot;https://i.imgur.com/l6I6nlD.jpg&quot;&gt;een of andere
 beroemdheid&lt;/a&gt; en bam, het geld stroomt
 binnen.&lt;/p&gt;
 
@@ -166,16 +172,6 @@ waarborgen. &lt;a href=&quot;https://nl.wikipedia.org/wiki/Blockchain&quot;&gt;W
 ik niet veel kans maken, hoogstens in (internationale) arbeidsrelaties
 waarbij men elkaar helemaal niet kent en vertrouwt. Maar daar gaat het
 hier niet om&lt;/p&gt;
-
-&lt;p&gt;[3] Waarbij ik overigens wil opmerken dat in de aandelen en valutahandel
-er nooit zoiets bestaat als &quot;te laat&quot;. 10% winst is 10% winst. Als je in
-2011 voor €500 aan Bitcoins kocht (een stuk of 100) en ze twee maanden
-later voor €550 verkocht, is dat niets anders dan wanneer je gisteren
-voor €500 kocht (0.1 Bitcoin) en deze een halve dag later voor €550
-verkocht. Alles draait om het juiste moment van kopen en verkopen. Op
-korte, lange en middellange termijn. Het enige moment dat je &quot;te laat&quot;
-bent, is als de valuta, het bedrijf of aandelen om aan het vallen zijn.
-Maar zelfs daar is geld aan te verdienen.&lt;/p&gt;
 </content>
  </entry>
  
