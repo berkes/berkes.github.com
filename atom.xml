@@ -4,13 +4,180 @@
  <title>Bèr ‘berkes’ Kessels</title>
  <link href="http://berk.es/atom.xml" rel="self"/>
  <link href="http://berk.es"/>
- <updated>2016-04-06T13:46:27+02:00</updated>
+ <updated>2017-11-13T16:51:36+01:00</updated>
  <id>http://berk.es</id>
  <author>
    <name>Bèr ‘berkes’ Kessels</name>
    <email>ber@berk.es</email>
  </author>
 
+ 
+ <entry>
+   <title>F/Rite Air ICO</title>
+   <link href="http://berk.es/2017/11/13/f-rite-air-ico"/>
+   <updated>2017-11-13T00:00:00+01:00</updated>
+   <id>http://berk.es/2017/11/13/f-rite-air-ico</id>
+   <content type="html">&lt;p&gt;F/Rite air, &lt;a href=&quot;https://web.archive.org/web/20050831124638/http://www.iex.nl/columns/columns_artikel.asp?colid=3622&quot;&gt;was een 1-aprilgrap van
+IEX&lt;/a&gt;.
+Zij toonden hiermee aan dat mensen, zonder enig verstand, enige kennis
+van zaken, zonder enig onderzoek, aandelen kochten in een tech-bedrijf
+wat &quot;gebakken lucht&quot; verkocht. Dat was het hoogte (of laagte?)punt van
+de dot-com bubble.&lt;/p&gt;
+
+&lt;p&gt;Nu is er de blockchain bubble. Vooral zichtbaar in de vorm van ICO's.
+Deze ICO's zijn &lt;a href=&quot;https://tweakers.net/nieuws/131769/afm-waarschuwt-voor-initial-coin-offerings.html?showReaction=10770549#r_10770549&quot;&gt;de laatste dagen overal in het nieuws&lt;/a&gt;.&lt;/p&gt;
+
+&lt;p&gt;ICO's, initial coin offerings, &lt;a href=&quot;https://www.economist.com/blogs/economist-explains/2017/08/economist-explains-17&quot;&gt;zijn een nieuwe vorm van financiering
+voor
+bedrijven&lt;/a&gt;.
+Vooral bedrijven die &quot;iets met blockchain doen&quot;[1].  Na Bitcoin kwamen
+vele nieuwe cryptomunten (AltCoins) waarvan één hier bijzondere aandacht
+verdient: &lt;a href=&quot;http://en.bitcoinwiki.org/Ethereum&quot;&gt;Ethereum&lt;/a&gt;. Omdat Ethereum
+naast een munt (de Ether) waarmee je elkaar (bijna nergens, haha) kunt
+betalen, een systeem bevat waarmee smart contracts geschreven kunnen
+worden.
+Klinkt vaag: daarom wat uitleg:&lt;/p&gt;
+
+&lt;p&gt;Een smart contract is een klein programma'tje wat verspreid wordt
+naar (en door) alle deelnemers op het Ethereum netwerk en welke dan door
+computer(s) op dat netwerk kan worden gedraaid. Een voorbeeld:&lt;/p&gt;
+
+&lt;p&gt;Een smart contract met een klein adreslijstje van 10 &quot;personen&quot;. Aan het
+begin van de maand wordt in dit smart contract een bedrag gestort door
+Bas. En aan het einde van de maand, mogen deze 10 personen 1/10e van het
+bedrag innen.&lt;/p&gt;
+
+&lt;p&gt;Een heel simpele vorm van een &quot;loonadministratie&quot; zeg maar.  Gedurende
+de maand zit het &quot;bedrag&quot; vast, dus weten de tien werknemers zeker dat
+Bas er niet met de pot vandoor kan, ook al wonen deze 10 mensen over de
+hele wereld en staat Bas bekend als iemand die nogal vaak en snel
+failliet gaat: ze weten &lt;em&gt;zeker&lt;/em&gt; dat het loon van deze maand binnen komt:
+het staat immers al klaar in een Smart Contract, iets wat door iedereen
+gecontroleerd kan worden: wiskundig te bewijzen is, zelfs. Zonder dat
+iemand Bas kent, vertrouwt of zelfs maar weet wie het eigenlijk precies
+is, weet iedereen zeker dat 10 vastgestelde personen een bedrag aan het
+eind van de maand kunnen ophalen.&lt;/p&gt;
+
+&lt;p&gt;Je kunt dit zo ingewikkeld maken als je wilt. Met urenadministratie die
+voor de verdeling zorgt, of een democratisch stem-systeem in weer andere
+smart-contracts, die bepaalt welke personen in het adreslijstje staan en
+wat de verdeelsleutel is, enzovoort. Laat je fantasie de vrije loop, je
+kunt het zo uitgebreid maken als je wilt, met ingebouwde
+spaarregelingen, fooienpotten, bonussen, etcetera. En alles wordt
+bestuurd vanuit een &quot;democratisch&quot; stem-systeem.&lt;/p&gt;
+
+&lt;p&gt;Iedereen mag &quot;tokens&quot; inzetten om te stemmen. Eén token is één stem. En
+die tokens, die beheer je weer met smart contracts, kunnen mensen
+onderling uitwisselen enzovoort: een &quot;munteenheid voor binnen één
+bedrijf&quot;, zeg maar. Uiteraard kun je een deel van je loon uitgekeerd
+krijgen in deze tokens. We noemen het systeem &quot;BlockWage&quot; en die tokens zijn
+WageCoins.&lt;/p&gt;
+
+&lt;p&gt;Kortom, die smart-contracts, daar kan van alles mee. Eigendomsrechten,
+huurcontracten, CO2 certificaten, landingsrechten, een stadspark met een
+eigen budget, uit te keren aan iedereen die het park onderhoudt.
+Enzovoort.&lt;/p&gt;
+
+&lt;p&gt;En dit &lt;em&gt;gaat&lt;/em&gt; de wereld veranderen. Wat precies, weet niemand. Er zullen
+bestaande bedrijfstakken vervangen worden door smart-contracts. Er
+zullen enorm veel &quot;smart contract&quot; bedrijven floppen en er zullen
+bedrijven met heel onverwachte toepassingen gigantisch rijk worden. Er
+zal enorm veel geld verdiend en verloren worden rondom zulke bedrijven.
+En dat maakt hebberig.&lt;/p&gt;
+
+&lt;p&gt;Terug naar de ICO's. Wanneer iemand een heel set aan smart-contracts
+verzint om een bestaand systeem om te gooien, heeft deze vaak geld
+nodig. En omdat een &quot;lening van de bank&quot; duur, moeilijk en traag is, kun
+je net zo goed al heel vroeg investeerders aantrekken. En omdat een
+beursgang duur, moeilijk en traag is, en het opzetten van een
+aandelenstructuur dat ook is, kun je net zo goed diezelfde smart
+contracts inzetten. &quot;De eerste 20% van de WageCoins worden verkocht aan
+vroege deelnemers. De volgende 80% gebruikt om de lonen uit te betalen&quot;.
+Een PDFje erbij waarin je met wiskunde, statistiek en wat economie
+aantoont dat het de hele wereld gaat veranderen een miljoen dollar voor
+een tweet over jou WageCoin van &lt;a href=&quot;https://i.imgur.com/l6I6nlD.jpg&quot;&gt;een of andere
+beroemdheid&lt;/a&gt; en bam, het geld stroomt
+binnen.&lt;/p&gt;
+
+&lt;p&gt;En dan blijkt BlockWage inderdaad een knallend succes in de landbouw, omdat
+werknemers de werkgevers daar niet vertrouwen, uitzendbureaus enorme marges
+berekenen en arbeiders de ene dag tomaten staan te plukken bij Boer
+Tomas en de volgende dat Bollen pellen bij Boer Pelle en daarom loon uitkeren
+nogal ingewikkeld is.&lt;/p&gt;
+
+&lt;p&gt;Waardoor die WageCoins waardevol zijn. Die landarbeiders houden de 2%
+WageCoins zelf vast of maken ze over naar hun vakbondsvertegenwoordiger,
+omdat ze hiermee samen meer dan de helft van de zeggenschap hebben over
+het bedrijf dat hun loon bepaalt en betaalt. Waardoor die 20% die tussen
+aandeelhouders verhandelt wordt steeds duurder wordt. Winst! Rijkdom!
+Miljoenen!&lt;/p&gt;
+
+&lt;p&gt;Of, BlockWage blijkt inderdaad gewoon een heel slecht idee en na het
+verkopen van de eerste &quot;20%&quot; voor anderhalf miljoen Euro, vertrekt heer
+Mallory, de bedenker, naar de Bahama's met de pot.&lt;/p&gt;
+
+&lt;p&gt;Omdat mensen hebberig zijn en bijna iedere maand op tv of bij DWDD of
+een of ander &quot;leken&quot;-programma horen over mensen die schatjehemeltjerijk
+werden met Bitcoins of andere &quot;blockchain dingen&quot; willen zij dat ook.
+Enorm veel mensen balen dat &quot;ze er niet op tijd bij waren&quot;.&lt;/p&gt;
+
+&lt;p&gt;En daar maken ook oplichters graag gebruik van. Door te doen alsof dit &quot;het
+nieuwe Bitcoin&quot; is, een hype te creëren, zorgen ze ervoor dat (tien)
+duizenden mensen vooraan staan, in de hoop dat ze nu wel &quot;op tijd erbij
+zijn&quot;. Het wrange is, dat sommige van die &quot;Tokens&quot; ook heel even heel
+veel waard worden: deze &quot;aandelen&quot; schieten in de eerste dagen in prijs
+omhoog; waarmee de eerste instappers dus enorm veel geld kunnen
+verdienen. En die verhalen de volgende hype bij de volgende ICO alleen
+nog groter maken.
+Bijvoorbeeld &lt;a href=&quot;https://uetoken.com/&quot;&gt;The world's first 100% honest Ethereum
+ICO.&lt;/a&gt;. Het F/Rite air van 2017, ironisch, maar met
+een heldere boodschap: stuur nooit geld naar een willekeurig persoon op
+het internet. Een boodschap die, helaas, niet vaak genoeg herhaald kan
+worden.&lt;/p&gt;
+
+&lt;p&gt;Dus zijn er tussen een paar heel mooie ideeën, een paar geweldige
+ondernemers en een paar bedrijven met gigantische potentie, een heleboel
+oplichters.&lt;/p&gt;
+
+&lt;p&gt;Het bericht dat we uit de huidige aandacht voor ICO's moeten
+meenemen is vooral dat &quot;goed informeren&quot; van cruciaal belang is. &lt;a href=&quot;https://www.forbes.com/sites/forbestechcouncil/2017/08/24/what-to-consider-before-investing-in-initial-coin-offerings/#29ef16763604&quot;&gt;Ken je
+mensen erachter? Vertrouw je die? Vertrouw je het bedrijfsmodel? Het
+plan?&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;Klinkt het te mooi om waar te zijn? Dan is het dat waarschijnlijk
+ook. Is het een mooi onderbouwd plan door iemand die je kent en waaraan
+je graag wat geld wilt geven om daarmee zijn plan uit te werken? Dan kan
+het best wel eens werken.&lt;/p&gt;
+
+&lt;hr /&gt;
+
+&lt;p&gt;[1] Wanneer ik het hier over &quot;Blockchain&quot; heb, bedoel ik vooral de
+technische betekenis: een decentraal kasboek:&lt;/p&gt;
+
+&lt;blockquote&gt;&lt;p&gt;Een blockchain [...] is een gedistribueerde database die een gestaag
+groeiende lijst bijhoudt van data-items die gehard zijn tegen
+manipulatie en vervalsing. Zelfs de beheerder van nodes kan deze
+gegevens niet vervalsen.[...] Dit gebeurt door middel van een
+consensus. Met een blockchain kan ervoor worden gezorgd dat een derde
+partij niet nodig is om de betrouwbaarheid van een transactie te
+waarborgen. &lt;a href=&quot;https://nl.wikipedia.org/wiki/Blockchain&quot;&gt;Wikipedia&lt;/a&gt;&lt;/p&gt;&lt;/blockquote&gt;
+
+&lt;p&gt;[2] Een loonadministratie op de blockchain, BlockWage, dus, zie
+ik niet veel kans maken, hoogstens in (internationale) arbeidsrelaties
+waarbij men elkaar helemaal niet kent en vertrouwt. Maar daar gaat het
+hier niet om&lt;/p&gt;
+
+&lt;p&gt;[3] Waarbij ik overigens wil opmerken dat in de aandelen en valutahandel
+er nooit zoiets bestaat als &quot;te laat&quot;. 10% winst is 10% winst. Als je in
+2011 voor €500 aan Bitcoins kocht (een stuk of 100) en ze twee maanden
+later voor €550 verkocht, is dat niets anders dan wanneer je gisteren
+voor €500 kocht (0.1 Bitcoin) en deze een halve dag later voor €550
+verkocht. Alles draait om het juiste moment van kopen en verkopen. Op
+korte, lange en middellange termijn. Het enige moment dat je &quot;te laat&quot;
+bent, is als de valuta, het bedrijf of aandelen om aan het vallen zijn.
+Maar zelfs daar is geld aan te verdienen.&lt;/p&gt;
+</content>
+ </entry>
  
  <entry>
    <title>Simple time logging on top of git flow</title>
@@ -6643,32 +6810,6 @@ Overigens behoud ik wel een afbreek-mogelijkheid. Als ik na een week helemaal kn
    <updated>2010-01-07T00:00:00+01:00</updated>
    <id>http://berk.es/2010/01/07/sea-sheperd-botst-met-walvisvaarders-de-sea-sheperd-kant-in-video</id>
    <content type="html">&lt;p&gt;Een boot van de Sea Sheperd botst met walvisvaarders. Het NOs journaal toont beelden, maar, zo lijkt het, alleen de beelden die de Japanse kant van het verhaal ondersteunen. Gelukkig is op Internet altijd &lt;a href=&quot;http://www.youtube.com/watch?v=MhGSQ46a9X8&quot;&gt;meer materiaal&lt;/a&gt; te vinden. &lt;object width=&quot;425&quot; height=&quot;344&quot;&gt;&lt;param name=&quot;movie&quot; value=&quot;http://www.youtube.com/v/MhGSQ46a9X8&amp;hl=nl_NL&amp;fs=1&amp;&quot; /&gt;&lt;param name=&quot;allowFullScreen&quot; value=&quot;true&quot; /&gt;&lt;param name=&quot;allowscriptaccess&quot; value=&quot;always&quot; /&gt;&lt;embed src=&quot;http://www.youtube.com/v/MhGSQ46a9X8&amp;hl=nl_NL&amp;fs=1&amp;&quot; type=&quot;application/x-shockwave-flash&quot; allowscriptaccess=&quot;always&quot; allowfullscreen=&quot;true&quot; width=&quot;425&quot; height=&quot;344&quot;&gt;&lt;/embed&gt;&lt;/object&gt;Ook zeker niet objectief, de beelden en commentaren in de video laten wél duidelijk zien dat de beelden die NOS ons toont alléén de Japanse kant van het verhaal vertellen en daarmee ook niet objectief zijn. Ik hoop dat het jounraal vanavond het geval iets verder uitdiept en beide kanten laat zien.&lt;!--break--&gt;&lt;/p&gt;
-</content>
- </entry>
- 
- <entry>
-   <title>Met één toetsenbord en muis meerdere PC's bedienen</title>
-   <link href="http://berk.es/2010/01/07/met-n-toetsenbord-en-muis-meerdere-pcs-bedienen"/>
-   <updated>2010-01-07T00:00:00+01:00</updated>
-   <id>http://berk.es/2010/01/07/met-n-toetsenbord-en-muis-meerdere-pcs-bedienen</id>
-   <content type="html">&lt;p&gt;Met één toetsenbord en muis meerdere PC's bedienen is heel makkelijk met &lt;a href=&quot;http://x2x.dottedmag.net/&quot;&gt;x2x&lt;/a&gt;.&lt;/p&gt;
-
-&lt;p&gt;Dit werkt ongeveer als een &lt;a href=&quot;http://nl.wikipedia.org/wiki/KVM-switch&quot;&gt;KVM switch&lt;/a&gt;, maar vereist géén extra draden, aansluitingen, of hardware.&lt;/p&gt;
-
-&lt;p&gt;Je gebruikt de schermen van de desbetreffende computers, dit is dus niet geschikt om vanuit je werkt even de desktop thuis te openen. Daarvoor gebruik je een heel andere techniek, &lt;a href=&quot;http://www.ubuntugeek.com/share-your-ubuntu-desktop-using-remote-desktop.html&quot;&gt;desktop sharing&lt;/a&gt;. Het goede nieuws is dat dit laatste in Ubuntu heel makkelijk is; alle software is al aanwezig hiervoor. De case waar ik dit vaak voor gebruik, is als ik met mijn laptop naast mijn desktop ga zitten en beide computers wil gebruiken, zonder de hele tijd te wisselen van toetsenbord en muis.&lt;/p&gt;
-
-&lt;p&gt;Het enige dat nodig is, is &lt;a href=&quot;http://doc.nl.linux.org/HOWTO/Ssh-Getting-Started-NL.html&quot;&gt;SSH&lt;/a&gt;. Op de PC waarop de muis en toetsenborden zijn aangesloten moet een ssh-client staan. Op de PC die je wilt gaan bedienen, moet een ssh-server draaien en moet het programma X2X geïnstalleerd zijn. Ik ga uit van Ubuntu, op beide machines, maar met OSX (mac) moet het ook heel makkelijk kunnen. Eerst moet je op de computer waarmee je wilt verbinden, ssh en x2x installeren. Die eerste is meestal al voorgeïnstalleerd op ubuntu, maar voor de zekerheid (geen ervaring met commando's? kijk &lt;a href=&quot;https://help.ubuntu.com/community/UsingTheTerminal&quot;&gt;in deze handleiding&lt;/a&gt;) &lt;code&gt;sudo apt-get install ssh x2x&lt;/code&gt;Ga nu terug naar de computer van waaruit je zometeen wilt verbinden. En typ op een terminal of commandline het volgende in:   &lt;code&gt;ssh -X _remote_machinename_or_ip_address_ x2x _-direction_of_the_remote_display_ -to :0&lt;/code&gt;hierin is:  - &lt;em&gt;remote_machinename_or_ip_address&lt;/em&gt; het IP-adres of de netwerknaam van de andere machine. In een intern (thuis)netwerk vaak iets als 192.168.&lt;/p&gt;
-
-&lt;ol type=&quot;a&quot;&gt;
-&lt;li&gt;&lt;/li&gt;
-&lt;/ol&gt;
-
-
-&lt;p&gt;Y
-  - &lt;em&gt;-direction_of_the_remote_display&lt;/em&gt; de positie waar het scherm staat ten opzichte van je hoofdssyteem. -west plaatst het nieuwe scherm rechts, -east links
-  Op mijn buro staat mijn laptop links van mijn desktop-pc. Ik wil vanuit mijn laptop de desktop-pc (deze heet emanuela en heeft het netwerkadres emanuela.fritz.box) aansturen. Dus typ ik op mijn laptop in:  &lt;code&gt;ssh -X ber@emanuela.fritz.box x2x -east -to :0&lt;/code&gt;Hiermee log ik op emanuela in als 'ber', en stel het scherm van emanuela in, zodat het rechts van mijn laptop verschijnt. Als ik de muis rechts uit het scherm van mijn laptop laat lopen, komt de muisaanwijzer het scherm van emanuela binnenwandelen. Het toetsenbord van mijn laptop werkt vanaf dan op het scherm van emanuela. Ook mooi, is dat dingen die ik op emanuela knip of copieer (control-c) later binnen mijn laptop te plakken zijn (en vice versa). Uiteraard kan ik geen schermen van links naar rechts verplaatsen. Meer details zijn te vinden in een inleiding op &lt;a href=&quot;http://www.linux.com/archive/feature/148824&quot;&gt;linux.com&lt;/a&gt;.&lt;/p&gt;
-
-&lt;p&gt;Een alternatief is &lt;a href=&quot;http://synergy2.sourceforge.net/&quot;&gt;synergy&lt;/a&gt;. Hiermee kun je makkelijk verschillende OSsen mengen, en het heeft grafische tools om dingen in te stellen. Voot mij doet X2X het echter perfect. Simpel, snel en makkelijk te gebruiken.&lt;/p&gt;
 </content>
  </entry>
  

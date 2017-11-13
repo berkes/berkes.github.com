@@ -8,6 +8,7 @@ http://berk.es/over.html
 http://berk.es/sitemap.txt
 http://berk.es/tags.html
 
+http://berk.es/2017/11/13/f-rite-air-ico
 http://berk.es/2016/04/06/simple-time-logging-on-top-of-git-flow
 http://berk.es/2015/12/14/beste-nunl-dit-vinden-wij-jammer
 http://berk.es/2015/05/09/add-sorting-to-your-product-page-in-spree
