@@ -84,7 +84,8 @@ end # task :post
 
 desc "Launch preview environment"
 task :preview do
-  system "jekyll serve --watch --limit_posts 20 "
+  limit = ENV["limit"] || 20
+  system "jekyll serve --watch --limit_posts #{limit}"
 end # task :preview
 
 desc "List tags used"
