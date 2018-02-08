@@ -43,7 +43,7 @@ article footer {
   margin-top: 30px;
   padding-top: 52px;
   /** 22px for the swallow, 30 for whitespace **/
-  background: transparent url("/asse/assets/images/swallow_black_hr.png") no-repeat scroll top center;
+  background: transparent url("/assets/images/swallow_black_hr.png") no-repeat scroll top center;
 }
 article pre {
   border: 1px solid #cfcdcd;

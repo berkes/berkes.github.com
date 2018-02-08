@@ -87,12 +87,12 @@ solution turned out to be really simple though.</p>
 
 <p>Lets start with a simple script that outputs some Rastafari</p>
 
-<div class="highlight"><pre><code class="language-ruby" data-lang="ruby"><span class="c1">#!/usr/bin/env ruby</span>
+<p><figure class="highlight"><pre><code class="language-ruby" data-lang="ruby"><span></span><span class="ch">#!/usr/bin/env ruby</span></p>
 
-<span class="nb">require</span> <span class="s2">&quot;thor&quot;</span>
-<span class="nb">require</span> <span class="s2">&quot;rainbow&quot;</span>
+<p><span class="nb">require</span> <span class="s2">&quot;thor&quot;</span>
+<span class="nb">require</span> <span class="s2">&quot;rainbow&quot;</span></p>
 
-<span class="k">class</span> <span class="nc">Example</span> <span class="o">&lt;</span> <span class="no">Thor</span>
+<p><span class="k">class</span> <span class="nc">Example</span> <span class="o">&lt;</span> <span class="no">Thor</span>
   <span class="n">desc</span> <span class="s2">&quot;example&quot;</span><span class="p">,</span> <span class="s2">&quot;an example task&quot;</span>
   <span class="k">def</span> <span class="nf">example</span>
     <span class="nb">puts</span> <span class="s2">&quot;Yah!&quot;</span><span class="o">.</span><span class="n">color</span><span class="p">(</span><span class="ss">:red</span><span class="p">)</span>
@@ -101,8 +101,7 @@ solution turned out to be really simple though.</p>
     <span class="nb">puts</span> <span class="s2">&quot;fari&quot;</span><span class="o">.</span><span class="n">color</span><span class="p">(</span><span class="ss">:green</span><span class="p">)</span>
   <span class="k">end</span>
 <span class="k">end</span>
-<span class="no">Example</span><span class="o">.</span><span class="n">start</span><span class="p">()</span></code></pre></div>
-
+<span class="no">Example</span><span class="o">.</span><span class="n">start</span><span class="p">()</span></code></pre></figure></p>
 
 <p>Running this, results in:</p>
 
@@ -112,15 +111,14 @@ solution turned out to be really simple though.</p>
 This is a useful feature built into Rainbow.
 When testing with cucumber, the colors are gone too:</p>
 
-<div class="highlight"><pre><code class="language-cucumber" data-lang="cucumber"><span class="k">Feature:</span><span class="nf"> Example</span>
+<p><figure class="highlight"><pre><code class="language-cucumber" data-lang="cucumber"><span></span><span class="k">Feature:</span><span class="nf"> Example</span>
 <span class="nf">  </span><span class="k">Scenario:</span><span class="nf"> Yah!</span>
-<span class="k">    When </span><span class="nf">I run `example example`</span>
+<span class="k">    When </span><span class="nf">I run <code>example example</code></span>
 <span class="nf">    </span><span class="k">Then </span><span class="nf">it should pass with:</span>
 <span class="nf">      </span><span class="k">&quot;&quot;&quot;</span><span class="s"></span>
 <span class="s">      Yah!</span>
 <span class="s">      ...</span>
-<span class="s">      </span><span class="k">&quot;&quot;&quot;</span><span class="nf"></span></code></pre></div>
-
+<span class="s">      </span><span class="k">&quot;&quot;&quot;</span><span class="nf"></span></code></pre></figure></p>
 
 <p>This passes, but does not test any colors. First thing is to tell
 Aruba/Cucumber to not strip the colors, ansi-codes, with an <code>@ansi</code> tag.</p>
@@ -132,15 +130,14 @@ for a reason: it is really hard to test when all your output is littered
 with ANSI escape codes. You really only want to force Rainbow to output
 them when you are testing for colors.</p>
 
-<div class="highlight"><pre><code class="language-ruby" data-lang="ruby"><span class="c1">#...</span>
+<p><figure class="highlight"><pre><code class="language-ruby" data-lang="ruby"><span></span><span class="c1">#...</span>
 <span class="k">class</span> <span class="nc">Example</span> <span class="o">&lt;</span> <span class="no">Thor</span>
   <span class="k">def</span> <span class="nf">initialize</span><span class="p">(</span><span class="o">*</span><span class="n">args</span><span class="p">)</span>
     <span class="k">super</span>
     <span class="no">Sickill</span><span class="o">::</span><span class="no">Rainbow</span><span class="o">.</span><span class="n">enabled</span> <span class="o">=</span> <span class="kp">true</span> <span class="k">if</span> <span class="no">ENV</span><span class="o">[</span><span class="s2">&quot;FORCE_COLORS&quot;</span><span class="o">]</span> <span class="o">==</span> <span class="s2">&quot;TRUE&quot;</span>
   <span class="k">end</span>
   <span class="c1">#....</span>
-<span class="k">end</span></code></pre></div>
-
+<span class="k">end</span></code></pre></figure></p>
 
 <p>This allows you to force coloring when testing or running by setting the
 variable, like so <code>export FORCE_COLORS=TRUE; ./bin/example example</code>. A step could
@@ -150,10 +147,9 @@ them look like "When I run <code>export FORCE_COLORS=TRUE; ./bin/example example
 all the <code>@ansi</code>-tagged scenario's. In a support-file
 <code>features/support/ansi.rb</code>:</p>
 
-<div class="highlight"><pre><code class="language-ruby" data-lang="ruby"><span class="no">Before</span><span class="p">(</span><span class="s1">&#39;@ansi&#39;</span><span class="p">)</span> <span class="k">do</span>
+<p><figure class="highlight"><pre><code class="language-ruby" data-lang="ruby"><span></span><span class="no">Before</span><span class="p">(</span><span class="s1">&#39;@ansi&#39;</span><span class="p">)</span> <span class="k">do</span>
   <span class="no">ENV</span><span class="o">[</span><span class="s2">&quot;FORCE_COLORS&quot;</span><span class="o">]</span> <span class="o">=</span> <span class="s2">&quot;TRUE&quot;</span>
-<span class="k">end</span></code></pre></div>
-
+<span class="k">end</span></code></pre></figure></p>
 
 <p>With the scenario tagged @ansi, it fails: <code>expected
 "\e[31mYah!\e[0m\n\e[30m\e[1m...\e[0m\n\e[33mRasta-\e[0m\n\e[32mfari\e[0m\n"
@@ -166,20 +162,16 @@ easy.</p>
 
 <p>The <code>features/support/ansi.rb</code> should include "rainbow".</p>
 
-<div class="highlight"><pre><code class="language-ruby" data-lang="ruby"><span class="no">Then</span> <span class="sr">/^it should output &quot;([^&quot;]*)&quot; in &quot;([^&quot;]*)&quot;$/</span> <span class="k">do</span> <span class="o">|</span><span class="n">string</span><span class="p">,</span> <span class="n">color</span><span class="o">|</span>
+<p><figure class="highlight"><pre><code class="language-ruby" data-lang="ruby"><span></span><span class="no">Then</span> <span class="sr">/^it should output &quot;([^&quot;]<em>)&quot; in &quot;([^&quot;]</em>)&quot;$/</span> <span class="k">do</span> <span class="o">|</span><span class="n">string</span><span class="p">,</span> <span class="n">color</span><span class="o">|</span>
   <span class="n">assert_partial_output</span><span class="p">(</span><span class="n">string</span><span class="o">.</span><span class="n">color</span><span class="p">(</span><span class="n">color</span><span class="o">.</span><span class="n">to_sym</span><span class="p">),</span> <span class="n">all_output</span><span class="p">)</span>
-<span class="k">end</span></code></pre></div>
+<span class="k">end</span></code></pre></figure></p>
 
+<p><figure class="highlight"><pre><code class="language-cucumber" data-lang="cucumber"><span></span><span class="k">Feature:</span><span class="nf"> Example</span></p>
 
-
-
-<div class="highlight"><pre><code class="language-cucumber" data-lang="cucumber"><span class="k">Feature:</span><span class="nf"> Example</span>
-
-<span class="nf">  @ansi</span>
+<p><span class="nf">  @ansi</span>
 <span class="nf">  </span><span class="k">Scenario:</span><span class="nf"> Yah!</span>
-<span class="k">    When </span><span class="nf">I run `example example`</span>
-<span class="nf">    </span><span class="k">Then </span><span class="nf">it should output &quot;</span><span class="s">Yah!</span><span class="nf">&quot; in &quot;</span><span class="s">red</span><span class="nf">&quot;</span></code></pre></div>
-
+<span class="k">    When </span><span class="nf">I run <code>example example</code></span>
+<span class="nf">    </span><span class="k">Then </span><span class="nf">it should output &quot;</span><span class="s">Yah!</span><span class="nf">&quot; in &quot;</span><span class="s">red</span><span class="nf">&quot;</span></code></pre></figure></p>
 
 <p>Readable, easy testing of your colored output!</p>
 
@@ -237,21 +229,6 @@ easy.</p>
   </p>
 </div>
 
-<div id="disqus_thread"></div>
-<script type="text/javascript">
-    var disqus_developer = 1;
-    var disqus_shortname = 'berkes'; // required: replace example with your forum shortname
-    
-    /* * * DON'T EDIT BELOW THIS LINE * * */
-    (function() {
-        var dsq = document.createElement('script'); dsq.type = 'text/javascript'; dsq.async = true;
-        dsq.src = 'http://' + disqus_shortname + '.disqus.com/embed.js';
-        (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(dsq);
-    })();
-</script>
-<noscript>Please enable JavaScript to view the <a href="http://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
-<a href="http://disqus.com" class="dsq-brlink">blog comments powered by <span class="logo-disqus">Disqus</span></a>
-
 <hr/>
 <aside>
   
@@ -260,13 +237,13 @@ easy.</p>
   
   <ul>
     
-      <li><span>November 13, 2017</span> &raquo; <a href="/2017/11/13/f-rite-air-ico">F/Rite Air ICO</a></li>
+      <li><span>November 13, 2017</span> &raquo; <a href="/2017/11/13/f-rite-air-ico/">F/Rite Air ICO</a></li>
 
     
-      <li><span>April  6, 2016</span> &raquo; <a href="/2016/04/06/simple-time-logging-on-top-of-git-flow">Simple time logging on top of git flow</a></li>
+      <li><span>April  6, 2016</span> &raquo; <a href="/2016/04/06/simple-time-logging-on-top-of-git-flow/">Simple time logging on top of git flow</a></li>
 
     
-      <li><span>December 14, 2015</span> &raquo; <a href="/2015/12/14/beste-nunl-dit-vinden-wij-jammer">Beste Nu.nl. Dit vinden wij jammer.</a></li>
+      <li><span>December 14, 2015</span> &raquo; <a href="/2015/12/14/beste-nunl-dit-vinden-wij-jammer/">Beste Nu.nl. Dit vinden wij jammer.</a></li>
 
     
   </ul>
@@ -288,7 +265,7 @@ easy.</p>
           </p>
       </div>
       <div class="four columns">
-        Copyright 2001-2017
+        Copyright 2001-2018
         with a
         <a href="http://creativecommons.org/licenses/by-sa/3.0/" rel="license">Creative Commons Attribute-Share-alike 3.0 Unported license</a>
       </div>

@@ -83,28 +83,25 @@
 
 <h2>Persistent variables</h2>
 
-<div class="highlight"><pre><code class="language-php" data-lang="php"><span class="nv">$html</span> <span class="o">.=</span> <span class="s2">&quot;Showing &quot;</span><span class="o">.</span> <span class="nx">variable_get</span><span class="p">(</span><span class="s2">&quot;mymodule_amount&quot;</span><span class="p">,</span> <span class="mi">20</span><span class="p">)</span> <span class="o">.</span><span class="s2">&quot;items&quot;</span><span class="p">;</span>
+<p><figure class="highlight"><pre><code class="language-php" data-lang="php"><span></span><span class="nv">$html</span> <span class="o">.=</span> <span class="s2">&quot;Showing &quot;</span><span class="o">.</span> <span class="nx">variable_get</span><span class="p">(</span><span class="s2">&quot;mymodule_amount&quot;</span><span class="p">,</span> <span class="mi">20</span><span class="p">)</span> <span class="o">.</span><span class="s2">&quot;items&quot;</span><span class="p">;</span>
 <span class="nv">$html</span> <span class="o">.=</span> <span class="nx">pager_query</span><span class="p">(</span><span class="s2">&quot;SELECT * FROM {mymodule_items}&quot;</span><span class="p">,</span> <span class="nx">variable_get</span><span class="p">(</span><span class="s2">&quot;mymodule_amount&quot;</span><span class="p">,</span> <span class="mi">20</span><span class="p">));</span>
 <span class="k">if</span> <span class="p">(</span><span class="nv">$total</span> <span class="o">&gt;</span> <span class="nx">variable_get</span><span class="p">(</span><span class="s2">&quot;mymodule_amount&quot;</span><span class="p">,</span> <span class="mi">20</span><span class="p">))</span> <span class="p">{</span>
   <span class="nv">$html</span> <span class="o">.=</span> <span class="s2">&quot;there are more&quot;</span><span class="p">;</span>
-<span class="p">}</span></code></pre></div>
-
+<span class="p">}</span></code></pre></figure></p>
 
 <p>Not only is there the <em>magic number 20</em> all over the place, it is a DRY violation all over the place.
 In above example, that DRY violation is not very visible, yet, but imagine a module called <em>project_magician_message_center</em>:</p>
 
-<div class="highlight"><pre><code class="language-php" data-lang="php"><span class="nx">variable_get</span><span class="p">(</span><span class="s2">&quot;project_magician_message_center_amount_for_&quot;</span><span class="o">.</span> <span class="nv">$node</span><span class="o">-&gt;</span><span class="na">type</span><span class="p">,</span> <span class="mi">20</span><span class="p">);</span>
-<span class="nx">variable_get</span><span class="p">(</span><span class="s2">&quot;project_magician_message_center_request_limit&quot;</span><span class="p">,</span> <span class="mi">20</span><span class="p">);</span></code></pre></div>
-
+<p><figure class="highlight"><pre><code class="language-php" data-lang="php"><span></span><span class="nx">variable_get</span><span class="p">(</span><span class="s2">&quot;project_magician_message_center_amount_for_&quot;</span><span class="o">.</span> <span class="nv">$node</span><span class="o">-&gt;</span><span class="na">type</span><span class="p">,</span> <span class="mi">20</span><span class="p">);</span>
+<span class="nx">variable_get</span><span class="p">(</span><span class="s2">&quot;project_magician_message_center_request_limit&quot;</span><span class="p">,</span> <span class="mi">20</span><span class="p">);</span></code></pre></figure></p>
 
 <p>Just open up your average <em>variables</em> table in larger Drupalproject and look around. The horror! (And maybe you have been bitten by the length limit of 128 characters?). There is no pattern; just a list of unpredicable names.</p>
 
 <p>The <em>magic number</em> problem often gets solved by Drupal developers with constants. But as the name suggests,
 a constant is constant. And a variable is variable. It is very confusing to read this:</p>
 
-<div class="highlight"><pre><code class="language-php" data-lang="php"><span class="nb">define</span><span class="p">(</span><span class="s2">&quot;MYMODULE_AMOUNT&quot;</span><span class="p">,</span> <span class="mi">20</span><span class="p">);</span>
-<span class="nv">$items</span> <span class="o">=</span> <span class="nx">pager_query</span><span class="p">(</span><span class="s2">&quot;SELECT * FROM {mymodule_items}&quot;</span><span class="p">,</span> <span class="nx">variable_get</span><span class="p">(</span><span class="s2">&quot;mymodule_amount&quot;</span><span class="p">,</span> <span class="nx">MYMODULE_AMOUNT</span><span class="p">));</span></code></pre></div>
-
+<p><figure class="highlight"><pre><code class="language-php" data-lang="php"><span></span><span class="nb">define</span><span class="p">(</span><span class="s2">&quot;MYMODULE_AMOUNT&quot;</span><span class="p">,</span> <span class="mi">20</span><span class="p">);</span>
+<span class="nv">$items</span> <span class="o">=</span> <span class="nx">pager_query</span><span class="p">(</span><span class="s2">&quot;SELECT * FROM {mymodule_items}&quot;</span><span class="p">,</span> <span class="nx">variable_get</span><span class="p">(</span><span class="s2">&quot;mymodule_amount&quot;</span><span class="p">,</span> <span class="nx">MYMODULE_AMOUNT</span><span class="p">));</span></code></pre></figure></p>
 
 <p>Especially when you clearly get 30 items in some list. Which is what happens when a variable gets another value. Suddenly the constant is no longer
 used; it acts like a variable. Naming your constants <em>MYMODULE_AMOUNT_DEFAULT</em> is slightly better, but no real solution.</p>
@@ -113,24 +110,23 @@ used; it acts like a variable. Naming your constants <em>MYMODULE_AMOUNT_DEFAULT
 
 <p>Translations, through <em>t()</em> act even worse. Some examples:</p>
 
-<div class="highlight"><pre><code class="language-php" data-lang="php"><span class="nx">t</span><span class="p">(</span><span class="s2">&quot;Hello World, today is %date&quot;</span><span class="p">);</span>
-<span class="nx">t</span><span class="p">(</span><span class="s2">&quot;Hello world, today is %date&quot;</span><span class="p">);</span> <span class="c1">#note the intentional erronous lowercase world.</span>
+<p><figure class="highlight"><pre><code class="language-php" data-lang="php"><span></span><span class="nx">t</span><span class="p">(</span><span class="s2">&quot;Hello World, today is %date&quot;</span><span class="p">);</span>
+<span class="nx">t</span><span class="p">(</span><span class="s2">&quot;Hello world, today is %date&quot;</span><span class="p">);</span> <span class="c1">#note the intentional erronous lowercase world.</span></p>
 
-<span class="nv">$actor</span> <span class="o">=</span> <span class="s2">&quot;Marsellus&quot;</span><span class="p">;</span>
+<p><span class="nv">$actor</span> <span class="o">=</span> <span class="s2">&quot;Marsellus&quot;</span><span class="p">;</span>
 <span class="nv">$subject</span> <span class="o">=</span> <span class="s2">&quot;Antwone&quot;</span><span class="p">;</span>
-<span class="nx">t</span><span class="p">(</span><span class="s2">&quot;Look, just because I don&#39;t be givin&#39; no man a foot massage don&#39;t make it right for %actor to throw %subject into a glass motherfuckin&#39; house, fuckin&#39; up the way the nigger talks. Motherfucker do that shit to me, he better paralyze my ass, &#39;cause I&#39;ll kill the motherfucker, know what I&#39;m sayin&#39;?&quot;</span><span class="p">,</span> <span class="k">array</span><span class="p">(</span><span class="s2">&quot;%actor&quot;</span> <span class="o">=&gt;</span> <span class="nv">$actor</span><span class="p">,</span> <span class="s2">&quot;%subject&quot;</span> <span class="o">=&gt;</span> <span class="nv">$subject</span><span class="p">));</span>
+<span class="nx">t</span><span class="p">(</span><span class="s2">&quot;Look, just because I don&#39;t be givin&#39; no man a foot massage don&#39;t make it right for %actor to throw %subject into a glass motherfuckin&#39; house, fuckin&#39; up the way the nigger talks. Motherfucker do that shit to me, he better paralyze my ass, &#39;cause I&#39;ll kill the motherfucker, know what I&#39;m sayin&#39;?&quot;</span><span class="p">,</span> <span class="k">array</span><span class="p">(</span><span class="s2">&quot;%actor&quot;</span> <span class="o">=&gt;</span> <span class="nv">$actor</span><span class="p">,</span> <span class="s2">&quot;%subject&quot;</span> <span class="o">=&gt;</span> <span class="nv">$subject</span><span class="p">));</span></p>
 
-<span class="nv">$message</span> <span class="o">&lt;&lt;&lt;</span><span class="nx">MESS</span>
-<span class="nx">Well</span><span class="p">,</span> <span class="nx">the</span> <span class="nx">way</span> <span class="nx">they</span> <span class="nx">make</span> <span class="nx">shows</span> <span class="nx">is</span><span class="p">,</span> <span class="nx">they</span> <span class="nx">make</span> <span class="nx">one</span> <span class="nx">show</span><span class="o">.</span> <span class="nx">That</span> <span class="nx">show</span><span class="s1">&#39;s called a pilot. </span>
+<p><span class="nv">$message</span> <span class="s">&lt;&lt;&lt;</span><span class="dl">MESS</span><span class="s"></span>
+<span class="s">Well, the way they make shows is, they make one show. That show&#39;s called a pilot. </span></p>
 
-<span class="s1">Then they show that show to the people who make shows, and on the strength of that one show they decide if they&#39;</span><span class="nx">re</span> <span class="nx">going</span> <span class="nx">to</span> <span class="nx">make</span> <span class="nx">more</span> <span class="nx">shows</span><span class="o">.</span> <span class="nx">Some</span> <span class="nx">pilots</span> <span class="nx">get</span> <span class="nx">picked</span> <span class="k">and</span> <span class="nx">become</span> <span class="nx">television</span> <span class="nx">programs</span><span class="o">.</span>
+<p><span class="s">Then they show that show to the people who make shows, and on the strength of that one show they decide if they&#39;re going to make more shows. Some pilots get picked and become television programs.</span></p>
 
-<span class="nx">Some</span> <span class="nx">don</span><span class="err">&#39;</span><span class="nx">t</span><span class="p">,</span> <span class="nx">become</span> <span class="nx">nothing</span><span class="o">.</span> <span class="nx">She</span> <span class="nx">starred</span> <span class="nx">in</span> <span class="nx">one</span> <span class="nx">of</span> <span class="nx">the</span> <span class="nx">ones</span> <span class="nx">that</span> <span class="nx">became</span> <span class="nx">nothing</span><span class="o">.</span>
-<span class="nx">MESS</span>
-<span class="nx">t</span><span class="p">(</span><span class="nv">$message</span><span class="p">);</span>
+<p><span class="s">Some don&#39;t, become nothing. She starred in one of the ones that became nothing.</span>
+<span class="dl">MESS</span>
+<span class="nx">t</span><span class="p">(</span><span class="nv">$message</span><span class="p">);</span></p>
 
-<span class="nx">t</span><span class="p">(</span><span class="nx">_mymodule_message_contents</span><span class="p">());</span></code></pre></div>
-
+<p><span class="nx">t</span><span class="p">(</span><span class="nx">_mymodule_message_contents</span><span class="p">());</span></code></pre></figure></p>
 
 <p>First and foremost problem with this is that it is not prefixed, namespaced if you will. Your <em>t("Submit")</em> is the same as that other <em>t("Submit")</em>. Translate this once to "Create new" and suddenly all sorts of labels, tabs, titles and links show the text "Create new". We have all been, there, just admit it, already.</p>
 
@@ -144,82 +140,82 @@ used; it acts like a variable. Naming your constants <em>MYMODULE_AMOUNT_DEFAULT
 
 <p>Imagine you could say:</p>
 
-<div class="highlight"><pre><code class="language-php" data-lang="php"><span class="s2">&quot;Showing &quot;</span><span class="o">.</span> <span class="nx">v</span><span class="p">(</span><span class="s2">&quot;amount&quot;</span><span class="p">);</span>
-<span class="s2">&quot;Showing &quot;</span><span class="o">.</span> <span class="nx">v</span><span class="p">(</span><span class="s2">&quot;core.amount_per_page&quot;</span><span class="p">);</span>
+<p><figure class="highlight"><pre><code class="language-php" data-lang="php"><span></span><span class="s2">&quot;Showing &quot;</span><span class="o">.</span> <span class="nx">v</span><span class="p">(</span><span class="s2">&quot;amount&quot;</span><span class="p">);</span>
+<span class="s2">&quot;Showing &quot;</span><span class="o">.</span> <span class="nx">v</span><span class="p">(</span><span class="s2">&quot;core.amount_per_page&quot;</span><span class="p">);</span></p>
 
-<span class="nx">t</span><span class="p">(</span><span class="s2">&quot;core.hello_world&quot;</span><span class="p">);</span>
+<p><span class="nx">t</span><span class="p">(</span><span class="s2">&quot;core.hello_world&quot;</span><span class="p">);</span>
 <span class="nx">t</span><span class="p">(</span><span class="s2">&quot;ecommerce.payment.thank_you&quot;</span><span class="p">);</span>
 <span class="nx">t</span><span class="p">(</span><span class="s2">&quot;core.thank_you&quot;</span><span class="p">);</span>
-<span class="nx">t</span><span class="p">(</span><span class="s2">&quot;footmassage&quot;</span><span class="p">,</span> <span class="k">array</span><span class="p">(</span><span class="s2">&quot;%actor&quot;</span> <span class="o">=&gt;</span> <span class="nv">$actor</span><span class="p">,</span> <span class="s2">&quot;%subject&quot;</span> <span class="o">=&gt;</span> <span class="nv">$subject</span><span class="p">));</span></code></pre></div>
-
+<span class="nx">t</span><span class="p">(</span><span class="s2">&quot;footmassage&quot;</span><span class="p">,</span> <span class="k">array</span><span class="p">(</span><span class="s2">&quot;%actor&quot;</span> <span class="o">=&gt;</span> <span class="nv">$actor</span><span class="p">,</span> <span class="s2">&quot;%subject&quot;</span> <span class="o">=&gt;</span> <span class="nv">$subject</span><span class="p">));</span></code></pre></figure></p>
 
 <p>Where all your defaults are nicely set in a central place, your screen-texts are in single place, or even file. And everything gets prefixed with your modulename, unless you define it differently.</p>
 
 <p>The solution is OOP. Just a little, don't fret, and nicely tuck away so that you won't need to program everything OOP suddenly. First a generic class, which we will built upon in our modules.</p>
 
-<div class="highlight"><pre><code class="language-php" data-lang="php"><span class="k">class</span> <span class="nc">DrupalHelper</span> <span class="p">{</span>
-  <span class="k">protected</span> <span class="nv">$prefix</span> <span class="o">=</span> <span class="s2">&quot;core&quot;</span><span class="p">;</span>
+<p><figure class="highlight"><pre><code class="language-php" data-lang="php"><span></span><span class="k">class</span> <span class="nc">DrupalHelper</span> <span class="p">{</span>
+  <span class="k">protected</span> <span class="nv">$prefix</span> <span class="o">=</span> <span class="s2">&quot;core&quot;</span><span class="p">;</span></p>
 
-  <span class="k">public</span> <span class="k">function</span> <span class="nf">v</span><span class="p">(</span><span class="nv">$symbol</span><span class="p">)</span> <span class="p">{</span>
+<p>  <span class="k">public</span> <span class="k">function</span> <span class="nf">v</span><span class="p">(</span><span class="nv">$symbol</span><span class="p">)</span> <span class="p">{</span>
     <span class="k">return</span> <span class="nx">variable_get</span><span class="p">(</span><span class="nx">absolute_or_prefix</span><span class="p">(</span><span class="nv">$symbol</span><span class="p">),</span> <span class="nv">$$symbol</span><span class="p">);</span>
-  <span class="p">}</span>
+  <span class="p">}</span></p>
 
-  <span class="k">public</span> <span class="k">function</span> <span class="nf">t</span><span class="p">(</span><span class="nv">$symbol</span><span class="p">,</span> <span class="nv">$params</span><span class="p">)</span> <span class="p">{</span>
+<p>  <span class="k">public</span> <span class="k">function</span> <span class="nf">t</span><span class="p">(</span><span class="nv">$symbol</span><span class="p">,</span> <span class="nv">$params</span><span class="p">)</span> <span class="p">{</span>
     <span class="nv">$translated</span> <span class="o">=</span> <span class="s2">&quot;&quot;</span><span class="p">;</span>
     <span class="nv">$symbol</span> <span class="o">=</span> <span class="nx">absolute_or_prefix</span><span class="p">(</span><span class="nv">$symbol</span><span class="p">);</span>
-    <span class="nv">$function</span> <span class="o">=</span> <span class="nx">symbol_to_function</span><span class="p">(</span><span class="nv">$symbol</span><span class="p">);</span>
+    <span class="nv">$function</span> <span class="o">=</span> <span class="nx">symbol_to_function</span><span class="p">(</span><span class="nv">$symbol</span><span class="p">);</span></p>
 
-    <span class="k">if</span> <span class="p">(</span><span class="nb">method_exists</span><span class="p">(</span><span class="nv">$this</span><span class="p">,</span> <span class="nv">$function</span><span class="p">))</span> <span class="p">{</span>
-      <span class="nv">$untranslated</span> <span class="o">=</span> <span class="nv">$this</span><span class="o">-&gt;</span><span class="nv">$function</span><span class="p">();</span>
-    <span class="p">}</span>
-    <span class="k">else</span> <span class="p">{</span>
-      <span class="nv">$untranslated</span> <span class="o">=</span> <span class="nv">$symbol</span><span class="p">;</span>
-    <span class="p">}</span>
+<pre><code>&lt;span class="k"&gt;if&lt;/span&gt; &lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="nb"&gt;method_exists&lt;/span&gt;&lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="nv"&gt;$this&lt;/span&gt;&lt;span class="p"&gt;,&lt;/span&gt; &lt;span class="nv"&gt;$function&lt;/span&gt;&lt;span class="p"&gt;))&lt;/span&gt; &lt;span class="p"&gt;{&lt;/span&gt;
+  &lt;span class="nv"&gt;$untranslated&lt;/span&gt; &lt;span class="o"&gt;=&lt;/span&gt; &lt;span class="nv"&gt;$this&lt;/span&gt;&lt;span class="o"&gt;-&amp;gt;&lt;/span&gt;&lt;span class="nv"&gt;$function&lt;/span&gt;&lt;span class="p"&gt;();&lt;/span&gt;
+&lt;span class="p"&gt;}&lt;/span&gt;
+&lt;span class="k"&gt;else&lt;/span&gt; &lt;span class="p"&gt;{&lt;/span&gt;
+  &lt;span class="nv"&gt;$untranslated&lt;/span&gt; &lt;span class="o"&gt;=&lt;/span&gt; &lt;span class="nv"&gt;$symbol&lt;/span&gt;&lt;span class="p"&gt;;&lt;/span&gt;
+&lt;span class="p"&gt;}&lt;/span&gt;
 
-    <span class="k">return</span> <span class="nx">t</span><span class="p">(</span><span class="nv">$untranslated</span><span class="p">,</span> <span class="nv">$params</span><span class="p">);</span>
-  <span class="p">}</span>
+&lt;span class="k"&gt;return&lt;/span&gt; &lt;span class="nx"&gt;t&lt;/span&gt;&lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="nv"&gt;$untranslated&lt;/span&gt;&lt;span class="p"&gt;,&lt;/span&gt; &lt;span class="nv"&gt;$params&lt;/span&gt;&lt;span class="p"&gt;);&lt;/span&gt;
+</code></pre>
 
-  <span class="k">private</span> <span class="k">function</span> <span class="nf">absolute_or_prefix</span><span class="p">(</span><span class="nv">$symbol</span><span class="p">)</span> <span class="p">{</span>
+<p>  <span class="p">}</span></p>
+
+<p>  <span class="k">private</span> <span class="k">function</span> <span class="nf">absolute_or_prefix</span><span class="p">(</span><span class="nv">$symbol</span><span class="p">)</span> <span class="p">{</span>
     <span class="k">if</span> <span class="p">(</span><span class="o">!</span><span class="nb">strstr</span><span class="p">(</span><span class="nv">$symbol</span><span class="p">,</span> <span class="s2">&quot;.&quot;</span><span class="p">))</span> <span class="p">{</span>
       <span class="nv">$symbol</span> <span class="o">=</span> <span class="nv">$prefix</span> <span class="o">.</span><span class="s2">&quot;.&quot;</span><span class="o">.</span> <span class="nv">$symbol</span><span class="p">;</span>
     <span class="p">}</span>
     <span class="k">return</span> <span class="nv">$symbol</span><span class="p">;</span>
   <span class="p">}</span>
   <span class="k">private</span> <span class="k">function</span> <span class="nf">symbol_to_function</span><span class="p">(</span><span class="nv">$symbol</span><span class="p">)</span> <span class="p">{</span>
-    <span class="k">return</span> <span class="s2">&quot;t_&quot;</span><span class="o">.</span> <span class="nb">preg_replace</span><span class="p">(</span><span class="s2">&quot;/\./&quot;</span><span class="p">,</span> <span class="nv">$symbol</span><span class="p">);</span>
+    <span class="k">return</span> <span class="s2">&quot;t_&quot;</span><span class="o">.</span> <span class="nb">preg_replace</span><span class="p">(</span><span class="s2">&quot;/./&quot;</span><span class="p">,</span> <span class="nv">$symbol</span><span class="p">);</span>
   <span class="p">}</span>
-<span class="p">}</span></code></pre></div>
-
+<span class="p">}</span></code></pre></figure></p>
 
 <p>With the module, I inherit this helper:</p>
 
-<div class="highlight"><pre><code class="language-php" data-lang="php"><span class="k">class</span> <span class="nc">MyModuleHelper</span><span class="p">()</span> <span class="k">extends</span> <span class="nx">DrupalHelper</span> <span class="p">{</span>
-  <span class="k">protected</span> <span class="nv">$prefix</span> <span class="o">=</span> <span class="s2">&quot;mymodule&quot;</span><span class="p">;</span>
+<p><figure class="highlight"><pre><code class="language-php" data-lang="php"><span></span><span class="k">class</span> <span class="nc">MyModuleHelper</span><span class="p">()</span> <span class="k">extends</span> <span class="nx">DrupalHelper</span> <span class="p">{</span>
+  <span class="k">protected</span> <span class="nv">$prefix</span> <span class="o">=</span> <span class="s2">&quot;mymodule&quot;</span><span class="p">;</span></p>
 
-  <span class="c1">#defaults:</span>
-  <span class="k">public</span> <span class="nv">$length</span> <span class="o">=</span> <span class="mi">20</span><span class="p">;</span>
+<p>  <span class="c1">#defaults:</span>
+  <span class="k">public</span> <span class="nv">$length</span> <span class="o">=</span> <span class="mi">20</span><span class="p">;</span></p>
 
-  <span class="c1">#translations:</span>
+<p>  <span class="c1">#translations:</span>
   <span class="k">private</span> <span class="k">function</span> <span class="nf">t_hello_world</span><span class="p">()</span> <span class="p">{</span>
     <span class="s2">&quot;Hello World&quot;</span><span class="p">;</span>
   <span class="p">}</span>
-<span class="p">}</span></code></pre></div>
-
+<span class="p">}</span></code></pre></figure></p>
 
 <p>In your module, you use this as follows:</p>
 
-<div class="highlight"><pre><code class="language-php" data-lang="php"><span class="k">function</span> <span class="nf">mymodule_form_alter</span><span class="p">(</span><span class="nv">$form_id</span><span class="p">,</span> <span class="o">&amp;</span><span class="nv">$form</span><span class="p">,</span> <span class="o">&amp;</span><span class="nv">$form_values</span><span class="p">)</span> <span class="p">{</span>
+<p><figure class="highlight"><pre><code class="language-php" data-lang="php"><span></span><span class="k">function</span> <span class="nf">mymodule_form_alter</span><span class="p">(</span><span class="nv">$form_id</span><span class="p">,</span> <span class="o">&amp;</span><span class="nv">$form</span><span class="p">,</span> <span class="o">&amp;</span><span class="nv">$form_values</span><span class="p">)</span> <span class="p">{</span>
   <span class="k">if</span> <span class="p">(</span><span class="nv">$form_id</span> <span class="o">==</span> <span class="s2">&quot;foo&quot;</span><span class="p">)</span> <span class="p">{</span>
-    <span class="nv">$helper</span> <span class="o">=</span> <span class="k">new</span> <span class="nx">MyModuleHelper</span><span class="p">();</span>
+    <span class="nv">$helper</span> <span class="o">=</span> <span class="k">new</span> <span class="nx">MyModuleHelper</span><span class="p">();</span></p>
 
-    <span class="nv">$form</span><span class="p">[</span><span class="s2">&quot;field&quot;</span><span class="p">]</span> <span class="o">=</span> <span class="k">array</span><span class="p">(</span>
-      <span class="s2">&quot;#type&quot;</span>   <span class="o">=&gt;</span> <span class="s2">&quot;textfield&quot;</span><span class="p">,</span>
-      <span class="s2">&quot;#title&quot;</span>  <span class="o">=&gt;</span> <span class="nv">$helper</span><span class="o">-&gt;</span><span class="na">t</span><span class="p">(</span><span class="s2">&quot;hello_world&quot;</span><span class="p">),</span>
-      <span class="s2">&quot;#length&quot;</span> <span class="o">=&gt;</span> <span class="nv">$helper</span><span class="o">-&gt;</span><span class="na">v</span><span class="p">(</span><span class="s2">&quot;length&quot;</span><span class="p">)</span>
-    <span class="p">);</span>
-  <span class="p">}</span>
-<span class="p">}</span></code></pre></div>
+<pre><code>&lt;span class="nv"&gt;$form&lt;/span&gt;&lt;span class="p"&gt;[&lt;/span&gt;&lt;span class="s2"&gt;&amp;quot;field&amp;quot;&lt;/span&gt;&lt;span class="p"&gt;]&lt;/span&gt; &lt;span class="o"&gt;=&lt;/span&gt; &lt;span class="k"&gt;array&lt;/span&gt;&lt;span class="p"&gt;(&lt;/span&gt;
+  &lt;span class="s2"&gt;&amp;quot;#type&amp;quot;&lt;/span&gt;   &lt;span class="o"&gt;=&amp;gt;&lt;/span&gt; &lt;span class="s2"&gt;&amp;quot;textfield&amp;quot;&lt;/span&gt;&lt;span class="p"&gt;,&lt;/span&gt;
+  &lt;span class="s2"&gt;&amp;quot;#title&amp;quot;&lt;/span&gt;  &lt;span class="o"&gt;=&amp;gt;&lt;/span&gt; &lt;span class="nv"&gt;$helper&lt;/span&gt;&lt;span class="o"&gt;-&amp;gt;&lt;/span&gt;&lt;span class="na"&gt;t&lt;/span&gt;&lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="s2"&gt;&amp;quot;hello_world&amp;quot;&lt;/span&gt;&lt;span class="p"&gt;),&lt;/span&gt;
+  &lt;span class="s2"&gt;&amp;quot;#length&amp;quot;&lt;/span&gt; &lt;span class="o"&gt;=&amp;gt;&lt;/span&gt; &lt;span class="nv"&gt;$helper&lt;/span&gt;&lt;span class="o"&gt;-&amp;gt;&lt;/span&gt;&lt;span class="na"&gt;v&lt;/span&gt;&lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="s2"&gt;&amp;quot;length&amp;quot;&lt;/span&gt;&lt;span class="p"&gt;)&lt;/span&gt;
+&lt;span class="p"&gt;);&lt;/span&gt;
+</code></pre>
 
+<p>  <span class="p">}</span>
+<span class="p">}</span></code></pre></figure></p>
 
 <p>The usage-example does not load the library files, but delegating code to separate files is not hard in Drupal, with helpers like <em>module_load_include()</em>. This example assumes the file is already loaded, or that some autoloader is in place.
 This example-code does not yet handle the variable_del and variable_set functionality for variables, but that is left to the reader to implement.</p>
@@ -288,21 +284,6 @@ leaving out the variable_set and the very much simplified
   </p>
 </div>
 
-<div id="disqus_thread"></div>
-<script type="text/javascript">
-    var disqus_developer = 1;
-    var disqus_shortname = 'berkes'; // required: replace example with your forum shortname
-    
-    /* * * DON'T EDIT BELOW THIS LINE * * */
-    (function() {
-        var dsq = document.createElement('script'); dsq.type = 'text/javascript'; dsq.async = true;
-        dsq.src = 'http://' + disqus_shortname + '.disqus.com/embed.js';
-        (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(dsq);
-    })();
-</script>
-<noscript>Please enable JavaScript to view the <a href="http://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
-<a href="http://disqus.com" class="dsq-brlink">blog comments powered by <span class="logo-disqus">Disqus</span></a>
-
 <hr/>
 <aside>
   
@@ -311,13 +292,13 @@ leaving out the variable_set and the very much simplified
   
   <ul>
     
-      <li><span>November 13, 2017</span> &raquo; <a href="/2017/11/13/f-rite-air-ico">F/Rite Air ICO</a></li>
+      <li><span>November 13, 2017</span> &raquo; <a href="/2017/11/13/f-rite-air-ico/">F/Rite Air ICO</a></li>
 
     
-      <li><span>April  6, 2016</span> &raquo; <a href="/2016/04/06/simple-time-logging-on-top-of-git-flow">Simple time logging on top of git flow</a></li>
+      <li><span>April  6, 2016</span> &raquo; <a href="/2016/04/06/simple-time-logging-on-top-of-git-flow/">Simple time logging on top of git flow</a></li>
 
     
-      <li><span>December 14, 2015</span> &raquo; <a href="/2015/12/14/beste-nunl-dit-vinden-wij-jammer">Beste Nu.nl. Dit vinden wij jammer.</a></li>
+      <li><span>December 14, 2015</span> &raquo; <a href="/2015/12/14/beste-nunl-dit-vinden-wij-jammer/">Beste Nu.nl. Dit vinden wij jammer.</a></li>
 
     
   </ul>
@@ -339,7 +320,7 @@ leaving out the variable_set and the very much simplified
           </p>
       </div>
       <div class="four columns">
-        Copyright 2001-2017
+        Copyright 2001-2018
         with a
         <a href="http://creativecommons.org/licenses/by-sa/3.0/" rel="license">Creative Commons Attribute-Share-alike 3.0 Unported license</a>
       </div>

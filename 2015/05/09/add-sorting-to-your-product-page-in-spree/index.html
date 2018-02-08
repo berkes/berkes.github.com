@@ -91,7 +91,7 @@ Product</a>. The ordering scopes I want add are <code>ascend_by_updated_at</code
 
 <h2>Controller</h2>
 
-<div class="highlight"><pre><code class="language-ruby" data-lang="ruby"><span class="k">module</span> <span class="nn">Spree</span>
+<p><figure class="highlight"><pre><code class="language-ruby" data-lang="ruby"><span></span><span class="k">module</span> <span class="nn">Spree</span>
   <span class="no">ProductsController</span><span class="o">.</span><span class="n">class_eval</span> <span class="k">do</span>
     <span class="k">def</span> <span class="nf">index</span>
       <span class="vi">@searcher</span> <span class="o">=</span> <span class="n">build_searcher</span><span class="p">(</span><span class="n">params</span><span class="o">.</span><span class="n">merge</span><span class="p">(</span><span class="ss">include_images</span><span class="p">:</span> <span class="kp">true</span><span class="p">))</span>
@@ -100,41 +100,41 @@ Product</a>. The ordering scopes I want add are <code>ascend_by_updated_at</code
       <span class="vi">@taxonomies</span> <span class="o">=</span> <span class="no">Spree</span><span class="o">::</span><span class="no">Taxonomy</span><span class="o">.</span><span class="n">includes</span><span class="p">(</span><span class="ss">root</span><span class="p">:</span> <span class="ss">:children</span><span class="p">)</span>
     <span class="k">end</span>
   <span class="k">end</span>
-<span class="k">end</span></code></pre></div>
-
+<span class="k">end</span></code></pre></figure></p>
 
 <p>Now that this works, it needs to be secured and cleaned up:</p>
 
-<div class="highlight"><pre><code class="language-ruby" data-lang="ruby"><span class="k">module</span> <span class="nn">Spree</span>
+<p><figure class="highlight"><pre><code class="language-ruby" data-lang="ruby"><span></span><span class="k">module</span> <span class="nn">Spree</span>
   <span class="no">ProductsController</span><span class="o">.</span><span class="n">class_eval</span> <span class="k">do</span>
     <span class="n">helper_method</span> <span class="ss">:sorting_param</span>
-    <span class="n">alias_method</span> <span class="ss">:old_index</span><span class="p">,</span> <span class="ss">:index</span>
+    <span class="n">alias_method</span> <span class="ss">:old_index</span><span class="p">,</span> <span class="ss">:index</span></p>
 
-    <span class="k">def</span> <span class="nf">index</span>
-      <span class="n">old_index</span> <span class="c1"># Like calling super: http://stackoverflow.com/a/13806783/73673</span>
-      <span class="vi">@products</span> <span class="o">=</span> <span class="vi">@products</span><span class="o">.</span><span class="n">send</span><span class="p">(</span><span class="n">sorting_scope</span><span class="p">)</span>
-    <span class="k">end</span>
+<pre><code>&lt;span class="k"&gt;def&lt;/span&gt; &lt;span class="nf"&gt;index&lt;/span&gt;
+  &lt;span class="n"&gt;old_index&lt;/span&gt; &lt;span class="c1"&gt;# Like calling super: http://stackoverflow.com/a/13806783/73673&lt;/span&gt;
+  &lt;span class="vi"&gt;@products&lt;/span&gt; &lt;span class="o"&gt;=&lt;/span&gt; &lt;span class="vi"&gt;@products&lt;/span&gt;&lt;span class="o"&gt;.&lt;/span&gt;&lt;span class="n"&gt;send&lt;/span&gt;&lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="n"&gt;sorting_scope&lt;/span&gt;&lt;span class="p"&gt;)&lt;/span&gt;
+&lt;span class="k"&gt;end&lt;/span&gt;
 
-    <span class="k">def</span> <span class="nf">sorting_param</span>
-      <span class="n">params</span><span class="o">[</span><span class="ss">:sorting</span><span class="o">].</span><span class="n">try</span><span class="p">(</span><span class="ss">:to_sym</span><span class="p">)</span> <span class="o">||</span> <span class="n">default_sorting</span>
-    <span class="k">end</span>
+&lt;span class="k"&gt;def&lt;/span&gt; &lt;span class="nf"&gt;sorting_param&lt;/span&gt;
+  &lt;span class="n"&gt;params&lt;/span&gt;&lt;span class="o"&gt;[&lt;/span&gt;&lt;span class="ss"&gt;:sorting&lt;/span&gt;&lt;span class="o"&gt;].&lt;/span&gt;&lt;span class="n"&gt;try&lt;/span&gt;&lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="ss"&gt;:to_sym&lt;/span&gt;&lt;span class="p"&gt;)&lt;/span&gt; &lt;span class="o"&gt;||&lt;/span&gt; &lt;span class="n"&gt;default_sorting&lt;/span&gt;
+&lt;span class="k"&gt;end&lt;/span&gt;
 
-    <span class="kp">private</span>
+&lt;span class="kp"&gt;private&lt;/span&gt;
 
-    <span class="k">def</span> <span class="nf">sorting_scope</span>
-      <span class="n">allowed_sortings</span><span class="o">.</span><span class="n">include?</span><span class="p">(</span><span class="n">sorting_param</span><span class="p">)</span> <span class="p">?</span> <span class="n">sorting_param</span> <span class="p">:</span> <span class="n">default_sorting</span>
-    <span class="k">end</span>
+&lt;span class="k"&gt;def&lt;/span&gt; &lt;span class="nf"&gt;sorting_scope&lt;/span&gt;
+  &lt;span class="n"&gt;allowed_sortings&lt;/span&gt;&lt;span class="o"&gt;.&lt;/span&gt;&lt;span class="n"&gt;include?&lt;/span&gt;&lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="n"&gt;sorting_param&lt;/span&gt;&lt;span class="p"&gt;)&lt;/span&gt; &lt;span class="p"&gt;?&lt;/span&gt; &lt;span class="n"&gt;sorting_param&lt;/span&gt; &lt;span class="p"&gt;:&lt;/span&gt; &lt;span class="n"&gt;default_sorting&lt;/span&gt;
+&lt;span class="k"&gt;end&lt;/span&gt;
 
-    <span class="k">def</span> <span class="nf">default_sorting</span>
-      <span class="ss">:ascend_by_updated_at</span>
-    <span class="k">end</span>
+&lt;span class="k"&gt;def&lt;/span&gt; &lt;span class="nf"&gt;default_sorting&lt;/span&gt;
+  &lt;span class="ss"&gt;:ascend_by_updated_at&lt;/span&gt;
+&lt;span class="k"&gt;end&lt;/span&gt;
 
-    <span class="k">def</span> <span class="nf">allowed_sortings</span>
-      <span class="o">[</span><span class="ss">:descend_by_master_price</span><span class="p">,</span> <span class="ss">:ascend_by_master_price</span><span class="p">,</span> <span class="ss">:ascend_by_updated_at</span><span class="o">]</span>
-    <span class="k">end</span>
-  <span class="k">end</span>
-<span class="k">end</span></code></pre></div>
+&lt;span class="k"&gt;def&lt;/span&gt; &lt;span class="nf"&gt;allowed_sortings&lt;/span&gt;
+  &lt;span class="o"&gt;[&lt;/span&gt;&lt;span class="ss"&gt;:descend_by_master_price&lt;/span&gt;&lt;span class="p"&gt;,&lt;/span&gt; &lt;span class="ss"&gt;:ascend_by_master_price&lt;/span&gt;&lt;span class="p"&gt;,&lt;/span&gt; &lt;span class="ss"&gt;:ascend_by_updated_at&lt;/span&gt;&lt;span class="o"&gt;]&lt;/span&gt;
+&lt;span class="k"&gt;end&lt;/span&gt;
+</code></pre>
 
+<p>  <span class="k">end</span>
+<span class="k">end</span></code></pre></figure></p>
 
 <p>There is a lot going on here. But the general idea is to use <a href="http://stackoverflow.com/a/13806783/73673">method aliasing</a> to be able to extend the original index.
 We have, furthermore, split out the scope-selecting into several methods. This allows setting a default and whitelisting allowed scopes. You don't want people to call just any string and call that as a method on our model (e.g. <code>sorting=delete_all</code>). I've declared<code>sorting_param</code> as a helper method because we'll need it later on (I know, not very YAGNI, but for the sake of brevity, let's already implement it here).</p>
@@ -146,7 +146,7 @@ We have, furthermore, split out the scope-selecting into several methods. This a
 <p>First iteration is to copy over Spree's <a href="https://github.com/spree/spree/blob/master/frontend/app/views/spree/shared/_products.html.erb">products</a> partial to <code>app/views/spree/shared/_products.html.erb</code>. We add the sorting links there. In a later iteration we'll rely on deface to inject our code, rather then duplicating the partial.
 But, for now, Rails will simply pick our file instead of Spree's version. In it, we add our links:</p>
 
-<div class="highlight"><pre><code class="language-erb" data-lang="erb"><span class="x">...</span>
+<p><figure class="highlight"><pre><code class="language-erb" data-lang="erb"><span></span><span class="x">...</span>
 <span class="cp">&lt;%</span> <span class="k">if</span> <span class="n">products</span><span class="o">.</span><span class="n">any?</span> <span class="cp">%&gt;</span><span class="x"></span>
 <span class="x">&lt;div class=&quot;row sorting&quot;&gt;&lt;div class=&quot;col-sm-6 col-sm-offset-6&quot;&gt;</span>
 <span class="x">  Sort by:</span>
@@ -157,8 +157,7 @@ But, for now, Rails will simply pick our file instead of Spree's version. In it,
 <span class="x">  &lt;/ul&gt;</span>
 <span class="x">&lt;/div&gt;&lt;/div&gt;</span>
 <span class="x">&lt;div id=&quot;products&quot; data-hook&gt;</span>
-<span class="x">...</span></code></pre></div>
-
+<span class="x">...</span></code></pre></figure></p>
 
 <p>For the links, we use <code>params.merge(...)</code> in order to persist any search, paging or filter params.</p>
 
@@ -166,7 +165,7 @@ But, for now, Rails will simply pick our file instead of Spree's version. In it,
 
 <p>In order to override it, we have to add it to a file called <code>app/helpers/spree/products_helper_decorator.rb</code>. Because we are changing a lot inside the method, we can't really use the aliasing as used earlier, it won't help us a lot. Instead, we simply override the entire method. And document our changes.</p>
 
-<div class="highlight"><pre><code class="language-ruby" data-lang="ruby"><span class="k">module</span> <span class="nn">Spree</span>
+<p><figure class="highlight"><pre><code class="language-ruby" data-lang="ruby"><span></span><span class="k">module</span> <span class="nn">Spree</span>
   <span class="no">ProductsHelper</span><span class="o">.</span><span class="n">module_eval</span> <span class="k">do</span>
     <span class="c1">##</span>
     <span class="c1"># Override cache_key_for_products to add caching per sort param.</span>
@@ -179,8 +178,7 @@ But, for now, Rails will simply pick our file instead of Spree's version. In it,
       <span class="s2">&quot;</span><span class="si">#{</span><span class="no">I18n</span><span class="o">.</span><span class="n">locale</span><span class="si">}</span><span class="s2">/</span><span class="si">#{</span><span class="n">current_currency</span><span class="si">}</span><span class="s2">/spree/products/all-</span><span class="si">#{</span><span class="n">params</span><span class="o">[</span><span class="ss">:page</span><span class="o">]</span><span class="si">}</span><span class="s2">-</span><span class="si">#{</span><span class="n">first_id</span><span class="si">}</span><span class="s2">-</span><span class="si">#{</span><span class="n">sorting</span><span class="si">}</span><span class="s2">-</span><span class="si">#{</span><span class="n">count</span><span class="si">}</span><span class="s2">&quot;</span>
     <span class="k">end</span>
   <span class="k">end</span>
-<span class="k">end</span></code></pre></div>
-
+<span class="k">end</span></code></pre></figure></p>
 
 <p>We now have a working sorting feature, but it needs improvement.</p>
 
@@ -190,15 +188,14 @@ But, for now, Rails will simply pick our file instead of Spree's version. In it,
 
 <p><a href="https://guides.spreecommerce.com/developer/view.html#using-deface">Deface is made for this</a>, so let's use it. Create a file <code>app/overrides/sorting_links_in_products.rb</code> (And possibly restart the rails server, I've found that deface sometimes does not pick up new files otherwise):</p>
 
-<div class="highlight"><pre><code class="language-ruby" data-lang="ruby"><span class="no">Deface</span><span class="o">::</span><span class="no">Override</span><span class="o">.</span><span class="n">new</span><span class="p">(</span><span class="ss">:virtual_path</span>  <span class="o">=&gt;</span> <span class="s2">&quot;spree/shared/_products&quot;</span><span class="p">,</span>
+<p><figure class="highlight"><pre><code class="language-ruby" data-lang="ruby"><span></span><span class="no">Deface</span><span class="o">::</span><span class="no">Override</span><span class="o">.</span><span class="n">new</span><span class="p">(</span><span class="ss">:virtual_path</span>  <span class="o">=&gt;</span> <span class="s2">&quot;spree/shared/_products&quot;</span><span class="p">,</span>
                      <span class="ss">:insert_before</span> <span class="o">=&gt;</span> <span class="s2">&quot;#products[data-hook]&quot;</span><span class="p">,</span>
                      <span class="ss">:partial</span>       <span class="o">=&gt;</span> <span class="s2">&quot;spree/shared/sorting_links&quot;</span><span class="p">,</span>
-                     <span class="ss">:name</span>          <span class="o">=&gt;</span> <span class="s2">&quot;sorting_links_in_products&quot;</span><span class="p">)</span></code></pre></div>
-
+                     <span class="ss">:name</span>          <span class="o">=&gt;</span> <span class="s2">&quot;sorting_links_in_products&quot;</span><span class="p">)</span></code></pre></figure></p>
 
 <p>And a partial <code>app/views/spree/shared/_sorting_links.html.erb</code></p>
 
-<div class="highlight"><pre><code class="language-erb" data-lang="erb"><span class="cp">&lt;%</span> <span class="k">if</span> <span class="n">products</span><span class="o">.</span><span class="n">any?</span> <span class="o">&amp;&amp;</span> <span class="n">params</span><span class="o">[</span><span class="ss">:controller</span><span class="o">]</span> <span class="o">==</span> <span class="s1">&#39;spree/products&#39;</span> <span class="cp">%&gt;</span><span class="x"></span>
+<p><figure class="highlight"><pre><code class="language-erb" data-lang="erb"><span></span><span class="cp">&lt;%</span> <span class="k">if</span> <span class="n">products</span><span class="o">.</span><span class="n">any?</span> <span class="o">&amp;&amp;</span> <span class="n">params</span><span class="o">[</span><span class="ss">:controller</span><span class="o">]</span> <span class="o">==</span> <span class="s1">&#39;spree/products&#39;</span> <span class="cp">%&gt;</span><span class="x"></span>
 <span class="x">&lt;div class=&quot;row sorting&quot;&gt;&lt;div class=&quot;col-sm-6 col-sm-offset-6&quot;&gt;</span>
 <span class="x">  </span><span class="cp">&lt;%=</span> <span class="n">t</span><span class="p">(</span><span class="ss">:sort_by</span><span class="p">)</span> <span class="cp">%&gt;</span><span class="x"></span>
 <span class="x">  &lt;ul class=&quot;list-inline&quot;&gt;</span>
@@ -207,8 +204,7 @@ But, for now, Rails will simply pick our file instead of Spree's version. In it,
 <span class="x">    &lt;li&gt;</span><span class="cp">&lt;%=</span> <span class="n">link_to_unless</span> <span class="n">current_sorting?</span><span class="p">(</span><span class="ss">:descend_by_master_price</span><span class="p">),</span> <span class="n">t</span><span class="p">(</span><span class="ss">:highest_price</span><span class="p">),</span> <span class="n">params</span><span class="o">.</span><span class="n">merge</span><span class="p">(</span><span class="ss">sorting</span><span class="p">:</span> <span class="ss">:descend_by_master_price</span><span class="p">)</span> <span class="cp">%&gt;</span><span class="x">&lt;/li&gt;</span>
 <span class="x">  &lt;/ul&gt;</span>
 <span class="x">&lt;/div&gt;&lt;/div&gt;</span>
-<span class="cp">&lt;%</span> <span class="k">end</span> <span class="cp">%&gt;</span><span class="x"></span></code></pre></div>
-
+<span class="cp">&lt;%</span> <span class="k">end</span> <span class="cp">%&gt;</span><span class="x"></span></code></pre></figure></p>
 
 <p>Some changes to the first iteration of this erb-code, are that we now use the locales to render strings, and that we only render the sorting-link as a link when it is not active.</p>
 
@@ -220,16 +216,17 @@ We can now remove our version of <code>products</code> partial, since it is no l
 <p>One cleanup was to use a <code>current_sorting?</code> helper. Which does not
 exist, so let's create that with the familiar decorator/monkey-patching. Add it to <code>app/helpers/spree/products_helper_decorator.rb</code>:</p>
 
-<div class="highlight"><pre><code class="language-ruby" data-lang="ruby"><span class="k">module</span> <span class="nn">Spree</span>
+<p><figure class="highlight"><pre><code class="language-ruby" data-lang="ruby"><span></span><span class="k">module</span> <span class="nn">Spree</span>
   <span class="no">ProductsHelper</span><span class="o">.</span><span class="n">module_eval</span> <span class="k">do</span>
-    <span class="c1">#... cache_key_for_products</span>
+    <span class="c1">#... cache_key_for_products</span></p>
 
-    <span class="k">def</span> <span class="nf">current_sorting?</span><span class="p">(</span><span class="n">key</span><span class="p">)</span>
-      <span class="n">sorting_param</span> <span class="o">==</span> <span class="n">key</span><span class="o">.</span><span class="n">to_sym</span>
-    <span class="k">end</span>
-  <span class="k">end</span>
-<span class="k">end</span></code></pre></div>
+<pre><code>&lt;span class="k"&gt;def&lt;/span&gt; &lt;span class="nf"&gt;current_sorting?&lt;/span&gt;&lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="n"&gt;key&lt;/span&gt;&lt;span class="p"&gt;)&lt;/span&gt;
+  &lt;span class="n"&gt;sorting_param&lt;/span&gt; &lt;span class="o"&gt;==&lt;/span&gt; &lt;span class="n"&gt;key&lt;/span&gt;&lt;span class="o"&gt;.&lt;/span&gt;&lt;span class="n"&gt;to_sym&lt;/span&gt;
+&lt;span class="k"&gt;end&lt;/span&gt;
+</code></pre>
 
+<p>  <span class="k">end</span>
+<span class="k">end</span></code></pre></figure></p>
 
 <p>In this helper, <code>sorting_param</code> is requested from the controller, which re-uses the default, that's why we made it a helper earlier.</p>
 
@@ -285,21 +282,6 @@ exist, so let's create that with the familiar decorator/monkey-patching. Add it 
   </p>
 </div>
 
-<div id="disqus_thread"></div>
-<script type="text/javascript">
-    var disqus_developer = 1;
-    var disqus_shortname = 'berkes'; // required: replace example with your forum shortname
-    
-    /* * * DON'T EDIT BELOW THIS LINE * * */
-    (function() {
-        var dsq = document.createElement('script'); dsq.type = 'text/javascript'; dsq.async = true;
-        dsq.src = 'http://' + disqus_shortname + '.disqus.com/embed.js';
-        (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(dsq);
-    })();
-</script>
-<noscript>Please enable JavaScript to view the <a href="http://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
-<a href="http://disqus.com" class="dsq-brlink">blog comments powered by <span class="logo-disqus">Disqus</span></a>
-
 <hr/>
 <aside>
   
@@ -308,18 +290,17 @@ exist, so let's create that with the familiar decorator/monkey-patching. Add it 
   
   <ul>
     
-      <li><span>November 13, 2017</span> &raquo; <a href="/2017/11/13/f-rite-air-ico">F/Rite Air ICO</a></li>
+      <li><span>November 13, 2017</span> &raquo; <a href="/2017/11/13/f-rite-air-ico/">F/Rite Air ICO</a></li>
 
     
-      <li><span>April  6, 2016</span> &raquo; <a href="/2016/04/06/simple-time-logging-on-top-of-git-flow">Simple time logging on top of git flow</a></li>
+      <li><span>April  6, 2016</span> &raquo; <a href="/2016/04/06/simple-time-logging-on-top-of-git-flow/">Simple time logging on top of git flow</a></li>
 
     
-      <li><span>December 14, 2015</span> &raquo; <a href="/2015/12/14/beste-nunl-dit-vinden-wij-jammer">Beste Nu.nl. Dit vinden wij jammer.</a></li>
+      <li><span>December 14, 2015</span> &raquo; <a href="/2015/12/14/beste-nunl-dit-vinden-wij-jammer/">Beste Nu.nl. Dit vinden wij jammer.</a></li>
 
     
   </ul>
 </aside>
-
 
 
     </section>
@@ -337,7 +318,7 @@ exist, so let's create that with the familiar decorator/monkey-patching. Add it 
           </p>
       </div>
       <div class="four columns">
-        Copyright 2001-2017
+        Copyright 2001-2018
         with a
         <a href="http://creativecommons.org/licenses/by-sa/3.0/" rel="license">Creative Commons Attribute-Share-alike 3.0 Unported license</a>
       </div>

@@ -125,14 +125,13 @@ it as it is?</p>
 
 <p>For example:</p>
 
-<div class="highlight"><pre><code class="language-ruby" data-lang="ruby"><span class="k">def</span> <span class="nf">by_ranking</span>
+<p><figure class="highlight"><pre><code class="language-ruby" data-lang="ruby"><span></span><span class="k">def</span> <span class="nf">by_ranking</span>
   <span class="c1"># @INK: the rank attribute is not updated or filled</span>
   <span class="c1">#       in the database, it seems. @TODO: make a </span>
   <span class="c1">#       migration to add this field to the database,</span>
   <span class="c1">#       then an after_update hook to actually fill this value.</span>
   <span class="n">sort</span> <span class="p">{</span><span class="o">|</span><span class="n">a</span><span class="p">,</span><span class="n">b</span><span class="o">|</span> <span class="n">a</span><span class="o">.</span><span class="n">rank</span><span class="o">.</span><span class="n">to_f</span> <span class="o">&lt;</span> <span class="n">b</span><span class="o">.</span><span class="n">rank</span><span class="o">.</span><span class="n">to_f</span><span class="p">}</span>
-<span class="k">end</span></code></pre></div>
-
+<span class="k">end</span></code></pre></figure></p>
 
 <p>A simple '@INK' with a comment. <code>@INK</code> is a different marker then
 <code>@FIXME</code> or <code>@TODO</code>. Actually, <code>@INK</code> is <em>also</em> a TODO.</p>
@@ -159,14 +158,13 @@ either remove it, replace it with a TODO or start where you left.</li>
 
 <p>And with a simple script, you can find your ink in the well:</p>
 
-<div class="highlight"><pre><code class="language-bash" data-lang="bash"><span class="c">#!/bin/bash</span>
+<p><figure class="highlight"><pre><code class="language-bash" data-lang="bash"><span></span><span class="ch">#!/bin/bash</span>
 <span class="nb">echo</span> <span class="s2">&quot;-- Last four commits --&quot;</span>
 git log --graph --pretty<span class="o">=</span>format:<span class="s1">&#39;%Cred%h%Creset -%C(yellow)%d%Creset %s %Cgreen(%cr) %C(bold blue)&lt;%an&gt;%Creset&#39;</span> --abbrev-commit --date<span class="o">=</span>relative -n4
 <span class="nb">echo</span> <span class="s2">&quot;-- Git status --&quot;</span>
 git status -s
 <span class="nb">echo</span> <span class="s2">&quot;-- The INK --&quot;</span>
-ack-grep -C <span class="m">4</span> <span class="s2">&quot;@INK&quot;</span> --all</code></pre></div>
-
+ack-grep -C <span class="m">4</span> <span class="s2">&quot;@INK&quot;</span> --all</code></pre></figure></p>
 
 <p>It gets some context with two git commands, one to render a short,
 <a href="http://www.jukie.net/bart/blog/pimping-out-git-log">pretty git log</a>,
@@ -230,21 +228,6 @@ parameters.</p>
   </p>
 </div>
 
-<div id="disqus_thread"></div>
-<script type="text/javascript">
-    var disqus_developer = 1;
-    var disqus_shortname = 'berkes'; // required: replace example with your forum shortname
-    
-    /* * * DON'T EDIT BELOW THIS LINE * * */
-    (function() {
-        var dsq = document.createElement('script'); dsq.type = 'text/javascript'; dsq.async = true;
-        dsq.src = 'http://' + disqus_shortname + '.disqus.com/embed.js';
-        (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(dsq);
-    })();
-</script>
-<noscript>Please enable JavaScript to view the <a href="http://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
-<a href="http://disqus.com" class="dsq-brlink">blog comments powered by <span class="logo-disqus">Disqus</span></a>
-
 <hr/>
 <aside>
   
@@ -253,13 +236,13 @@ parameters.</p>
   
   <ul>
     
-      <li><span>November 13, 2017</span> &raquo; <a href="/2017/11/13/f-rite-air-ico">F/Rite Air ICO</a></li>
+      <li><span>November 13, 2017</span> &raquo; <a href="/2017/11/13/f-rite-air-ico/">F/Rite Air ICO</a></li>
 
     
-      <li><span>April  6, 2016</span> &raquo; <a href="/2016/04/06/simple-time-logging-on-top-of-git-flow">Simple time logging on top of git flow</a></li>
+      <li><span>April  6, 2016</span> &raquo; <a href="/2016/04/06/simple-time-logging-on-top-of-git-flow/">Simple time logging on top of git flow</a></li>
 
     
-      <li><span>December 14, 2015</span> &raquo; <a href="/2015/12/14/beste-nunl-dit-vinden-wij-jammer">Beste Nu.nl. Dit vinden wij jammer.</a></li>
+      <li><span>December 14, 2015</span> &raquo; <a href="/2015/12/14/beste-nunl-dit-vinden-wij-jammer/">Beste Nu.nl. Dit vinden wij jammer.</a></li>
 
     
   </ul>
@@ -281,7 +264,7 @@ parameters.</p>
           </p>
       </div>
       <div class="four columns">
-        Copyright 2001-2017
+        Copyright 2001-2018
         with a
         <a href="http://creativecommons.org/licenses/by-sa/3.0/" rel="license">Creative Commons Attribute-Share-alike 3.0 Unported license</a>
       </div>

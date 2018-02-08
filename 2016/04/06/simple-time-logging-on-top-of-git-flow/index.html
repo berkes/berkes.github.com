@@ -87,20 +87,18 @@ Extracting timelogs in retrosepct is not fun. Git helps a lot, combined with cha
 
 <p>The result is certainly not a replacement for actual timetracking. But a log that will aide with answering "when did you work on what?".</p>
 
-<div class="highlight"><pre><code class="language-text" data-lang="text">[2016-04-06T06:43:13Z] /home/ber/Documenten/BLG_blog STARTED article-git-flow-logging
+<p><figure class="highlight"><pre><code class="language-text" data-lang="text"><span></span>[2016-04-06T06:43:13Z] /home/ber/Documenten/BLG_blog STARTED article-git-flow-logging
 [2016-04-06T06:43:16Z] /home/ber/tmp/flowtest STARTED a-feature
 [2016-04-06T06:43:47Z] /home/ber/tmp/flowtest STARTED another-feature
 [2016-04-06T07:12:10Z] /home/ber/Documenten/BLG_blog FINISHED article-git-flow-logging
-[2016-04-06T07:43:52Z] /home/ber/tmp/flowtest FINISHED another-feature</code></pre></div>
-
+[2016-04-06T07:43:52Z] /home/ber/tmp/flowtest FINISHED another-feature</code></pre></figure></p>
 
 <p>These will be written out when using</p>
 
-<div class="highlight"><pre><code class="language-bash" data-lang="bash">git flow feature start some-feature
+<p><figure class="highlight"><pre><code class="language-bash" data-lang="bash"><span></span>git flow feature start some-feature
 git flow feature finish branch
-<span class="c">## or the short alternative</span>
-git flow feature finish</code></pre></div>
-
+<span class="c1">## or the short alternative</span>
+git flow feature finish</code></pre></figure></p>
 
 <p>It requires you to work with git-flow and use feature branches for everything. But you should use topic branches anyway.</p>
 
@@ -111,16 +109,15 @@ have own git-hooks. <a href="https://github.com/petervanderdoes/gitflow">Peter v
 has this. Which is also the source used for the Debian package (so also for
 Ubuntu).</p>
 
-<div class="highlight"><pre><code class="language-bash" data-lang="bash"><span class="c">#!/bin/bash</span>
-<span class="nb">set</span> -e
+<p><figure class="highlight"><pre><code class="language-bash" data-lang="bash"><span></span><span class="ch">#!/bin/bash</span>
+<span class="nb">set</span> -e</p>
 
-<span class="nv">working_dir</span><span class="o">=</span><span class="k">$(</span><span class="nb">pwd</span><span class="k">)</span>
+<p><span class="nv">working_dir</span><span class="o">=</span><span class="k">$(</span><span class="nb">pwd</span><span class="k">)</span>
 <span class="nv">feature</span><span class="o">=</span><span class="nv">$2</span>
 <span class="nv">action</span><span class="o">=</span><span class="nv">$1</span>
-<span class="nv">now</span><span class="o">=</span><span class="k">$(</span>date -u +<span class="s2">&quot;%Y-%m-%dT%H:%M:%SZ&quot;</span><span class="k">)</span> <span class="c"># ISO8601</span>
+<span class="nv">now</span><span class="o">=</span><span class="k">$(</span>date -u +<span class="s2">&quot;%Y-%m-%dT%H:%M:%SZ&quot;</span><span class="k">)</span> <span class="c1"># ISO8601</span></p>
 
-<span class="nb">echo</span> <span class="s2">&quot;[$now] $working_dir $action $feature&quot;</span> &gt;&gt; ~/.git-flow-feature.log</code></pre></div>
-
+<p><span class="nb">echo</span> <span class="s2">&quot;[</span><span class="nv">$now</span><span class="s2">] </span><span class="nv">$working_dir</span><span class="s2"> </span><span class="nv">$action</span><span class="s2"> </span><span class="nv">$feature</span><span class="s2">&quot;</span> &gt;&gt; ~/.git-flow-feature.log</code></pre></figure></p>
 
 <p>Write that to e.g. <code>~/bin/log-git-flow-feature</code> and make executable with
 <code>chmod +x ~/bin/log-git-flow-feature</code>.</p>
@@ -133,18 +130,16 @@ a command.</p>
 <p>Now just add two hooks and make them exectuable. This will add hooks to a specific
 git repo:</p>
 
-<div class="highlight"><pre><code class="language-bash" data-lang="bash"><span class="nb">echo</span> <span class="s1">&#39;log-git-flow-feature STARTED &quot;$@&quot;&#39;</span> &gt;&gt; /path/to/project/.git/hooks/pre-flow-feature-start
+<p><figure class="highlight"><pre><code class="language-bash" data-lang="bash"><span></span><span class="nb">echo</span> <span class="s1">&#39;log-git-flow-feature STARTED &quot;$@&quot;&#39;</span> &gt;&gt; /path/to/project/.git/hooks/pre-flow-feature-start
 chmod +x /path/to/project/.git/hooks/pre-flow-feature-start
 <span class="nb">echo</span> <span class="s1">&#39;log-git-flow-feature FINISHED &quot;$@&quot;&#39;</span> &gt;&gt; /path/to/project/.git/hooks/pre-flow-feature-finish
-chmod +x /path/to/project/.git/hooks/pre-flow-feature-finish</code></pre></div>
-
+chmod +x /path/to/project/.git/hooks/pre-flow-feature-finish</code></pre></figure></p>
 
 <p>When I need to call an external time-tracker, the <code>~/bin/log-git-flow-feature</code>
 script is the place to do this. An example:</p>
 
-<div class="highlight"><pre><code class="language-bash" data-lang="bash"><span class="c">#...</span>
-curl -X POST -D <span class="s2">&quot;{ &#39;note&#39;: &#39;$feature in $working_dir&#39; }&quot;</span> http://timetracker.io/api/entry</code></pre></div>
-
+<p><figure class="highlight"><pre><code class="language-bash" data-lang="bash"><span></span><span class="c1">#...</span>
+curl -X POST -D <span class="s2">&quot;{ &#39;note&#39;: &#39;</span><span class="nv">$feature</span><span class="s2"> in </span><span class="nv">$working_dir</span><span class="s2">&#39; }&quot;</span> http://timetracker.io/api/entry</code></pre></figure></p>
 
 <p>I've create <a href="https://gist.github.com/berkes/714141a6c131b20496fc00d6e3a90d38">a gist with the contents of the files</a> so
 if you want to enhance it, feel free to fork it!</p>
@@ -211,21 +206,6 @@ this to work with fancy setups or when working from within subdirectories.</li>
   </p>
 </div>
 
-<div id="disqus_thread"></div>
-<script type="text/javascript">
-    var disqus_developer = 1;
-    var disqus_shortname = 'berkes'; // required: replace example with your forum shortname
-    
-    /* * * DON'T EDIT BELOW THIS LINE * * */
-    (function() {
-        var dsq = document.createElement('script'); dsq.type = 'text/javascript'; dsq.async = true;
-        dsq.src = 'http://' + disqus_shortname + '.disqus.com/embed.js';
-        (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(dsq);
-    })();
-</script>
-<noscript>Please enable JavaScript to view the <a href="http://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
-<a href="http://disqus.com" class="dsq-brlink">blog comments powered by <span class="logo-disqus">Disqus</span></a>
-
 <hr/>
 <aside>
   
@@ -234,13 +214,13 @@ this to work with fancy setups or when working from within subdirectories.</li>
   
   <ul>
     
-      <li><span>November 13, 2017</span> &raquo; <a href="/2017/11/13/f-rite-air-ico">F/Rite Air ICO</a></li>
+      <li><span>November 13, 2017</span> &raquo; <a href="/2017/11/13/f-rite-air-ico/">F/Rite Air ICO</a></li>
 
     
-      <li><span>December 14, 2015</span> &raquo; <a href="/2015/12/14/beste-nunl-dit-vinden-wij-jammer">Beste Nu.nl. Dit vinden wij jammer.</a></li>
+      <li><span>December 14, 2015</span> &raquo; <a href="/2015/12/14/beste-nunl-dit-vinden-wij-jammer/">Beste Nu.nl. Dit vinden wij jammer.</a></li>
 
     
-      <li><span>May  9, 2015</span> &raquo; <a href="/2015/05/09/add-sorting-to-your-product-page-in-spree">Add sorting to your product page in Spree</a></li>
+      <li><span>May  9, 2015</span> &raquo; <a href="/2015/05/09/add-sorting-to-your-product-page-in-spree/">Add sorting to your product page in Spree</a></li>
 
     
   </ul>
@@ -262,7 +242,7 @@ this to work with fancy setups or when working from within subdirectories.</li>
           </p>
       </div>
       <div class="four columns">
-        Copyright 2001-2017
+        Copyright 2001-2018
         with a
         <a href="http://creativecommons.org/licenses/by-sa/3.0/" rel="license">Creative Commons Attribute-Share-alike 3.0 Unported license</a>
       </div>

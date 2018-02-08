@@ -94,30 +94,25 @@ Wat Piratebay doet, is niets meer dan verwijzingen naar een download plaatsen.</
 
 <p>Ga naar Systeem >> Beheer >> Softwarebronnen. Voeg daar in de tab "software van derden" een nieuwe repository toe, gebruik onderstaande regel</p>
 
-<div class="highlight"><pre><code class="language-bash" data-lang="bash">deb     http://mirror.noreply.org/pub/tor jaunty main</code></pre></div>
-
+<p><figure class="highlight"><pre><code class="language-bash" data-lang="bash"><span></span>deb     http://mirror.noreply.org/pub/tor jaunty main</code></pre></figure></p>
 
 <p>Sla op en sluit af. Bij de vraag herladen? kies, "Sluiten". <a href="http://www.avuc.nl/2009/05/04/tor-on-ubuntu-904/">AVUC heeft de sleutels en meer informatie</a>.</p>
 
 <h3>2. Voeg de keys toe:</h3>
 
-<div class="highlight"><pre><code class="language-bash" data-lang="bash">gpg --keyserver subkeys.pgp.net --recv 94C09C7Fgpg --fingerprint 94C09C7Fgpg --export 94C09C7F <span class="p">|</span> sudo apt-key add -</code></pre></div>
-
+<p><figure class="highlight"><pre><code class="language-bash" data-lang="bash"><span></span>gpg --keyserver subkeys.pgp.net --recv 94C09C7Fgpg --fingerprint 94C09C7Fgpg --export 94C09C7F <span class="p">|</span> sudo apt-key add -</code></pre></figure></p>
 
 <h3>3. Installeer TOR en <a href="http://nl.wikipedia.org/wiki/Privoxy">Privoxy</a>.</h3>
 
-<div class="highlight"><pre><code class="language-bash" data-lang="bash">sudo apt-get updatesudo apt-get install tor privoxy</code></pre></div>
-
+<p><figure class="highlight"><pre><code class="language-bash" data-lang="bash"><span></span>sudo apt-get updatesudo apt-get install tor privoxy</code></pre></figure></p>
 
 <h3>4. Voeg een regel toe aan de configuratie van privoxy. Open het bestand /etc/privoxy/config:</h3>
 
-<div class="highlight"><pre><code class="language-bash" data-lang="bash">sudo gedit /etc/privoxy/configEn plaats de regel ergens bovenaan <span class="o">(</span>vergeet de afsluitende punt niet!<span class="o">)</span>forward-socks4a / localhost:9050 .</code></pre></div>
-
+<p><figure class="highlight"><pre><code class="language-bash" data-lang="bash"><span></span>sudo gedit /etc/privoxy/configEn plaats de regel ergens bovenaan <span class="o">(</span>vergeet de afsluitende punt niet!<span class="o">)</span>forward-socks4a / localhost:9050 . </code></pre></figure></p>
 
 <h3>5. Start tor en privoxy.</h3>
 
-<div class="highlight"><pre><code class="language-bash" data-lang="bash">sudo /etc/init.d/tor startsudo /etc/init.d/privoxy start</code></pre></div>
-
+<p><figure class="highlight"><pre><code class="language-bash" data-lang="bash"><span></span>sudo /etc/init.d/tor startsudo /etc/init.d/privoxy start</code></pre></figure></p>
 
 <h3>6. Voeg aan je browser <a href="http://localhost:8118">localhost:8118</a> als proxy in. vanaf waar je naar the piratebay kunt surfen.</h3>
 
@@ -172,21 +167,6 @@ Wat Piratebay doet, is niets meer dan verwijzingen naar een download plaatsen.</
   </p>
 </div>
 
-<div id="disqus_thread"></div>
-<script type="text/javascript">
-    var disqus_developer = 1;
-    var disqus_shortname = 'berkes'; // required: replace example with your forum shortname
-    
-    /* * * DON'T EDIT BELOW THIS LINE * * */
-    (function() {
-        var dsq = document.createElement('script'); dsq.type = 'text/javascript'; dsq.async = true;
-        dsq.src = 'http://' + disqus_shortname + '.disqus.com/embed.js';
-        (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(dsq);
-    })();
-</script>
-<noscript>Please enable JavaScript to view the <a href="http://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
-<a href="http://disqus.com" class="dsq-brlink">blog comments powered by <span class="logo-disqus">Disqus</span></a>
-
 <hr/>
 <aside>
   
@@ -195,13 +175,13 @@ Wat Piratebay doet, is niets meer dan verwijzingen naar een download plaatsen.</
   
   <ul>
     
-      <li><span>November 13, 2017</span> &raquo; <a href="/2017/11/13/f-rite-air-ico">F/Rite Air ICO</a></li>
+      <li><span>November 13, 2017</span> &raquo; <a href="/2017/11/13/f-rite-air-ico/">F/Rite Air ICO</a></li>
 
     
-      <li><span>April  6, 2016</span> &raquo; <a href="/2016/04/06/simple-time-logging-on-top-of-git-flow">Simple time logging on top of git flow</a></li>
+      <li><span>April  6, 2016</span> &raquo; <a href="/2016/04/06/simple-time-logging-on-top-of-git-flow/">Simple time logging on top of git flow</a></li>
 
     
-      <li><span>December 14, 2015</span> &raquo; <a href="/2015/12/14/beste-nunl-dit-vinden-wij-jammer">Beste Nu.nl. Dit vinden wij jammer.</a></li>
+      <li><span>December 14, 2015</span> &raquo; <a href="/2015/12/14/beste-nunl-dit-vinden-wij-jammer/">Beste Nu.nl. Dit vinden wij jammer.</a></li>
 
     
   </ul>
@@ -223,7 +203,7 @@ Wat Piratebay doet, is niets meer dan verwijzingen naar een download plaatsen.</
           </p>
       </div>
       <div class="four columns">
-        Copyright 2001-2017
+        Copyright 2001-2018
         with a
         <a href="http://creativecommons.org/licenses/by-sa/3.0/" rel="license">Creative Commons Attribute-Share-alike 3.0 Unported license</a>
       </div>

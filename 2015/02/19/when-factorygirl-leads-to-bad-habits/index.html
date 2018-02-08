@@ -88,19 +88,18 @@ setting up test data, used in many Rails projects.</p>
 <p>We have an app that measures fuel-usage. The feature, or integration test for inserting a
 "measurement" could be something like this, when not using FactoryGirl, we can immediately see a problem: (the testing framework is irrelevant here, so I am using RSpec to minimize the noise because it allows me to be concise)</p>
 
-<div class="highlight"><pre><code class="language-ruby" data-lang="ruby"><span class="ss">scenario</span><span class="p">:</span> <span class="s1">&#39;secretary on a project with cars adds new fuel-usage entries and sees them&#39;</span> <span class="k">do</span>
+<p><figure class="highlight"><pre><code class="language-ruby" data-lang="ruby"><span></span><span class="ss">scenario</span><span class="p">:</span> <span class="s1">&#39;secretary on a project with cars adds new fuel-usage entries and sees them&#39;</span> <span class="k">do</span>
   <span class="n">project</span> <span class="o">=</span> <span class="no">Project</span><span class="o">.</span><span class="n">create</span><span class="p">(</span><span class="nb">name</span><span class="p">:</span> <span class="s1">&#39;new bridge in sahara&#39;</span><span class="p">,</span> <span class="ss">starts_on</span><span class="p">:</span> <span class="no">Date</span><span class="o">.</span><span class="n">today</span><span class="o">.</span><span class="n">beginning_of_year</span><span class="p">,</span> <span class="ss">ends_on</span><span class="p">:</span> <span class="no">Date</span><span class="o">.</span><span class="n">today</span><span class="o">.</span><span class="n">end_of_year</span><span class="p">)</span>
   <span class="n">user</span> <span class="o">=</span> <span class="no">User</span><span class="o">.</span><span class="n">create</span><span class="p">(</span><span class="ss">email</span><span class="p">:</span> <span class="s1">&#39;speedy-joe@example.com&#39;</span><span class="p">,</span> <span class="ss">password</span><span class="p">:</span> <span class="s1">&#39;secret&#39;</span><span class="p">,</span> <span class="ss">password_confirmation</span><span class="p">:</span> <span class="s1">&#39;secret&#39;</span><span class="p">)</span>
   <span class="n">user</span><span class="o">.</span><span class="n">roles</span><span class="o">.</span><span class="n">create</span><span class="p">(</span><span class="nb">name</span><span class="p">:</span> <span class="s1">&#39;secretary&#39;</span><span class="p">,</span> <span class="ss">on</span><span class="p">:</span> <span class="n">project</span><span class="p">)</span>
   <span class="no">Resource</span><span class="o">.</span><span class="n">new</span><span class="p">(</span><span class="ss">type</span><span class="p">:</span> <span class="ss">:car</span><span class="p">,</span> <span class="ss">slug</span><span class="p">:</span> <span class="s1">&#39;13-37-42&#39;</span><span class="p">,</span> <span class="nb">name</span><span class="p">:</span> <span class="s1">&#39;Joes Truck&#39;</span><span class="p">,</span> <span class="ss">project</span><span class="p">:</span> <span class="n">project</span><span class="p">)</span>
-  <span class="n">sign_in</span> <span class="n">user</span>
+  <span class="n">sign_in</span> <span class="n">user</span></p>
 
-  <span class="n">visit</span><span class="p">(</span><span class="s2">&quot;projects/</span><span class="si">#{</span><span class="n">project</span><span class="o">.</span><span class="n">id</span><span class="si">}</span><span class="s2">/resources/</span><span class="si">#{</span><span class="n">car</span><span class="o">.</span><span class="n">id</span><span class="si">}</span><span class="s2">/entries/new&quot;</span><span class="p">)</span>
+<p>  <span class="n">visit</span><span class="p">(</span><span class="s2">&quot;projects/</span><span class="si">#{</span><span class="n">project</span><span class="o">.</span><span class="n">id</span><span class="si">}</span><span class="s2">/resources/</span><span class="si">#{</span><span class="n">car</span><span class="o">.</span><span class="n">id</span><span class="si">}</span><span class="s2">/entries/new&quot;</span><span class="p">)</span>
   <span class="n">fill_in</span><span class="p">(</span><span class="s1">&#39;Measurement&#39;</span><span class="p">,</span> <span class="ss">with</span><span class="p">:</span> <span class="mi">12</span><span class="p">)</span>
   <span class="n">click_button</span><span class="p">(</span><span class="s1">&#39;Create Measurement&#39;</span><span class="p">)</span>
   <span class="n">expect</span><span class="p">(</span><span class="n">page</span><span class="p">)</span><span class="o">.</span><span class="n">to</span> <span class="n">have_content</span><span class="p">(</span><span class="s2">&quot;</span><span class="si">#{</span><span class="no">Date</span><span class="o">.</span><span class="n">today</span><span class="si">}</span><span class="s2">: 12 liter&quot;</span><span class="p">)</span>
-<span class="k">end</span></code></pre></div>
-
+<span class="k">end</span></code></pre></figure></p>
 
 <p>If you consider that only the last four lines are relevant for this
 test,the first block is just noisy set-up. Now, we could refactor this
@@ -109,17 +108,16 @@ into a before-block in RSpec. Or into a helper method
 does for us, with a much nicer interface then such ad-hoc helpers. With FactoryGirl
 the test could look like:</p>
 
-<div class="highlight"><pre><code class="language-ruby" data-lang="ruby"><span class="ss">scenario</span><span class="p">:</span> <span class="s1">&#39;secretary on a project with cars adds new fuel-usage entries and sees them&#39;</span> <span class="k">do</span>
+<p><figure class="highlight"><pre><code class="language-ruby" data-lang="ruby"><span></span><span class="ss">scenario</span><span class="p">:</span> <span class="s1">&#39;secretary on a project with cars adds new fuel-usage entries and sees them&#39;</span> <span class="k">do</span>
   <span class="n">user</span> <span class="o">=</span> <span class="n">create</span><span class="p">(</span><span class="ss">:user_on_project</span><span class="p">,</span> <span class="ss">role_name</span><span class="p">:</span> <span class="s1">&#39;secretary&#39;</span><span class="p">)</span>
   <span class="n">create</span><span class="p">(</span><span class="ss">:car</span><span class="p">,</span> <span class="ss">project</span><span class="p">:</span> <span class="n">user</span><span class="o">.</span><span class="n">project</span><span class="p">)</span>
-  <span class="n">sign_in</span> <span class="n">user</span>
+  <span class="n">sign_in</span> <span class="n">user</span></p>
 
-  <span class="n">visit</span><span class="p">(</span><span class="s2">&quot;projects/</span><span class="si">#{</span><span class="n">project</span><span class="o">.</span><span class="n">id</span><span class="si">}</span><span class="s2">/resources/</span><span class="si">#{</span><span class="n">car</span><span class="o">.</span><span class="n">id</span><span class="si">}</span><span class="s2">/entries/new&quot;</span><span class="p">)</span>
+<p>  <span class="n">visit</span><span class="p">(</span><span class="s2">&quot;projects/</span><span class="si">#{</span><span class="n">project</span><span class="o">.</span><span class="n">id</span><span class="si">}</span><span class="s2">/resources/</span><span class="si">#{</span><span class="n">car</span><span class="o">.</span><span class="n">id</span><span class="si">}</span><span class="s2">/entries/new&quot;</span><span class="p">)</span>
   <span class="n">fill_in</span><span class="p">(</span><span class="s1">&#39;Measurement&#39;</span><span class="p">,</span> <span class="ss">with</span><span class="p">:</span> <span class="mi">12</span><span class="p">)</span>
   <span class="n">click_button</span><span class="p">(</span><span class="s1">&#39;Create Measurement&#39;</span><span class="p">)</span>
   <span class="n">expect</span><span class="p">(</span><span class="n">page</span><span class="p">)</span><span class="o">.</span><span class="n">to</span> <span class="n">have_content</span><span class="p">(</span><span class="s2">&quot;</span><span class="si">#{</span><span class="no">Date</span><span class="o">.</span><span class="n">today</span><span class="si">}</span><span class="s2">: 12 liter&quot;</span><span class="p">)</span>
-<span class="k">end</span></code></pre></div>
-
+<span class="k">end</span></code></pre></figure></p>
 
 <p>The first benefit becomes clear because we see far fewer lines of irrelevant objects being created.
 The second benefit of FactoryGirl immediately becomes clear too: we no longer need to provide irrelevant attributes such as the project name.</p>
@@ -128,18 +126,17 @@ The second benefit of FactoryGirl immediately becomes clear too: we no longer ne
 
 <p>If you consider your tests to be one (important) user of your API, a client, the problem is clear: we need to fix the application, not the client using that API.</p>
 
-<div class="highlight"><pre><code class="language-ruby" data-lang="ruby"><span class="ss">scenario</span><span class="p">:</span> <span class="s1">&#39;secretary on a project with cars adds new fuel-usage entries and sees them&#39;</span> <span class="k">do</span>
+<p><figure class="highlight"><pre><code class="language-ruby" data-lang="ruby"><span></span><span class="ss">scenario</span><span class="p">:</span> <span class="s1">&#39;secretary on a project with cars adds new fuel-usage entries and sees them&#39;</span> <span class="k">do</span>
   <span class="n">resource</span> <span class="o">=</span> <span class="no">Car</span><span class="o">.</span><span class="n">new</span><span class="p">(</span><span class="s1">&#39;Joes Truck&#39;</span><span class="p">)</span>
   <span class="n">project</span> <span class="o">=</span> <span class="no">Project</span><span class="o">.</span><span class="n">create</span><span class="p">(</span><span class="nb">name</span><span class="p">:</span> <span class="s1">&#39;New Bridge&#39;</span><span class="p">,</span> <span class="ss">resources</span><span class="p">:</span> <span class="o">[</span><span class="n">resource</span><span class="o">]</span><span class="p">)</span>
   <span class="n">user</span> <span class="o">=</span> <span class="no">Secretary</span><span class="o">.</span><span class="n">create</span><span class="p">(</span><span class="ss">email</span><span class="p">:</span> <span class="s1">&#39;speedy-joe@example.com&#39;</span><span class="p">,</span> <span class="ss">password</span><span class="p">:</span> <span class="s1">&#39;secret&#39;</span><span class="p">,</span> <span class="ss">project</span><span class="p">:</span> <span class="n">project</span><span class="p">)</span>
-  <span class="n">sign_in</span> <span class="n">user</span>
+  <span class="n">sign_in</span> <span class="n">user</span></p>
 
-  <span class="n">visit</span><span class="p">(</span><span class="s2">&quot;projects/</span><span class="si">#{</span><span class="n">project</span><span class="o">.</span><span class="n">id</span><span class="si">}</span><span class="s2">/resources/</span><span class="si">#{</span><span class="n">car</span><span class="o">.</span><span class="n">id</span><span class="si">}</span><span class="s2">/entries/new&quot;</span><span class="p">)</span>
+<p>  <span class="n">visit</span><span class="p">(</span><span class="s2">&quot;projects/</span><span class="si">#{</span><span class="n">project</span><span class="o">.</span><span class="n">id</span><span class="si">}</span><span class="s2">/resources/</span><span class="si">#{</span><span class="n">car</span><span class="o">.</span><span class="n">id</span><span class="si">}</span><span class="s2">/entries/new&quot;</span><span class="p">)</span>
   <span class="n">fill_in</span><span class="p">(</span><span class="s1">&#39;Measurement&#39;</span><span class="p">,</span> <span class="ss">with</span><span class="p">:</span> <span class="mi">12</span><span class="p">)</span>
   <span class="n">click_button</span><span class="p">(</span><span class="s1">&#39;Create Measurement&#39;</span><span class="p">)</span>
   <span class="n">expect</span><span class="p">(</span><span class="n">page</span><span class="p">)</span><span class="o">.</span><span class="n">to</span> <span class="n">have_content</span><span class="p">(</span><span class="s2">&quot;</span><span class="si">#{</span><span class="no">Date</span><span class="o">.</span><span class="n">today</span><span class="si">}</span><span class="s2">: 12 liter&quot;</span><span class="p">)</span>
-<span class="k">end</span></code></pre></div>
-
+<span class="k">end</span></code></pre></figure></p>
 
 <p>We have added code to our application that is used by one of the
 clients: the tests. We have abstracted some of the details away: a
@@ -189,21 +186,20 @@ decoupled code (we want decoupled code, don't we?) getting into this
 mess is something to avoid. FactoryGirl does not help you to avoid this,
 it even encourages this design somewhat:</p>
 
-<div class="highlight"><pre><code class="language-ruby" data-lang="ruby"><span class="n">describe</span> <span class="no">User</span> <span class="k">do</span>
+<p><figure class="highlight"><pre><code class="language-ruby" data-lang="ruby"><span></span><span class="n">describe</span> <span class="no">User</span> <span class="k">do</span>
   <span class="n">describe</span> <span class="s1">&#39;#function&#39;</span> <span class="k">do</span>
     <span class="n">it</span> <span class="s1">&#39;includes the name of the role and its project&#39;</span> <span class="k">do</span>
       <span class="n">user</span> <span class="o">=</span> <span class="n">create</span><span class="p">(</span><span class="ss">:user</span><span class="p">,</span> <span class="ss">:secretary_on_project</span><span class="p">)</span>
       <span class="n">expect</span><span class="p">(</span><span class="n">user</span><span class="o">.</span><span class="n">name</span><span class="p">)</span><span class="o">.</span><span class="n">to</span> <span class="n">be</span> <span class="s1">&#39;Secretary for New Bridge&#39;</span>
     <span class="k">end</span>
   <span class="k">end</span>
-<span class="k">end</span>
+<span class="k">end</span></p>
 
-<span class="k">class</span> <span class="nc">User</span>
+<p><span class="k">class</span> <span class="nc">User</span>
   <span class="k">def</span> <span class="nf">function</span>
     <span class="n">roles</span><span class="o">.</span><span class="n">map</span> <span class="p">{</span> <span class="o">|</span><span class="n">r</span><span class="o">|</span> <span class="s2">&quot;</span><span class="si">#{</span><span class="n">r</span><span class="o">.</span><span class="n">name</span><span class="si">}</span><span class="s2"> for </span><span class="si">#{</span><span class="n">r</span><span class="o">.</span><span class="n">project</span><span class="o">.</span><span class="n">name</span><span class="si">}</span><span class="s2">&quot;</span> <span class="p">}</span><span class="o">.</span><span class="n">join</span><span class="p">(</span><span class="s1">&#39;,&#39;</span><span class="p">)</span>
   <span class="k">end</span>
-<span class="k">end</span></code></pre></div>
-
+<span class="k">end</span></code></pre></figure></p>
 
 <p>This looks like a nice, clean test. But only because we have hidden away
 all the complexity of coming to a state in which the user has a role and
@@ -241,28 +237,29 @@ user, or its role. Or when deleting a project and not dealing correctly with del
 <p>If we had tested without FactoryGirl, it would have looked something
 like this:</p>
 
-<div class="highlight"><pre><code class="language-ruby" data-lang="ruby"><span class="n">describe</span> <span class="s1">&#39;#function&#39;</span> <span class="k">do</span>
+<p><figure class="highlight"><pre><code class="language-ruby" data-lang="ruby"><span></span><span class="n">describe</span> <span class="s1">&#39;#function&#39;</span> <span class="k">do</span>
   <span class="n">before</span> <span class="p">{</span> <span class="vi">@user</span> <span class="o">=</span> <span class="no">User</span><span class="o">.</span><span class="n">new</span> <span class="p">}</span> <span class="c1"># In RSpec, this is returned when using the method &#39;subject&#39;</span>
   <span class="n">context</span> <span class="s1">&#39;when user has roles&#39;</span> <span class="k">do</span>
     <span class="n">before</span> <span class="p">{</span> <span class="vi">@user</span><span class="o">.</span><span class="n">roles</span> <span class="o">=</span> <span class="o">[</span><span class="no">Struct</span><span class="o">.</span><span class="n">new</span><span class="p">(</span><span class="nb">name</span><span class="p">:</span> <span class="s1">&#39;Secretary&#39;</span><span class="p">)</span><span class="o">]</span> <span class="p">}</span>
     <span class="n">it</span> <span class="s1">&#39;includes the name of the role&#39;</span> <span class="k">do</span>
       <span class="n">expect</span><span class="p">(</span><span class="vi">@user</span><span class="o">.</span><span class="n">function</span><span class="p">)</span><span class="o">.</span><span class="n">to</span> <span class="n">be</span> <span class="s1">&#39;Secretary&#39;</span>
-    <span class="k">end</span>
+    <span class="k">end</span></p>
 
-    <span class="n">context</span> <span class="s1">&#39;when role has project&#39;</span> <span class="k">do</span>
-      <span class="n">before</span> <span class="p">{</span> <span class="vi">@user</span><span class="o">.</span><span class="n">roles</span> <span class="o">=</span> <span class="o">[</span><span class="no">Struct</span><span class="o">.</span><span class="n">new</span><span class="p">(</span><span class="nb">name</span><span class="p">:</span> <span class="s1">&#39;Secretary&#39;</span><span class="p">,</span> <span class="ss">project</span><span class="p">:</span> <span class="no">Struct</span><span class="o">.</span><span class="n">new</span><span class="p">(</span><span class="nb">name</span><span class="p">:</span> <span class="s1">&#39;New Bridge&#39;</span><span class="p">))</span><span class="o">]</span> <span class="p">}</span>
-      <span class="n">it</span> <span class="s1">&#39;includes the name of the project&#39;</span> <span class="k">do</span>
-        <span class="n">expect</span><span class="p">(</span><span class="vi">@user</span><span class="o">.</span><span class="n">function</span><span class="p">)</span><span class="o">.</span><span class="n">to</span> <span class="n">be</span> <span class="s1">&#39;New Bridge&#39;</span>
-      <span class="k">end</span>
-    <span class="k">end</span>
-  <span class="k">end</span>
+<pre><code>&lt;span class="n"&gt;context&lt;/span&gt; &lt;span class="s1"&gt;&amp;#39;when role has project&amp;#39;&lt;/span&gt; &lt;span class="k"&gt;do&lt;/span&gt;
+  &lt;span class="n"&gt;before&lt;/span&gt; &lt;span class="p"&gt;{&lt;/span&gt; &lt;span class="vi"&gt;@user&lt;/span&gt;&lt;span class="o"&gt;.&lt;/span&gt;&lt;span class="n"&gt;roles&lt;/span&gt; &lt;span class="o"&gt;=&lt;/span&gt; &lt;span class="o"&gt;[&lt;/span&gt;&lt;span class="no"&gt;Struct&lt;/span&gt;&lt;span class="o"&gt;.&lt;/span&gt;&lt;span class="n"&gt;new&lt;/span&gt;&lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="nb"&gt;name&lt;/span&gt;&lt;span class="p"&gt;:&lt;/span&gt; &lt;span class="s1"&gt;&amp;#39;Secretary&amp;#39;&lt;/span&gt;&lt;span class="p"&gt;,&lt;/span&gt; &lt;span class="ss"&gt;project&lt;/span&gt;&lt;span class="p"&gt;:&lt;/span&gt; &lt;span class="no"&gt;Struct&lt;/span&gt;&lt;span class="o"&gt;.&lt;/span&gt;&lt;span class="n"&gt;new&lt;/span&gt;&lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="nb"&gt;name&lt;/span&gt;&lt;span class="p"&gt;:&lt;/span&gt; &lt;span class="s1"&gt;&amp;#39;New Bridge&amp;#39;&lt;/span&gt;&lt;span class="p"&gt;))&lt;/span&gt;&lt;span class="o"&gt;]&lt;/span&gt; &lt;span class="p"&gt;}&lt;/span&gt;
+  &lt;span class="n"&gt;it&lt;/span&gt; &lt;span class="s1"&gt;&amp;#39;includes the name of the project&amp;#39;&lt;/span&gt; &lt;span class="k"&gt;do&lt;/span&gt;
+    &lt;span class="n"&gt;expect&lt;/span&gt;&lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="vi"&gt;@user&lt;/span&gt;&lt;span class="o"&gt;.&lt;/span&gt;&lt;span class="n"&gt;function&lt;/span&gt;&lt;span class="p"&gt;)&lt;/span&gt;&lt;span class="o"&gt;.&lt;/span&gt;&lt;span class="n"&gt;to&lt;/span&gt; &lt;span class="n"&gt;be&lt;/span&gt; &lt;span class="s1"&gt;&amp;#39;New Bridge&amp;#39;&lt;/span&gt;
+  &lt;span class="k"&gt;end&lt;/span&gt;
+&lt;span class="k"&gt;end&lt;/span&gt;
+</code></pre>
+
+<p>  <span class="k">end</span>
   <span class="n">context</span> <span class="s1">&#39;when user has no roles&#39;</span> <span class="k">do</span>
     <span class="n">it</span> <span class="s1">&#39;is &quot;no function&quot;&#39;</span> <span class="k">do</span>
       <span class="n">expect</span><span class="p">(</span><span class="vi">@user</span><span class="o">.</span><span class="n">function</span><span class="p">)</span><span class="o">.</span><span class="n">to</span> <span class="n">be</span> <span class="s1">&#39;no function&#39;</span>
     <span class="k">end</span>
   <span class="k">end</span>
-<span class="k">end</span></code></pre></div>
-
+<span class="k">end</span></code></pre></figure></p>
 
 <p>Now our tests tell us about the problems:</p>
 
@@ -275,7 +272,7 @@ into the project.</li>
 
 <p>Because it is made clear, we can now fix that:</p>
 
-<div class="highlight"><pre><code class="language-ruby" data-lang="ruby"><span class="n">describe</span> <span class="s1">&#39;#function&#39;</span> <span class="k">do</span>
+<p><figure class="highlight"><pre><code class="language-ruby" data-lang="ruby"><span></span><span class="n">describe</span> <span class="s1">&#39;#function&#39;</span> <span class="k">do</span>
   <span class="n">context</span> <span class="s1">&#39;when user has roles&#39;</span> <span class="k">do</span>
     <span class="n">before</span> <span class="p">{</span> <span class="n">subject</span><span class="o">.</span><span class="n">roles</span> <span class="o">=</span> <span class="o">[</span><span class="no">Struct</span><span class="o">.</span><span class="n">new</span><span class="p">(</span><span class="ss">as_function</span><span class="p">:</span> <span class="s1">&#39;Secretary on New Bridge&#39;</span><span class="p">)</span><span class="o">]</span> <span class="p">}</span>
       <span class="n">it</span> <span class="s1">&#39;includes role as a function&#39;</span> <span class="k">do</span>
@@ -285,14 +282,13 @@ into the project.</li>
   <span class="n">context</span> <span class="s1">&#39;when user has no roles&#39;</span> <span class="k">do</span>
     <span class="n">it</span> <span class="p">{</span> <span class="n">expect</span><span class="p">(</span><span class="n">subject</span><span class="o">.</span><span class="n">function</span><span class="p">)</span><span class="o">.</span><span class="n">to</span> <span class="n">be</span> <span class="s1">&#39;no function&#39;</span> <span class="p">}</span>
   <span class="k">end</span>
-<span class="k">end</span></code></pre></div>
-
+<span class="k">end</span></code></pre></figure></p>
 
 <p>The tests are clean, and explain very well how we deal with edge cases.
 Because we have minimized the issues appearing in edge cases and because
 we have delegated the methods to the right objects.</p>
 
-<div class="highlight"><pre><code class="language-ruby" data-lang="ruby"><span class="k">class</span> <span class="nc">User</span>
+<p><figure class="highlight"><pre><code class="language-ruby" data-lang="ruby"><span></span><span class="k">class</span> <span class="nc">User</span>
   <span class="k">def</span> <span class="nf">function</span>
     <span class="k">return</span> <span class="s1">&#39;no function&#39;</span> <span class="k">unless</span> <span class="n">roles</span>
     <span class="n">roles</span><span class="o">.</span><span class="n">map</span><span class="p">(</span><span class="ss">:as_function</span><span class="p">)</span><span class="o">.</span><span class="n">join</span><span class="p">(</span><span class="s1">&#39;, &#39;</span><span class="p">)</span>
@@ -303,8 +299,7 @@ we have delegated the methods to the right objects.</p>
     <span class="k">return</span> <span class="s1">&#39;no project&#39;</span> <span class="k">unless</span> <span class="n">project</span>
     <span class="s2">&quot;</span><span class="si">#{</span><span class="nb">name</span><span class="si">}</span><span class="s2"> on </span><span class="si">#{</span><span class="n">project</span><span class="o">.</span><span class="n">name</span><span class="si">}</span><span class="s2">&quot;</span>
   <span class="k">end</span>
-<span class="k">end</span></code></pre></div>
-
+<span class="k">end</span></code></pre></figure></p>
 
 <p>We have now clearly improved our code, not just the tests. Bonus: since we no
 longer have to store stuff in the database, our unit-test is much faster now.</p>
@@ -369,15 +364,14 @@ is way more.
 When you need an "address data" in your tests, you could just as well
 add a small helper:</p>
 
-<div class="highlight"><pre><code class="language-ruby" data-lang="ruby"><span class="k">class</span> <span class="nc">LoremIzer</span>
+<p><figure class="highlight"><pre><code class="language-ruby" data-lang="ruby"><span></span><span class="k">class</span> <span class="nc">LoremIzer</span>
   <span class="k">def</span> <span class="nf">address</span>
     <span class="p">{</span> <span class="ss">street</span><span class="p">:</span> <span class="s1">&#39;Diagon Alley&#39;</span><span class="p">,</span>
       <span class="ss">number</span><span class="p">:</span> <span class="s1">&#39;13a&#39;</span><span class="p">,</span>
       <span class="ss">city</span><span class="p">:</span> <span class="s1">&#39;London&#39;</span><span class="p">,</span>
       <span class="ss">postal_code</span><span class="p">:</span> <span class="s1">&#39;1337&#39;</span><span class="p">}</span>
   <span class="k">end</span>
-<span class="k">end</span></code></pre></div>
-
+<span class="k">end</span></code></pre></figure></p>
 
 <p>It is only when such helpers grow large and wieldy: when they start to
 turn into a framework, that FactoryGirl (or another <a href="https://github.com/EmmanuelOga/ffaker">data generation
@@ -429,21 +423,6 @@ gem</a> has a good place in your app.</p>
   </p>
 </div>
 
-<div id="disqus_thread"></div>
-<script type="text/javascript">
-    var disqus_developer = 1;
-    var disqus_shortname = 'berkes'; // required: replace example with your forum shortname
-    
-    /* * * DON'T EDIT BELOW THIS LINE * * */
-    (function() {
-        var dsq = document.createElement('script'); dsq.type = 'text/javascript'; dsq.async = true;
-        dsq.src = 'http://' + disqus_shortname + '.disqus.com/embed.js';
-        (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(dsq);
-    })();
-</script>
-<noscript>Please enable JavaScript to view the <a href="http://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
-<a href="http://disqus.com" class="dsq-brlink">blog comments powered by <span class="logo-disqus">Disqus</span></a>
-
 <hr/>
 <aside>
   
@@ -452,13 +431,13 @@ gem</a> has a good place in your app.</p>
   
   <ul>
     
-      <li><span>November 13, 2017</span> &raquo; <a href="/2017/11/13/f-rite-air-ico">F/Rite Air ICO</a></li>
+      <li><span>November 13, 2017</span> &raquo; <a href="/2017/11/13/f-rite-air-ico/">F/Rite Air ICO</a></li>
 
     
-      <li><span>April  6, 2016</span> &raquo; <a href="/2016/04/06/simple-time-logging-on-top-of-git-flow">Simple time logging on top of git flow</a></li>
+      <li><span>April  6, 2016</span> &raquo; <a href="/2016/04/06/simple-time-logging-on-top-of-git-flow/">Simple time logging on top of git flow</a></li>
 
     
-      <li><span>December 14, 2015</span> &raquo; <a href="/2015/12/14/beste-nunl-dit-vinden-wij-jammer">Beste Nu.nl. Dit vinden wij jammer.</a></li>
+      <li><span>December 14, 2015</span> &raquo; <a href="/2015/12/14/beste-nunl-dit-vinden-wij-jammer/">Beste Nu.nl. Dit vinden wij jammer.</a></li>
 
     
   </ul>
@@ -480,7 +459,7 @@ gem</a> has a good place in your app.</p>
           </p>
       </div>
       <div class="four columns">
-        Copyright 2001-2017
+        Copyright 2001-2018
         with a
         <a href="http://creativecommons.org/licenses/by-sa/3.0/" rel="license">Creative Commons Attribute-Share-alike 3.0 Unported license</a>
       </div>

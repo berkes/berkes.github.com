@@ -92,47 +92,42 @@
 <p>First, we introduce a basic authenticate method, that can be used troughout our controllers.
 This method uses the Rails/Rack helper <a href="http://apidock.com/rails/ActionController/HttpAuthentication/Basic/ControllerMethods/authenticate_or_request_with_http_basic">authenticate_or_request_with_http_basic</a>.</p>
 
-<div class="highlight"><pre><code class="language-ruby" data-lang="ruby"><span class="k">class</span> <span class="nc">ApplicationController</span> <span class="o">&lt;</span> <span class="no">ActionController</span><span class="o">::</span><span class="no">Base</span>
-  <span class="n">protect_from_forgery</span>
+<p><figure class="highlight"><pre><code class="language-ruby" data-lang="ruby"><span></span><span class="k">class</span> <span class="nc">ApplicationController</span> <span class="o">&lt;</span> <span class="no">ActionController</span><span class="o">::</span><span class="no">Base</span>
+  <span class="n">protect_from_forgery</span></p>
 
-  <span class="kp">protected</span>
+<p>  <span class="kp">protected</span>
     <span class="k">def</span> <span class="nf">authenticate</span>
       <span class="n">authenticate_or_request_with_http_basic</span> <span class="k">do</span> <span class="o">|</span><span class="n">username</span><span class="p">,</span> <span class="n">password</span><span class="o">|</span>
         <span class="n">username</span> <span class="o">==</span> <span class="no">USER_ID</span> <span class="o">&amp;&amp;</span> <span class="n">password</span> <span class="o">==</span> <span class="no">PASSWORD</span>
       <span class="k">end</span>
     <span class="k">end</span>
-<span class="k">end</span></code></pre></div>
-
+<span class="k">end</span></code></pre></figure></p>
 
 <p>In a controller, we can then add a <a href="http://guides.rubyonrails.org/getting_started.html#security">before_filter</a> to require authentication for all methods but the <em>index</em> and the <em>show</em>.</p>
 
-<div class="highlight"><pre><code class="language-ruby" data-lang="ruby"><span class="k">class</span> <span class="nc">ImagesController</span> <span class="o">&lt;</span> <span class="no">ApplicationController</span>
+<p><figure class="highlight"><pre><code class="language-ruby" data-lang="ruby"><span></span><span class="k">class</span> <span class="nc">ImagesController</span> <span class="o">&lt;</span> <span class="no">ApplicationController</span>
   <span class="n">before_filter</span> <span class="ss">:authenticate</span><span class="p">,</span> <span class="ss">:except</span> <span class="o">=&gt;</span> <span class="o">[</span><span class="ss">:index</span><span class="p">,</span> <span class="ss">:show</span><span class="o">]</span>
   <span class="c1">#...</span>
-<span class="k">end</span></code></pre></div>
-
+<span class="k">end</span></code></pre></figure></p>
 
 <p>A new file under <em>config/initializers</em>, named <em>user.rb</em> or anything else you want, contains the hardcoded username or password. Putting it in a separate file allows you to leave it out of your version-control, for example.</p>
 
-<div class="highlight"><pre><code class="language-ruby" data-lang="ruby"><span class="no">USER_ID</span>   <span class="o">=</span> <span class="s2">&quot;Sauron&quot;</span>
-<span class="no">PASSWORD</span>  <span class="o">=</span> <span class="s2">&quot;s3cr3t&quot;</span></code></pre></div>
-
+<p><figure class="highlight"><pre><code class="language-ruby" data-lang="ruby"><span></span><span class="no">USER_ID</span>   <span class="o">=</span> <span class="s2">&quot;Sauron&quot;</span>
+<span class="no">PASSWORD</span>  <span class="o">=</span> <span class="s2">&quot;s3cr3t&quot;</span></code></pre></figure></p>
 
 <p>Furhtermore, we define a <em>logged_in?</em> helper, usefull in our views. This checks if the authorization is a string (it is set) or <em>nil</em> (user is not authorized):</p>
 
-<div class="highlight"><pre><code class="language-ruby" data-lang="ruby"><span class="k">module</span> <span class="nn">ApplicationHelper</span>
+<p><figure class="highlight"><pre><code class="language-ruby" data-lang="ruby"><span></span><span class="k">module</span> <span class="nn">ApplicationHelper</span>
  <span class="k">def</span> <span class="nf">logged_in?</span>
    <span class="ow">not</span> <span class="n">request</span><span class="o">.</span><span class="n">authorization</span><span class="o">.</span><span class="n">nil?</span>
  <span class="k">end</span>
-<span class="k">end</span></code></pre></div>
-
+<span class="k">end</span></code></pre></figure></p>
 
 <p>Using that helper is simple too. E.g. <em>show.html.erb</em>:</p>
 
-<div class="highlight"><pre><code class="language-ruby" data-lang="ruby"><span class="o">&lt;</span><span class="sx">% if </span><span class="n">logged_in?</span> <span class="sx">%&gt;</span>
+<p><figure class="highlight"><pre><code class="language-ruby" data-lang="ruby"><span></span><span class="o">&lt;</span><span class="sx">% if </span><span class="n">logged_in?</span> <span class="sx">%&gt;</span>
 <span class="sx">  &lt;li&gt;</span><span class="o">&lt;%=</span> <span class="n">link_to</span> <span class="s1">&#39;Edit&#39;</span><span class="p">,</span> <span class="n">edit_image_path</span><span class="p">(</span><span class="vi">@image</span><span class="p">)</span> <span class="sx">%&gt;&lt;/li&gt;</span>
-<span class="o">&lt;</span><span class="sx">% end </span><span class="o">%&gt;</span></code></pre></div>
-
+<span class="o">&lt;</span><span class="sx">% end </span><span class="o">%&gt;</span></code></pre></figure></p>
 
 <p>I am not certain if this evaluation of <em>request.authorization.nil?</em> performs all that well, but I would say, it being simple as possible, that the overhead is minimal.</p>
 
@@ -179,21 +174,6 @@ This method uses the Rails/Rack helper <a href="http://apidock.com/rails/ActionC
   </p>
 </div>
 
-<div id="disqus_thread"></div>
-<script type="text/javascript">
-    var disqus_developer = 1;
-    var disqus_shortname = 'berkes'; // required: replace example with your forum shortname
-    
-    /* * * DON'T EDIT BELOW THIS LINE * * */
-    (function() {
-        var dsq = document.createElement('script'); dsq.type = 'text/javascript'; dsq.async = true;
-        dsq.src = 'http://' + disqus_shortname + '.disqus.com/embed.js';
-        (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(dsq);
-    })();
-</script>
-<noscript>Please enable JavaScript to view the <a href="http://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
-<a href="http://disqus.com" class="dsq-brlink">blog comments powered by <span class="logo-disqus">Disqus</span></a>
-
 <hr/>
 <aside>
   
@@ -202,13 +182,13 @@ This method uses the Rails/Rack helper <a href="http://apidock.com/rails/ActionC
   
   <ul>
     
-      <li><span>November 13, 2017</span> &raquo; <a href="/2017/11/13/f-rite-air-ico">F/Rite Air ICO</a></li>
+      <li><span>November 13, 2017</span> &raquo; <a href="/2017/11/13/f-rite-air-ico/">F/Rite Air ICO</a></li>
 
     
-      <li><span>April  6, 2016</span> &raquo; <a href="/2016/04/06/simple-time-logging-on-top-of-git-flow">Simple time logging on top of git flow</a></li>
+      <li><span>April  6, 2016</span> &raquo; <a href="/2016/04/06/simple-time-logging-on-top-of-git-flow/">Simple time logging on top of git flow</a></li>
 
     
-      <li><span>December 14, 2015</span> &raquo; <a href="/2015/12/14/beste-nunl-dit-vinden-wij-jammer">Beste Nu.nl. Dit vinden wij jammer.</a></li>
+      <li><span>December 14, 2015</span> &raquo; <a href="/2015/12/14/beste-nunl-dit-vinden-wij-jammer/">Beste Nu.nl. Dit vinden wij jammer.</a></li>
 
     
   </ul>
@@ -230,7 +210,7 @@ This method uses the Rails/Rack helper <a href="http://apidock.com/rails/ActionC
           </p>
       </div>
       <div class="four columns">
-        Copyright 2001-2017
+        Copyright 2001-2018
         with a
         <a href="http://creativecommons.org/licenses/by-sa/3.0/" rel="license">Creative Commons Attribute-Share-alike 3.0 Unported license</a>
       </div>

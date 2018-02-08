@@ -158,13 +158,12 @@ deploy</strong></a>.</p>
 <p>The <a href="https://github.com/piratenpartij/lidworden">code</a> consists of a few
 directories and a very few files.</p>
 
-<div class="highlight"><pre><code class="language-php" data-lang="php"><span class="nx">├</span> <span class="nx">Slim</span>        <span class="c1"># Contains the Slim Framework Library (classes)</span>
+<p><figure class="highlight"><pre><code class="language-php" data-lang="php"><span></span><span class="nx">├</span> <span class="nx">Slim</span>        <span class="c1"># Contains the Slim Framework Library (classes)</span>
 <span class="nx">├</span> <span class="nx">templates</span>   <span class="c1"># Contains snippets and PHP-files to render the actual HTML</span>
 <span class="nx">├</span> <span class="nx">config</span><span class="o">.</span><span class="nx">inc</span>  <span class="c1"># A few settings and globals</span>
 <span class="nx">├</span> <span class="nx">ideal</span><span class="o">.</span><span class="nx">inc</span>   <span class="c1"># Class/lib to handle the payment processor</span>
 <span class="nx">├</span> <span class="nx">index</span><span class="o">.</span><span class="nx">php</span>   <span class="c1"># The actual application</span>
-<span class="nx">└</span> <span class="nx">secrets</span><span class="o">.</span><span class="nx">inc</span> <span class="c1"># file which is excluded from the public git and from the docroot.</span></code></pre></div>
-
+<span class="nx">└</span> <span class="nx">secrets</span><span class="o">.</span><span class="nx">inc</span> <span class="c1"># file which is excluded from the public git and from the docroot.</span></code></pre></figure></p>
 
 <h3>Template</h3>
 
@@ -189,8 +188,8 @@ practical.</p>
 <p>In a Slim application, you set up routes that react to a HTTP-request,
 do stuff, and then return other stuff. Like so</p>
 
-<div class="highlight"><pre><code class="language-php" data-lang="php"><span class="nv">$app</span><span class="o">-&gt;</span><span class="na">get</span><span class="p">(</span><span class="s1">&#39;/&#39;</span><span class="p">,</span> <span class="k">function</span> <span class="p">()</span> <span class="k">use</span> <span class="p">(</span><span class="nv">$app</span><span class="p">)</span> <span class="p">{</span>
-  <span class="nv">$app</span><span class="o">-&gt;</span><span class="na">render</span><span class="p">(</span><span class="s1">&#39;_head.inc&#39;</span><span class="p">);</span>
+<p><figure class="highlight"><pre><code class="language-php" data-lang="php"><span></span><span class="nv">$app</span><span class="o">-&gt;</span><span class="na">get</span><span class="p">(</span><span class="s1">&#39;/&#39;</span><span class="p">,</span> <span class="k">function</span> <span class="p">()</span> <span class="k">use</span> <span class="p">(</span><span class="nv">$app</span><span class="p">)</span> <span class="p">{</span>
+  <span class="nv">$app</span><span class="o">-&gt;</span><span class="na">render</span><span class="p">(</span><span class="s1">&#39;<em>head.inc&#39;</span><span class="p">);</span>
   <span class="nv">$app</span><span class="o">-&gt;</span><span class="na">render</span><span class="p">(</span>
     <span class="s1">&#39;landing.php&#39;</span><span class="p">,</span>
     <span class="k">array</span><span class="p">(</span>
@@ -198,9 +197,8 @@ do stuff, and then return other stuff. Like so</p>
       <span class="s1">&#39;actions&#39;</span> <span class="o">=&gt;</span> <span class="nx">get_actions</span><span class="p">(),</span>
     <span class="p">)</span>
   <span class="p">);</span>
-  <span class="nv">$app</span><span class="o">-&gt;</span><span class="na">render</span><span class="p">(</span><span class="s1">&#39;_footer.inc&#39;</span><span class="p">);</span>
-  <span class="p">});</span></code></pre></div>
-
+  <span class="nv">$app</span><span class="o">-&gt;</span><span class="na">render</span><span class="p">(</span><span class="s1">&#39;</em>footer.inc&#39;</span><span class="p">);</span>
+  <span class="p">});</span></code></pre></figure></p>
 
 <p>This is a PHP5 syntax, where you can create
 The above does the following:</p>
@@ -219,22 +217,22 @@ requested. PHP5 supports <a href="http://www.php.net/manual/en/functions.anonymo
 <p>When you post this form, a slightly more complex function is called, the
 simplified version of that is:</p>
 
-<div class="highlight"><pre><code class="language-php" data-lang="php"><span class="nv">$app</span><span class="o">-&gt;</span><span class="na">post</span><span class="p">(</span><span class="s1">&#39;/pirate&#39;</span><span class="p">,</span> <span class="k">function</span> <span class="p">()</span> <span class="k">use</span> <span class="p">(</span><span class="nv">$app</span><span class="p">)</span> <span class="p">{</span>
+<p><figure class="highlight"><pre><code class="language-php" data-lang="php"><span></span><span class="nv">$app</span><span class="o">-&gt;</span><span class="na">post</span><span class="p">(</span><span class="s1">&#39;/pirate&#39;</span><span class="p">,</span> <span class="k">function</span> <span class="p">()</span> <span class="k">use</span> <span class="p">(</span><span class="nv">$app</span><span class="p">)</span> <span class="p">{</span>
   <span class="nv">$pirate</span> <span class="o">=</span> <span class="nv">$app</span><span class="o">-&gt;</span><span class="na">request</span><span class="p">()</span><span class="o">-&gt;</span><span class="na">params</span><span class="p">();</span>
-  <span class="c1">//... more preparing of the $pirate that will be stored in the database</span>
+  <span class="c1">//... more preparing of the $pirate that will be stored in the database</span></p>
 
-  <span class="k">if</span> <span class="p">(</span><span class="o">!</span><span class="nx">valid</span><span class="p">(</span><span class="nv">$app</span><span class="p">,</span><span class="s1">&#39;email&#39;</span><span class="p">,</span> <span class="k">FALSE</span><span class="p">,</span> <span class="s1">&#39;/.+@.+\..+/&#39;</span><span class="p">,</span> <span class="s1">&#39;E-mailadres is niet correct&#39;</span><span class="p">))</span> <span class="p">{</span>
+<p>  <span class="k">if</span> <span class="p">(</span><span class="o">!</span><span class="nx">valid</span><span class="p">(</span><span class="nv">$app</span><span class="p">,</span><span class="s1">&#39;email&#39;</span><span class="p">,</span> <span class="k">FALSE</span><span class="p">,</span> <span class="s1">&#39;/.+@.+..+/&#39;</span><span class="p">,</span> <span class="s1">&#39;E-mailadres is niet correct&#39;</span><span class="p">))</span> <span class="p">{</span>
     <span class="c1">//...Lots of other validations of all the fields.</span>
     <span class="nv">$app</span><span class="o">-&gt;</span><span class="na">redirect</span><span class="p">(</span><span class="s2">&quot;/&quot;</span><span class="p">);</span>
-  <span class="p">}</span>
+  <span class="p">}</span></p>
 
-  <span class="nv">$pirate</span> <span class="o">=</span> <span class="nx">write_pirate</span><span class="p">(</span><span class="nv">$pirate</span><span class="p">);</span>
-  <span class="nx">write_mail</span><span class="p">(</span><span class="nv">$pirate</span><span class="p">);</span>
+<p>  <span class="nv">$pirate</span> <span class="o">=</span> <span class="nx">write_pirate</span><span class="p">(</span><span class="nv">$pirate</span><span class="p">);</span>
+  <span class="nx">write_mail</span><span class="p">(</span><span class="nv">$pirate</span><span class="p">);</span></p>
 
-  <span class="nv">$ideal</span> <span class="o">=</span> <span class="k">new</span> <span class="nx">Ideal</span><span class="p">(</span><span class="nx">MERCHANT_ID</span><span class="p">,</span> <span class="nx">SUB_ID</span><span class="p">,</span> <span class="nx">HASH_KEY</span><span class="p">,</span> <span class="nx">AQUIRER_URL</span><span class="p">);</span>
-  <span class="c1">//... Preparing a hidden form for payment</span>
+<p>  <span class="nv">$ideal</span> <span class="o">=</span> <span class="k">new</span> <span class="nx">Ideal</span><span class="p">(</span><span class="nx">MERCHANT_ID</span><span class="p">,</span> <span class="nx">SUB_ID</span><span class="p">,</span> <span class="nx">HASH_KEY</span><span class="p">,</span> <span class="nx">AQUIRER_URL</span><span class="p">);</span>
+  <span class="c1">//... Preparing a hidden form for payment</span></p>
 
-  <span class="nv">$app</span><span class="o">-&gt;</span><span class="na">render</span><span class="p">(</span><span class="s1">&#39;_head.inc&#39;</span><span class="p">);</span>
+<p>  <span class="nv">$app</span><span class="o">-&gt;</span><span class="na">render</span><span class="p">(</span><span class="s1">&#39;<em>head.inc&#39;</span><span class="p">);</span>
   <span class="nv">$app</span><span class="o">-&gt;</span><span class="na">render</span><span class="p">(</span>
     <span class="s1">&#39;pirate.php&#39;</span><span class="p">,</span>
     <span class="k">array</span><span class="p">(</span>
@@ -242,9 +240,8 @@ simplified version of that is:</p>
       <span class="s1">&#39;url&#39;</span> <span class="o">=&gt;</span> <span class="nv">$ideal</span><span class="o">-&gt;</span><span class="na">aquirer_url</span><span class="p">,</span>
     <span class="p">)</span>
   <span class="p">);</span>
-  <span class="nv">$app</span><span class="o">-&gt;</span><span class="na">render</span><span class="p">(</span><span class="s1">&#39;_footer.inc&#39;</span><span class="p">);</span>
-  <span class="p">});</span></code></pre></div>
-
+  <span class="nv">$app</span><span class="o">-&gt;</span><span class="na">render</span><span class="p">(</span><span class="s1">&#39;</em>footer.inc&#39;</span><span class="p">);</span>
+  <span class="p">});</span></code></pre></figure></p>
 
 <p>The values you posted are validated, then written to the database, and
 placed in a mail.</p>
@@ -263,21 +260,20 @@ values and present the customer with a payment-workflow.</p>
 chance they end on <code>/error</code>. Because this is by no means a confirmation,
 we simply render a success or error page there; but take no actions.</p>
 
-<div class="highlight"><pre><code class="language-php" data-lang="php"><span class="nv">$app</span><span class="o">-&gt;</span><span class="na">get</span><span class="p">(</span><span class="s1">&#39;/error&#39;</span><span class="p">,</span> <span class="k">function</span> <span class="p">()</span> <span class="k">use</span> <span class="p">(</span><span class="nv">$app</span><span class="p">)</span> <span class="p">{</span>
- <span class="nv">$app</span><span class="o">-&gt;</span><span class="na">render</span><span class="p">(</span><span class="s1">&#39;_head.inc&#39;</span><span class="p">);</span>
+<p><figure class="highlight"><pre><code class="language-php" data-lang="php"><span></span><span class="nv">$app</span><span class="o">-&gt;</span><span class="na">get</span><span class="p">(</span><span class="s1">&#39;/error&#39;</span><span class="p">,</span> <span class="k">function</span> <span class="p">()</span> <span class="k">use</span> <span class="p">(</span><span class="nv">$app</span><span class="p">)</span> <span class="p">{</span>
+ <span class="nv">$app</span><span class="o">-&gt;</span><span class="na">render</span><span class="p">(</span><span class="s1">&#39;<em>head.inc&#39;</span><span class="p">);</span>
  <span class="nv">$app</span><span class="o">-&gt;</span><span class="na">render</span><span class="p">(</span>
     <span class="s1">&#39;error.php&#39;</span>
   <span class="p">);</span>
-  <span class="nv">$app</span><span class="o">-&gt;</span><span class="na">render</span><span class="p">(</span><span class="s1">&#39;_footer.inc&#39;</span><span class="p">);</span>
-<span class="p">});</span></code></pre></div>
-
+  <span class="nv">$app</span><span class="o">-&gt;</span><span class="na">render</span><span class="p">(</span><span class="s1">&#39;</em>footer.inc&#39;</span><span class="p">);</span>
+<span class="p">});</span></code></pre></figure></p>
 
 <p>Other ideal-versions have a Post-back system, where their server
 confirms the payment; one of the earlier version of this application had
 that, since we did not know exactly what iDeal-version we'd go with. A
 confirm would be really simple to implement here:</p>
 
-<div class="highlight"><pre><code class="language-php" data-lang="php"><span class="nv">$app</span><span class="o">-&gt;</span><span class="na">post</span><span class="p">(</span><span class="s1">&#39;/confirm&#39;</span><span class="p">,</span> <span class="k">function</span> <span class="p">()</span> <span class="k">use</span> <span class="p">(</span><span class="nv">$app</span><span class="p">)</span> <span class="p">{</span>
+<p><figure class="highlight"><pre><code class="language-php" data-lang="php"><span></span><span class="nv">$app</span><span class="o">-&gt;</span><span class="na">post</span><span class="p">(</span><span class="s1">&#39;/confirm&#39;</span><span class="p">,</span> <span class="k">function</span> <span class="p">()</span> <span class="k">use</span> <span class="p">(</span><span class="nv">$app</span><span class="p">)</span> <span class="p">{</span>
   <span class="nv">$payment</span> <span class="o">=</span> <span class="nv">$app</span><span class="o">-&gt;</span><span class="na">request</span><span class="p">()</span><span class="o">-&gt;</span><span class="na">params</span><span class="p">();</span>
   <span class="nv">$db</span> <span class="o">=</span> <span class="nx">get_connection</span><span class="p">();</span>
   <span class="nv">$stmt</span> <span class="o">=</span> <span class="nv">$db</span><span class="o">-&gt;</span><span class="na">prepare</span><span class="p">(</span><span class="s2">&quot;UPDATE pirates SET status = :status WHERE id =</span>
@@ -285,8 +281,7 @@ confirm would be really simple to implement here:</p>
   <span class="nv">$stmt</span><span class="o">-&gt;</span><span class="na">bindParam</span><span class="p">(</span><span class="s2">&quot;status&quot;</span><span class="p">,</span> <span class="nv">$payment</span><span class="p">[</span><span class="s2">&quot;paymentStatus&quot;</span><span class="p">]);</span>
   <span class="nv">$stmt</span><span class="o">-&gt;</span><span class="na">bindParam</span><span class="p">(</span><span class="s2">&quot;pirate_id&quot;</span><span class="p">,</span> <span class="nv">$payment</span><span class="p">[</span><span class="s2">&quot;purchaseID&quot;</span><span class="p">]);</span>
   <span class="nv">$stmt</span><span class="o">-&gt;</span><span class="na">execute</span><span class="p">();</span>
-<span class="p">});</span></code></pre></div>
-
+<span class="p">});</span></code></pre></figure></p>
 
 <p>Obviously, in reality you'd probably need to parse the $payment to
 extract the correct information (the status and the user whose payment
@@ -388,21 +383,6 @@ alone built with Zend, Rails or Whatever other framework.</p>
   </p>
 </div>
 
-<div id="disqus_thread"></div>
-<script type="text/javascript">
-    var disqus_developer = 1;
-    var disqus_shortname = 'berkes'; // required: replace example with your forum shortname
-    
-    /* * * DON'T EDIT BELOW THIS LINE * * */
-    (function() {
-        var dsq = document.createElement('script'); dsq.type = 'text/javascript'; dsq.async = true;
-        dsq.src = 'http://' + disqus_shortname + '.disqus.com/embed.js';
-        (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(dsq);
-    })();
-</script>
-<noscript>Please enable JavaScript to view the <a href="http://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
-<a href="http://disqus.com" class="dsq-brlink">blog comments powered by <span class="logo-disqus">Disqus</span></a>
-
 <hr/>
 <aside>
   
@@ -411,13 +391,13 @@ alone built with Zend, Rails or Whatever other framework.</p>
   
   <ul>
     
-      <li><span>November 13, 2017</span> &raquo; <a href="/2017/11/13/f-rite-air-ico">F/Rite Air ICO</a></li>
+      <li><span>November 13, 2017</span> &raquo; <a href="/2017/11/13/f-rite-air-ico/">F/Rite Air ICO</a></li>
 
     
-      <li><span>April  6, 2016</span> &raquo; <a href="/2016/04/06/simple-time-logging-on-top-of-git-flow">Simple time logging on top of git flow</a></li>
+      <li><span>April  6, 2016</span> &raquo; <a href="/2016/04/06/simple-time-logging-on-top-of-git-flow/">Simple time logging on top of git flow</a></li>
 
     
-      <li><span>December 14, 2015</span> &raquo; <a href="/2015/12/14/beste-nunl-dit-vinden-wij-jammer">Beste Nu.nl. Dit vinden wij jammer.</a></li>
+      <li><span>December 14, 2015</span> &raquo; <a href="/2015/12/14/beste-nunl-dit-vinden-wij-jammer/">Beste Nu.nl. Dit vinden wij jammer.</a></li>
 
     
   </ul>
@@ -439,7 +419,7 @@ alone built with Zend, Rails or Whatever other framework.</p>
           </p>
       </div>
       <div class="four columns">
-        Copyright 2001-2017
+        Copyright 2001-2018
         with a
         <a href="http://creativecommons.org/licenses/by-sa/3.0/" rel="license">Creative Commons Attribute-Share-alike 3.0 Unported license</a>
       </div>
