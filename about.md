@@ -3,6 +3,7 @@ layout: page
 title : About Bèr Kessels
 header : About Bèr Kessels
 group: navigation
+permalink: /about.html
 lang: en
 ---
 

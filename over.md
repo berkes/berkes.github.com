@@ -3,6 +3,7 @@ layout: page
 title : Over Bèr Kessels
 header : Over Bèr Kessels
 group: navigation
+permalink: /over.html
 lang: nl
 ---
 Ik ben Bèr Kessels, een freelance **webontwikkelaar**. Ik focus me op
