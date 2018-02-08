@@ -29,6 +29,10 @@ author :
 #
 production_url : http://berk.es
 
+# Ensure that the timezone is always maintained at Amsterdam,
+# regardless of the location where the site is being built.
+timezone: "Europe/Amsterdam"
+
 # All Jekyll-Bootstrap specific configurations are namespaced into this hash
 #
 JB :
