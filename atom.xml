@@ -4,13 +4,199 @@
  <title>Bèr ‘berkes’ Kessels</title>
  <link href="http://berk.es/atom.xml" rel="self"/>
  <link href="http://berk.es"/>
- <updated>2018-02-08T08:52:36+01:00</updated>
+ <updated>2018-02-09T12:26:56+01:00</updated>
  <id>http://berk.es</id>
  <author>
    <name>Bèr ‘berkes’ Kessels</name>
    <email>ber@berk.es</email>
  </author>
 
+ 
+ <entry>
+   <title>Bitcoin turning into a multi layered system is the most interesting thing in crypto in 2018</title>
+   <link href="http://berk.es/2018/02/09/bitcoin-turning-into-a-multi-layered-system-is-the-most-interesting-thing-in-crypto-in-2018/"/>
+   <updated>2018-02-09T00:00:00+01:00</updated>
+   <id>http://berk.es/2018/02/09/bitcoin-turning-into-a-multi-layered-system-is-the-most-interesting-thing-in-crypto-in-2018</id>
+   <content type="html">&lt;p&gt;When you use Tinder, and you swipe someone, you probably don't sit there
+thinking &quot;Let's create some TCP packages and send them over IP, hoping
+they reach the phone of that nice looking fellow there&quot;.  You probably
+just think in terms of &quot;lets swipe this nice fellow, Leo&quot;&lt;/p&gt;
+
+&lt;p&gt;I'm bringing Tinder into this story to show the power of a layered
+architecture. You can swipe Leo because the Internet is made out of
+layers that You, Tinder, your phone, apps, your browser, can use for
+&quot;free&quot;. Disclaimer: I don't actually have a Tinder, so I actually don't
+know if &quot;swiping&quot; is the right term. But, well, this is a story about
+Bitcoin.&lt;/p&gt;
+
+&lt;p&gt;So, TCP/IP is made up out of four layers: Link layer, Internet Layer,
+Transport Layer and Application Layer. For this story, only the last
+two are interesting. On the internet, data is transported in the
+transport layer. Applications such as your browser, Tinder,
+your email-client or even the security camera at your front-door, use
+the transport layer to transport data. The power of this design becomes
+apparent if you turn it around: Applications don't need to invent,
+maintain or run their own network, cables, or protocols. They can just
+tell the Transport layer &quot;Hey, I've got a swipe, for Leo, can you
+deliver it to the Tinder servers? (so they can send it along to Leo)&quot;.&lt;/p&gt;
+
+&lt;p&gt;Now, back to Bitcoin. The Bitcoin community is rolling out
+this thing called &quot;&lt;a href=&quot;https://lightning.network&quot;&gt;Lightning Network&lt;/a&gt;&quot;. It is a layer on top of
+Bitcoin, in which value can be transported between people (aka &quot;make
+payments&quot;). It is &lt;em&gt;one&lt;/em&gt; of the possible layers that can run on top of
+Bitcoin, but it is the first, and an important one: making payments is
+one of the most important features of Bitcoin today, so logically that
+this is the first thing to be moved into an application layer.&lt;/p&gt;
+
+&lt;p&gt;This Lightning Network can be &lt;a href=&quot;&quot;&gt;used today&lt;/a&gt;. Sure, Leo needs to have a
+Lightning Network enabled &lt;a href=&quot;https://play.google.com/store/apps/details?id=fr.acinq.eclair.wallet&quot;&gt;client&lt;/a&gt; as &lt;a href=&quot;https://github.com/lightninglabs/lightning-app&quot;&gt;do you&lt;/a&gt;, you might need to compile some
+stuff, might need to run your own server and so on, but it &lt;em&gt;is&lt;/em&gt;
+possible. Today.&lt;/p&gt;
+
+&lt;p&gt;Essentially Lightning Network is the birth of an application layer on
+top of Bitcoin.  This might seem uneventful, but the birth of this
+second layer gives Bitcoin a new purpose: it &quot;degrades&quot; Bitcoin to a mere
+transport layer for value. This is not some &quot;Pop! And we're done&quot; event,
+but a long process. Right now, Bitcoin is that transport layer, but is
+also, still an application layer: you can buy pizza, or buy
+beekeeping-gear through this transport layer, just fine. So it isn't
+very layered &lt;em&gt;yet&lt;/em&gt;.&lt;/p&gt;
+
+&lt;p&gt;This new layer is going to be so much better at this &quot;paying&quot; thing, that it
+will take an important feature &quot;away&quot; from Bitcoin: payments. But,
+before you get all angry: like with TCP/IP, one can use a layer
+directly, if you wish. You can just skip the transport layer, and
+deliver data directly over one of the lower layers, if you insist. You
+application can skip all the application layer stuff and interact with
+the transport layer directly, which happens a lot, actually. You've probably
+seen these &quot;Use TCP/IP | use UDP&quot;-toggles in some settings of some app.
+Here an app can bypass, say, HTTP, TCP and so on, and use a much more
+raw way of delivering. You can still interact with Bitcoin, in order to
+transfer or manage funds, just fine. It's just that with this new
+Application layer, it will become much easier to just use that instead.&lt;/p&gt;
+
+&lt;p&gt;If you want to &lt;a href=&quot;https://bitcoinmagazine.com/articles/ordering-meals-with-bitcoins-takeaway-com-bitcoins-pizza-home-1385160906/&quot;&gt;buy takeway&lt;/a&gt;, or &lt;a href=&quot;https://imkershop.nl/&quot;&gt;beekeeping gear&lt;/a&gt;, today, both you
+and the recieving party interact with the Transport layer directly.
+Tomorrow, we both will interact with an application layer; probably the
+Lightning Network, to settle that payment instead.&lt;/p&gt;
+
+&lt;p&gt;There will be more layers on top of Bitcoin, there will be layers on top
+of layers on top of layers, but deep down below, Bitcoin is the Layer
+that ensures value is transferred from you to Leo.&lt;/p&gt;
+
+&lt;p&gt;To me, this proves, again, that Bitcoin, as a project, &quot;Gets It&quot;.
+Bitcoin does not need to be everything: it only needs to be a system to
+store and transfer value. Nothing more!&lt;/p&gt;
+
+&lt;p&gt;It does not need to invent, develop and maintain all the layers, just
+like Tinder does not need to maintain and invent everything from cables
+to how-to-get-a-swipe-to-Leo-protocols.
+Bitcoin needs to be a very secure, very solid, very stable layer to
+maintain these funds for all the layers on top of it. And Bitcoin is
+just that.&lt;/p&gt;
+
+&lt;p&gt;We should note, though, that a layered architecture was not envisioned
+by the inventor and early adopters of Bitcoin. They envisioned it more as a
+monolith: a single piece of software that handles all the possible
+use-cases and features in itself. At least, that is how I read the
+whitepaper: no-where was there a mention of &quot;Application layers&quot; or even
+&quot;layers&quot;.&lt;/p&gt;
+
+&lt;p&gt;Second layers can choose different models, use-cases, or different parameters.
+Lightning Network is complex but also (very) secure. It is decentralised,
+albeit maybe (time will tell) less so than Bitcoin itself. Other
+networks might opt for less security. Or even more centralisation. Or
+tweak other parameters.&lt;/p&gt;
+
+&lt;p&gt;If, for example, all you need to register is &quot;I still owe you a beer&quot;,
+there could very well be a layer that maintains &quot;all the beers owed by
+everyone&quot; in a central database (or it's own blockchain) and which
+registers a daily &quot;state of the beer&quot; on the Bitcoin layer. The
+possibilities are endless.&lt;/p&gt;
+
+&lt;p&gt;A lot of altcoins (or their advocates) did not design a layered system
+either. So many of these altcoins offer some &quot;feature&quot;, like &quot;speed&quot;, or
+&quot;programmability&quot;, or &quot;the ability to track bananas&quot; in their core.
+They often present those built-in features as &quot;the Bitcoin killer&quot;, but
+frankly, most of them have implemented these feature in the wrong place:
+as core part of their entire system, rather than as additional layers on
+top of standard value-transport-layers.&lt;/p&gt;
+
+&lt;p&gt;When you start looking at Bitcoin as &quot;merely&quot; &lt;em&gt;a the transport-layer for
+value&lt;/em&gt;, you might start to see the opportunities
+for other layers on top. And you might see a missing feature as good
+design, rather than as a missed opportunity, or as a sign that Bitcoin
+is doomed.&lt;/p&gt;
+
+&lt;p&gt;You don't need &quot;instant transactions, zero-fee&quot; in your transport-layer,
+you need that in your application layer. So saying that &quot;Ripple is
+better because it can scale up to Visa-Scale&quot; is nonsense, because you
+should also mention the trade-off: Ripple has chosen to give away a lot of
+security maybe even all of it, in order to gain speed.
+And yes, I'm picking out Ripple because I consider that the
+biggest scam of the 21st century (closely followed by the Roger Ver
+Coin, by the way). Also, I'm not saying that it is a zero-sum game: that
+you can choose either speed or security. But making trade-offs is part
+of the game. Bitcoin does not make trade-offs if that hurts the
+decentralisation-property, or if it hurts security.&lt;/p&gt;
+
+&lt;p&gt;TCP/IP is not a very efficient system. A lot of resources are spent to
+ensure your &quot;swipe for Leo&quot; ends up at Leo's phone and not at Marks'
+phone, or even your current boyfriends phone. In some cases this
+overhead can be &quot;ridiculous&quot;: sometimes far more data is sent around
+ensuring that your swipe arrives at the right place, than the actual
+content of, say, the swipe itself. I mean: TCP/IP is brilliant, but it
+needs a lot of trade-offs to be fault-tolerant, decentralised, secure
+and stable. Sometimes systems choose different protocols because TCP/IP
+is just not fast enough: you don't connect your computer-screen over the
+network to your computer, you use HDMI, or VGA: some other protocol that
+is much better at delivering pixels to your screen.&lt;/p&gt;
+
+&lt;p&gt;Bitcoin's function is similar: it needs to be solid and secure. It must
+be slow and clunky, if that is what is needed to be solid and secure.
+It's sole function is to guarantee that your funds are secure, that
+transactions are valid and that there is no single party that can take
+over the network or your funds.&lt;/p&gt;
+
+&lt;p&gt;As such, Bitcoin does not include a &quot;programming language&quot;, like Ethereum
+does (Note: I actually &lt;em&gt;do&lt;/em&gt; like Ethereum but for different reasons),
+because Bitcoin chooses security over &quot;fancy&quot; new features like
+programming languages. It leaves things like &quot;smart contracts&quot; or
+&quot;programmability&quot; to another layer. Instead of including it in the base
+layer. Note, though that such a smart-contract-layer does not (really)
+exist yet, but nothing fundamental stops it from being rolled out.&lt;/p&gt;
+
+&lt;p&gt;Nor does Bitcoin offer very good privacy (compared to e.g. Monero or
+Dash). But there could very well be an application layer, some
+alternative to Lightning Network that enhances privacy. So, rather than
+building it into the base layer, it leaves increased privacy to the
+application layer.&lt;/p&gt;
+
+&lt;p&gt;Bitcoin does not offer an exchange in it's base-layer either (Like e.g.
+Stellar does). Nor does it offer file-storage, computing power or
+&lt;a href=&quot;https://bananacoin.io/&quot;&gt;tracking of Banana's&lt;/a&gt; in it's base layer.&lt;/p&gt;
+
+&lt;p&gt;By &lt;em&gt;not&lt;/em&gt; implementing features, by choosing to be conservative, Bitcoin
+remains the most secure, most solid, and most predictable Transport
+Layer for transporting value. Ever. Exactly the features you want from
+such a basic layer.&lt;/p&gt;
+
+&lt;p&gt;As a closing note, I'd like to stress that there certainly are
+altcoin-projects that are completely layered by design. Quite some
+&quot;cryptocurrency projects&quot; are actually an application layer on top of
+another transport layer: a vast majority of altcoins are basically
+tokens on Ethereum: they &lt;em&gt;are the Application layer&lt;/em&gt; on top of Ethereum!
+So: I'm not saying that all altcoins are wrong and only Bitcoin get's it
+right: I'm only offering an alternative way to view Bitcoin: not as a
+polished, finished, fancy project to be downloaded from the iTunes
+store, but as a single, technical layer. An important component
+in a vast and rapidly changing new field: managing value online.&lt;/p&gt;
+
+&lt;p&gt;Positive feedback, as well as images of cats, calling me &lt;em&gt;literally
+hitler&lt;/em&gt; for hating on your beloved altcoins, or other comments are very welcome
+at &lt;a href=&quot;https://twitter.com/berkes&quot;&gt;my twitter&lt;/a&gt; or &lt;a href=&quot;https://www.reddit.com/u/berkes&quot;&gt;on reddit&lt;/a&gt;.&lt;/p&gt;
+</content>
+ </entry>
  
  <entry>
    <title>F/Rite Air ICO</title>
@@ -6735,15 +6921,6 @@ Overigens behoud ik wel een afbreek-mogelijkheid. Als ik na een week helemaal kn
 &lt;p&gt;Zodat ik deze ruis uit facebook en twitter kan weghalen, maar toch registreer. Ik doe dit overigens met de &lt;a href=&quot;http://drupal.org/project/activitystream&quot;&gt;Drupal activity stream module&lt;/a&gt;.&lt;/p&gt;
 
 &lt;p&gt;Als volgende stap broed ik nog op 'de conversatie vangen':Waarbij reacties op mijn acties zoals &quot;Karel vindt dit leuk&quot;, of &quot;RT @berkes: Foo is niet Bar&quot;. Of &quot;@berkes: inderdaad, wat een kluns!&quot;. Kortom, de eerste stap nét buiten mijn netwerk. En ook wil ik gaan experimenteren met &quot;dagelijkse digests&quot;. Waarin uit alle brei, de zaken die deze dag komen bovenborrelen uitgelicht worden. Denk aan tweets die een paar maal geretweet werden. Of aan dat ene facebook bericht waar een paar mensen op reageerden. Kortom: die &quot;activiteiten&quot;, automatisch verzamelen, die deze dag aandacht verdienden. En kregen. Als je ideeën hebt over die laatste twee, of ze al ergens ingezet ziet, hoor ik dat graag.&lt;/p&gt;
-</content>
- </entry>
- 
- <entry>
-   <title>Sea Sheperd botst met walvisvaarders: de Sea Sheperd kant in video</title>
-   <link href="http://berk.es/2010/01/07/sea-sheperd-botst-met-walvisvaarders-de-sea-sheperd-kant-in-video/"/>
-   <updated>2010-01-07T00:00:00+01:00</updated>
-   <id>http://berk.es/2010/01/07/sea-sheperd-botst-met-walvisvaarders-de-sea-sheperd-kant-in-video</id>
-   <content type="html">&lt;p&gt;Een boot van de Sea Sheperd botst met walvisvaarders. Het NOs journaal toont beelden, maar, zo lijkt het, alleen de beelden die de Japanse kant van het verhaal ondersteunen. Gelukkig is op Internet altijd &lt;a href=&quot;http://www.youtube.com/watch?v=MhGSQ46a9X8&quot;&gt;meer materiaal&lt;/a&gt; te vinden. &lt;object width=&quot;425&quot; height=&quot;344&quot;&gt;&lt;param name=&quot;movie&quot; value=&quot;http://www.youtube.com/v/MhGSQ46a9X8&amp;hl=nl_NL&amp;fs=1&amp;&quot; /&gt;&lt;param name=&quot;allowFullScreen&quot; value=&quot;true&quot; /&gt;&lt;param name=&quot;allowscriptaccess&quot; value=&quot;always&quot; /&gt;&lt;embed src=&quot;http://www.youtube.com/v/MhGSQ46a9X8&amp;hl=nl_NL&amp;fs=1&amp;&quot; type=&quot;application/x-shockwave-flash&quot; allowscriptaccess=&quot;always&quot; allowfullscreen=&quot;true&quot; width=&quot;425&quot; height=&quot;344&quot;&gt;&lt;/embed&gt;&lt;/object&gt;Ook zeker niet objectief, de beelden en commentaren in de video laten wél duidelijk zien dat de beelden die NOS ons toont alléén de Japanse kant van het verhaal vertellen en daarmee ook niet objectief zijn. Ik hoop dat het jounraal vanavond het geval iets verder uitdiept en beide kanten laat zien.&lt;!--break--&gt;&lt;/p&gt;
 </content>
  </entry>
  
