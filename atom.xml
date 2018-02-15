@@ -4,13 +4,221 @@
  <title>Bèr ‘berkes’ Kessels</title>
  <link href="http://berk.es/atom.xml" rel="self"/>
  <link href="http://berk.es"/>
- <updated>2018-02-09T12:30:11+01:00</updated>
+ <updated>2018-02-15T10:31:28+01:00</updated>
  <id>http://berk.es</id>
  <author>
    <name>Bèr ‘berkes’ Kessels</name>
    <email>ber@berk.es</email>
  </author>
 
+ 
+ <entry>
+   <title>Making a case for JavaScript, in-browser Mining</title>
+   <link href="http://berk.es/2018/02/15/making-a-case-for-javascript-mining/"/>
+   <updated>2018-02-15T00:00:00+01:00</updated>
+   <id>http://berk.es/2018/02/15/making-a-case-for-javascript-mining</id>
+   <content type="html">&lt;p&gt;So, today, &lt;a href=&quot;https://en.wikipedia.org/wiki/Brendan_Eich&quot;&gt;Brendan Eich&lt;/a&gt;
+spoke up against mining on your browser.&lt;/p&gt;
+
+&lt;p&gt;Eich is the founder of Mozilla, Inventor or JavaScript, and current CEO of the ground-breaking browser &lt;a href=&quot;https://brave.com/&quot;&gt;Brave&lt;/a&gt;.&lt;/p&gt;
+
+&lt;p&gt;On &lt;a href=&quot;https://twitter.com/BrendanEich/status/963845740077314048&quot;&gt;twitter, he says&lt;/a&gt;:&lt;/p&gt;
+
+&lt;blockquote&gt;&lt;p&gt;Brave now blocks the abusive-even-when-opt-in (1.75 cores on my MBP
+which became too hot to call a laptop) 1st party Monero mining script
+at Salon, thanks to fast work by @lukemulks.&lt;/p&gt;&lt;/blockquote&gt;
+
+&lt;p&gt;I have several problems with this tweet, and this this new
+block-them-all feature in the Brave browser and most adblockers.
+Which I'll explain below.&lt;/p&gt;
+
+&lt;p&gt;First, some background on Brave: Brave has it's own cryptocurrency, BAT,
+which is a payment system that allows you, the user of Brave, to pay a
+website or publisher. A very nice alternative for ads, so to say.&lt;/p&gt;
+
+&lt;p&gt;I love this idea, on a high level: to let me, a user, decide
+to pay a site that I peruse. I've ran Brave ever since they came with
+this idea and a built-in Bitcoin Wallet, to leverage this same idea
+(which they now moved to a BAT system).&lt;/p&gt;
+
+&lt;p&gt;Now, some background on browser-mining. Quite some cryptocurrencies use
+&lt;a href=&quot;https://en.bitcoin.it/wiki/CryptoNight&quot;&gt;a mining algorithm&lt;/a&gt; for which making specialised hardware is impossible
+(currently infeasible, actually). &lt;a href=&quot;https://getmonero.org/&quot;&gt;Monero&lt;/a&gt; is one of them, the most
+famous. So, Monero, for example, is mined on &quot;normal&quot; CPU's. In order to
+mine more Monero, you need more CPU's. And because of how the mining
+works, it can be done in your browser, using a miner that is written in
+JavaScript: a browser miner.
+And when I want to &quot;mine more Monero&quot;, where can I &quot;obtain&quot; more CPU? Right: by running that miner on the
+visitors of a website.&lt;/p&gt;
+
+&lt;p&gt;I've spent 3 hours writing this article, spent ฿130 on
+coffee (That is Thai Baht, not Bitcoin) and considerable research on
+monero and coinhive to get this to you. If you like my work, consider
+pressing the button below, to run a miner on your computer, and pay me
+with a few Watts of your electricity. Or to see how it works, without
+paying me, see the &lt;a href=&quot;https://coinhive.com&quot;&gt;demo on Coinhive&lt;/a&gt;.&lt;/p&gt;
+
+&lt;script src=&quot;https://authedmine.com/lib/simple-ui.min.js&quot; async&gt;&lt;/script&gt;
+
+
+&lt;div class=&quot;coinhive-miner&quot; 
+    style=&quot;width: 638; height: 110px&quot;
+    data-key=&quot;VIdRYiFeVMnRF81dydg1ey4MTdHKE4xq&quot;
+    data-autostart=&quot;false&quot;
+    data-whitelabel=&quot;false&quot;
+    data-background=&quot;#000000&quot;
+    data-text=&quot;#eeeeee&quot;
+    data-action=&quot;#00ff00&quot;
+    data-graph=&quot;#555555&quot;
+    data-threads=&quot;2&quot;
+    data-throttle=&quot;0.5&quot;&gt;
+    &lt;em&gt;Loading...&lt;/em&gt;
+&lt;/div&gt;
+
+
+&lt;p&gt;Note that there's is a big chance that your adblocker is blocking it, so
+&lt;a href=&quot;https://authedmine.com/media/miner.html?key=VIdRYiFeVMnRF81dydg1ey4MTdHKE4xq&quot;&gt;head over to a standalone page
+instead&lt;/a&gt;,
+if you wish. Or disable the adblocker, I'm running nothing but my own
+piwik - pinky promise.&lt;/p&gt;
+
+&lt;p&gt;The first problem with Brave's implementation, is that it is default-on
+and an all-or-nothing thing. An alternative would be a popup like
+&quot;Google Maps want's to access your location. [Allow] [Never]&quot;. You've
+probably seen it. Below is an example from Chrome (in Dutch, sorry):&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/images/inline/confirmation.png&quot; alt=&quot;Confirmation dialog example&quot; /&gt;&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;berk.es wants to
+  mine Cryptocurrency on your laptop.
+
+                     [Block] [Allow]
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;Imagine the possibilities:&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;Donate to Wikipedia by mining a few minutes, instead of dealing with their annoying beggar-popups&lt;/li&gt;
+&lt;li&gt;Use Netflix for free, by running a miner on one CPU core when watching
+  series.&lt;/li&gt;
+&lt;li&gt;Avoid the privacy-abusive advertising industry by running JavaScript
+  on your computer, rather than tracking users all over the place.&lt;/li&gt;
+&lt;li&gt;CAPTHCA's, DDoS protection, all by running a few seconds of a miner on
+  your laptop.&lt;/li&gt;
+&lt;li&gt;Have &quot;outgoing affiliate links&quot; that don't work in secret behind the
+  scenes with trackers, cookies and whatnot, but a clear &lt;code&gt;[Mine and
+  Redirect] or [skip mining]&lt;/code&gt;-page URLs. A step-up from a &lt;a href=&quot;https://cnhv.co/1ma5t&quot;&gt;link like
+  this&lt;/a&gt; (NOTE: following that link does pay me a few
+  grains of coffee actually, thanks!)&lt;/li&gt;
+&lt;/ul&gt;
+
+
+&lt;p&gt;The second problem I have with Brave is the fact that &quot;mining
+cryptocurrencies to donate to a website&quot; is a direct competitor of their
+own platform, where you donate to a website by obtaining their own
+currency and paying with that.&lt;/p&gt;
+
+&lt;p&gt;Competition is always good, don't get me wrong.  It's just that this
+direct competition gives Brave incentive to block their competitors in
+their browser. Or to present the competition as &quot;inherently evil&quot; and so
+on. All under the pretence of &quot;protecting the users&quot;. Which, in some
+way, they actually do.&lt;/p&gt;
+
+&lt;p&gt;I'm not pretending to know the  that Brave or Brendan Eich are
+implementing their &quot;mining blocking&quot; because of this. But I do know that
+their own incentives are perpendicular to those of incentives like
+Coinhive. That should make you at least wary of what they say about
+each other: a competitor will never say about their competition that it is
+a good alternative.&lt;/p&gt;
+
+&lt;p&gt;This could be a reason that the Brave developers chose to not
+white-list &quot;JavaScript mining initiatives&quot; which try to implement an
+actual friendly, opt-in system. Or to work together with those that try
+to be friendly, honest and clear about the mining on a website&quot;.&lt;/p&gt;
+
+&lt;p&gt;The third problem I have is how this &quot;block all mining&quot; and the noise
+around it, drowns out any proper discussion about it. The
+current stance, fueled by brave and Brendan Eich is that &quot;Browser Mining
+Equals Evil&quot;. I fear the discussion is closed and an otherwise
+interesting technology is killed off.&lt;/p&gt;
+
+&lt;p&gt;This certainly is the fault of all the &quot;Evil&quot; miners our there, though.
+They are abusing ad-networks, hacking websites, routers and CDNs,
+for some free Monero. The overwhelming majority of browser-mining is evil and done
+without your consent. That &lt;em&gt;is&lt;/em&gt; bad. And should be blocked.&lt;/p&gt;
+
+&lt;p&gt;But the solution to work towards would be to block the evil ones and work
+together with companies like Coinhive, to improve the initiatives for
+honest and friendly-use-cases.&lt;/p&gt;
+
+&lt;p&gt;As a sidenote: One of the biggest &quot;threats&quot; for CPU-mined cryptocurrency
+like Monero, currently, are all these evil players. The miners
+operating botnets, hacking CDNs to inject Browser miners, stealing AWS
+credentials, are rewarded much higher, while honest miners, with a
+laptop (and some cheap solar energy) stand no chance. I would not be
+surprised to learn that a vast majority of mining power in Monero comes from
+&quot;stolen&quot; CPU-cycles. But that is a different discussion.&lt;/p&gt;
+
+&lt;p&gt;Which brings me to the &quot;energy use of cryptocurrency&quot;-debate. A lot of
+people dislike all cryptocurrency because it is &quot;uselessly&quot; burning up
+electricity. A stance that I find just as strange as someone being
+against neon-ads, or public television screens. All these screens on
+city-streets, all these huge Coca-Cola signs on top of buildings
+combined -a wild guess, I could not find any proper figures to back this
+up- probably use far more energy than Bitcoin or Monero does. And it is
+just as &quot;useless&quot;.&lt;/p&gt;
+
+&lt;p&gt;But even if true: a proper, opt-in, consensual miner on a website allows
+someone who dislikes this whole crypto-crap to just ignore it. If you
+don't like it: don't participate. If you do see the value in it, think
+it is not &quot;useless&quot;, then it is a nice way to make a micro-payment to
+that site.&lt;/p&gt;
+
+&lt;p&gt;But, back to that evil network of JavaScript miners: they have
+messed up an otherwise fantastic opportunity.&lt;/p&gt;
+
+&lt;p&gt;You can see this opportunity in action above: a single click of a button and
+you can pay me for writing this (again, I need to stress this to make
+the point clear: you can simply also ignore it!)&lt;/p&gt;
+
+&lt;p&gt;Clicked it? You just paid me!&lt;/p&gt;
+
+&lt;p&gt;You did not need to register with PayPal, or pay fees to a
+credit card-company. You did not have to buy some token or currency on an
+exchange. Did not have to install a special browser to donate, there
+were wallets to top-up, no copies of ID-cards to send to some server
+(that will be hacked in some future) because of KYC-money-laundering-regulations. No
+secret keys to back-up, no wallets that can get hacked, or
+twelve-words-backup-phrases to securely store away in that safe you
+still need to buy.&lt;/p&gt;
+
+&lt;p&gt;Just a press of a button and you are rewarding my work. And
+paying for another coffee.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;It is privacy-friendly&lt;/strong&gt;: had I embedded some ads from Bing or Google,
+they, and hundreds of other data-miners out there would be tracking you,
+my precious visitor (the only tracking this site has, is my self-ran,
+self-hosted, privacy-enhanced Piwik analytics). Ads are the really very
+evil, deceptive and abusive alternative here: they mine your data, sell
+it, trade with it, and use it to present more ads. Most of the time all
+this &quot;stealing of your data&quot; happens without your consent and without
+you knowing: that is why I tend to call them thieves: they steal data
+from you that you never agreed on giving away.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;It is very clear and honest, when opt-in&lt;/strong&gt;: I'm &lt;em&gt;not&lt;/em&gt; running anything
+on your computer. I'm not selling your data to trackers or ad-networks.
+I'm offering you a choice to donate to me. Had I ran ads, I would be
+selling the privacy of you, my visitors, without your consent, to large
+companies that live of gathering (stealing) and mining that data. Which
+is far worse. Of all the alternatives, an opt-in JavaScript miner is the
+most honest one, since it's abundantly clear what I'm offering. And you
+are in your full rights to simply ignore my request.&lt;/p&gt;
+
+&lt;p&gt;Now, if you don't feel like clicking that mining-thing above, feel free
+to &quot;pay&quot; me, by sharing this story, or dropping me &lt;a href=&quot;https://twitter.com/berkes/&quot;&gt;a line on @berkes,
+my twitter feed&lt;/a&gt;.&lt;/p&gt;
+</content>
+ </entry>
  
  <entry>
    <title>Bitcoin turning into a multi layered system is the most interesting thing in crypto in 2018</title>
@@ -6906,21 +7114,6 @@ Overigens behoud ik wel een afbreek-mogelijkheid. Als ik na een week helemaal kn
    <content type="html">&lt;p&gt;Zojuist per mail ontvangen. Zegt het voort!&gt; Op 19 maart 2010 vindt de volgende DrupalJam plaats in Amsterdam.  Toneel voor deze editie is Stayokay Zeeburg, waar wij een vijftal  zalen beschikbaar zullen hebben voor presentaties, workshops, BoF's en  meer! De lokatie stelt alle bezoekers in staat om te blijven  overnachten, aangezien enkelen ver zullen moeten reizen of 's avonds  mee willen naar de kroegmeet (aankondiging daarvan volgt).&lt;/p&gt;
 
 &lt;p&gt;Meer informatie staat op http://drupal.be/evenement/drupaljam-6-amsterdam . Op http://twitter.com/drupaljam worden regelmatig updates geplaatst.  Drupaljam.nl zal binnenkort aangepast en geüpdatet worden.&lt;/p&gt;
-</content>
- </entry>
- 
- <entry>
-   <title>Bler, nu met 100% meer activity-stream</title>
-   <link href="http://berk.es/2010/01/08/bler-nu-met-100-meer-activity-stream/"/>
-   <updated>2010-01-08T00:00:00+01:00</updated>
-   <id>http://berk.es/2010/01/08/bler-nu-met-100-meer-activity-stream</id>
-   <content type="html">&lt;p&gt;Gedurende de week 'doe' ik vanalles op internet. Facebooken, twitteren, reageren, muziek luisteren. Enzovoort. Iedereen doet dat. En naarmate meer mensen deze activiteiten koppelen overstroomt je twitter- of facebook stroom gewoon. Op een gegeven moment sturen je &quot;vrienden&quot; dagelijks (tien)duizenden berichten, waarmee het positieve effect volledig teniet word gedaan. Steeds meer mensen sturen hun activiteit door naar Twitter; koppelen hun bookmarks, 'ik-luister-nu-naar', 'ik vind dit een leuke video' aan Facebook, of Twitter. Of allebei. Ik verzamel mijn activiteit, vanaf nu op &lt;a href=&quot;http://bler.webschuur.com/activity_stream&quot;&gt;mijn blog&lt;/a&gt;.&lt;!--break--&gt;Ik ben erg actief op internet. 50 of meer van zulke berichten van hot naar her sturen is niet ongewoon. De meeste mensen in mijn netwerk ook. Maar als ik soms over de schouder van mijn lief kijkt als ze facebookt, staat haar voorpagina he-le-maal vol met &quot;Bèr Kessels deed-, vond-, stuurde, is nu&quot;. Nu vind ik het niet erg als ik zo'n groot onderdeel van haar (online) sociale wereld inneem. Maar dit kan toch niet de bedoeling zijn. Ik overstroom haar facebook volledig, waardoor ze nauwelijks meer kan zien wat haar (minder actieve) vriendinnen en vrienden doen.&lt;/p&gt;
-
-&lt;p&gt;En zelfs voor mij gaat het vaak te ver. Na een dag meetings- of niet online, kom ik door de honderden meldingen, bookmarks, tweets, replies, facebook-ik-vind-dit-leuks niet meer heen. En negeer ik ze maar allemaal. Als, zoals nu, een paar grootgebruikers in je netwerk een paarhonderd berichten per week naar hun omgevingen sturen: prima. Maar stel dat iedereen dat gaat doen. Dat alle activiteit van internetters verzameld worden. En als dat door organisaties dan ook nog geaggregeerd wordt. Dan moet je altijd alles negeren. En dan krijg je een onuitwarbare brei. Dan verword twitter, van een omgeving om interessante activiteit en kennis binnen je netwerk te volgen, tot een ongefilterede brei met vele honderduizenden berichten per dag. Dan is de signaal-ruisverhouding compleet zoek. Precies die ene bookmark of dat ene artikel dat je echt had moeten zien, gaat compleet verloren tussen alle duizenden 'ik luister nu naar' berichten.  Ik had mij al voorgenomen om deze hele maand &lt;a href=&quot;http://bler.webschuur.com/twitter_experiment_de_hele_maand_januari_schrijf_ik_maximaal_2_tweets_per_dag&quot;&gt;minder te twitteren&lt;/a&gt;. Om te ondezoeken welke invloed deze snel verschuivende signaal-ruis-verhouding heeft. Wat gebeurt als ik niet meer alles naar twitter duw. Nu voeg ik nog iets aan dat experiment toe: een persoonlijke, centrale '&lt;a href=&quot;http://bler.webschuur.com/activity_stream&quot;&gt;wat doe ik de hele dag op de interwebs&lt;/a&gt;' pagina in mijn blog.&lt;/p&gt;
-
-&lt;p&gt;Zodat ik deze ruis uit facebook en twitter kan weghalen, maar toch registreer. Ik doe dit overigens met de &lt;a href=&quot;http://drupal.org/project/activitystream&quot;&gt;Drupal activity stream module&lt;/a&gt;.&lt;/p&gt;
-
-&lt;p&gt;Als volgende stap broed ik nog op 'de conversatie vangen':Waarbij reacties op mijn acties zoals &quot;Karel vindt dit leuk&quot;, of &quot;RT @berkes: Foo is niet Bar&quot;. Of &quot;@berkes: inderdaad, wat een kluns!&quot;. Kortom, de eerste stap nét buiten mijn netwerk. En ook wil ik gaan experimenteren met &quot;dagelijkse digests&quot;. Waarin uit alle brei, de zaken die deze dag komen bovenborrelen uitgelicht worden. Denk aan tweets die een paar maal geretweet werden. Of aan dat ene facebook bericht waar een paar mensen op reageerden. Kortom: die &quot;activiteiten&quot;, automatisch verzamelen, die deze dag aandacht verdienden. En kregen. Als je ideeën hebt over die laatste twee, of ze al ergens ingezet ziet, hoor ik dat graag.&lt;/p&gt;
 </content>
  </entry>
  

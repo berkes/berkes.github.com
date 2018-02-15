@@ -1,0 +1,396 @@
+<!DOCTYPE html>
+
+
+
+<!-- paulirish.com/2008/conditional-stylesheets-vs-css-hacks-answer-neither/ -->
+<!--[if lt IE 7]> <html class="no-js lt-ie9 lt-ie8 lt-ie7" lang="en"> <![endif]-->
+<!--[if IE 7]>    <html class="no-js lt-ie9 lt-ie8" lang="en"> <![endif]-->
+<!--[if IE 8]>    <html class="no-js lt-ie9" lang="en"> <![endif]-->
+<!--[if gt IE 8]><!--> <html class="no-js" lang="en"> <!--<![endif]-->
+<head>
+  <meta charset="utf-8" />
+
+  <!-- Set the viewport width to device width for mobile -->
+  <meta name="viewport" content="width=device-width" />
+  <link rel="openid.server" href="http://openid.yubico.com/server.php" />
+  <link rel="openid.delegate" href="http://openid.yubico.com/server.php/idpage?user=vvbdkthjbecc" />
+
+   <title>Making a case for JavaScript, in-browser Mining</title>
+   <meta name="author" content="Bèr ‘berkes’ Kessels" />
+   <link href="http://feeds.feedburner.com/berkes" rel="alternate" title="Making a case for JavaScript, in-browser Mining Feed" type="application/atom+xml" />
+   <link rel="author" href="/humans.txt" type="text/plain" />
+   <link rel="shortcut icon" href="/favicon.ico" type="image/x-icon" />
+   <!-- Included CSS Files -->
+   <link rel="stylesheet" href="/assets//stylesheets/foundation.css">
+   <link rel="stylesheet" href="/assets//stylesheets/pygments.css">
+   <link rel="stylesheet" href="/assets//stylesheets/app.css">
+
+   <!--[if lt IE 9]>
+   <link rel="stylesheet" href="/assets//stylesheets/ie.css">
+   <![endif]-->
+
+   <script src="/assets//javascripts/modernizr.foundation.js"></script>
+
+   <!-- IE Fix for HTML5 Tags -->
+   <!--[if lt IE 9]>
+     <script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+   <![endif]-->
+
+   <!-- Fonts -->
+   <link href='http://fonts.googleapis.com/css?family=Arvo:400,400italic,700,700italic' rel='stylesheet' type='text/css'>
+   <link rel="stylesheet" href="http://fonts.googleapis.com/css?family=OFL+Sorts+Mill+Goudy+TT" media="screen, projection, print">
+</head>
+<body>
+	<!-- container -->
+	<div class="container">
+    <header>
+      <div class="row">
+        <a href="/" title="Home">
+          <img src="/assets//images/logo.png" alt="Logo" title="Bèr ‘berkes’ Kessels" />
+        </a>
+      </div>
+
+      <nav id="main" class="row">
+        <div class="onion">
+        <ul>
+          <li>
+          <a href="/about.html">EN / About</a>
+          </li>
+          <li>
+          <a href="/archive.html">EN / Articles</a>
+          </li>
+          <li>
+          <a href="/over.html">NL / Over</a>
+          </li>
+          <li>
+          <a href="/archief.html">NL / Artikelen</a>
+          </li>
+        </ul>
+        </div>
+      </nav>
+    </header>
+    <section id="main-content" class="row">
+      <article>
+  <header>
+    <h1>Making a case for JavaScript, in-browser Mining</h1>
+  </header> 
+  <div class="body row">
+    <div class="eight columns">
+      <p>So, today, <a href="https://en.wikipedia.org/wiki/Brendan_Eich">Brendan Eich</a>
+spoke up against mining on your browser.</p>
+
+<p>Eich is the founder of Mozilla, Inventor or JavaScript, and current CEO of the ground-breaking browser <a href="https://brave.com/">Brave</a>.</p>
+
+<p>On <a href="https://twitter.com/BrendanEich/status/963845740077314048">twitter, he says</a>:</p>
+
+<blockquote><p>Brave now blocks the abusive-even-when-opt-in (1.75 cores on my MBP
+which became too hot to call a laptop) 1st party Monero mining script
+at Salon, thanks to fast work by @lukemulks.</p></blockquote>
+
+<p>I have several problems with this tweet, and this this new
+block-them-all feature in the Brave browser and most adblockers.
+Which I'll explain below.</p>
+
+<p>First, some background on Brave: Brave has it's own cryptocurrency, BAT,
+which is a payment system that allows you, the user of Brave, to pay a
+website or publisher. A very nice alternative for ads, so to say.</p>
+
+<p>I love this idea, on a high level: to let me, a user, decide
+to pay a site that I peruse. I've ran Brave ever since they came with
+this idea and a built-in Bitcoin Wallet, to leverage this same idea
+(which they now moved to a BAT system).</p>
+
+<p>Now, some background on browser-mining. Quite some cryptocurrencies use
+<a href="https://en.bitcoin.it/wiki/CryptoNight">a mining algorithm</a> for which making specialised hardware is impossible
+(currently infeasible, actually). <a href="https://getmonero.org/">Monero</a> is one of them, the most
+famous. So, Monero, for example, is mined on "normal" CPU's. In order to
+mine more Monero, you need more CPU's. And because of how the mining
+works, it can be done in your browser, using a miner that is written in
+JavaScript: a browser miner.
+And when I want to "mine more Monero", where can I "obtain" more CPU? Right: by running that miner on the
+visitors of a website.</p>
+
+<p>I've spent 3 hours writing this article, spent ฿130 on
+coffee (That is Thai Baht, not Bitcoin) and considerable research on
+monero and coinhive to get this to you. If you like my work, consider
+pressing the button below, to run a miner on your computer, and pay me
+with a few Watts of your electricity. Or to see how it works, without
+paying me, see the <a href="https://coinhive.com">demo on Coinhive</a>.</p>
+
+<script src="https://authedmine.com/lib/simple-ui.min.js" async></script>
+
+
+<div class="coinhive-miner" 
+    style="width: 638; height: 110px"
+    data-key="VIdRYiFeVMnRF81dydg1ey4MTdHKE4xq"
+    data-autostart="false"
+    data-whitelabel="false"
+    data-background="#000000"
+    data-text="#eeeeee"
+    data-action="#00ff00"
+    data-graph="#555555"
+    data-threads="2"
+    data-throttle="0.5">
+    <em>Loading...</em>
+</div>
+
+
+<p>Note that there's is a big chance that your adblocker is blocking it, so
+<a href="https://authedmine.com/media/miner.html?key=VIdRYiFeVMnRF81dydg1ey4MTdHKE4xq">head over to a standalone page
+instead</a>,
+if you wish. Or disable the adblocker, I'm running nothing but my own
+piwik - pinky promise.</p>
+
+<p>The first problem with Brave's implementation, is that it is default-on
+and an all-or-nothing thing. An alternative would be a popup like
+"Google Maps want's to access your location. [Allow] [Never]". You've
+probably seen it. Below is an example from Chrome (in Dutch, sorry):</p>
+
+<p><img src="/images/inline/confirmation.png" alt="Confirmation dialog example" /></p>
+
+<pre><code>berk.es wants to
+  mine Cryptocurrency on your laptop.
+
+                     [Block] [Allow]
+</code></pre>
+
+<p>Imagine the possibilities:</p>
+
+<ul>
+<li>Donate to Wikipedia by mining a few minutes, instead of dealing with their annoying beggar-popups</li>
+<li>Use Netflix for free, by running a miner on one CPU core when watching
+  series.</li>
+<li>Avoid the privacy-abusive advertising industry by running JavaScript
+  on your computer, rather than tracking users all over the place.</li>
+<li>CAPTHCA's, DDoS protection, all by running a few seconds of a miner on
+  your laptop.</li>
+<li>Have "outgoing affiliate links" that don't work in secret behind the
+  scenes with trackers, cookies and whatnot, but a clear <code>[Mine and
+  Redirect] or [skip mining]</code>-page URLs. A step-up from a <a href="https://cnhv.co/1ma5t">link like
+  this</a> (NOTE: following that link does pay me a few
+  grains of coffee actually, thanks!)</li>
+</ul>
+
+
+<p>The second problem I have with Brave is the fact that "mining
+cryptocurrencies to donate to a website" is a direct competitor of their
+own platform, where you donate to a website by obtaining their own
+currency and paying with that.</p>
+
+<p>Competition is always good, don't get me wrong.  It's just that this
+direct competition gives Brave incentive to block their competitors in
+their browser. Or to present the competition as "inherently evil" and so
+on. All under the pretence of "protecting the users". Which, in some
+way, they actually do.</p>
+
+<p>I'm not pretending to know the  that Brave or Brendan Eich are
+implementing their "mining blocking" because of this. But I do know that
+their own incentives are perpendicular to those of incentives like
+Coinhive. That should make you at least wary of what they say about
+each other: a competitor will never say about their competition that it is
+a good alternative.</p>
+
+<p>This could be a reason that the Brave developers chose to not
+white-list "JavaScript mining initiatives" which try to implement an
+actual friendly, opt-in system. Or to work together with those that try
+to be friendly, honest and clear about the mining on a website".</p>
+
+<p>The third problem I have is how this "block all mining" and the noise
+around it, drowns out any proper discussion about it. The
+current stance, fueled by brave and Brendan Eich is that "Browser Mining
+Equals Evil". I fear the discussion is closed and an otherwise
+interesting technology is killed off.</p>
+
+<p>This certainly is the fault of all the "Evil" miners our there, though.
+They are abusing ad-networks, hacking websites, routers and CDNs,
+for some free Monero. The overwhelming majority of browser-mining is evil and done
+without your consent. That <em>is</em> bad. And should be blocked.</p>
+
+<p>But the solution to work towards would be to block the evil ones and work
+together with companies like Coinhive, to improve the initiatives for
+honest and friendly-use-cases.</p>
+
+<p>As a sidenote: One of the biggest "threats" for CPU-mined cryptocurrency
+like Monero, currently, are all these evil players. The miners
+operating botnets, hacking CDNs to inject Browser miners, stealing AWS
+credentials, are rewarded much higher, while honest miners, with a
+laptop (and some cheap solar energy) stand no chance. I would not be
+surprised to learn that a vast majority of mining power in Monero comes from
+"stolen" CPU-cycles. But that is a different discussion.</p>
+
+<p>Which brings me to the "energy use of cryptocurrency"-debate. A lot of
+people dislike all cryptocurrency because it is "uselessly" burning up
+electricity. A stance that I find just as strange as someone being
+against neon-ads, or public television screens. All these screens on
+city-streets, all these huge Coca-Cola signs on top of buildings
+combined -a wild guess, I could not find any proper figures to back this
+up- probably use far more energy than Bitcoin or Monero does. And it is
+just as "useless".</p>
+
+<p>But even if true: a proper, opt-in, consensual miner on a website allows
+someone who dislikes this whole crypto-crap to just ignore it. If you
+don't like it: don't participate. If you do see the value in it, think
+it is not "useless", then it is a nice way to make a micro-payment to
+that site.</p>
+
+<p>But, back to that evil network of JavaScript miners: they have
+messed up an otherwise fantastic opportunity.</p>
+
+<p>You can see this opportunity in action above: a single click of a button and
+you can pay me for writing this (again, I need to stress this to make
+the point clear: you can simply also ignore it!)</p>
+
+<p>Clicked it? You just paid me!</p>
+
+<p>You did not need to register with PayPal, or pay fees to a
+credit card-company. You did not have to buy some token or currency on an
+exchange. Did not have to install a special browser to donate, there
+were wallets to top-up, no copies of ID-cards to send to some server
+(that will be hacked in some future) because of KYC-money-laundering-regulations. No
+secret keys to back-up, no wallets that can get hacked, or
+twelve-words-backup-phrases to securely store away in that safe you
+still need to buy.</p>
+
+<p>Just a press of a button and you are rewarding my work. And
+paying for another coffee.</p>
+
+<p><strong>It is privacy-friendly</strong>: had I embedded some ads from Bing or Google,
+they, and hundreds of other data-miners out there would be tracking you,
+my precious visitor (the only tracking this site has, is my self-ran,
+self-hosted, privacy-enhanced Piwik analytics). Ads are the really very
+evil, deceptive and abusive alternative here: they mine your data, sell
+it, trade with it, and use it to present more ads. Most of the time all
+this "stealing of your data" happens without your consent and without
+you knowing: that is why I tend to call them thieves: they steal data
+from you that you never agreed on giving away.</p>
+
+<p><strong>It is very clear and honest, when opt-in</strong>: I'm <em>not</em> running anything
+on your computer. I'm not selling your data to trackers or ad-networks.
+I'm offering you a choice to donate to me. Had I ran ads, I would be
+selling the privacy of you, my visitors, without your consent, to large
+companies that live of gathering (stealing) and mining that data. Which
+is far worse. Of all the alternatives, an opt-in JavaScript miner is the
+most honest one, since it's abundantly clear what I'm offering. And you
+are in your full rights to simply ignore my request.</p>
+
+<p>Now, if you don't feel like clicking that mining-thing above, feel free
+to "pay" me, by sharing this story, or dropping me <a href="https://twitter.com/berkes/">a line on @berkes,
+my twitter feed</a>.</p>
+
+    </div>
+    <div class="four columns">
+      <figure class="decorative">
+  <img src="/images//2018/02/15/making-a-case-for-javascript-mining.png" alt="Woodcut from Doré. Purely illustrative" />
+  
+    <figcaption>Doré Woodcut. Its only function is to make the layout look better. And these images are really nice themselves</figcaption>
+  
+</figure>
+
+    </div>
+  </div>
+  <footer>
+    <time datetime="2018-02-15T00:00:00+01:00"
+    pubdate="pubdate">
+      Posted on 15 February 2018
+    </time>
+    in
+    
+    
+      
+      
+
+
+  
+    
+      <a href="/tags.html#cryptocurrency-ref" class="black radius label">cryptocurrency<span class="size">1</span></a>
+    
+      <a href="/tags.html#mining-ref" class="black radius label">mining<span class="size">1</span></a>
+    
+      <a href="/tags.html#monero-ref" class="black radius label">monero<span class="size">1</span></a>
+    
+      <a href="/tags.html#brave-ref" class="black radius label">brave<span class="size">1</span></a>
+    
+      <a href="/tags.html#coinhive-ref" class="black radius label">coinhive<span class="size">1</span></a>
+    
+  
+
+
+
+    
+  </footer>
+</article>
+
+<div id="author">
+  <p>
+  
+  
+    <strong>About  the author:</strong> Bèr Kessels is an experienced webdeveloper  with a great passion for
+    technology and Open Source. A golden combination to implement that technology in a good and efficient
+    way. Follow <a href="https://twitter.com/berkes">@berkes</a> on Twitter. Or read more <a href="/over.html">about Bèr</a>.
+  
+  </p>
+</div>
+
+<hr/>
+<aside>
+  
+  
+  <h1>Read on:</h1>
+  
+  <ul>
+    
+      <li><span>February  9, 2018</span> &raquo; <a href="/2018/02/09/bitcoin-turning-into-a-multi-layered-system-is-the-most-interesting-thing-in-crypto-in-2018/">Bitcoin turning into a multi layered system is the most interesting thing in crypto in 2018</a></li>
+
+    
+      <li><span>November 13, 2017</span> &raquo; <a href="/2017/11/13/f-rite-air-ico/">F/Rite Air ICO</a></li>
+
+    
+      <li><span>April  6, 2016</span> &raquo; <a href="/2016/04/06/simple-time-logging-on-top-of-git-flow/">Simple time logging on top of git flow</a></li>
+
+    
+  </ul>
+</aside>
+
+
+    </section>
+
+    <footer class="main row">
+      <div class="contact four columns">
+        <p>
+            Bèr ‘berkes’ Kessels<br />
+            Bèr Kessels is an Open Source Webdeveloper.<br />
+            <a href='mailto:ber@berk.es'>ber@berk.es</a>
+          </p>
+          <p>
+            <a href="http://github.com/berkes/">github.com/berkes</a><br />
+            <a href="http://twitter.com/berkes/">twitter.com/berkes</a><br />
+          </p>
+      </div>
+      <div class="four columns">
+        Copyright 2001-2018
+        with a
+        <a href="http://creativecommons.org/licenses/by-sa/3.0/" rel="license">Creative Commons Attribute-Share-alike 3.0 Unported license</a>
+      </div>
+      <div class="four columns">
+        <a class="extra" href="/archive.html">Archive (All English articles)</a> <br />
+        <a class="extra" href="/archief.html">Archief (Alle Nederlandse artikelen)</a> <br />
+        <a class="extra" href="/tags.html">Tags</a> <br />
+        <a href="http://feeds.feedburner.com/berkes"> RSS </a> <br />
+      </div>
+    </footer>
+  </div>
+  <!-- Piwik -->
+<script type="text/javascript">
+var pkBaseURL = (("https:" == document.location.protocol) ? "https://piwik.webschuur.com/" : "http://piwik.webschuur.com/");
+document.write(unescape("%3Cscript src='" + pkBaseURL + "piwik.js' type='text/javascript'%3E%3C/script%3E"));
+</script><script type="text/javascript">
+try {
+var piwikTracker = Piwik.getTracker(pkBaseURL + "piwik.php", 9);
+piwikTracker.trackPageView();
+piwikTracker.enableLinkTracking();
+} catch( err ) {}
+</script><noscript><p><img src="http://piwik.webschuur.com/piwik.php?idsite=9" style="border:0" alt="" /></p></noscript>
+<!-- End Piwik Tracking Code -->
+
+</body>
+</html>
