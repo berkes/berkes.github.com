@@ -4,7 +4,7 @@
  <title>Bèr ‘berkes’ Kessels</title>
  <link href="http://berk.es/atom.xml" rel="self"/>
  <link href="http://berk.es"/>
- <updated>2018-02-15T10:31:28+01:00</updated>
+ <updated>2018-02-15T10:35:25+01:00</updated>
  <id>http://berk.es</id>
  <author>
    <name>Bèr ‘berkes’ Kessels</name>
@@ -94,6 +94,9 @@ probably seen it. Below is an example from Chrome (in Dutch, sorry):&lt;/p&gt;
 
                      [Block] [Allow]
 &lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;Brave could have gone for this established UI-pattern, but instead they
+chose to &quot;block it all&quot;. A pity. A missed opportunity.&lt;/p&gt;
 
 &lt;p&gt;Imagine the possibilities:&lt;/p&gt;
 
