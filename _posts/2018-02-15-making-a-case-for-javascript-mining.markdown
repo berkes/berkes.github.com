@@ -172,7 +172,7 @@ Clicked it? You just paid me!
 You did not need to register with PayPal, or pay fees to a
 credit card-company. You did not have to buy some token or currency on an
 exchange. Did not have to install a special browser to donate, there
-were wallets to top-up, no copies of ID-cards to send to some server
+were no wallets to top-up, no copies of ID-cards to send to some server
 (that will be hacked in some future) because of KYC-money-laundering-regulations. No
 secret keys to back-up, no wallets that can get hacked, or
 twelve-words-backup-phrases to securely store away in that safe you
