@@ -4,7 +4,7 @@
  <title>Bèr ‘berkes’ Kessels</title>
  <link href="http://berk.es/atom.xml" rel="self"/>
  <link href="http://berk.es"/>
- <updated>2018-02-15T10:35:25+01:00</updated>
+ <updated>2018-02-16T03:30:49+01:00</updated>
  <id>http://berk.es</id>
  <author>
    <name>Bèr ‘berkes’ Kessels</name>
@@ -32,7 +32,7 @@ at Salon, thanks to fast work by @lukemulks.&lt;/p&gt;&lt;/blockquote&gt;
 block-them-all feature in the Brave browser and most adblockers.
 Which I'll explain below.&lt;/p&gt;
 
-&lt;p&gt;First, some background on Brave: Brave has it's own cryptocurrency, BAT,
+&lt;p&gt;First, some background on Brave: Brave has its own cryptocurrency, BAT,
 which is a payment system that allows you, the user of Brave, to pay a
 website or publisher. A very nice alternative for ads, so to say.&lt;/p&gt;
 
@@ -106,7 +106,7 @@ chose to &quot;block it all&quot;. A pity. A missed opportunity.&lt;/p&gt;
   series.&lt;/li&gt;
 &lt;li&gt;Avoid the privacy-abusive advertising industry by running JavaScript
   on your computer, rather than tracking users all over the place.&lt;/li&gt;
-&lt;li&gt;CAPTHCA's, DDoS protection, all by running a few seconds of a miner on
+&lt;li&gt;CAPTCHA's, DDoS protection, all by running a few seconds of a miner on
   your laptop.&lt;/li&gt;
 &lt;li&gt;Have &quot;outgoing affiliate links&quot; that don't work in secret behind the
   scenes with trackers, cookies and whatnot, but a clear &lt;code&gt;[Mine and
