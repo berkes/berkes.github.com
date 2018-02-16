@@ -20,7 +20,7 @@ I have several problems with this tweet, and this this new
 block-them-all feature in the Brave browser and most adblockers.
 Which I'll explain below.
 
-First, some background on Brave: Brave has it's own cryptocurrency, BAT,
+First, some background on Brave: Brave has its own cryptocurrency, BAT,
 which is a payment system that allows you, the user of Brave, to pay a
 website or publisher. A very nice alternative for ads, so to say.
 
@@ -91,7 +91,7 @@ Imagine the possibilities:
     series.
 * Avoid the privacy-abusive advertising industry by running JavaScript
     on your computer, rather than tracking users all over the place.
-* CAPTHCA's, DDoS protection, all by running a few seconds of a miner on
+* CAPTCHA's, DDoS protection, all by running a few seconds of a miner on
     your laptop.
 * Have "outgoing affiliate links" that don't work in secret behind the
     scenes with trackers, cookies and whatnot, but a clear `[Mine and
