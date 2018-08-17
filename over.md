@@ -45,7 +45,7 @@ uitwijden over een mooie en nieuwe technologie.
 Je kunt me bereiken per [e-mail](mailto:ber@berk.es) of telefoon, op
 06 29075065.
 
-* Code op [Github](https://github.com/berkes/)
+* Code op [mijn persoonlijke git server](https://git.webschuur.com)
 * Zakelijk netwerk op [LinkedIn](http://www.linkedin.com/profile?viewProfile=&key=9270755).
 * Resumé van mijn Open Source software op [Github](http://resume.github.io/?berkes).
 * Kennisbank op [Stackoverflow](http://stackoverflow.com/users/73673/berkes).
