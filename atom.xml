@@ -4,13 +4,306 @@
  <title>Bèr ‘berkes’ Kessels</title>
  <link href="http://berk.es/atom.xml" rel="self"/>
  <link href="http://berk.es"/>
- <updated>2018-08-17T17:59:33+02:00</updated>
+ <updated>2018-09-19T21:03:53+02:00</updated>
  <id>http://berk.es</id>
  <author>
    <name>Bèr ‘berkes’ Kessels</name>
    <email>ber@berk.es</email>
  </author>
 
+ 
+ <entry>
+   <title>The Private Blockchain Fallacy</title>
+   <link href="http://berk.es/2018/09/19/the-private-blockchain-fallacy/"/>
+   <updated>2018-09-19T00:00:00+02:00</updated>
+   <id>http://berk.es/2018/09/19/the-private-blockchain-fallacy</id>
+   <content type="html">&lt;p&gt;In all the blockchain hype, a simple, yet self-refuting idea
+keeps popping up: a &lt;em&gt;Private Blockchain&lt;/em&gt;.&lt;/p&gt;
+
+&lt;p&gt;In order to understand why a &lt;em&gt;private blockchain&lt;/em&gt; is nonsense, we must
+first define what a block chain is and what it is not. Since Nakamoto
+&lt;a href=&quot;https://bitcoin.org/bitcoin.pdf&quot;&gt;coined (PDF)&lt;/a&gt; the term, lets see if
+his description helps:&lt;/p&gt;
+
+&lt;blockquote&gt;&lt;p&gt;a peer-to-peer distributed timestamp server to generate computational
+proof of the chronological order of transactions&lt;/p&gt;&lt;/blockquote&gt;
+
+&lt;p&gt;It does highlight some important traits of &quot;a block chain&quot; (Nakamoto
+used a space between both words, I use the current popular term
+blockchain):&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;peer-to-peer: implying distribution; at least ruling out a central
+  authority&lt;/li&gt;
+&lt;li&gt;computational proof: implying it to be verifiable&lt;/li&gt;
+&lt;li&gt;timestamp-server/chronological ordering: it's goal, but also implying
+  permanence&lt;/li&gt;
+&lt;/ul&gt;
+
+
+&lt;p&gt;Marco Iansiti and Karim R Lakhani have a &lt;a href=&quot;https://en.wikipedia.org/wiki/Blockchain&quot;&gt;more accessible explanation&lt;/a&gt;:&lt;/p&gt;
+
+&lt;blockquote&gt;&lt;p&gt;an open, distributed ledger that can record transactions between two
+parties efficiently and in a verifiable and permanent way.&lt;/p&gt;&lt;/blockquote&gt;
+
+&lt;ul&gt;
+&lt;li&gt;open (often called &lt;em&gt;permissionless&lt;/em&gt;)&lt;/li&gt;
+&lt;li&gt;distributed (often called &lt;em&gt;decentralized&lt;/em&gt;)&lt;/li&gt;
+&lt;li&gt;verifiable&lt;/li&gt;
+&lt;li&gt;permanent (often called &lt;em&gt;immutable&lt;/em&gt;)&lt;/li&gt;
+&lt;/ul&gt;
+
+
+&lt;p&gt;In other words: anything that does not match those criteria, is by
+definition, not a blockchain. It may be something similar, or even
+something using similar techniques, but not &lt;em&gt;a blockchain&lt;/em&gt;. This is
+important.&lt;/p&gt;
+
+&lt;p&gt;We can also look at it from the other side: if a blockchain offers these
+traits, when do we need a blockchain?:&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/images/inline/do_you_need_a_blockchain.png&quot; alt=&quot;logical graph to determine if one needs a blockchain&quot; /&gt;.&lt;/p&gt;
+
+&lt;p&gt;(I downloaded this image years ago and forgot to note the author.
+Sorry.)&lt;/p&gt;
+
+&lt;p&gt;This has the same treats, but turns the argument around: if your
+requirements don't fit the exact things that blockchain offer: you don't
+need a blockchain. In the case of a &lt;em&gt;private blockchain&lt;/em&gt;: if it is not
+public, you don't need a blockchain. We could stop here.&lt;/p&gt;
+
+&lt;h2&gt;Reasons for wanting a &lt;em&gt;private blockchain&lt;/em&gt;&lt;/h2&gt;
+
+&lt;p&gt;So, why do people come up with private blockchains in the first place?  We can group the arguments into three main arguments. I'll add a fourth.&lt;/p&gt;
+
+&lt;ol&gt;
+&lt;li&gt;So we can store private data or other kinds of data that should not
+be public. (We scrap the &lt;em&gt;open&lt;/em&gt; and &lt;em&gt;verifiable&lt;/em&gt; parts for privacy)&lt;/li&gt;
+&lt;li&gt;So we can control who has read/write access (We scrap the &lt;em&gt;open&lt;/em&gt;
+part for control)&lt;/li&gt;
+&lt;li&gt;So we can scale better (We scrap the &lt;em&gt;distributed&lt;/em&gt; part for speed).&lt;/li&gt;
+&lt;li&gt;Because we are not yet confident enough about the security and exact
+traits to release on a public platform (We scrap the &lt;em&gt;permanent&lt;/em&gt; part
+for flexibility)&lt;/li&gt;
+&lt;/ol&gt;
+
+
+&lt;p&gt;The fourth is the only valid argument to ever use a private blockchain:
+as a temporary phase because you are still developing and finding out
+the ins- and outs of your blockchain-application: very similar to how
+you first release an app to your five friends and not upload it
+immediately to an app store.&lt;/p&gt;
+
+&lt;p&gt;All others reasons are pure nonsense, because they don't &lt;em&gt;need a
+blockchain&lt;/em&gt; to get the exact same outcome. Or because by definition,
+deploying that way, makes it &lt;em&gt;not a blockchain&lt;/em&gt;. One could say, that by
+deploying a blockchain in a private environment, it stops being a
+blockchain.&lt;/p&gt;
+
+&lt;p&gt;But, there is more than just a play of words. Keep tuned.&lt;/p&gt;
+
+&lt;h2&gt;Private data: public.&lt;/h2&gt;
+
+&lt;p&gt;A blockchain has to be public in order to ensure &lt;em&gt;permanence&lt;/em&gt; or
+&lt;em&gt;immutability&lt;/em&gt;.&lt;/p&gt;
+
+&lt;p&gt;Let's compare a blockchain to a household book. When I have such a book,
+in a drawer in my office, I'm the only one who can read it and change
+it.&lt;/p&gt;
+
+&lt;p&gt;So, when for some reason I bought a pair of expensive shoes, and a week
+later want to hide that fact, I can simply remove that line from the
+book. Or overwrite it with &quot;pair of scissors&quot;. And boom. I never bought
+shoes (according to the book).&lt;/p&gt;
+
+&lt;p&gt;But if that book is accessible amongst family members, for everyone to
+review, or copy, it becomes a little more &quot;immutable&quot;.  I can still
+remove the &quot;expensive shoes&quot; line, but people might know, and
+family-members can call me out on it. With even more people who can
+access the book (why not mail a weekly copy to all family and friends?)
+the harder it becomes to change stuff afterwards.&lt;/p&gt;
+
+&lt;p&gt;A blockchain, however, has an additional trait: through
+applied cryptography, it allows one to easily detect when a line is
+changed. So all people who have a copy can detect with certainty and
+easily that something has been changed that should not have been
+changed. But this trait is only useful if other stakeholders can get
+copies. In a private blockchain it is really easy to change something,
+even when that change has a big, clearly visible effect. Simply because
+there is no-one to witness that clearly visible effect!&lt;/p&gt;
+
+&lt;p&gt;The &lt;em&gt;public&lt;/em&gt; part, is what ensures the permanency. Not because it is
+impossible to change something (it is perfectly doable) but because that
+change, or its cryptographically effects, are seen by, other
+participants.&lt;/p&gt;
+
+&lt;p&gt;Bitcoin, for example is not permanent either, in theoretic sense. If
+enough participants decide that the 0.01 BTC that you paid to John a
+year ago, is sent to Mallory instead, that is what will happen: &lt;a href=&quot;https://blog.ethereum.org/2016/07/20/hard-fork-completed/&quot;&gt;history
+will be rewritten&lt;/a&gt;.
+Bitcoins &lt;em&gt;Immutability&lt;/em&gt; stems from the fact that anyone can detect such
+a change, and that a vast majority then needs to acknowledge that
+change.&lt;/p&gt;
+
+&lt;p&gt;The &lt;em&gt;public&lt;/em&gt; part furthermore ensures that those participants will get
+hurt when making such a retrospective change: they have a stake in the
+(Bitcoin) blockchain, which will decrease in value because they just
+have proved that this blockchain can be retrospectively mutated.&lt;/p&gt;
+
+&lt;p&gt;In a blockchain, public, or private, &lt;em&gt;immutability&lt;/em&gt; is more of an
+agreement amongst all participants that &lt;em&gt;we won't change history.
+Promised!&lt;/em&gt; it is not some magical &quot;thing that comes from cryptography&quot;.
+In a private blockchain that promise is easy to make. And even easier to
+enforce: if Mallory changes some old record, just throw him out!&lt;/p&gt;
+
+&lt;p&gt;With that in mind: immutability is an agreement, so you can just choose
+any database, even a shared excel sheet, and then promise each other
+never to change anything. All you need is detection that something was
+changed, which most database systems (or logging) will offer. You can
+even add some cryptography to it to make tampering more obvious or
+easier to revert or deal with.&lt;/p&gt;
+
+&lt;h2&gt;Permissionless because we need control.&lt;/h2&gt;
+
+&lt;p&gt;A blockchain has to be permissionless in order to ensure &lt;em&gt;permanence&lt;/em&gt;.&lt;/p&gt;
+
+&lt;p&gt;This is very simple actually. If you can control who has access, you
+control who decides what the truth is. Therefore, you hold the keys to
+change history in any way that you want.&lt;/p&gt;
+
+&lt;p&gt;In the analogy of the household book, the person who controls who may
+write in the book and who may read from it, is, by extension, the person
+who controls what will get in the book and what not.&lt;/p&gt;
+
+&lt;p&gt;That person is, by extension, also the one in full control of rewriting
+the history. Because when the access-controller wants something changed,
+he can simply remove anyone opposing that change from write (and read)
+access and then promote himself (or a proxy) to be able to write. And
+then change it.&lt;/p&gt;
+
+&lt;p&gt;If other people can still read, they might notice that history is
+rewritten, but will lack all power to do something about it. The truth
+is what is in the blockchain, and they cannot change that, because of
+lack of permissions. It matters little how clumsy or detectable such a
+retrospective change is: the one with access control can, through that
+power, make these changes.&lt;/p&gt;
+
+&lt;p&gt;Immutability in a blockchain is not something magical that comes from a
+fancy technology . But it comes from the conditions a blockchain requires: the
+environment, or &quot;world&quot; in which it runs make it immutable.&lt;/p&gt;
+
+&lt;p&gt;The irony is that, actually, there is a magic technology that ensures
+immutability. And that technology is called blockchain. And hence &lt;em&gt;has&lt;/em&gt;
+to be a public blockchain. We've come full-circle.&lt;/p&gt;
+
+&lt;h2&gt;No Distribution because of scaling or speed.&lt;/h2&gt;
+
+&lt;p&gt;A blockchain has to be distributed in order to ensure &lt;em&gt;a verifiable truth&lt;/em&gt;.&lt;/p&gt;
+
+&lt;p&gt;The opposite of distribution is centralization. To follow the &quot;household
+book&quot; analogy, distribution would mean that several times a day (maybe
+even after every change) copies are made and exchanged amongst people.
+More important, however, is that none of these copies is considered &quot;The
+Truth&quot;.&lt;/p&gt;
+
+&lt;p&gt;If there is only ever one copy of the household book, changing stuff in
+there (like ripping out a page) is trivial and -if done well- undetectable.&lt;/p&gt;
+
+&lt;p&gt;The obvious solution would be to photocopy every page (say, daily) and
+keep those copies in multiple places. This is distribution. This is
+inefficient, slow and expensive, as opposed to having one copy and simply trusting that.
+But in essence what a blockchain does. Because of the exact reason of
+trust: so that we don't &lt;em&gt;have to trust one copyholder to tell us the
+truth&lt;/em&gt;. This is the &lt;em&gt;trustless&lt;/em&gt; nature of a blockchain.&lt;/p&gt;
+
+&lt;p&gt;When all the copies at all moments can be considered &lt;em&gt;the truth&lt;/em&gt; any
+difference between any copy will be detectable and should trigger an
+alarm. We then need a conflict resolution: which one is the truth.&lt;/p&gt;
+
+&lt;p&gt;In Bitcoin, they simply say: what the majority of copy-holders have is
+the truth. So if your book is copied amongst five people and two have in
+there &quot;berkes bought expensive shoes&quot; but three don't, berkes did not
+buy expensive shoes.&lt;/p&gt;
+
+&lt;p&gt;If only one book is elected as The Truth, and all others are simply
+copies that could be used to proof that something was there at some
+point, that really proves nothing: who is to say the person holding the
+copy did not forge some records in there?&lt;/p&gt;
+
+&lt;p&gt;Distribution amongst all participants is crucial, because any central
+authority can otherwise change history at will and without detection:
+Verification is not possible and trust in an authority, or even a small
+group of authorities, is required.&lt;/p&gt;
+
+&lt;p&gt;To turn it around: when you don't need that trustlessness, when you can
+trust a central authority, you don't need a blockchain. To turn it
+around again: if it requires trust, has an authority, by nature, it is
+not a blockchain.&lt;/p&gt;
+
+&lt;h2&gt;But what about my favorite coin?&lt;/h2&gt;
+
+&lt;p&gt;If it has a &quot;private&quot; or &quot;permissioned&quot; blockchain, it is not using a
+blockchain. It might still be a cryptographically backed database, a
+solid cryptocurrency of very modern database, but it simply is not using
+a blockchain. And because it is not using it, it lacks one or more of
+the crucial traits.&lt;/p&gt;
+
+&lt;p&gt;Which means a single company could run away with your coins at any
+moment (yes, Ripple, looking at you). Or which means it is fundamentally
+insecure. Or it may offer very interesting solutions nonetheless.&lt;/p&gt;
+
+&lt;p&gt;I can probably build a very useful and interesting monetary exchange system
+based on trust and a Google spreadsheet. But it ain't a blockchain. It's
+&quot;just&quot; a spreadsheet on a Google server (with a really novel idea
+around it).&lt;/p&gt;
+
+&lt;h2&gt;&quot;You say tomato, I say tomato&quot;&lt;/h2&gt;
+
+&lt;p&gt;Sure. If you want to call any &lt;em&gt;database&lt;/em&gt; a blockchain, go ahead. If you
+insist on calling a Google spreadsheet a blockchain: fine. Its not some
+protected or trademarked term. You are even allowed to call my bicycle a
+blockchain. It has a chain after all.&lt;/p&gt;
+
+&lt;p&gt;But this helps no-one. Because you are either reinventing a wheel, or
+you are using an extremely inefficient technology in a place where far
+better fitting, more efficient technologies would help you far better.&lt;/p&gt;
+
+&lt;p&gt;Some &lt;em&gt;private blockchains&lt;/em&gt; are not blockchains because they are simply
+other technologies.&lt;/p&gt;
+
+&lt;p&gt;But unfortunately most &lt;em&gt;private blockchains&lt;/em&gt; are really just
+inefficient, insecure or simply stupid implementations in which a public
+blockchain-setup is used behind closed doors. This offers none of the
+benefits of that public version, but all of the downsides.&lt;/p&gt;
+
+&lt;p&gt;Take git: git is not a blockchain; git is &lt;a href=&quot;https://medium.com/girl-writes-code/git-is-a-directed-acyclic-graph-and-what-the-heck-does-that-mean-b6c8dec65059&quot;&gt;a
+DAG&lt;/a&gt;;
+so don't call it a blockchain. A DAG is very elegant, efficient
+data-structure. That could even be used for distributed data-storage
+within a small group of participants that need some
+cryptographically-secure tamper-detection of their data. I'm mentioning
+git, because there are some cryptocurrencies that do exactly this: using
+a DAG to share truth amongst a private set of participants.&lt;/p&gt;
+
+&lt;p&gt;Or take BitTorrent: BitTorrent is not a blockchain; so don't call it
+that. BitTorrent is a very neat implementation of Merkle trees, and
+really brilliant for distributing large amounts of data over a large
+amount of participants. Not a blockchain. I'm mentioning it, because
+this technology is often enough if you need to ensure that all
+participants have a copy of the data.&lt;/p&gt;
+
+&lt;p&gt;There are literally thousands of types of databases out there, some
+allow ridiculously &lt;a href=&quot;https://couchdb.apache.org/&quot;&gt;easy syncing&lt;/a&gt;, others
+allow &lt;a href=&quot;https://redis.io&quot;&gt;insane throughput&lt;/a&gt;, again others allow really
+thorough consistency checks. Or cryptographically signed logs. Or
+encryption of the data, or sharing of parts of data, or ... I could go
+on. We don't call all these &quot;blockchains&quot; because of a hype. They are
+not: They are proper solutions to a specific use-case. A blockchain is
+one such solution, and like most technology, it applies to a very small
+subset of use-cases. A &lt;em&gt;private&lt;/em&gt; version, however, can never be such a
+subset.&lt;/p&gt;
+</content>
+ </entry>
  
  <entry>
    <title>Making a case for JavaScript, in-browser Mining</title>
@@ -7106,17 +7399,6 @@ Overigens behoud ik wel een afbreek-mogelijkheid. Als ik na een week helemaal kn
 
 
 &lt;blockquote&gt;&lt;p&gt;To promote their soundsystems, Reed and his Competitors had turned to recordproducing by the end of the fifties. But not as we know it today. They had no intention of selling records to anyone else. They brought Jazz-musicians down from the touristhotels, to play the Jamaican versions of their R&amp;amp;B,  and then they made just &lt;em&gt;one&lt;/em&gt; copy of each record, to play it at their soundsystem and achieve the much prized exclusive. Dan vraag ik me toch weer opnieuw af, waar die platebazen, auteursrechten organisaties en zelfs artiesten zelf over lopen te zeiken. Buiten westeuropa zijn genoeg voorbeelden te vinden van alternatieve (sucesvolle) verdienmodellen rondom muziek. Zonder ook maar één plaat te verkopen!&lt;!--break--&gt;&lt;/p&gt;&lt;/blockquote&gt;
-</content>
- </entry>
- 
- <entry>
-   <title>DrupalJam Amsterdam, 19 maart 2010!</title>
-   <link href="http://berk.es/2010/01/28/drupaljam-amsterdam-19-maart-2010/"/>
-   <updated>2010-01-28T00:00:00+01:00</updated>
-   <id>http://berk.es/2010/01/28/drupaljam-amsterdam-19-maart-2010</id>
-   <content type="html">&lt;p&gt;Zojuist per mail ontvangen. Zegt het voort!&gt; Op 19 maart 2010 vindt de volgende DrupalJam plaats in Amsterdam.  Toneel voor deze editie is Stayokay Zeeburg, waar wij een vijftal  zalen beschikbaar zullen hebben voor presentaties, workshops, BoF's en  meer! De lokatie stelt alle bezoekers in staat om te blijven  overnachten, aangezien enkelen ver zullen moeten reizen of 's avonds  mee willen naar de kroegmeet (aankondiging daarvan volgt).&lt;/p&gt;
-
-&lt;p&gt;Meer informatie staat op http://drupal.be/evenement/drupaljam-6-amsterdam . Op http://twitter.com/drupaljam worden regelmatig updates geplaatst.  Drupaljam.nl zal binnenkort aangepast en geüpdatet worden.&lt;/p&gt;
 </content>
  </entry>
  

@@ -1,0 +1,473 @@
+<!DOCTYPE html>
+
+
+
+<!-- paulirish.com/2008/conditional-stylesheets-vs-css-hacks-answer-neither/ -->
+<!--[if lt IE 7]> <html class="no-js lt-ie9 lt-ie8 lt-ie7" lang="en"> <![endif]-->
+<!--[if IE 7]>    <html class="no-js lt-ie9 lt-ie8" lang="en"> <![endif]-->
+<!--[if IE 8]>    <html class="no-js lt-ie9" lang="en"> <![endif]-->
+<!--[if gt IE 8]><!--> <html class="no-js" lang="en"> <!--<![endif]-->
+<head>
+  <meta charset="utf-8" />
+
+  <!-- Set the viewport width to device width for mobile -->
+  <meta name="viewport" content="width=device-width" />
+  <link rel="openid.server" href="https://openid.yubico.com/server.php" />
+  <link rel="openid.delegate" href="https://openid.yubico.com/server.php/idpage?user=vvbdkthjbecc" />
+
+   <title>The Private Blockchain Fallacy</title>
+   <meta name="author" content="Bèr ‘berkes’ Kessels" />
+   <link href="http://feeds.feedburner.com/berkes" rel="alternate" title="The Private Blockchain Fallacy Feed" type="application/atom+xml" />
+   <link rel="author" href="/humans.txt" type="text/plain" />
+   <link rel="shortcut icon" href="/favicon.ico" type="image/x-icon" />
+   <!-- Included CSS Files -->
+   <link rel="stylesheet" href="/assets//stylesheets/foundation.css">
+   <link rel="stylesheet" href="/assets//stylesheets/pygments.css">
+   <link rel="stylesheet" href="/assets//stylesheets/app.css">
+
+   <!--[if lt IE 9]>
+   <link rel="stylesheet" href="/assets//stylesheets/ie.css">
+   <![endif]-->
+
+   <script src="/assets//javascripts/modernizr.foundation.js"></script>
+
+   <!-- IE Fix for HTML5 Tags -->
+   <!--[if lt IE 9]>
+     <script src="https://html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+   <![endif]-->
+
+   <!-- Fonts -->
+   <link href='https://fonts.googleapis.com/css?family=Arvo:400,400italic,700,700italic' rel='stylesheet' type='text/css'>
+   <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=OFL+Sorts+Mill+Goudy+TT" media="screen, projection, print">
+</head>
+<body>
+	<!-- container -->
+	<div class="container">
+    <header>
+      <div class="row">
+        <a href="/" title="Home">
+          <img src="/assets//images/logo.png" alt="Logo" title="Bèr ‘berkes’ Kessels" />
+        </a>
+      </div>
+
+      <nav id="main" class="row">
+        <div class="onion">
+        <ul>
+          <li>
+          <a href="/about.html">EN / About</a>
+          </li>
+          <li>
+          <a href="/archive.html">EN / Articles</a>
+          </li>
+          <li>
+          <a href="/over.html">NL / Over</a>
+          </li>
+          <li>
+          <a href="/archief.html">NL / Artikelen</a>
+          </li>
+        </ul>
+        </div>
+      </nav>
+    </header>
+    <section id="main-content" class="row">
+      <article>
+  <header>
+    <h1>The Private Blockchain Fallacy</h1>
+  </header> 
+  <div class="body row">
+    <div class="eight columns">
+      <p>In all the blockchain hype, a simple, yet self-refuting idea
+keeps popping up: a <em>Private Blockchain</em>.</p>
+
+<p>In order to understand why a <em>private blockchain</em> is nonsense, we must
+first define what a block chain is and what it is not. Since Nakamoto
+<a href="https://bitcoin.org/bitcoin.pdf">coined (PDF)</a> the term, lets see if
+his description helps:</p>
+
+<blockquote><p>a peer-to-peer distributed timestamp server to generate computational
+proof of the chronological order of transactions</p></blockquote>
+
+<p>It does highlight some important traits of "a block chain" (Nakamoto
+used a space between both words, I use the current popular term
+blockchain):</p>
+
+<ul>
+<li>peer-to-peer: implying distribution; at least ruling out a central
+  authority</li>
+<li>computational proof: implying it to be verifiable</li>
+<li>timestamp-server/chronological ordering: it's goal, but also implying
+  permanence</li>
+</ul>
+
+
+<p>Marco Iansiti and Karim R Lakhani have a <a href="https://en.wikipedia.org/wiki/Blockchain">more accessible explanation</a>:</p>
+
+<blockquote><p>an open, distributed ledger that can record transactions between two
+parties efficiently and in a verifiable and permanent way.</p></blockquote>
+
+<ul>
+<li>open (often called <em>permissionless</em>)</li>
+<li>distributed (often called <em>decentralized</em>)</li>
+<li>verifiable</li>
+<li>permanent (often called <em>immutable</em>)</li>
+</ul>
+
+
+<p>In other words: anything that does not match those criteria, is by
+definition, not a blockchain. It may be something similar, or even
+something using similar techniques, but not <em>a blockchain</em>. This is
+important.</p>
+
+<p>We can also look at it from the other side: if a blockchain offers these
+traits, when do we need a blockchain?:</p>
+
+<p><img src="/images/inline/do_you_need_a_blockchain.png" alt="logical graph to determine if one needs a blockchain" />.</p>
+
+<p>(I downloaded this image years ago and forgot to note the author.
+Sorry.)</p>
+
+<p>This has the same treats, but turns the argument around: if your
+requirements don't fit the exact things that blockchain offer: you don't
+need a blockchain. In the case of a <em>private blockchain</em>: if it is not
+public, you don't need a blockchain. We could stop here.</p>
+
+<h2>Reasons for wanting a <em>private blockchain</em></h2>
+
+<p>So, why do people come up with private blockchains in the first place?  We can group the arguments into three main arguments. I'll add a fourth.</p>
+
+<ol>
+<li>So we can store private data or other kinds of data that should not
+be public. (We scrap the <em>open</em> and <em>verifiable</em> parts for privacy)</li>
+<li>So we can control who has read/write access (We scrap the <em>open</em>
+part for control)</li>
+<li>So we can scale better (We scrap the <em>distributed</em> part for speed).</li>
+<li>Because we are not yet confident enough about the security and exact
+traits to release on a public platform (We scrap the <em>permanent</em> part
+for flexibility)</li>
+</ol>
+
+
+<p>The fourth is the only valid argument to ever use a private blockchain:
+as a temporary phase because you are still developing and finding out
+the ins- and outs of your blockchain-application: very similar to how
+you first release an app to your five friends and not upload it
+immediately to an app store.</p>
+
+<p>All others reasons are pure nonsense, because they don't <em>need a
+blockchain</em> to get the exact same outcome. Or because by definition,
+deploying that way, makes it <em>not a blockchain</em>. One could say, that by
+deploying a blockchain in a private environment, it stops being a
+blockchain.</p>
+
+<p>But, there is more than just a play of words. Keep tuned.</p>
+
+<h2>Private data: public.</h2>
+
+<p>A blockchain has to be public in order to ensure <em>permanence</em> or
+<em>immutability</em>.</p>
+
+<p>Let's compare a blockchain to a household book. When I have such a book,
+in a drawer in my office, I'm the only one who can read it and change
+it.</p>
+
+<p>So, when for some reason I bought a pair of expensive shoes, and a week
+later want to hide that fact, I can simply remove that line from the
+book. Or overwrite it with "pair of scissors". And boom. I never bought
+shoes (according to the book).</p>
+
+<p>But if that book is accessible amongst family members, for everyone to
+review, or copy, it becomes a little more "immutable".  I can still
+remove the "expensive shoes" line, but people might know, and
+family-members can call me out on it. With even more people who can
+access the book (why not mail a weekly copy to all family and friends?)
+the harder it becomes to change stuff afterwards.</p>
+
+<p>A blockchain, however, has an additional trait: through
+applied cryptography, it allows one to easily detect when a line is
+changed. So all people who have a copy can detect with certainty and
+easily that something has been changed that should not have been
+changed. But this trait is only useful if other stakeholders can get
+copies. In a private blockchain it is really easy to change something,
+even when that change has a big, clearly visible effect. Simply because
+there is no-one to witness that clearly visible effect!</p>
+
+<p>The <em>public</em> part, is what ensures the permanency. Not because it is
+impossible to change something (it is perfectly doable) but because that
+change, or its cryptographically effects, are seen by, other
+participants.</p>
+
+<p>Bitcoin, for example is not permanent either, in theoretic sense. If
+enough participants decide that the 0.01 BTC that you paid to John a
+year ago, is sent to Mallory instead, that is what will happen: <a href="https://blog.ethereum.org/2016/07/20/hard-fork-completed/">history
+will be rewritten</a>.
+Bitcoins <em>Immutability</em> stems from the fact that anyone can detect such
+a change, and that a vast majority then needs to acknowledge that
+change.</p>
+
+<p>The <em>public</em> part furthermore ensures that those participants will get
+hurt when making such a retrospective change: they have a stake in the
+(Bitcoin) blockchain, which will decrease in value because they just
+have proved that this blockchain can be retrospectively mutated.</p>
+
+<p>In a blockchain, public, or private, <em>immutability</em> is more of an
+agreement amongst all participants that <em>we won't change history.
+Promised!</em> it is not some magical "thing that comes from cryptography".
+In a private blockchain that promise is easy to make. And even easier to
+enforce: if Mallory changes some old record, just throw him out!</p>
+
+<p>With that in mind: immutability is an agreement, so you can just choose
+any database, even a shared excel sheet, and then promise each other
+never to change anything. All you need is detection that something was
+changed, which most database systems (or logging) will offer. You can
+even add some cryptography to it to make tampering more obvious or
+easier to revert or deal with.</p>
+
+<h2>Permissionless because we need control.</h2>
+
+<p>A blockchain has to be permissionless in order to ensure <em>permanence</em>.</p>
+
+<p>This is very simple actually. If you can control who has access, you
+control who decides what the truth is. Therefore, you hold the keys to
+change history in any way that you want.</p>
+
+<p>In the analogy of the household book, the person who controls who may
+write in the book and who may read from it, is, by extension, the person
+who controls what will get in the book and what not.</p>
+
+<p>That person is, by extension, also the one in full control of rewriting
+the history. Because when the access-controller wants something changed,
+he can simply remove anyone opposing that change from write (and read)
+access and then promote himself (or a proxy) to be able to write. And
+then change it.</p>
+
+<p>If other people can still read, they might notice that history is
+rewritten, but will lack all power to do something about it. The truth
+is what is in the blockchain, and they cannot change that, because of
+lack of permissions. It matters little how clumsy or detectable such a
+retrospective change is: the one with access control can, through that
+power, make these changes.</p>
+
+<p>Immutability in a blockchain is not something magical that comes from a
+fancy technology . But it comes from the conditions a blockchain requires: the
+environment, or "world" in which it runs make it immutable.</p>
+
+<p>The irony is that, actually, there is a magic technology that ensures
+immutability. And that technology is called blockchain. And hence <em>has</em>
+to be a public blockchain. We've come full-circle.</p>
+
+<h2>No Distribution because of scaling or speed.</h2>
+
+<p>A blockchain has to be distributed in order to ensure <em>a verifiable truth</em>.</p>
+
+<p>The opposite of distribution is centralization. To follow the "household
+book" analogy, distribution would mean that several times a day (maybe
+even after every change) copies are made and exchanged amongst people.
+More important, however, is that none of these copies is considered "The
+Truth".</p>
+
+<p>If there is only ever one copy of the household book, changing stuff in
+there (like ripping out a page) is trivial and -if done well- undetectable.</p>
+
+<p>The obvious solution would be to photocopy every page (say, daily) and
+keep those copies in multiple places. This is distribution. This is
+inefficient, slow and expensive, as opposed to having one copy and simply trusting that.
+But in essence what a blockchain does. Because of the exact reason of
+trust: so that we don't <em>have to trust one copyholder to tell us the
+truth</em>. This is the <em>trustless</em> nature of a blockchain.</p>
+
+<p>When all the copies at all moments can be considered <em>the truth</em> any
+difference between any copy will be detectable and should trigger an
+alarm. We then need a conflict resolution: which one is the truth.</p>
+
+<p>In Bitcoin, they simply say: what the majority of copy-holders have is
+the truth. So if your book is copied amongst five people and two have in
+there "berkes bought expensive shoes" but three don't, berkes did not
+buy expensive shoes.</p>
+
+<p>If only one book is elected as The Truth, and all others are simply
+copies that could be used to proof that something was there at some
+point, that really proves nothing: who is to say the person holding the
+copy did not forge some records in there?</p>
+
+<p>Distribution amongst all participants is crucial, because any central
+authority can otherwise change history at will and without detection:
+Verification is not possible and trust in an authority, or even a small
+group of authorities, is required.</p>
+
+<p>To turn it around: when you don't need that trustlessness, when you can
+trust a central authority, you don't need a blockchain. To turn it
+around again: if it requires trust, has an authority, by nature, it is
+not a blockchain.</p>
+
+<h2>But what about my favorite coin?</h2>
+
+<p>If it has a "private" or "permissioned" blockchain, it is not using a
+blockchain. It might still be a cryptographically backed database, a
+solid cryptocurrency of very modern database, but it simply is not using
+a blockchain. And because it is not using it, it lacks one or more of
+the crucial traits.</p>
+
+<p>Which means a single company could run away with your coins at any
+moment (yes, Ripple, looking at you). Or which means it is fundamentally
+insecure. Or it may offer very interesting solutions nonetheless.</p>
+
+<p>I can probably build a very useful and interesting monetary exchange system
+based on trust and a Google spreadsheet. But it ain't a blockchain. It's
+"just" a spreadsheet on a Google server (with a really novel idea
+around it).</p>
+
+<h2>"You say tomato, I say tomato"</h2>
+
+<p>Sure. If you want to call any <em>database</em> a blockchain, go ahead. If you
+insist on calling a Google spreadsheet a blockchain: fine. Its not some
+protected or trademarked term. You are even allowed to call my bicycle a
+blockchain. It has a chain after all.</p>
+
+<p>But this helps no-one. Because you are either reinventing a wheel, or
+you are using an extremely inefficient technology in a place where far
+better fitting, more efficient technologies would help you far better.</p>
+
+<p>Some <em>private blockchains</em> are not blockchains because they are simply
+other technologies.</p>
+
+<p>But unfortunately most <em>private blockchains</em> are really just
+inefficient, insecure or simply stupid implementations in which a public
+blockchain-setup is used behind closed doors. This offers none of the
+benefits of that public version, but all of the downsides.</p>
+
+<p>Take git: git is not a blockchain; git is <a href="https://medium.com/girl-writes-code/git-is-a-directed-acyclic-graph-and-what-the-heck-does-that-mean-b6c8dec65059">a
+DAG</a>;
+so don't call it a blockchain. A DAG is very elegant, efficient
+data-structure. That could even be used for distributed data-storage
+within a small group of participants that need some
+cryptographically-secure tamper-detection of their data. I'm mentioning
+git, because there are some cryptocurrencies that do exactly this: using
+a DAG to share truth amongst a private set of participants.</p>
+
+<p>Or take BitTorrent: BitTorrent is not a blockchain; so don't call it
+that. BitTorrent is a very neat implementation of Merkle trees, and
+really brilliant for distributing large amounts of data over a large
+amount of participants. Not a blockchain. I'm mentioning it, because
+this technology is often enough if you need to ensure that all
+participants have a copy of the data.</p>
+
+<p>There are literally thousands of types of databases out there, some
+allow ridiculously <a href="https://couchdb.apache.org/">easy syncing</a>, others
+allow <a href="https://redis.io">insane throughput</a>, again others allow really
+thorough consistency checks. Or cryptographically signed logs. Or
+encryption of the data, or sharing of parts of data, or ... I could go
+on. We don't call all these "blockchains" because of a hype. They are
+not: They are proper solutions to a specific use-case. A blockchain is
+one such solution, and like most technology, it applies to a very small
+subset of use-cases. A <em>private</em> version, however, can never be such a
+subset.</p>
+
+    </div>
+    <div class="four columns">
+      <figure class="decorative">
+  <img src="/images//2018/09/19/the-private-blockchain-fallacy.png" alt="Woodcut from Doré. Purely illustrative" />
+  
+    <figcaption>Doré Woodcut. Its only function is to make the layout look better. And these images are really nice themselves</figcaption>
+  
+</figure>
+
+    </div>
+  </div>
+  <footer>
+    <time datetime="2018-09-19T00:00:00+02:00"
+    pubdate="pubdate">
+      Posted on 19 September 2018
+    </time>
+    in
+    
+    
+      
+      
+
+
+  
+    
+      <a href="/tags.html#blockchain bitcoin-ref" class="black radius label">blockchain bitcoin<span class="size">1</span></a>
+    
+  
+
+
+
+    
+  </footer>
+</article>
+
+<div id="author">
+  <p>
+  
+  
+    <strong>About  the author:</strong> Bèr Kessels is an experienced webdeveloper  with a great passion for
+    technology and Open Source. A golden combination to implement that technology in a good and efficient
+    way. Follow <a href="https://todon.nl/@berkes">@berkes@todon.nl</a> on Mastodon. Or read more <a href="/over.html">about Bèr</a>.
+  
+  </p>
+</div>
+
+<hr/>
+<aside>
+  
+  
+  <h1>Read on:</h1>
+  
+  <ul>
+    
+      <li><span>February 15, 2018</span> &raquo; <a href="/2018/02/15/making-a-case-for-javascript-mining/">Making a case for JavaScript, in-browser Mining</a></li>
+
+    
+      <li><span>February  9, 2018</span> &raquo; <a href="/2018/02/09/bitcoin-turning-into-a-multi-layered-system-is-the-most-interesting-thing-in-crypto-in-2018/">Bitcoin turning into a multi layered system is the most interesting thing in crypto in 2018</a></li>
+
+    
+      <li><span>November 13, 2017</span> &raquo; <a href="/2017/11/13/f-rite-air-ico/">F/Rite Air ICO</a></li>
+
+    
+  </ul>
+</aside>
+
+
+    </section>
+
+    <footer class="main row">
+      <div class="contact four columns">
+        <p>
+            Bèr ‘berkes’ Kessels<br />
+            Bèr Kessels is an Open Source Webdeveloper.<br />
+            <a href='mailto:ber@berk.es'>ber@berk.es</a>
+          </p>
+          <p>
+            <a href="http://github.com/berkes/">github.com/berkes</a><br />
+            <a href="http://twitter.com/berkes/">twitter.com/berkes</a><br />
+          </p>
+      </div>
+      <div class="four columns">
+        Copyright 2001-2018
+        with a
+        <a href="http://creativecommons.org/licenses/by-sa/3.0/" rel="license">Creative Commons Attribute-Share-alike 3.0 Unported license</a>
+      </div>
+      <div class="four columns">
+        <a class="extra" href="/archive.html">Archive (All English articles)</a> <br />
+        <a class="extra" href="/archief.html">Archief (Alle Nederlandse artikelen)</a> <br />
+        <a class="extra" href="/tags.html">Tags</a> <br />
+        <a href="http://feeds.feedburner.com/berkes"> RSS </a> <br />
+      </div>
+    </footer>
+  </div>
+  <!-- Piwik -->
+<script type="text/javascript">
+var pkBaseURL = (("https:" == document.location.protocol) ? "https://piwik.webschuur.com/" : "http://piwik.webschuur.com/");
+document.write(unescape("%3Cscript src='" + pkBaseURL + "piwik.js' type='text/javascript'%3E%3C/script%3E"));
+</script><script type="text/javascript">
+try {
+var piwikTracker = Piwik.getTracker(pkBaseURL + "piwik.php", 9);
+piwikTracker.trackPageView();
+piwikTracker.enableLinkTracking();
+} catch( err ) {}
+</script><noscript><p><img src="http://piwik.webschuur.com/piwik.php?idsite=9" style="border:0" alt="" /></p></noscript>
+<!-- End Piwik Tracking Code -->
+
+</body>
+</html>

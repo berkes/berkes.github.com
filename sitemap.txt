@@ -8,6 +8,7 @@ http://berk.es/over.html
 http://berk.es/sitemap.txt
 http://berk.es/tags.html
 
+http://berk.es/2018/09/19/the-private-blockchain-fallacy/
 http://berk.es/2018/02/15/making-a-case-for-javascript-mining/
 http://berk.es/2018/02/09/bitcoin-turning-into-a-multi-layered-system-is-the-most-interesting-thing-in-crypto-in-2018/
 http://berk.es/2017/11/13/f-rite-air-ico/
