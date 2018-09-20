@@ -1,6 +1,6 @@
 ---
 title: "The Private Blockchain Fallacy"
-tags: [blockchain bitcoin]
+tags: [blockchain, bitcoin]
 lang: en
 layout: post
 ---
