@@ -281,3 +281,8 @@ not: They are proper solutions to a specific use-case. A blockchain is
 one such solution, and like most technology, it applies to a very small
 subset of use-cases. A *private* version, however, can never be such a
 subset.
+
+Positive feedback, as well as images of cats, calling me names, for
+hating on your beloved altcoins, or other comments are very welcome at
+[my twitter](https://twitter.com/berkes) or [on
+reddit](https://www.reddit.com/u/berkes).
