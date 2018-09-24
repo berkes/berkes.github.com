@@ -4,7 +4,6 @@ tags: [blockchain, bitcoin]
 lang: en
 layout: post
 ---
-
 In all the blockchain hype, a simple, yet self-refuting idea
 keeps popping up: a *Private Blockchain*.
 
@@ -286,3 +285,6 @@ Positive feedback, as well as images of cats, calling me names, for
 hating on your beloved altcoins, or other comments are very welcome at
 [my twitter](https://twitter.com/berkes) or [on
 reddit](https://www.reddit.com/u/berkes).
+
+This post was translated to [Dutch by
+bitcoinspot.nl](https://bitcoinspot.nl/de-misvatting-van-de-private-blockchain.html). Thanks!
