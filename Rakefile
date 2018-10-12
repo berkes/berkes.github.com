@@ -121,7 +121,7 @@ task "build" do
 end
 
 desc "Publish to production"
-task "publish" do
+task publish: :build do
   system "cap production deploy"
 end
 
