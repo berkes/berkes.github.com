@@ -5,7 +5,7 @@ require 'time'
 require 'fileutils'
 require 'jekyll'
 
-SOURCE = "."
+SOURCE = "./src"
 CONFIG = {
   'version' => "0.2.13",
   'posts' => File.join(SOURCE, "_posts"),
@@ -15,13 +15,12 @@ CONFIG = {
   'editor' => 'gvim',
   'branch' => "gh-pages",
   'repo'   => "git@github.com:berkes/berkes.github.com.git",
-  'build_dir'   => "/home/ber/Documenten/BK_berkes/build/"
+  'build_dir' => "./build"
 }
 
 # Path configuration helper
 module JB
   class Path
-    SOURCE = "."
     Paths = {
       :posts => "_posts"
     }
@@ -119,9 +118,9 @@ end
 
 desc "Build site in #{CONFIG["build_dir"]}site"
 task "build" do
-  site_dir = File.join(CONFIG["build_dir"], "site")
+  site_dir = CONFIG["build_dir"]
   FileUtils.mkdir_p(site_dir) unless File.exists? site_dir
-  system "jekyll build -d #{site_dir}"
+  system "jekyll build --destination #{site_dir} --source  #{SOURCE}"
 end
 
 desc "Publish to github pages"
