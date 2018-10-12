@@ -1,7 +1,4 @@
-_site/*
-_asset_bundler_cache/*
-_theme_packages/*
-
+build/*
 log/
 
 Thumbs.db
