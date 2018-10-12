@@ -13,8 +13,6 @@ CONFIG = {
   'images_templates' => File.join(SOURCE, "_images_templates"),
   'post_ext' => "markdown",
   'editor' => 'gvim',
-  'branch' => "gh-pages",
-  'repo'   => "git@github.com:berkes/berkes.github.com.git",
   'build_dir' => "./build"
 }
 
@@ -84,7 +82,7 @@ end # task :post
 desc "Launch preview environment"
 task :preview do
   limit = ENV["limit"] || 20
-  system "jekyll serve --watch --limit_posts #{limit}"
+  system "jekyll serve --watch --limit-posts #{limit} --destination #{CONFIG['build_dir']} --source  #{SOURCE}"
 end # task :preview
 
 desc "List tags used"
@@ -116,11 +114,10 @@ task "tags:remove" do
   clean_posts.each{|p| puts "#{p.slug} #{p.tags.join(',')}"}
 end
 
-desc "Build site in #{CONFIG["build_dir"]}site"
+desc "Build site in #{CONFIG["build_dir"]}"
 task "build" do
-  site_dir = CONFIG["build_dir"]
-  FileUtils.mkdir_p(site_dir) unless File.exists? site_dir
-  system "jekyll build --destination #{site_dir} --source  #{SOURCE}"
+  FileUtils.mkdir_p(CONFIG["build_dir"]) unless File.exists? CONFIG["build_dir"]
+  system "jekyll build --destination #{CONFIG["build_dir"]} --source  #{SOURCE}"
 end
 
 desc "Publish to production"
@@ -140,11 +137,6 @@ end
 def get_stdin(message)
   print message
   STDIN.gets.chomp
-end
-
-def git work_tree, git_dir, command_string
-  #puts "git --git-dir=#{git_dir} --work-tree=#{work_tree} #{command_string}"
-  system "git --git-dir=#{git_dir} --work-tree=#{work_tree} #{command_string}"
 end
 
 # Gives the name of the next to-be-used image.
