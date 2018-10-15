@@ -2,7 +2,7 @@ require "capistrano/scm/plugin"
 
 class Capistrano::SCM::CopyLocal < Capistrano::SCM::Plugin
   def set_defaults
-    set_if_empty :copy_local_source_path, "./build"
+    set_if_empty :copy_local_source_path, "./build/"
     set_if_empty :copy_local_destination_path, lambda {
       File.join(release_path, "public")
     }
