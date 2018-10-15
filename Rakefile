@@ -5,7 +5,7 @@ require 'time'
 require 'fileutils'
 require 'jekyll'
 
-SOURCE = "."
+SOURCE = "./src"
 CONFIG = {
   'version' => "0.2.13",
   'posts' => File.join(SOURCE, "_posts"),
@@ -13,15 +13,12 @@ CONFIG = {
   'images_templates' => File.join(SOURCE, "_images_templates"),
   'post_ext' => "markdown",
   'editor' => 'gvim',
-  'branch' => "gh-pages",
-  'repo'   => "git@github.com:berkes/berkes.github.com.git",
-  'build_dir'   => "/home/ber/Documenten/BK_berkes/build/"
+  'build_dir' => "./build"
 }
 
 # Path configuration helper
 module JB
   class Path
-    SOURCE = "."
     Paths = {
       :posts => "_posts"
     }
@@ -85,7 +82,7 @@ end # task :post
 desc "Launch preview environment"
 task :preview do
   limit = ENV["limit"] || 20
-  system "jekyll serve --watch --limit_posts #{limit}"
+  system "jekyll serve --watch --limit-posts #{limit} --destination #{CONFIG['build_dir']} --source  #{SOURCE}"
 end # task :preview
 
 desc "List tags used"
@@ -117,27 +114,15 @@ task "tags:remove" do
   clean_posts.each{|p| puts "#{p.slug} #{p.tags.join(',')}"}
 end
 
-desc "Build site in #{CONFIG["build_dir"]}site"
+desc "Build site in #{CONFIG["build_dir"]}"
 task "build" do
-  site_dir = File.join(CONFIG["build_dir"], "site")
-  FileUtils.mkdir_p(site_dir) unless File.exists? site_dir
-  system "jekyll build -d #{site_dir}"
+  FileUtils.mkdir_p(CONFIG["build_dir"]) unless File.exists? CONFIG["build_dir"]
+  system "jekyll build --destination #{CONFIG["build_dir"]} --source  #{SOURCE}"
 end
 
-desc "Publish to github pages"
-task "publish" do
-  work_tree = File.join(CONFIG["build_dir"], "site")
-  git_dir   = File.join(CONFIG["build_dir"], "dotgit")
-  git work_tree, git_dir, "add ."
-  git work_tree, git_dir, "commit -a -m 'publishing site'"
-  git work_tree, git_dir, "push github master"
-end
-
-desc "Preview git status"
-task "publish:status" do
-  work_tree = File.join(CONFIG["build_dir"], "site")
-  git_dir   = File.join(CONFIG["build_dir"], "dotgit")
-  git work_tree, git_dir, "status"
+desc "Publish to production"
+task publish: :build do
+  system "cap production deploy"
 end
 
 def ask(message, valid_options)
@@ -152,11 +137,6 @@ end
 def get_stdin(message)
   print message
   STDIN.gets.chomp
-end
-
-def git work_tree, git_dir, command_string
-  #puts "git --git-dir=#{git_dir} --work-tree=#{work_tree} #{command_string}"
-  system "git --git-dir=#{git_dir} --work-tree=#{work_tree} #{command_string}"
 end
 
 # Gives the name of the next to-be-used image.
