@@ -3,12 +3,12 @@
   {% if page.lang == "nl" %}
     <strong>Over de auteur:</strong> Bèr Kessels is een ervaren webdeveloper met een grote passie voor
     techniek en Open Source. Een gouden combinatie om de techniek goed en
-    efficiënt toe te passen. Volg <a href="https://todon.nl/@berkes">@berkes@todon.nl</a> op Mastodon. Of lees meer <a href="/over.html">over Bèr</a>.
+    efficiënt toe te passen. Volg <a rel="me" href="https://bitcoinhackers.org/@berkes">@berkes op Mastodon</a>. Of lees meer <a href="/over.html">over Bèr</a>.
   {% endif %}
   {% if page.lang == "en" %}
     <strong>About  the author:</strong> Bèr Kessels is an experienced webdeveloper  with a great passion for
     technology and Open Source. A golden combination to implement that technology in a good and efficient
-    way. Follow <a href="https://todon.nl/@berkes">@berkes@todon.nl</a> on Mastodon. Or read more <a href="/over.html">about Bèr</a>.
+    way. Follow <a rel="me" href="https://bitcoinhackers.org/@berkes">@berkes on Mastodon</a>. Or read more <a href="/over.html">about Bèr</a>.
   {% endif %}
   </p>
 </div>
