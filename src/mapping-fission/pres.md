@@ -129,7 +129,7 @@ metadata about you.
 
 --- 
 
-[example](https://gspe21-ssl.ls.apple.com/html/attribution.html){target=_blank}
+[example](https://gspe21-ssl.ls.apple.com/html/attribution.html){ target=_blank }
 
 # There is mapping data.
 
@@ -175,9 +175,7 @@ metadata about you.
 
 ---
 
- [GTFS example](https://tracker.geops.ch/?z=14&s=1&x=547404.9479&y=6865272.5317&l=transport){target=_blank}.
-
---- 
+ [GTFS example](https://tracker.geops.ch/?z=14&s=1&x=547404.9479&y=6865272.5317&l=transport){target=_blank}
 
 # Dynamics of mapping data
 
