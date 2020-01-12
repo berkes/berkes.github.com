@@ -7,7 +7,7 @@ lang: en
 
 Last summer I started a sideproject.
 [Post-a-Coin](https://postacoin.com). A simple and straightforward idea,
-really: you can by high quality postcards with Bitcoin preloaded to give
+really: you can buy high quality postcards with Bitcoin preloaded to give
 as a gift. For the crypto-nerds: a paper wallet, really^1.
 
 I envisioned it as a small side-project: a tiny company that
