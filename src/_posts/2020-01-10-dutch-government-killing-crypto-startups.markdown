@@ -72,6 +72,16 @@ those kinds of fees. And even if that were realistic, I don't want to
 grow into the CEO of one of the largest postcard companies in the world:
 I want it to remain a nice sideproject.
 
+**Edit**: the Central Bank [gave a final
+cost-specification](https://www.toezicht.dnb.nl/2/50-237929.jspn). I
+missed that, eventhough I'm on a mailing list AND asked them about this
+several times, they failed to contact me about this final spec.
+In any case: €5000 for a request for registration (and it looks like you
+have to pay, regardless of whether they will register you in the end).
+Following years are unknown and deemed to be more expensive, because that is
+when "the niche" needs to cover the entire costs of all the
+registrations themselves.
+
 **It is complex**. I'm running this company from a shared office space. It
 is a just a Sole Trader entity (Eenmanszaak in Dutch). As a tiny
 startup, it makes no sense at all to set up an LLC entity (B.V. in
