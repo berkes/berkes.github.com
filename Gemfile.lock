@@ -41,6 +41,7 @@ GEM
       listen (~> 3.0)
     kramdown (1.16.2)
     libv8 (3.16.14.13)
+    libv8 (3.16.14.13-x86_64-linux)
     liquid (4.0.0)
     listen (3.1.5)
       rb-fsevent (~> 0.9, >= 0.9.4)
@@ -79,6 +80,7 @@ GEM
 
 PLATFORMS
   ruby
+  x86_64-linux
 
 DEPENDENCIES
   capistrano
@@ -90,4 +92,4 @@ DEPENDENCIES
   therubyracer (~> 0.12.1)
 
 BUNDLED WITH
-   1.16.1
+   2.2.0
