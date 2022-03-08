@@ -95,8 +95,8 @@ that the ones running on Ruby (on Rails) are all from the early days.
 I have a hard time finding any
 successful SAAS building their products on Rails after 2020. Github: 2008, Shopify:
 2006, Twitter: 2006, Groupon: 2008, Zendesk: 2007, AirBnB
-2008, Fiverr: 2010. The only larger companies, running Rails and started
-after 2010 I could find are Stripe (2011) and Gitlab (2014). Discord and
+2008, Fiverr: 2010. The only larger companies, running Ruby or Rails and started
+after 2010 I could find are Stripe (2011) and Gitlab (2014). Discourse and
 Mastodon are the only recent popular Ruby-based Open Source projects that I am
 aware of.
 
