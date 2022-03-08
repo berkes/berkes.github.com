@@ -7,8 +7,7 @@ lang: en
 
 Almost 12 years ago I answered a [StackOverflow
 question](https://stackoverflow.com/questions/3794270/is-ruby-on-rails-or-at-least-the-community-dying)
-*is ruby on rails (or at least the community) dying? [closed]* with
-*with a still very active community around it*. Today, 2022, I
+*is ruby on rails (or at least the community) dying? [closed]* with *[there is] still [a] very active community around it*. Today, 2022, I
 see this declining more rapidly than before.
 
 The most obvious (and unscientific) place to look is Google Trends. For
