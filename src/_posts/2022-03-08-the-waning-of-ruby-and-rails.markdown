@@ -148,4 +148,6 @@ Certainly not! The [demand for Rails and Ruby
 developers](https://www.linkedin.com/jobs/search/?keywords=Ruby) is high
 as ever, if only because general demand for developers is ever
 increasing. And all that SAAS, built since 2008, needs developers for
-the coming decades.
+the coming decades. But be aware of the risk of becoming the COBOL or Perl
+developer maintaining some dusty legacy if the downward trend for Ruby
+continues as it did last decade.
