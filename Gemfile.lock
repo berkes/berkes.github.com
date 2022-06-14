@@ -90,6 +90,3 @@ DEPENDENCIES
   rake
   rdiscount (~> 2.2)
   therubyracer (~> 0.12.1)
-
-BUNDLED WITH
-   2.2.0
