@@ -54,8 +54,8 @@ article pre {
   padding: 1.3rem;
   margin: 0 1em 1em 1em;
 
-  white-space: pre-wrap;
   word-wrap: break-word;
+  overflow: scroll;
 }
 article pre:hover,
 article pre:focus {
