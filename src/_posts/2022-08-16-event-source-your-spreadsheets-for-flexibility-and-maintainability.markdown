@@ -5,7 +5,7 @@ lang: en
 layout: "post"
 ---
 
-Event Sourcing (ES) is one of those software paradigms that I wish I had known about much earlier. In hindsight [several of my projects and companies would have benefited greatly] from an Event Sourced Architecture.
+Event Sourcing (ES) is one of those software paradigms that I wish I had known about much earlier. In hindsight [several of my projects and companies would have benefited greatly](https://twitter.com/berkes/status/1559268085655371776) from an Event Sourced Architecture.
 
 Event Sourcing is, by no means, a magic bullet. It's an architecture that has a place and use. But for many **spreadsheets** it turns out to be an excellent fit!
 
