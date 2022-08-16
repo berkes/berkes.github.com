@@ -141,29 +141,36 @@ def get_stdin(message)
 end
 
 # Gives the name of the next to-be-used image.
-def next_image layout
+def next_image(layout)
   number = last_used(layout)+1
   imagefile = File.join(CONFIG["images_templates"], "#{layout}-#{number}.png")
   imagefile if File.exists?(imagefile)
 end
 
+def first_image(layout)
+  glob = File.join(CONFIG["images_templates"], "#{layout}-*.png")
+  Dir[glob][0]
+end
+
 # Same as next_image, but increments the pointer.
-def next_image! layout="portrait"
-  image = next_image layout
-  if image
-    inc_last_used! layout
+def next_image!(layout="portrait")
+  if image = next_image(layout)
+    inc_last_used!(layout)
+    image
+  else
+    set_last_used(0, layout)
+    first_image(layout)
   end
-  image
 end
 
 # Finds the last used image of a certain layout.
-def inc_last_used! layout
+def inc_last_used!(layout)
   number = last_used layout
-  set_last_used number+1, layout
+  set_last_used(number+1, layout)
 end
 
 # Finds the last used imagenumber of a certain layout.
-def last_used layout
+def last_used(layout)
   number = "0"
   filename = File.join(CONFIG["images_templates"], "last_#{layout}")
 
@@ -176,7 +183,7 @@ def last_used layout
   number.to_i
 end
 # sets the last used image.
-def set_last_used number, layout
+def set_last_used(number, layout)
   filename = File.join(CONFIG["images_templates"], "last_#{layout}")
   File.open(filename, 'w') do |pointer|
     pointer.puts number
