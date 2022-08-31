@@ -141,7 +141,8 @@ making a few mistakes here:
 * I am not taking "the business" serious enough. The part that actually pays my
   beer. I wrongly consider "engineering" vs "business" as opposites, rather
   than as the enablers of each-other they are.
-* That taking on technical debt is a *fact of life* of a software project.
+* That taking on technical debt can be avoided, and is not a *fact of life* of
+  a software project.
 
 And, above all, I did not design the code in such a way that it can safely take
 on the inevitable debt. Or even embrace it.
