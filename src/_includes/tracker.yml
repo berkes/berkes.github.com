@@ -10,3 +10,7 @@ piwikTracker.enableLinkTracking();
 } catch( err ) {}
 </script><noscript><p><img src="http://piwik.webschuur.com/piwik.php?idsite=9" style="border:0" alt="" /></p></noscript>
 <!-- End Piwik Tracking Code -->
+
+<!-- Plausible -->
+<script defer data-domain="berk.es" src="https://plausible.io/js/plausible.js"></script>
+<!-- End Plausible -->
