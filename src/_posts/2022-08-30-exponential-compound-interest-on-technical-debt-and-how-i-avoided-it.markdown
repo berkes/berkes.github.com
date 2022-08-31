@@ -343,6 +343,7 @@ to the entire business to keep paying off the debt, or at the very least the
 paying off the interest, because the compounding effect will otherwise grind
 the project to halt. Or even cause bankruptcy.
 
+Discussion and comments are welcome over at [this hackernews post](https://news.ycombinator.com/item?id=32660834)
 
 ---
 
