@@ -52,10 +52,16 @@ article pre {
   font-family: Monaco, Andale Mono, Courir New, monospace;
 
   padding: 1.3rem;
-  margin: 0 1em 1em 1em;
+  margin: 0 0 1em 0;
 
   word-wrap: break-word;
   overflow: scroll;
+}
+@media only screen and (max-width: 960px) {
+  article pre {
+    width: auto;
+    margin-right: 1em;
+  }
 }
 article pre:hover,
 article pre:focus {
@@ -66,14 +72,19 @@ code {
   font-family: Monaco, Andale Mono, Courir New, monospace;
   background-color: #eee;
 }
-p code {
-  padding: 1px 5px;
+p > code {
+  word-wrap: break-word;
 }
 /***************************************************************************
  *                                  GRID                                   *
  ***************************************************************************/
 article figure.decorative {
   width: 469px;
+}
+@media only screen and (max-width: 469px) {
+  article figure.decorative {
+    display: none;
+  }
 }
 /***************************************************************************
  *                                  Tags                                   *
