@@ -139,6 +139,7 @@ nav#main a.active, nav#main a:hover {
   }
   nav#main ul li a {
     display: block;
+    padding: 0;
     float: none;
     width: 100%;
   }
