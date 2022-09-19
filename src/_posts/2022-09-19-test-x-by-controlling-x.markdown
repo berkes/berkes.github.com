@@ -23,12 +23,10 @@ therefore should not) test it.
 ## How to control X
 
 Second is the question "how can I control X". For once, this can be answered
-different than with *it depends*.
-
-Because we can control X, by ensuring that X is ours, is simple, does not
-depend on external stuff, and relies only on things that we control. That is
-not easy. But entire books have been written on architectural patterns that
-allow us to **easily control X**: to easily test X.
+different than with *it depends*, because we can control X, by ensuring that X
+is ours. By keeping it simple, and by ensuring it relies only on things that we
+control. That is not easy. But entire books have been written on architectural
+patterns that allow us to **easily control X**: so that we can easily test X.
 
 ## Ease of controlling
 
