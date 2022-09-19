@@ -12,7 +12,7 @@ CONFIG = {
   'images' => File.join(SOURCE, "images"),
   'images_templates' => File.join(SOURCE, "_images_templates"),
   'post_ext' => "markdown",
-  'editor' => 'gvim',
+  'editor' => 'nvim',
   'build_dir' => "./build"
 }
 
