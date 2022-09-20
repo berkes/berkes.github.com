@@ -1,5 +1,5 @@
 ---
-title: "Test X by Controlling X"
+title: '"How do I test X" is almost always answered with "by controlling X"'
 tags: [test, TDD]
 lang: en
 layout: post
