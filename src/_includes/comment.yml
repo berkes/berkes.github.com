@@ -1,5 +1,5 @@
 <p>
-  Discuss this article on <a href="{{ site.url }}/{{ page.url }}">
+Discuss this article on <a href="https://discu.eu/?q={{ site.url }}{{ page.url }}">
     Hackernews, Reddit, Twitter or Mastodon
   </a>
 </p>
