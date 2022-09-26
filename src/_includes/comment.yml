@@ -1,0 +1,5 @@
+<p>
+  Discuss this article on <a href="{{ site.url }}/{{ page.url }}">
+    Hackernews, Reddit, Twitter or Mastodon
+  </a>
+</p>

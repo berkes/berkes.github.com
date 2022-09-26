@@ -1,7 +1,8 @@
-<br/>
+<p>
 {% if page.lang == "nl" %}
 Sourcecode <a href="https://github.com/berkes/berkes.github.com/tree/main/src/{{ page.path }}">op Github</a>
 {% endif %}
 {% if page.lang == "en" %}
 Sourcecode <a href="https://github.com/berkes/berkes.github.com/tree/main/src/{{ page.path }}">on Github</a>
 {% endif %}
+</p>
