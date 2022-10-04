@@ -72,12 +72,19 @@ additional information that the code does not convey.
 * Can a size be negative? 18 quintillion kilobytes? Zero?
 * What is the `response_code`? Maybe a HTTP code? If so, what is zero? Or 65000?
 
+Please note that `PageRequest` is not a value object here. It has identity
+(though no explicit ID field), it makes no sense to compare on its content and
+it would probably be something that comes from a database or other source in
+reality. It would be either an Aggregate or Entity. But that's for another
+discussion.
+
 ## Value Objects to the rescue
 
 First, a Value Object wraps one, or multiple *things*. An example of
 multiple-things [would be a 2D
 coordinate](https://www.martinfowler.com/bliki/ValueObject.html) or a "list of things".
-My contrived example lacks such a Value Object, but I'll touch on this later.
+My contrived example lacks such Value Objects that wrap multiple primitives,
+but I'll touch on this later.
 
 For now, let's turn the email address into a Value Object:
 
