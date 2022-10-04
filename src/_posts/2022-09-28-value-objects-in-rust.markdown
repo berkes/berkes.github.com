@@ -200,18 +200,34 @@ or operators, to the wrapped value. [`Deref`](https://doc.rust-lang.org/std/ops/
 
 <script src="https://gist.github.com/berkes/67d8d6dc1dc7a8d143682fa3cc61f9ec.js"></script>
 
-We still have to deref any value before using it, but that is rather simple.
-In the example these are the`*vc` and the `*report_title`.
+We still have to deref any value before using it, but that is rather simple. In
+the example these are the`*vc` and the `*report_title`. This [is considered an
+antipattern](https://rust-unofficial.github.io/patterns/anti_patterns/deref.html)
+though. But, like always, "it depends". With a very simple value object, deref
+makes sense: it may not be 100% semantic correct: deref is meant for custom
+pointer types and simple value objects can be considered such a pointer, but
+not entirely. For value objects that wrap multiple primitives, deref won't work. And when
+we add semantics, like the `as_kilobytes()` it isn't needed, and would add only
+confusion. So use with care and be aware of the downsides. Such as:
 
-So:
+> Using this pattern gives subtly different semantics from most OO languages
+> with regards to self. Usually it remains a reference to the sub-class, with
+> this pattern it will be the 'class' where the method is defined.
+
+I personally don't use `deref` that often. Only early on, but I find that when
+a value object improves and solidifies over time, I almost always remove the
+deref at some point in favor of semantic getters[2].
+
+So, to sum up:
 
 * If the wrapped value makes sense as primitive, and we want to allow any
-  operations or methods to be called on it, `Deref` is a great help.
+  operations or methods to be called directly on it, `Deref` can be of help.
 * If the wrapped value is ambiguous, named getters rather than a generic one, allow
   us to return a Primitive on which we can operate as we want.
 * If the wrapped value make no business sense as Primitive (e.g. our status code),
   we should prohibit getting to this primitive.
-* If the wrapped value is made up of multiple primitives, operations don't make sense: getting to the underlying primitives should be prohibited.
+* If the wrapped value is made up of multiple primitives, operations don't make
+  sense: getting to the underlying primitives should be prohibited.
 
 The last one needs some extra attention:
 
@@ -284,3 +300,10 @@ are valid within our domain, are ergonomic and require rather little boilerplate
 ---
 
 * [1] And, yes, this isn't any sort of email-validation. It's an example!
+* [2] In Ruby, where I use Value Objects a lot too, and which is fully OOP, I find
+  the same goes. I never just blanket forward all calls to the wrapped
+  primitive. Because that leads to coupling with the primitive, which is one of 
+  the reasons for using value objects in the first place. Primitives also come
+  with a very large interface (at least in Rust and Ruby they do), many of which
+  don't make sense in the domain meaning. What is `status_code.is_odd()` or
+  `status_code.len()`?
