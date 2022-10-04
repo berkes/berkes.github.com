@@ -1,4 +1,3 @@
-<hr/>
 <aside>
   {% if page.lang == "nl" %}
   <h1>Lees verder:</h1>

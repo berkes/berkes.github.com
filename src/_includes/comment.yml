@@ -1,6 +1,32 @@
-<p>
-  Discuss this article on
-  <a href="https://discu.eu/?q={{ site.production_url }}{{ page.url }}">
-    Hackernews, Reddit, Twitter or Mastodon
-  </a>
-</p>
+<template id="comment-line">
+  <li class="comment-line">
+    <a href="">Discuss on <span class="platform"></span> (<span class="count"></span> comments)</a>
+  </li>
+</template>
+
+<template id="comment-loading">
+  <p class="loading">
+    Looking up discussions on social networks...
+  </p>
+</template>
+
+<template id="comment-empty">
+  <p class="empty">
+    Article is not submitted to Reddit or Hacker News.
+  </p>
+</template>
+
+<template id="comment-error">
+  <p class="error">
+    An error occurred while loading the discussions.
+  </p>
+</template>
+
+<aside>
+  <h2>Comments and Discussions</h2>
+  <div id="comment">
+    <ul></ul>
+  </div>
+</aside>
+
+<script defer src="/assets/javascripts/comment.js"></script>

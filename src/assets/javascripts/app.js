@@ -52,18 +52,7 @@ jQuery(document).ready(function ($) {
 	/* TOOLTIPS ------------ */
 	$(this).tooltips();
 
-
-
-	/* UNCOMMENT THE LINE YOU WANT BELOW IF YOU WANT IE6/7/8 SUPPORT AND ARE USING .block-grids */
-//	$('.block-grid.two-up>li:nth-child(2n+1)').css({clear: 'left'});
-//	$('.block-grid.three-up>li:nth-child(3n+1)').css({clear: 'left'});
-//	$('.block-grid.four-up>li:nth-child(4n+1)').css({clear: 'left'});
-//	$('.block-grid.five-up>li:nth-child(5n+1)').css({clear: 'left'});
-
-
-
 	/* DROPDOWN NAV ------------- */
-
 	var lockNavBar = false;
 	$('.nav-bar a.flyout-toggle').live('click', function(e) {
 		e.preventDefault();
@@ -90,9 +79,4 @@ jQuery(document).ready(function ($) {
       $(this).children('.flyout').hide();
     })
   }
-
-
-	/* DISABLED BUTTONS ------------- */
-	/* Gives elements with a class of 'disabled' a return: false; */
-  
 });
