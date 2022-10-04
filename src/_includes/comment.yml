@@ -27,6 +27,7 @@
   <div id="comment">
     <ul></ul>
   </div>
+  Powered by <a href="https://discu.eu">Discu</a>. Thanks.
 </aside>
 
 <script defer src="/assets/javascripts/comment.js"></script>
