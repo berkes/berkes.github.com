@@ -1,6 +1,6 @@
 <template id="comment-line">
   <li class="comment-line">
-    <a href="">Discuss on <span class="platform"></span> (<span class="count"></span> comments)</a>
+    <a href=""><span class="platform"></span> (<span class="count"></span> comments)</a>
   </li>
 </template>
 
@@ -23,7 +23,7 @@
 </template>
 
 <aside>
-  <h2>Comments and Discussions</h2>
+  <h2>Discussions around the web</h2>
   <div id="comment">
     <ul></ul>
   </div>
