@@ -1,0 +1,512 @@
+<!DOCTYPE html>
+<html lang="nl">
+<head>
+  <meta charset="utf-8">
+  <meta name="generator" content="pandoc">
+  <meta name="author" content="Bèr berkes Kessels">
+  <meta name="keywords" content="es, eventsourcing, ddd">
+  <title>Event Sourcing</title>
+  <meta name="apple-mobile-web-app-capable" content="yes">
+  <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no, minimal-ui">
+  <link rel="stylesheet" href="./reveal.js-3.9.2//css/reset.css">
+  <link rel="stylesheet" href="./reveal.js-3.9.2//css/reveal.css">
+  <style>
+    code{white-space: pre-wrap;}
+    span.smallcaps{font-variant: small-caps;}
+    span.underline{text-decoration: underline;}
+    div.column{display: inline-block; vertical-align: top; width: 50%;}
+    div.hanging-indent{margin-left: 1.5em; text-indent: -1.5em;}
+    ul.task-list{list-style: none;}
+    pre > code.sourceCode { white-space: pre; position: relative; }
+    pre > code.sourceCode > span { display: inline-block; line-height: 1.25; }
+    pre > code.sourceCode > span:empty { height: 1.2em; }
+    code.sourceCode > span { color: inherit; text-decoration: inherit; }
+    div.sourceCode { margin: 1em 0; }
+    pre.sourceCode { margin: 0; }
+    @media screen {
+    div.sourceCode { overflow: auto; }
+    }
+    @media print {
+    pre > code.sourceCode { white-space: pre-wrap; }
+    pre > code.sourceCode > span { text-indent: -5em; padding-left: 5em; }
+    }
+    pre.numberSource code
+      { counter-reset: source-line 0; }
+    pre.numberSource code > span
+      { position: relative; left: -4em; counter-increment: source-line; }
+    pre.numberSource code > span > a:first-child::before
+      { content: counter(source-line);
+        position: relative; left: -1em; text-align: right; vertical-align: baseline;
+        border: none; display: inline-block;
+        -webkit-touch-callout: none; -webkit-user-select: none;
+        -khtml-user-select: none; -moz-user-select: none;
+        -ms-user-select: none; user-select: none;
+        padding: 0 4px; width: 4em;
+        color: #aaaaaa;
+      }
+    pre.numberSource { margin-left: 3em; border-left: 1px solid #aaaaaa;  padding-left: 4px; }
+    div.sourceCode
+      {   }
+    @media screen {
+    pre > code.sourceCode > span > a:first-child::before { text-decoration: underline; }
+    }
+    code span.al { color: #ff0000; font-weight: bold; } /* Alert */
+    code span.an { color: #60a0b0; font-weight: bold; font-style: italic; } /* Annotation */
+    code span.at { color: #7d9029; } /* Attribute */
+    code span.bn { color: #40a070; } /* BaseN */
+    code span.bu { } /* BuiltIn */
+    code span.cf { color: #007020; font-weight: bold; } /* ControlFlow */
+    code span.ch { color: #4070a0; } /* Char */
+    code span.cn { color: #880000; } /* Constant */
+    code span.co { color: #60a0b0; font-style: italic; } /* Comment */
+    code span.cv { color: #60a0b0; font-weight: bold; font-style: italic; } /* CommentVar */
+    code span.do { color: #ba2121; font-style: italic; } /* Documentation */
+    code span.dt { color: #902000; } /* DataType */
+    code span.dv { color: #40a070; } /* DecVal */
+    code span.er { color: #ff0000; font-weight: bold; } /* Error */
+    code span.ex { } /* Extension */
+    code span.fl { color: #40a070; } /* Float */
+    code span.fu { color: #06287e; } /* Function */
+    code span.im { } /* Import */
+    code span.in { color: #60a0b0; font-weight: bold; font-style: italic; } /* Information */
+    code span.kw { color: #007020; font-weight: bold; } /* Keyword */
+    code span.op { color: #666666; } /* Operator */
+    code span.ot { color: #007020; } /* Other */
+    code span.pp { color: #bc7a00; } /* Preprocessor */
+    code span.sc { color: #4070a0; } /* SpecialChar */
+    code span.ss { color: #bb6688; } /* SpecialString */
+    code span.st { color: #4070a0; } /* String */
+    code span.va { color: #19177c; } /* Variable */
+    code span.vs { color: #4070a0; } /* VerbatimString */
+    code span.wa { color: #60a0b0; font-weight: bold; font-style: italic; } /* Warning */
+  </style>
+  <link rel="stylesheet" href="./reveal.js-3.9.2//css/theme/black.css" id="theme">
+  <link rel="stylesheet" href="style.css"/>
+  <!-- Printing and PDF exports -->
+  <script>
+    var link = document.createElement( 'link' );
+    link.rel = 'stylesheet';
+    link.type = 'text/css';
+    link.href = window.location.search.match( /print-pdf/gi ) ? './reveal.js-3.9.2//css/print/pdf.css' : './reveal.js-3.9.2//css/print/paper.css';
+    document.getElementsByTagName( 'head' )[0].appendChild( link );
+  </script>
+  <!--[if lt IE 9]>
+  <script src="./reveal.js-3.9.2//lib/js/html5shiv.js"></script>
+  <![endif]-->
+</head>
+<body>
+  <div class="reveal">
+    <div class="slides">
+
+<section id="title-slide">
+  <h1 class="title">Event Sourcing</h1>
+  <p class="subtitle">Event Sourcing basics - Nimma.codes 25-10-2022</p>
+  <p class="author">Bèr <code>berkes</code> Kessels</p>
+</section>
+
+<section>
+<section id="event-sourcing" class="title-slide slide level1" data-background-image="./dvd_screensaver.gif" data-background-size="contain">
+<h1 data-background-image="./dvd_screensaver.gif" data-background-size="contain">Event Sourcing</h1>
+
+</section>
+<section id="over-deze-presentatie" class="slide level2">
+<h2>Over deze presentatie</h2>
+<ul>
+<li class="fragment">Is online: <a href="https://berk.es/es">berk.es/es</a> (github.com/berkes/es)</li>
+<li class="fragment">Bevat alle links</li>
+<li class="fragment">Is in het Nederlands</li>
+</ul>
+</section>
+<section id="over-mij" class="slide level2" data-background-image="./ber.jpg">
+<h2 data-background-image="./ber.jpg">Over mij</h2>
+<ul>
+<li class="fragment">Bèr <code>berkes</code> Kessels</li>
+<li class="fragment"><span class="citation" data-cites="berkes">@berkes</span> - LinkedIn, Twitter, Fediverse</li>
+<li class="fragment">CTO at [REDACTED]</li>
+<li class="fragment">Blog berk.es</li>
+</ul>
+</section>
+<section id="doel" class="slide level2">
+<h2>Doel</h2>
+<ul>
+<li class="fragment">Wegwijs worden in de chaos van TLAs.</li>
+<li class="fragment">Een volgend project met ES opzetten?</li>
+</ul>
+</section></section>
+<section>
+<section id="event-sourcing-is-simpel." class="title-slide slide level1">
+<h1>Event Sourcing is simpel.</h1>
+
+</section>
+<section class="slide level2">
+
+<figure>
+<img data-src="./bank_app.png" alt="" /><figcaption>Bank app</figcaption>
+</figure>
+</section>
+<section class="slide level2">
+
+<p>Aggregate, Left Fold, Reduce, Projection, etc.</p>
+</section>
+<section class="slide level2">
+
+<p>We slaan alle transacties op - events. Balans krijgen we door ze te doorlopen.</p>
+</section>
+<section class="slide level2">
+
+<ul>
+<li class="fragment">Wat was onze balans op vrijdag de 13e om 13:37?</li>
+<li class="fragment">Hoeveel dagen hebben we rood gestaan?</li>
+<li class="fragment">Teken een diagram van ons loon over de jaren heen.</li>
+</ul>
+</section>
+<section class="slide level2">
+
+<figure>
+<img data-src="./cart_flow_event_sourced.png" alt="" /><figcaption>Cart Flow</figcaption>
+</figure>
+</section>
+<section class="slide level2">
+
+<div class="columns onlytextwidth" data-align="top">
+<div class="column" data-align="left" style="width:50%;">
+<ul>
+<li class="fragment">Wat zouden we een klant die een balpen koopt nog meer aanraden?</li>
+<li class="fragment">Bij welke prijzen gaan klanten producten uit de winkelwagen halen?</li>
+<li class="fragment">Wanneer kan voorraad gereserveerd worden?</li>
+</ul>
+</div><div class="column" style="width:20%;">
+<figure>
+<img data-src="./cart_flow_event_sourced.png" alt="" /><figcaption>Cart ES</figcaption>
+</figure>
+</div><div class="column" style="width:30%;">
+<figure>
+<img data-src="./cart_flow_final_state.png" alt="" /><figcaption>Cart State</figcaption>
+</figure>
+</div>
+</div>
+</section>
+<section class="slide level2">
+
+<ul>
+<li class="fragment">Audit Log</li>
+<li class="fragment">Toekomstige analyse</li>
+<li class="fragment">Data representeert de werkelijkheid</li>
+</ul>
+</section>
+<section class="slide level2">
+
+<figure>
+<img data-src="./bookkeeping.jpg" alt="" /><figcaption>Journal Bookkeeping</figcaption>
+</figure>
+</section>
+<section class="slide level2">
+
+<ul>
+<li class="fragment">Git</li>
+<li class="fragment">Bank - Boekhouden</li>
+<li class="fragment">Blockchain</li>
+<li class="fragment">AWS</li>
+</ul>
+</section>
+<section class="slide level2">
+
+<blockquote>
+<p>Het algemene doel van een logboek is dat later teruggelezen kan worden wat er precies gebeurd is op een bepaald moment. Op het moment van opschrijven is dus nog niet bekend wat men later terug wil lezen. Het is dus van groot belang dat alle details in het logboek terechtkomen, zodat men later niets mist.</p>
+</blockquote>
+</section>
+<section class="slide level2">
+
+<blockquote>
+<p>Ook is het van belang dat de vastleggingen in een logboek authentiek zijn. De gegevens mogen niet verwijderd of ongecontroleerd gemuteerd worden.</p>
+</blockquote>
+<p><a href="https://nl.wikipedia.org/wiki/Logboek">Wikipedia Logboek</a></p>
+</section>
+<section class="slide level2">
+
+<figure>
+<img data-src="./immutable.jpg" alt="" /><figcaption>Events: Immutable. Event Log: Append Only</figcaption>
+</figure>
+</section>
+<section class="slide level2">
+
+<ul>
+<li class="fragment">Hoe herstel je een foute “X aangemaakt” of “Y verwijderd”?</li>
+<li class="fragment">Met een tegengestelde “X weggehaald” of “Y toegevoegd”.</li>
+<li class="fragment">En nooit door X-aangemaakt of Y-verwijderd te verwijderen.</li>
+</ul>
+</section>
+<section class="slide level2">
+
+<figure>
+<img data-src="./dddbook.jpg" alt="" /><figcaption>DDD Book cover</figcaption>
+</figure>
+</section>
+<section class="slide level2">
+
+<div class="sourceCode" id="cb1"><pre class="sourceCode ruby"><code class="sourceCode ruby"><span id="cb1-1"><a href="#cb1-1" aria-hidden="true"></a><span class="co">##</span></span>
+<span id="cb1-2"><a href="#cb1-2" aria-hidden="true"></a><span class="co"># A position is the amount of a security, asset, or property </span></span>
+<span id="cb1-3"><a href="#cb1-3" aria-hidden="true"></a><span class="co"># that is owned (or sold short) by some individual or other entity.</span></span>
+<span id="cb1-4"><a href="#cb1-4" aria-hidden="true"></a><span class="kw">class</span> <span class="dt">Position</span></span>
+<span id="cb1-5"><a href="#cb1-5" aria-hidden="true"></a>  <span class="ot">attr_reader</span> <span class="st">:total_buying_price</span>, <span class="st">:amount</span></span>
+<span id="cb1-6"><a href="#cb1-6" aria-hidden="true"></a></span>
+<span id="cb1-7"><a href="#cb1-7" aria-hidden="true"></a>  <span class="kw">def</span> initialize(ticker:, currency:)</span>
+<span id="cb1-8"><a href="#cb1-8" aria-hidden="true"></a>    <span class="ot">@events</span> = []</span>
+<span id="cb1-9"><a href="#cb1-9" aria-hidden="true"></a>    <span class="ot">@ticker</span> = ticker</span>
+<span id="cb1-10"><a href="#cb1-10" aria-hidden="true"></a>    <span class="ot">@currency</span> = currency</span>
+<span id="cb1-11"><a href="#cb1-11" aria-hidden="true"></a>    <span class="ot">@total_buying_price</span> = <span class="dv">0</span></span>
+<span id="cb1-12"><a href="#cb1-12" aria-hidden="true"></a>    <span class="ot">@amount</span> = <span class="dv">0</span></span>
+<span id="cb1-13"><a href="#cb1-13" aria-hidden="true"></a>  <span class="kw">end</span></span>
+<span id="cb1-14"><a href="#cb1-14" aria-hidden="true"></a></span>
+<span id="cb1-15"><a href="#cb1-15" aria-hidden="true"></a>  <span class="kw">def</span> buy(amount:, price:)</span>
+<span id="cb1-16"><a href="#cb1-16" aria-hidden="true"></a>    handle_event(</span>
+<span id="cb1-17"><a href="#cb1-17" aria-hidden="true"></a>      <span class="dt">PositionIncreased</span>.new(</span>
+<span id="cb1-18"><a href="#cb1-18" aria-hidden="true"></a>        <span class="st">amount: </span>amount,</span>
+<span id="cb1-19"><a href="#cb1-19" aria-hidden="true"></a>        <span class="st">price: </span>price</span>
+<span id="cb1-20"><a href="#cb1-20" aria-hidden="true"></a>      )</span>
+<span id="cb1-21"><a href="#cb1-21" aria-hidden="true"></a>    )</span>
+<span id="cb1-22"><a href="#cb1-22" aria-hidden="true"></a>  <span class="kw">end</span></span>
+<span id="cb1-23"><a href="#cb1-23" aria-hidden="true"></a></span>
+<span id="cb1-24"><a href="#cb1-24" aria-hidden="true"></a>  <span class="kw">def</span> sell(amount:, price:)</span>
+<span id="cb1-25"><a href="#cb1-25" aria-hidden="true"></a>    fail <span class="st">&quot;Cannot sell more than </span><span class="ot">#{@amount}</span><span class="st">&quot;</span> <span class="kw">if</span> amount &gt; <span class="ot">@amount</span></span>
+<span id="cb1-26"><a href="#cb1-26" aria-hidden="true"></a>    handle_event(<span class="dt">PositionReduced</span>.new(<span class="st">amount: </span>amount, <span class="st">price: </span>price))</span>
+<span id="cb1-27"><a href="#cb1-27" aria-hidden="true"></a>  <span class="kw">end</span></span>
+<span id="cb1-28"><a href="#cb1-28" aria-hidden="true"></a></span>
+<span id="cb1-29"><a href="#cb1-29" aria-hidden="true"></a>  <span class="kw">private</span></span>
+<span id="cb1-30"><a href="#cb1-30" aria-hidden="true"></a></span>
+<span id="cb1-31"><a href="#cb1-31" aria-hidden="true"></a>  <span class="co">##</span></span>
+<span id="cb1-32"><a href="#cb1-32" aria-hidden="true"></a>  <span class="co"># Handles an incoming event.</span></span>
+<span id="cb1-33"><a href="#cb1-33" aria-hidden="true"></a>  <span class="co"># For now, we keep it simple: no DSLs or fancy metaprogramming, just a switch.</span></span>
+<span id="cb1-34"><a href="#cb1-34" aria-hidden="true"></a>  <span class="kw">def</span> handle_event(event)</span>
+<span id="cb1-35"><a href="#cb1-35" aria-hidden="true"></a>    <span class="ot">@events</span> &lt;&lt; event</span>
+<span id="cb1-36"><a href="#cb1-36" aria-hidden="true"></a>    <span class="kw">case</span> event</span>
+<span id="cb1-37"><a href="#cb1-37" aria-hidden="true"></a>    <span class="kw">when</span> <span class="dt">PositionIncreased</span> <span class="kw">then</span> handle_position_increased(event)</span>
+<span id="cb1-38"><a href="#cb1-38" aria-hidden="true"></a>    <span class="kw">when</span> <span class="dt">PositionReduced</span>   <span class="kw">then</span> handle_position_reduced(event)</span>
+<span id="cb1-39"><a href="#cb1-39" aria-hidden="true"></a>    <span class="kw">end</span></span>
+<span id="cb1-40"><a href="#cb1-40" aria-hidden="true"></a>  <span class="kw">end</span></span>
+<span id="cb1-41"><a href="#cb1-41" aria-hidden="true"></a></span>
+<span id="cb1-42"><a href="#cb1-42" aria-hidden="true"></a>  <span class="co">##</span></span>
+<span id="cb1-43"><a href="#cb1-43" aria-hidden="true"></a>  <span class="co"># Our handle_event calls this method for each PositionAdded event</span></span>
+<span id="cb1-44"><a href="#cb1-44" aria-hidden="true"></a>  <span class="kw">def</span> handle_position_increased(event)</span>
+<span id="cb1-45"><a href="#cb1-45" aria-hidden="true"></a>    <span class="ot">@amount</span> += event.amount</span>
+<span id="cb1-46"><a href="#cb1-46" aria-hidden="true"></a>    <span class="ot">@total_buying_price</span> += event.amount * event.price</span>
+<span id="cb1-47"><a href="#cb1-47" aria-hidden="true"></a>  <span class="kw">end</span></span>
+<span id="cb1-48"><a href="#cb1-48" aria-hidden="true"></a></span>
+<span id="cb1-49"><a href="#cb1-49" aria-hidden="true"></a>  <span class="co">##</span></span>
+<span id="cb1-50"><a href="#cb1-50" aria-hidden="true"></a>  <span class="co"># Our handle_event calls this method for each PositionAdded event</span></span>
+<span id="cb1-51"><a href="#cb1-51" aria-hidden="true"></a>  <span class="kw">def</span> handle_position_reduced(event)</span>
+<span id="cb1-52"><a href="#cb1-52" aria-hidden="true"></a>    <span class="ot">@amount</span> -= event.amount</span>
+<span id="cb1-53"><a href="#cb1-53" aria-hidden="true"></a>  <span class="kw">end</span></span>
+<span id="cb1-54"><a href="#cb1-54" aria-hidden="true"></a><span class="kw">end</span></span>
+<span id="cb1-55"><a href="#cb1-55" aria-hidden="true"></a></span>
+<span id="cb1-56"><a href="#cb1-56" aria-hidden="true"></a><span class="kw">class</span> <span class="dt">PositionIncreased</span> &lt; <span class="dt">OpenStruct</span></span>
+<span id="cb1-57"><a href="#cb1-57" aria-hidden="true"></a><span class="kw">end</span></span>
+<span id="cb1-58"><a href="#cb1-58" aria-hidden="true"></a><span class="kw">class</span> <span class="dt">PositionReduced</span> &lt; <span class="dt">OpenStruct</span></span>
+<span id="cb1-59"><a href="#cb1-59" aria-hidden="true"></a><span class="kw">end</span></span></code></pre></div>
+<aside class="notes">
+<ul>
+<li>Domain models with Domain meaning and domain specific API.</li>
+<li>Events are past tense.</li>
+<li>Validation done before storing event.</li>
+<li>It doesn’t yet store events.</li>
+</ul>
+</aside>
+</section>
+<section class="slide level2">
+
+<div class="sourceCode" id="cb2"><pre class="sourceCode ruby"><code class="sourceCode ruby"><span id="cb2-1"><a href="#cb2-1" aria-hidden="true"></a>aapl = <span class="dt">Position</span>.new(<span class="st">ticker: &#39;AAPL&#39;</span>, <span class="st">currency: &#39;USD&#39;</span>)</span>
+<span id="cb2-2"><a href="#cb2-2" aria-hidden="true"></a>aapl.buy(<span class="st">amount: </span><span class="dv">2</span>, <span class="st">price: </span><span class="fl">131.13</span>)</span>
+<span id="cb2-3"><a href="#cb2-3" aria-hidden="true"></a>aapl.sell(<span class="st">amount: </span><span class="dv">1</span>, <span class="st">price: </span><span class="fl">142.00</span>)</span>
+<span id="cb2-4"><a href="#cb2-4" aria-hidden="true"></a>aapl.buy(<span class="st">amount: </span><span class="dv">3</span>, <span class="st">price: </span><span class="fl">172.42</span>)</span>
+<span id="cb2-5"><a href="#cb2-5" aria-hidden="true"></a>puts aapl.total_buying_price</span>
+<span id="cb2-6"><a href="#cb2-6" aria-hidden="true"></a><span class="co"># 779.52</span></span>
+<span id="cb2-7"><a href="#cb2-7" aria-hidden="true"></a>puts aapl.amount</span>
+<span id="cb2-8"><a href="#cb2-8" aria-hidden="true"></a><span class="co"># 4</span></span></code></pre></div>
+</section>
+<section class="slide level2">
+
+<ul>
+<li class="fragment">Heel makkelijk te testen.</li>
+<li class="fragment">Zeer eenvoudig uit te breiden.</li>
+<li class="fragment">Business logic: cohesive.</li>
+</ul>
+</section>
+<section class="slide level2">
+
+<div class="sourceCode" id="cb3"><pre class="sourceCode ruby"><code class="sourceCode ruby"><span id="cb3-1"><a href="#cb3-1" aria-hidden="true"></a></span>
+<span id="cb3-2"><a href="#cb3-2" aria-hidden="true"></a><span class="kw">class</span> <span class="dt">Aggregate</span></span>
+<span id="cb3-3"><a href="#cb3-3" aria-hidden="true"></a>  <span class="kw">def</span> load(id, event_repo)</span>
+<span id="cb3-4"><a href="#cb3-4" aria-hidden="true"></a>    instance = new(id, event_repo)</span>
+<span id="cb3-5"><a href="#cb3-5" aria-hidden="true"></a>    events = event_repo.get_all_for(id)</span>
+<span id="cb3-6"><a href="#cb3-6" aria-hidden="true"></a>    events.each <span class="kw">do</span> |event|</span>
+<span id="cb3-7"><a href="#cb3-7" aria-hidden="true"></a>      instance.handle_event(event)</span>
+<span id="cb3-8"><a href="#cb3-8" aria-hidden="true"></a>    <span class="kw">end</span></span>
+<span id="cb3-9"><a href="#cb3-9" aria-hidden="true"></a>    instance</span>
+<span id="cb3-10"><a href="#cb3-10" aria-hidden="true"></a>  <span class="kw">end</span></span>
+<span id="cb3-11"><a href="#cb3-11" aria-hidden="true"></a></span>
+<span id="cb3-12"><a href="#cb3-12" aria-hidden="true"></a>  <span class="kw">def</span> initialize(id, event_repo)</span>
+<span id="cb3-13"><a href="#cb3-13" aria-hidden="true"></a>    <span class="ot">@id</span> = id</span>
+<span id="cb3-14"><a href="#cb3-14" aria-hidden="true"></a>    <span class="ot">@event_repo</span> = event_repo</span>
+<span id="cb3-15"><a href="#cb3-15" aria-hidden="true"></a>  <span class="kw">end</span></span>
+<span id="cb3-16"><a href="#cb3-16" aria-hidden="true"></a></span>
+<span id="cb3-17"><a href="#cb3-17" aria-hidden="true"></a>  <span class="kw">def</span> handle_event(event)</span>
+<span id="cb3-18"><a href="#cb3-18" aria-hidden="true"></a>    event_repo.add(<span class="ot">@id</span>, event)</span>
+<span id="cb3-19"><a href="#cb3-19" aria-hidden="true"></a>  <span class="kw">end</span></span>
+<span id="cb3-20"><a href="#cb3-20" aria-hidden="true"></a><span class="kw">end</span></span>
+<span id="cb3-21"><a href="#cb3-21" aria-hidden="true"></a></span>
+<span id="cb3-22"><a href="#cb3-22" aria-hidden="true"></a><span class="kw">class</span> <span class="dt">Position</span> &lt; <span class="dt">Aggregate</span></span>
+<span id="cb3-23"><a href="#cb3-23" aria-hidden="true"></a>  <span class="kw">def</span> initialize(id, event_repo)</span>
+<span id="cb3-24"><a href="#cb3-24" aria-hidden="true"></a>    <span class="dv">super</span>(id, event_repo)</span>
+<span id="cb3-25"><a href="#cb3-25" aria-hidden="true"></a>    <span class="ot">@opened</span> = <span class="dv">false</span></span>
+<span id="cb3-26"><a href="#cb3-26" aria-hidden="true"></a>  <span class="kw">end</span></span>
+<span id="cb3-27"><a href="#cb3-27" aria-hidden="true"></a></span>
+<span id="cb3-28"><a href="#cb3-28" aria-hidden="true"></a>  <span class="kw">def</span> open(<span class="st">ticker: </span>ticker, <span class="st">currency: </span>currency)</span>
+<span id="cb3-29"><a href="#cb3-29" aria-hidden="true"></a>    handle_event(<span class="dt">PositionOpened</span>.new(<span class="st">ticker: </span>ticker, <span class="st">currency: </span>currency))</span>
+<span id="cb3-30"><a href="#cb3-30" aria-hidden="true"></a>  <span class="kw">end</span></span>
+<span id="cb3-31"><a href="#cb3-31" aria-hidden="true"></a></span>
+<span id="cb3-32"><a href="#cb3-32" aria-hidden="true"></a>  <span class="kw">def</span> buy()</span>
+<span id="cb3-33"><a href="#cb3-33" aria-hidden="true"></a>    fail <span class="st">&quot;must first open the position before buying stocks&quot;</span> <span class="kw">unless</span> <span class="ot">@opened</span></span>
+<span id="cb3-34"><a href="#cb3-34" aria-hidden="true"></a>    <span class="co">#...</span></span>
+<span id="cb3-35"><a href="#cb3-35" aria-hidden="true"></a>  <span class="kw">end</span></span>
+<span id="cb3-36"><a href="#cb3-36" aria-hidden="true"></a></span>
+<span id="cb3-37"><a href="#cb3-37" aria-hidden="true"></a>  <span class="kw">def</span> handle_event(event)</span>
+<span id="cb3-38"><a href="#cb3-38" aria-hidden="true"></a>    <span class="dv">super</span>(event)</span>
+<span id="cb3-39"><a href="#cb3-39" aria-hidden="true"></a>    <span class="co"># ...</span></span>
+<span id="cb3-40"><a href="#cb3-40" aria-hidden="true"></a>  <span class="kw">end</span></span>
+<span id="cb3-41"><a href="#cb3-41" aria-hidden="true"></a></span>
+<span id="cb3-42"><a href="#cb3-42" aria-hidden="true"></a>  <span class="kw">def</span> handle_open(event)</span>
+<span id="cb3-43"><a href="#cb3-43" aria-hidden="true"></a>    <span class="ot">@ticker</span> = event.ticker</span>
+<span id="cb3-44"><a href="#cb3-44" aria-hidden="true"></a>    <span class="ot">@currency</span> = event.currency</span>
+<span id="cb3-45"><a href="#cb3-45" aria-hidden="true"></a>    <span class="ot">@opened</span> = <span class="dv">true</span></span>
+<span id="cb3-46"><a href="#cb3-46" aria-hidden="true"></a>  <span class="kw">end</span></span>
+<span id="cb3-47"><a href="#cb3-47" aria-hidden="true"></a><span class="kw">end</span></span>
+<span id="cb3-48"><a href="#cb3-48" aria-hidden="true"></a></span>
+<span id="cb3-49"><a href="#cb3-49" aria-hidden="true"></a>aapl = <span class="dt">Position</span>.load(<span class="st">&#39;AAPL-USD&#39;</span>, pg_event_store)</span>
+<span id="cb3-50"><a href="#cb3-50" aria-hidden="true"></a>aapl.open(<span class="st">ticker: &#39;AAPL&#39;</span>, <span class="st">currency: &#39;USD&#39;</span>)</span>
+<span id="cb3-51"><a href="#cb3-51" aria-hidden="true"></a>aapl.buy(<span class="st">amount: </span><span class="dv">2</span>, <span class="st">price: </span><span class="fl">131.13</span>)</span>
+<span id="cb3-52"><a href="#cb3-52" aria-hidden="true"></a>aapl.sell(<span class="st">amount: </span><span class="dv">1</span>, <span class="st">price: </span><span class="fl">142.00</span>)</span>
+<span id="cb3-53"><a href="#cb3-53" aria-hidden="true"></a></span>
+<span id="cb3-54"><a href="#cb3-54" aria-hidden="true"></a>aapl = <span class="dt">Position</span>.load(<span class="st">&#39;AAPL-USD&#39;</span>, pg_event_store)</span>
+<span id="cb3-55"><a href="#cb3-55" aria-hidden="true"></a>aapl.buy(<span class="st">amount: </span><span class="dv">3</span>, <span class="st">price: </span><span class="fl">172.42</span>)</span>
+<span id="cb3-56"><a href="#cb3-56" aria-hidden="true"></a>puts aapl.total_buying_price</span>
+<span id="cb3-57"><a href="#cb3-57" aria-hidden="true"></a><span class="co"># 779.52</span></span>
+<span id="cb3-58"><a href="#cb3-58" aria-hidden="true"></a>puts aapl.amount</span>
+<span id="cb3-59"><a href="#cb3-59" aria-hidden="true"></a><span class="co"># 4</span></span></code></pre></div>
+<aside class="notes">
+<ul>
+<li>Separated Infra and Domain</li>
+<li>Initializer generalized (infra) domain has open()</li>
+<li>Events stored in a database on ID</li>
+<li>Events loaded from a database on ID</li>
+</ul>
+</aside>
+</section></section>
+<section>
+<section id="the-world-of-es" class="title-slide slide level1">
+<h1>The world of ES</h1>
+<p><img data-src="./ddd.png" class="stretch" alt="The world of ES" /><br />
+</p>
+</section>
+<section id="event-x" class="slide level2">
+<h2>Event-X</h2>
+<p>Eventbased, event-driven, event-bus, event-loop, event-passing, event-streaming</p>
+</section>
+<section id="aggregate" class="slide level2">
+<h2>Aggregate</h2>
+<ul>
+<li class="fragment">Root Aggregate.</li>
+<li class="fragment">Onze “Position” was een Root Aggregate.</li>
+<li class="fragment">Position werd “gehydrate” vanuit de event source.</li>
+</ul>
+</section>
+<section id="cqrs" class="slide level2">
+<h2>CQRS</h2>
+<figure>
+<img data-src="./cqrs.png" alt="" /><figcaption>Command Query Responsibility Principle</figcaption>
+</figure>
+</section>
+<section id="projection" class="slide level2">
+<h2>Projection</h2>
+<ul>
+<li class="fragment">AKA Materialized View</li>
+<li class="fragment">Gebouwd door een Projector</li>
+<li class="fragment">Query Handler kan hierin lezen</li>
+<li class="fragment">Bijv een <code>PositionOpened</code> wordt door de <code>OpenPositionsProjector</code> afgehandeld, welke eeen simpel lijstje van alle <code>position.id</code>s bijhoudt.</li>
+</ul>
+</section>
+<section id="reactors" class="slide level2">
+<h2>Reactors</h2>
+<ul>
+<li class="fragment">Event Handlers (Projector is er een)</li>
+<li class="fragment">Reactors trigger behaviour</li>
+<li class="fragment">Nieuwe events uitzenden</li>
+<li class="fragment">Veranderen de buitenwereld (notificaties, calls, etc)</li>
+</ul>
+</section>
+<section id="commands-command-handlers" class="slide level2">
+<h2>Commands, Command Handlers</h2>
+<ul>
+<li class="fragment">De publieke API.</li>
+<li class="fragment">Commands zijn intenties: tegenwoordige tijd: OpenPosition.</li>
+<li class="fragment">Command Handlers bevatten validatie.</li>
+</ul>
+</section>
+<section id="overview" class="slide level2">
+<h2>Overview</h2>
+<p><img data-src="./full_flow.png" class="stretch" alt="Full Flow" /><br />
+</p>
+</section></section>
+<section id="pros-and-cons" class="title-slide slide level1">
+<h1>Pro’s and cons</h1>
+<div class="columns onlytextwidth" data-align="top">
+<div class="column" data-align="center" style="width:50%;">
+<ul>
+<li class="fragment">Eventual-consistency is lastig.</li>
+<li class="fragment">Weinig frameworks - weinig documentatie.</li>
+<li class="fragment">Vereist domeinkennis.</li>
+<li class="fragment">Complexe dataflow.</li>
+</ul>
+</div><div class="column" style="width:50%;">
+<ul>
+<li class="fragment">Makkelijk te testen, valideren, debuggen en beredeneren.</li>
+<li class="fragment">Schaalbaar in alle richtingen.</li>
+<li class="fragment">Past domeinkennis.</li>
+<li class="fragment">Logische dataflow</li>
+</ul>
+</div>
+</div>
+</section>
+
+<section id="resources" class="title-slide slide level1">
+<h1>Resources</h1>
+<ul>
+<li class="fragment">Domain-Driven Design: Tackling Complexity in the Heart of Software - Eric Evans</li>
+<li class="fragment">Implementing Domain-Driven Design - Vaugh Vernon</li>
+<li class="fragment"><a href="https://martinfowler.com/eaaDev/EventSourcing.html">Martin Fowler on Event Sourcing</a></li>
+<li class="fragment"><a href="https://www.youtube.com/watch?v=LDW0QWie21s">DDD, CQRS and Event Sourcing - Talk by Greg Young</a></li>
+</ul>
+</section>
+    </div>
+  </div>
+
+  <script src="./reveal.js-3.9.2//js/reveal.js"></script>
+
+  <script>
+
+      // Full list of configuration options available at:
+      // https://github.com/hakimel/reveal.js#configuration
+      Reveal.initialize({
+        // Push each slide change to the browser history
+        history: true,
+
+        // Optional reveal.js plugins
+        dependencies: [
+          { src: './reveal.js-3.9.2//lib/js/classList.js', condition: function() { return !document.body.classList; } },
+          { src: './reveal.js-3.9.2//plugin/zoom-js/zoom.js', async: true },
+          { src: './reveal.js-3.9.2//plugin/notes/notes.js', async: true }
+        ]
+      });
+    </script>
+    </body>
+</html>
