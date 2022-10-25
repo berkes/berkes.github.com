@@ -8,6 +8,7 @@ window.addEventListener('load', function(_event) {
       this.networks = {
         'r': 'Reddit',
         'h': 'Hacker News',
+        'l': 'Lobste.rs',
       };
     }
 
