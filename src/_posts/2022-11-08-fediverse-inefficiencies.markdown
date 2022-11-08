@@ -8,11 +8,7 @@ layout: post
 Let's address the mammoth in the room: the [fediverse](https://fediverse.party/en/fediverse/), the network of [mastodon](https://joinmastodon.org/)
 servers, is very inefficient.
 
-In this post I'll show:
-
-* Why it is Inefficient.
-* Why that isn't a problem.
-* And what we might do about it, when it becomes a problem.
+In this post I'll show why it is inefficient and why that isn't a problem.
 
 A great analogy to explain this with is growing food.
 
