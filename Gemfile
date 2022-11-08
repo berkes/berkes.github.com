@@ -9,3 +9,5 @@ gem "rdiscount", "~> 2.2"
 gem "pygments.rb", "~> 1.2"
 
 gem "capistrano"
+
+gem "irb", "~> 1.4"
