@@ -51,15 +51,15 @@ There are **different efficiencies**. My food isn't shipped across oceans (in
 airplanes). There isn't a single gram of waste in my "supply-chain": everything
 ends as compost or chicken food (manure!)[4].
 
-There is **resilience**. If my potatoes, my neighbors' probably won't. And even
-if theirs fail, I still have pumpkins, corn, spinach and much more to cover the
-loss. When our chickens get the chicken-flue, they won't all die (we've selected
+There is **resilience**. If my potatoes fail, my neighbors' probably won't. And
+even if theirs fail, I still have pumpkins, corn, spinach and much more to cover the
+loss. When our chickens get the chicken-flu, they won't all die (we've selected
 them for strength, not optimal-egg-laying-efficiency). And even if they do,
 it's "just" 8 chickens dead, not 100.000s. Monoculture is a terrible risk.
 
 With decentralized systems like the Fediverse, like Mastodon, we see very
 similar trade-offs. We see the same kinds of efficiencies, but the same kinds
-of efficiencies.
+of inefficiencies.
 
 ## Fediverse Technical Inefficiencies
 
@@ -152,11 +152,11 @@ banning bullies and hate is a single click away.
 The original internet was set up decentralized, with the goal to be resilient
 to failing parts and to attacks. A lot of this property has been undone by
 re-centralisation: if AWS has an outage, half the internet goes down.
-When Twitter is ran into the ground by some Billionaire Chaos Monkey, the whole
+When Twitter is run into the ground by some Billionaire Chaos Monkey, the whole
 world sees it's journalist and government communication break down. A (lifted)
 ban on Twitter has actual effect on democracy and society.
 
-[Re-decentralising](https://redecentralize.org/) is, therefore, is very much
+[Re-decentralising](https://redecentralize.org/) is, therefore, very much
 needed to make our society resilient. We cannot afford to have a single
 software bug break all airplanes, cars or thermostats. Or to have the
 communication of a country be dependent on the unpredictable whims of a
@@ -171,10 +171,10 @@ consumerism, called "Black Friday", without ever having thanksgiving. We're
 almost done replacing our weird Dutch Santa Claus -5th of December- with this
 American Coca-Cola version). 
 
-Plurality is key to evolution. It is what makes us a humans progress.
+Plurality is key to evolution. It is what makes us as humans progress.
 Monoculture enlarges the risks, and halts progress. Both in biology and in tech.
 
-The only alternatives would be either to embrace a communist-alike centralized,
+The only alternatives would be either to embrace a communist-like centralized,
 monopolized, governance by entities that are governed only by a few
 shareholders or billionaires. Or to forego all the internet, automation and
 digitization of the last centuries and move back to the early 1900s. 
