@@ -7,7 +7,7 @@ lang: en
 
 Many people keep repeating that Ruby is slow. It is. But that doesn't matter,
 because your database is so much slower that it is the bottleneck. So, an
-alternative title would be "Ruby is slow, but that doesn't matter for you".
+alternative title would be "Ruby is slow, but that doesn't matter for you."
 
 While writing a gem that [offers key-value storage in your existing Postgresql
 database](https://github.com/berkes/postgres_key_value), and benchmarking it,
@@ -26,7 +26,7 @@ Let's be clear: ruby is slow. The garbage collector, JIT compiler,
 its highly dynamic nature, the ability to change the code runtime and so on,
 all add up to a sluggish language.
 
-However, when People say "Ruby is slow", when diving deeper, this critique
+However, when People say "Ruby is slow," when diving deeper, this critique
 often falls in one of three categories:
 
 1. Yes, Ruby is slow, and that is a problem for our use-case.
@@ -141,7 +141,7 @@ are some Ruby projects that don't deal with Rails, the majority of Ruby-code
 running in production is running Ruby on Rails. I personally write most of my
 code in Ruby, but hardly ever write Rails (I don't like Rails very much; another
 post, another time), but I'm also aware that I'm an exception that
-to the rule: Ruby development is almost always "web-development in Rails".
+to the rule: Ruby development is almost always "web-development in Rails."
 
 One issue with Rails (or, arguably, a benefit?) is that it is highly
 coupled to the database. Rails is all about The Sacred Dictating Database.
@@ -149,10 +149,10 @@ Without a database, Rails is pretty useless, and gets in your way more than it
 helps[2]. Furthermore, Rails is about the web. You can do non-web-stuff in Rails,
 but that really makes no sense at all: Rails is for HTTP. And Rails is *big*,
 massively so[3]. And often chooses ergonomics (developer friendliness) over
-performance, as does Ruby, the language. This is fine! But this makes that in
+performance, as does Ruby, the language. This is fine! But this means that in
 Rails, even more than in Ruby, performance *is* a problem.
 
-So, that the "stack" means "Ruby on Rails using a database". And because Rails
+So, the "stack" means "Ruby on Rails using a database." And because Rails
 is web, doing only[4] HTTP request-responses we'll be looking at Ruby in
 context of web-services only.
 
@@ -272,13 +272,13 @@ begin with.
 
 **Solving performance issues in Ruby code is easy: just throw more servers at
 it. Solving database performance issues isn't that easy because scaling up a
-relational database is hard or even impossible at some point**.
+relational database is hard or even impossible at some point.**
 
 Another conclusion here would be that to keep your code scalable you should
-keep as much logic, transformations, etc in code[8]. By pushing business logic,
-constraints, validations and calculations into the database, you loose the
+keep as much logic, transformations, etc in code[9]. By pushing business logic,
+constraints, validations and calculations into the database, you lose the
 simplest, and often cheapest, means of performance gains: "Throw More Servers
-At It".
+At It."
 
 ## Rails
 
@@ -294,7 +294,7 @@ To throw a quote by DHH back at Rails:
 https://twitter.com/dhh/status/1259644085322670080
 
 Rails' internal complexity has two profound effects on performance. One is that
-it has tons of abstractions, critically referred to as "Black Magick".
+it has tons of abstractions, critically referred to as "Black Magick."
 The other is that your data passes through all these layers and all this
 complexity before the request-response of a typical HTTP cycle is finished.
 
@@ -393,9 +393,9 @@ just to keep serving you the data within reasonable time.
 
 **With Rails it is easy to stack up many tiny mistakes that make your
 Database the bottleneck. But even if you have all that under control, a high
-performing database-call is still a magnitude slower than many other calls.
+performing database-call is still a magnitude slower than many other calls.**
 
-It is still a factor thousand or more faster to fill some array from memory and
+**It is still a factor thousand or more faster to fill some array from memory and
 code, then to fill that array from a database. As I showed in the first paragraph.**
 
 ## So? What should I do about it?
@@ -431,8 +431,8 @@ waiting for it to run.
 
 [2] I am certain that you can show me a project where you run Rails without a
 Database and where that makes sense. They cases are there. Some that I came
-across, are: "I already know Rails, but not Sinatra", or "management requires
-us to run everything on a similar codebase". Actually, scratch that last one.
+across, are: "I already know Rails, but not Sinatra," or "management requires
+us to run everything on a similar codebase." Actually, scratch that last one.
 Most are valid reasons, except the last one: that is a horrible reason to
 choose Rails.
 
