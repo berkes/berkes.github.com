@@ -45,7 +45,7 @@ cool technology.
 You can contact me about work by [email](mailot:ber@berk.es) or phone
 (+31)(0)629075065.
 
-* Code on [my personal git server](https://git.webschuur.com).
+* Code on [Github](https://github.com/berkes).
 * CV and Business network on [LinkedIn](http://www.linkedin.com/profile?viewProfile=&key=9270755).
 * Resumé from my Open Source software on [Github](http://resume.github.io/?berkes).
 * Knowledgebase at [Stackoverflow](http://stackoverflow.com/users/73673/berkes).
