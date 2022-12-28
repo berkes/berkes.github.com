@@ -7,11 +7,14 @@ layout: post
 
 Deleting content, reliably, from a decentralised network is just not possible.
 The fediverse (Mastodon, Pleroma, PixelFed, etc.) in theory, never forgets. The
-internet never forgets either. When I helped desig a decentralized
-application[1], and later again an Event-Source setup, we applied cryptography
-for this: encrypt all data that should be deleteable, then throw away the key(s)
-to "delete" the data. ActivityPub relies very little on cryptography and
-certainly not as a way to "delete" stuff.
+internet never forgets either. 
+
+When I helped design a decentralized application[1], and later again an
+Event-Sourced setup, we applied cryptography to solve this: encrypt all data that
+should be deletable, then throw away the key(s) to "delete" the data.
+ActivityPub relies very little on cryptography and certainly not as a way to
+"delete" stuff. The common solution to removing stuff from a distributed network,
+isn't possible, on the Fediverse.
 
 So, any content that has been published, should, in theory, be considered out
 of your hands: with no way to remove it. In that sense, the fediverse adds
