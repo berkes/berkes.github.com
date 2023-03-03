@@ -2,7 +2,7 @@
   Developer, Desinger, Architect :           Bèr Kessels           
              Contact             : ber curlything webschuur dot com
              Twitter             :             @berkes             
-             Mastodon            :    @berkes@bitcoinhackers.org   
+             Mastodon            :       @berkes@mastodon.nl
                From              :      Nijmegen, Netherlands      
 
 /* THANKS */
