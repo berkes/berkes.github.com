@@ -117,7 +117,7 @@ end
 
 desc "Build site in #{CONFIG["build_dir"]}"
 task "build" do
-  FileUtils.mkdir_p(CONFIG["build_dir"]) unless File.exists? CONFIG["build_dir"]
+  FileUtils.mkdir_p(CONFIG["build_dir"]) unless File.exist? CONFIG["build_dir"]
   system "jekyll build --destination #{CONFIG["build_dir"]} --source  #{SOURCE}"
 end
 
