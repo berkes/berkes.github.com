@@ -13,6 +13,9 @@ Source** technology.
 
 My handle on most networks is **berkes**.
 
+I currently write software to automate administration and streamline bookkeeping for small businesses.
+Modern, opinionated and optimized.
+
 My broad interest and decades of experience in software development, allows me
 to take many factors, users, current and upcoming tech, and all stakeholders into
 account when developing software. It also enables me to give lead to various

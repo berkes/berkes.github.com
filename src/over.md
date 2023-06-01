@@ -10,6 +10,8 @@ Ik ben Bèr Kessels, een freelance **softwareontwikkelaar**. Ik richt me op de o
 
 Mijn gebruikersnaam op de meeste netwerken is **berkes**.
 
+Momenteel schrijf ik software om de administratie te automatiseren en de boekhouding voor kleine bedrijven te stroomlijnen. Modern, eigenzinnig en geoptimaliseerd.
+
 Mijn brede interesse en decennialange ervaring in softwareontwikkeling stellen me in staat om rekening te houden met verschillende factoren, gebruikers, huidige en toekomstige technologieën, en alle belanghebbenden bij het ontwikkelen van software. Het stelt me ook in staat om leiding te geven aan verschillende teams of binnen dergelijke teams te werken.
 
 Ik heb diepgaande en praktische ervaring met verschillende talen, frameworks en architecturen, met zowel oude als nieuwe tools en systemen. Dit stelt me in staat om de beste technologie te selecteren en toe te passen voor jouw project en behoeften.
