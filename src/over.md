@@ -6,50 +6,25 @@ group: navigation
 permalink: /over.html
 lang: nl
 ---
-Ik ben Bèr Kessels, een freelance **webontwikkelaar**. Ik focus me op
-het ontwikkelen en marketen van **cutting edge websites en
-applicaties**, met **Open Source** technologie. Ik woon in Nijmegen,
-Nederland en werk vanuit mijn eigen kantoor, of bij mijn klanten op de
-werkvloer.
+Ik ben Bèr Kessels, een freelance **softwareontwikkelaar**. Ik richt me op de ontwikkeling en marketing van **geavanceerde websites en applicaties** met behulp van **Open Source** technologie.
 
-Op de meeste netwerken ben ik bekend onder **berkes**.
+Mijn gebruikersnaam op de meeste netwerken is **berkes**.
 
-Mijn brede interesse maakt dat ik rekening kan houden met heel diverse
-factoren in een project, zeer uiteenlopende gebruikers en heel
-verschillende wensen en eisen.
-Het maakt ook dat ik mensen kan aansturen en motiveren en goed kan meedraaien in heel diverse teams. Een enorme passie voor techniek en Open Source zorgt dat 
-ik bekend ben met de nieuwste ontwikkelingen en vooral goed weet in te
-schatten waar en wanneer, bepaalde technieken en methodes effectief in te zetten zijn.
+Mijn brede interesse en decennialange ervaring in softwareontwikkeling stellen me in staat om rekening te houden met verschillende factoren, gebruikers, huidige en toekomstige technologieën, en alle belanghebbenden bij het ontwikkelen van software. Het stelt me ook in staat om leiding te geven aan verschillende teams of binnen dergelijke teams te werken.
 
-Met ruim 14 jaar webdevelopment-ervaring in heel diverse projecten, van
-enorme applicaties bij grote enterprise- en mediabedrijven, tot kleine
-weblogs voor familie en vrienden, kan ik heel goed de technische en
-projectmatige risico's en problemen inschatten en voorkomen. Deze
-ervaring, een schat aan (zelfontwikkelde) gereedschappen en methodieken,
-maken mij bovendien zeer efficiënt inzetbaar.
+Ik heb diepgaande en praktische ervaring met verschillende talen, frameworks en architecturen, met zowel oude als nieuwe tools en systemen. Dit stelt me in staat om de beste technologie te selecteren en toe te passen voor jouw project en behoeften.
 
-Ik werk meestal met [Ruby on Rails](http://rubyonrails.org/) een professioneel, 
-Open Source, platform waarmee heel veel websites gebouwd en beheerd worden. Van groot
-(Twitter.com is een voorbeeld) tot piepklein. Met, uiteraard, een enorme 
-gemeenschap aan kundige ontwikkelaars. Maar ik heb ook ervaring met een 
-breed scala aan alternatieven, en kan ik u dus ook goed helpen met het
-vinden of toepassen van de juiste technologie voor úw project.
-
-Mijn passie voor techniek leent zich uitermate voor presentaties. I heb
-dan ook uitgebreide ervaring in presentaties, workshops en trainingen
-voor kleine tot enorme groepen mensen. 
-Als je op zoek bent naar sprekers, vraag mij gerust. Ik wil graag komen
-uitwijden over een mooie en nieuwe technologie.
+Mijn passie voor technologie strekt zich ook uit tot presentaties. Ik heb gesproken op veel conferenties en bijeenkomsten, voor zowel grote als kleine publieken. Ik ben beschikbaar om presentaties of workshops te verzorgen.
 
 ## Contact
-Je kunt me bereiken per [e-mail](mailto:ber@berk.es) of telefoon, op
-06 29075065.
 
-* Code op [Github](https://github.com/berkes)
-* Zakelijk netwerk op [LinkedIn](http://www.linkedin.com/profile?viewProfile=&key=9270755).
-* Resumé van mijn Open Source software op [Github](http://resume.github.io/?berkes).
-* Kennisbank op [Stackoverflow](http://stackoverflow.com/users/73673/berkes).
-* Mijn [publieke GPG-sleutel](http://berk.es/berkes_pub.gpg).
+Je kunt contact met me opnemen via [e-mail](maito:ber@berk.es) of telefoon
+(+31)(0)629075065.
+
+* Code op [Github](https://github.com/berkes).
+* CV en zakelijk netwerk op [LinkedIn](http://www.linkedin.com/profile?viewProfile=&key=9270755).
+* [Resumé](http://resume.github.io/?berkes) van mijn Open Source-software op Github.
+* Mijn openbare [GPG-sleutel](http://berk.es/berkes_pub.gpg).
 
 ## Disclaimer
 Dit is mijn persoonlijke en zakelijk blog. Je zult hier ideeën,
