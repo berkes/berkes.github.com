@@ -68,7 +68,7 @@ task :post do
   end
 
   imagefile = File.join(CONFIG['images'], now.year.to_s, "%02d" % now.month, "%02d" % now.day, "#{slug}.png");
-  if File.exists?(imagefile)
+  if File.exist?(imagefile)
     abort("rake aborted!") if ask("#{imagefile} already exists. Do you want to overwrite?", ['y', 'n']) == 'n'
   end
 
@@ -144,7 +144,7 @@ end
 def next_image(layout)
   number = last_used(layout)+1
   imagefile = File.join(CONFIG["images_templates"], "#{layout}-#{number}.png")
-  imagefile if File.exists?(imagefile)
+  imagefile if File.exist?(imagefile)
 end
 
 def first_image(layout)
@@ -174,7 +174,7 @@ def last_used(layout)
   number = "0"
   filename = File.join(CONFIG["images_templates"], "last_#{layout}")
 
-  if File.exists?(filename)
+  if File.exist?(filename)
     number = File.open(filename, 'r').readline || number
   else
     last_used = number
