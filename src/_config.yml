@@ -3,7 +3,7 @@
 permalink: /:categories/:year/:month/:day/:title/
 
 exclude: []
-highlighter: pygments
+highlighter: rouge
 markdown: kramdown
 
 lsi: false

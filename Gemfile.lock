@@ -96,6 +96,7 @@ DEPENDENCIES
   jekyll (~> 4)
   pygments.rb (~> 1.2)
   rake
+  rouge (~> 4.1)
 
 BUNDLED WITH
    2.4.10
