@@ -34,7 +34,7 @@ You can contact me by [email](mailto:ber@berk.es) or phone
 (+31)(0)629075065.
 
 * Code on [Github](https://github.com/berkes).
-* CV and Business network on [LinkedIn](http://www.linkedin.com/profile?viewProfile=&key=9270755).
+* CV and Business network on [LinkedIn](http://www.linkedin.com/in/berkes)
 * [Resumé](http://resume.github.io/?berkes) from my Open Source software on GitHub.
 * My [public GPG-key](http://berk.es/berkes_pub.gpg).
 

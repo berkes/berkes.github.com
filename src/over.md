@@ -24,7 +24,7 @@ Je kunt contact met me opnemen via [e-mail](maito:ber@berk.es) of telefoon
 (+31)(0)629075065.
 
 * Code op [Github](https://github.com/berkes).
-* CV en zakelijk netwerk op [LinkedIn](http://www.linkedin.com/profile?viewProfile=&key=9270755).
+* CV en zakelijk netwerk op [LinkedIn](http://www.linkedin.com/in/berkes).
 * [Resumé](http://resume.github.io/?berkes) van mijn Open Source-software op Github.
 * Mijn openbare [GPG-sleutel](http://berk.es/berkes_pub.gpg).
 
