@@ -129,10 +129,10 @@ nav#main ul {
   list-style: none;
   text-align: center;
   border: 0;
-  padding: 20px 0 10px 0;
+  padding: 14px 0 10px 0;
 }
 nav#main a {
-  font-size: 2em;
+  font-size: 1.4em;
   font-family: "OFL Sorts Mill Goudy TT", serif;
   color: #cfcdcd;
   padding: 0 33px;
