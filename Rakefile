@@ -83,7 +83,7 @@ end # task :post
 desc "Launch preview environment"
 task :preview do
   limit = ENV["limit"] || 20
-  system "jekyll serve --watch --limit-posts #{limit} --destination #{CONFIG['build_dir']} --source  #{SOURCE}"
+  system "jekyll serve --future --watch --limit-posts #{limit} --destination #{CONFIG['build_dir']} --source  #{SOURCE}"
 end # task :preview
 
 desc "List tags used"
@@ -118,7 +118,7 @@ end
 desc "Build site in #{CONFIG["build_dir"]}"
 task "build" do
   FileUtils.mkdir_p(CONFIG["build_dir"]) unless File.exist? CONFIG["build_dir"]
-  system "jekyll build --destination #{CONFIG["build_dir"]} --source  #{SOURCE}"
+  system "jekyll build --future --destination #{CONFIG["build_dir"]} --source  #{SOURCE}"
 end
 
 desc "Publish to production"
