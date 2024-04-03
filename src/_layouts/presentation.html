@@ -1,0 +1,20 @@
+---
+layout: default
+---
+<article>
+  <header>
+    <h1>{{ page.title }}</h1>
+
+    <time datetime="{{ page.date | date_to_xmlschema }}"
+    pubdate="pubdate">
+      Presented on {{ page.date | date_to_long_string }}
+    </time>
+  </header> 
+  <br />
+  <div class="body">
+    {{ content }}
+  </div>
+</article>
+
+<hr/>
+{% include about_pres.yml %}
