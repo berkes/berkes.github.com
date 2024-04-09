@@ -37,7 +37,7 @@ collections:
   presentations:
     output: true
     sort_by: date
-    permalink: /p/:name
+    permalink: /p/:name.html
 
 # All Jekyll-Bootstrap specific configurations are namespaced into this hash
   
