@@ -2,7 +2,7 @@
 layout: presentation
 title: "10 reasons to build your next projects in Rust"
 location: Nimma.codes, GX Software, Nijmegen.
-date: 2024-04-25 18:00:00
+date: 2023-04-25 18:00:00
 tags:
   - rust
   - programming

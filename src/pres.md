@@ -7,7 +7,8 @@ permalink: /pres.html
 ---
 
 <ul class="posts">
-{% for presentation in site.presentations %}
+{% assign sorted_pres = site.presentations | reverse %}
+{% for presentation in sorted_pres %}
 <li>
     <a href="{{ BASE_PATH }}{{ presentation.url }}">
         <span>
