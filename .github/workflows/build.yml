@@ -29,3 +29,41 @@ jobs:
       with:
         name: site
         path: jekyll/build
+
+  deploy:
+    runs-on: ubuntu-latest
+    requires: ["build"]
+
+    steps:
+    - name: Download Artifact
+      uses: actions/download-artifact@v3
+      with:
+        name: site
+
+    - name: Unzip Artifact
+      run: |
+        unzip site.zip -d ./deploy_content
+
+    - name: Copy to Server
+      uses: appleboy/scp-action@master
+      with:
+        host: ${{ secrets.HOST }}
+        username: deploy
+        key: ${{ secrets.SSH_KEY }}
+        port: 22
+        source: "deploy_content/*"
+        target: "/u/apps/berkes/tmp/deploy_content"
+
+    - name: Atomic Swap
+      uses: appleboy/ssh-action@v0.1.4
+      with:
+        host: ${{ secrets.HOST }}
+        username: deploy
+        key: ${{ secrets.SSH_KEY }}
+        script: |
+          # Remove the old backup if it exists
+          rm -rf /u/apps/berkes/tmp/deploy_previous
+          # Backup the current version
+          mv /u/apps/berkes/tmp/deploy_current /u/apps/berkes/tmp/deploy_previous
+          # Switch to the new version
+          mv /u/apps/berkes/tmp/deploy_content /u/apps/berkes/tmp/deploy_current
