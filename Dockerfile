@@ -13,14 +13,14 @@ RUN set -eux; \
         zlib-dev \
     ;
 
-# Install Bundler
-RUN set -eux; gem install bundler
-
 # Install extra packages if needed
 RUN set -eux; \
 	if [ -e packages ]; then \
 	    cat packages | apk add --no-cache --virtual extra-pkgs; \
     fi
+
+# Install Bundler
+RUN set -eux; gem install bundler
 
 # Install gems from `Gemfile` via Bundler
 RUN set -eux; bundler install
@@ -29,7 +29,6 @@ RUN set -eux; bundler install
 RUN set -eux; apk del --no-cache build-deps
 
 # Clean up
-WORKDIR /srv/jekyll/
 RUN set -eux; \
     rm -rf \
         ${SETUPDIR} \
@@ -37,5 +36,7 @@ RUN set -eux; \
         /root/.bundle/cache \
     ;
 
+WORKDIR /srv/jekyll
+
 EXPOSE 4000
-ENTRYPOINT ["jekyll", "serve", "--future", "--watch", "--destination", "/tmp/", "--source", "/srv/jekyll/src/", "--disable-disk-cache", "TRUE", "--host", "0.0.0.0"]
+ENTRYPOINT ["bundle", "exec", "rake"]

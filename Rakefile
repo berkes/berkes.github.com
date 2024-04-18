@@ -1,4 +1,4 @@
-require "rubygems"
+require 'rubygems'
 require 'rake'
 require 'yaml'
 require 'time'
@@ -7,13 +7,10 @@ require 'jekyll'
 
 SOURCE = "./src"
 CONFIG = {
-  'version' => "0.2.13",
   'posts' => File.join(SOURCE, "_posts"),
   'images' => File.join(SOURCE, "images"),
   'images_templates' => File.join(SOURCE, "_images_templates"),
   'post_ext' => "markdown",
-  'editor' => 'nvim',
-  'build_dir' => "./build"
 }
 
 # Path configuration helper
@@ -76,14 +73,12 @@ task :post do
   puts "Copying image: #{template_imagefile} to #{imagefile}"
   mkdir_p File.dirname(imagefile)
   FileUtils.copy(template_imagefile, imagefile)
-
-  system "#{CONFIG['editor']} #{filename}"
 end # task :post
 
 desc "Launch preview environment"
 task :preview do
   limit = ENV["limit"] || 20
-  system "jekyll serve --future --watch --limit-posts #{limit} --destination #{CONFIG['build_dir']} --source  #{SOURCE}"
+  system "jekyll serve --future --watch --limit-posts #{limit} --source  #{SOURCE}"
 end # task :preview
 
 desc "List tags used"
@@ -115,10 +110,9 @@ task "tags:remove" do
   clean_posts.each{|p| puts "#{p.slug} #{p.tags.join(',')}"}
 end
 
-desc "Build site in #{CONFIG["build_dir"]}"
+desc "Build site"
 task "build" do
-  FileUtils.mkdir_p(CONFIG["build_dir"]) unless File.exist? CONFIG["build_dir"]
-  system "jekyll build --future --destination #{CONFIG["build_dir"]} --source  #{SOURCE}"
+  system "jekyll build --future --source  #{SOURCE}"
 end
 
 desc "Publish to production"

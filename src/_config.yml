@@ -39,9 +39,13 @@ collections:
     sort_by: date
     permalink: /p/:name.html
 
+# Build items dated in future. This is required so we can have presentations
+# online before presenting them
+future: TRUE
+
+destination: "./build"
+
 # All Jekyll-Bootstrap specific configurations are namespaced into this hash
-  
-#
 JB:
   version: 0.2.13
 
