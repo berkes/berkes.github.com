@@ -22,7 +22,7 @@ jobs:
     - name: Run Jekyll build
       run: |
         cd jekyll
-        jekyll build --destination build
+        bundle exec rake build
 
     - name: Upload build artifacts
       uses: actions/upload-artifact@v2
