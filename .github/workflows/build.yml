@@ -1,0 +1,29 @@
+---
+name: Build Jekyll Site in Docker
+
+on:
+  push:
+    branches:
+      - main
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+
+    container:
+      image: docker.io/berkes/jekyll:latest
+
+    steps:
+    - name: Checkout code
+      uses: actions/checkout@v2
+      with:
+        path: '/srv/jekyll'
+
+    - name: Run Jekyll build
+      run: jekyll build --source /srv/jekyll --destination /srv/jekyll/build
+
+    - name: Upload build artifacts
+      uses: actions/upload-artifact@v2
+      with:
+        name: site
+        path: /srv/jekyll/build  # Ensure this matches the output directory.
