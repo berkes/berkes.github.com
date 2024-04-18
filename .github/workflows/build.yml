@@ -32,7 +32,8 @@ jobs:
 
   deploy:
     runs-on: ubuntu-latest
-    requires: ["build"]
+    needs:
+      - build
 
     steps:
     - name: Download Artifact
