@@ -17,13 +17,15 @@ jobs:
     - name: Checkout code
       uses: actions/checkout@v2
       with:
-        path: '/srv/jekyll'
+        path: 'jekyll'
 
     - name: Run Jekyll build
-      run: jekyll build --source /srv/jekyll --destination /srv/jekyll/build
+      run: |
+        cd jekyll
+        jekyll build --destination build
 
     - name: Upload build artifacts
       uses: actions/upload-artifact@v2
       with:
         name: site
-        path: /srv/jekyll/build  # Ensure this matches the output directory.
+        path: jekyll/build
