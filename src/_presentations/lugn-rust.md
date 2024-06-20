@@ -2,7 +2,7 @@
 layout: presentation
 author:
   - Bèr `berkes` Kessels
-title: Event Sourcing
+title: Rust Introductie
 location: Linux Usergroup Nijmegen
 date: 2022-06-14 00:00:00
 tags: rust, introduction
