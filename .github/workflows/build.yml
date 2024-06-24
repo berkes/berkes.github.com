@@ -44,15 +44,6 @@ jobs:
       uses: actions/download-artifact@v3
       with:
         name: site.zip
-        path: /tmp/
-
-    - name: Debug the stuff
-      run: ls -R
-      working-directory: /tmp/
-
-    - name: Unzip Artifact
-      run: |
-        unzip /tmp/site.zip -d ./deploy_content
 
     - name: Copy to Server
       uses: appleboy/scp-action@master
@@ -61,7 +52,7 @@ jobs:
         username: deploy
         key: ${{ secrets.SSH_KEY }}
         port: 22
-        source: "deploy_content/*"
+        source: "./*"
         target: "/u/apps/berkes/tmp/deploy_content"
 
     - name: Atomic Swap
