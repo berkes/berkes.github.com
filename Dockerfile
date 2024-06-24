@@ -1,8 +1,15 @@
 ## Build a Docker image for jekyll 4.3.2
 FROM ruby:3.2.2-alpine3.19
 
+ENV APPDIR=/srv/jekyll
 ENV SETUPDIR=/setup
+ENV GEM_HOME=/usr/local/bundle
+ENV BUNDLE_PATH=$GEM_HOME
+ENV BUNDLE_GEMFILE=$SETUPDIR/Gemfile
+ENV PATH $GEM_HOME/bin:$PATH
+
 WORKDIR ${SETUPDIR}
+
 ARG GEMFILE_DIR=.
 COPY $GEMFILE_DIR/Gemfile* $GEMFILE_DIR/packages* .
 
@@ -36,7 +43,8 @@ RUN set -eux; \
         /root/.bundle/cache \
     ;
 
-WORKDIR /srv/jekyll
+ENV BUNDLE_GEMFILE=$APPDIR/Gemfile
+WORKDIR ${APPDIR}
 
 EXPOSE 4000
 ENTRYPOINT ["bundle", "exec", "rake"]
