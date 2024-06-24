@@ -31,7 +31,7 @@ jobs:
     - name: Upload build artifacts
       uses: actions/upload-artifact@v2
       with:
-        name: site
+        name: site.zip
         path: jekyll/build
 
   deploy:
@@ -43,7 +43,7 @@ jobs:
     - name: Download Artifact
       uses: actions/download-artifact@v3
       with:
-        name: site
+        name: site.zip
 
     - name: Unzip Artifact
       run: |
