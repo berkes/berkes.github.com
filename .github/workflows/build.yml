@@ -68,4 +68,4 @@ jobs:
           # Add to the new version
           mv /u/apps/berkes/tmp/deploy_content/ /u/apps/berkes/releases/${ds}/public/
           # update the current symlink
-          rm /u/apps/berkes/current && ln -s /u/apps/berkes/releases/${ds}/
+          rm /u/apps/berkes/current && ln -s /u/apps/berkes/releases/${ds}/ /u/apps/berkes/current
