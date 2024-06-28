@@ -3,7 +3,7 @@ layout: presentation
 author:
   - Bèr `berkes` Kessels
 title: Decentralized mapping
-location: Linux Usergroup Nijmegen
+location: Amsterdam
 date: 2019-11-29
 tags: placebazaar, openstreetmap, gis
 lang: en
