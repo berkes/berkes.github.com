@@ -62,9 +62,10 @@ jobs:
         username: deploy
         key: ${{ secrets.SSH_KEY }}
         script: |
-          # Remove the old backup if it exists
-          rm -rf /u/apps/berkes/tmp/deploy_previous
-          # Backup the current version
-          mv /u/apps/berkes/tmp/deploy_current /u/apps/berkes/tmp/deploy_previous
-          # Switch to the new version
-          mv /u/apps/berkes/tmp/deploy_content /u/apps/berkes/tmp/deploy_current
+          export ds=$(date +"%Y%m%d%H%M%S")
+          # Make a new version dir
+          mkdir /u/apps/berkes/releases/${ds}
+          # Add to the new version
+          mv /u/apps/berkes/tmp/deploy_content/ /u/apps/berkes/releases/${ds}/public/
+          # update the current symlink
+          # rm /u/apps/berkes/current && ln -s /u/apps/berkes/releases/${ds}/
