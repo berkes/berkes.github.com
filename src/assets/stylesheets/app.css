@@ -31,6 +31,10 @@ article .body strong {
 article .body em {
   font-style: italic;
 }
+article .body sup {
+  font-size: 0.8em;
+  vertical-align: super;
+}
 article figure {
   margin: 0 0 1em 0;
 }
@@ -38,6 +42,16 @@ article figure figcaption {
   margin: 0 1em;
   color: #cfcdcd;
   text-align: right;
+}
+article .footnotes {
+  border-top: 1px solid #cfcdcd;
+  padding-top: 1em;
+  font-size: 0.8em;
+  color: #cfcdcd;
+}
+article .footnotes ol {
+  counter-reset: footnote;
+  margin-left: 0;
 }
 article footer {
   margin-top: 30px;
