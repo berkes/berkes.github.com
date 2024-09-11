@@ -20,16 +20,22 @@ jobs:
     steps:
     - name: Checkout code
       uses: actions/checkout@v2
+      with:
+        path: 'jekyll'
 
     - name: Run Jekyll build
+      env:
+        BUNDLE_GEMFILE: "${GITHUB_WORKSPACE}/Gemfile"
+
       run: |
+        cd jekyll
         bundle exec rake build
 
     - name: Upload build artifacts
       uses: actions/upload-artifact@v4
       with:
         name: site.zip
-        path: build
+        path: jekyll/build
 
   deploy:
     runs-on: ubuntu-latest
