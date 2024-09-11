@@ -18,6 +18,7 @@ RUN set -eux; \
     apk add --no-cache --virtual build-deps \
         build-base \
         zlib-dev \
+        git \
     ;
 
 # Install extra packages if needed
