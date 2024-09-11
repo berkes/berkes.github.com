@@ -18,14 +18,11 @@ RUN set -eux; \
     apk add --no-cache --virtual build-deps \
         build-base \
         zlib-dev \
-        git \
     ;
 
 # Install extra packages if needed
 RUN set -eux; \
-	if [ -e packages ]; then \
-	    cat packages | apk add --no-cache --virtual extra-pkgs; \
-    fi
+  apk add --no-cache git;
 
 # Install Bundler
 RUN set -eux; gem install bundler
