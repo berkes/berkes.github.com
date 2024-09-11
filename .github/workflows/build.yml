@@ -23,6 +23,9 @@ jobs:
       with:
         path: 'jekyll'
 
+    - name: Debug
+      run: pwd && ls -alh . && ls -ahl jekyll 
+
     - name: Run Jekyll build
       env:
         BUNDLE_GEMFILE: "/srv/jekyll/jekyll/Gemfile"
