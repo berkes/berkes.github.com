@@ -23,6 +23,9 @@ jobs:
       with:
         path: 'jekyll'
 
+    - name: Debug
+      run: ls -ahl . && ls -ahl jekyll
+
     - name: Run Jekyll build
       run: |
         cd jekyll
