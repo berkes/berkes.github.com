@@ -25,7 +25,7 @@ jobs:
 
     - name: Run Jekyll build
       env:
-        BUNDLE_GEMFILE: "${GITHUB_WORKSPACE}/Gemfile"
+        BUNDLE_GEMFILE: "${{ github.workspace }}/Gemfile"
 
       run: |
         cd jekyll
