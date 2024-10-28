@@ -82,7 +82,7 @@ GEM
       psych (>= 4.0.0)
     reline (0.5.10)
       io-console (~> 0.5)
-    rexml (3.3.7)
+    rexml (3.3.9)
     rouge (4.3.0)
     safe_yaml (1.0.5)
     sass-embedded (1.78.0)
