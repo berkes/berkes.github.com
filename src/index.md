@@ -1,7 +1,6 @@
 ---
 layout: default
 title: Bèr ‘berkes’ Kessels
-tagline: Supporting tagline
 ---
 {% include setup.yml %}
 
@@ -9,9 +8,8 @@ tagline: Supporting tagline
 <section class="six columns about" lang="en">
 <h2>About Bèr Kessels</h2>
 <p>
-Bèr Kessels is an experienced webdeveloper  with a great passion for
-technology and Open Source. A golden combination to implement that technology in a good and efficient
-way. 
+I am Bèr Kessels, a freelance **software developer**. I develop **cutting edge
+software and web-applications**, with **Open Source** and modern technology.
 <br/>
 <a href="about.html">More »</a>
 </p>
@@ -19,7 +17,7 @@ way.
 <section class="six columns about" lang="nl">
 <h2>Over Bèr Kessels</h2>
 <p>
-Bèr Kessels is een ervaren webdeveloper met een grote passie voor techniek en Open Source. Een gouden combinatie om de techniek goed en efficiënt toe te passen.
+Ik ben Bèr Kessels, een freelance softwareontwikkelaar. Ik ontwikkel geavanceerde software en web-applicaties met behulp van **Open Source** en moderne techniek.
 <br/>
 <a href="over.html">Meer »</a>
 </p>

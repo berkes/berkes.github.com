@@ -7,9 +7,8 @@ permalink: /about.html
 lang: en
 ---
 
-I am Bèr Kessels, a freelance **software developer**, I focus on development
-and marketing of **cutting edge websites and applications**, with **Open
-Source** technology.
+I am Bèr Kessels, a freelance **software developer**. I develop **cutting edge
+software and web-applications**, with **Open Source** and modern technology.
 
 My handle on most networks is **berkes**.
 

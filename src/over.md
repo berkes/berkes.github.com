@@ -6,7 +6,7 @@ group: navigation
 permalink: /over.html
 lang: nl
 ---
-Ik ben Bèr Kessels, een freelance **softwareontwikkelaar**. Ik richt me op de ontwikkeling en marketing van **geavanceerde websites en applicaties** met behulp van **Open Source** technologie.
+Ik ben Bèr Kessels, een freelance **softwareontwikkelaar**. Ik ontwikkel **geavanceerde software en web-applicaties** met behulp van **Open Source** en moderne techniek.
 
 Mijn gebruikersnaam op de meeste netwerken is **berkes**.
 
