@@ -8,8 +8,8 @@ title: Bèr ‘berkes’ Kessels
 <section class="six columns about" lang="en">
 <h2>About Bèr Kessels</h2>
 <p>
-I am Bèr Kessels, a freelance **software developer**. I develop **cutting edge
-software and web-applications**, with **Open Source** and modern technology.
+I am Bèr Kessels, a freelance software developer. I develop cutting edge
+software and web-applications, with Open Source and modern technology.
 <br/>
 <a href="about.html">More »</a>
 </p>
@@ -17,7 +17,7 @@ software and web-applications**, with **Open Source** and modern technology.
 <section class="six columns about" lang="nl">
 <h2>Over Bèr Kessels</h2>
 <p>
-Ik ben Bèr Kessels, een freelance softwareontwikkelaar. Ik ontwikkel geavanceerde software en web-applicaties met behulp van **Open Source** en moderne techniek.
+Ik ben Bèr Kessels, een freelance softwareontwikkelaar. Ik ontwikkel geavanceerde software en web-applicaties met behulp van Open Source en moderne techniek.
 <br/>
 <a href="over.html">Meer »</a>
 </p>
