@@ -83,4 +83,4 @@ jobs:
 
     - name: Deploy to object storage
       run: |
-        s3cmd sync --recursive --delete-removed --acl-public --guess-mime-type ./ s3://berk.es/
+        s3cmd sync --recursive --delete-removed --acl-public --no-mime-magic --guess-mime-type ./ s3://berk.es/
