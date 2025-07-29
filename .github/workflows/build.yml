@@ -48,27 +48,39 @@ jobs:
       with:
         name: site.zip
 
-    - name: Copy to Server
-      uses: appleboy/scp-action@master
-      with:
-        host: ${{ secrets.HOST }}
-        username: deploy
-        key: ${{ secrets.SSH_KEY }}
-        port: 22
-        source: "./*"
-        target: "/u/apps/berkes/tmp/deploy_content"
+    # - name: Copy to Server
+    #   uses: appleboy/scp-action@master
+    #   with:
+    #     host: ${{ secrets.HOST }}
+    #     username: deploy
+    #     key: ${{ secrets.SSH_KEY }}
+    #     port: 22
+    #     source: "./*"
+    #     target: "/u/apps/berkes/tmp/deploy_content"
 
-    - name: Atomic Swap
-      uses: appleboy/ssh-action@v0.1.4
+    # - name: Atomic Swap
+    #   uses: appleboy/ssh-action@v0.1.4
+    #   with:
+    #     host: ${{ secrets.HOST }}
+    #     username: deploy
+    #     key: ${{ secrets.SSH_KEY }}
+    #     script: |
+    #       export ds=$(date +"%Y%m%d%H%M%S")
+    #       # Make a new version dir
+    #       mkdir /u/apps/berkes/releases/${ds}
+    #       # Add to the new version
+    #       mv /u/apps/berkes/tmp/deploy_content/ /u/apps/berkes/releases/${ds}/public/
+    #       # update the current symlink
+    #       rm /u/apps/berkes/current && ln -s /u/apps/berkes/releases/${ds}/ /u/apps/berkes/current
+
+    - name: Set up S3cmd cli tool
+      uses: s3-actions/s3cmd@v2.0.0
       with:
-        host: ${{ secrets.HOST }}
-        username: deploy
-        key: ${{ secrets.SSH_KEY }}
-        script: |
-          export ds=$(date +"%Y%m%d%H%M%S")
-          # Make a new version dir
-          mkdir /u/apps/berkes/releases/${ds}
-          # Add to the new version
-          mv /u/apps/berkes/tmp/deploy_content/ /u/apps/berkes/releases/${ds}/public/
-          # update the current symlink
-          rm /u/apps/berkes/current && ln -s /u/apps/berkes/releases/${ds}/ /u/apps/berkes/current
+        provider: scaleway
+        region: nl-ams
+        access_key: ${{ secrets.SCALEWAY_ACCESS_KEY }}
+        secret_key: ${{ secrets.SCALEWAY_SECRET_KEY }}
+
+    - name: Deploy to object storage
+      run: |
+        s3cmd sync --recursive --delete-removed --acl-public --guess-mime-type ./ s3://berk.es/
