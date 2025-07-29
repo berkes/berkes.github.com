@@ -78,7 +78,8 @@ end # task :post
 desc "Launch preview environment"
 task :preview do
   limit = ENV["limit"] || 20
-  system "jekyll serve --future --watch --limit-posts #{limit} --source  #{SOURCE}"
+  host = ENV["HOSTNAME"] || "127.0.0.1"
+  system "jekyll serve --future --watch --limit-posts #{limit} --source  #{SOURCE} --host #{host}"
 end # task :preview
 
 desc "List tags used"
