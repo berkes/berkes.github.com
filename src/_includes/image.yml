@@ -1,5 +1,5 @@
 <figure class="decorative">
-  <img src="/images/{{ page.id }}.png" alt="Woodcut from Doré. Purely illustrative" />
+  <img src="{{ '/images' | append: page.id | append: '.png' | relative_url }}" alt="Woodcut from Doré. Purely illustrative" />
   {% if page.lang == "nl" %}
     <figcaption>Doré Houtsnede. De enige functie hiervan is een mooiere layout. En de gravures zijn gewoon mooi</figcaption>
   {% else %}
