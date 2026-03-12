@@ -11,3 +11,9 @@ Thumbs.db
 
 src/_site
 src/.jekyll-metadata
+
+tests/node_modules
+tests/cypress/videos
+tests/cypress/screenshots
+tests/cypress/downloads
+tests/cypress/snapshots/__diff_output__
