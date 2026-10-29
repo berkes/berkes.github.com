@@ -58,8 +58,6 @@ jobs:
       env:
         STATICHOST_TOKEN: ${{ secrets.STATICHOST_TOKEN }}
       run: |
-        args=(-sSf --max-time 60 -X POST)
-        if [ -n "$STATICHOST_TOKEN" ]; then
-          args+=(-H "Authorization: Bearer $STATICHOST_TOKEN")
-        fi
-        curl "${args[@]}" https://builder.statichost.eu/berk-es
+        curl -sSf --max-time 60 -X POST \
+          -H "Authorization: Bearer $STATICHOST_TOKEN" \
+          https://builder.statichost.eu/berk-es
