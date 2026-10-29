@@ -23,8 +23,15 @@ build:
 serve port=port:
     python3 -m http.server {{port}} --bind {{host}} --directory {{build_dir}}
 
+# Install the test dependencies (skipped when already installed)
+install:
+    #!/usr/bin/env bash
+    set -euo pipefail
+    cd {{tests_dir}}
+    [ -d node_modules/cypress ] || npm ci
+
 # Build the site, then run all Cypress tests headless against it
-test *args: build
+test *args: build install
     #!/usr/bin/env bash
     set -euo pipefail
     python3 -m http.server {{port}} --bind {{host}} --directory {{build_dir}} &
@@ -35,7 +42,7 @@ test *args: build
 
 # Build the site, then regenerate the visual regression baselines
 # (tests/cypress/snapshots/ - commit the new .snap.png files)
-update-visual-diffs: build
+update-visual-diffs: build install
     #!/usr/bin/env bash
     set -euo pipefail
     python3 -m http.server {{port}} --bind {{host}} --directory {{build_dir}} &
