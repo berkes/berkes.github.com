@@ -36,7 +36,7 @@ jobs:
         key: cypress-${{ runner.os }}-${{ hashFiles('tests/package-lock.json') }}
 
     - name: Regenerate visual baselines (temporary, for Cypress 16 upgrade)
-      run: CYPRESS_updateSnapshots=true just test --spec 'cypress/e2e/visual_regression.cy.js' || true
+      run: just test --expose updateSnapshots=true --spec 'cypress/e2e/visual_regression.cy.js' || true
 
     - name: Run Cypress end-to-end tests
       run: just test
