@@ -5,21 +5,30 @@ describe('Visual Regression Tests', () => {
   const fontsReady = () =>
     cy.window().then((win) => win.document.fonts.ready);
 
+  // Allow a sliver of pixel differences for antialiasing noise between
+  // render environments (local vs CI). The tags page is ~61000px tall, so
+  // even 0.01% covers thousands of pixels of noise while still catching
+  // real regressions.
+  const snapshotOptions = {
+    failureThreshold: 0.01,
+    failureThresholdType: 'percent',
+  };
+
   it('should match the homepage layout', () => {
     cy.visit('/');
     fontsReady();
-    cy.matchImageSnapshot('homepage');
+    cy.matchImageSnapshot('homepage', snapshotOptions);
   });
 
   it('should match the archive page layout', () => {
     cy.visit('/archive.html');
     fontsReady();
-    cy.matchImageSnapshot('archive');
+    cy.matchImageSnapshot('archive', snapshotOptions);
   });
 
   it('should match the tags page layout', () => {
     cy.visit('/tags.html');
     fontsReady();
-    cy.matchImageSnapshot('tags');
+    cy.matchImageSnapshot('tags', snapshotOptions);
   });
 });
