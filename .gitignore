@@ -17,3 +17,4 @@ tests/cypress/videos
 tests/cypress/screenshots
 tests/cypress/downloads
 tests/cypress/snapshots/__diff_output__
+tests/cypress/snapshots/**/__diff_output__

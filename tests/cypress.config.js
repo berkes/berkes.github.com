@@ -10,5 +10,10 @@ module.exports = defineConfig({
       return require('./cypress/plugins/index.js')(on, config)
     },
     baseUrl: 'http://localhost:8000',
+    // Retry flaky tests when running headless (CI), never interactively.
+    retries: {
+      runMode: 2,
+      openMode: 0,
+    },
   },
 })
