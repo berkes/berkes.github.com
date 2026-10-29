@@ -1,5 +1,5 @@
 ---
-name: Build Jekyll Site in Docker
+name: Test and deploy
 
 on:
   push:
@@ -8,7 +8,7 @@ on:
   pull_request:
 
 concurrency:
-  group: build-${{ github.ref }}
+  group: test-and-deploy-${{ github.ref }}
   cancel-in-progress: false
 
 jobs:
@@ -48,52 +48,18 @@ jobs:
           tests/cypress/videos
           tests/cypress/snapshots/**/__diff_output__
 
-  build:
-    needs: test
-    runs-on: ubuntu-latest
-
-    container:
-      image: docker.io/berkes/jekyll:latest
-
-    steps:
-    - name: Checkout code
-      uses: actions/checkout@v2
-      with:
-        path: 'jekyll'
-
-    - name: Run Jekyll build
-      env:
-        BUNDLE_GEMFILE: "${{ github.workspace }}/jekyll/Gemfile"
-
-      run: |
-        cd jekyll
-        bundle exec rake build
-
-    - name: Upload build artifacts
-      uses: actions/upload-artifact@v4
-      with:
-        name: site.zip
-        path: jekyll/build
-
   deploy:
-    needs: build
+    needs: test
     if: github.event_name == 'push' && github.ref == 'refs/heads/main'
     runs-on: ubuntu-latest
 
     steps:
-    - name: Download Artifact
-      uses: actions/download-artifact@v4.1.7
-      with:
-        name: site.zip
-
-    - name: Set up S3cmd cli tool
-      uses: s3-actions/s3cmd@v2.0.0
-      with:
-        provider: scaleway
-        region: nl-ams
-        access_key: ${{ secrets.SCALEWAY_ACCESS_KEY }}
-        secret_key: ${{ secrets.SCALEWAY_SECRET_KEY }}
-
-    - name: Deploy to object storage
+    - name: Trigger statichost.eu build webhook
+      env:
+        STATICHOST_TOKEN: ${{ secrets.STATICHOST_TOKEN }}
       run: |
-        s3cmd sync --recursive --delete-removed --acl-public --no-mime-magic --guess-mime-type ./ s3://berkes/
+        args=(-sSf --max-time 60 -X POST)
+        if [ -n "$STATICHOST_TOKEN" ]; then
+          args+=(-H "Authorization: Bearer $STATICHOST_TOKEN")
+        fi
+        curl "${args[@]}" https://builder.statichost.eu/berk-es
