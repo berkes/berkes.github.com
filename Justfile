@@ -21,10 +21,8 @@ build:
     set -euo pipefail
     docker run --rm \
         --volume "{{justfile_directory()}}:/srv/jekyll" \
-        {{jekyll_image}} install
-    docker run --rm \
-        --volume "{{justfile_directory()}}:/srv/jekyll" \
-        {{jekyll_image}} build
+        --entrypoint sh \
+        {{jekyll_image}} -c 'bundle install --jobs 4 && bundle exec rake build'
 
 # Serve the built site at the given port (default 8000, Ctrl-C to stop)
 serve port=port:
