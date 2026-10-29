@@ -38,6 +38,12 @@ jobs:
     - name: Regenerate visual baselines (temporary, for Cypress 16 upgrade)
       run: just test --expose updateSnapshots=true --spec 'cypress/e2e/visual_regression.cy.js' || true
 
+    - name: Upload regenerated baselines (temporary)
+      uses: actions/upload-artifact@v4
+      with:
+        name: regenerated-baselines
+        path: tests/cypress/snapshots/**/*.snap.png
+
     - name: Run Cypress end-to-end tests
       run: just test
 
