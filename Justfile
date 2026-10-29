@@ -13,8 +13,15 @@ jekyll_image := "docker.io/berkes/jekyll:latest"
 default:
     @just --list
 
-# Build the site into build/ with Jekyll (in Docker, same image as CI)
+# Build the site into build/ with Jekyll (in Docker, same image as CI).
+# Installs gems from Gemfile.lock first so the recipe keeps working after
+# dependency bumps without waiting for a new image build.
 build:
+    #!/usr/bin/env bash
+    set -euo pipefail
+    docker run --rm \
+        --volume "{{justfile_directory()}}:/srv/jekyll" \
+        {{jekyll_image}} install
     docker run --rm \
         --volume "{{justfile_directory()}}:/srv/jekyll" \
         {{jekyll_image}} build
