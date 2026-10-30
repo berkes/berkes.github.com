@@ -1,6 +1,7 @@
 ---
 layout: post_archive
 title: Hoe moet je je vrouw slaan
+date: 2007-01-13
 created: 1168690772
 tags:
 - politics

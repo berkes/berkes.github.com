@@ -1,6 +1,7 @@
 ---
 layout: post_archive
 title: Normalising users and people
+date: 2006-10-21
 created: 1161426576
 tags:
 - programming

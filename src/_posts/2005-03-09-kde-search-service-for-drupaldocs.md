@@ -1,6 +1,7 @@
 ---
 layout: post_archive
 title: KDE search Service for Drupaldocs
+date: 2005-03-09
 created: 1110367250
 tags:
 - programming

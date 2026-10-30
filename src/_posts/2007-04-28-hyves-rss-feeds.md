@@ -1,6 +1,7 @@
 ---
 layout: post_archive
 title: Hyves RSS feeds
+date: 2007-04-28
 created: 1177772464
 tags:
 - web2.0

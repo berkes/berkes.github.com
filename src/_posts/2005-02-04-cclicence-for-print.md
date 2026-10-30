@@ -1,6 +1,7 @@
 ---
 layout: post_archive
 title: CClicence for print
+date: 2005-02-04
 created: 1107505864
 tags:
 - programming

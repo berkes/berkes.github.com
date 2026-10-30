@@ -1,6 +1,7 @@
 ---
 layout: post_archive
 title: Druby on rails (version 0)
+date: 2005-12-21
 created: 1135162716
 tags:
 - drupal

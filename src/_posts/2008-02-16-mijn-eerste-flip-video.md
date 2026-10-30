@@ -1,6 +1,7 @@
 ---
 layout: post_archive
 title: Mijn eerste Flip Video
+date: 2008-02-16
 created: 1203176947
 tags:
 - videolog

@@ -3,6 +3,7 @@ title: "Blog comments on a static site via social networks"
 tags: [hackernews, reddit, blog]
 lang: en
 layout: post
+date: 2022-10-12
 ---
 
 Most blogs have a comment section below each article. A relic from the days

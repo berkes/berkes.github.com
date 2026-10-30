@@ -1,6 +1,7 @@
 ---
 layout: post_archive
 title: Nog ééń nachtje slapen en dan zit ik op Dour
+date: 2007-07-11
 created: 1184187273
 tags:
 - music

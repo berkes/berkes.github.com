@@ -1,6 +1,7 @@
 ---
 layout: post_archive
 title: Mensen begrijpen spiegels niet.
+date: 2005-12-22
 created: 1135207060
 tags:
 

@@ -1,6 +1,7 @@
 ---
 layout: post_archive
 title: Google on the benchmark
+date: 2004-05-06
 created: 1083877726
 tags:
 

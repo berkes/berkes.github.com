@@ -1,6 +1,7 @@
 ---
 layout: post_archive
 title: my phone is dead
+date: 2005-01-07
 created: 1105115039
 tags:
 - wishlist

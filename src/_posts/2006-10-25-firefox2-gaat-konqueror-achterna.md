@@ -1,6 +1,7 @@
 ---
 layout: post_archive
 title: Firefox2 gaat Konqueror achterna :)
+date: 2006-10-25
 created: 1161793150
 tags:
 - kde

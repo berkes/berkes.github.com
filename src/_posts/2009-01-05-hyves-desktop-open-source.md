@@ -1,6 +1,7 @@
 ---
 layout: post_archive
 title: Hyves Desktop Open Source
+date: 2009-01-05
 created: 1231159399
 tags:
 - qt

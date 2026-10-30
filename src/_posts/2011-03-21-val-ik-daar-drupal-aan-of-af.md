@@ -1,6 +1,7 @@
 ---
 layout: post_archive
 title: Val ik daar Drupal aan of af?
+date: 2011-03-21
 created: 1300715726
 tags:
 - drupal

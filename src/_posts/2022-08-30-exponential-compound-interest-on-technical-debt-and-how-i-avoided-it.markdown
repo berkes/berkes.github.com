@@ -3,6 +3,7 @@ title: "Exponential compound interest on Technical Debt. And how I avoided it."
 tags: [architecture, project, technical-debt]
 lang: en
 layout: post
+date: 2022-08-30
 ---
 
 In this post I'll try to explain why not all technical debt is crippling. And

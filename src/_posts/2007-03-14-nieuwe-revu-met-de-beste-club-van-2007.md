@@ -1,6 +1,7 @@
 ---
 layout: post_archive
 title: Nieuwe revu met de beste club van 2007
+date: 2007-03-14
 created: 1173905555
 tags:
 - music

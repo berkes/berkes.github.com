@@ -1,6 +1,7 @@
 ---
 layout: post_archive
 title: Over verdwijnende Comments, Null-Void-Vacui en spam
+date: 2005-12-27
 created: 1135679456
 tags:
 

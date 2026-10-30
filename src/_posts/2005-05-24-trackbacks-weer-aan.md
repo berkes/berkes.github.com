@@ -1,6 +1,7 @@
 ---
 layout: post_archive
 title: trackbacks weer aan
+date: 2005-05-24
 created: 1116938787
 tags:
 - programming

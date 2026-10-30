@@ -1,6 +1,7 @@
 ---
 layout: post_archive
 title: Waarom ik zo loop te schoppen tegen Apple (en zijn fans)
+date: 2010-01-31
 created: 1264957003
 tags:
 - tinkering

@@ -1,6 +1,7 @@
 ---
 layout: post_archive
 title: Getting local getting personal
+date: 2006-01-26
 created: 1138286448
 tags:
 - drupal

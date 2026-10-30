@@ -1,6 +1,7 @@
 ---
 layout: post_archive
 title: Toggle your webservers' production environment by using symlinks
+date: 2010-09-08
 created: 1283974361
 tags:
 

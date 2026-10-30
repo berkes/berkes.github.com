@@ -1,6 +1,7 @@
 ---
 layout: post_archive
 title: Bright ook al aan de Drupal
+date: 2005-12-11
 created: 1134329218
 tags:
 

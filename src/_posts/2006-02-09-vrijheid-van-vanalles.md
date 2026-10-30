@@ -1,6 +1,7 @@
 ---
 layout: post_archive
 title: vrijheid van vanalles
+date: 2006-02-09
 created: 1139518798
 tags:
 

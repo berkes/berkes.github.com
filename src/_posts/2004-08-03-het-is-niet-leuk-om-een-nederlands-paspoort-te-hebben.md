@@ -1,6 +1,7 @@
 ---
 layout: post_archive
 title: Het is niet leuk om een Nederlands paspoort te hebben.
+date: 2004-08-03
 created: 1091539467
 tags:
 - sziget 2004 blog

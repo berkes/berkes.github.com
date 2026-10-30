@@ -1,6 +1,7 @@
 ---
 layout: post_archive
 title: ! 'Nieuwe vensters openen op je site: nog altijd een drama'
+date: 2009-05-04
 created: 1241451185
 tags:
 - targetblank

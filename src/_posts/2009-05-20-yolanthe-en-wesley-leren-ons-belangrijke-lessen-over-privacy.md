@@ -1,6 +1,7 @@
 ---
 layout: post_archive
 title: Yolanthe en Wesley leren ons belangrijke lessen over privacy
+date: 2009-05-20
 created: 1242853587
 tags:
 - privacy

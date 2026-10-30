@@ -1,6 +1,7 @@
 ---
 layout: post_archive
 title: ! 'Sea Sheperd botst met walvisvaarders: de Sea Sheperd kant in video'
+date: 2010-01-07
 created: 1262863753
 tags:
 - sea sheperd

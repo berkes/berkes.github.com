@@ -1,6 +1,7 @@
 ---
 layout: post_archive
 title: webschuur.com layout
+date: 2004-06-08
 created: 1086713691
 tags:
 

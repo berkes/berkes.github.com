@@ -1,6 +1,7 @@
 ---
 layout: post_archive
 title: ! 'CSS template: width'
+date: 2004-11-11
 created: 1100197553
 tags:
 

@@ -1,6 +1,7 @@
 ---
 layout: post_archive
 title: Search engine optimisation
+date: 2004-11-03
 created: 1099502774
 tags:
 

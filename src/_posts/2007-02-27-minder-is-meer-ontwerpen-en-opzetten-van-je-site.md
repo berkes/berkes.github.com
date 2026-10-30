@@ -1,6 +1,7 @@
 ---
 layout: post_archive
 title: ! 'Minder is meer: ontwerpen en opzetten van je site'
+date: 2007-02-27
 created: 1172580116
 tags:
 - drupal

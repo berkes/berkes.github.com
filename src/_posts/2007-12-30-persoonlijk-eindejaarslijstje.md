@@ -1,6 +1,7 @@
 ---
 layout: post_archive
 title: Persoonlijk eindejaarslijstje
+date: 2007-12-30
 created: 1199032026
 tags:
 - music

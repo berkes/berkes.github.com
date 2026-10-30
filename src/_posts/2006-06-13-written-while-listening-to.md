@@ -1,6 +1,7 @@
 ---
 layout: post_archive
 title: written while listening to
+date: 2006-06-13
 created: 1150216821
 tags:
 - programming

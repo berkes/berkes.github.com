@@ -1,6 +1,7 @@
 ---
 layout: post_archive
 title: hmmmmm ambient, zzzzzz
+date: 2004-12-16
 created: 1103198028
 tags:
 - music

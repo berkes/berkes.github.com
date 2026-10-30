@@ -1,6 +1,7 @@
 ---
 layout: post_archive
 title: Vijf tips om technorati in te zetten voor een beter blog
+date: 2009-03-16
 created: 1237211910
 tags:
 - technorati

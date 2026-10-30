@@ -1,6 +1,7 @@
 ---
 layout: post_archive
 title: Developing on Drupal CVS HEAD
+date: 2008-05-01
 created: 1209652296
 tags:
 - project management

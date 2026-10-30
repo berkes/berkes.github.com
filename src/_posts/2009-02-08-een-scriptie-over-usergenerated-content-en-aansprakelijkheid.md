@@ -1,6 +1,7 @@
 ---
 layout: post_archive
 title: Een scriptie over Usergenerated content en aansprakelijkheid
+date: 2009-02-08
 created: 1234102439
 tags:
 - web2.0

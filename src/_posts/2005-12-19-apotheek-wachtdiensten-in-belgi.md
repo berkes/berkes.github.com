@@ -1,6 +1,7 @@
 ---
 layout: post_archive
 title: Apotheek wachtdiensten in België
+date: 2005-12-19
 created: 1135006892
 tags:
 - diabetes blog

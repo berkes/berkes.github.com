@@ -1,6 +1,7 @@
 ---
 layout: post_archive
 title: Brights reclame systeem
+date: 2006-11-01
 created: 1162384037
 tags:
 - drupal

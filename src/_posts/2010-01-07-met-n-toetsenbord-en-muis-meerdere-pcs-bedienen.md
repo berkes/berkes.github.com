@@ -1,6 +1,7 @@
 ---
 layout: post_archive
 title: Met één toetsenbord en muis meerdere PC's bedienen
+date: 2010-01-07
 created: 1262887978
 tags:
 - x2x

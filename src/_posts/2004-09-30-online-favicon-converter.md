@@ -1,6 +1,7 @@
 ---
 layout: post_archive
 title: online favicon converter
+date: 2004-09-30
 created: 1096553300
 tags:
 - programming

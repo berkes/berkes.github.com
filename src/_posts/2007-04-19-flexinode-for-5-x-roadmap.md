@@ -1,6 +1,7 @@
 ---
 layout: post_archive
 title: Flexinode for 5.x roadmap.
+date: 2007-04-19
 created: 1176978476
 tags:
 - drupal

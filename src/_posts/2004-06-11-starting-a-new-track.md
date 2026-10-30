@@ -1,6 +1,7 @@
 ---
 layout: post_archive
 title: Starting a new track
+date: 2004-06-11
 created: 1086937043
 tags:
 

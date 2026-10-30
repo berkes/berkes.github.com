@@ -1,6 +1,7 @@
 ---
 layout: post_archive
 title: Should genetic code go open source?
+date: 2004-06-23
 created: 1087942485
 tags:
 - activist

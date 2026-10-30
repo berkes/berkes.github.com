@@ -1,6 +1,7 @@
 ---
 layout: post_archive
 title: Git mirror for Basetheme Genesis
+date: 2010-02-20
 created: 1266679732
 tags:
 - project management

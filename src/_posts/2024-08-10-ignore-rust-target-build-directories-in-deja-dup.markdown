@@ -3,6 +3,7 @@ title: "Ignore Rust's target build directories in Deja-Dup"
 tags: [ubuntu, hack, rust]
 lang: en
 layout: post
+date: 2024-08-10
 ---
 
 I use Deja-Dup, to backup my Ubuntu machines. And just like [shimo describes in this blog post](https://medium.com/@shimo164/ignore-node-modules-directories-in-deja-dup-433997fd2461), I too want to avoid backing up gigabytes of `node_module` directories[^1].

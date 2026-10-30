@@ -1,6 +1,7 @@
 ---
 layout: post_archive
 title: OurTube, Youtube en eigendomsrechten
+date: 2007-07-18
 created: 1184784454
 tags:
 - copyright

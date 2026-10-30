@@ -1,6 +1,7 @@
 ---
 layout: post_archive
 title: Jeff Jarvis over hoe de iPad participatie (weer) doodslaat.
+date: 2010-04-05
 created: 1270464862
 tags:
 - ipad

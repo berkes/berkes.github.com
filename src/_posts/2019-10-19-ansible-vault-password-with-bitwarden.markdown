@@ -3,6 +3,7 @@ title: "Using Bitwarden to store Ansible-vault password"
 tags: [ansible, linux, bitwarden]
 layout: post
 lang: en
+date: 2019-10-19
 ---
 
 When provisioning servers with Ansible, managing the secrets is quite a

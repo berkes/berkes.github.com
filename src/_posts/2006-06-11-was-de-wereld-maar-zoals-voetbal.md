@@ -1,6 +1,7 @@
 ---
 layout: post_archive
 title: Was de wereld maar zoals voetbal.
+date: 2006-06-11
 created: 1150012083
 tags:
 - activist

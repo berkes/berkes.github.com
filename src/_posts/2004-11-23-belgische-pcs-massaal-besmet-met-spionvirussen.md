@@ -1,6 +1,7 @@
 ---
 layout: post_archive
 title: Belgische pc’s massaal besmet met ‘spionvirussen’
+date: 2004-11-23
 created: 1101225994
 tags:
 

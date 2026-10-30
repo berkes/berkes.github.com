@@ -1,6 +1,7 @@
 ---
 layout: post_archive
 title: Drupal Support channel
+date: 2004-10-05
 created: 1096929498
 tags:
 - programming

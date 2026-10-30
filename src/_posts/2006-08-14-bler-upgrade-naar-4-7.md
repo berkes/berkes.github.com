@@ -1,6 +1,7 @@
 ---
 layout: post_archive
 title: Bler upgrade naar 4.7
+date: 2006-08-14
 created: 1155551382
 tags:
 - programming

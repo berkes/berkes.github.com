@@ -2,6 +2,7 @@
 layout: post_archive
 title: Bitcoins. De revolutionaire valuta met een potentie voor de teloorgang van
   ons banksysteem
+date: 2011-05-29
 created: 1306685123
 tags:
 - bitcoin

@@ -1,6 +1,7 @@
 ---
 layout: post_archive
 title: Wikimedia already using Drupal
+date: 2006-12-18
 created: 1166470982
 tags:
 - drupal

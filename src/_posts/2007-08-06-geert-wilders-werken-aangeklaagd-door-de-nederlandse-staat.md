@@ -1,6 +1,7 @@
 ---
 layout: post_archive
 title: ! '"Geert Wilders Werken" aangeklaagd door de Nederlandse Staat'
+date: 2007-08-06
 created: 1186399443
 tags:
 - politics

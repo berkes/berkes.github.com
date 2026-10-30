@@ -1,6 +1,7 @@
 ---
 layout: post_archive
 title: Providers willen meer macht naar zich toetrekken
+date: 2005-12-22
 created: 1135276724
 tags:
 

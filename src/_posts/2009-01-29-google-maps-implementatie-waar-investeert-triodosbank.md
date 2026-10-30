@@ -1,6 +1,7 @@
 ---
 layout: post_archive
 title: ! 'Google MAps implementatie: waar investeert Triodosbank'
+date: 2009-01-29
 created: 1233230838
 tags:
 - webdevelopment

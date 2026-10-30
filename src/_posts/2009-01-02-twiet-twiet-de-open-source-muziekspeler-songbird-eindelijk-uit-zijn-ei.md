@@ -1,6 +1,7 @@
 ---
 layout: post_archive
 title: Twiet Twiet, de Open Source muziekspeler Songbird eindelijk uit zijn ei.
+date: 2009-01-02
 created: 1230886304
 tags:
 - software

@@ -1,6 +1,7 @@
 ---
 layout: post_archive
 title: A posteriori (wijsheid achteraf)
+date: 2007-03-20
 created: 1174413950
 tags:
 - me

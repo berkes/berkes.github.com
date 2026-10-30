@@ -1,6 +1,7 @@
 ---
 layout: post_archive
 title: Drupal needs you to conform, a framework will conform to you.
+date: 2010-09-13
 created: 1284386608
 tags:
 - project management

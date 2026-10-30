@@ -1,6 +1,7 @@
 ---
 layout: post_archive
 title: ! 'Het Timmerholt: vooral op tijd eten.'
+date: 2005-04-11
 created: 1113242503
 tags:
 - diabetes blog

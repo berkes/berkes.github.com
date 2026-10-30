@@ -1,6 +1,7 @@
 ---
 layout: post_archive
 title: Keuze linux distributie voor een webhost
+date: 2006-08-27
 created: 1156707198
 tags:
 - server

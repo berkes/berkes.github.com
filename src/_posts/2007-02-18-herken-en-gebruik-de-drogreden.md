@@ -1,6 +1,7 @@
 ---
 layout: post_archive
 title: Herken (en gebruik) de Drogreden.
+date: 2007-02-18
 created: 1171829106
 tags:
 - internet

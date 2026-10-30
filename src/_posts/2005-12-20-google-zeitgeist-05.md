@@ -1,6 +1,7 @@
 ---
 layout: post_archive
 title: Google Zeitgeist '05
+date: 2005-12-20
 created: 1135107346
 tags:
 

@@ -1,6 +1,7 @@
 ---
 layout: post_archive
 title: principekwestie
+date: 2005-02-04
 created: 1107517538
 tags:
 

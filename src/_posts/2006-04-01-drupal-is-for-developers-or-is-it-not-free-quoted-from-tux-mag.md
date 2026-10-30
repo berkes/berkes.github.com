@@ -1,6 +1,7 @@
 ---
 layout: post_archive
 title: «Drupal is for developers, or is it not?» Free quoted from tux mag.
+date: 2006-04-01
 created: 1143916257
 tags:
 - drupal

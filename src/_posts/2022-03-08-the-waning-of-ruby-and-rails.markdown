@@ -3,6 +3,7 @@ title: "The Waning of Ruby and Rails"
 tags: [ruby, ruby-on-rails]
 layout: post
 lang: en
+date: 2022-03-08
 ---
 
 Almost 12 years ago I answered a [StackOverflow

@@ -1,6 +1,7 @@
 ---
 layout: post_archive
 title: ! 'Het verschil: Open Source en Open Standaarden'
+date: 2007-03-22
 created: 1174575261
 tags:
 - open source

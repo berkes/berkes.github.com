@@ -1,6 +1,7 @@
 ---
 layout: post_archive
 title: Pedofielen op chatsites. 'Het is technisch onmogelijk om....'
+date: 2007-03-20
 created: 1174406120
 tags:
 - open source

@@ -3,6 +3,7 @@ title: "Making a case for JavaScript, in-browser Mining"
 tags: [cryptocurrency, mining, monero, brave, coinhive]
 layout: post
 lang: en
+date: 2018-02-15
 ---
 
 So, today, [Brendan Eich](https://en.wikipedia.org/wiki/Brendan_Eich)

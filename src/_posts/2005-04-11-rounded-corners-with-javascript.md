@@ -1,6 +1,7 @@
 ---
 layout: post_archive
 title: Rounded corners with javascript
+date: 2005-04-11
 created: 1113251957
 tags:
 - programming

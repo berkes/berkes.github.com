@@ -1,6 +1,7 @@
 ---
 layout: post_archive
 title: I've been waiting for a guide to come and take me by the hand
+date: 2006-08-05
 created: 1154734149
 tags:
 - music

@@ -3,6 +3,7 @@ layout: post
 title: "Beste Nu.nl. Dit vinden wij jammer."
 tags: [privacy]
 lang: nl
+date: 2015-12-14
 ---
 
 > Beste Nu.nl,

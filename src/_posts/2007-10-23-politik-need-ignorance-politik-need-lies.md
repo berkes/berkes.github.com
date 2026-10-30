@@ -1,6 +1,7 @@
 ---
 layout: post_archive
 title: politik need ignorance politik need lies
+date: 2007-10-23
 created: 1193170101
 tags:
 - music

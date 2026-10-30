@@ -3,6 +3,7 @@ title: "Bitcoin turning into a multi layered system is the most interesting thin
 tags: [bitcoin, lightning-network, BTC]
 layout: post
 lang: en
+date: 2018-02-09
 ---
 
 When you use Tinder, and you swipe someone, you probably don't sit there

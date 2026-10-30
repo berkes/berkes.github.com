@@ -1,6 +1,7 @@
 ---
 layout: post_archive
 title: Industry kills music
+date: 2007-08-25
 created: 1188064338
 tags:
 - music

@@ -1,6 +1,7 @@
 ---
 layout: post_archive
 title: Wizzlern, the new Dutch Drupal Trainers, but how to share?
+date: 2009-02-08
 created: 1234104564
 tags:
 - project management

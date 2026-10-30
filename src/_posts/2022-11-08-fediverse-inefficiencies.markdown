@@ -3,6 +3,7 @@ title: "The Fediverse is Inefficient (but that's a good trade-off)"
 tags: [fediverse, mastodon, decentral]
 lang: en
 layout: post
+date: 2022-11-08
 ---
 
 Let's address the mammoth in the room: the [fediverse](https://fediverse.party/en/fediverse/), the network of [mastodon](https://joinmastodon.org/)

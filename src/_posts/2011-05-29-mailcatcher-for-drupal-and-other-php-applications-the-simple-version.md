@@ -1,6 +1,7 @@
 ---
 layout: post_archive
 title: Mailcatcher for Drupal and other PHP-applications - The simple version
+date: 2011-05-29
 created: 1306674909
 tags:
 - php

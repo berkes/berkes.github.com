@@ -1,6 +1,7 @@
 ---
 layout: post_archive
 title: Stuivenberg ziekenhuis.
+date: 2005-04-20
 created: 1114021356
 tags:
 - diabetes blog

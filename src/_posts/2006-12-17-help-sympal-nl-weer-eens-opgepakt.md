@@ -1,6 +1,7 @@
 ---
 layout: post_archive
 title: Help.sympal.nl weer eens opgepakt
+date: 2006-12-17
 created: 1166352665
 tags:
 - drupal

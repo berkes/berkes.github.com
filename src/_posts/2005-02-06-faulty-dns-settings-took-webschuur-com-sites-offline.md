@@ -1,6 +1,7 @@
 ---
 layout: post_archive
 title: Faulty DNS settings took webschuur.com sites offline.
+date: 2005-02-06
 created: 1107720575
 tags:
 

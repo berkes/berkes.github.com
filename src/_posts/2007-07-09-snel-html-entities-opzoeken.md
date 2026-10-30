@@ -1,6 +1,7 @@
 ---
 layout: post_archive
 title: Snel HTML entities opzoeken
+date: 2007-07-09
 created: 1184004070
 tags:
 - webdevelopment

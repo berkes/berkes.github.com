@@ -1,6 +1,7 @@
 ---
 layout: post_archive
 title: Drupal's statistics suck.(less?)
+date: 2007-02-28
 created: 1172682771
 tags:
 - server

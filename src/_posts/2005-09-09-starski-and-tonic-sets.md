@@ -1,6 +1,7 @@
 ---
 layout: post_archive
 title: Starski and tonic sets
+date: 2005-09-09
 created: 1126291366
 tags:
 - music

@@ -1,6 +1,7 @@
 ---
 layout: post_archive
 title: Foto's van Dour
+date: 2009-07-26
 created: 1248618190
 tags:
 - dour09

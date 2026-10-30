@@ -1,6 +1,7 @@
 ---
 layout: post_archive
 title: Popups, externe links in nieuwe vensters en slijters
+date: 2007-04-06
 created: 1175889444
 tags:
 - seo

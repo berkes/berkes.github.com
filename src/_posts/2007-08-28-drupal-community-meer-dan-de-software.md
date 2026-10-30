@@ -1,6 +1,7 @@
 ---
 layout: post_archive
 title: ! 'Drupal Community: Meer dan de software'
+date: 2007-08-28
 created: 1188284458
 tags:
 - drupal

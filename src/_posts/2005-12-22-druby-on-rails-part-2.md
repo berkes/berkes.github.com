@@ -1,6 +1,7 @@
 ---
 layout: post_archive
 title: Druby on Rails part 2
+date: 2005-12-22
 created: 1135258796
 tags:
 - theming

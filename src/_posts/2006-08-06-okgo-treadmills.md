@@ -1,6 +1,7 @@
 ---
 layout: post_archive
 title: OKgo treadmills
+date: 2006-08-06
 created: 1154862475
 tags:
 - music

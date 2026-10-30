@@ -1,6 +1,7 @@
 ---
 layout: post_archive
 title: gewoon een pilletje
+date: 2006-04-25
 created: 1145989899
 tags:
 

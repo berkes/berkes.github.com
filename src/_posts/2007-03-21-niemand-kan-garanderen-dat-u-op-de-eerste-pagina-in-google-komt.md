@@ -1,6 +1,7 @@
 ---
 layout: post_archive
 title: Niemand kan garanderen dat u op de eerste pagina in Google komt
+date: 2007-03-21
 created: 1174475829
 tags:
 - google

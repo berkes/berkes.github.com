@@ -1,6 +1,7 @@
 ---
 layout: post_archive
 title: HJKL cheatsheet
+date: 2011-12-08
 created: 1323337992
 tags:
 

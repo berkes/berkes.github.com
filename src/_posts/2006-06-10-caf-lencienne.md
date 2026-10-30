@@ -1,6 +1,7 @@
 ---
 layout: post_archive
 title: Café l'encienne
+date: 2006-06-10
 created: 1149969915
 tags:
 - diabetes blog

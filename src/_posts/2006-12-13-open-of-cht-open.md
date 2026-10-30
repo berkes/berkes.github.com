@@ -1,6 +1,7 @@
 ---
 layout: post_archive
 title: Open of écht Open
+date: 2006-12-13
 created: 1166006702
 tags:
 - open source

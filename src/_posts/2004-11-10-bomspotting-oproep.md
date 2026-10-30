@@ -1,6 +1,7 @@
 ---
 layout: post_archive
 title: Bomspotting oproep
+date: 2004-11-10
 created: 1100109801
 tags:
 - activist

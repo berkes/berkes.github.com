@@ -1,6 +1,7 @@
 ---
 layout: post_archive
 title: eindelijk een hokje :) pacifisten
+date: 2007-04-28
 created: 1177794242
 tags:
 - persoonlijk

@@ -1,6 +1,7 @@
 ---
 layout: post_archive
 title: De don, dit is toch hoop ik echt een knipoog
+date: 2006-02-26
 created: 1140960952
 tags:
 

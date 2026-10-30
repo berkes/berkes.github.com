@@ -1,6 +1,7 @@
 ---
 layout: post_archive
 title: Nieuwe CSS zengardens
+date: 2008-05-05
 created: 1209979651
 tags:
 - css

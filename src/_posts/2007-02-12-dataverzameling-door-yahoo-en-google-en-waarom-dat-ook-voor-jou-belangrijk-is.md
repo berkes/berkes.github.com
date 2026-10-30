@@ -2,6 +2,7 @@
 layout: post_archive
 title: Dataverzameling, door Yahoo en Google, en waarom dat ook voor jou belangrijk
   is
+date: 2007-02-12
 created: 1171286033
 tags:
 - google

@@ -1,6 +1,7 @@
 ---
 layout: post_archive
 title: Drupals major inconsistency, objects versus arrays
+date: 2006-01-26
 created: 1138306157
 tags:
 - drupal

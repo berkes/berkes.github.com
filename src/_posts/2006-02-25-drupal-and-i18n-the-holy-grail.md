@@ -1,6 +1,7 @@
 ---
 layout: post_archive
 title: Drupal and i18n, the holy grail?
+date: 2006-02-25
 created: 1140875294
 tags:
 - drupal

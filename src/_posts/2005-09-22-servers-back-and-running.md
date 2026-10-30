@@ -1,6 +1,7 @@
 ---
 layout: post_archive
 title: Servers back and running
+date: 2005-09-22
 created: 1127380933
 tags:
 - server

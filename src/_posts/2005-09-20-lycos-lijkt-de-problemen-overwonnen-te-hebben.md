@@ -1,6 +1,7 @@
 ---
 layout: post_archive
 title: lycos lijkt de problemen overwonnen te hebben.
+date: 2005-09-20
 created: 1127211032
 tags:
 

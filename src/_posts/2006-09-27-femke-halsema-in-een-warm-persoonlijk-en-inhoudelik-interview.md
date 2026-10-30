@@ -1,6 +1,7 @@
 ---
 layout: post_archive
 title: Femke Halsema in een warm, persoonlijk en inhoudelik interview
+date: 2006-09-27
 created: 1159381953
 tags:
 - politics

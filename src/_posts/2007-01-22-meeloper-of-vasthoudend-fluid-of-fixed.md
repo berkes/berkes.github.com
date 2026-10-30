@@ -1,6 +1,7 @@
 ---
 layout: post_archive
 title: Meeloper of vasthoudend, fluid of fixed
+date: 2007-01-22
 created: 1169480958
 tags:
 - design

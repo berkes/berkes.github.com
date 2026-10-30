@@ -2,6 +2,7 @@
 layout: post_archive
 title: Koster en Jojanneke zijn aandachtszieke eenzamen die in hun eigen Pers Hoekje
   met hun gedachten aan het spelen zijn.
+date: 2009-02-09
 created: 1234167855
 tags:
 - twitter

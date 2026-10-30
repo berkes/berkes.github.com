@@ -1,6 +1,7 @@
 ---
 layout: post_archive
 title: Digg voor extragratis muziekjes
+date: 2007-03-08
 created: 1173388190
 tags:
 - music

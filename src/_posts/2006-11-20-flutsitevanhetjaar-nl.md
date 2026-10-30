@@ -1,6 +1,7 @@
 ---
 layout: post_archive
 title: flutsitevanhetjaar.nl
+date: 2006-11-20
 created: 1164030158
 tags:
 - web2.0

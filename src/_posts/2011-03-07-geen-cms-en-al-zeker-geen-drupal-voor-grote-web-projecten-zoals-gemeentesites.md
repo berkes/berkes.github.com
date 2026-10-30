@@ -1,6 +1,7 @@
 ---
 layout: post_archive
 title: Geen CMS en al zeker geen Drupal voor grote web-projecten zoals gemeentesites.
+date: 2011-03-07
 created: 1299510460
 tags:
 - overheden

@@ -1,6 +1,7 @@
 ---
 layout: post_archive
 title: Geert en Barry
+date: 2009-06-15
 created: 1245057116
 tags:
 - politiek

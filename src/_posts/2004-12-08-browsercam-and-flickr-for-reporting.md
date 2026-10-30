@@ -1,6 +1,7 @@
 ---
 layout: post_archive
 title: browsercam and flickr for reporting
+date: 2004-12-08
 created: 1102524091
 tags:
 - theming

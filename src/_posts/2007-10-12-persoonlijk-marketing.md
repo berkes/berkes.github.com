@@ -1,6 +1,7 @@
 ---
 layout: post_archive
 title: Persoonlijk marketing
+date: 2007-10-12
 created: 1192142286
 tags:
 - podcast

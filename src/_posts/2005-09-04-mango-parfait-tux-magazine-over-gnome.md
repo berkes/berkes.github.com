@@ -1,6 +1,7 @@
 ---
 layout: post_archive
 title: Mango Parfait  (TUX magazine) over GNOME
+date: 2005-09-04
 created: 1125868812
 tags:
 

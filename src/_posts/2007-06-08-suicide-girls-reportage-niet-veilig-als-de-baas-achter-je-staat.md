@@ -1,6 +1,7 @@
 ---
 layout: post_archive
 title: Suicide Girls reportage (Niet Veilig Als de Baas Achter Je Staat)
+date: 2007-06-08
 created: 1181337113
 tags:
 - tv

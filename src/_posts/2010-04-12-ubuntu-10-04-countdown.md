@@ -1,6 +1,7 @@
 ---
 layout: post_archive
 title: Ubuntu 10.04 - countdown
+date: 2010-04-12
 created: 1271107491
 tags:
 - ubuntu

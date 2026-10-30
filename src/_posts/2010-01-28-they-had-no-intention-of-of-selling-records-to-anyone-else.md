@@ -1,6 +1,7 @@
 ---
 layout: post_archive
 title: ! '"They had no intention of of selling records to anyone else"'
+date: 2010-01-28
 created: 1264713376
 tags:
 - music

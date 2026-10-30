@@ -1,6 +1,7 @@
 ---
 layout: post_archive
 title: sympal, webschuur op groene stroom.
+date: 2006-10-14
 created: 1160838129
 tags:
 - sympal

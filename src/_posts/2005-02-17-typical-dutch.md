@@ -1,6 +1,7 @@
 ---
 layout: post_archive
 title: Typical Dutch
+date: 2005-02-17
 created: 1108638558
 tags:
 

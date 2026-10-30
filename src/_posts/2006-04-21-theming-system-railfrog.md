@@ -1,6 +1,7 @@
 ---
 layout: post_archive
 title: Theming system railfrog
+date: 2006-04-21
 created: 1145607872
 tags:
 - theming

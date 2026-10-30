@@ -1,6 +1,7 @@
 ---
 layout: post_archive
 title: Konqueror zoek terwijl je typt functie
+date: 2005-10-27
 created: 1130398664
 tags:
 - kde

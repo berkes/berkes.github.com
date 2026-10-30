@@ -1,6 +1,7 @@
 ---
 layout: post_archive
 title: Het huis van crimson
+date: 2007-02-13
 created: 1171390129
 tags:
 - comic

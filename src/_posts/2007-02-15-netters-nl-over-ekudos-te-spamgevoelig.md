@@ -1,6 +1,7 @@
 ---
 layout: post_archive
 title: ! 'Netters.nl over ekudos: te spamgevoelig?'
+date: 2007-02-15
 created: 1171577305
 tags:
 - web2.0

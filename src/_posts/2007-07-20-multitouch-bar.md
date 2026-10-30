@@ -1,6 +1,7 @@
 ---
 layout: post_archive
 title: Multitouch bar
+date: 2007-07-20
 created: 1184911951
 tags:
 - youtube

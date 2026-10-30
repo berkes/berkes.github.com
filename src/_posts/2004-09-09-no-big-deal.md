@@ -1,6 +1,7 @@
 ---
 layout: post_archive
 title: no big deal
+date: 2004-09-09
 created: 1094725591
 tags:
 

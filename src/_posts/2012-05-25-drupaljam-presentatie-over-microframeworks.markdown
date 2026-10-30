@@ -3,6 +3,7 @@ layout: post
 title: "DrupalJam presentatie over Microframeworks"
 tags: [drupal, microframeworks, presentatie, sinatra]
 lang: nl
+date: 2012-05-25
 ---
 
 

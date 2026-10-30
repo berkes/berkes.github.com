@@ -1,6 +1,7 @@
 ---
 layout: post_archive
 title: Dabr.nl naar Twa.sh
+date: 2009-12-20
 created: 1261315066
 tags:
 - twitter

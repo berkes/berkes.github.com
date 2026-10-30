@@ -1,6 +1,7 @@
 ---
 layout: post_archive
 title: Nieuwe doorbraak type 1 diabetes
+date: 2005-08-22
 created: 1124724857
 tags:
 - diabetes blog

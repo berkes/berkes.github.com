@@ -1,6 +1,7 @@
 ---
 layout: post_archive
 title: Mosterd na de maaltijd
+date: 2010-06-14
 created: 1276504307
 tags:
 - politiek

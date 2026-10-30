@@ -1,6 +1,7 @@
 ---
 layout: post_archive
 title: Flickr^D^D^D yahoo naait zijn klanten een lekker oor aan.
+date: 2007-01-31
 created: 1170246957
 tags:
 - web2.0

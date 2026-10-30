@@ -1,6 +1,7 @@
 ---
 layout: post_archive
 title: de toegevoegde waarde van internet.
+date: 2006-03-17
 created: 1142633780
 tags:
 

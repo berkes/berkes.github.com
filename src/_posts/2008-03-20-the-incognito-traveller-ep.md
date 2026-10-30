@@ -1,6 +1,7 @@
 ---
 layout: post_archive
 title: The Incognito Traveller EP
+date: 2008-03-20
 created: 1206021125
 tags:
 - podcast

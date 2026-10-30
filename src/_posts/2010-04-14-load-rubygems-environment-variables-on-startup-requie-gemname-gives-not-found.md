@@ -2,6 +2,7 @@
 layout: post_archive
 title: Load Rubygems environment variables on startup (requie 'gemname' gives 'not
   found')
+date: 2010-04-14
 created: 1271233037
 tags:
 

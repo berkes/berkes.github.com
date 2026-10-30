@@ -1,6 +1,7 @@
 ---
 layout: post_archive
 title: Waarom ik geen Fair Trade wijn koop (en drink)
+date: 2010-02-12
 created: 1265966438
 tags:
 - biologisch

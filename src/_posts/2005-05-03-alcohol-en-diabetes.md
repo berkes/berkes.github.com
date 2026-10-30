@@ -1,6 +1,7 @@
 ---
 layout: post_archive
 title: Alcohol en Diabetes
+date: 2005-05-03
 created: 1115154143
 tags:
 - diabetes blog

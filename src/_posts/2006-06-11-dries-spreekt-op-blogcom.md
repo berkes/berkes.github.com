@@ -1,6 +1,7 @@
 ---
 layout: post_archive
 title: Dries spreekt op BlogCom
+date: 2006-06-11
 created: 1150060882
 tags:
 - podcast

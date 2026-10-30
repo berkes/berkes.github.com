@@ -1,6 +1,7 @@
 ---
 layout: post_archive
 title: Wat voor eikels zijn jullie
+date: 2006-04-30
 created: 1146395384
 tags:
 - activist

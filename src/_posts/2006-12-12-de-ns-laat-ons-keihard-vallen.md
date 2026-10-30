@@ -1,6 +1,7 @@
 ---
 layout: post_archive
 title: De NS laat ons keihard vallen
+date: 2006-12-12
 created: 1165919409
 tags:
 - ns

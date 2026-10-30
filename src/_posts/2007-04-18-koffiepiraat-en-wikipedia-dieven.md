@@ -1,6 +1,7 @@
 ---
 layout: post_archive
 title: Koffiepiraat, en wikipedia dieven
+date: 2007-04-18
 created: 1176902297
 tags:
 - copyright

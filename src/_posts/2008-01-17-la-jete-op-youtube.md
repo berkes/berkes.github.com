@@ -1,6 +1,7 @@
 ---
 layout: post_archive
 title: La jetée op Youtube
+date: 2008-01-17
 created: 1200602231
 tags:
 - youtube

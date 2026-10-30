@@ -1,6 +1,7 @@
 ---
 layout: post_archive
 title: Hoe een barmeisje te versieren
+date: 2004-12-13
 created: 1102961431
 tags:
 

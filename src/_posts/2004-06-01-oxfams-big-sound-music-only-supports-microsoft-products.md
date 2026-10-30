@@ -1,6 +1,7 @@
 ---
 layout: post_archive
 title: Oxfam's Big Sound Music, only supports Microsoft products.
+date: 2004-06-01
 created: 1086068011
 tags:
 - activist

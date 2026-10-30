@@ -1,6 +1,7 @@
 ---
 layout: post_archive
 title: Powerthief van GRL
+date: 2009-03-12
 created: 1236854254
 tags:
 - graffity research lab

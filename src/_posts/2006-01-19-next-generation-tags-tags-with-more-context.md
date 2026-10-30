@@ -1,6 +1,7 @@
 ---
 layout: post_archive
 title: ! 'Next generation tags: tags with more context.'
+date: 2006-01-19
 created: 1137702620
 tags:
 - drupal

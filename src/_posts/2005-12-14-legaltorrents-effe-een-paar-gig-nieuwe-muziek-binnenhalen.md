@@ -1,6 +1,7 @@
 ---
 layout: post_archive
 title: legaltorrents, effe een paar gig nieuwe muziek binnenhalen
+date: 2005-12-14
 created: 1134547871
 tags:
 - music

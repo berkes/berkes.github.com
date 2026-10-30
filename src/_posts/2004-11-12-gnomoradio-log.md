@@ -1,6 +1,7 @@
 ---
 layout: post_archive
 title: Gnomoradio Log
+date: 2004-11-12
 created: 1100214863
 tags:
 - music

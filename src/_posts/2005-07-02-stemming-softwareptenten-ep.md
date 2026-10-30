@@ -1,6 +1,7 @@
 ---
 layout: post_archive
 title: Stemming softwareptenten EP
+date: 2005-07-02
 created: 1120331178
 tags:
 - activist

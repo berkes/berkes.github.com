@@ -1,6 +1,7 @@
 ---
 layout: post_archive
 title: ander doe ik toch enkel....
+date: 2004-12-16
 created: 1103232810
 tags:
 

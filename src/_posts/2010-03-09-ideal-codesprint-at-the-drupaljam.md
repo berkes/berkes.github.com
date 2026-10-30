@@ -1,6 +1,7 @@
 ---
 layout: post_archive
 title: iDEAL codesprint at the Drupaljam
+date: 2010-03-09
 created: 1268162695
 tags:
 - php

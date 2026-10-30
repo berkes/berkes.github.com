@@ -1,6 +1,7 @@
 ---
 layout: post_archive
 title: Gebruik van Open Source voor het publiceren van Closed Source materiaal
+date: 2006-04-26
 created: 1146039738
 tags:
 - activist

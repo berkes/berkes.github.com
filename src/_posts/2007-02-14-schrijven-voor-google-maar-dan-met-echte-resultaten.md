@@ -1,6 +1,7 @@
 ---
 layout: post_archive
 title: Schrijven voor Google, maar dan met echte resultaten.
+date: 2007-02-14
 created: 1171453423
 tags:
 - google

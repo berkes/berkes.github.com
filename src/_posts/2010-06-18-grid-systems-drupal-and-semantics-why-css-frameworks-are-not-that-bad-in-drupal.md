@@ -2,6 +2,7 @@
 layout: post_archive
 title: Grid Systems, Drupal and Semantics (why CSS frameworks are not that bad in
   Drupal)
+date: 2010-06-18
 created: 1276854578
 tags:
 - php

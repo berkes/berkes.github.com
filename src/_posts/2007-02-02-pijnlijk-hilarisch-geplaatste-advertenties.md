@@ -1,6 +1,7 @@
 ---
 layout: post_archive
 title: Pijnlijk, hilarisch geplaatste advertenties.
+date: 2007-02-02
 created: 1170414110
 tags:
 - marketing

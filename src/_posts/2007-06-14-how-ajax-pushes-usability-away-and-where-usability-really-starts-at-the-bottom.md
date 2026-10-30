@@ -2,6 +2,7 @@
 layout: post_archive
 title: ! 'How ajax pushes usability away. And where usability really starts: at the
   bottom.'
+date: 2007-06-14
 created: 1181853385
 tags:
 - programming

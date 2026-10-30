@@ -2,6 +2,7 @@
 layout: post_archive
 title: Een downloadverbod is technisch onhaalbaar en bij voorbaat al een mislukt,
   geldverslindende, ontvrichtende onderneming
+date: 2009-12-21
 created: 1261393815
 tags:
 - tor

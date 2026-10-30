@@ -1,6 +1,7 @@
 ---
 layout: post_archive
 title: Flexinode fields no longer found recursively
+date: 2007-02-06
 created: 1170751798
 tags:
 - php

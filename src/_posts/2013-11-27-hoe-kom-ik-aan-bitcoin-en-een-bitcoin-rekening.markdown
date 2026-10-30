@@ -3,6 +3,7 @@ layout: post
 title: "Hoe kom ik aan Bitcoin, en een Bitcoin rekening?"
 tags: [bitcoin]
 lang: nl
+date: 2013-11-27
 ---
 
 Deze vraag kreeg ik de afgelopen weken verschillende keren. Laat ik

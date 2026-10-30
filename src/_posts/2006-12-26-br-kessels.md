@@ -1,6 +1,7 @@
 ---
 layout: post_archive
 title: Bèr Kessels
+date: 2006-12-26
 created: 1167145597
 tags:
 - me

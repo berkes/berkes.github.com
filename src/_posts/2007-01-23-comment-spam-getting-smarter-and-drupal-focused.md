@@ -1,6 +1,7 @@
 ---
 layout: post_archive
 title: Comment spam getting smarter and Drupal-focused
+date: 2007-01-23
 created: 1169553076
 tags:
 - drupal

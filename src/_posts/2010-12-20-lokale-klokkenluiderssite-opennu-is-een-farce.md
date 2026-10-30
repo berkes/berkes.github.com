@@ -1,6 +1,7 @@
 ---
 layout: post_archive
 title: Lokale klokkenluiderssite Opennu is een farce
+date: 2010-12-20
 created: 1292865186
 tags:
 - wikileaks

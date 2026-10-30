@@ -1,6 +1,7 @@
 ---
 layout: post_archive
 title: Levenslang zonnig en lekker eten
+date: 2005-04-20
 created: 1114014238
 tags:
 - wishlist

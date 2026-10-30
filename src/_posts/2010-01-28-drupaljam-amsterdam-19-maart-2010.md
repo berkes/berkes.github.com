@@ -1,6 +1,7 @@
 ---
 layout: post_archive
 title: DrupalJam Amsterdam, 19 maart 2010!
+date: 2010-01-28
 created: 1264693221
 tags: [drupal drupaljam nederland amsterdam]
 lang: nl

@@ -1,6 +1,7 @@
 ---
 layout: post_archive
 title: Diabetes is niet gelijk aan ongezond leven!
+date: 2006-12-20
 created: 1166643396
 tags:
 - diabetes blog

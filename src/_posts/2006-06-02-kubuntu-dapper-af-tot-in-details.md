@@ -1,6 +1,7 @@
 ---
 layout: post_archive
 title: Kubuntu dapper, af tot in details!
+date: 2006-06-02
 created: 1149264403
 tags:
 - programming

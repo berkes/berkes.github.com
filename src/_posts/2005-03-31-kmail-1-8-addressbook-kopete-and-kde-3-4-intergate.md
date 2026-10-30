@@ -1,6 +1,7 @@
 ---
 layout: post_archive
 title: KMail 1.8 addressbook kopete and kde 3.4 intergate!
+date: 2005-03-31
 created: 1112290818
 tags:
 - programming

@@ -1,6 +1,7 @@
 ---
 layout: post_archive
 title: Presentation drupal in files communities
+date: 2005-10-16
 created: 1129497961
 tags:
 - drupal

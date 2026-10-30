@@ -1,6 +1,7 @@
 ---
 layout: post_archive
 title: De lage koolhydraten-trend
+date: 2005-05-15
 created: 1116144616
 tags:
 - diabetes blog

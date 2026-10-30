@@ -1,6 +1,7 @@
 ---
 layout: post_archive
 title: KDE met koffice kleiner dan open office?
+date: 2005-10-29
 created: 1130538929
 tags:
 - programming

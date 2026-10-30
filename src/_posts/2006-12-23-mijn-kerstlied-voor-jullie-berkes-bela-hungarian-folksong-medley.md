@@ -1,6 +1,7 @@
 ---
 layout: post_archive
 title: ! 'Mijn kerstlied voor jullie: Berkes Bela -- Hungarian Folksong Medley'
+date: 2006-12-23
 created: 1166877160
 tags:
 - music

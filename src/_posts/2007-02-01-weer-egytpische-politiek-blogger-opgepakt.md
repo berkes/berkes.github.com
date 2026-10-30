@@ -1,6 +1,7 @@
 ---
 layout: post_archive
 title: Weer Egytpische politiek blogger opgepakt.
+date: 2007-02-01
 created: 1170340636
 tags:
 - politics

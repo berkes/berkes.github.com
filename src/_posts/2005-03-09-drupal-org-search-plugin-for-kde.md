@@ -1,6 +1,7 @@
 ---
 layout: post_archive
 title: Drupal.org Search plugin for KDE
+date: 2005-03-09
 created: 1110368710
 tags:
 - programming

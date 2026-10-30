@@ -3,6 +3,7 @@ title: "The Fediverse never Forgets"
 tags: [mastodon, fediverse]
 lang: en
 layout: post
+date: 2022-12-23
 ---
 
 Deleting content, reliably, from a decentralised network is just not possible.

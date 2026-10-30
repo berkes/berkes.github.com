@@ -1,6 +1,7 @@
 ---
 layout: post_archive
 title: Aftellen naar de nieuwe Ubuntu 9.10
+date: 2009-10-06
 created: 1254817496
 tags:
 - ubuntu

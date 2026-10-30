@@ -1,6 +1,7 @@
 ---
 layout: post_archive
 title: Nijmegen.nl en de zoektocht naar oudpapier.
+date: 2007-01-31
 created: 1170261478
 tags:
 - internet

@@ -1,6 +1,7 @@
 ---
 layout: post_archive
 title: Venlo vs. Beesel
+date: 2006-11-23
 created: 1164237314
 tags:
 - politics

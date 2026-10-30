@@ -1,6 +1,7 @@
 ---
 layout: post_archive
 title: Fancy Rays in inkscape
+date: 2007-01-09
 created: 1168355338
 tags:
 - design

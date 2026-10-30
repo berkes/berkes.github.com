@@ -1,6 +1,7 @@
 ---
 layout: post_archive
 title: ! 'Small but Useful modules: are they worth the pain?'
+date: 2010-06-03
 created: 1275551670
 tags:
 

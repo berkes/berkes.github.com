@@ -1,6 +1,7 @@
 ---
 layout: post_archive
 title: onzin over Diabetes
+date: 2006-10-07
 created: 1160236019
 tags:
 - diabetes blog

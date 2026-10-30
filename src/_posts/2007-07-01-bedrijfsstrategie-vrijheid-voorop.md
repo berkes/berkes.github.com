@@ -1,6 +1,7 @@
 ---
 layout: post_archive
 title: Bedrijfsstrategie, vrijheid voorop.
+date: 2007-07-01
 created: 1183241149
 tags:
 - webschuur

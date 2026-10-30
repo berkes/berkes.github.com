@@ -1,6 +1,7 @@
 ---
 layout: post_archive
 title: Using jQuery to build 'collapsible form descriptions'.
+date: 2006-07-06
 created: 1152217978
 tags:
 - theming

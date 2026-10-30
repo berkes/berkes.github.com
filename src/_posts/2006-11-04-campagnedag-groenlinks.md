@@ -1,6 +1,7 @@
 ---
 layout: post_archive
 title: Campagnedag Groenlinks
+date: 2006-11-04
 created: 1162630651
 tags:
 - politics

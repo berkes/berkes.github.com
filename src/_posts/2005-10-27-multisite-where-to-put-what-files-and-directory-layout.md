@@ -1,6 +1,7 @@
 ---
 layout: post_archive
 title: ! 'Multisite: where to put what: files and directory layout'
+date: 2005-10-27
 created: 1130448576
 tags:
 - drupal hosting

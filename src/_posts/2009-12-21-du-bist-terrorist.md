@@ -1,6 +1,7 @@
 ---
 layout: post_archive
 title: Du bist Terrorist!
+date: 2009-12-21
 created: 1261412798
 tags:
 - privacy

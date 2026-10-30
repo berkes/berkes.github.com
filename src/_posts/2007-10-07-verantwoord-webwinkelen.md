@@ -1,6 +1,7 @@
 ---
 layout: post_archive
 title: Verantwoord Webwinkelen
+date: 2007-10-07
 created: 1191786496
 tags:
 - fashion

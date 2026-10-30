@@ -1,6 +1,7 @@
 ---
 layout: post_archive
 title: web2.0 betekent delen. Ook de winst
+date: 2007-08-14
 created: 1187083416
 tags:
 - web2.0

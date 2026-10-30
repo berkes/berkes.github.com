@@ -1,6 +1,7 @@
 ---
 layout: post_archive
 title: aan het schommelen geslagen
+date: 2005-05-20
 created: 1116584518
 tags:
 - diabetes blog

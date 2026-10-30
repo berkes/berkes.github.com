@@ -5,6 +5,7 @@ tags:
 - programming
 - tips and tricks
 lang: en
+date: 2012-05-30
 ---
 
 

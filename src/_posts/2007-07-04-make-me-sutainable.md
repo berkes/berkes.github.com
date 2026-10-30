@@ -1,6 +1,7 @@
 ---
 layout: post_archive
 title: Make Me Sutainable
+date: 2007-07-04
 created: 1183536324
 tags:
 - web2.0

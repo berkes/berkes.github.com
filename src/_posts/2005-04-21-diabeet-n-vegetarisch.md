@@ -1,6 +1,7 @@
 ---
 layout: post_archive
 title: Diabeet én vegetarisch
+date: 2005-04-21
 created: 1114067279
 tags:
 - diabetes blog

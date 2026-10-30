@@ -2,6 +2,7 @@
 layout: post_archive
 title: ! '"Drupal ceases being a Content Management Framework", says John a The Onion
   webdeveloper.'
+date: 2010-03-25
 created: 1269543881
 tags:
 

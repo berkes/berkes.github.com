@@ -1,6 +1,7 @@
 ---
 layout: post_archive
 title: Help Bert de Winter Door
+date: 2007-10-31
 created: 1193824860
 tags:
 - bert boerland

@@ -1,6 +1,7 @@
 ---
 layout: post_archive
 title: Lump -- Vending Machine -- Creative Commons Minimal
+date: 2006-11-29
 created: 1164803190
 tags:
 - podcast

@@ -1,6 +1,7 @@
 ---
 layout: post_archive
 title: Verslaafd aan online computerspellen
+date: 2005-11-04
 created: 1131114262
 tags:
 

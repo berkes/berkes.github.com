@@ -1,6 +1,7 @@
 ---
 layout: post_archive
 title: Cleaning up markup cluttered HTML
+date: 2004-03-02
 created: 1078183440
 tags:
 - programming

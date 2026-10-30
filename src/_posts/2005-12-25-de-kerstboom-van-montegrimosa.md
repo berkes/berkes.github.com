@@ -1,6 +1,7 @@
 ---
 layout: post_archive
 title: De kerstboom van Montegrimosa
+date: 2005-12-25
 created: 1135507239
 tags:
 

@@ -1,6 +1,7 @@
 ---
 layout: post_archive
 title: We hollen de eeuw van Open Source hardware binnen
+date: 2007-08-14
 created: 1187086679
 tags:
 - design

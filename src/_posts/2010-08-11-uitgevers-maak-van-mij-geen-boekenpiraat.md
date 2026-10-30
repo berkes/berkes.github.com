@@ -1,6 +1,7 @@
 ---
 layout: post_archive
 title: ! 'Uitgevers: maak van mij geen boekenpiraat'
+date: 2010-08-11
 created: 1281507464
 tags:
 - piratebay

@@ -1,6 +1,7 @@
 ---
 layout: post_archive
 title: Hij is sesentwintig en wil in ieder geval niet terug
+date: 2005-01-24
 created: 1106603322
 tags:
 

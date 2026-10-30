@@ -1,6 +1,7 @@
 ---
 layout: post_archive
 title: ! 'Iteration 00: The kickoff'
+date: 2006-06-19
 created: 1150745154
 tags:
 - php

@@ -1,6 +1,7 @@
 ---
 layout: post_archive
 title: Vertalen van content met de locales
+date: 2004-09-30
 created: 1096565853
 tags:
 

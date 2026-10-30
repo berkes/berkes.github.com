@@ -1,6 +1,7 @@
 ---
 layout: post_archive
 title: Paar dagen strand (en strandhuthotel)
+date: 2008-06-11
 created: 1213173168
 tags:
 

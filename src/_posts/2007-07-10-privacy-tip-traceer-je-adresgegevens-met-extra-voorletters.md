@@ -1,6 +1,7 @@
 ---
 layout: post_archive
 title: ! 'Privacy tip: traceer je adresgegevens met extra voorletters.'
+date: 2007-07-10
 created: 1184100754
 tags:
 - privacy tips

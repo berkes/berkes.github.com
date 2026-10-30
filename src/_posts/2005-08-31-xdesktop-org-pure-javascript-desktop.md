@@ -1,6 +1,7 @@
 ---
 layout: post_archive
 title: xdesktop.org pure Javascript desktop
+date: 2005-08-31
 created: 1125512617
 tags:
 

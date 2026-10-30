@@ -2,6 +2,7 @@
 layout: post_archive
 title: ! 'Mijn bitcoin avontuur, deel twee: handelen en accepteren (op marktplaats)
   als betaalmiddel.'
+date: 2011-06-02
 created: 1307021277
 tags:
 - bitcoin

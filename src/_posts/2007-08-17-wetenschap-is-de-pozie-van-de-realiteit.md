@@ -1,6 +1,7 @@
 ---
 layout: post_archive
 title: Wetenschap is de poëzie van de realiteit
+date: 2007-08-17
 created: 1187363039
 tags:
 - geloof

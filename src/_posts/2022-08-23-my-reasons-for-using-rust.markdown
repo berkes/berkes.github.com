@@ -3,6 +3,7 @@ title: "My Reasons For Using Rust (as a Ruby developer)"
 tags: [rust, ruby, programming]
 lang: en
 layout: post
+date: 2022-08-23
 ---
 
 By now, there are thousands of articles explaining why Rust is a good

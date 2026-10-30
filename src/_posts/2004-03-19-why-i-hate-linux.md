@@ -1,6 +1,7 @@
 ---
 layout: post_archive
 title: Why i hate Linux
+date: 2004-03-19
 created: 1079717880
 tags:
 

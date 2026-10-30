@@ -1,6 +1,7 @@
 ---
 layout: post_archive
 title: $100 dollar laptop in productie
+date: 2007-08-04
 created: 1186237362
 tags:
 - open source

@@ -1,6 +1,7 @@
 ---
 layout: post_archive
 title: ! 'Overridability: A good parameter in chosing your platform'
+date: 2007-07-10
 created: 1184100249
 tags:
 - project management

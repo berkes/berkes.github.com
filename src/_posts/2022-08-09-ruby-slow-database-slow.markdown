@@ -3,6 +3,7 @@ title: "It's not Ruby that's slow, it's your database"
 tags: [ruby, performance]
 layout: post
 lang: en
+date: 2022-08-09
 ---
 
 Many people keep repeating that Ruby is slow. It is. But that doesn't matter,

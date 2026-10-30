@@ -1,6 +1,7 @@
 ---
 layout: post_archive
 title: Coldplay X&Y, de eerste reactie
+date: 2005-05-30
 created: 1117407706
 tags:
 - music

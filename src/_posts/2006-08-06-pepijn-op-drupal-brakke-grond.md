@@ -1,6 +1,7 @@
 ---
 layout: post_archive
 title: Pepijn op Drupal, brakke grond?
+date: 2006-08-06
 created: 1154864667
 tags:
 

@@ -1,6 +1,7 @@
 ---
 layout: post_archive
 title: wakker worden overheid!
+date: 2005-01-06
 created: 1105016029
 tags:
 

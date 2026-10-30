@@ -1,6 +1,7 @@
 ---
 layout: post_archive
 title: ! '2007: Web3.0 the Distributed Collaboration Web'
+date: 2006-12-23
 created: 1166899655
 tags:
 - knowledge management

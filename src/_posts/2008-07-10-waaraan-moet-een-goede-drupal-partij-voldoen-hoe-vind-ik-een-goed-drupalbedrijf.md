@@ -1,6 +1,7 @@
 ---
 layout: post_archive
 title: Waaraan moet een goede Drupal partij voldoen? Hoe vind ik een goed Drupalbedrijf?
+date: 2008-07-10
 created: 1215689954
 tags:
 - drupal

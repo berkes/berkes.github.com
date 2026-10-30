@@ -1,6 +1,7 @@
 ---
 layout: post_archive
 title: Kerstmis bestaat niet, "oerhollands" ook niet.
+date: 2006-12-19
 created: 1166562129
 tags:
 - politics

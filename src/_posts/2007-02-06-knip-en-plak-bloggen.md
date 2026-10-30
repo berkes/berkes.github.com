@@ -1,6 +1,7 @@
 ---
 layout: post_archive
 title: Knip-en-plak-bloggen.
+date: 2007-02-06
 created: 1170775147
 tags:
 - open source

@@ -1,6 +1,7 @@
 ---
 layout: post_archive
 title: Modular modules, how to make modules play together
+date: 2006-04-12
 created: 1144849850
 tags:
 - project management

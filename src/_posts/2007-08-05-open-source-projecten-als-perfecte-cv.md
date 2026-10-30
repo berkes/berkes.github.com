@@ -1,6 +1,7 @@
 ---
 layout: post_archive
 title: Open Source projecten als perfecte CV
+date: 2007-08-05
 created: 1186265850
 tags:
 - werk

@@ -1,6 +1,7 @@
 ---
 layout: post_archive
 title: Uitslagen verkiezingen 2006 volgen via internet
+date: 2006-03-07
 created: 1141768226
 tags:
 

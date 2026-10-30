@@ -1,6 +1,7 @@
 ---
 layout: post_archive
 title: search engines and my ego.
+date: 2005-02-04
 created: 1107517991
 tags:
 - activist

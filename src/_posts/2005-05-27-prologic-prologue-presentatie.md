@@ -1,6 +1,7 @@
 ---
 layout: post_archive
 title: Prologic Prologue Presentatie
+date: 2005-05-27
 created: 1117224655
 tags:
 

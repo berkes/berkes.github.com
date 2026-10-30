@@ -1,6 +1,7 @@
 ---
 layout: post_archive
 title: Getting started
+date: 2004-06-15
 created: 1087285660
 tags:
 

@@ -3,6 +3,7 @@ layout: post
 title: "Doe één ding en doe dat goed"
 tags: [savvii, rails, architecture]
 lang: nl
+date: 2013-10-03
 ---
 **Dit artikel verscheen eerder op de [blog van Savvii](http://www.savvii.nl/blog/savvii-systeem-architectuur/), de Wordpreshoster waar ik momenteel werk.**
 

@@ -3,6 +3,7 @@ title: "Dutch government killing Post-a-Coin, my crypto startup"
 tags: [bitcoin, amdl5, crypto]
 layout: post
 lang: en
+date: 2020-01-10
 ---
 
 Last summer I started a sideproject.

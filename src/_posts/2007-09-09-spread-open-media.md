@@ -1,6 +1,7 @@
 ---
 layout: post_archive
 title: Spread Open Media
+date: 2007-09-09
 created: 1189289252
 tags:
 - open source

@@ -1,6 +1,7 @@
 ---
 layout: post_archive
 title: ! 'Ultimate Inline images: Sympal.'
+date: 2006-03-02
 created: 1141332844
 tags:
 - drupal

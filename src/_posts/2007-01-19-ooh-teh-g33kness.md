@@ -1,6 +1,7 @@
 ---
 layout: post_archive
 title: Ooh teh G33kness :^)
+date: 2007-01-19
 created: 1169198069
 tags:
 - '1337'

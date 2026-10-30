@@ -4,6 +4,7 @@ title: "Why outside in Webdevelopment is Better; why Designs should be Leading."
 tags: [webdevelopment, webdesign, projectmanagement, TDD, BDD,
 outside-in]
 lang: en
+date: 2012-10-15
 ---
 
 

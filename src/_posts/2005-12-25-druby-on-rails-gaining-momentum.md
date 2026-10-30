@@ -1,6 +1,7 @@
 ---
 layout: post_archive
 title: Druby on rails, gaining momentum.
+date: 2005-12-25
 created: 1135512261
 tags:
 - drupal

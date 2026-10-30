@@ -1,6 +1,7 @@
 ---
 layout: post_archive
 title: Zes redenen om ajax lightbox niet te gebruiken
+date: 2008-07-04
 created: 1215196032
 tags:
 - ajax

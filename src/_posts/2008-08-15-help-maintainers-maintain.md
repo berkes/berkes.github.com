@@ -1,6 +1,7 @@
 ---
 layout: post_archive
 title: Help maintainers maintain
+date: 2008-08-15
 created: 1218813939
 tags:
 - project management

@@ -1,6 +1,7 @@
 ---
 layout: post_archive
 title: Ergens moet die zonnebril gebleven zijn
+date: 2007-08-13
 created: 1187037191
 tags:
 - music

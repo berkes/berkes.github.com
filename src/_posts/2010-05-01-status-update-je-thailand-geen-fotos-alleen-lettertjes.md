@@ -1,6 +1,7 @@
 ---
 layout: post_archive
 title: Status update-je Thailand (geen foto's, alleen lettertjes)
+date: 2010-05-01
 created: 1272709933
 tags:
 - thailand 2010

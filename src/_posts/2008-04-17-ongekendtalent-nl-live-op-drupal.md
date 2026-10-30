@@ -1,6 +1,7 @@
 ---
 layout: post_archive
 title: Ongekendtalent.nl live (op Drupal)
+date: 2008-04-17
 created: 1208437248
 tags:
 - music

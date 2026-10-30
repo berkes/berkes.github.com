@@ -1,6 +1,7 @@
 ---
 layout: post_archive
 title: world of ends
+date: 2005-06-17
 created: 1119015771
 tags:
 - activist

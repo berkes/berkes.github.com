@@ -2,6 +2,7 @@
 layout: post_archive
 title: Five serious security issues and configurations, I found in recent clients
   sites
+date: 2008-10-11
 created: 1223737347
 tags:
 - drupal

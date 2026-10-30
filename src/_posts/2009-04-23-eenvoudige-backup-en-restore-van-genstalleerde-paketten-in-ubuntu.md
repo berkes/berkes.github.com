@@ -1,6 +1,7 @@
 ---
 layout: post_archive
 title: Eenvoudige backup en restore van geïnstalleerde paketten in Ubuntu.
+date: 2009-04-23
 created: 1240500297
 tags:
 - ubuntu

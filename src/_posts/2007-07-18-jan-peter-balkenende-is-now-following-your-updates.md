@@ -1,6 +1,7 @@
 ---
 layout: post_archive
 title: Jan-Peter Balkenende is now following your updates
+date: 2007-07-18
 created: 1184751490
 tags:
 - politics

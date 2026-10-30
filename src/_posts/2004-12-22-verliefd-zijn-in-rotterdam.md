@@ -1,6 +1,7 @@
 ---
 layout: post_archive
 title: Verliefd zijn in Rotterdam
+date: 2004-12-22
 created: 1103716082
 tags:
 

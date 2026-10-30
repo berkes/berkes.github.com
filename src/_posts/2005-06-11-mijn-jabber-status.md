@@ -1,6 +1,7 @@
 ---
 layout: post_archive
 title: Mijn Jabber status
+date: 2005-06-11
 created: 1118510923
 tags:
 - open source

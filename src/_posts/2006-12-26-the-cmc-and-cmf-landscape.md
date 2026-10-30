@@ -1,6 +1,7 @@
 ---
 layout: post_archive
 title: The CMC and CMF landscape
+date: 2006-12-26
 created: 1167131788
 tags:
 - project management

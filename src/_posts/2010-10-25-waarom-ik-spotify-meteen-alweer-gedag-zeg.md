@@ -1,6 +1,7 @@
 ---
 layout: post_archive
 title: Waarom ik spotify meteen alweer gedag zeg.
+date: 2010-10-25
 created: 1288002901
 tags:
 - spotify

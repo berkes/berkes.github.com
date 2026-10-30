@@ -1,6 +1,7 @@
 ---
 layout: post_archive
 title: Cannel frederator, nanimatie over RSS
+date: 2005-10-28
 created: 1130536413
 tags:
 

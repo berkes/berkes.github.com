@@ -1,6 +1,7 @@
 ---
 layout: post_archive
 title: de Bierkellerputsch van Geenstijl laat zich weer van haar goede kant zien.
+date: 2007-11-12
 created: 1194899815
 tags:
 - geenstijl

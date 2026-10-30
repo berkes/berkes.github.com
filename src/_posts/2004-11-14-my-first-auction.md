@@ -1,6 +1,7 @@
 ---
 layout: post_archive
 title: My first auction
+date: 2004-11-14
 created: 1100448679
 tags:
 

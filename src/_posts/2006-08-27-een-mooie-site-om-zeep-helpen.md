@@ -1,6 +1,7 @@
 ---
 layout: post_archive
 title: Een mooie site om zeep helpen.
+date: 2006-08-27
 created: 1156633802
 tags:
 - drupal

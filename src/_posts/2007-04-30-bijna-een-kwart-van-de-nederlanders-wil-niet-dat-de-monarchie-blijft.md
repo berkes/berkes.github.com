@@ -1,6 +1,7 @@
 ---
 layout: post_archive
 title: Bijna een kwart van de Nederlanders wil niet dat de monarchie blijft.
+date: 2007-04-30
 created: 1177934870
 tags:
 - dwars

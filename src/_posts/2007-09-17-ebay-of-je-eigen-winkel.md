@@ -1,6 +1,7 @@
 ---
 layout: post_archive
 title: eBay of je eigen winkel?
+date: 2007-09-17
 created: 1190062133
 tags:
 - webdevlopment

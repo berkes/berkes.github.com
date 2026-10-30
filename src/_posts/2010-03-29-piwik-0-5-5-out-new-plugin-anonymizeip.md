@@ -1,6 +1,7 @@
 ---
 layout: post_archive
 title: ! 'Piwik 0.5.5 out. New plugin: AnonymizeIP'
+date: 2010-03-29
 created: 1269870506
 tags:
 

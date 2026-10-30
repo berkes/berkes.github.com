@@ -1,6 +1,7 @@
 ---
 layout: post_archive
 title: Happy I dont have an accent
+date: 2004-04-25
 created: 1082916688
 tags:
 

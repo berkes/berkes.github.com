@@ -1,6 +1,7 @@
 ---
 layout: post_archive
 title: Het gekkenhuis
+date: 2004-12-07
 created: 1102438248
 tags:
 

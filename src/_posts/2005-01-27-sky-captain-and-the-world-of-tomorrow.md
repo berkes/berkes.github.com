@@ -1,6 +1,7 @@
 ---
 layout: post_archive
 title: Sky Captain and the World of Tomorrow
+date: 2005-01-27
 created: 1106781800
 tags:
 - movie monger

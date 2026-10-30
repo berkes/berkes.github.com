@@ -1,6 +1,7 @@
 ---
 layout: post_archive
 title: minlove, minimaal netlabel
+date: 2006-04-11
 created: 1144788796
 tags:
 - music

@@ -1,6 +1,7 @@
 ---
 layout: post_archive
 title: Politiek voor onder de douche (of tijdens het afwassen)
+date: 2006-11-04
 created: 1162643340
 tags:
 - politics

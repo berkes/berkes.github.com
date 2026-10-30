@@ -1,6 +1,7 @@
 ---
 layout: post_archive
 title: Linus raadt KDE aan.
+date: 2005-12-13
 created: 1134482170
 tags:
 - kde

@@ -1,6 +1,7 @@
 ---
 layout: post_archive
 title: DM stith - Pity Dance. mijmerflamenco.
+date: 2009-02-13
 created: 1234518137
 tags:
 - music

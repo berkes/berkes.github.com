@@ -1,6 +1,7 @@
 ---
 layout: post_archive
 title: Flexinode image field fixes
+date: 2007-01-27
 created: 1169906024
 tags:
 - php

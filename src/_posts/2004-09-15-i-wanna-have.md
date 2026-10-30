@@ -1,6 +1,7 @@
 ---
 layout: post_archive
 title: I wanna have!
+date: 2004-09-15
 created: 1095274086
 tags:
 - wishlist

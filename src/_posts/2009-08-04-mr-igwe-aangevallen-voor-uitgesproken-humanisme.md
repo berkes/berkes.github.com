@@ -1,6 +1,7 @@
 ---
 layout: post_archive
 title: Mr. Igwe aangevallen voor uitgesproken Humanisme
+date: 2009-08-04
 created: 1249413313
 tags:
 - atheïsme

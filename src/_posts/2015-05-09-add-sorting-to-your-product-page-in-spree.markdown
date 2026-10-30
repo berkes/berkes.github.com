@@ -3,6 +3,7 @@ layout: custom_for_2015-05-09-add-sorting-to-your-product-page-in-spree
 title: "Add sorting to your product page in Spree"
 tags: [spree, rails, webdevelopment]
 lang: en
+date: 2015-05-09
 ---
 
 For a [crafts e-commerce shop](https://shop.annatreurniet.nl), built with [Spree](http://spreecommerce.com), I wanted to add an option to sort the products on the products page.

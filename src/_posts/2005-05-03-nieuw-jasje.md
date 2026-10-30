@@ -1,6 +1,7 @@
 ---
 layout: post_archive
 title: Nieuw jasje.
+date: 2005-05-03
 created: 1115133032
 tags:
 

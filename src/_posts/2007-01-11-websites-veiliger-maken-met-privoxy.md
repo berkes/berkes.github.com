@@ -1,6 +1,7 @@
 ---
 layout: post_archive
 title: Websites veiliger maken met Privoxy
+date: 2007-01-11
 created: 1168543345
 tags:
 - security

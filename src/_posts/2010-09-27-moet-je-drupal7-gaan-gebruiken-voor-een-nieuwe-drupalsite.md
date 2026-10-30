@@ -1,6 +1,7 @@
 ---
 layout: post_archive
 title: Moet je Drupal7 gaan gebruiken voor een nieuwe Drupalsite?
+date: 2010-09-27
 created: 1285593475
 tags:
 - drupal

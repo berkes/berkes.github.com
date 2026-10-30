@@ -2,6 +2,7 @@
 layout: post_archive
 title: ! '"Pick up where you left last X" by not committing last changes, good branches
   and pseudocode.'
+date: 2010-04-15
 created: 1271318947
 tags:
 - project management

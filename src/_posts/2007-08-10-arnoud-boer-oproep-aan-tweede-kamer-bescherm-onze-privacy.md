@@ -1,6 +1,7 @@
 ---
 layout: post_archive
 title: ! 'Arnoud Boer: "Oproep aan Tweede Kamer: Bescherm onze privacy!"'
+date: 2007-08-10
 created: 1186733441
 tags:
 - privacy

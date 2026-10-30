@@ -1,6 +1,7 @@
 ---
 layout: post_archive
 title: België over de verkiezingsuitslag
+date: 2006-11-23
 created: 1164272147
 tags:
 - ik heb niet getwijfeld over belgië

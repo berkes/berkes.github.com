@@ -1,6 +1,7 @@
 ---
 layout: post_archive
 title: Getting Tagadelic ready for Drupal 7 (and on github, wohoo!)
+date: 2009-09-06
 created: 1252255265
 tags:
 - drupal

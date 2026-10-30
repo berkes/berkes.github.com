@@ -1,6 +1,7 @@
 ---
 layout: post_archive
 title: comment spam
+date: 2004-12-13
 created: 1102970364
 tags:
 - activist

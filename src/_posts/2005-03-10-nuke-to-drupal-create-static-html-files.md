@@ -1,6 +1,7 @@
 ---
 layout: post_archive
 title: ! 'Nuke to Drupal: Create static HTML files.'
+date: 2005-03-10
 created: 1110451412
 tags:
 - osviews *nuke2drupal

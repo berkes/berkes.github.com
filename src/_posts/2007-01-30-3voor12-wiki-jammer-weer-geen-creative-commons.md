@@ -1,6 +1,7 @@
 ---
 layout: post_archive
 title: 3voor12 wiki, jammer weer geen Creative Commons
+date: 2007-01-30
 created: 1170191900
 tags:
 - music

@@ -1,6 +1,7 @@
 ---
 layout: post_archive
 title: Time Management or Creative People, gratis E-book.
+date: 2008-01-06
 created: 1199647431
 tags:
 - projectmanagement

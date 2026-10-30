@@ -1,6 +1,7 @@
 ---
 layout: post_archive
 title: ! 'Goed Voornemen: kunde en waarheid'
+date: 2007-01-06
 created: 1168094304
 tags:
 - music

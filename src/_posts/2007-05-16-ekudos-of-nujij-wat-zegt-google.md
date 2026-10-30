@@ -1,6 +1,7 @@
 ---
 layout: post_archive
 title: ! 'Ekudos of Nujij: wat zegt google?'
+date: 2007-05-16
 created: 1179349773
 tags:
 - web2.0

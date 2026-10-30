@@ -1,6 +1,7 @@
 ---
 layout: post_archive
 title: Gelukkige verjaardag, Drupal!
+date: 2006-01-15
 created: 1137354229
 tags:
 - programming

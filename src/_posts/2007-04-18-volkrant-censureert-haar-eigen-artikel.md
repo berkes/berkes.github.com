@@ -1,6 +1,7 @@
 ---
 layout: post_archive
 title: Volkrant censureert haar eigen artikel.
+date: 2007-04-18
 created: 1176922293
 tags:
 - internet

@@ -1,6 +1,7 @@
 ---
 layout: post_archive
 title: ! 'What to choose: Flexinode versus CCK!'
+date: 2006-11-14
 created: 1163515843
 tags:
 - project management

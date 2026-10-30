@@ -3,6 +3,7 @@ title: "New Project: Fedetivity   Automate your Mastodon Account"
 tags: [mastodon, fediverse, fedetivity]
 lang: en
 layout: post
+date: 2022-12-13
 ---
 
 A few months ago, we shelved Plannel, on which I worked as co-founder for about

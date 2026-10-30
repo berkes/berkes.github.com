@@ -1,6 +1,7 @@
 ---
 layout: post_archive
 title: Drupal Databasedump for incremental backups.
+date: 2010-02-05
 created: 1265370001
 tags:
 - server

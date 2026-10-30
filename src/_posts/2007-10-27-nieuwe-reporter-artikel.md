@@ -1,6 +1,7 @@
 ---
 layout: post_archive
 title: Nieuwe reporter artikel
+date: 2007-10-27
 created: 1193503887
 tags:
 - creative commons

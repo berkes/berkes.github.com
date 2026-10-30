@@ -1,6 +1,7 @@
 ---
 layout: post_archive
 title: Nieuw Volkslied en SEO :)
+date: 2007-10-11
 created: 1192099443
 tags:
 - bler

@@ -1,6 +1,7 @@
 ---
 layout: post_archive
 title: Brainstorming
+date: 2004-06-19
 created: 1087633808
 tags:
 - collaborative writing

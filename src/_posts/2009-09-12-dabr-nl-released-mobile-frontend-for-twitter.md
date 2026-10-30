@@ -1,6 +1,7 @@
 ---
 layout: post_archive
 title: Dabr.nl released. Mobile frontend for Twitter
+date: 2009-09-12
 created: 1252758640
 tags:
 

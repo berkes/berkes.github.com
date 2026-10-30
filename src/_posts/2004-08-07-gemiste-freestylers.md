@@ -1,6 +1,7 @@
 ---
 layout: post_archive
 title: Gemiste Freestylers
+date: 2004-08-07
 created: 1091881266
 tags:
 - sziget 2004 blog

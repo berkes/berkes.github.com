@@ -1,6 +1,7 @@
 ---
 layout: post_archive
 title: Manage remote git modules in your gitted Drupal with submodules
+date: 2010-01-02
 created: 1262444011
 tags:
 - drupal

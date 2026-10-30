@@ -3,6 +3,7 @@ layout: post
 title: "Algemene Voorwaarden Deponeren met Bitcoin Blockchain en IPFS"
 tags: [Bitcoin, IPFS, Deponeren, Nobleton]
 lang: nl
+date: 2019-09-27
 ---
 
 Anno 2019 gaat het deponeren van __algemene voorwaarden__, bij de KVK

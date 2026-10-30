@@ -1,6 +1,7 @@
 ---
 layout: post_archive
 title: Waarom Linux sneller is dan Windows.
+date: 2009-06-19
 created: 1245390560
 tags:
 - ubuntu

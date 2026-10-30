@@ -1,6 +1,7 @@
 ---
 layout: post_archive
 title: Stemcomputers open source maken, niet de ultieme oplossing
+date: 2007-03-02
 created: 1172829404
 tags:
 - open source

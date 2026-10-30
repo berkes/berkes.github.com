@@ -1,6 +1,7 @@
 ---
 layout: post_archive
 title: Couchsurfing
+date: 2006-02-15
 created: 1140007757
 tags:
 

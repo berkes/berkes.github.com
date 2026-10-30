@@ -1,6 +1,7 @@
 ---
 layout: post_archive
 title: Vanop DrupalCOM
+date: 2005-10-19
 created: 1129709873
 tags:
 - programming

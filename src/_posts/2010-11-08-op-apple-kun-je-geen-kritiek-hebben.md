@@ -1,6 +1,7 @@
 ---
 layout: post_archive
 title: Op Apple kun je geen kritiek hebben.
+date: 2010-11-08
 created: 1289232388
 tags:
 - open source

@@ -1,6 +1,7 @@
 ---
 layout: post_archive
 title: iScrobble too - amarok 1.2
+date: 2004-12-02
 created: 1102008515
 tags:
 

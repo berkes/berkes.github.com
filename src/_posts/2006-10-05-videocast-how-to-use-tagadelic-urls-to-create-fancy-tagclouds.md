@@ -1,6 +1,7 @@
 ---
 layout: post_archive
 title: ! 'Videocast: how to use tagadelic URLs to create fancy tagclouds.'
+date: 2006-10-05
 created: 1160061100
 tags:
 - drupal

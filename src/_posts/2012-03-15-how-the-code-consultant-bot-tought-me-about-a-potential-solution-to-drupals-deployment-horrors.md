@@ -2,6 +2,7 @@
 layout: post_archive
 title: How the Code Consultant Bot tought me about a potential solution to Drupals'
   deployment horrors.
+date: 2012-03-15
 created: 1331807160
 tags:
 

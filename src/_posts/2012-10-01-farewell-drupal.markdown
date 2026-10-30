@@ -3,6 +3,7 @@ layout: post
 title: "After almost twelve years of Drupal, I am saying goodbye"
 tags: [drupal, rails, goodbye]
 lang: en
+date: 2012-10-01
 ---
 
 Over [eleven years](https://drupal.org/user/1783) ago, I got [involved in Drupal](https://drupal.org/user/2663), after running two

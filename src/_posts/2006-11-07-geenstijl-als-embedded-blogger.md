@@ -1,6 +1,7 @@
 ---
 layout: post_archive
 title: Geenstijl als embedded blogger
+date: 2006-11-07
 created: 1162900290
 tags:
 - politics

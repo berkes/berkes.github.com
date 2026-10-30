@@ -1,6 +1,7 @@
 ---
 layout: post_archive
 title: Stubborn Dutch
+date: 2004-06-10
 created: 1086876019
 tags:
 

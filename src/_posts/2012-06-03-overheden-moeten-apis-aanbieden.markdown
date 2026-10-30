@@ -3,6 +3,7 @@ layout: post
 title: "Overheden moeten APIs aanbieden"
 tags: []
 lang: nl
+date: 2012-06-03
 ---
 
 

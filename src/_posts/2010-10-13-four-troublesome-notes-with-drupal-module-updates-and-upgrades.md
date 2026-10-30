@@ -1,6 +1,7 @@
 ---
 layout: post_archive
 title: Four troublesome notes with Drupal module-updates and upgrades.
+date: 2010-10-13
 created: 1286960488
 tags:
 - project management

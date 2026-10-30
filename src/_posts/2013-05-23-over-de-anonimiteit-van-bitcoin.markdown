@@ -3,6 +3,7 @@ layout: post
 title: "Over de anonimiteit van Bitcoin"
 tags: [bitcoin, privacy]
 lang: nl
+date: 2013-05-23
 ---
 
 Het bedrijf dat in Nederland pintransacties verwerkt, *Equence*,

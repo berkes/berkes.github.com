@@ -1,6 +1,7 @@
 ---
 layout: post_archive
 title: Geef artiesten de ruimte!
+date: 2007-05-08
 created: 1178620501
 tags:
 - creative commons

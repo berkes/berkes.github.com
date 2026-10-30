@@ -1,6 +1,7 @@
 ---
 layout: post_archive
 title: Ik zou misschien wel eens suikerziekte kunnen hebben.
+date: 2005-04-02
 created: 1112461769
 tags:
 - diabetes blog

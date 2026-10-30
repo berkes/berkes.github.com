@@ -1,6 +1,7 @@
 ---
 layout: post_archive
 title: Bler verhuisd
+date: 2006-05-10
 created: 1147270378
 tags:
 

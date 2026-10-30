@@ -1,6 +1,7 @@
 ---
 layout: post_archive
 title: Your new drupal site, now what?
+date: 2005-05-17
 created: 1116328026
 tags:
 - library

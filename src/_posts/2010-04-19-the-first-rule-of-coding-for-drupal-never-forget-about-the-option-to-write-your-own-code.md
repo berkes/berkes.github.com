@@ -2,6 +2,7 @@
 layout: post_archive
 title: ! 'The first rule of coding for Drupal: never forget about the option to write
   your own code.'
+date: 2010-04-19
 created: 1271665784
 tags:
 - project management

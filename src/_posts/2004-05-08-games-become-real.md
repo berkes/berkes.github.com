@@ -1,6 +1,7 @@
 ---
 layout: post_archive
 title: Games become real
+date: 2004-05-08
 created: 1084004368
 tags:
 

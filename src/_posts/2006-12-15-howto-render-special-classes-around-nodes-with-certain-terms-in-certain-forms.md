@@ -2,6 +2,7 @@
 layout: post_archive
 title: ! 'HOWTO: render special classes around nodes with certain terms (in certain
   forms)'
+date: 2006-12-15
 created: 1166195042
 tags:
 - php

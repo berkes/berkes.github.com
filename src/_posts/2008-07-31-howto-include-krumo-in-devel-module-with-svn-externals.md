@@ -1,6 +1,7 @@
 ---
 layout: post_archive
 title: HOWTO include krumo in devel module with svn externals
+date: 2008-07-31
 created: 1217518993
 tags:
 - project management

@@ -1,6 +1,7 @@
 ---
 layout: post_archive
 title: Top 10 mistakes made by Drupal newcomers
+date: 2007-02-03
 created: 1170509682
 tags:
 - project management

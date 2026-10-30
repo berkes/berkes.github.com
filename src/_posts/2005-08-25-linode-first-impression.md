@@ -1,6 +1,7 @@
 ---
 layout: post_archive
 title: ! 'Linode: first impression'
+date: 2005-08-25
 created: 1125002254
 tags:
 - local web news

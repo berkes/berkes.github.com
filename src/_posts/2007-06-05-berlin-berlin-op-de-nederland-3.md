@@ -1,6 +1,7 @@
 ---
 layout: post_archive
 title: Berlin Berlin op de Nederland 3
+date: 2007-06-05
 created: 1181066427
 tags:
 - movie monger

@@ -1,6 +1,7 @@
 ---
 layout: post_archive
 title: flexinode for core!
+date: 2004-07-22
 created: 1090501486
 tags:
 

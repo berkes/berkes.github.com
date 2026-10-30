@@ -3,6 +3,7 @@ layout: post
 title: "Bitcoins kopen? Weet wat je doet."
 tags: [bitcoin]
 lang: nl
+date: 2013-04-01
 ---
 
 Afgelopen dagen heb ik aardig wat vragen over Bitcoin beantwoord. Daarom

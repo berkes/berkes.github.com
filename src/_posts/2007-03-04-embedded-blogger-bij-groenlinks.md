@@ -1,6 +1,7 @@
 ---
 layout: post_archive
 title: Embedded blogger bij Groenlinks
+date: 2007-03-04
 created: 1173035889
 tags:
 - verkiezingen

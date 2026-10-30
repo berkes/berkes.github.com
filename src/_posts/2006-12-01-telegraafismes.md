@@ -1,6 +1,7 @@
 ---
 layout: post_archive
 title: telegraafismes
+date: 2006-12-01
 created: 1164983350
 tags:
 - dwars

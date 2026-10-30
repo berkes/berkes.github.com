@@ -1,6 +1,7 @@
 ---
 layout: post_archive
 title: Facebook chat via XMPP (jabber) op je desktop-chat-programma.
+date: 2010-02-19
 created: 1266570532
 tags:
 - facebook

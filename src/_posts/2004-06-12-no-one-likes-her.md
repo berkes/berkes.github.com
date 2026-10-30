@@ -1,6 +1,7 @@
 ---
 layout: post_archive
 title: no-one likes her
+date: 2004-06-12
 created: 1087001860
 tags:
 

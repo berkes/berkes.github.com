@@ -1,6 +1,7 @@
 ---
 layout: post_archive
 title: A better way to variable_get() and t() in Drupal.
+date: 2012-03-01
 created: 1330605343
 tags:
 - programming

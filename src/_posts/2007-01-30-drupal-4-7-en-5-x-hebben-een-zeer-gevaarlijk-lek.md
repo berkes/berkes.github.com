@@ -1,6 +1,7 @@
 ---
 layout: post_archive
 title: Drupal 4.7 en 5.x hebben een zeer gevaarlijk lek
+date: 2007-01-30
 created: 1170146293
 tags:
 - drupal

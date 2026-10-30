@@ -1,6 +1,7 @@
 ---
 layout: post_archive
 title: Journalisten kunnen leren van bloggers
+date: 2005-01-04
 created: 1104872563
 tags:
 

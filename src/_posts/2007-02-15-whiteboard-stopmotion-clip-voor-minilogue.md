@@ -1,6 +1,7 @@
 ---
 layout: post_archive
 title: Whiteboard stopmotion clip voor minilogue
+date: 2007-02-15
 created: 1171551096
 tags:
 - creative commons

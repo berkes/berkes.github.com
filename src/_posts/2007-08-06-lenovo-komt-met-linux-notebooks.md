@@ -1,6 +1,7 @@
 ---
 layout: post_archive
 title: Lenovo komt met Linux notebooks
+date: 2007-08-06
 created: 1186428190
 tags:
 - linux

@@ -1,6 +1,7 @@
 ---
 layout: post_archive
 title: ! 'Nuke to Drupal Theme conversion: define DOM'
+date: 2005-03-08
 created: 1110290358
 tags:
 - osviews *nuke2drupal

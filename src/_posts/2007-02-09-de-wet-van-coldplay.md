@@ -1,6 +1,7 @@
 ---
 layout: post_archive
 title: De wet van Coldplay
+date: 2007-02-09
 created: 1171042181
 tags:
 - music

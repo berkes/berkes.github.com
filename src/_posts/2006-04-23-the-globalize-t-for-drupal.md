@@ -1,6 +1,7 @@
 ---
 layout: post_archive
 title: the globalize.t for Drupal?
+date: 2006-04-23
 created: 1145785452
 tags:
 - drupal

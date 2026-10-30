@@ -1,6 +1,7 @@
 ---
 layout: post_archive
 title: The typo attitude.
+date: 2006-02-11
 created: 1139648247
 tags:
 - drupal

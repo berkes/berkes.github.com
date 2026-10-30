@@ -1,6 +1,7 @@
 ---
 layout: post_archive
 title: Natoshiba is dood.
+date: 2005-10-16
 created: 1129477392
 tags:
 - programming

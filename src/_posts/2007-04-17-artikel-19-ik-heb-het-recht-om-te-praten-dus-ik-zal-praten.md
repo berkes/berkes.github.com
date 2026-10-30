@@ -1,6 +1,7 @@
 ---
 layout: post_archive
 title: Artikel 19, Ik heb het recht om te praten, dus ik zal praten.
+date: 2007-04-17
 created: 1176821348
 tags:
 - internet

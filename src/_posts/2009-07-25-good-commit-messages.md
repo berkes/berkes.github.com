@@ -1,6 +1,7 @@
 ---
 layout: post_archive
 title: Good commit messages
+date: 2009-07-25
 created: 1248549819
 tags:
 - programming

@@ -1,6 +1,7 @@
 ---
 layout: post_archive
 title: Open Source Advertenties - Ad Bard
+date: 2009-07-02
 created: 1246521764
 tags:
 - open source

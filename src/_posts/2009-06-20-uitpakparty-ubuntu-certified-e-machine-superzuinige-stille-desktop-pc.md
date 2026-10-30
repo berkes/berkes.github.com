@@ -1,6 +1,7 @@
 ---
 layout: post_archive
 title: ! 'Uitpakparty: Ubuntu certified E-machine, superzuinige, stille desktop-PC'
+date: 2009-06-20
 created: 1245507884
 tags:
 - ubuntu
