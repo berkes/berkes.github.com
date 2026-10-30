@@ -8,7 +8,7 @@ tags:
 - social software
 lang: en
 ---
-A new project is placed on the benchmarks in the webschuur.com, <a href="http://www.nymfaeum.nl">nymfaeum, a collaborative writing site</a>.<!--break-->
+A new project is placed on the benchmarks in the webschuur.com, <a href="http://www.nymfaeum.nl">nymfaeum, a collaborative writing site</a>.<!--more-->
 
 The cutting edge of this case is that I chose not to use drupal's built in node-types for all the content, but rather flexinode. Flexinode offers you much more power over the content. Flexinode together with a well designed taxonomy gives an adminstrator so much power that he will never use any other tool than <a href="http://www.drupal.org">drupal</a> anymore!
 

@@ -11,7 +11,7 @@ lang: en
 Every political active person should be able to communicate and propagate his ideas through the internet. Greensnet [1] will be a new idea of networking between all European green and social organizations, parties and individuals . Not only will it be a free and open source distribution that anybody can use, but it will also make the process of creating  a free and unbound website an easy process. On top of that the website will be networked to other greensnet sites. Because greensnet will run along with CivicSpace [2], a project similar to greensnet, but aimed at progressive politics in the US, we have a solid base to build on a progressive network. 
 
 The System will provide you with a huge range of features, the current features are listed below. Because we use the technology of civicspace, we offer the exact same features. Therefore the list below is the list of features as seen on civicspace.org
-<!--break-->
+<!--more-->
  
 
 Blogs 

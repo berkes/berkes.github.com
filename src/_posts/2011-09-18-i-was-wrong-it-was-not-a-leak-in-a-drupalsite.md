@@ -22,7 +22,7 @@ I am sorry for this misinformation. And as said, tweeted too fast, did too littl
 
 As a bonus, and to make things up a little, some common Drupal leakages that I helped fix in clients projects. Obviously I have responsibilities (and even a few NDAs) so I don't give names and urls. 
 
-<!--break-->
+<!--more-->
 
 ### The avatar-fiasco.
 

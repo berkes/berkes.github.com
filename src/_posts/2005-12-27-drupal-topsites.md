@@ -14,4 +14,4 @@ Toch is het ook ene goed idee om je site eens te posten in de forums van drupal.
 Van topsites krijg je vervolgens een banner. Die geeft je ranking bij hun site aan. Dit is een voorbeeld van zo een banner:
 <a href="http://top.drupalsites.com/">
 <img src="http://top.drupalsites.com/button.php?u=Ber" alt="Drupal Top Sites" border="0" />
-</a><!--break-->
+</a><!--more-->

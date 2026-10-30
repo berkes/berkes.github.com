@@ -20,4 +20,4 @@ This videocast shows how to use Tagadelic URLS to create nifty tagclouds.
 	<dc:type rdf:resource="http://purl.org/dc/dcmitype/MovingImage" />
 	</Work>
 	<License rdf:about="http://creativecommons.org/licenses/by-sa/2.5/nl/"><permits rdf:resource="http://web.resource.org/cc/Reproduction"/><permits rdf:resource="http://web.resource.org/cc/Distribution"/><requires rdf:resource="http://web.resource.org/cc/Notice"/><requires rdf:resource="http://web.resource.org/cc/Attribution"/><permits rdf:resource="http://web.resource.org/cc/DerivativeWorks"/><requires rdf:resource="http://web.resource.org/cc/ShareAlike"/></License></rdf:RDF> -->
-<br/><!--break-->
+<br/><!--more-->

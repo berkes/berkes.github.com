@@ -8,7 +8,7 @@ tags:
 - productiviteit
 lang: nl
 ---
-E-mailen is een kunst. Eentje die maar heel weinig mensen goed onder de knie lijken te hebben. Daarom een paar tips voor iedereen die over email zaakjes moet regelen.<!--break-->1. **Één vraag per mail**: Mail sturen kost niks. Hou je daarom altijd bij één vraag per email. Vraag niet in dezelfde mail of de meeting vanmiddag doorgaat, en waar de factuur blijft: bijna altijd wordt dan maar één onderwerp goed beantwoord Grote kans dat je voor die factuur toch nog een extra mail erachteraan moet sturen, omdat de ontvanger alléén inging op de vraag over de meeting.
+E-mailen is een kunst. Eentje die maar heel weinig mensen goed onder de knie lijken te hebben. Daarom een paar tips voor iedereen die over email zaakjes moet regelen.<!--more-->1. **Één vraag per mail**: Mail sturen kost niks. Hou je daarom altijd bij één vraag per email. Vraag niet in dezelfde mail of de meeting vanmiddag doorgaat, en waar de factuur blijft: bijna altijd wordt dan maar één onderwerp goed beantwoord Grote kans dat je voor die factuur toch nog een extra mail erachteraan moet sturen, omdat de ontvanger alléén inging op de vraag over de meeting.
 2. **Goede replies sturen**: Outlook is vaak zo ingesteld dat de replies helemaal verknipt zijn. Vraag iemand om outlook goed voor je in te stellen, zodat je niet met rare kleurtjes, of HOOFDLETTERS hoeft te antwoorden.
 3. **Schrijf tussen de regels door**: Als je mailprogramma goed is ingesteld, zie je zaken als``Op 12 Augustus 2007 schreef u:> Zullen we vanmiddag even een hapje eten en de agenda dan doornemen?Is goed. 12 uur?> Ik heb al een en ander gemaakt.
 

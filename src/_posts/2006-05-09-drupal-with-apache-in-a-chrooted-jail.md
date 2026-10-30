@@ -11,7 +11,7 @@ lang: en
 ---
 <a href="http://sympal.nl">Sympal</a> runs in a very secure (no, this is <em>not</em> an invitation ;) ) chrooted server environment. Having it all chrooted is nothing new and it is not too hard all together. Especially if you run on a very well designed system like Debian.
 
-Here are some hints and notes for others looking at chrooting their Drupal environment:<!--break-->
+Here are some hints and notes for others looking at chrooting their Drupal environment:<!--more-->
 <ul>
  <li>If you use symlinks to point your multi-sites sites to other directories, make sure they are inside the chroot, and make sure you use only relative symlinks.</li>
  <li>Image module has hard times, because it depends on convert. Make sure you either run it all with only GD (heavier server load, though) or that you add imagemagick to your chroot. In Debian you need to

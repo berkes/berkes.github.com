@@ -12,7 +12,7 @@ tags:
 lang: en
 ---
 I am currently developing a new theme for a new site and I decided to blog the process once. The theme is called «[WhatsInItsName](/taxonomy/term/65)» and so is the "tag".
-<!--break-->
+<!--more-->
 There are a few requirements. The theme must:
 
  * be fully SEO supporting

@@ -14,4 +14,4 @@ Langs mij zit de blogger van [panzerfaust.org](http://www.panzerfaust.org) en te
 
 Edit @ 13:25. [Patrick](http://www.linkselente.nl/patrick-pelman) van linkselente keek mij zonet even boos aan, omdat ik onterecht dacht dat hij niet meeblogde. Bij dezen dus rechtgezet: Hij schrijft net als Jeroen voor Linkselente en [groenlinks.nl](http://groenlinks.nl).
 
-Edit @ de volgende dag: Het zal dus wel Max Havelaar koffie geweest zijn: een stukje van twee regels met vier keer zoveel verbeteringen en edits... Zucht, had ik maar een vak geleerd.<!--break-->
+Edit @ de volgende dag: Het zal dus wel Max Havelaar koffie geweest zijn: een stukje van twee regels met vier keer zoveel verbeteringen en edits... Zucht, had ik maar een vak geleerd.<!--more-->

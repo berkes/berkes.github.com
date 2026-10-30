@@ -16,4 +16,4 @@ hah, - <s>Huur overgemaakt</s>
 - <s>tent ingepakt</s>
 - <s>wekker (2x) gezet</s>
 - <s>vlucht confirmatie uitgeprint en op mijn online mail gezet</s>
-<!--break-->Ik geloof da'k alles heb nu. OF beter: ik weet zeker da'k iets vergeten ben, maar ik weet bijna zeker dat het niks belangrijks is. Ik vergeet NL altijd wat. Het beste is dus daar rekening mee te houden. 
+<!--more-->Ik geloof da'k alles heb nu. OF beter: ik weet zeker da'k iets vergeten ben, maar ik weet bijna zeker dat het niks belangrijks is. Ik vergeet NL altijd wat. Het beste is dus daar rekening mee te houden. 

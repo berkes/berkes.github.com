@@ -9,7 +9,7 @@ tags:
 - usability
 lang: nl
 ---
-Nieuwe vensters door de strot van je gasten duwen.<!--break-->Niks is vervelender dan dat mensen een keuze van je wegnemen. Het al dan niet openen van nieuwe venstertjes, ongevraagd, is daarop geen uitzondering.
+Nieuwe vensters door de strot van je gasten duwen.<!--more-->Niks is vervelender dan dat mensen een keuze van je wegnemen. Het al dan niet openen van nieuwe venstertjes, ongevraagd, is daarop geen uitzondering.
 
 Zo nu en dan heb ook ik te maken met een zeer optimistische eigenaar van een website. Een die denkt dat er mensen (behalve zijn moeder) zijn die écht geïnteresseerd zijn in zijn website. Niemand is geïnteresseerd in je website. Hoogstens in de inhoud van je site, maar daarvoor moet je het al heel goed voor mekaar hebben.
 

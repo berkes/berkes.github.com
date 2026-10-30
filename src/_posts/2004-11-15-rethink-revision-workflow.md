@@ -7,7 +7,7 @@ tags:
 - drupal
 lang: en
 ---
-<a href="http://drupal.org/user/10681">elias1884</a> Writes: please overthink the revision system default workflow as well. don't look at the revision system as an isolated system but as a part of the whole workflow system!<!--break-->
+<a href="http://drupal.org/user/10681">elias1884</a> Writes: please overthink the revision system default workflow as well. don't look at the revision system as an isolated system but as a part of the whole workflow system!<!--more-->
 
 if you combine revisions with the moderation queue the most logic default workflow would be like that:
 

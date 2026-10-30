@@ -8,7 +8,7 @@ tags:
 lang: en
 ---
 How to get started working with four different people handeling four different disciplines? We are all looking at each other and think, now what?
-<!--break-->
+<!--more-->
 I started to write down what I would like to see. I make a design with pen and paper of what pages should look like and what should be on them. I stick them all on my wall and create  a paper version of the site structure.
 
 This I showed to Aart. Together we discussed this structure and tuned it. Aart has no idea of the technical side of websites. But he does know how people read text.

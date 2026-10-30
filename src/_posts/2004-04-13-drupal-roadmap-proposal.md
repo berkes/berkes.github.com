@@ -7,7 +7,7 @@ tags:
 - programming
 lang: nl
 ---
-  This is a summarised and ordered version of the thread on drupal.org "battle plans".<!--break-->        - Usability improvements [Dries, Chris Johnson]              
+  This is a summarised and ordered version of the thread on drupal.org "battle plans".<!--more-->        - Usability improvements [Dries, Chris Johnson]              
  - Change all browser-visible references to "node" to        something that might make sense to someone who is not a        computer geek. [Chris Johnson]        
  - Create a node zero feature that allows to create a        custom node to be displayed to someone who visits and has        no other access at all. [Chris Johnson]        
  - Make it possible to rename things like nodes and blogs        without incurring the high overhead that locale.module        incurs to do so. [Chris Johnson]          

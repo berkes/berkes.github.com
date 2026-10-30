@@ -10,7 +10,7 @@ lang: en
 ---
 I originally posted this on the Drupal Consultants mailinglist, but thought it might be nice to put on the web.
 
-I am still working furiously on the Sympal distro (formerly known as DrupalCOM). 100% aimed at (savvy) consultants (IE those not afraid to learn some minor PHP and use the Command line). I am still running after HEAD, and expect to release the first version soon after the 4.7 release (whenever that may be.... :) ).<!--break-->
+I am still working furiously on the Sympal distro (formerly known as DrupalCOM). 100% aimed at (savvy) consultants (IE those not afraid to learn some minor PHP and use the Command line). I am still running after HEAD, and expect to release the first version soon after the 4.7 release (whenever that may be.... :) ).<!--more-->
 
 Features:
 <ul>

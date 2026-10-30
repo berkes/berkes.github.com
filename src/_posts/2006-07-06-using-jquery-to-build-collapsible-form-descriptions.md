@@ -16,7 +16,7 @@ _Collapsed -default- state_
 ![Expanded state](http://webschuur.com/sites/webschuur.com/files/collapsible_help_out.png)
 _Expanded state_
 <br style="clear:both" />
-<!--break-->
+<!--more-->
 
 Right, obviously a client who has worked with joomla! expects nothing less then such a friendly (though that is debatable) interface. Or at least something that is comparable. Bad news, is that using quite ordinary themes in combination with modules such as CCK or flexinode, it is very easy to create absolutely horrible interfaces. Every form item takes the whole width, nothing sits besides one-another, label, form-entry and description all take up at least one line of text, over the full width of your content-area, etc. 
 The overlib proves one big problem: Drupal's descriptions can (and thus will, as Murphy states) contain link. It is impossible to click a link that sits in a tool-tip that follows your mouse. So we needed a more solid (and IMO) better solution.

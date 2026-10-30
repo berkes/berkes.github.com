@@ -9,7 +9,7 @@ lang: en
 ---
 DrupalCOM is a repackaging of the default drupal installation. 
 
-<a href="/misc/drupaldotcom.tar.gz">Download it here</a><!--break-->
+<a href="/misc/drupaldotcom.tar.gz">Download it here</a><!--more-->
 
 It is a repackaging optimised for so called "brochure sites", or the "digital leaflet". Those are sites aimed at awareness of a company, with sections as "feedback", "about us", our portfolio", "our products", etceteras . 
 
