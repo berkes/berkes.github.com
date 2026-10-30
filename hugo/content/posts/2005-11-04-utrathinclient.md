@@ -1,0 +1,11 @@
+---
+layout: post_archive
+title: utrathinclient
+date: 2005-11-04
+created: 1131099742
+tags:
+- programming
+lang: nl
+slug: "utrathinclient"
+---
+JE dacht dat de mac Mini klein was? [deze Jack PC is niet groter dan een stopkontact!](http://www.chippc.com/products/thinclients/jackpc/index.asp).

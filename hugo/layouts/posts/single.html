@@ -1,0 +1,31 @@
+{{ define "main" }}
+<article>
+  <header>
+    <h1>{{ .Title }}</h1>
+  </header>
+  <div class="body row">
+    <div class="eight columns">
+      {{ .Content }}
+    </div>
+    <div class="four columns">
+      {{ partial "woodcut.html" . }}
+    </div>
+  </div>
+  <footer>
+    <time datetime="{{ .Date.Format "2006-01-02T15:04:05Z07:00" }}"
+    pubdate="pubdate">
+      Posted on {{ .Date.Format "January 02, 2006" }}
+    </time>
+    {{ with .Params.tags }}
+      {{ partial "tags_list.html" . }}
+    {{ end }}
+    {{ partial "source.html" . }}
+  </footer>
+</article>
+<hr/>
+{{ partial "about_author.html" . }}
+<hr/>
+{{ partial "comment.html" . }}
+<hr/>
+{{ partial "related.html" . }}
+{{ end }}

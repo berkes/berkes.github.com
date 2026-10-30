@@ -1,0 +1,11 @@
+---
+layout: post_archive
+title: online favicon converter
+date: 2004-09-30
+created: 1096553300
+tags:
+- programming
+lang: nl
+slug: "online-favicon-converter"
+---
+If you do not want to install [the commandline application png2ico](http://www.winterdrache.de/freeware/png2ico/), you can create them online. Just upload a png file or so to [chami.com](http://www.htmlkit.com/services/favicon/) and you can download your ico file.

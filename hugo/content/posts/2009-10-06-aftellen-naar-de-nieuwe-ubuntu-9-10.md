@@ -1,0 +1,12 @@
+---
+layout: post_archive
+title: Aftellen naar de nieuwe Ubuntu 9.10
+date: 2009-10-06
+created: 1254817496
+tags:
+- ubuntu
+- counter
+lang: nl
+slug: "aftellen-naar-de-nieuwe-ubuntu-9-10"
+---
+<script type="text/javascript" src="http://www.ubuntu.com/files/countdown/display.js"></script>

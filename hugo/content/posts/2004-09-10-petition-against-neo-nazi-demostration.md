@@ -1,0 +1,11 @@
+---
+layout: post_archive
+title: Petition against neo nazi demostration
+date: 2004-09-10
+created: 1094772229
+tags:
+- activist
+lang: nl
+slug: "petition-against-neo-nazi-demostration"
+---
+[Chengetheworld](http://www.chengetheworld.org/nl/index.php?op=page&pid=275) is calling everyone in Antwerp to sign a petition, to not allow Neo Nazis to march through the town. They want to show that the Antwerp peoaple are not happy with those parades by handing in a list of signatures. 

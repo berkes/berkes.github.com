@@ -1,0 +1,36 @@
+{{ define "main" }}
+<article>
+  <header>
+    <h1>{{ .Title }}</h1>
+  </header>
+  <div class="body row">
+    <div class="eight columns">
+      {{ .Content }}
+    </div>
+    <div class="four columns">
+      {{ partial "woodcut.html" . }}
+    </div>
+  </div>
+  <footer>
+    <p class="note">
+    {{ if eq .Params.lang "nl" }}
+      <em>Dit artikel verscheen op bler.webschuur.com. En is overgezet naar dit blog</em>
+    {{ else }}
+      <em>This article was published on webschuur.com. And migrated to this blog. </em>
+    {{ end }}
+    </p>
+    <time datetime="{{ .Date.Format "2006-01-02T15:04:05Z07:00" }}"
+    pubdate="pubdate">
+      Posted on {{ .Date.Format "January 02, 2006" }}
+    </time>
+    in
+    {{ with .Params.location }}{{ . }}{{ end }}
+    {{ with .Params.tags }}
+      {{ partial "tags_list.html" . }}
+    {{ end }}
+  </footer>
+</article>
+
+{{ partial "about_author.html" . }}
+{{ partial "related.html" . }}
+{{ end }}

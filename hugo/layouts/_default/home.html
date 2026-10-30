@@ -1,0 +1,41 @@
+{{ define "main" }}
+<div class="row">
+<section class="six columns about" lang="en">
+<h2>About Bèr Kessels</h2>
+<p>
+I am Bèr Kessels, a freelance software developer. I develop cutting edge
+software and web-applications, with Open Source and modern technology.
+<br/>
+<a href="about.html">More »</a>
+</p>
+</section>
+<section class="six columns about" lang="nl">
+<h2>Over Bèr Kessels</h2>
+<p>
+Ik ben Bèr Kessels, een freelance softwareontwikkelaar. Ik ontwikkel geavanceerde software en web-applicaties met behulp van Open Source en moderne techniek.
+<br/>
+<a href="over.html">Meer »</a>
+</p>
+</section>
+</div>
+<div class="row">
+<section class="six columns posts" lang="en">
+<h2>English Articles</h2>
+<ul class="posts">
+  {{ range first 25 (where (where site.RegularPages "Type" "posts") "Params.lang" "en") }}
+    <li><span>{{ .Date.Format "January 02, 2006" }}</span> &raquo; <a href="{{ .RelPermalink }}">{{ .Title }}</a></li>
+  {{ end }}
+</ul>
+<a href="archive.html">Archive »</a>
+</section>
+<section class="six columns posts" lang="nl">
+<h2>Nederlandse Artikelen</h2>
+<ul class="posts">
+  {{ range first 25 (where (where site.RegularPages "Type" "posts") "Params.lang" "nl") }}
+    <li><span>{{ .Date.Format "January 02, 2006" }}</span> &raquo; <a href="{{ .RelPermalink }}">{{ .Title }}</a></li>
+  {{ end }}
+</ul>
+<a href="archief.html">Archief »</a>
+</section>
+</div>
+{{ end }}

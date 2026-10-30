@@ -1,0 +1,13 @@
+---
+layout: post_archive
+title: Nog meer koolhydraten lijsten
+date: 2005-05-18
+created: 1116411561
+tags:
+- diabetes blog
+lang: nl
+slug: "nog-meer-koolhydraten-lijsten"
+---
+Ik denk dat ik binnekort maar eens een volledige lijst moet opstellen met alle goede koolhydraat lijsten die ik tot nog toe gevonden heb.
+
+Vandaag kwam ik er weer [twee](http://home.hccnet.nl/jj.ruiter/brood.html) [tegen.](http://www.dollybay.com/atkins/koolhydratentabel.html)<!--more-->
