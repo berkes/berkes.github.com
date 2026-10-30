@@ -28,38 +28,43 @@ Aside: Windows. It is probably possible, but since using even the most basic pro
 
 Mac comes with ruby installed. On Ubuntu Linux you may need to install it still:
 
-{% highlight bash %}
+```bash
+
 sudo apt-get install ruby rubygems
-{% endhighlight %}
+```
 
 Install mailcatcher (Use sudo for installing systemwide).
 
-{% highlight bash %}
+```bash
+
 gem install mailcatcher
-{% endhighlight %}
+```
 
 Configure PHP to use mailcatcher for delivering mail:
 
 * Edit `php.ini` (Depending on your installation where this lives, but on Ubuntu this is `/etc/php4/apache2/php.ini`)
 * Under `[mail function]`, if available, change the [sendmail_path](http://php.net/manual/en/mail.configuration.php#ini.sendmail-path) to `/usr/bin/env catchmail` and you're set.
 
-{% highlight ini %}
+```ini
+
 sendmail_path = "/usr/bin/env /var/lib/gems/1.8/bin/catchmail "
-{% endhighlight %}
+```
 
 Find out where catchmail lives by invoking `$ which catchmail`. On Ubuntu it was installed at */var/lib/gems/1.8/bin/catchmail*. Make sure you have the gems installed system wide, else apache (or the user running the webserver) does not have access to catcmail and the required libraries. 
 
 And restart apache.
 
-{% highlight bash %}
+```bash
+
 sudo service apache2 restart
-{% endhighlight %}
+```
 
 Start up mailcatcher.
 
-{% highlight bash %}
+```bash
+
 mailcatcher
-{% endhighlight %}
+```
 
 Open your browser and visit [http://localhost:1080](http://localhost:1080)
 

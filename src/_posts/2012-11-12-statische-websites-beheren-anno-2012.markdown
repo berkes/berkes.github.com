@@ -86,16 +86,18 @@ Daarom de drie stappen om je site te maken:
 ### 1. Installatie
 Installeer de Gem (of eerst ruby, rubygems en dan Jekyll, op Linux soms nodig, op Mac heb je deze al):
 
-{% highlight bash %}
+```bash
+
 $ sudo apt-get ruby rubygems # op Mac niet nodig dus, op Linux soms.
 $ sudo gem install jekyll
-{% endhighlight %}
+```
 
 Of installeer Jekyll vanuit je packagemanger in Ubuntu. Beter is via gems, want de deb packages in Ubuntu willen nogal eens achterlopen op de gems, wat Ruby's eigen pakettensysteem is.
 
-{% highlight bash %}
+```bash
+
 $ sudo apt-get install jekyll.
-{% endhighlight %}
+```
 
 ### 2. Mappen en bestanden aanmaken
 Maak mappen aan waarin je je statische site en de layout enzo gaat bouwen.

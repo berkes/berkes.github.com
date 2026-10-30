@@ -84,14 +84,15 @@ Before I started coding I wrote down some guidelines made a few
 ### The set-up
 The [code](https://github.com/piratenpartij/lidworden) consists of a few
 directories and a very few files.
-{% highlight php startinline %}
+```php
+
 ├ Slim        # Contains the Slim Framework Library (classes)
 ├ templates   # Contains snippets and PHP-files to render the actual HTML
 ├ config.inc  # A few settings and globals
 ├ ideal.inc   # Class/lib to handle the payment processor
 ├ index.php   # The actual application
 └ secrets.inc # file which is excluded from the public git and from the docroot.
-{%endhighlight%}
+```
 
 ### Template
 The template was generated from the existing Drupalsite, by saving the page with Firefox (wget will not save CSS and such), parsing that trough `tidy`, and then manually clean up the rest of the HTML. 
@@ -115,7 +116,8 @@ The entire application [lives in index.php](https://github.com/piratenpartij/lid
 In a Slim application, you set up routes that react to a HTTP-request,
 do stuff, and then return other stuff. Like so
 
-{% highlight php startinline %}
+```php
+
 $app->get('/', function () use ($app) {
   $app->render('_head.inc');
   $app->render(
@@ -127,7 +129,7 @@ $app->get('/', function () use ($app) {
   );
   $app->render('_footer.inc');
   });
-{% endhighlight %}
+```
 
 This is a PHP5 syntax, where you can create 
 The above does the following:
@@ -143,7 +145,8 @@ This is all code needed to create a [page, with a form](https://lidworden.pirate
 When you post this form, a slightly more complex function is called, the
 simplified version of that is:
 
-{% highlight php  startinline %}
+```php
+
 $app->post('/pirate', function () use ($app) {
   $pirate = $app->request()->params();
   //... more preparing of the $pirate that will be stored in the database
@@ -169,7 +172,7 @@ $app->post('/pirate', function () use ($app) {
   );
   $app->render('_footer.inc');
   });
-{% endhighlight %}
+```
 
 The values you posted are validated, then written to the database, and
 placed in a mail.
@@ -187,7 +190,8 @@ On success, the customer might return to `/success` on error, there is a
 chance they end on `/error`. Because this is by no means a confirmation,
 we simply render a success or error page there; but take no actions.
 
-{% highlight php startinline %}
+```php
+
 $app->get('/error', function () use ($app) {
  $app->render('_head.inc');
  $app->render(
@@ -195,14 +199,15 @@ $app->get('/error', function () use ($app) {
   );
   $app->render('_footer.inc');
 });
-{% endhighlight %}
+```
 
 Other ideal-versions have a Post-back system, where their server
 confirms the payment; one of the earlier version of this application had
 that, since we did not know exactly what iDeal-version we'd go with. A
 confirm would be really simple to implement here:
 
-{% highlight php startinline %}
+```php
+
 $app->post('/confirm', function () use ($app) {
   $payment = $app->request()->params();
   $db = get_connection();
@@ -212,7 +217,7 @@ $app->post('/confirm', function () use ($app) {
   $stmt->bindParam("pirate_id", $payment["purchaseID"]);
   $stmt->execute();
 });
-{% endhighlight %}
+```
 
 Obviously, in reality you'd probably need to parse the $payment to
 extract the correct information (the status and the user whose payment

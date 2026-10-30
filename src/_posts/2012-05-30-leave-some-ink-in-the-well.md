@@ -58,7 +58,8 @@ You could leave some ink in the well. Using a simple `@INK` marker.
 
 For example:
 
-{% highlight ruby %}
+```ruby
+
 def by_ranking
   # @INK: the rank attribute is not updated or filled
   #       in the database, it seems. @TODO: make a 
@@ -66,7 +67,7 @@ def by_ranking
   #       then an after_update hook to actually fill this value.
   sort {|a,b| a.rank.to_f < b.rank.to_f}
 end
-{% endhighlight %}
+```
 
 A simple '@INK' with a comment. `@INK` is a different marker then
 `@FIXME` or `@TODO`. Actually, `@INK` is *also* a TODO.
@@ -90,7 +91,8 @@ Some rules apply:
 
 And with a simple script, you can find your ink in the well:
 
-{% highlight bash %}
+```bash
+
 #!/bin/bash
 echo "-- Last four commits --"
 git log --graph --pretty=format:'%Cred%h%Creset -%C(yellow)%d%Creset %s %Cgreen(%cr) %C(bold blue)<%an>%Creset' --abbrev-commit --date=relative -n4
@@ -98,7 +100,7 @@ echo "-- Git status --"
 git status -s
 echo "-- The INK --"
 ack-grep -C 4 "@INK" --all
-{% endhighlight %}
+```
 
 It gets some context with two git commands, one to render a short,
 [pretty git log](http://www.jukie.net/bart/blog/pimping-out-git-log),

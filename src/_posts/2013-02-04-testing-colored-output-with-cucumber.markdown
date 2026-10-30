@@ -16,7 +16,8 @@ outputs to something that cannot handle colors and turns them off. The
 solution turned out to be really simple though.
 
 Lets start with a simple script that outputs some Rastafari
-{%highlight ruby %}
+```ruby
+
 #!/usr/bin/env ruby
 
 require "thor"
@@ -32,7 +33,7 @@ class Example < Thor
   end
 end
 Example.start()
-{% endhighlight %}
+```
 
 Running this, results in:
 
@@ -42,7 +43,8 @@ But piping this into a file, or for example less, shows no colors;
 This is a useful feature built into Rainbow.
 When testing with cucumber, the colors are gone too:
 
-{%highlight cucumber%}
+```cucumber
+
 Feature: Example
   Scenario: Yah!
     When I run `example example`
@@ -51,7 +53,7 @@ Feature: Example
       Yah!
       ...
       """
-{%endhighlight%}
+```
 
 This passes, but does not test any colors. First thing is to tell
 Aruba/Cucumber to not strip the colors, ansi-codes, with an `@ansi` tag.
@@ -63,7 +65,8 @@ for a reason: it is really hard to test when all your output is littered
 with ANSI escape codes. You really only want to force Rainbow to output
 them when you are testing for colors.
 
-{%highlight ruby%}
+```ruby
+
 #...
 class Example < Thor
   def initialize(*args)
@@ -72,7 +75,7 @@ class Example < Thor
   end
   #....
 end
-{%endhighlight %}
+```
 
 This allows you to force coloring when testing or running by setting the
 variable, like so `export FORCE_COLORS=TRUE; ./bin/example example`. A step could
@@ -82,11 +85,12 @@ More usefull however, is that we can set this variable in cucumber for
 all the `@ansi`-tagged scenario's. In a support-file
 `features/support/ansi.rb`:
 
-{%highlight ruby %}
+```ruby
+
 Before('@ansi') do
   ENV["FORCE_COLORS"] = "TRUE"
 end
-{%endhighlight %}
+```
 
 With the scenario tagged @ansi, it fails: `expected
 "\e[31mYah!\e[0m\n\e[30m\e[1m...\e[0m\n\e[33mRasta-\e[0m\n\e[32mfari\e[0m\n"
@@ -99,20 +103,22 @@ easy.
 
 The `features/support/ansi.rb` should include "rainbow".
 
-{%highlight ruby %}
+```ruby
+
 Then /^it should output "([^"]*)" in "([^"]*)"$/ do |string, color|
   assert_partial_output(string.color(color.to_sym), all_output)
 end
-{%endhighlight %}
+```
 
-{%highlight cucumber %}
+```cucumber
+
 Feature: Example
 
   @ansi
   Scenario: Yah!
     When I run `example example`
     Then it should output "Yah!" in "red"
-{%endhighlight%}
+```
 
 Readable, easy testing of your colored output!
 

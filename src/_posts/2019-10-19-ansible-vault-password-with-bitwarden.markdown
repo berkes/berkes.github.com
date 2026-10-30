@@ -60,13 +60,14 @@ Introducing a tiny bash script called  `ansible-vault-pass.sh`, which
 handles the unlocking and then looks up and returns the vault password
 is simple:
 
-{% highlight bash startinline %}
+```bash
+
 #!/bin/bash
 
 _BW_VAULT_ENTRY_ID="ansible-vault"
 _bw_session="$(bw unlock --raw)"
 echo "$(bw get password ${_BW_VAULT_ENTRY_ID} --session ${_bw_session} --raw)"
-{% endhighlight %}
+```
 
 It has the entry-id hardcoded; for me, that is "good enough". Especially
 since it avoids a lot of complexity.
@@ -74,17 +75,19 @@ since it avoids a lot of complexity.
 Now, running ansible should be very easy and only prompt for your
 bitwarden password:
 
-{% highlight bash %}
+```bash
+
 ansible-playbook webservers.yml --vault-password-file=/path/to/ansible-vault-pass.sh
-{% endhighlight %}
+```
 
 The `--vault-password-file` option can be given a default in the
 main Ansible configuration (commonly `~/.ansible.cfg`):
 
-{% highlight ini %}
+```ini
+
 [defaults]
 vault_password_file=/path/to/ansible-vault-pass.sh
-{% endhighlight %}
+```
 
 The latter, somehow, must be an absolute path. No idea why: ansible is weirdly
 picky in these things often.
@@ -92,9 +95,10 @@ picky in these things often.
 No, you can run any ansible command without the `--vault-password-file`
 option. For example:
 
-{% highlight bash %}
+```bash
+
 ansible all -a "hostname" -f 10
-{% endhighlight %}
+```
 
 ## Result
 
