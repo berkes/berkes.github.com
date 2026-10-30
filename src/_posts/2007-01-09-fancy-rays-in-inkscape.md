@@ -17,7 +17,7 @@ In this tutorial I introduce the concept of gradients, and how to use duplicate 
  </script>
 <script src="http://digg.com/api/diggthis.js"></script>
 
-<!--break-->
+<!--more-->
 For rays, or any more digital drawing, we can best use inkscape in pixel-mode. Simplest to get there, is to use a template that is meant for the screen. 
 
 1. create new: 1042 x 800

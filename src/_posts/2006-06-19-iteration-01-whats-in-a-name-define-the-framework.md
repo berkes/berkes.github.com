@@ -13,7 +13,7 @@ lang: en
 If you have been following some of the recent CSS and webdesign trends, you might have noticed the trend slowly bending towards semantic correct designs. As it should have been from the start. 
 
 This means that you don't just design a site, but really build it. Starting with its foundation. No, starting with a good blueprint, which results in a good foundation. 
-<!--break-->
+<!--more-->
 Such a foundation must be semantically best. This way we fulfil three of our four mayor requirements, __for free__: 
 
  * be fully SEO supporting

@@ -13,7 +13,7 @@ lang: en
 ---
 In many database driven applications (web-apps) you need some sort of user-system. A system to manage log-in facilities and rights management etceteras. A general "mistake" I see all over the place is that a user equals a person, in these systems. I decided to make a decent normalised concept for this and document it for once :). 
 
-The idea is that there are two separate entities: a user and a person. You may, or may not couple them, either now, or later. The benefit is that, using this concept, you have a choice:  <!--break-->
+The idea is that there are two separate entities: a user and a person. You may, or may not couple them, either now, or later. The benefit is that, using this concept, you have a choice:  <!--more-->
 
  * a user is not a person (system user)
  * a user is a person

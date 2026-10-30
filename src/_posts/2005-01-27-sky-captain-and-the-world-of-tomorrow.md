@@ -7,7 +7,7 @@ tags:
 - movie monger
 lang: nl
 ---
-I read some pretty nasty reviews on this film. It was going to boring, non-entertaining, and even plain horrible, according to some paper magazines. But the idea of it being a 30-ies, retr-like film, with [Jude Law](http://en.wikipedia.org/wiki/Jude_Law) as main character "Joe" aka the Sky Captain, I simply _had_ to see it.<!--break-->[G.
+I read some pretty nasty reviews on this film. It was going to boring, non-entertaining, and even plain horrible, according to some paper magazines. But the idea of it being a 30-ies, retr-like film, with [Jude Law](http://en.wikipedia.org/wiki/Jude_Law) as main character "Joe" aka the Sky Captain, I simply _had_ to see it.<!--more-->[G.
 
 E.
 

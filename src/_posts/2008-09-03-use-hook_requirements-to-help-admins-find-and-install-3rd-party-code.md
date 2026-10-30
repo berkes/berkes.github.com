@@ -20,7 +20,7 @@ I used [hook_requirements](http://api.drupal.org/api/function/hook_requirements/
 <br class="clear"/>
 The admin is then helped with usefull messages: how to fix the problem. 
 
-<!--break-->
+<!--more-->
 
     /**
     * Implementation of hook_requirements.

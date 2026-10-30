@@ -14,7 +14,7 @@ lang: nl
 ---
 [Zen](http://www.csszengarden.com/), minder is meer enzovoort. Zulke ontwerprincipes zijn er niet voor niks. **Zij helpen de bezoeker te focusen op datgene wat jij wilt dat zij ziet. Ze helpt de site leesbaar te maken en geeft bovenal rust, zodat de bezoeker kan doen waarvoor zij kwam.**Deze kotre inleiding komt van [Sympal](http://help.sympal.nl/minder_is_meer_ontwerpen_en_opzetten_van_je_site), waar ik haar schreef specifiek voor Drupal sites. Maar eigenlijk is het belangrijk voor alle sites. Vandaar de aangepaste versie hier.
 
-Behalve in het ontwerp (meestal het theme of sjabloon) zelf, kun je de meeste website systemen (CMSen) ook heel goed configureren om de nadruk op de content te leggen. Het is eenvoudig om je pagina's (zoals de bekende zij-blokken) dusdanig te configureren dat zij niet overal verschijnen. Of om bepaalde pagina' juist niet te laten zien. Het resultaat is vaak overweldigend.<!--break-->De onderstaande tips behandelen hoe je je site beter kunt indelen en zodoende een beter rendement kunt halen uit je site.
+Behalve in het ontwerp (meestal het theme of sjabloon) zelf, kun je de meeste website systemen (CMSen) ook heel goed configureren om de nadruk op de content te leggen. Het is eenvoudig om je pagina's (zoals de bekende zij-blokken) dusdanig te configureren dat zij niet overal verschijnen. Of om bepaalde pagina' juist niet te laten zien. Het resultaat is vaak overweldigend.<!--more-->De onderstaande tips behandelen hoe je je site beter kunt indelen en zodoende een beter rendement kunt halen uit je site.
 
 Allereerst moet bedacht worden wat de site nu echt bevat, welke secties ze heeft. Vaak zijn dit secties zoals "forums", "homepage", "weblogs", "agenda" etc.
 

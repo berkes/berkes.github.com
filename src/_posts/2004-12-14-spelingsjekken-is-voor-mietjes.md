@@ -7,7 +7,7 @@ tags:
 
 lang: nl
 ---
-Als je goed knipt en plakt heb je nergens last van. Kijk maar: ik heb NUL fout in het hele dictee 2004!:<!--break-->Normen en waardenOndanks zijn chronische ingewandsziekte begon de comicus zijn dagelijkse cadans met een eigenzinnige gedachte-exercitie over normen en waarden, oftewel gedragingen die hij graag geïmplanteerd zag bij vreemde vogels in zijnniet-geseculariseerde santenkraam.
+Als je goed knipt en plakt heb je nergens last van. Kijk maar: ik heb NUL fout in het hele dictee 2004!:<!--more-->Normen en waardenOndanks zijn chronische ingewandsziekte begon de comicus zijn dagelijkse cadans met een eigenzinnige gedachte-exercitie over normen en waarden, oftewel gedragingen die hij graag geïmplanteerd zag bij vreemde vogels in zijnniet-geseculariseerde santenkraam.
 
 Een desperate zwaluw zwenkte zonder egards rakelings langs zijn rechterooglid; wat behelsde deze even precieze als steile duikvlucht van dit creatuur, gracieus als een libellenkind?De gecraqueleerde deur van zijn werkkamer ging open; het was drs. Mallebrootje, Tweede-Kamerlid uit Elst, tevens uitvinder van de geluiddemper tegen gerommelin de maag, die een exceptioneel goed humeur op 's mans gelaat fourneerde.   Het was ijzingwekkend kil in het in Oudhollandse stijl gedecoreerde vertrek;het jonge ding uit de achterban gooide nog wat antraciet in de kachel, vooraleer zij de hooggeplaatste confrères met hun modieuze molières meetroonde naar de catacomben waar gebruuskeerde armlastigen bijkans voor pampus lagen.
 

@@ -9,7 +9,7 @@ tags:
 - security
 lang: nl
 ---
-Zonet stuurde ik deze brief aan NRC next. Het originele artikel staat nog niet online, maar ik verwacht het in [Marie-Jose Klavers blog](http://213.206.88.38/weblog/klaver/).<!--break-->> **Subject:** anonimiseren kan niet zo eenvoudig, helaas.
+Zonet stuurde ik deze brief aan NRC next. Het originele artikel staat nog niet online, maar ik verwacht het in [Marie-Jose Klavers blog](http://213.206.88.38/weblog/klaver/).<!--more-->> **Subject:** anonimiseren kan niet zo eenvoudig, helaas.
 
 José Klaver beschrijft in NRC*Next van 2 januari, hoe iemand anoniem(er) het web kan gebruiken. Zijn adviezen zijn echter eerder gevaarlijk te noemen.
 

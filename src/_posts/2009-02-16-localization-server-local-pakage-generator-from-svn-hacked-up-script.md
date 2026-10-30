@@ -13,7 +13,7 @@ lang: en
 Unless I missed a feature entirely, <a href="http://drupal.org/project/l10n_server">Drupal Localization Server</a> does not really allow packages from external sources to be parsed in its "local package connector". It only eats tarballs with the exact names as they are released from Drupal.org. For example _tagadelic-5.x-1.2.tar.gz_ and nothing else. Well, off course the 5.x-1.2 can vary. 
 
 I therefore hacked up an ugly script that we run in a cron to grab our REL-5.x-1.1 from our SVN. Our subversion repository-layout is rather hardcoded in the script, but since it is not that exotic, it should be easy to change it. This script runs over a loca working copy of our SVN and grabs the tags (aka SVN releases) and then tarballs them with the filenames that the local package connector will recognise. 
-<!--break-->
+<!--more-->
     <?php
     
     ini_set('display_errors', 'stdout');

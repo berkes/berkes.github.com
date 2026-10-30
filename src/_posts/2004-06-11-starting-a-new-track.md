@@ -8,7 +8,7 @@ tags:
 lang: en
 ---
 Let me introduce my self. My name is Pepijn van Zoest, I live and work in Amsterdam. For years I was a set designer with a theatergroup calles <a href="http://www.dogtroep.nl/">Dogtroep</a>. In 1998 two of my dear friend died. I started to reconsider my life and got drawn to websites.
-<!--break-->
+<!--more-->
 To me a website is a small flat theater. I know html and css but by now I need more powerful tools to make websites.
 So I started a new project. Here are the people involved:
 

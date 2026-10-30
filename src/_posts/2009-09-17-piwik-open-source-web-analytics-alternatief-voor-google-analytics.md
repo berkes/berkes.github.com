@@ -13,7 +13,7 @@ lang: nl
 ---
 
 Een kleine week geleden installeerde ik [piwik](http://piwik.org/). Piwik is een open source applicatie waarmee je web statistieken kunt bijhouden en weergeven. Daar zijn er velen van, maar geen enkele kon tot vandaag aan het gemak en de volledigheid van Google Analytics tippen. Tot Piwik. 
-<!--break-->
+<!--more-->
 Piwik is heel eenvoudig te installeren. Bijna iedere (betaalbare) webhost ondersteunt de benodigde PHP en bijbehorende MySQL database.
 
 Eigenlijk kan iedereen die zelf een site kan installeren ook piwik aan de praat kijgen. Wat betekent dat eigenlijk iedereen google analytics zou kunnen vervangen voor piwik. 

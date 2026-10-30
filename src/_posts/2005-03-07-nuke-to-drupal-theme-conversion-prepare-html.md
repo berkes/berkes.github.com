@@ -8,7 +8,7 @@ tags:
 - drupal
 lang: en
 ---
-We now need a barebones HTML file. Before starting with this , we need to knwo the areas, or regions we will use. <!--break-->
+We now need a barebones HTML file. Before starting with this , we need to knwo the areas, or regions we will use. <!--more-->
 
 <h3>Areas Mockup</h3>
 <img class="node-image" width="395" height="299" src="/files/images/Regions_cutout_small.png" title="Regions mockup" align="right" />Using <a href="http://www.inkscape.org/">inkscape</a>, I took the screenshots and drew rectangles over the areas. The colours keep it clear what areas are required. 

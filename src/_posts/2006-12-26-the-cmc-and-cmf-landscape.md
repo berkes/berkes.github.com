@@ -23,7 +23,7 @@ On the y-axis we see the amount of effort (development Time, development budget)
 Every "solution" has an area in which it can be deployed, this is marked by an ellipse around the logo of the solution.
 
 ![CMF land](http://webschuur.com/sites/webschuur.com/files/cmf_land_0.png)
-<!--break-->
+<!--more-->
 
 Some examples might clarify this a bit better: 
 Take a simple blog: wordpress is all ready-to-go for blogging. Your flexibility, however, is rather limited to that blogging: you won't get the flexibility to run forums off wordpress. phpBB  sits in the same ellipse: Its good to run bulletinboards, but its near impossible to use for your brochure site.

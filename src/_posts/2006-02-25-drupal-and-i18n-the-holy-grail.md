@@ -13,7 +13,7 @@ Or, how to get the project rolling.
 
 First of all we need to recognise that there is no Ultimate i18n solution. There are many, all depending on the needs, cases and implementations. 
 So, I really do not believe in a single i18n module. Or in a holy grail. Therefore I torn the problem apart, and made Lego blocks out of it. That way the problem becomes rather clear.
-<!--break-->
+<!--more-->
 On the top level there are a few types of i18n sites:
 <ol>
 <li>Mixed content. Sometimes I blog in English, sometimes in Dutch.</li>

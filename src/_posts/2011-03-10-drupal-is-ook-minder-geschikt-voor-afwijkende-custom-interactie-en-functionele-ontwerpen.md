@@ -23,7 +23,7 @@ Op mijn artikel over [waarom Drupal voor grote projecten niet de meest geschikte
 Jij bekijkt het alleen vanuit de technische kant. En vergeet het designen, functioneel ontwerpen en het beheer.
 
 Dit ben ik niet vergeten, maar heb ik expres weggelaten om het verhaal niet nóg langer te maken.
-<!--break-->
+<!--more-->
 Ter volledigheid: Functioneel ontwerp, interaction design en natuurlijk het grafisch ontwerpen zijn zaken die allemaal vooraf gaan aan het bouwen van een site.
 
 Hier doet zich in het geval van een CMS een interessant gegeven voor, namelijk dat het CMS erg beperkend werkt op de mogelijkheden binnen zo een ontwerp. Zo roep ik bij bijna alle Drupal-projecten:

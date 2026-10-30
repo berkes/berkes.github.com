@@ -17,7 +17,7 @@ Behalve de vele reacties zonder enige onderbouwing, of zelfs enkele [ad-hominem]
 De meerderheid, was, tegen verwachting, positief. Tegen verwachting, omdat olifanten in porseleinkasten meestal weggejaagd worden :).
 
 De enige inhoudelijke reactie waar ik niet meteen een antwoord op heb, is van [MexMast op Maandag 21 Maart 2011 17:07](http://webwereld.nl/article/comments/id/106086) (helaas kan ik niet direct linken naar webwereld reacties, dus even zelf zoeken.)
-<!--break-->> 
+<!--more-->> 
 mja lijkt mij een gevaarlijke veralgemening [zie hieronder, BK], als wanhoopsargument. dat het om veel geld gaat veranderd weinig aan het geheel. Tuurlijk kom je er niet door je neef 50 euro te geven voor een zondagje werk.
 
 Je zegt letterlijk dat alle overheids websites die drupal gebruiken de verkeerde keuze hebben gemaakt. En dat is vrees ik, uw persoonlijke voorkeur ten spijt, manifest onjuist.

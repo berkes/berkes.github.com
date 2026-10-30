@@ -10,4 +10,4 @@ tags:
 - groenlinks
 lang: nl
 ---
-Vandaag treed [GeenStijl](http://www.geenstijl.nl/mt/archieven/014559.html) in mijn voetsporen (kuch) "embedded" blogger op de GroenLinks bus. Ik ben persoonlijk een heel-erg-GeenStijl-hater, veel geblaat weinig wol sortof shit. Maar toch wel weer lache om de dieptrieste comments.>  Dwars, dat is de GroenLinks-jugend Hilarisch.<!--break-->
+Vandaag treed [GeenStijl](http://www.geenstijl.nl/mt/archieven/014559.html) in mijn voetsporen (kuch) "embedded" blogger op de GroenLinks bus. Ik ben persoonlijk een heel-erg-GeenStijl-hater, veel geblaat weinig wol sortof shit. Maar toch wel weer lache om de dieptrieste comments.>  Dwars, dat is de GroenLinks-jugend Hilarisch.<!--more-->

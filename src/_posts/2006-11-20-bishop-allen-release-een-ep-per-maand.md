@@ -12,4 +12,4 @@ lang: nl
 
 P)<br />[Bishop Allen-Corazon](http://bishopallen.com/music/Corazon.mp3) (van de Januari E.
 
-P)<!--break-->
+P)<!--more-->

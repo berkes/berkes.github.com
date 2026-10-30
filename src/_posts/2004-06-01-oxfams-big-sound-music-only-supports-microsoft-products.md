@@ -7,7 +7,7 @@ tags:
 - activist
 lang: nl
 ---
-Oxfam launched a new campaign called "[Big Sound Music](http://www.bignoisemusic.com)". It allows people to buy and download digital music. A part of the profit is donated to the "Make Fair Trade" campaign. Unfortunately they chose to use the technology from the multinational OD2. This means that only windows users, with the latest Windows Media Player can access the music. <!--break-->
+Oxfam launched a new campaign called "[Big Sound Music](http://www.bignoisemusic.com)". It allows people to buy and download digital music. A part of the profit is donated to the "Make Fair Trade" campaign. Unfortunately they chose to use the technology from the multinational OD2. This means that only windows users, with the latest Windows Media Player can access the music. <!--more-->
 The website [Big Noise Music](http://www.bignoisemusic.com) is only accessible for internet explorer on Microsoft Windows, because the Windows Media Player for the Mac does not support the files required and other systems have no access to the Windows Media Player at all. An organization that promotes fair trade should at least consider giving a good example and do not force people to use products from a company that does not make fair trade at all.
 
 Since it is a plain fact that Microsoft is a company that dominates the world of IT. It asks incredible prices for a product that should in some way be accessible to all, if the fair trade and development ideas of Oxfam would be of more general use. However, in the current situation the one multinational in the IT business is keeping good IT infrastructure and IT education away from a huge amount of countries, people and organizations with less money to spend.
