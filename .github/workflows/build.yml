@@ -38,6 +38,11 @@ jobs:
     - name: Run Cypress end-to-end tests
       run: just test
 
+    - name: Check URLs (internal links + parity against baseline)
+      run: |
+        just build
+        python3 scripts/check_urls.py build --baseline docs/migration/url-parity-baseline.txt --ignore docs/migration/known-dead-links.txt
+
     - name: Upload test artifacts on failure
       if: failure()
       uses: actions/upload-artifact@v4
