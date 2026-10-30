@@ -1,0 +1,44 @@
+name: Baseline build + URL inventory
+
+# Part of the Hugo migration prep (#138): freezes the built site and a full
+# URL inventory as artifacts so the Hugo build can later be verified for
+# URL parity. Runs on main so the baseline tracks the production site.
+
+on:
+  push:
+    branches:
+      - main
+  workflow_dispatch:
+
+jobs:
+  baseline:
+    runs-on: ubuntu-latest
+
+    steps:
+    - name: Checkout code
+      uses: actions/checkout@v4
+
+    - name: Install just
+      uses: extractions/setup-just@v4
+
+    - name: Build site
+      run: just build
+
+    - name: Extract URL inventory
+      run: |
+        python3 scripts/extract_urls.py build https://berk.es > urls.txt
+        wc -l urls.txt
+
+    - name: Upload site baseline
+      uses: actions/upload-artifact@v4
+      with:
+        name: site-baseline
+        path: build/
+        retention-days: 90
+
+    - name: Upload URL inventory
+      uses: actions/upload-artifact@v4
+      with:
+        name: url-inventory
+        path: urls.txt
+        retention-days: 90
