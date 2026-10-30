@@ -1,6 +1,7 @@
 ---
 layout: post_archive
 title: Depeche Mode - Another victim of the loudness race
+date: 2006-05-02
 created: 1146570793
 tags:
 - music

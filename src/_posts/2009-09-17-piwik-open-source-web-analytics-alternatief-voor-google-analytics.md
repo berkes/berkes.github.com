@@ -1,6 +1,7 @@
 ---
 layout: post_archive
 title: ! 'Piwik: open source web analytics: alternatief voor Google Analytics'
+date: 2009-09-17
 created: 1253191016
 tags:
 - google

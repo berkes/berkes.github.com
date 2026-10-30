@@ -1,6 +1,7 @@
 ---
 layout: post_archive
 title: ! 'Brickslate: Moving phptemplate a step closer to perfection :)'
+date: 2006-02-09
 created: 1139479454
 tags:
 - drupal

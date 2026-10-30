@@ -1,6 +1,7 @@
 ---
 layout: post_archive
 title: HOWTO create a real menu trail in primary and secondary links
+date: 2006-10-13
 created: 1160748265
 tags:
 - php

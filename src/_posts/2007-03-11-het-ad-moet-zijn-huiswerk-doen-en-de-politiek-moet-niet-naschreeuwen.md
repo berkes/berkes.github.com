@@ -1,6 +1,7 @@
 ---
 layout: post_archive
 title: Het AD moet zijn huiswerk doen (en de politiek moet niet naschreeuwen)
+date: 2007-03-11
 created: 1173609522
 tags:
 - media

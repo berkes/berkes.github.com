@@ -4,6 +4,7 @@ tags: [maintenance, frameworks, rails, django, symfony, rad,
 architecture]
 lang: en
 layout: post
+date: 2022-09-06
 ---
 
 In this article I'm putting together my quotes, thoughts and notes on the idea

@@ -1,6 +1,7 @@
 ---
 layout: post_archive
 title: insuline pomp
+date: 2005-04-20
 created: 1114023404
 tags:
 - diabetes blog

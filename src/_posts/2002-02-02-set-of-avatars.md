@@ -1,6 +1,7 @@
 ---
 layout: post_archive
 title: Set of avatars
+date: 2002-02-02
 created: 1012663332
 tags:
 

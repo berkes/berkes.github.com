@@ -1,6 +1,7 @@
 ---
 layout: post_archive
 title: Story of a Drupal-Beleiver installing Joomla! 1.5 Beta
+date: 2007-01-16
 created: 1168945292
 tags:
 - php

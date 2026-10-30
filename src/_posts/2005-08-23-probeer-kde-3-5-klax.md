@@ -1,6 +1,7 @@
 ---
 layout: post_archive
 title: ! 'probeer KDE 3.5: Klax'
+date: 2005-08-23
 created: 1124781282
 tags:
 - programming

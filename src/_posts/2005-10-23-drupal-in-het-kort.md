@@ -1,6 +1,7 @@
 ---
 layout: post_archive
 title: Drupal in het kort
+date: 2005-10-23
 created: 1130075897
 tags:
 

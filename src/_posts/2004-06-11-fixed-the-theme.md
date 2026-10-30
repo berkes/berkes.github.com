@@ -1,6 +1,7 @@
 ---
 layout: post_archive
 title: Fixed the theme
+date: 2004-06-11
 created: 1086988965
 tags:
 

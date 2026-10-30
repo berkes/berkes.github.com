@@ -1,6 +1,7 @@
 ---
 layout: post_archive
 title: Pocket revolution nu echt
+date: 2005-09-12
 created: 1126554948
 tags:
 - music

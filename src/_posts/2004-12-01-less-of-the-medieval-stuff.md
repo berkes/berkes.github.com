@@ -1,6 +1,7 @@
 ---
 layout: post_archive
 title: Less of the medieval stuff
+date: 2004-12-01
 created: 1101934299
 tags:
 

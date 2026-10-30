@@ -1,6 +1,7 @@
 ---
 layout: post_archive
 title: WYSIWYG vs. "HTML Helper"
+date: 2008-11-18
 created: 1227026060
 tags:
 - drupal

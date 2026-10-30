@@ -1,6 +1,7 @@
 ---
 layout: post_archive
 title: Headroom op Stubru
+date: 2005-12-08
 created: 1134076177
 tags:
 

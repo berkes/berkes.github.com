@@ -1,6 +1,7 @@
 ---
 layout: post_archive
 title: fatboy in a box
+date: 2005-11-26
 created: 1132995608
 tags:
 

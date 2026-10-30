@@ -1,6 +1,7 @@
 ---
 layout: post_archive
 title: Botha overleden
+date: 2006-10-31
 created: 1162329385
 tags:
 - politics

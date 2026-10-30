@@ -1,6 +1,7 @@
 ---
 layout: post_archive
 title: Googlen in ruil voor je gegevens is helemaal niet nodig.
+date: 2010-03-09
 created: 1268124500
 tags:
 - privacy

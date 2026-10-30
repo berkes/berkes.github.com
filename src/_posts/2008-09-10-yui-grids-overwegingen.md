@@ -1,6 +1,7 @@
 ---
 layout: post_archive
 title: YUI-grids overwegingen
+date: 2008-09-10
 created: 1221058595
 tags:
 - yui

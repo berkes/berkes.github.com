@@ -1,6 +1,7 @@
 ---
 layout: post_archive
 title: ! 'Wat kan wel en niet met Drupal: enkele vuistregels'
+date: 2012-01-11
 created: 1326295999
 tags:
 - drupal

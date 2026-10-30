@@ -1,6 +1,7 @@
 ---
 layout: post_archive
 title: Mozilla Usage Doubles in 9 Months
+date: 2004-09-05
 created: 1094382135
 tags:
 

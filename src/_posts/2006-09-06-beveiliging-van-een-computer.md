@@ -1,6 +1,7 @@
 ---
 layout: post_archive
 title: Beveiliging van een computer
+date: 2006-09-06
 created: 1157495058
 tags:
 - linux

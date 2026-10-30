@@ -1,6 +1,7 @@
 ---
 layout: post_archive
 title: Nog meer koolhydraten lijsten
+date: 2005-05-18
 created: 1116411561
 tags:
 - diabetes blog

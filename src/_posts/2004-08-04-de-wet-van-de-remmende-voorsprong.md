@@ -1,6 +1,7 @@
 ---
 layout: post_archive
 title: De wet van de remmende voorsprong
+date: 2004-08-04
 created: 1091636273
 tags:
 - sziget 2004 blog

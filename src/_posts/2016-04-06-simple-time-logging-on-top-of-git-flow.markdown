@@ -3,6 +3,7 @@ layout: post
 title: "Simple time logging on top of git flow"
 tags: [git, productivity]
 lang: en
+date: 2016-04-06
 ---
 
 My current team found out that we should have tracked some time over the last year.

@@ -1,6 +1,7 @@
 ---
 layout: post_archive
 title: Several reasons why I prefer Github over Drupal for Hosting my Drupal Projects.
+date: 2012-03-23
 created: 1332497431
 tags:
 - 'drupal'

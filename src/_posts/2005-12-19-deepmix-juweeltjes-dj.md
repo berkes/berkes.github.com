@@ -1,6 +1,7 @@
 ---
 layout: post_archive
 title: ! 'deepmix juweeltjes: DJ Милованов'
+date: 2005-12-19
 created: 1134994832
 tags:
 - music

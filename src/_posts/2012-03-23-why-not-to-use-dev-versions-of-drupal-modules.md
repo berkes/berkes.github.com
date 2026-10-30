@@ -1,6 +1,7 @@
 ---
 layout: post_archive
 title: Why not to use -dev versions of Drupal-modules.
+date: 2012-03-23
 created: 1332500091
 tags:
 

@@ -1,6 +1,7 @@
 ---
 layout: post_archive
 title: Burgerjournalistiek is betrouwbaarder dan de klassieke media
+date: 2007-08-09
 created: 1186648152
 tags:
 - weblog

@@ -1,6 +1,7 @@
 ---
 layout: post_archive
 title: Zweden en privacy
+date: 2007-06-02
 created: 1180803916
 tags:
 - internet

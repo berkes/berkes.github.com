@@ -1,6 +1,7 @@
 ---
 layout: post_archive
 title: ! 'Drupal and the carpenter: Drupal can do you harm?'
+date: 2006-12-21
 created: 1166731647
 tags:
 - drupal

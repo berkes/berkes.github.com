@@ -1,6 +1,7 @@
 ---
 layout: post_archive
 title: splitsingen.
+date: 2004-12-16
 created: 1103152610
 tags:
 - ik heb niet getwijfeld over belgië

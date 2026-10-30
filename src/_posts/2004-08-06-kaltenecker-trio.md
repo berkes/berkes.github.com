@@ -1,6 +1,7 @@
 ---
 layout: post_archive
 title: Kaltenecker Trio
+date: 2004-08-06
 created: 1091794275
 tags:
 - sziget 2004 blog

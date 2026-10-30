@@ -1,6 +1,7 @@
 ---
 layout: post_archive
 title: We are experiencing a strange, database bug on RemixReading
+date: 2004-09-08
 created: 1094662176
 tags:
 - remix reading

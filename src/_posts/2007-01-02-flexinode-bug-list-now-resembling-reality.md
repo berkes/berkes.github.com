@@ -1,6 +1,7 @@
 ---
 layout: post_archive
 title: Flexinode bug list now resembling reality...
+date: 2007-01-02
 created: 1167777368
 tags:
 - php

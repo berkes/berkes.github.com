@@ -1,6 +1,7 @@
 ---
 layout: post_archive
 title: Ruby on rails boek binnen
+date: 2005-12-21
 created: 1135170712
 tags:
 

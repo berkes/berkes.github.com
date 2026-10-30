@@ -1,6 +1,7 @@
 ---
 layout: post_archive
 title: Rethink revision workflow
+date: 2004-11-15
 created: 1100507000
 tags:
 - drupal

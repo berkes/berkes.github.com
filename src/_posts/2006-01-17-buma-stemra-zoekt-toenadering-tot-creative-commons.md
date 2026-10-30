@@ -1,6 +1,7 @@
 ---
 layout: post_archive
 title: BUMA/STEMRA zoekt toenadering tot Creative Commons
+date: 2006-01-17
 created: 1137533681
 tags:
 - activist

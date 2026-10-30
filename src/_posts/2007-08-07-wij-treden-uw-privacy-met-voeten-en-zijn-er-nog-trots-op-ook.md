@@ -1,6 +1,7 @@
 ---
 layout: post_archive
 title: Wij treden uw privacy met voeten, en zijn er nog trots op ook!
+date: 2007-08-07
 created: 1186492343
 tags:
 - privacy

@@ -1,6 +1,7 @@
 ---
 layout: post_archive
 title: Zinvol? geweld
+date: 2007-04-27
 created: 1177625021
 tags:
 - persoonlijk

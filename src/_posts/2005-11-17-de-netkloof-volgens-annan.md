@@ -1,6 +1,7 @@
 ---
 layout: post_archive
 title: De netkloof volgens Annan
+date: 2005-11-17
 created: 1132216012
 tags:
 - activist

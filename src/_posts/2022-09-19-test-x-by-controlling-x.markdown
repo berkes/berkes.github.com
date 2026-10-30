@@ -3,6 +3,7 @@ title: '"How do I test X" is almost always answered with "by controlling X"'
 tags: [test, TDD]
 lang: en
 layout: post
+date: 2022-09-19
 ---
 
 Last week I stumbled upon a [StackOverflow

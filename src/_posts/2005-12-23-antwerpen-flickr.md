@@ -1,6 +1,7 @@
 ---
 layout: post_archive
 title: Antwerpen @ Flickr
+date: 2005-12-23
 created: 1135378332
 tags:
 - ik heb niet getwijfeld over belgië

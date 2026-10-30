@@ -1,6 +1,7 @@
 ---
 layout: post_archive
 title: Zet de Hyves open
+date: 2007-05-13
 created: 1179087494
 tags:
 - internet

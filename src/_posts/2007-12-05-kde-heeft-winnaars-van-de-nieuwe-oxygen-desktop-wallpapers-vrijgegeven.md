@@ -1,6 +1,7 @@
 ---
 layout: post_archive
 title: KDE heeft winnaars van de nieuwe Oxygen desktop wallpapers vrijgegeven
+date: 2007-12-05
 created: 1196861774
 tags:
 - kde

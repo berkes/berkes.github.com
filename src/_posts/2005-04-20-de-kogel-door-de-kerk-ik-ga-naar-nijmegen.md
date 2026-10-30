@@ -1,6 +1,7 @@
 ---
 layout: post_archive
 title: ! 'De kogel door de kerk: ik ga naar Nijmegen'
+date: 2005-04-20
 created: 1114025478
 tags:
 - diabetes blog

@@ -1,6 +1,7 @@
 ---
 layout: post_archive
 title: Rotsvast wonen per mail
+date: 2005-09-21
 created: 1127317392
 tags:
 - programming

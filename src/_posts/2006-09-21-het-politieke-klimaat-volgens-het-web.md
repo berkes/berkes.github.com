@@ -1,6 +1,7 @@
 ---
 layout: post_archive
 title: ! '"Het politieke klimaat" volgens het web'
+date: 2006-09-21
 created: 1158790975
 tags:
 - politics

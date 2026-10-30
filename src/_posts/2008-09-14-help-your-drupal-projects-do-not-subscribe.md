@@ -1,6 +1,7 @@
 ---
 layout: post_archive
 title: ! 'Help your Drupal projects: do not ''subscribe'''
+date: 2008-09-14
 created: 1221411180
 tags:
 - project management

@@ -1,6 +1,7 @@
 ---
 layout: post_archive
 title: Een veelgemaakte Drupal fout onder nieuwe ontwikkelaars
+date: 2007-12-05
 created: 1196892333
 tags:
 - drupal

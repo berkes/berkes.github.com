@@ -3,6 +3,7 @@ layout: post
 title: "When FactoryGirl leads to bad habits"
 tags: [rails]
 lang: en
+date: 2015-02-19
 ---
 
 [FactoryGirl](https://github.com/thoughtbot/factory_girl) is a solution for cleaning up the repetitive task of

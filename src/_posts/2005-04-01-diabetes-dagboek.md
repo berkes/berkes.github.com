@@ -1,6 +1,7 @@
 ---
 layout: post_archive
 title: Diabetes dagboek
+date: 2005-04-01
 created: 1112373609
 tags:
 - diabetes blog

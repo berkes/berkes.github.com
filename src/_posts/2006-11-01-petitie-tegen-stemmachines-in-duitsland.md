@@ -1,6 +1,7 @@
 ---
 layout: post_archive
 title: Petitie tegen stemmachines in Duitsland
+date: 2006-11-01
 created: 1162389268
 tags:
 - politics

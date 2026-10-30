@@ -1,6 +1,7 @@
 ---
 layout: post_archive
 title: SCO hacked?
+date: 2004-11-29
 created: 1101725633
 tags:
 - activist

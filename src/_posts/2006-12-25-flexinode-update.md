@@ -1,6 +1,7 @@
 ---
 layout: post_archive
 title: Flexinode update
+date: 2006-12-25
 created: 1167049673
 tags:
 - drupal

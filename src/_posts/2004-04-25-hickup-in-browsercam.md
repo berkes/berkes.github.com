@@ -1,6 +1,7 @@
 ---
 layout: post_archive
 title: Hickup in browsercam
+date: 2004-04-25
 created: 1082930178
 tags:
 

@@ -1,6 +1,7 @@
 ---
 layout: post_archive
 title: Buma/Stemra Blocker voor Drupal
+date: 2009-10-06
 created: 1254864022
 tags:
 - politics

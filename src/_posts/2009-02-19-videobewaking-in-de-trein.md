@@ -1,6 +1,7 @@
 ---
 layout: post_archive
 title: Videobewaking in de trein
+date: 2009-02-19
 created: 1235047448
 tags:
 - privacy

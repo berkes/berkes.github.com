@@ -1,6 +1,7 @@
 ---
 layout: post_archive
 title: Using RSS to stay informed about a post
+date: 2007-02-14
 created: 1171484043
 tags:
 - knowledge management

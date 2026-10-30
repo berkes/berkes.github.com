@@ -1,6 +1,7 @@
 ---
 layout: post_archive
 title: Genne Vastelôavend veur mich
+date: 2007-02-19
 created: 1171924167
 tags:
 - groenlinks

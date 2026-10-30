@@ -1,6 +1,7 @@
 ---
 layout: post_archive
 title: Why He Will Not Seek a Best Documentary Oscar
+date: 2004-09-09
 created: 1094723025
 tags:
 - activist

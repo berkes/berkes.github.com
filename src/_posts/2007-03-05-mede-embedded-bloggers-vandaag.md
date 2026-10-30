@@ -1,6 +1,7 @@
 ---
 layout: post_archive
 title: Mede Embedded bloggers vandaag
+date: 2007-03-05
 created: 1173089643
 tags:
 - groenlinks

@@ -2,6 +2,7 @@
 layout: post_archive
 title: ! 'Volgende twitter-experiment: alles naar twitter dumpen. (en daarmee aantonen
   dat twitter dit jaar gaat verzuipen)'
+date: 2010-01-30
 created: 1264847891
 tags:
 - twitter

@@ -1,6 +1,7 @@
 ---
 layout: post_archive
 title: debian vs fedora
+date: 2005-09-09
 created: 1126254666
 tags:
 

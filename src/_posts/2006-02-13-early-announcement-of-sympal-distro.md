@@ -1,6 +1,7 @@
 ---
 layout: post_archive
 title: Early announcement of sympal distro
+date: 2006-02-13
 created: 1139818819
 tags:
 - drupal

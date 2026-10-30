@@ -1,6 +1,7 @@
 ---
 layout: post_archive
 title: Good joke or bad taste?
+date: 2004-02-20
 created: 1077300660
 tags:
 

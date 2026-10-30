@@ -1,6 +1,7 @@
 ---
 layout: post_archive
 title: Stop-motion streetart animatie
+date: 2008-05-17
 created: 1211060109
 tags:
 - creative commons

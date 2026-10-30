@@ -1,6 +1,7 @@
 ---
 layout: post_archive
 title: Beelden Dolfijnenslachtpartij in Japan
+date: 2007-03-02
 created: 1172863305
 tags:
 - dwars

@@ -1,6 +1,7 @@
 ---
 layout: post_archive
 title: Scarlet Spagetti
+date: 2005-05-19
 created: 1116529080
 tags:
 

@@ -1,6 +1,7 @@
 ---
 layout: post_archive
 title: Roken en eten gaan niet samen.
+date: 2006-12-14
 created: 1166122052
 tags:
 - politics

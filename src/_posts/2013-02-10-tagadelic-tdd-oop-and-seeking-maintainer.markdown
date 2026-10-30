@@ -3,6 +3,7 @@ layout: post
 title: "Tagadelic: TDD, OOP and seeking maintainer"
 tags: [tagadelic, Drupal, TDD, OOP]
 lang: en
+date: 2013-02-10
 ---
 
 **TL;DR**: [Tagadelic](http://drupal.org/project/tagadelic) is close to a Drupal 7 release, with an easy upgrade

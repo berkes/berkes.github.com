@@ -1,6 +1,7 @@
 ---
 layout: post_archive
 title: Autmatic add or remove files to an SVN repository
+date: 2005-05-17
 created: 1116348368
 tags:
 - library

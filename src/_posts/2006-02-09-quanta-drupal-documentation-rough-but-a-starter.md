@@ -1,6 +1,7 @@
 ---
 layout: post_archive
 title: Quanta drupal documentation. Rough, but a starter.
+date: 2006-02-09
 created: 1139477805
 tags:
 - drupal

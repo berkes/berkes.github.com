@@ -1,6 +1,7 @@
 ---
 layout: post_archive
 title: Sky Sail trekt schepen over de oceaan
+date: 2005-05-06
 created: 1115373508
 tags:
 - activist

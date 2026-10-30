@@ -1,6 +1,7 @@
 ---
 layout: post_archive
 title: NVJ ook vor de blogger. artikel op DNR
+date: 2007-04-03
 created: 1175591484
 tags:
 - media

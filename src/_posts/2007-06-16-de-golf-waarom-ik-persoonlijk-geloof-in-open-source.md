@@ -1,6 +1,7 @@
 ---
 layout: post_archive
 title: ! 'De Golf: Waarom ik, persoonlijk, geloof in Open Source.'
+date: 2007-06-16
 created: 1182028733
 tags:
 - bler

@@ -1,6 +1,7 @@
 ---
 layout: post_archive
 title: waarom ik woon waar ik woon.
+date: 2006-01-11
 created: 1137015287
 tags:
 - ik heb niet getwijfeld over belgië

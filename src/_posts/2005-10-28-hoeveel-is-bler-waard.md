@@ -1,6 +1,7 @@
 ---
 layout: post_archive
 title: Hoeveel is Bler waard?
+date: 2005-10-28
 created: 1130488082
 tags:
 

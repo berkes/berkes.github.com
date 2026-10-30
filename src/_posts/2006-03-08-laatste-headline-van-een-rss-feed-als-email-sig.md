@@ -1,6 +1,7 @@
 ---
 layout: post_archive
 title: laatste headline van een RSS feed als email sig.
+date: 2006-03-08
 created: 1141812918
 tags:
 - programming

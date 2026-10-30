@@ -1,6 +1,7 @@
 ---
 layout: post_archive
 title: Drupal Roadmap, Proposal
+date: 2004-04-13
 created: 1081885112
 tags:
 - programming

@@ -3,6 +3,7 @@ layout: post
 title: "So, I am starting as Ruby Developer at Savvii"
 tags: [savvi, wordpress]
 lang: en
+date: 2013-07-31
 ---
 
 Monday (5th of <del>Juli</del>August) I am starting at the startup [Savvii](http://savvii.nl). To

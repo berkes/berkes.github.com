@@ -1,6 +1,7 @@
 ---
 layout: post_archive
 title: ! 'Mijn kerstplannen: Void'
+date: 2005-12-20
 created: 1135099028
 tags:
 - diabetes blog

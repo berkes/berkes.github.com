@@ -1,6 +1,7 @@
 ---
 layout: post_archive
 title: Recomended software
+date: 2004-09-15
 created: 1095231773
 tags:
 

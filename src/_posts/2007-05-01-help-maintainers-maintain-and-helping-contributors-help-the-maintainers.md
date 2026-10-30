@@ -1,6 +1,7 @@
 ---
 layout: post_archive
 title: Help maintainers maintain. And helping contributors help the maintainers.
+date: 2007-05-01
 created: 1178024359
 tags:
 - drupal

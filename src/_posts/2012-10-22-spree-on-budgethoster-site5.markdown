@@ -4,6 +4,7 @@ title: "Spree e-commerce on budgethoster Site5"
 tags: [whitepaper, ruby on rails, spree, e-commerce, hosting, server, site5,
 git-deploy]
 lang: en
+date: 2012-10-22
 ---
 
 Recently I rolled out a

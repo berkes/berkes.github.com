@@ -1,6 +1,7 @@
 ---
 layout: post_archive
 title: DVDbackup de oplossing?
+date: 2005-05-12
 created: 1115930017
 tags:
 - programming

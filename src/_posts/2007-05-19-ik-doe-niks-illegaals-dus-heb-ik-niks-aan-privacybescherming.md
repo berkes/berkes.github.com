@@ -1,6 +1,7 @@
 ---
 layout: post_archive
 title: Ik doe niks illegaals, dus heb ik niks aan privacybescherming.
+date: 2007-05-19
 created: 1179565347
 tags:
 - politics

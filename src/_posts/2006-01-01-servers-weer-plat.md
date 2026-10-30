@@ -1,6 +1,7 @@
 ---
 layout: post_archive
 title: servers weer plat
+date: 2006-01-01
 created: 1136131738
 tags:
 

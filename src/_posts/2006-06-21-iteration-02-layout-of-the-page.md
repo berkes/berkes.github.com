@@ -1,6 +1,7 @@
 ---
 layout: post_archive
 title: ! 'Iteration 02: Layout of the page.'
+date: 2006-06-21
 created: 1150890088
 tags:
 - drupal

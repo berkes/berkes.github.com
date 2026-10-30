@@ -1,6 +1,7 @@
 ---
 layout: post_archive
 title: IRC beats google, honderd keer zo snel
+date: 2007-07-26
 created: 1185477275
 tags:
 - web2.0

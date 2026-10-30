@@ -1,6 +1,7 @@
 ---
 layout: post_archive
 title: Open Source Development with CVS
+date: 2005-04-09
 created: 1113033374
 tags:
 - wishlist

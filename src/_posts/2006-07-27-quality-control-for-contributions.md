@@ -1,6 +1,7 @@
 ---
 layout: post_archive
 title: Quality control for contributions.
+date: 2006-07-27
 created: 1153987351
 tags:
 - drupal

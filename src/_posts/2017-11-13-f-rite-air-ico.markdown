@@ -3,6 +3,7 @@ title: "F/Rite Air ICO"
 tags: [Bitcoin, blockchain, ICO]
 layout: post
 lang: nl
+date: 2017-11-13
 ---
 
 F/Rite air, [was een 1-aprilgrap van

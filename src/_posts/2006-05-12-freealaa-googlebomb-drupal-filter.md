@@ -1,6 +1,7 @@
 ---
 layout: post_archive
 title: Freealaa googlebomb Drupal filter.
+date: 2006-05-12
 created: 1147422100
 tags:
 - activist

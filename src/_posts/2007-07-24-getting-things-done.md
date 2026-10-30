@@ -1,6 +1,7 @@
 ---
 layout: post_archive
 title: Getting Things Done
+date: 2007-07-24
 created: 1185274358
 tags:
 - kde

@@ -1,6 +1,7 @@
 ---
 layout: post_archive
 title: How to make (Drupal) blogs more conversational
+date: 2007-01-11
 created: 1168547559
 tags:
 - knowledge management

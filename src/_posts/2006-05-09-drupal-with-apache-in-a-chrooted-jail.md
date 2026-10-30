@@ -1,6 +1,7 @@
 ---
 layout: post_archive
 title: Drupal with apache in a chrooted jail
+date: 2006-05-09
 created: 1147185377
 tags:
 - server

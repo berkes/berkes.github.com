@@ -1,6 +1,7 @@
 ---
 layout: post_archive
 title: grappige spam
+date: 2005-10-21
 created: 1129909930
 tags:
 - programming

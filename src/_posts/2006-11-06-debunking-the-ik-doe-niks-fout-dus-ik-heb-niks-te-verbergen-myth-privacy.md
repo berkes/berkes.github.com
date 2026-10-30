@@ -1,6 +1,7 @@
 ---
 layout: post_archive
 title: ! 'Debunking the "ik doe niks fout, dus ik heb niks te verbergen" myth: Privacy'
+date: 2006-11-06
 created: 1162810469
 tags:
 - politics

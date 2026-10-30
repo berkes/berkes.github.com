@@ -1,6 +1,7 @@
 ---
 layout: post_archive
 title: Wij vertrouwen de stemcomputers niet
+date: 2006-07-14
 created: 1152883853
 tags:
 - activist

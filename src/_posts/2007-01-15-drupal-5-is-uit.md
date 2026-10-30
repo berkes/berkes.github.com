@@ -1,6 +1,7 @@
 ---
 layout: post_archive
 title: Drupal 5 is uit.
+date: 2007-01-15
 created: 1168866295
 tags:
 - drupal

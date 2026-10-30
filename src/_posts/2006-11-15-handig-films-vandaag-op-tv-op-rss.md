@@ -1,6 +1,7 @@
 ---
 layout: post_archive
 title: ! 'handig: films vandaag op TV op RSS'
+date: 2006-11-15
 created: 1163607071
 tags:
 - movie monger

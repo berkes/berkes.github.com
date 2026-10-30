@@ -1,6 +1,7 @@
 ---
 layout: post_archive
 title: war journalism
+date: 2005-01-06
 created: 1105014795
 tags:
 - activist

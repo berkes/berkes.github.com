@@ -3,6 +3,7 @@ layout: post
 title: "Selecting a Good WYSIWYG for Rails: it's all about use-cases"
 tags: [rails, wysiwyg]
 lang: en
+date: 2015-02-03
 ---
 There is no such thing as "a good WYSIWYG" without looking closely at the case you are trying to solve and the preconditions you want to set. WYSIWYG, is, unfortunately, a label that is applied to far too many solutions for varying problems.
 

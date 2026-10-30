@@ -1,6 +1,7 @@
 ---
 layout: post_archive
 title: ! '"Little Darling if you hear me now"'
+date: 2004-12-06
 created: 1102372770
 tags:
 - music

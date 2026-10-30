@@ -1,6 +1,7 @@
 ---
 layout: post_archive
 title: Vier dans-hypes op een rij.
+date: 2008-01-01
 created: 1199210587
 tags:
 - youtube

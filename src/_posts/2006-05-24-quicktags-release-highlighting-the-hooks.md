@@ -1,6 +1,7 @@
 ---
 layout: post_archive
 title: quicktags release, highlighting the hooks!
+date: 2006-05-24
 created: 1148505801
 tags:
 - drupal

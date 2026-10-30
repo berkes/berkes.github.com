@@ -1,6 +1,7 @@
 ---
 layout: post_archive
 title: Flexinode 4.7 third preview release
+date: 2007-02-06
 created: 1170753198
 tags:
 - php

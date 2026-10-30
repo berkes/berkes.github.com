@@ -1,6 +1,7 @@
 ---
 layout: post_archive
 title: Petition against neo nazi demostration
+date: 2004-09-10
 created: 1094772229
 tags:
 - activist

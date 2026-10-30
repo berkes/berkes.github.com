@@ -1,6 +1,7 @@
 ---
 layout: post_archive
 title: the forum WTF
+date: 2006-01-19
 created: 1137670155
 tags:
 - theming

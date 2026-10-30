@@ -1,6 +1,7 @@
 ---
 layout: post_archive
 title: Mycroft Search plugin for Drupal.org
+date: 2005-03-11
 created: 1110528458
 tags:
 - programming

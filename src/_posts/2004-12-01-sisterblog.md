@@ -1,6 +1,7 @@
 ---
 layout: post_archive
 title: SisterBlog
+date: 2004-12-01
 created: 1101910895
 tags:
 

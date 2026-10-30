@@ -1,6 +1,7 @@
 ---
 layout: post_archive
 title: Ik heb dus niet gestemd. Niet mogen/kunnen stemmen is ook kut
+date: 2006-11-23
 created: 1164238362
 tags:
 - ik heb niet getwijfeld over belgië

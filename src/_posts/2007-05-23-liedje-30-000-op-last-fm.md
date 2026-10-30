@@ -1,6 +1,7 @@
 ---
 layout: post_archive
 title: Liedje 30.000 op last FM
+date: 2007-05-23
 created: 1179931379
 tags:
 - music

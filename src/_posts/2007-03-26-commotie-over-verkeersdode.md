@@ -1,6 +1,7 @@
 ---
 layout: post_archive
 title: Commotie over verkeersdode
+date: 2007-03-26
 created: 1174907288
 tags:
 - politiek

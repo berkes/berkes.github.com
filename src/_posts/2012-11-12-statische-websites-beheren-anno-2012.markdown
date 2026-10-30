@@ -3,6 +3,7 @@ layout: post
 title: "Statische websites beheren anno 2012"
 tags: [git, jekyll, blog, webdevelopment]
 lang: nl
+date: 2012-11-12
 ---
 Statische sites, bijvoorbeeld weblogs gemaakt met simpele HTML-bestandjes, maken een terugkomst. Gereedschappen als [Jekyll](http://jekyllrb.com/) samen met moderne revisiebeheersystemen als `git`, maken het opzetten van een simpele, statische site, vaak vele malen makkelijker dan het inregelen van een CMS. In dit artikel leg ik kort uit hoe een CMS zich dat verhoudt tot een statische site. Daarna bekijk ik een rijtje voor- en nadelen, mogelijkheden en onmogelijkheden. En als laatste beschrijf ik kort, hoe je in drie simpele (voor programmeurs, hackers en meer ervaren computergebruikers, althans) stappen, een site met Jekyll kunt opzetten.
 

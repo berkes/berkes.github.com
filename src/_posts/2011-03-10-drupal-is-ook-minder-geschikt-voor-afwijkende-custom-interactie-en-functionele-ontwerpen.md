@@ -2,6 +2,7 @@
 layout: post_archive
 title: Drupal is ook minder geschikt voor afwijkende, custom interactie en functionele
   ontwerpen
+date: 2011-03-10
 created: 1299755590
 tags:
 - ux

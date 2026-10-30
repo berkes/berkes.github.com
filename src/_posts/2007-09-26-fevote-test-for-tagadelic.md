@@ -1,6 +1,7 @@
 ---
 layout: post_archive
 title: FeVote test for tagadelic
+date: 2007-09-26
 created: 1190809919
 tags:
 - project management

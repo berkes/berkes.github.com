@@ -1,6 +1,7 @@
 ---
 layout: post_archive
 title: Indymedia Belgium RSS
+date: 2004-09-06
 created: 1094479354
 tags:
 - activist

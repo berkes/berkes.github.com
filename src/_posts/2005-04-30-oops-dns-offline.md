@@ -1,6 +1,7 @@
 ---
 layout: post_archive
 title: OOPS, DNS offline
+date: 2005-04-30
 created: 1114813558
 tags:
 

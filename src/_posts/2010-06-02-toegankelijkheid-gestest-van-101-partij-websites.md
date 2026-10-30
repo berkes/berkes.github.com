@@ -1,6 +1,7 @@
 ---
 layout: post_archive
 title: Toegankelijkheid gestest van 10+1 partij-websites.
+date: 2010-06-02
 created: 1275492090
 tags:
 - wai

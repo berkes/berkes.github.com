@@ -1,6 +1,7 @@
 ---
 layout: post_archive
 title: Commander (Quanta) form builder for Drupal
+date: 2005-10-30
 created: 1130672093
 tags:
 - drupal

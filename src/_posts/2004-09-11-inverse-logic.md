@@ -1,6 +1,7 @@
 ---
 layout: post_archive
 title: Inverse Logic
+date: 2004-09-11
 created: 1094882176
 tags:
 

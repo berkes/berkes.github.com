@@ -1,6 +1,7 @@
 ---
 layout: post_archive
 title: Clean and maintainable pattern for blocks development in Drupal 6
+date: 2010-12-31
 created: 1293798762
 tags:
 - programming

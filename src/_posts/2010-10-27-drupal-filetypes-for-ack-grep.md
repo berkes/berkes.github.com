@@ -1,6 +1,7 @@
 ---
 layout: post_archive
 title: Drupal filetypes for Ack grep.
+date: 2010-10-27
 created: 1288183361
 tags:
 - drupal

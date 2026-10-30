@@ -3,6 +3,7 @@ layout: post
 title: "git deploy or: How I Learned to Stop Worrying and Love Deployment"
 tags: [git, drupal, deployment]
 lang: en
+date: 2012-08-03
 ---
 
 

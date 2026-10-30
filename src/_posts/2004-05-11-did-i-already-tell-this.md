@@ -1,6 +1,7 @@
 ---
 layout: post_archive
 title: Did I already tell this?
+date: 2004-05-11
 created: 1084282601
 tags:
 

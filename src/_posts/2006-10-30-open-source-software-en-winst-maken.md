@@ -1,6 +1,7 @@
 ---
 layout: post_archive
 title: Open Source Software en winst maken.
+date: 2006-10-30
 created: 1162203875
 tags:
 - drupal

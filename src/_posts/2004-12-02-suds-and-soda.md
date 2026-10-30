@@ -1,6 +1,7 @@
 ---
 layout: post_archive
 title: Suds and Soda
+date: 2004-12-02
 created: 1101943735
 tags:
 - music

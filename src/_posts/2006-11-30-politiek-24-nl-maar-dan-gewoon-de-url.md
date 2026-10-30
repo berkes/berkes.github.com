@@ -1,6 +1,7 @@
 ---
 layout: post_archive
 title: Politiek 24 . nl maar dan gewoon de url
+date: 2006-11-30
 created: 1164915755
 tags:
 - toegankelijkheid

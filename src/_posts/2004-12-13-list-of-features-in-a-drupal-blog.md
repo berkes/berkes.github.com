@@ -1,6 +1,7 @@
 ---
 layout: post_archive
 title: List of features in a drupal blog
+date: 2004-12-13
 created: 1102967381
 tags:
 - weblogging

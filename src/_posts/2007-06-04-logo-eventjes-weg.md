@@ -1,6 +1,7 @@
 ---
 layout: post_archive
 title: logo eventjes weg.
+date: 2007-06-04
 created: 1180990121
 tags:
 - bler

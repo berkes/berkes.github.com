@@ -1,6 +1,7 @@
 ---
 layout: post_archive
 title: Drupal cookies and privacy laws
+date: 2005-02-18
 created: 1108744664
 tags:
 

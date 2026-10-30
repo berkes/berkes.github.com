@@ -3,6 +3,7 @@ layout: post
 title: "3D printen walst de auteursrechten discussie binnen"
 tags: []
 lang: nl
+date: 2012-05-31
 ---
 
 

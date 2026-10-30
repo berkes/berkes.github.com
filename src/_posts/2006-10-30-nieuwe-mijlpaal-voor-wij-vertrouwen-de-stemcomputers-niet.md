@@ -1,6 +1,7 @@
 ---
 layout: post_archive
 title: Nieuwe mijlpaal voor "Wij vertrouwen de stemcomputers niet"
+date: 2006-10-30
 created: 1162243806
 tags:
 - activist

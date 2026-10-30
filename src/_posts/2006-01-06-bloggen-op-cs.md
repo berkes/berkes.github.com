@@ -1,6 +1,7 @@
 ---
 layout: post_archive
 title: Bloggen op CS
+date: 2006-01-06
 created: 1136565005
 tags:
 

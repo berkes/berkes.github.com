@@ -1,6 +1,7 @@
 ---
 layout: post_archive
 title: Geweldige afgang voor de Telegraaf en haar napraters
+date: 2007-04-16
 created: 1176718945
 tags:
 - dwars

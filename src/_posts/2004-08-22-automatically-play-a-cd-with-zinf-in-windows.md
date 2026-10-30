@@ -1,6 +1,7 @@
 ---
 layout: post_archive
 title: Automatically Play  a CD with Zinf in Windows
+date: 2004-08-22
 created: 1093179375
 tags:
 - programming

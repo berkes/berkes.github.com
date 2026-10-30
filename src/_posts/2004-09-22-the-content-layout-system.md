@@ -1,6 +1,7 @@
 ---
 layout: post_archive
 title: The Content Layout System
+date: 2004-09-22
 created: 1095864179
 tags:
 

@@ -1,6 +1,7 @@
 ---
 layout: post_archive
 title: Schrijf nooit welkom
+date: 2007-10-08
 created: 1191877503
 tags:
 - seo

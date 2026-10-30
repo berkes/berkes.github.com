@@ -1,6 +1,7 @@
 ---
 layout: post_archive
 title: Diabetes, Sync en FUD (en hoe het gevaarlijk is)
+date: 2007-08-21
 created: 1187723389
 tags:
 - diabetes blog

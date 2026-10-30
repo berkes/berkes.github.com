@@ -1,6 +1,7 @@
 ---
 layout: post_archive
 title: Tagadelic for Drupal 5.0
+date: 2006-12-22
 created: 1166806538
 tags:
 - drupal

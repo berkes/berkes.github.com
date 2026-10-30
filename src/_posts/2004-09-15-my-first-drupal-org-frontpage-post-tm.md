@@ -1,6 +1,7 @@
 ---
 layout: post_archive
 title: My First drupal.org frontpage Post [tm]
+date: 2004-09-15
 created: 1095220315
 tags:
 

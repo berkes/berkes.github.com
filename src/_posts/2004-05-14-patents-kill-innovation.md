@@ -1,6 +1,7 @@
 ---
 layout: post_archive
 title: Patents kill innovation!
+date: 2004-05-14
 created: 1084538808
 tags:
 

@@ -1,6 +1,7 @@
 ---
 layout: post_archive
 title: ! '"Rain or some other act of God"'
+date: 2008-10-30
 created: 1225358421
 tags:
 - politics

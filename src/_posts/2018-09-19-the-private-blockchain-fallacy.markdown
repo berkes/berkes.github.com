@@ -3,6 +3,7 @@ title: "The Private Blockchain Fallacy"
 tags: [blockchain, bitcoin]
 lang: en
 layout: post
+date: 2018-09-19
 ---
 In all the blockchain hype, a simple, yet self-refuting idea
 keeps popping up: a *Private Blockchain*.

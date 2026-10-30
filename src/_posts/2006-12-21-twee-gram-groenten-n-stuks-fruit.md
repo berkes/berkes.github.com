@@ -1,6 +1,7 @@
 ---
 layout: post_archive
 title: twee gram groenten één stuks fruit
+date: 2006-12-21
 created: 1166728821
 tags:
 - fruit

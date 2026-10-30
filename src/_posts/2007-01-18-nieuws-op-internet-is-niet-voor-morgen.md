@@ -1,6 +1,7 @@
 ---
 layout: post_archive
 title: Nieuws op internet is niet voor morgen
+date: 2007-01-18
 created: 1169132282
 tags:
 - internet

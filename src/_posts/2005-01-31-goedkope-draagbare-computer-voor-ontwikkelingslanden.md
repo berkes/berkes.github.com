@@ -1,6 +1,7 @@
 ---
 layout: post_archive
 title: Goedkope draagbare computer voor ontwikkelingslanden
+date: 2005-01-31
 created: 1107185595
 tags:
 - activist

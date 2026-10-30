@@ -1,6 +1,7 @@
 ---
 layout: post_archive
 title: Mandala Underground van Marionette Man
+date: 2007-11-05
 created: 1194276613
 tags:
 - podcast

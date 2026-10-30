@@ -1,6 +1,7 @@
 ---
 layout: post_archive
 title: Druby on Rails part 1
+date: 2005-12-21
 created: 1135199843
 tags:
 - drupal

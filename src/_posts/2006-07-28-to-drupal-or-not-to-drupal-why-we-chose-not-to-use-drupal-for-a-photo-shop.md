@@ -1,6 +1,7 @@
 ---
 layout: post_archive
 title: To Drupal or not to Drupal, why we chose not to use Drupal for a photo shop.
+date: 2006-07-28
 created: 1154077078
 tags:
 - drupal

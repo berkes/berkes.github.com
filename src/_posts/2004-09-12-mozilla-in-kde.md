@@ -1,6 +1,7 @@
 ---
 layout: post_archive
 title: Mozilla in KDE
+date: 2004-09-12
 created: 1095005908
 tags:
 

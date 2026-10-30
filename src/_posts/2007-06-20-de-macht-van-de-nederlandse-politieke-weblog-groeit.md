@@ -1,6 +1,7 @@
 ---
 layout: post_archive
 title: De macht van de Nederlandse politieke weblog groeit
+date: 2007-06-20
 created: 1182354370
 tags:
 - dwars

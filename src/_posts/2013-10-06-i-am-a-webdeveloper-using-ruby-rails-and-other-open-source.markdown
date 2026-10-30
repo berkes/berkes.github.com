@@ -3,6 +3,7 @@ layout: post
 title: "I am a webdeveloper (using Ruby, Rails and other Open Source)"
 tags: [savvii, wordpress, drupal, ruby, rails]
 lang: en
+date: 2013-10-06
 ---
 
 Last few weeks, I had to explain quite a few times what it is I am doing

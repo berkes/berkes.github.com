@@ -1,6 +1,7 @@
 ---
 layout: post_archive
 title: Dogbert for president
+date: 2007-08-14
 created: 1187072652
 tags:
 - comic

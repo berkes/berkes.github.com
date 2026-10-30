@@ -1,6 +1,7 @@
 ---
 layout: post_archive
 title: Do politicians cheat?
+date: 2004-05-10
 created: 1084212964
 tags:
 - activist

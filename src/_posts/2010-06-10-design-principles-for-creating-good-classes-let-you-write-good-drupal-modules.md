@@ -1,6 +1,7 @@
 ---
 layout: post_archive
 title: Design principles for creating Good Classes let you write Good Drupal Modules.
+date: 2010-06-10
 created: 1276166851
 tags:
 - project management

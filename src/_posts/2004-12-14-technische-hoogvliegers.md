@@ -1,6 +1,7 @@
 ---
 layout: post_archive
 title: technische hoogvliegers
+date: 2004-12-14
 created: 1103022874
 tags:
 

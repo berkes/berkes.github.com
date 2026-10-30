@@ -1,6 +1,7 @@
 ---
 layout: post_archive
 title: Wizzlern. Onze nieuwe Drupaltrainer
+date: 2009-01-28
 created: 1233123824
 tags:
 - wizzlern

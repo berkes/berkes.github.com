@@ -1,6 +1,7 @@
 ---
 layout: post_archive
 title: Bilds publieke schandpaal
+date: 2008-06-09
 created: 1212963322
 tags:
 - schandpaal justitie bild

@@ -1,6 +1,7 @@
 ---
 layout: post_archive
 title: Het Frans Laarmans effect op internet
+date: 2006-10-10
 created: 1160509871
 tags:
 - webschuur

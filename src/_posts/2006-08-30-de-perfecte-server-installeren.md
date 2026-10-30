@@ -1,6 +1,7 @@
 ---
 layout: post_archive
 title: De perfecte server installeren
+date: 2006-08-30
 created: 1156925151
 tags:
 - server

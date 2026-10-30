@@ -1,6 +1,7 @@
 ---
 layout: post_archive
 title: Aptitude upgrade
+date: 2005-05-13
 created: 1115970894
 tags:
 - server

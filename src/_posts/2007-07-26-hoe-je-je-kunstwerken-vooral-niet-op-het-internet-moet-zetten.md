@@ -1,6 +1,7 @@
 ---
 layout: post_archive
 title: Hoe je je kunstwerken vooral niet op het internet moet zetten
+date: 2007-07-26
 created: 1185478147
 tags:
 - internet

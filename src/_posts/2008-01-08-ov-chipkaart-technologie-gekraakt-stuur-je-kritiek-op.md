@@ -1,6 +1,7 @@
 ---
 layout: post_archive
 title: OV-chipkaart technologie gekraakt, stuur je kritiek op.
+date: 2008-01-08
 created: 1199827139
 tags:
 - privacy

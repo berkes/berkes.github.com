@@ -1,6 +1,7 @@
 ---
 layout: post_archive
 title: Onze schrijfsels mogen alleen gelezen worden vanaf een scherm
+date: 2007-09-14
 created: 1189776848
 tags:
 - web0.1

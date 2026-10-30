@@ -1,6 +1,7 @@
 ---
 layout: post_archive
 title: Snipplr Drupal's code snippet feed
+date: 2007-09-27
 created: 1190925065
 tags:
 - programming

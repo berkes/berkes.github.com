@@ -1,6 +1,7 @@
 ---
 layout: post_archive
 title: ! '"Wie niet linkt, is inkt": Mabels edit'
+date: 2007-08-30
 created: 1188490712
 tags:
 - wikipedia

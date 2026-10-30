@@ -3,6 +3,7 @@ title: "Value Objects in Rust"
 tags: [rust, architecture]
 lang: en
 layout: post
+date: 2022-09-28
 ---
 
 When writing software in an OOP language, Value Objects are an invaluable (pun

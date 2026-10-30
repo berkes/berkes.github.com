@@ -1,6 +1,7 @@
 ---
 layout: post_archive
 title: Mysql server down again
+date: 2004-09-09
 created: 1094724420
 tags:
 - remix reading

@@ -1,6 +1,7 @@
 ---
 layout: post_archive
 title: Veilig surfen volgens NRC next
+date: 2007-01-03
 created: 1167779169
 tags:
 - programming

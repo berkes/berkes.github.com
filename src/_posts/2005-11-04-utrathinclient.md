@@ -1,6 +1,7 @@
 ---
 layout: post_archive
 title: utrathinclient
+date: 2005-11-04
 created: 1131099742
 tags:
 - programming

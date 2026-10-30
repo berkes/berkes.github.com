@@ -1,6 +1,7 @@
 ---
 layout: post_archive
 title: wanna be my friend?
+date: 2004-02-08
 created: 1076276760
 tags:
 

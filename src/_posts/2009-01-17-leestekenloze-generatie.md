@@ -1,6 +1,7 @@
 ---
 layout: post_archive
 title: leestekenloze generatie?
+date: 2009-01-17
 created: 1232212405
 tags:
 - internet

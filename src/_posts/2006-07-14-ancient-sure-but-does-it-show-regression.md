@@ -1,6 +1,7 @@
 ---
 layout: post_archive
 title: Ancient, sure. But does it show regression?
+date: 2006-07-14
 created: 1152889589
 tags:
 - php

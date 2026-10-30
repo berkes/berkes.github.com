@@ -1,6 +1,7 @@
 ---
 layout: post_archive
 title: Anti RSI voor KDE, rsibreak
+date: 2005-12-15
 created: 1134663395
 tags:
 

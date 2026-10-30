@@ -1,6 +1,7 @@
 ---
 layout: post_archive
 title: dork gets p0wned
+date: 2008-06-02
 created: 1212414077
 tags:
 

@@ -1,6 +1,7 @@
 ---
 layout: post_archive
 title: To Martel or not to Martel, is niet eens een vraag.
+date: 2006-11-17
 created: 1163754517
 tags:
 - politics

@@ -1,6 +1,7 @@
 ---
 layout: post_archive
 title: Champagne
+date: 2004-12-23
 created: 1103812240
 tags:
 - diabetes blog

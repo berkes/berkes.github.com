@@ -1,6 +1,7 @@
 ---
 layout: post_archive
 title: het einde van WYSIWYG, de toekomst is resultaat gericht
+date: 2005-10-11
 created: 1129016609
 tags:
 

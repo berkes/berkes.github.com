@@ -1,6 +1,7 @@
 ---
 layout: post_archive
 title: Hoe veilig is openID nu eigenlijk?
+date: 2007-12-07
 created: 1197051488
 tags:
 - server

@@ -1,6 +1,7 @@
 ---
 layout: post_archive
 title: containerschip aan de grond gelopen
+date: 2005-09-20
 created: 1127238366
 tags:
 

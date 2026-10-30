@@ -3,6 +3,7 @@ layout: post
 title: "Please, Ruby devs, join() your paths"
 tags: [ruby]
 lang: en
+date: 2013-03-21
 ---
 
 Like in most programming languages, when you write paths in ruby, e.g. to open a file you pass in a string:

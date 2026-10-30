@@ -1,6 +1,7 @@
 ---
 layout: post_archive
 title: Subscribe a batch of mailaddresses to mlmmj
+date: 2005-05-12
 created: 1115896250
 tags:
 

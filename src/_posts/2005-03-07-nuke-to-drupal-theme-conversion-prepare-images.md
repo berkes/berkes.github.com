@@ -1,6 +1,7 @@
 ---
 layout: post_archive
 title: ! 'Nuke to Drupal Theme conversion: Prepare images'
+date: 2005-03-07
 created: 1110216426
 tags:
 - osviews *nuke2drupal

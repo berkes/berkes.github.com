@@ -1,6 +1,7 @@
 ---
 layout: post_archive
 title: Theme workshop voor DrupalJam 2007
+date: 2007-11-17
 created: 1195289980
 tags:
 - php

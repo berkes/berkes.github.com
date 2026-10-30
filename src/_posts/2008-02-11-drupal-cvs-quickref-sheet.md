@@ -1,6 +1,7 @@
 ---
 layout: post_archive
 title: Drupal CVS Quickref Sheet
+date: 2008-02-11
 created: 1202721623
 tags:
 - project management

@@ -1,6 +1,7 @@
 ---
 layout: post_archive
 title: De grote krabbel non-conversatie
+date: 2007-08-15
 created: 1187167760
 tags:
 - conversatie

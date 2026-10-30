@@ -1,6 +1,7 @@
 ---
 layout: post_archive
 title: Yummy riem van Erik Kriek
+date: 2008-10-10
 created: 1223652548
 tags:
 - yummy

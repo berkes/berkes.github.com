@@ -1,6 +1,7 @@
 ---
 layout: post_archive
 title: Hang the DJ in mp3
+date: 2005-07-23
 created: 1122154131
 tags:
 - music

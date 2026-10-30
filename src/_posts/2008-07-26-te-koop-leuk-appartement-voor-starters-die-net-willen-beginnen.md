@@ -1,6 +1,7 @@
 ---
 layout: post_archive
 title: te koop. leuk appartement voor starters die net willen beginnen.
+date: 2008-07-26
 created: 1217104819
 tags:
 - huiskopen

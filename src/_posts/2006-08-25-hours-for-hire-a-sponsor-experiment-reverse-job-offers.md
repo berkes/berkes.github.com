@@ -1,6 +1,7 @@
 ---
 layout: post_archive
 title: Hours for hire, a sponsor experiment, Reverse Job Offers,
+date: 2006-08-25
 created: 1156510449
 tags:
 - project management

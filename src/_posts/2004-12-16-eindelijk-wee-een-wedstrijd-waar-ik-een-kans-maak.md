@@ -1,6 +1,7 @@
 ---
 layout: post_archive
 title: eindelijk wee een wedstrijd waar ik een kans maak
+date: 2004-12-16
 created: 1103231445
 tags:
 

@@ -1,6 +1,7 @@
 ---
 layout: post_archive
 title: Quick and Dirty Vitalist to Rememberthemilk migration script.
+date: 2008-07-03
 created: 1215114377
 tags:
 - project management

@@ -1,6 +1,7 @@
 ---
 layout: post_archive
 title: Afspraak met de dokter
+date: 2005-04-05
 created: 1112722246
 tags:
 - diabetes blog

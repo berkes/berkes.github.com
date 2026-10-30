@@ -1,6 +1,7 @@
 ---
 layout: post_archive
 title: Remix Reading uses cliipper.module
+date: 2004-09-08
 created: 1094661818
 tags:
 - remix reading

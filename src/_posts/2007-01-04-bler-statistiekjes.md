@@ -1,6 +1,7 @@
 ---
 layout: post_archive
 title: Bler statistiekjes
+date: 2007-01-04
 created: 1167925152
 tags:
 - bler

@@ -1,6 +1,7 @@
 ---
 layout: post_archive
 title: Bird Gerhl - Antony & the johnsons
+date: 2006-01-17
 created: 1137514859
 tags:
 - music

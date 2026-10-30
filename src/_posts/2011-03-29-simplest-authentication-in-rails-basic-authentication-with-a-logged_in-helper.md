@@ -2,6 +2,7 @@
 layout: post_archive
 title: ! 'Simplest authentication in Rails: Basic Authentication with a logged_in?
   helper.'
+date: 2011-03-29
 created: 1301404313
 tags:
 - ruby

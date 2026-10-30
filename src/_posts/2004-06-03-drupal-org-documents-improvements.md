@@ -1,6 +1,7 @@
 ---
 layout: post_archive
 title: Drupal.org documents improvements.
+date: 2004-06-03
 created: 1086275320
 tags:
 

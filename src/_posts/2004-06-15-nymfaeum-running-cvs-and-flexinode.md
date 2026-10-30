@@ -1,6 +1,7 @@
 ---
 layout: post_archive
 title: Nymfaeum running CVS and flexinode
+date: 2004-06-15
 created: 1087323380
 tags:
 - collaborative writing

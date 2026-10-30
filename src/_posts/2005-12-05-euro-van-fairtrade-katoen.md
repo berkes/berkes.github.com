@@ -1,6 +1,7 @@
 ---
 layout: post_archive
 title: Euro van fairtrade katoen
+date: 2005-12-05
 created: 1133773641
 tags:
 - activist

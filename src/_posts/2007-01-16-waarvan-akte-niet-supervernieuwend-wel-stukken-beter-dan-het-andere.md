@@ -1,6 +1,7 @@
 ---
 layout: post_archive
 title: Waarvan Akte, niet supervernieuwend, wel stukken beter dan "het andere".
+date: 2007-01-16
 created: 1168949271
 tags:
 - blog

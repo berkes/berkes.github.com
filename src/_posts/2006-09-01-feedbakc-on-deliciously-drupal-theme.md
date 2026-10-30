@@ -1,6 +1,7 @@
 ---
 layout: post_archive
 title: Feedbakc on deliciously Drupal theme
+date: 2006-09-01
 created: 1157134547
 tags:
 - design

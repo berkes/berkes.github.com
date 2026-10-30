@@ -1,6 +1,7 @@
 ---
 layout: post_archive
 title: Indymedia servers still gone
+date: 2004-10-09
 created: 1097309038
 tags:
 - activist

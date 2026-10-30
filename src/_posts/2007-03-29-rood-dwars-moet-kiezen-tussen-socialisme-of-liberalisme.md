@@ -1,6 +1,7 @@
 ---
 layout: post_archive
 title: ROOD "DWARS MOET KIEZEN TUSSEN SOCIALISME OF LIBERALISME"
+date: 2007-03-29
 created: 1175194391
 tags:
 - dwars

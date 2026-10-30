@@ -1,6 +1,7 @@
 ---
 layout: post_archive
 title: Presentation FOSDEM 2008 video online
+date: 2008-02-25
 created: 1203937230
 tags:
 - theming

@@ -1,6 +1,7 @@
 ---
 layout: post_archive
 title: firefox, and protecting users against themselves.
+date: 2004-12-21
 created: 1103643155
 tags:
 - activist

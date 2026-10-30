@@ -1,6 +1,7 @@
 ---
 layout: post_archive
 title: ! 'Hardware trouble: bler offline'
+date: 2005-01-19
 created: 1106144340
 tags:
 

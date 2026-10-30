@@ -1,6 +1,7 @@
 ---
 layout: post_archive
 title: De Andere Monteur. Een milieuvriendelijke monteur (in Nijmegen)
+date: 2008-01-04
 created: 1199449023
 tags:
 - monteur

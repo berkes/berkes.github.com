@@ -1,6 +1,7 @@
 ---
 layout: post_archive
 title: Firefox slow on Microsoft Windows?
+date: 2004-09-07
 created: 1094554787
 tags:
 - activist

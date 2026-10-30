@@ -1,6 +1,7 @@
 ---
 layout: post_archive
 title: RSS feed van kamers en appartementen in en om Nijmegen
+date: 2007-09-23
 created: 1190562649
 tags:
 - nijmegen

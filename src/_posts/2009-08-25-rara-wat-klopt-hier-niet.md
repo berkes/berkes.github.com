@@ -1,6 +1,7 @@
 ---
 layout: post_archive
 title: Rara wat klopt hier niet?
+date: 2009-08-25
 created: 1251230281
 tags:
 - raadsel

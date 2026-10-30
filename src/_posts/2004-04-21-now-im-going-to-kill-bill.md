@@ -1,6 +1,7 @@
 ---
 layout: post_archive
 title: Now im going to Kill Bill
+date: 2004-04-21
 created: 1082571484
 tags:
 - movie monger

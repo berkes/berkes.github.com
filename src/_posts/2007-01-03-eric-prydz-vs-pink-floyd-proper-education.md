@@ -1,6 +1,7 @@
 ---
 layout: post_archive
 title: Eric Prydz vs Pink Floyd -- Proper Education
+date: 2007-01-03
 created: 1167816389
 tags:
 - podcast

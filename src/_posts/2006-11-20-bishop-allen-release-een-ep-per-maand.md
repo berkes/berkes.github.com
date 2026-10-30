@@ -1,6 +1,7 @@
 ---
 layout: post_archive
 title: Bishop Allen, release een EP per maand
+date: 2006-11-20
 created: 1164032166
 tags:
 - music

@@ -1,6 +1,7 @@
 ---
 layout: post_archive
 title: Bler.partyfashion.net is moving
+date: 2004-06-02
 created: 1086184849
 tags:
 

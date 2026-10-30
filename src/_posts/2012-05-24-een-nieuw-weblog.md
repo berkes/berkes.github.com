@@ -3,6 +3,7 @@ layout: post
 title: "Een nieuw weblog"
 tags: [drupal, jekyll]
 lang: nl
+date: 2012-05-24
 ---
 
 

@@ -1,6 +1,7 @@
 ---
 layout: post_archive
 title: kus en klap
+date: 2005-07-24
 created: 1122190481
 tags:
 - activist

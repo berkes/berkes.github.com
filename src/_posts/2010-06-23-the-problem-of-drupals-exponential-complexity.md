@@ -1,6 +1,7 @@
 ---
 layout: post_archive
 title: The problem of Drupals exponential complexity
+date: 2010-06-23
 created: 1277294977
 tags:
 

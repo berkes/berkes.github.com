@@ -1,6 +1,7 @@
 ---
 layout: post_archive
 title: How would Darth Vader sell Drupal to people?
+date: 2006-01-31
 created: 1138696697
 tags:
 - drupal

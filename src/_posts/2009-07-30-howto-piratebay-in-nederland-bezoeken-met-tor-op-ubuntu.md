@@ -1,6 +1,7 @@
 ---
 layout: post_archive
 title: HOWTO Piratebay in Nederland bezoeken met TOR (op ubuntu)
+date: 2009-07-30
 created: 1248972804
 tags:
 - tor

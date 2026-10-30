@@ -1,6 +1,7 @@
 ---
 layout: post_archive
 title: Integrate PHPBB/Vbulleting etc. into Drupal? Or not?
+date: 2006-04-27
 created: 1146152799
 tags:
 - project management

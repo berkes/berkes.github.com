@@ -1,6 +1,7 @@
 ---
 layout: post_archive
 title: Choosing your system architecture for large scale Dupal deployment.
+date: 2006-09-19
 created: 1158663251
 tags:
 - php

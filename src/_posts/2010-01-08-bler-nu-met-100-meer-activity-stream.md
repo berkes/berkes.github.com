@@ -1,6 +1,7 @@
 ---
 layout: post_archive
 title: Bler, nu met 100% meer activity-stream
+date: 2010-01-08
 created: 1262946543
 tags:
 - twitter

@@ -1,6 +1,7 @@
 ---
 layout: post_archive
 title: Sista Cleo op uitnodiging van Dani Klein in Lux XL.
+date: 2007-05-06
 created: 1178452534
 tags:
 - music

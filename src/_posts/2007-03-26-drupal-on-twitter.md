@@ -1,6 +1,7 @@
 ---
 layout: post_archive
 title: Drupal on Twitter
+date: 2007-03-26
 created: 1174912175
 tags:
 - php

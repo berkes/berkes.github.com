@@ -1,6 +1,7 @@
 ---
 layout: post_archive
 title: Nieuw volkslied voor Nederland
+date: 2006-11-23
 created: 1164273129
 tags:
 - podcast

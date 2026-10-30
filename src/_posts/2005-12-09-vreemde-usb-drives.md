@@ -1,6 +1,7 @@
 ---
 layout: post_archive
 title: vreemde USB drives
+date: 2005-12-09
 created: 1134135184
 tags:
 

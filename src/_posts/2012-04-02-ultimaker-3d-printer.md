@@ -1,6 +1,7 @@
 ---
 layout: post_archive
 title: ! 'Ultimaker 3D printer. '
+date: 2012-04-02
 created: 1333397274
 tags:
 - 3d ultimaker diy hack

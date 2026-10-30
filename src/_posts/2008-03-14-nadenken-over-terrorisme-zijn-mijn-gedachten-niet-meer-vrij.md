@@ -1,6 +1,7 @@
 ---
 layout: post_archive
 title: Nadenken over Terrorisme. Zijn mijn gedachten niet meer vrij?
+date: 2008-03-14
 created: 1205501041
 tags:
 - politics

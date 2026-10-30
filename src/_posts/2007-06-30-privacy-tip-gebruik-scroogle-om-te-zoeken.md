@@ -1,6 +1,7 @@
 ---
 layout: post_archive
 title: ! 'Privacy tip: gebruik scroogle om te zoeken'
+date: 2007-06-30
 created: 1183230978
 tags:
 - privacy

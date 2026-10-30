@@ -1,6 +1,7 @@
 ---
 layout: post_archive
 title: Some tips for adminstrators and multisite providers to make Drupal more secure.
+date: 2006-02-12
 created: 1139761003
 tags:
 - drupal

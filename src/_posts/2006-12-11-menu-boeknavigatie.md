@@ -1,6 +1,7 @@
 ---
 layout: post_archive
 title: menu boeknavigatie
+date: 2006-12-11
 created: 1165840326
 tags:
 - programming

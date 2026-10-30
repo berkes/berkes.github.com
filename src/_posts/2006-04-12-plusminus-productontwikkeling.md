@@ -1,6 +1,7 @@
 ---
 layout: post_archive
 title: Plusminus productontwikkeling
+date: 2006-04-12
 created: 1144861564
 tags:
 

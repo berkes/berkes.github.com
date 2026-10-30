@@ -1,6 +1,7 @@
 ---
 layout: post_archive
 title: de Provincies en Creative Commons (cultuurbeleid enzo)
+date: 2007-03-05
 created: 1173104401
 tags:
 - creative commons

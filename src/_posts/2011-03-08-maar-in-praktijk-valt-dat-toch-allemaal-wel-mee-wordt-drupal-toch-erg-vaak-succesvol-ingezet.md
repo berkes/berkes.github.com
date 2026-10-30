@@ -2,6 +2,7 @@
 layout: post_archive
 title: Maar in praktijk valt dat toch allemaal wel mee, wordt Drupal toch erg vaak
   succesvol ingezet?
+date: 2011-03-08
 created: 1299587164
 tags:
 - ruby on rails

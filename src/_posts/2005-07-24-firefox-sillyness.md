@@ -1,6 +1,7 @@
 ---
 layout: post_archive
 title: firefox sillyness
+date: 2005-07-24
 created: 1122192686
 tags:
 - programming

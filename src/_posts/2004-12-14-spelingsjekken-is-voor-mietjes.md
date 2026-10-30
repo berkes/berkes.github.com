@@ -1,6 +1,7 @@
 ---
 layout: post_archive
 title: spelingsjekken is voor mietjes
+date: 2004-12-14
 created: 1103035982
 tags:
 

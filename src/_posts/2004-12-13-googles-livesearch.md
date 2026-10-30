@@ -1,6 +1,7 @@
 ---
 layout: post_archive
 title: googles livesearch
+date: 2004-12-13
 created: 1102962432
 tags:
 

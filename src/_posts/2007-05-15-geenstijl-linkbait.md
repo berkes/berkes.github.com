@@ -1,6 +1,7 @@
 ---
 layout: post_archive
 title: Geenstijl linkbait.
+date: 2007-05-15
 created: 1179265700
 tags:
 - groen links

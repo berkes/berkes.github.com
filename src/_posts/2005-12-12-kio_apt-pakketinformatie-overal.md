@@ -1,6 +1,7 @@
 ---
 layout: post_archive
 title: kio_apt pakketinformatie overal
+date: 2005-12-12
 created: 1134423658
 tags:
 - kde

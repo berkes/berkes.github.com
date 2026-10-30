@@ -1,6 +1,7 @@
 ---
 layout: post_archive
 title: ! 'ccLearn: vrij delen van onderwijsmateriaal'
+date: 2007-07-27
 created: 1185518415
 tags:
 - open source

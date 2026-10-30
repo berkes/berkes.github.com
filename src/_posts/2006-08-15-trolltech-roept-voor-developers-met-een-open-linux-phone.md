@@ -1,6 +1,7 @@
 ---
 layout: post_archive
 title: Trolltech roept voor developers met een "open" Linux phone
+date: 2006-08-15
 created: 1155652438
 tags:
 

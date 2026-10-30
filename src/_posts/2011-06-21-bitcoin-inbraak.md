@@ -1,6 +1,7 @@
 ---
 layout: post_archive
 title: Bitcoin inbraak,
+date: 2011-06-21
 created: 1308652427
 tags:
 - bitcoin

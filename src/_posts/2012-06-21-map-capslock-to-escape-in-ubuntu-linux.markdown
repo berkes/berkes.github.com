@@ -3,6 +3,7 @@ layout: post
 title: "Map capslock to escape in Ubuntu Linux"
 tags: []
 lang: en
+date: 2012-06-21
 ---
 
 

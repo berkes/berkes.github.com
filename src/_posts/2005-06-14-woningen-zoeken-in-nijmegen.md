@@ -1,6 +1,7 @@
 ---
 layout: post_archive
 title: woningen zoeken in Nijmegen
+date: 2005-06-14
 created: 1118752470
 tags:
 

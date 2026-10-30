@@ -1,6 +1,7 @@
 ---
 layout: post_archive
 title: ! '2007: het gedecentraliseerde web3.0'
+date: 2006-12-22
 created: 1166815286
 tags:
 - web2.0

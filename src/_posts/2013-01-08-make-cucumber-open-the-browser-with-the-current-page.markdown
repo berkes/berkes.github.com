@@ -3,6 +3,7 @@ layout: post
 title: "Make cucumber open the browser with the current page"
 tags: [cucumber, bdd, rails, ruby]
 lang: en
+date: 2013-01-08
 ---
 
 [The Cucumber Book](http://pragprog.com/book/hwcuc/the-cucumber-book)

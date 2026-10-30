@@ -1,6 +1,7 @@
 ---
 layout: post_archive
 title: KBC Online sucks for Mac!
+date: 2005-10-03
 created: 1128328463
 tags:
 

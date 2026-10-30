@@ -1,6 +1,7 @@
 ---
 layout: post_archive
 title: zwerfhacker
+date: 2005-07-05
 created: 1120558352
 tags:
 

@@ -1,6 +1,7 @@
 ---
 layout: post_archive
 title: ! 'Foutje: natrena bevat wel koolhydraten!'
+date: 2005-04-22
 created: 1114149984
 tags:
 - diabetes blog

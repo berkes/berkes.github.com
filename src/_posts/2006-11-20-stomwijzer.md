@@ -1,6 +1,7 @@
 ---
 layout: post_archive
 title: Stomwijzer
+date: 2006-11-20
 created: 1164050558
 tags:
 - politics

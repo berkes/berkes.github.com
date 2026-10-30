@@ -3,6 +3,7 @@ title: "Event Source your Spreadsheets for Flexibility and Maintainability"
 tags: []
 lang: en
 layout: "post"
+date: 2022-08-16
 ---
 
 Event Sourcing (ES) is one of those software paradigms that I wish I had known about much earlier. In hindsight [several of my projects and companies would have benefited greatly](https://twitter.com/berkes/status/1559268085655371776) from an Event Sourced Architecture.

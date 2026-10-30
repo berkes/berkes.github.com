@@ -1,6 +1,7 @@
 ---
 layout: post_archive
 title: Centering an item vertical and horizontal
+date: 2004-03-01
 created: 1078181040
 tags:
 - programming

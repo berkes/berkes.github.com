@@ -1,6 +1,7 @@
 ---
 layout: post_archive
 title: Lives heeft een niewe webstek
+date: 2005-11-01
 created: 1130880359
 tags:
 - programming

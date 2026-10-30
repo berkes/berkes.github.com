@@ -3,6 +3,7 @@ layout: post
 title: "Developing a tiny ecommerce site using microframework Slim"
 tags: [microframeworks, slim, PHP, iDeal, piratenpartij]
 lang: en
+date: 2012-11-19
 ---
 
 Last elections, I stepped forward as a volunteer for the [Dutch

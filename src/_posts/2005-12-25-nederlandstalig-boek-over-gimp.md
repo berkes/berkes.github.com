@@ -1,6 +1,7 @@
 ---
 layout: post_archive
 title: Nederlandstalig boek over GIMP
+date: 2005-12-25
 created: 1135537422
 tags:
 

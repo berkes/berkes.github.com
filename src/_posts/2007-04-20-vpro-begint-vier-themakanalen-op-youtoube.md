@@ -1,6 +1,7 @@
 ---
 layout: post_archive
 title: VPRO begint vier themakanalen op YouToube
+date: 2007-04-20
 created: 1177058676
 tags:
 - web2.0

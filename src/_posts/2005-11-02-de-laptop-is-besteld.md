@@ -1,6 +1,7 @@
 ---
 layout: post_archive
 title: De laptop is besteld!
+date: 2005-11-02
 created: 1130966862
 tags:
 

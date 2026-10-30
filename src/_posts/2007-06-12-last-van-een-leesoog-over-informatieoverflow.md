@@ -1,6 +1,7 @@
 ---
 layout: post_archive
 title: ! '''last'' van een leesoog. Over informatieoverflow.'
+date: 2007-06-12
 created: 1181683195
 tags:
 - internet

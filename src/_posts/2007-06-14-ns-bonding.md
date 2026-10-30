@@ -1,6 +1,7 @@
 ---
 layout: post_archive
 title: NS-bonding
+date: 2007-06-14
 created: 1181857071
 tags:
 - ns

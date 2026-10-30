@@ -2,6 +2,7 @@
 layout: post_archive
 title: Will Drupal become the next editorial tool (and cease being a community tool
   altogether?)
+date: 2010-02-10
 created: 1265808462
 tags:
 - social software

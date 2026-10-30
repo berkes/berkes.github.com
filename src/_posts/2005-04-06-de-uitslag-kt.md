@@ -1,6 +1,7 @@
 ---
 layout: post_archive
 title: De uitslag, k#t
+date: 2005-04-06
 created: 1112809219
 tags:
 - diabetes blog

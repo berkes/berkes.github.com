@@ -1,6 +1,7 @@
 ---
 layout: post_archive
 title: Online Internet Explorer screenshot makers
+date: 2007-10-17
 created: 1192612981
 tags:
 - design

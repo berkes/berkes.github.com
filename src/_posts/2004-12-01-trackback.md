@@ -1,6 +1,7 @@
 ---
 layout: post_archive
 title: trackback
+date: 2004-12-01
 created: 1101934444
 tags:
 

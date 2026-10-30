@@ -1,6 +1,7 @@
 ---
 layout: post_archive
 title: Miro, het nieuwe internet-televisie systeem.
+date: 2007-11-15
 created: 1195130727
 tags:
 - open source

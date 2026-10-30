@@ -1,6 +1,7 @@
 ---
 layout: post_archive
 title: ! 'kabaspam: commentaar moet weer even door de moderatie. Helaas.'
+date: 2006-05-29
 created: 1148913146
 tags:
 

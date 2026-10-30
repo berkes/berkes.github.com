@@ -1,6 +1,7 @@
 ---
 layout: post_archive
 title: Flexinode 4.7 preview release
+date: 2007-01-27
 created: 1169911363
 tags:
 - drupal

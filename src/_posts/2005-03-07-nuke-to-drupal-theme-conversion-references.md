@@ -1,6 +1,7 @@
 ---
 layout: post_archive
 title: ! 'Nuke to Drupal Theme Conversion: References'
+date: 2005-03-07
 created: 1110214939
 tags:
 - osviews *nuke2drupal

@@ -1,6 +1,7 @@
 ---
 layout: post_archive
 title: Voortgangs schermpjes centraliseren onder KDE
+date: 2006-05-24
 created: 1148474407
 tags:
 - programming

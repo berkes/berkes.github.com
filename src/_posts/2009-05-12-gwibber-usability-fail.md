@@ -1,6 +1,7 @@
 ---
 layout: post_archive
 title: Gwibber usability FAIL
+date: 2009-05-12
 created: 1242129067
 tags:
 - fail

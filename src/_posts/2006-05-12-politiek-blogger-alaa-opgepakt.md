@@ -1,6 +1,7 @@
 ---
 layout: post_archive
 title: Politiek Blogger Alaa opgepakt
+date: 2006-05-12
 created: 1147420067
 tags:
 - activist

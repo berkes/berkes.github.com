@@ -1,6 +1,7 @@
 ---
 layout: post_archive
 title: Bezoek aan de wapenmarkt in Pakistan.
+date: 2007-04-17
 created: 1176816894
 tags:
 - pakistan

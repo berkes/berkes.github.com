@@ -1,6 +1,7 @@
 ---
 layout: post_archive
 title: Project directories in Apache
+date: 2004-04-22
 created: 1082637440
 tags:
 - programming

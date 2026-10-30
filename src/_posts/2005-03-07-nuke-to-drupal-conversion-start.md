@@ -1,6 +1,7 @@
 ---
 layout: post_archive
 title: Nuke to Drupal conversion Start.
+date: 2005-03-07
 created: 1110214806
 tags:
 - osviews *nuke2drupal

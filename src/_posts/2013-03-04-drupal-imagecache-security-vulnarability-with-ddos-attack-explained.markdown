@@ -3,6 +3,7 @@ layout: post
 title: "Drupal Imagecache security vulnarability with DDOS attack explained"
 tags: [drupal, imagecache, security, ddos]
 lang: en
+date: 2013-03-04
 ---
 
 Nearly a year ago, long before I decided to move out of [Drupalwork

@@ -1,6 +1,7 @@
 ---
 layout: post_archive
 title: weirde referrrers
+date: 2005-09-13
 created: 1126605028
 tags:
 - programming

@@ -1,6 +1,7 @@
 ---
 layout: post_archive
 title: True and non-geek drupal community implentations
+date: 2005-01-12
 created: 1105491005
 tags:
 - social software

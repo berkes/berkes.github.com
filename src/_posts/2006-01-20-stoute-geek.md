@@ -1,6 +1,7 @@
 ---
 layout: post_archive
 title: Stoute Geek :)
+date: 2006-01-20
 created: 1137716522
 tags:
 

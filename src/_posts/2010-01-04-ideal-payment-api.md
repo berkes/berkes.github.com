@@ -1,6 +1,7 @@
 ---
 layout: post_archive
 title: Ideal Payment API
+date: 2010-01-04
 created: 1262634495
 tags:
 - programming

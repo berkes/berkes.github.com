@@ -1,6 +1,7 @@
 ---
 layout: post_archive
 title: ik delicious nu ook
+date: 2005-10-13
 created: 1129219226
 tags:
 - programming

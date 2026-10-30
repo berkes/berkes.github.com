@@ -1,6 +1,7 @@
 ---
 layout: post_archive
 title: festivalverslag sziget door OOR op een rijtje
+date: 2005-08-20
 created: 1124521932
 tags:
 - music

@@ -1,6 +1,7 @@
 ---
 layout: post_archive
 title: Comparison between OpenOffice and MS-Office
+date: 2005-01-04
 created: 1104859178
 tags:
 

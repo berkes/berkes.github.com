@@ -1,6 +1,7 @@
 ---
 layout: post_archive
 title: freshmeat in een nieuw jasje
+date: 2009-03-23
 created: 1237822916
 tags:
 - freshmeat

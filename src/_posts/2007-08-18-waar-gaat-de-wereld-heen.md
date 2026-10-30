@@ -1,6 +1,7 @@
 ---
 layout: post_archive
 title: Waar gaat de wereld heen?
+date: 2007-08-18
 created: 1187432770
 tags:
 - games

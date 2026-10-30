@@ -1,6 +1,7 @@
 ---
 layout: post_archive
 title: Gebruiksvriendelijkheidsweb
+date: 2006-05-16
 created: 1147761171
 tags:
 - activist

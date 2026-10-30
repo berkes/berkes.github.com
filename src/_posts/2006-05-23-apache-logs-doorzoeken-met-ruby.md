@@ -1,6 +1,7 @@
 ---
 layout: post_archive
 title: Apache logs doorzoeken met Ruby
+date: 2006-05-23
 created: 1148408291
 tags:
 - programming

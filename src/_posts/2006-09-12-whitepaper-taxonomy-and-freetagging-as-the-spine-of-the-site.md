@@ -1,6 +1,7 @@
 ---
 layout: post_archive
 title: whitepaper Taxonomy and freetagging as the spine of the site
+date: 2006-09-12
 created: 1158053410
 tags:
 - organisation management

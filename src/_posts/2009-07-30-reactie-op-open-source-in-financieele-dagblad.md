@@ -1,6 +1,7 @@
 ---
 layout: post_archive
 title: reactie op "Open source" in financieele dagblad
+date: 2009-07-30
 created: 1248987235
 tags:
 - open source

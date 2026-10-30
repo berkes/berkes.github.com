@@ -1,6 +1,7 @@
 ---
 layout: post_archive
 title: verslag van Commissie Bestuurlijke Vernieuwing, DWARS
+date: 2005-05-18
 created: 1116432224
 tags:
 - activist

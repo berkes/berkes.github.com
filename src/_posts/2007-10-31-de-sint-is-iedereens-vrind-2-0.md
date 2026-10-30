@@ -1,6 +1,7 @@
 ---
 layout: post_archive
 title: De Sint, is iedereens Vrind 2.0.
+date: 2007-10-31
 created: 1193823305
 tags:
 - web2.0

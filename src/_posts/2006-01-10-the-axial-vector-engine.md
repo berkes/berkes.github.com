@@ -1,6 +1,7 @@
 ---
 layout: post_archive
 title: The Axial Vector Engine
+date: 2006-01-10
 created: 1136912054
 tags:
 

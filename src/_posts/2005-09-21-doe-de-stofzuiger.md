@@ -1,6 +1,7 @@
 ---
 layout: post_archive
 title: doe de stofzuiger
+date: 2005-09-21
 created: 1127336111
 tags:
 

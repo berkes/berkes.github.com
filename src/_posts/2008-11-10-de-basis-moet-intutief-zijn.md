@@ -1,6 +1,7 @@
 ---
 layout: post_archive
 title: De Basis moet intuïtief zijn
+date: 2008-11-10
 created: 1226348015
 tags:
 - webdevelopment

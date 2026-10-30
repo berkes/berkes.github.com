@@ -2,6 +2,7 @@
 layout: post_archive
 title: ! 'Twitter experiment: de hele maand Januari schrijf ik maximaal 2 tweets per
   dag'
+date: 2010-01-02
 created: 1262438399
 tags:
 - twitter

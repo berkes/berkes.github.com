@@ -1,6 +1,7 @@
 ---
 layout: post_archive
 title: Problems of a monopolist
+date: 2004-05-10
 created: 1084185713
 tags:
 

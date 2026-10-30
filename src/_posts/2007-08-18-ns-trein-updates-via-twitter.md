@@ -1,6 +1,7 @@
 ---
 layout: post_archive
 title: NS Trein updates via Twitter
+date: 2007-08-18
 created: 1187434999
 tags:
 - trein

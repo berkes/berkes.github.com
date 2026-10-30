@@ -1,6 +1,7 @@
 ---
 layout: post_archive
 title: Swirly curls in Inkscape
+date: 2007-01-06
 created: 1168119157
 tags:
 - design

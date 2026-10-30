@@ -1,6 +1,7 @@
 ---
 layout: post_archive
 title: Sympal scripts vs. or with Civicspace installer
+date: 2006-05-11
 created: 1147334641
 tags:
 - project management

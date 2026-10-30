@@ -1,6 +1,7 @@
 ---
 layout: post_archive
 title: Lucid - Electric Supplements vol.1
+date: 2006-01-30
 created: 1138651545
 tags:
 - music

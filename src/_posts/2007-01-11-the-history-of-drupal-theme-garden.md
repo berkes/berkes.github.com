@@ -1,6 +1,7 @@
 ---
 layout: post_archive
 title: The history of Drupal Theme Garden
+date: 2007-01-11
 created: 1168521149
 tags:
 - theming

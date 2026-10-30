@@ -1,6 +1,7 @@
 ---
 layout: post_archive
 title: Shakespeare copyrighted??
+date: 2004-09-10
 created: 1094812277
 tags:
 - activist

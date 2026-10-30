@@ -1,6 +1,7 @@
 ---
 layout: post_archive
 title: ! 'Open Source Festival: ZXZW begint mooi experiment'
+date: 2009-02-12
 created: 1234451793
 tags:
 - zxzw

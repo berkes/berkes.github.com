@@ -1,6 +1,7 @@
 ---
 layout: post_archive
 title: ! '"Ruby-on-rails is minder goed dan PHP want het is moeilijk te hosten"'
+date: 2011-03-31
 created: 1301563367
 tags:
 - ruby

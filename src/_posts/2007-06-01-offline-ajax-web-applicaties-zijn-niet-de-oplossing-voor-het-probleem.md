@@ -1,6 +1,7 @@
 ---
 layout: post_archive
 title: Offline ajax web-applicaties zijn niet de oplossing voor het probleem.
+date: 2007-06-01
 created: 1180690754
 tags:
 - web2.0

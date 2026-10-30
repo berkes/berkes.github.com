@@ -1,6 +1,7 @@
 ---
 layout: post_archive
 title: webschuur.com announces the alpha release of drupalCOM
+date: 2004-06-30
 created: 1088629917
 tags:
 - digital leaflet

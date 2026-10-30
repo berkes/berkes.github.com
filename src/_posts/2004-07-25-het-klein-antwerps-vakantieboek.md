@@ -1,6 +1,7 @@
 ---
 layout: post_archive
 title: Het Klein Antwerps Vakantieboek
+date: 2004-07-25
 created: 1090788935
 tags:
 - ik heb niet getwijfeld over belgië

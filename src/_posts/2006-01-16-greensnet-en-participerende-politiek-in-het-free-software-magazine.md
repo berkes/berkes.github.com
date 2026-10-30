@@ -1,6 +1,7 @@
 ---
 layout: post_archive
 title: Greensnet en participerende politiek in het free software magazine.
+date: 2006-01-16
 created: 1137431432
 tags:
 

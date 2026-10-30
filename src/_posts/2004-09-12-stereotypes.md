@@ -1,6 +1,7 @@
 ---
 layout: post_archive
 title: Stereotypes
+date: 2004-09-12
 created: 1095018640
 tags:
 

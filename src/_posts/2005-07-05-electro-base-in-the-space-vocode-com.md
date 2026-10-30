@@ -1,6 +1,7 @@
 ---
 layout: post_archive
 title: ! 'electro base in the space: vocode.com'
+date: 2005-07-05
 created: 1120588042
 tags:
 - music

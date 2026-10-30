@@ -1,6 +1,7 @@
 ---
 layout: post_archive
 title: Open Source en de provincies
+date: 2007-03-05
 created: 1173099504
 tags:
 - groenlinks

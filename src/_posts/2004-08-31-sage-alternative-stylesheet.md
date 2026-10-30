@@ -1,6 +1,7 @@
 ---
 layout: post_archive
 title: Sage alternative stylesheet
+date: 2004-08-31
 created: 1093966075
 tags:
 - programming

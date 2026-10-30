@@ -1,6 +1,7 @@
 ---
 layout: post_archive
 title: De mythe van het opsplitsen van content en stijl
+date: 2008-11-12
 created: 1226498618
 tags:
 - css

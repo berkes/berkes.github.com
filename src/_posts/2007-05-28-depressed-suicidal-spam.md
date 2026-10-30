@@ -1,6 +1,7 @@
 ---
 layout: post_archive
 title: depressed suicidal spam
+date: 2007-05-28
 created: 1180306609
 tags:
 - web2.0

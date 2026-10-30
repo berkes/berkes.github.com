@@ -1,6 +1,7 @@
 ---
 layout: post_archive
 title: Drupal door de jaren heen
+date: 2006-05-11
 created: 1147353030
 tags:
 - programming

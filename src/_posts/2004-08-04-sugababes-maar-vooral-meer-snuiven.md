@@ -1,6 +1,7 @@
 ---
 layout: post_archive
 title: Sugababes maar vooral meer snuiven.
+date: 2004-08-04
 created: 1091621302
 tags:
 - sziget 2004 blog

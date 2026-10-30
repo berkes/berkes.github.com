@@ -1,6 +1,7 @@
 ---
 layout: post_archive
 title: Soa'tje implementeren?
+date: 2006-01-12
 created: 1137062566
 tags:
 

@@ -1,6 +1,7 @@
 ---
 layout: post_archive
 title: waarom de Nederlandse digg nooit iets gaat worden.
+date: 2007-05-20
 created: 1179649904
 tags:
 - web2.0

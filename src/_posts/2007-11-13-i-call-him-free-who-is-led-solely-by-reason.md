@@ -1,6 +1,7 @@
 ---
 layout: post_archive
 title: I call him free who is led solely by reason
+date: 2007-11-13
 created: 1194983857
 tags:
 - geloof

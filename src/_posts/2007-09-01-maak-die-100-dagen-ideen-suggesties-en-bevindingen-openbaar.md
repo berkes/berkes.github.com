@@ -1,6 +1,7 @@
 ---
 layout: post_archive
 title: Maak die 100-dagen ideeën, suggesties en bevindingen openbaar!
+date: 2007-09-01
 created: 1188656576
 tags:
 - politiek

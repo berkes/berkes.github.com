@@ -3,6 +3,7 @@ layout: post
 title: "Olaf van den Heuvel is een maximum flapdrol"
 tags: [bitcoin]
 lang: nl
+date: 2013-11-28
 ---
 
 Een van de mooie dingen van een verstorend concept als Bitcoin, is dat

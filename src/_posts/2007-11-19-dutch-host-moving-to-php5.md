@@ -1,6 +1,7 @@
 ---
 layout: post_archive
 title: Dutch host moving to PHP5
+date: 2007-11-19
 created: 1195502678
 tags:
 - project management

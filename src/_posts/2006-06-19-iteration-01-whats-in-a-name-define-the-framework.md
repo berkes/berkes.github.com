@@ -1,6 +1,7 @@
 ---
 layout: post_archive
 title: ! 'Iteration 01: Whats in a name, define the framework'
+date: 2006-06-19
 created: 1150745984
 tags:
 - theming

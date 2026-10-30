@@ -1,6 +1,7 @@
 ---
 layout: post_archive
 title: Zuuke in vriejd veul bladzaaie
+date: 2005-07-29
 created: 1122634821
 tags:
 

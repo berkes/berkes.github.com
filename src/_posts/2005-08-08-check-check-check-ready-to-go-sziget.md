@@ -1,6 +1,7 @@
 ---
 layout: post_archive
 title: check, check, check! ready to go sziget!
+date: 2005-08-08
 created: 1123537355
 tags:
 - sziget 2005 blog

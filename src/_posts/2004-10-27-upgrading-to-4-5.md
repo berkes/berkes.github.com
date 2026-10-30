@@ -1,6 +1,7 @@
 ---
 layout: post_archive
 title: upgrading to 4.5
+date: 2004-10-27
 created: 1098908352
 tags:
 

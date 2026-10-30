@@ -1,6 +1,7 @@
 ---
 layout: post_archive
 title: Why I withdraw my Pledge to have Tagadelic ready for Drupal 7
+date: 2010-06-04
 created: 1275652355
 tags:
 - php

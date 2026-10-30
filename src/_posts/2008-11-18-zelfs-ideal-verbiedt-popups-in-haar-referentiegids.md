@@ -1,6 +1,7 @@
 ---
 layout: post_archive
 title: ! '"Zelfs iDEAL verbiedt popups in haar referentiegids"'
+date: 2008-11-18
 created: 1226993973
 tags:
 - webdevelopment

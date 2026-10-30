@@ -1,6 +1,7 @@
 ---
 layout: post_archive
 title: Hosting, the foundation
+date: 2005-09-13
 created: 1126614132
 tags:
 - drupal

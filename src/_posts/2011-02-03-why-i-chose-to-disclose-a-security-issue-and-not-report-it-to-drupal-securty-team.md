@@ -2,6 +2,7 @@
 layout: post_archive
 title: Why I chose to disclose a security issue and not report it to Drupal securty
   team.
+date: 2011-02-03
 created: 1296748306
 tags:
 - drupal

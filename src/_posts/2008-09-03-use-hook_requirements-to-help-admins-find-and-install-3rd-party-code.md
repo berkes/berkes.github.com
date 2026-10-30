@@ -1,6 +1,7 @@
 ---
 layout: post_archive
 title: Use hook_requirements to help admins find and install 3rd party code
+date: 2008-09-03
 created: 1220445872
 tags:
 - project management

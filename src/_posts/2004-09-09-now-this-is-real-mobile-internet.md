@@ -1,6 +1,7 @@
 ---
 layout: post_archive
 title: Now this is real mobile internet.
+date: 2004-09-09
 created: 1094682787
 tags:
 

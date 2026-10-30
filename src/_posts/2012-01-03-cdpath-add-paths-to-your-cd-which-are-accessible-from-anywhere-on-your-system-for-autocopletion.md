@@ -2,6 +2,7 @@
 layout: post_archive
 title: CDPATH, add paths to your "cd" which are accessible from anywhere on your system
   for autocopletion.
+date: 2012-01-03
 created: 1325581764
 tags:
 

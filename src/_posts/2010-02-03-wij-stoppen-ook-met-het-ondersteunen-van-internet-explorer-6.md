@@ -1,6 +1,7 @@
 ---
 layout: post_archive
 title: wij stoppen ook met het ondersteunen van Internet Explorer 6
+date: 2010-02-03
 created: 1265193364
 tags:
 - ie6

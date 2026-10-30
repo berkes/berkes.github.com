@@ -1,6 +1,7 @@
 ---
 layout: post_archive
 title: De grootste revolutie in de muziek na de punk is het internet.
+date: 2007-08-31
 created: 1188594079
 tags:
 - internet

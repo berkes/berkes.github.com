@@ -1,6 +1,7 @@
 ---
 layout: post_archive
 title: Geen Hongerije
+date: 2004-08-03
 created: 1091539175
 tags:
 - sziget 2004 blog

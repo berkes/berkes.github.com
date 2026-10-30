@@ -1,6 +1,7 @@
 ---
 layout: post_archive
 title: logge media is ook nog eens eigenwijs.
+date: 2006-01-03
 created: 1136287910
 tags:
 

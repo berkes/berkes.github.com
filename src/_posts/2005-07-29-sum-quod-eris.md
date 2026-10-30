@@ -1,6 +1,7 @@
 ---
 layout: post_archive
 title: Sum quod eris
+date: 2005-07-29
 created: 1122588365
 tags:
 

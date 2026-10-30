@@ -1,6 +1,7 @@
 ---
 layout: post_archive
 title: jabber at webschuur
+date: 2005-09-23
 created: 1127473538
 tags:
 - server

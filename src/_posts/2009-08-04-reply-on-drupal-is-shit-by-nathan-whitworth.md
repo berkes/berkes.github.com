@@ -1,6 +1,7 @@
 ---
 layout: post_archive
 title: Reply on "Drupal is Shit" by Nathan Whitworth
+date: 2009-08-04
 created: 1249397785
 tags:
 - drupal

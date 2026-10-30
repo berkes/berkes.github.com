@@ -1,6 +1,7 @@
 ---
 layout: post_archive
 title: ! 'Verborgen Open Source: de kracht, of haar zwakte?'
+date: 2007-08-02
 created: 1186052228
 tags:
 - open source

@@ -1,6 +1,7 @@
 ---
 layout: post_archive
 title: Emerce about the Drupal convention
+date: 2007-03-01
 created: 1172743937
 tags:
 - drupal

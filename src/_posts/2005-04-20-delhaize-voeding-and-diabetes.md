@@ -1,6 +1,7 @@
 ---
 layout: post_archive
 title: Delhaize voeding & diabetes
+date: 2005-04-20
 created: 1114023965
 tags:
 - diabetes blog

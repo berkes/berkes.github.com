@@ -1,6 +1,7 @@
 ---
 layout: post_archive
 title: Spam handling for a small amount of unix users
+date: 2005-06-07
 created: 1118152972
 tags:
 - server

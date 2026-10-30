@@ -2,6 +2,7 @@
 layout: post_archive
 title: Enkele goede reacties op mijn stelling "Drupal verkeerde keus voor overheidssites"
   uitgelicht
+date: 2011-03-22
 created: 1300802440
 tags:
 - ruby on rails

@@ -3,6 +3,7 @@ layout: post
 title: "Standardising the technology stack (or CMS) is silly"
 tags: [cms, techonolgy, management]
 lang: en
+date: 2012-07-02
 ---
 
 

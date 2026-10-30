@@ -1,6 +1,7 @@
 ---
 layout: post_archive
 title: I am giving a theme workshop at FOSDEM 2008
+date: 2008-02-11
 created: 1202722461
 tags:
 - php

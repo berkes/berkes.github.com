@@ -1,6 +1,7 @@
 ---
 layout: post_archive
 title: Mooie hoogresolutie satellietfoto's
+date: 2006-05-16
 created: 1147773025
 tags:
 - wereld

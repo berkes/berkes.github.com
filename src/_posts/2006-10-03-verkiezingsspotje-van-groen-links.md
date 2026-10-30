@@ -1,6 +1,7 @@
 ---
 layout: post_archive
 title: Verkiezingsspotje van Groen Links
+date: 2006-10-03
 created: 1159889232
 tags:
 - politics

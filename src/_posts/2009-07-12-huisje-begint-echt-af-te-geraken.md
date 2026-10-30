@@ -1,6 +1,7 @@
 ---
 layout: post_archive
 title: Huisje begint echt af te geraken
+date: 2009-07-12
 created: 1247432799
 tags:
 - huis

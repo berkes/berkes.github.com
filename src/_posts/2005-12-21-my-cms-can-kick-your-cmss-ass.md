@@ -1,6 +1,7 @@
 ---
 layout: post_archive
 title: My CMS Can Kick Your CMS's Ass!
+date: 2005-12-21
 created: 1135181313
 tags:
 

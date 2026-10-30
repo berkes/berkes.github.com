@@ -1,6 +1,7 @@
 ---
 layout: post_archive
 title: Waarom de meeste communities (ook) falen
+date: 2008-07-21
 created: 1216627623
 tags:
 - community

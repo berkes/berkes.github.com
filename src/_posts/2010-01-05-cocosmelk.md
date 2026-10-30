@@ -1,6 +1,7 @@
 ---
 layout: post_archive
 title: Cocosmelk
+date: 2010-01-05
 created: 1262720934
 tags:
 - kokosmelk

@@ -1,6 +1,7 @@
 ---
 layout: post_archive
 title: nymfauem upgrade to Drupal 4.5 RC
+date: 2004-08-16
 created: 1092648354
 tags:
 

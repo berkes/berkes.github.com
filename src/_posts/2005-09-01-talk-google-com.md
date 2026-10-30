@@ -1,6 +1,7 @@
 ---
 layout: post_archive
 title: talk.google.com
+date: 2005-09-01
 created: 1125573033
 tags:
 

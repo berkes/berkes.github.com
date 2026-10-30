@@ -1,6 +1,7 @@
 ---
 layout: post_archive
 title: Meer SEO Mooiere urls
+date: 2005-06-16
 created: 1118932682
 tags:
 

@@ -1,6 +1,7 @@
 ---
 layout: post_archive
 title: Disallow anyone but you, to reach the update files
+date: 2007-01-05
 created: 1167994421
 tags:
 - server

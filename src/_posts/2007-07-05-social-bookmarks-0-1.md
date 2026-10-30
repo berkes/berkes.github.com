@@ -1,6 +1,7 @@
 ---
 layout: post_archive
 title: Social Bookmarks 0.1
+date: 2007-07-05
 created: 1183634752
 tags:
 - web0.1

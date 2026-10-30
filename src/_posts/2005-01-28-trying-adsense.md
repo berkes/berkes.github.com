@@ -1,6 +1,7 @@
 ---
 layout: post_archive
 title: trying adsense
+date: 2005-01-28
 created: 1106869941
 tags:
 - programming

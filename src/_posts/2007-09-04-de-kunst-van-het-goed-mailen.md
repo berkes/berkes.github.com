@@ -1,6 +1,7 @@
 ---
 layout: post_archive
 title: De kunst van het goed mailen
+date: 2007-09-04
 created: 1188893513
 tags:
 - email

@@ -1,6 +1,7 @@
 ---
 layout: post_archive
 title: Pinksilver Podcast
+date: 2007-05-27
 created: 1180272104
 tags:
 - music

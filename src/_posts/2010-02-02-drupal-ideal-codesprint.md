@@ -1,6 +1,7 @@
 ---
 layout: post_archive
 title: Drupal iDEAL codesprint
+date: 2010-02-02
 created: 1265119404
 tags:
 - open source

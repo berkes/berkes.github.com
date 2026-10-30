@@ -1,6 +1,7 @@
 ---
 layout: post_archive
 title: Filtered input formats, I finally settle down with markdown.
+date: 2006-05-25
 created: 1148564391
 tags:
 - drupal
