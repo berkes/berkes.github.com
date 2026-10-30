@@ -75,7 +75,7 @@ These requirements govern all migration tasks; where they conflict with
 | Include | Purpose | Notes |
 |---|---|---|
 | `setup.yml` | Jekyll-Bootstrap: assigns `BASE_PATH`, `HOME_PATH`, `ASSET_PATH` Liquid vars | Every page includes it; pure build-time, no output |
-| `image.yml` | Decorative figure: `<img src="/images{{ page.id }}.png">` + localized figcaption (nl/en) | **`page.id` is the post URL path** (e.g. `/2015/05/09/slug`), so the image path is `images/<year>/<month>/<day>/<slug>.png`. **822 of 876 posts have no matching file** → currently renders a broken image on all pre-2015 posts. **Requirement 3: backfill the missing images** (→ #142); the Hugo template still guards with a file-exists check |
+| `image.yml` | Decorative figure: `<img src="/images{{ page.id }}.png">` + localized figcaption (nl/en) | **`page.id` is the post URL path** (e.g. `/2015/05/09/slug`), so the image path is `images/<year>/<month>/<day>/<slug>.png`. **822 of 876 posts had no matching file** → rendered a broken image on all pre-2013 posts. **Backfilled in #142** (deterministic round-robin over the `_images_templates` woodcuts); the Hugo template still guards with a file-exists check |
 | `about_author.yml` | Localized "About the author" blurb (nl/en) with Mastodon link | Post pages |
 | `about_pres.yml` | "About Bèr" presentations blurb | Presentation layout |
 | `comment.yml` | `<template>` blocks + JS that looks up Reddit/HN discussions for the URL at runtime | Requires `assets/javascripts/comment.js`; static-output friendly (client-side fetch) |
@@ -87,14 +87,14 @@ These requirements govern all migration tasks; where they conflict with
 
 ## Quirks and known difficulties
 
-- **`<!--break-->`**: 160 posts contain the Drupal-era teaser marker inside content. Jekyll does **not** treat it specially; it leaks into rendered HTML today (as a harmless comment). Hugo's `<!--more-->` is functional. Plan: convert to `<!--more-->` — keeps the excerpt semantic and drops the artifact from rendered HTML (a cheap bug fix per requirement 5).
+- **`<!--break-->`**: 160 posts contained the Drupal-era teaser marker inside content, which Jekyll does not treat specially — it leaked into rendered HTML as a literal comment. **Converted to `<!--more-->` in #142** (161 markers): the artifact is gone from rendered output and the excerpt becomes functional in Hugo.
 - **Epoch `created:`**: 822 posts (→ #139).
 - **`{% highlight %}`**: ~80 Liquid highlight blocks + 2 broken Liquid fragments (`{% for posts ... " }}%}`) — must not survive into Hugo (→ #140).
 - **`{{BASE_PATH}}`/`ASSET_PATH`/absolute URLs** in 14 posts (→ #141).
 - **Mixed extensions** `.md`/`.markdown` — irrelevant to Hugo.
 - **BOM** in `humans.txt` and possibly others — preserve byte-exactly in move.
 - **`sitemap.txt` excludes `redirects/`** pages; port this filter.
-- **Woodcut convention**: image at `images/<yyyy>/<mm>/<dd>/<slug>.png`; **822/876 missing** (the Rakefile scaffold only started creating them ~2015). **Requirement 3: backfill all of them** (→ #142).
+- **Woodcut convention**: image at `images/<yyyy>/<mm>/<dd>/<slug>.png`; 822/876 were missing (the Rakefile scaffold only started creating them ~2013). **Backfilled in #142**; every post now has one. `lang` coverage: already 876/876 — no gaps existed, nothing to fill.
 - **Dead internal links**: the URL inventory shows old Drupal-era paths (`/taxonomy/term/*`, `/aggregator/*`, literal `/[\S]*` artifacts) referenced from post content. Broken today; not required to be fixed (requirement 5: they are not cheap to fix, so content stays as-is). Explicitly excluded from the parity requirement.
 - **`layout: "post"`** on one post — quoted YAML value, same layout as `post`.
 - **Asset URLs** (images etc.) referenced from posts do not need identical paths after migration (requirement 1 exception). Keeping them stable is still the zero-effort default; only change if the Hugo structure forces it.
