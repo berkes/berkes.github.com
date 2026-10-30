@@ -34,22 +34,24 @@ The most obvious place where you will see this going wrong, is with responsive-d
 Storing the layout-information with(in) the content is a guarantee for disaster when you decide to change the designs. I've done several jobs where I helped people into the "new mobile age" by writing large, ugly parsers that clean body-texts of any layout that breaks mobile, but was stored in the database. Believe me, you don't want that markup in your database.
 
 Having such "content" in your database"
-{% highlight HTML %}
+```html
+
 <p style="float:right; border: 2px solid #eee;">
   <b>Computers are useless. They can only give you answers.</b></br>
   <b><i>— Pablo Picasso</i></b>
 </p>
-{% endhighlight %}
+```
 
 Is awful (and this is, by far, not the worse a WISYWYG-editor can and
 will output. Divs. Divs everywhere).
 
-{% highlight HTML %}
+```html
+
 <quote class="aside">
   Computers are useless. They can only give you answers.
   <footer>— Pablo Picasso</footer>
 </quote>
-{% endhighlight %}
+```
 
 ...is better.
 
@@ -61,10 +63,11 @@ Markdown has several huge benefits: you are storing a simplified, deduced markup
 
 With something like:
 
-{% highlight text %}
+```text
+
 > Computers are useless. They can only give you answers.
 > — Pablo Picasso
-{% endhighlight %}
+```
 
 ... the error tolerance is large; where before you had to allow <code>class="aside"</code> but not <code>class="button btn-round"<code>, you now no longer need to deal with this. When you allow a "classic" WYSIWYG you  will allow all sorts of (broken) HTML too. 
 

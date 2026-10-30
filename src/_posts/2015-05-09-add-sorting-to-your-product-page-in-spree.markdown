@@ -21,7 +21,8 @@ Product](https://github.com/spree/spree/blob/3-0-stable/core/app/models/spree/pr
 
 ## Controller
 
-{% highlight ruby %}
+```ruby
+
 module Spree
   ProductsController.class_eval do
     def index
@@ -32,11 +33,12 @@ module Spree
     end
   end
 end
-{% endhighlight %}
+```
 
 Now that this works, it needs to be secured and cleaned up:
 
-{% highlight ruby %}
+```ruby
+
 module Spree
   ProductsController.class_eval do
     helper_method :sorting_param
@@ -66,7 +68,7 @@ module Spree
     end
   end
 end
-{% endhighlight %}
+```
 
 There is a lot going on here. But the general idea is to use [method aliasing](http://stackoverflow.com/a/13806783/73673) to be able to extend the original index. 
 We have, furthermore, split out the scope-selecting into several methods. This allows setting a default and whitelisting allowed scopes. You don't want people to call just any string and call that as a method on our model (e.g. `sorting=delete_all`). I've declared`sorting_param` as a helper method because we'll need it later on (I know, not very YAGNI, but for the sake of brevity, let's already implement it here).
@@ -78,7 +80,8 @@ If you want to find out where a view, controller or model is defining something,
 First iteration is to copy over Spree's [products](https://github.com/spree/spree/blob/master/frontend/app/views/spree/shared/_products.html.erb) partial to `app/views/spree/shared/_products.html.erb`. We add the sorting links there. In a later iteration we'll rely on deface to inject our code, rather then duplicating the partial.
 But, for now, Rails will simply pick our file instead of Spree's version. In it, we add our links:
 
-{% highlight erb %}
+```erb
+
 ...
 <% if products.any? %>
 <div class="row sorting"><div class="col-sm-6 col-sm-offset-6">
@@ -91,7 +94,7 @@ But, for now, Rails will simply pick our file instead of Spree's version. In it,
 </div></div>
 <div id="products" data-hook>
 ...
-{% endhighlight %}
+```
 
 For the links, we use `params.merge(...)` in order to persist any search, paging or filter params.
 
@@ -99,7 +102,8 @@ On your development server, this will work, but when you look at [products/index
 
 In order to override it, we have to add it to a file called `app/helpers/spree/products_helper_decorator.rb`. Because we are changing a lot inside the method, we can't really use the aliasing as used earlier, it won't help us a lot. Instead, we simply override the entire method. And document our changes.
 
-{% highlight ruby %}
+```ruby
+
 module Spree
   ProductsHelper.module_eval do
     ##
@@ -114,7 +118,7 @@ module Spree
     end
   end
 end
-{% endhighlight %}
+```
 
 We now have a working sorting feature, but it needs improvement. 
 
@@ -124,16 +128,18 @@ One thing we should clean up, is our override of the partial file. Unless you wa
 
 [Deface is made for this](https://guides.spreecommerce.com/developer/view.html#using-deface), so let's use it. Create a file `app/overrides/sorting_links_in_products.rb` (And possibly restart the rails server, I've found that deface sometimes does not pick up new files otherwise):
 
-{% highlight ruby %}
+```ruby
+
 Deface::Override.new(:virtual_path  => "spree/shared/_products",
                      :insert_before => "#products[data-hook]",
                      :partial       => "spree/shared/sorting_links",
                      :name          => "sorting_links_in_products")
-{% endhighlight %}
+```
 
 And a partial `app/views/spree/shared/_sorting_links.html.erb`
 
-{% highlight erb %}
+```erb
+
 <% if products.any? && params[:controller] == 'spree/products' %>
 <div class="row sorting"><div class="col-sm-6 col-sm-offset-6">
   <%= t(:sort_by) %>
@@ -144,7 +150,7 @@ And a partial `app/views/spree/shared/_sorting_links.html.erb`
   </ul>
 </div></div>
 <% end %>
-{% endhighlight %}
+```
 
 Some changes to the first iteration of this erb-code, are that we now use the locales to render strings, and that we only render the sorting-link as a link when it is not active.
 
@@ -156,7 +162,8 @@ We can now remove our version of `products` partial, since it is no longer overr
 One cleanup was to use a `current_sorting?` helper. Which does not
 exist, so let's create that with the familiar decorator/monkey-patching. Add it to `app/helpers/spree/products_helper_decorator.rb`:
 
-{% highlight ruby %}
+```ruby
+
 module Spree
   ProductsHelper.module_eval do
     #... cache_key_for_products
@@ -166,7 +173,7 @@ module Spree
     end
   end
 end
-{% endhighlight %}
+```
 
 In this helper, `sorting_param` is requested from the controller, which re-uses the default, that's why we made it a helper earlier.
 

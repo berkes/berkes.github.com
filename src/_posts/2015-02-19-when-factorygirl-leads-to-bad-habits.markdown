@@ -18,7 +18,8 @@ The need for repetitive or complex test-data is an indication that your code and
 We have an app that measures fuel-usage. The feature, or integration test for inserting a
 "measurement" could be something like this, when not using FactoryGirl, we can immediately see a problem: (the testing framework is irrelevant here, so I am using RSpec to minimize the noise because it allows me to be concise)
 
-{% highlight ruby %}
+```ruby
+
 scenario: 'secretary on a project with cars adds new fuel-usage entries and sees them' do
   project = Project.create(name: 'new bridge in sahara', starts_on: Date.today.beginning_of_year, ends_on: Date.today.end_of_year)
   user = User.create(email: 'speedy-joe@example.com', password: 'secret', password_confirmation: 'secret')
@@ -31,7 +32,7 @@ scenario: 'secretary on a project with cars adds new fuel-usage entries and sees
   click_button('Create Measurement')
   expect(page).to have_content("#{Date.today}: 12 liter")
 end
-{% endhighlight %}
+```
 
 If you consider that only the last four lines are relevant for this
 test,the first block is just noisy set-up. Now, we could refactor this
@@ -40,7 +41,8 @@ into a before-block in RSpec. Or into a helper method
 does for us, with a much nicer interface then such ad-hoc helpers. With FactoryGirl
 the test could look like:
 
-{% highlight ruby %}
+```ruby
+
 scenario: 'secretary on a project with cars adds new fuel-usage entries and sees them' do
   user = create(:user_on_project, role_name: 'secretary')
   create(:car, project: user.project)
@@ -51,7 +53,7 @@ scenario: 'secretary on a project with cars adds new fuel-usage entries and sees
   click_button('Create Measurement')
   expect(page).to have_content("#{Date.today}: 12 liter")
 end
-{% endhighlight %}
+```
 
 The first benefit becomes clear because we see far fewer lines of irrelevant objects being created.
 The second benefit of FactoryGirl immediately becomes clear too: we no longer need to provide irrelevant attributes such as the project name.
@@ -60,7 +62,8 @@ We have, however not fixed the our application, the implementation is still clum
 
 If you consider your tests to be one (important) user of your API, a client, the problem is clear: we need to fix the application, not the client using that API.
 
-{% highlight ruby %}
+```ruby
+
 scenario: 'secretary on a project with cars adds new fuel-usage entries and sees them' do
   resource = Car.new('Joes Truck')
   project = Project.create(name: 'New Bridge', resources: [resource])
@@ -72,7 +75,7 @@ scenario: 'secretary on a project with cars adds new fuel-usage entries and sees
   click_button('Create Measurement')
   expect(page).to have_content("#{Date.today}: 12 liter")
 end
-{% endhighlight %}
+```
 
 We have added code to our application that is used by one of the
 clients: the tests. We have abstracted some of the details away: a
@@ -121,7 +124,8 @@ decoupled code (we want decoupled code, don't we?) getting into this
 mess is something to avoid. FactoryGirl does not help you to avoid this,
 it even encourages this design somewhat:
 
-{% highlight ruby %}
+```ruby
+
 describe User do
   describe '#function' do
     it 'includes the name of the role and its project' do
@@ -136,7 +140,7 @@ class User
     roles.map { |r| "#{r.name} for #{r.project.name}" }.join(',')
   end
 end
-{% endhighlight %}
+```
 
 This looks like a nice, clean test. But only because we have hidden away
 all the complexity of coming to a state in which the user has a role and
@@ -171,7 +175,8 @@ When you test with a clean, predefined set of test-data, you won't notice all su
 If we had tested without FactoryGirl, it would have looked something
 like this:
 
-{% highlight ruby %}
+```ruby
+
 describe '#function' do
   before { @user = User.new } # In RSpec, this is returned when using the method 'subject'
   context 'when user has roles' do
@@ -193,7 +198,7 @@ describe '#function' do
     end
   end
 end
-{% endhighlight %}
+```
 
 Now our tests tell us about the problems:
 
@@ -203,7 +208,8 @@ Now our tests tell us about the problems:
 
 Because it is made clear, we can now fix that:
 
-{% highlight ruby %}
+```ruby
+
 describe '#function' do
   context 'when user has roles' do
     before { subject.roles = [Struct.new(as_function: 'Secretary on New Bridge')] }
@@ -215,13 +221,14 @@ describe '#function' do
     it { expect(subject.function).to be 'no function' }
   end
 end
-{% endhighlight %}
+```
 
 The tests are clean, and explain very well how we deal with edge cases.
 Because we have minimized the issues appearing in edge cases and because
 we have delegated the methods to the right objects.
 
-{% highlight ruby %}
+```ruby
+
 class User
   def function
     return 'no function' unless roles
@@ -234,7 +241,7 @@ class Role
     "#{name} on #{project.name}"
   end
 end
-{% endhighlight %}
+```
 
 We have now clearly improved our code, not just the tests. Bonus: since we no
 longer have to store stuff in the database, our unit-test is much faster now.
@@ -298,7 +305,8 @@ When you need an "address data" in your tests, you could just as well
 add a small helper:
 
 
-{% highlight ruby %}
+```ruby
+
 class LoremIzer
   def address
     { street: 'Diagon Alley',
@@ -307,7 +315,7 @@ class LoremIzer
       postal_code: '1337'}
   end
 end
-{% endhighlight %}
+```
 
 It is only when such helpers grow large and wieldy: when they start to
 turn into a framework, that FactoryGirl (or another [data generation

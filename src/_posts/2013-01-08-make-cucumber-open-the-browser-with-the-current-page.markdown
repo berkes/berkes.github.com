@@ -12,21 +12,23 @@ when a step fails. This is a feature provided by cucumber itself.
 
 Add a support file `features/support/debugging.rb`:
 
-{% highlight ruby %}
+```ruby
+
 After do |scenario|
   save_and_open_page if scenario.failed?
 end
-{% endhighlight %}
+```
 
 And add [launchy](https://github.com/copiousfreetime/launchy) to your gemfile, and `bundle install`. (or install it with whatever else
 you use).
 
-{% highlight ruby %}
+```ruby
+
 group :test do
    #...
    gem "launchy", "~> 2.1.2"
 end
-{% endhighlight %}
+```
 
 This will save the page that cucumber is looking at, then open it in
 your browser. Works fine, untill you have a large suite of features and
@@ -40,24 +42,27 @@ When I have a failing scenario, and I want to investigate it by
 inspecting the page, I run my cucumber with an additional
 environment-variable:
 
-{% highlight bash %}
-$ cucumber debug=open
-{% endhighlight %}
+```bash
 
-{% highlight ruby %}
+$ cucumber debug=open
+```
+
+```ruby
+
 After do |scenario|
   save_and_open_page if scenario.failed? and (ENV["debug"] == "open")
 end
-{% endhighlight %}
+```
 
 The `debug=` syntax allows for more simple tricks too. Like `debug=pp`:
 
-{% highlight ruby %}
+```ruby
+
 require "pp"
 After do |scenario|
   save_and_open_page if scenario.failed? and (ENV["debug"] == "open")
   pp(page) if ENV["debug"] == "pp"
 end
-{% endhighlight %}
+```
 
 Simple trick, works like a charm.

@@ -17,31 +17,34 @@ But, first, let us identify the problems.
 
 ## Persistent variables
 
-{% highlight php startinline %}
+```php
+
 $html .= "Showing ". variable_get("mymodule_amount", 20) ."items";
 $html .= pager_query("SELECT * FROM {mymodule_items}", variable_get("mymodule_amount", 20));
 if ($total > variable_get("mymodule_amount", 20)) {
   $html .= "there are more";
 }
-{% endhighlight %}
+```
 
 Not only is there the *magic number 20* all over the place, it is a DRY violation all over the place.
 In above example, that DRY violation is not very visible, yet, but imagine a module called *project_magician_message_center*:
 
-{% highlight php startinline %}
+```php
+
 variable_get("project_magician_message_center_amount_for_". $node->type, 20);
 variable_get("project_magician_message_center_request_limit", 20);
-{% endhighlight %}
+```
 
 Just open up your average *variables* table in larger Drupalproject and look around. The horror! (And maybe you have been bitten by the length limit of 128 characters?). There is no pattern; just a list of unpredicable names.
 
 The *magic number* problem often gets solved by Drupal developers with constants. But as the name suggests,
 a constant is constant. And a variable is variable. It is very confusing to read this:
 
-{% highlight php startinline %}
+```php
+
 define("MYMODULE_AMOUNT", 20);
 $items = pager_query("SELECT * FROM {mymodule_items}", variable_get("mymodule_amount", MYMODULE_AMOUNT));
-{% endhighlight %}
+```
 
 Especially when you clearly get 30 items in some list. Which is what happens when a variable gets another value. Suddenly the constant is no longer
 used; it acts like a variable. Naming your constants *MYMODULE_AMOUNT_DEFAULT* is slightly better, but no real solution.
@@ -50,7 +53,8 @@ used; it acts like a variable. Naming your constants *MYMODULE_AMOUNT_DEFAULT* i
 
 Translations, through *t()* act even worse. Some examples:
 
-{% highlight php startinline %}
+```php
+
 t("Hello World, today is %date");
 t("Hello world, today is %date"); #note the intentional erronous lowercase world.
 
@@ -68,7 +72,7 @@ MESS
 t($message);
 
 t(_mymodule_message_contents());
-{% endhighlight %}
+```
 
 
 First and foremost problem with this is that it is not prefixed, namespaced if you will. Your *t("Submit")* is the same as that other *t("Submit")*. Translate this once to "Create new" and suddenly all sorts of labels, tabs, titles and links show the text "Create new". We have all been, there, just admit it, already.
@@ -83,7 +87,8 @@ Mixing screentexts and logic, which is what we all do, is arguably as bad as mix
 
 Imagine you could say:
 
-{% highlight php startinline %}
+```php
+
 "Showing ". v("amount");
 "Showing ". v("core.amount_per_page");
 
@@ -91,13 +96,14 @@ t("core.hello_world");
 t("ecommerce.payment.thank_you");
 t("core.thank_you");
 t("footmassage", array("%actor" => $actor, "%subject" => $subject));
-{% endhighlight %}
+```
 
 Where all your defaults are nicely set in a central place, your screen-texts are in single place, or even file. And everything gets prefixed with your modulename, unless you define it differently.
 
 The solution is OOP. Just a little, don't fret, and nicely tuck away so that you won't need to program everything OOP suddenly. First a generic class, which we will built upon in our modules.
 
-{% highlight php startinline %}
+```php
+
 class DrupalHelper {
   protected $prefix = "core";
 
@@ -130,11 +136,12 @@ class DrupalHelper {
     return "t_". preg_replace("/\./", $symbol);
   }
 }
-{% endhighlight %}
+```
 
 With the module, I inherit this helper:
 
-{% highlight php startinline %}
+```php
+
 class MyModuleHelper() extends DrupalHelper {
   protected $prefix = "mymodule";
 
@@ -146,11 +153,12 @@ class MyModuleHelper() extends DrupalHelper {
     "Hello World";
   }
 }
-{% endhighlight %}
+```
 
 In your module, you use this as follows:
 
-{% highlight php startinline %}
+```php
+
 function mymodule_form_alter($form_id, &$form, &$form_values) {
   if ($form_id == "foo") {
     $helper = new MyModuleHelper();
@@ -162,7 +170,7 @@ function mymodule_form_alter($form_id, &$form, &$form_values) {
     );
   }
 }
-{% endhighlight %}
+```
 
 The usage-example does not load the library files, but delegating code to separate files is not hard in Drupal, with helpers like *module_load_include()*. This example assumes the file is already loaded, or that some autoloader is in place.
 This example-code does not yet handle the variable_del and variable_set functionality for variables, but that is left to the reader to implement.
