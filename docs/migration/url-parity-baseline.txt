@@ -878,15 +878,7 @@
 /about.html
 /archief.html
 /archive.html
-/assets/pres/10-reasons-rust.html
-/assets/pres/es.html
-/assets/pres/llm.html
-/assets/pres/lugn-rust.html
-/assets/pres/mapping-fission.html
-/assets/pres/modern-unix.html
-/assets/pres/verifiable-credentials.html
 /atom.xml
-/blockchainpres/
 /error.html
 /googlec7090456eac8ff46.html
 /humans.txt
@@ -901,6 +893,5 @@
 /p/verifiable-credentials.html
 /pres.html
 /robots.txt
-/scraping/
 /sitemap.txt
 /tags.html
