@@ -49,6 +49,8 @@ staticDir: "static-content"
 
 markup:
   goldmark:
+    extensions:
+      typographer: false
     renderer:
       unsafe: true
 
