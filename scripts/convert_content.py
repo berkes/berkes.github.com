@@ -107,13 +107,14 @@ def main() -> None:
     # bodies are template-driven now. Map Jekyll permalink -> Hugo url.
     pages = {
         'about.md': dict(title='About Bèr Kessels', lang='en',
-                         layout='page', url='/about.html'),
+                         layout='page', url='/about.html', body=True),
         'over.md': dict(title='Over Bèr Kessels', lang='nl',
-                        layout='page', url='/over.html'),
+                        layout='page', url='/over.html', body=True),
         'error.md': dict(title='Error', lang=None, layout='page',
-                         url='/error.html'),
+                         url='/error.html', body=False),
         'pres.md': dict(title='Presentations by Bèr ‘berkes’ Kessels',
-                        lang=None, layout=None, url='/pres.html'),
+                        lang=None, layout='pres', url='/pres.html',
+                        body=False),
     }
     for name, meta in pages.items():
         front = ['---', f'title: "{meta["title"]}"']
@@ -125,8 +126,14 @@ def main() -> None:
             front.append(f'url: {meta["url"]}')
         front.append('---\n')
         dest = os.path.join(HUGO, 'content', name)
+        body = ''
+        if meta.get('body'):
+            with open(os.path.join(SRC, name), encoding='utf-8') as fh:
+                raw = fh.read()
+            end = raw.index('\n---', 3)
+            body = raw[raw.index('\n', end + 4) + 1:]
         with open(dest, 'w', encoding='utf-8') as fh:
-            fh.write('\n'.join(front))
+            fh.write('\n'.join(front) + body)
         print(f'page: {name}')
 
     # Archive pages (archive.html / archief.html / tags.html): content

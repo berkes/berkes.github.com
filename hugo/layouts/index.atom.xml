@@ -13,11 +13,11 @@
 
  {{ range first 100 (where site.RegularPages "Type" "posts") }}
  <entry>
-   <title>{{ .Title }}</title>
+   <title>{{ .Title | transform.XMLEscape }}</title>
    <link href="{{ .Permalink }}"/>
    <updated>{{ .Date.Format "2006-01-02T15:04:05Z07:00" }}</updated>
    <id>{{ .Permalink }}</id>
-   <content type="html">{{ .Content }}</content>
+   <content type="html">{{ .Content | transform.XMLEscape }}</content>
  </entry>
  {{ end }}
  
