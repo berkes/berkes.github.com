@@ -30,7 +30,7 @@ HREF_RE = re.compile(r'(?:href|src)="([^"]+)"')
 PAGE_EXTENSIONS = ('.html', '.htm', '.xml', '.txt')
 # Standalone HTML apps (presentations, demos) that reference their own
 # assets and JS templates; not part of the site page graph.
-SKIP_DIRS = ('redirects/', 'assets/pres/', 'misc/', 'scraping/', 'blockchainpres/')
+SKIP_DIRS = ('/redirects/', '/assets/pres/', '/misc/', '/scraping/', '/blockchainpres/')
 
 
 def build_pages(build_dir: str) -> set:
