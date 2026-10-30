@@ -1,0 +1,11 @@
+---
+layout: post_archive
+title: De netkloof volgens Annan
+date: 2005-11-17
+created: 1132216012
+tags:
+- activist
+lang: nl
+slug: "de-netkloof-volgens-annan"
+---
+[Kofi Annan](http://en.wikipedia.org/wiki/Kofi_Annan) riep tijdens de [WSIS](http://www.itu.int/wsis/) op om meer aandacht te besteden aan de [digitale kloof](http://news.bbc.co.uk/1/hi/technology/4443392.stm) tussen arm en rijk. Een heel boeiend betoog.

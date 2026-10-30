@@ -1,0 +1,63 @@
+baseURL: "https://berk.es"
+title: "Bèr ‘berkes’ Kessels"
+tagline: "Bèr Kessels is an Open Source Webdeveloper."
+defaultContentLanguage: "en"
+timezone: "Europe/Amsterdam"
+publishDir: "build"
+disableKinds: ["taxonomy", "term", "RSS", "section", "sitemap", "404"]
+buildFuture: true
+
+params:
+  author:
+    name: "Bèr ‘berkes’ Kessels"
+    email: "ber@berk.es"
+    github: "berkes"
+    feedburner: "berkes"
+  tagline: "Bèr Kessels is an Open Source Webdeveloper."
+
+permalinks:
+  posts: "/:year/:month/:day/:slug/"
+
+outputs:
+  home:
+    - HTML
+    - Atom
+    - SitemapTxt
+
+taxonomies:
+  tag: "tags"
+
+mediaTypes:
+  text/plain:
+    suffixes: ["txt"]
+
+outputFormats:
+  Atom:
+    mediaType: "application/xml"
+    baseName: "atom"
+    isPlainText: false
+    notAlternative: true
+  SitemapTxt:
+    mediaType: "text/plain"
+    baseName: "sitemap"
+    isPlainText: true
+    notAlternative: true
+
+# Static files (images, assets, legacy standalone pages) served from
+# static-content/ at the site root.
+staticDir: "static-content"
+
+markup:
+  goldmark:
+    renderer:
+      unsafe: true
+
+related:
+  includeNewer: false
+  indices:
+    - name: tags
+      weight: 80
+    - name: date
+      weight: 10
+  threshold: 0
+  toLower: true

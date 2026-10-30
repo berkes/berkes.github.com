@@ -1,0 +1,16 @@
+{{ define "main" }}
+<h1>{{ .Title }}</h1>
+{{ $lang := .Params.lang | default "en" }}
+{{ $posts := where (where site.RegularPages "Type" "posts") "Params.lang" $lang }}
+{{ range $posts.GroupByDate "2006" "desc" }}
+  <h2>{{ .Key }}</h2>
+  {{ range .Pages.GroupByDate "January" "desc" }}
+    <h3>{{ .Key }}</h3>
+    <ul>
+    {{ range .Pages.ByDate.Reverse }}
+      <li><span>{{ .Date.Format "January 02, 2006" }}</span> &raquo; <a href="{{ .RelPermalink }}">{{ .Title }}</a></li>
+    {{ end }}
+    </ul>
+  {{ end }}
+{{ end }}
+{{ end }}

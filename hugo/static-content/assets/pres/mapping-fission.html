@@ -1,0 +1,636 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="generator" content="pandoc">
+  <meta name="author" content="Bèr berkes Kessels">
+  <meta name="keywords" content="decentralised, mapping, presentation, placebazaar">
+  <title>Decentralised Mapping</title>
+  <meta name="apple-mobile-web-app-capable" content="yes">
+  <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no, minimal-ui">
+  <link rel="stylesheet" href="https://unpkg.com/reveal.js//dist/reset.css">
+  <link rel="stylesheet" href="https://unpkg.com/reveal.js//dist/reveal.css">
+  <style>
+    .reveal .sourceCode {  /* see #7635 */
+      overflow: visible;
+    }
+    code{white-space: pre-wrap;}
+    span.smallcaps{font-variant: small-caps;}
+    div.columns{display: flex; gap: min(4vw, 1.5em);}
+    div.column{flex: auto; overflow-x: auto;}
+    div.hanging-indent{margin-left: 1.5em; text-indent: -1.5em;}
+    ul.task-list{list-style: none;}
+    ul.task-list li input[type="checkbox"] {
+      width: 0.8em;
+      margin: 0 0.8em 0.2em -1.6em;
+      vertical-align: middle;
+    }
+    .display.math{display: block; text-align: center; margin: 0.5rem auto;}
+  </style>
+  <link rel="stylesheet" href="https://unpkg.com/reveal.js//dist/theme/serif.css" id="theme">
+  <link rel="stylesheet" href="style.css"/>
+</head>
+<body>
+  <div class="reveal">
+    <div class="slides">
+
+<section id="title-slide">
+  <h1 class="title">Decentralised Mapping</h1>
+  <p class="subtitle">A guide through the world of decentralized mapping
+projects</p>
+  <p class="author">Bèr <code>berkes</code> Kessels</p>
+</section>
+
+<section id="about-this-pres" class="slide level1">
+<h1>About this pres</h1>
+<ul>
+<li>Is online: <a
+href="https://berk.es/mapping-fission">berk.es/mapping-fission</a>
+(git.webschuur.com/placebazaar/mapping-fission)</li>
+<li>Uses the word Blockchain only once ☚</li>
+<li>Uses the word Decentralised over Distributed, because Distribution
+means something different with mapping data.</li>
+</ul>
+</section>
+<section id="about-me" class="slide level1">
+<h1>About me</h1>
+<ul>
+<li>Bèr <code>berkes</code> Kessels</li>
+<li>berkes (berkes.eth, mastodon, keybase, github and that
+birdsite)</li>
+<li>Founder of placebazaar</li>
+<li>Blog on berk.es</li>
+<li>Mail on ber@berk.es</li>
+</ul>
+</section>
+<section id="well-cover" class="slide level1">
+<h1>we’ll cover</h1>
+<ul>
+<li>Problems with mapping</li>
+<li>Current solutions for mapping</li>
+<li>What can decentralisation offer?</li>
+<li>Deeper dive into one such solution: peermaps/ipfs.</li>
+</ul>
+</section>
+<section id="problems" class="slide level1">
+<h1>Problems</h1>
+</section>
+<section id="maps-are-expensive-to-make." class="slide level1"
+data-background-image="tomtomcars.jpg">
+<h1 data-background-image="tomtomcars.jpg">Maps are expensive to
+make.</h1>
+<p>They require local knowledge. Feet on the ground.</p>
+</section>
+<section id="maps-are-always-outdated." class="slide level1">
+<h1>Maps are always outdated.</h1>
+<p>The moment you publish a worldwide map, thousands of things have been
+moved, renamed, replaced, closed, opened and so on.</p>
+</section>
+<section id="maps-are-political-and-strategical." class="slide level1">
+<h1>Maps are political and strategical.</h1>
+<p>Lots of pieces on a map are undebatable facts.</p>
+<blockquote>
+<p>There is a park bench at X,Y.</p>
+</blockquote>
+</section>
+<section id="maps-are-also-debatable." class="slide level1"
+data-background-image="crimea.png">
+<h1 data-background-image="crimea.png">Maps are also debatable.</h1>
+<blockquote>
+<p>This city is part of China/Israel/Thailand/Belgium</p>
+</blockquote>
+</section>
+<section id="maps-are-often-strategical" class="slide level1"
+data-background-image="marine-parking.jpg">
+<h1 data-background-image="marine-parking.jpg">Maps are often
+strategical</h1>
+<ul>
+<li>Here’s a military base with N parking spots.<br />
+</li>
+<li>This is where all the speed camera’s are.<br />
+</li>
+<li>Here you can cross the border easily.</li>
+</ul>
+</section>
+<section id="to-summarise" class="slide level1">
+<h1>To summarise</h1>
+<ul>
+<li>are hard and expensive to make and maintain.</li>
+<li>require local knowledge.</li>
+<li>are politically motivated and censored.</li>
+<li>are the last thing to put inside one monopolist.</li>
+</ul>
+</section>
+<section id="maps-are-the-most-important-visualisation-of-data."
+class="slide level1">
+<h1>Maps are the most important visualisation of data.</h1>
+<p>When did you last use a map.</p>
+</section>
+<section id="centralisation" class="slide level1">
+<h1>Centralisation</h1>
+</section>
+<section id="centralisation-enables-censorship" class="slide level1"
+data-background-image="censor.jpg">
+<h1 data-background-image="censor.jpg">Centralisation enables
+censorship</h1>
+</section>
+<section class="slide level1">
+
+<figure>
+<img data-src="mcwv.png" alt="MCWV" />
+<figcaption aria-hidden="true">MCWV</figcaption>
+</figure>
+</section>
+<section id="hampered-by-commercial-interest" class="slide level1"
+data-background-image="hairdresser.jpg">
+<h1 data-background-image="hairdresser.jpg">Hampered by commercial
+interest</h1>
+</section>
+<section class="slide level1">
+
+<figure>
+<img data-src="stuck_convoy.jpg" alt="missing maps" />
+<figcaption aria-hidden="true">missing maps</figcaption>
+</figure>
+<h2 id="the-wikipedia-of-maps-came-to-the-rescue"><a
+href="https://www.npr.org/sections/goatsandsoda/2019/10/03/765783296/after-hurricane-dorian-the-wikipedia-of-maps-came-to-the-rescue?t=1575021420075">…
+The ‘Wikipedia Of Maps’ Came To The Rescue</a></h2>
+</section>
+<section id="enables-privacy-infringements" class="slide level1">
+<h1>Enables privacy infringements</h1>
+<p>Google knows:</p>
+<div>
+<ul>
+<li class="fragment">Where you work, live, sport, spend free time.</li>
+<li class="fragment">Where your boyfriend lives.</li>
+<li class="fragment">That you no longer visit your boyfriend.</li>
+<li class="fragment">When you quit your job.</li>
+<li class="fragment">Visit the liquor store more often.</li>
+<li class="fragment">Sleep on a bench.</li>
+</ul>
+</div>
+</section>
+<section class="slide level1">
+
+<p>Google Location services, and the “free” google maps app, are the
+biggest <em>trojan horse</em>. Deployed only to get the most valuable
+metadata about you.</p>
+</section>
+<section id="centralisation-1" class="slide level1">
+<h1>Centralisation</h1>
+<ul>
+<li>Easy to censor.</li>
+<li>Dependent on interest of central publisher.</li>
+<li>Runs on users’ data (privacy)</li>
+<li>Monopoly.</li>
+<li>etc. The usual.</li>
+</ul>
+</section>
+<section id="current-mapping" class="slide level1">
+<h1>Current mapping</h1>
+<ul>
+<li>Google Maps</li>
+<li>Open Street Maps</li>
+<li>A bazillion GIS providers</li>
+</ul>
+</section>
+<section class="slide level1">
+
+<p><a href="https://gspe21-ssl.ls.apple.com/html/attribution.html"
+target="_blank">example</a></p>
+</section>
+<section id="there-is-mapping-data." class="slide level1">
+<h1>There is mapping data.</h1>
+<ul>
+<li>Lots of it is open data.</li>
+<li>Lots can be bought or licensed.</li>
+<li>But it is spread all over.</li>
+<li>And always in flux.</li>
+</ul>
+</section>
+<section id="solution" class="slide level1"
+data-background-image="oca-accra-field.jpg">
+<h1 data-background-image="oca-accra-field.jpg">Solution</h1>
+<ul>
+<li>Decentralised collection of mapping data</li>
+<li>Decentralised publication of mapping data</li>
+<li>Entities and orgs glueing, and mixing all that data</li>
+</ul>
+</section>
+<section id="current-options" class="slide level1">
+<h1>Current Options</h1>
+<ul>
+<li>Google Business/maps</li>
+<li>Apple Maps</li>
+<li>Bing Maps</li>
+<li>Open Street Map</li>
+</ul>
+</section>
+<section id="future-options-collection" class="slide level1">
+<h1>Future options: Collection</h1>
+<ul>
+<li><a
+href="https://map.foam.space/#/at/?lng=4.8314700&amp;lat=52.3445000&amp;zoom=5.00">FOAM</a></li>
+<li><a href="https://www.streetcred.co/">StreetCred</a>.</li>
+<li><a href="https://osmand.net/osm_live">OSMand Live (Bitcoin
+Payments)</a></li>
+<li>Scamcoins galore</li>
+<li>Vaporware (including <a
+href="https://placebazaar.org/">PlaceBazaar</a>)</li>
+</ul>
+</section>
+<section id="future-options-distribution" class="slide level1">
+<h1>Future options: Distribution</h1>
+<ul>
+<li><a href="https://peermaps.org/">Peermaps</a></li>
+<li><a href="http://www.mantlik.cz/tracker/">Bittorrent</a></li>
+<li><a
+href="https://cloudflare-ipfs.com/ipns/ipfs.placebazaar.org">IPFS</a></li>
+</ul>
+</section>
+<section class="slide level1">
+
+<figure>
+<img data-src="ipfs_placebazaar.png" alt="IPFS by placebazaar" />
+<figcaption aria-hidden="true">IPFS by placebazaar</figcaption>
+</figure>
+</section>
+<section class="slide level1">
+
+<ul>
+<li>Streaming</li>
+</ul>
+</section>
+<section class="slide level1">
+
+<p><a
+href="https://tracker.geops.ch/?z=14&amp;s=1&amp;x=547404.9479&amp;y=6865272.5317&amp;l=transport"
+target="_blank">GTFS example</a></p>
+</section>
+<section id="dynamics-of-mapping-data" class="slide level1">
+<h1>Dynamics of mapping data</h1>
+<ol type="1">
+<li>Geography: continents, mountains, lakes</li>
+<li>Physical structure: Roads, bridges, location of cities</li>
+<li>Political: Boundaries, borders</li>
+<li>Metadata: Speed limits, turn restrictions, park benches,
+restaurant</li>
+<li>Logistics: traffic, transport</li>
+</ol>
+</section>
+<section id="obstacles" class="slide level1">
+<h1>Obstacles</h1>
+<ul>
+<li>Collection of data is complex.</li>
+<li>Data is continuously updating.</li>
+<li>Data is HUGE.</li>
+</ul>
+</section>
+<section class="slide level1">
+
+<figure>
+<img data-src="stats.png" alt="stats" />
+<figcaption aria-hidden="true">stats</figcaption>
+</figure>
+</section>
+<section id="data-is-never-finished.-or-100-dependable."
+class="slide level1">
+<h1>Data is never “finished”. Or 100% dependable.</h1>
+</section>
+<section class="slide level1">
+
+<figure>
+<img data-src="errors.png" alt="Errors" />
+<figcaption aria-hidden="true">Errors</figcaption>
+</figure>
+</section>
+<section class="slide level1">
+
+<figure>
+<img data-src="vandalism.jpg" height="600" alt="Vandalism" />
+<figcaption aria-hidden="true">Vandalism</figcaption>
+</figure>
+</section>
+<section class="slide level1">
+
+<figure>
+<img data-src="vandalism_jewtropolis.png" alt="Vandalism" />
+<figcaption aria-hidden="true">Vandalism</figcaption>
+</figure>
+</section>
+<section id="data-is-everywhere-but-unfindable." class="slide level1">
+<h1>Data is everywhere (but unfindable).</h1>
+</section>
+<section class="slide level1">
+
+<p><a href="https://maps.amsterdam.nl/open_geodata/?k=278">example</a> {
+target=_blank }</p>
+</section>
+<section id="standards" class="slide level1">
+<h1>Standards</h1>
+<figure>
+<img data-src="standards.png" alt="XKCD 927 Standards" />
+<figcaption aria-hidden="true">XKCD 927 Standards</figcaption>
+</figure>
+</section>
+<section id="standards-just-one-example" class="slide level1">
+<h1>Standards: just one example</h1>
+<div>
+<ul>
+<li class="fragment">Netherlands requires Rijksdriehoekstelsel</li>
+<li class="fragment">How many <strong>official</strong> Spatial
+reference systems are there? Guess?</li>
+<li class="fragment">Nope: 4362 (in EPSG)</li>
+</ul>
+</div>
+</section>
+<section id="mixing-mashing-and-merging-is-a-problem."
+class="slide level1">
+<h1>Mixing, Mashing and Merging is a problem.</h1>
+</section>
+<section id="decentralised" class="slide level1">
+<h1>Decentralised</h1>
+<blockquote>
+<p>Just because it is possible to build distributed systems does not
+necessarily mean that it is a good idea. <em>— Andrew S. Tanenbaum in
+Distributed Systems: Principles and Paradigms</em></p>
+</blockquote>
+</section>
+<section id="solutions-by-centralising" class="slide level1">
+<h1>Solutions by centralising</h1>
+<ul>
+<li>Weekly/Nightly imports: just rebuild the database.</li>
+<li>Event stream, handle changesets. <a
+href="http://live.openstreetmap.fr/" target="_blank">example live
+updates</a></li>
+</ul>
+</section>
+<section id="solutions-by-centralising-1" class="slide level1">
+<h1>Solutions by centralising</h1>
+<ul>
+<li>Central Quality Assurance (tools)</li>
+<li>Validation by crowd</li>
+<li>Effort orchestration</li>
+<li>Standards enforcement and -emergence.</li>
+</ul>
+</section>
+<section id="solutions-through-decentralisation" class="slide level1">
+<h1>Solutions through decentralisation</h1>
+</section>
+<section id="breaking-monopolies" class="slide level1">
+<h1>Breaking Monopolies?</h1>
+<ul>
+<li>There’s enough data. Open and Free.</li>
+<li>Data gathering of map-data is decentralised by nature.</li>
+<li>(Well there’s satellite and AI).</li>
+<li>We need more interfaces around existing datasets. The read-side is
+not distributed.</li>
+</ul>
+</section>
+<section id="breaking-censorship" class="slide level1">
+<h1>Breaking Censorship?</h1>
+<ul>
+<li>On the read-side.</li>
+<li>Developers need more options (than Google maps).</li>
+<li>Developers need easier access to datasets.</li>
+<li>PlaceBazaar is building a PoC OpenOpeningsTijden; a business
+directory</li>
+</ul>
+</section>
+<section id="taking-back-ownership" class="slide level1">
+<h1>Taking back ownership?</h1>
+<ul>
+<li>Any personal location data must be owned by users.</li>
+<li>Any other data must be open data.</li>
+</ul>
+</section>
+<section id="what-can-the-decentralisation-movement-do"
+class="slide level1">
+<h1>What can the decentralisation-movement do?</h1>
+</section>
+<section id="make-apps." class="slide level1">
+<h1>Make apps.</h1>
+<p>(and make them privacy-first)</p>
+</section>
+<section id="use-apps." class="slide level1">
+<h1>Use apps.</h1>
+<p>OSMand, Maps.me, Or <a
+href="https://wiki.openstreetmap.org/wiki/Category:Android_software">one
+of the 160+ android</a> or <a
+href="https://wiki.openstreetmap.org/wiki/Category:IOS_software">126 iOS
+apps</a> using open data maps.</p>
+</section>
+<section id="use-free-mapping-tools" class="slide level1">
+<h1>Use free mapping tools</h1>
+<ul>
+<li>Display maps: Leaflet, OpenLayers</li>
+<li>In apps: Mapbox SDK, Skobbler, Nutitek, and many more</li>
+<li>Run your own tileserver: Mapnik and many more.</li>
+<li>Tune your own routing: GraphHopper, OpenTripPlanner, Brouter,
+Openrouteservice</li>
+<li><a href="https://switch2osm.org/other-uses/">And more
+usages</a></li>
+</ul>
+</section>
+<section id="release-open-data-yay-even-more-data" class="slide level1">
+<h1>Release open data (yay! even more data)</h1>
+</section>
+<section id="peermaps" class="slide level1">
+<h1>Peermaps</h1>
+<p><a
+href="https://ipfs.io/ipfs/QmfLkbAq6nhQmRccVUkrA6A1dRAni2QtomhcEGiv2D9aEm"
+target="_blank">example: luxembourg</a></p>
+</section>
+<section id="storage" class="slide level1">
+<h1>Storage</h1>
+<figure>
+<img data-src="lb_tile.png" alt="Example of the file structure" />
+<figcaption aria-hidden="true">Example of the file
+structure</figcaption>
+</figure>
+</section>
+<section id="r-tree" class="slide level1">
+<h1>R-tree</h1>
+<figure>
+<img data-src="rtree.png" alt="R-tree" />
+<figcaption aria-hidden="true">R-tree</figcaption>
+</figure>
+</section>
+<section id="code." class="slide level1">
+<h1>Code.</h1>
+<pre><code>ssh kind-jefferys.webschuur.com
+peermaps data 6.3281,49.4440,6.6800,49.6160 | bat
+
+diff -u &lt;(peermaps files 6.3281,49.4440,6.6800,49.6160) &lt;(peermaps files 6.3281,49.0,6.6800,49.6160)
+
+
+peermaps data 6.3281,49.4440,6.6800,49.6160 | grep &quot;fuel&quot;
+
+peermaps data 5.4080,49.4137,7.5641,50.2235 | grep &quot;fuel&quot;</code></pre>
+</section>
+    </div>
+  </div>
+
+  <script src="https://unpkg.com/reveal.js//dist/reveal.js"></script>
+
+  <!-- reveal.js plugins -->
+  <script src="https://unpkg.com/reveal.js//plugin/notes/notes.js"></script>
+  <script src="https://unpkg.com/reveal.js//plugin/search/search.js"></script>
+  <script src="https://unpkg.com/reveal.js//plugin/zoom/zoom.js"></script>
+
+  <script>
+
+      // Full list of configuration options available at:
+      // https://revealjs.com/config/
+      Reveal.initialize({
+        // Display controls in the bottom right corner
+        controls: true,
+
+        // Help the user learn the controls by providing hints, for example by
+        // bouncing the down arrow when they first encounter a vertical slide
+        controlsTutorial: true,
+
+        // Determines where controls appear, "edges" or "bottom-right"
+        controlsLayout: 'bottom-right',
+
+        // Visibility rule for backwards navigation arrows; "faded", "hidden"
+        // or "visible"
+        controlsBackArrows: 'faded',
+
+        // Display a presentation progress bar
+        progress: true,
+
+        // Display the page number of the current slide
+        slideNumber: false,
+
+        // 'all', 'print', or 'speaker'
+        showSlideNumber: 'all',
+
+        // Add the current slide number to the URL hash so that reloading the
+        // page/copying the URL will return you to the same slide
+        hash: true,
+
+        // Start with 1 for the hash rather than 0
+        hashOneBasedIndex: false,
+
+        // Flags if we should monitor the hash and change slides accordingly
+        respondToHashChanges: true,
+
+        // Push each slide change to the browser history
+        history: false,
+
+        // Enable keyboard shortcuts for navigation
+        keyboard: true,
+
+        // Enable the slide overview mode
+        overview: true,
+
+        // Disables the default reveal.js slide layout (scaling and centering)
+        // so that you can use custom CSS layout
+        disableLayout: false,
+
+        // Vertical centering of slides
+        center: true,
+
+        // Enables touch navigation on devices with touch input
+        touch: true,
+
+        // Loop the presentation
+        loop: false,
+
+        // Change the presentation direction to be RTL
+        rtl: false,
+
+        // see https://revealjs.com/vertical-slides/#navigation-mode
+        navigationMode: 'default',
+
+        // Randomizes the order of slides each time the presentation loads
+        shuffle: false,
+
+        // Turns fragments on and off globally
+        fragments: true,
+
+        // Flags whether to include the current fragment in the URL,
+        // so that reloading brings you to the same fragment position
+        fragmentInURL: true,
+
+        // Flags if the presentation is running in an embedded mode,
+        // i.e. contained within a limited portion of the screen
+        embedded: false,
+
+        // Flags if we should show a help overlay when the questionmark
+        // key is pressed
+        help: true,
+
+        // Flags if it should be possible to pause the presentation (blackout)
+        pause: true,
+
+        // Flags if speaker notes should be visible to all viewers
+        showNotes: false,
+
+        // Global override for autoplaying embedded media (null/true/false)
+        autoPlayMedia: null,
+
+        // Global override for preloading lazy-loaded iframes (null/true/false)
+        preloadIframes: null,
+
+        // Number of milliseconds between automatically proceeding to the
+        // next slide, disabled when set to 0, this value can be overwritten
+        // by using a data-autoslide attribute on your slides
+        autoSlide: 0,
+
+        // Stop auto-sliding after user input
+        autoSlideStoppable: true,
+
+        // Use this method for navigation when auto-sliding
+        autoSlideMethod: null,
+
+        // Specify the average time in seconds that you think you will spend
+        // presenting each slide. This is used to show a pacing timer in the
+        // speaker view
+        defaultTiming: null,
+
+        // Enable slide navigation via mouse wheel
+        mouseWheel: false,
+
+        // The display mode that will be used to show slides
+        display: 'block',
+
+        // Hide cursor if inactive
+        hideInactiveCursor: true,
+
+        // Time before the cursor is hidden (in ms)
+        hideCursorTime: 5000,
+
+        // Opens links in an iframe preview overlay
+        previewLinks: false,
+
+        // Transition style (none/fade/slide/convex/concave/zoom)
+        transition: 'slide',
+
+        // Transition speed (default/fast/slow)
+        transitionSpeed: 'default',
+
+        // Transition style for full page slide backgrounds
+        // (none/fade/slide/convex/concave/zoom)
+        backgroundTransition: 'fade',
+
+        // Number of slides away from the current that are visible
+        viewDistance: 3,
+
+        // Number of slides away from the current that are visible on mobile
+        // devices. It is advisable to set this to a lower number than
+        // viewDistance in order to save resources.
+        mobileViewDistance: 2,
+
+        // reveal.js plugins
+        plugins: [
+          RevealNotes,
+          RevealSearch,
+          RevealZoom
+        ]
+      });
+    </script>
+    </body>
+</html>

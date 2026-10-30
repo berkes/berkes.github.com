@@ -1,3 +1,8 @@
+/%26lt%3B%3Fphp%20print%20%24node_url%20%3F%26gt%3B
+/%5B%5CS%5D*
+/%5B%5CS%5D%2A
+%5B%5Drupal.org/conference-amsterdam-2005%5B%5D
+%7B%7B%20BASE_PATH%20%7D%7D%7B%7B%20post.url%20%7D%7D
 /about/contact
 about.html
 /agenda
@@ -23,8 +28,11 @@ errors.png
 /files/images/Regions_cutout_small.png
 /home
 /images/Orkut_404.png
+/img_assist/gen/186%26amp%3Bthumb%3D1
 /img_assist/gen/186&amp;thumb=1
+/img_assist/gen/199%26amp%3Bthumb%3D1
 /img_assist/gen/199&amp;thumb=1
+/img_assist/gen/255%26amp%3Bthumb%3D1
 /img_assist/gen/255&amp;thumb=1
 /info/stella_den_haag
 ipfs_placebazaar.png
@@ -32,6 +40,8 @@ lb_tile.png
 /&lt;?php print $node_url ?&gt;
 mcwv.png
 /meer_seo_mooiere_urls
+/microframeworks/%23/this-qr
+/microframeworks/%23/voorbeelden
 /microframeworks/#/this-qr
 /microframeworks/#/voorbeelden
 /misc/2uitnodigingLon.zip
@@ -73,6 +83,7 @@ rtree.png
 /[\S]*
 Sinterklazen
 /sites/all/themes/lagelanden/images/download-drupal-btn.png
+/sites/bler.webschuur.com/files/01_the_movers_and_the_shakers.mp3%20%205.89%20MB
 /sites/bler.webschuur.com/files/01_the_movers_and_the_shakers.mp3  5.89 MB
 /sites/bler.webschuur.com/files/adviescbv.pdf
 /sites/bler.webschuur.com/files/fixed_too_big2.png
@@ -88,7 +99,9 @@ sites/default/files/images/drupal.png
 /sites/webschuur.com/files/sugarcube_entity_rel_diagram_user.png
 sites/webschuur.com/files/sunflower_sm.jpg
 /sites/webschuur.com/files/whatsaname_layout_small.png
+/spreadfirefox.com/community/%3Fq%3Daffiliates%26amp%3Bid%3D930%26amp%3Bt%3D1
 /spreadfirefox.com/community/?q=affiliates&amp;id=930&amp;t=1
+/spreadfirefox.com/community/?q=affiliates&id=930&t=1
 standards.png
 stats.png
 stuck_convoy.jpg
@@ -103,5 +116,10 @@ vandalism_jewtropolis.png
 vandalism.jpg
 /wie-wij-zijn
 /wij_vertrouwen_de_stemcomputers_niet
+/wiki/Globalization
+/wiki/James_Tobin
+/wiki/United_Nations
+/wiki/World_Bank
+/wiki/World_Trade_Organization
 www.petitiononline.com/golfinho
 /zattevrienden_op_drupal

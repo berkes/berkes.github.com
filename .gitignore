@@ -18,3 +18,7 @@ tests/cypress/screenshots
 tests/cypress/downloads
 tests/cypress/snapshots/__diff_output__
 tests/cypress/snapshots/**/__diff_output__
+
+hugo/build/
+hugo/resources/
+hugo/.hugo_build.lock

@@ -1,0 +1,12 @@
+{{ $path := printf "images/%s/%s/%s/%s.png" (.Date.Format "2006") (.Date.Format "01") (.Date.Format "02") (.Slug) }}
+{{ $static := "/static-content/" }}
+{{ if fileExists (printf "%s%s" $static $path) }}
+<figure class="decorative">
+  <img src="/images/{{ .Date.Format "2006" }}/{{ .Date.Format "01" }}/{{ .Date.Format "02" }}/{{ .Slug }}.png" alt="Woodcut from Doré. Purely illustrative" />
+  {{ if eq .Params.lang "nl" }}
+    <figcaption>Doré Houtsnede. De enige functie hiervan is een mooiere layout. En de gravures zijn gewoon mooi</figcaption>
+  {{ else }}
+    <figcaption>Doré Woodcut. Its only function is to make the layout look better. And these images are really nice themselves</figcaption>
+  {{ end }}
+</figure>
+{{ end }}

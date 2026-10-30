@@ -1,0 +1,24 @@
+{{ define "main" }}
+<h1>Posts By Tag</h1>
+{{ $store := .Store }}
+{{ $store.Set "tags" (slice) }}
+{{ range $p := site.RegularPages }}
+  {{ $ptags := $p.Params.tags | default (slice) }}
+  {{ if not (reflect.IsSlice $ptags) }}{{ $ptags = slice $ptags }}{{ end }}
+  {{ range $ptags }}
+    {{ $store.Set "tags" ($store.Get "tags" | append .) }}
+  {{ end }}
+{{ end }}
+{{ $uniq := $store.Get "tags" | uniq }}
+{{ range $tag := $uniq }}
+  {{ $pages := where site.RegularPages "Params.tags" "intersect" (slice $tag) }}
+  {{ if gt (len $pages) 1 }}
+    <h2 id="{{ $tag | urlize }}-ref">{{ $tag }}</h2>
+    <ul>
+    {{ range $pages }}
+      <li><span>{{ .Date.Format "January 02, 2006" }}</span> &raquo; <a href="{{ .RelPermalink }}">{{ .Title }}</a></li>
+    {{ end }}
+    </ul>
+  {{ end }}
+{{ end }}
+{{ end }}
