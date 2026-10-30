@@ -8,7 +8,7 @@ date: 2013-11-27
 
 Deze vraag kreeg ik de afgelopen weken verschillende keren. Laat ik
 beginnen met de bekende [waarschuwing die ik eerder al
-gaf](http://berk.es/2013/04/01/bitcoins-kopen-weet-wat-je-doet/): Weet
+gaf](/2013/04/01/bitcoins-kopen-weet-wat-je-doet/): Weet
 wat je doet. Besef dat de kans groot is dat je alles verliest. Misschien
 is de kans dat je alles verliest wel groter dan dat je iets aan je
 bitcoin-avontuur overhoud. Dit is dan ook stap 1: [Informeer

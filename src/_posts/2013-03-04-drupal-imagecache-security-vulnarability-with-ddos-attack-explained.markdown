@@ -7,7 +7,7 @@ date: 2013-03-04
 ---
 
 Nearly a year ago, long before I decided to move out of [Drupalwork
-entirely](http://berk.es/2012/10/01/farewell-drupal/), I reported a security vulnarability in Drupal 7 core
+entirely](/2012/10/01/farewell-drupal/), I reported a security vulnarability in Drupal 7 core
 in imagecache. Since imagecache is used on most Drupal6 instances this
 problem occurs there too. I had the draft for this poste, tucked away on
 an offline disk (security-details should not live "online" or in "the

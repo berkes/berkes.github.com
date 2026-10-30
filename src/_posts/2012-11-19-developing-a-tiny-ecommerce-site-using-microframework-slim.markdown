@@ -75,7 +75,7 @@ fix or improve.
 
 ## Slim
 Hence **PHP**, hence [**Slim**](http://www.slimframework.com/), and managed and deployed with [**git
-deploy**](http://berk.es/2012/08/03/git-deploy-or-how-i-learned-to-stop-worrying-and-love-deployment/).
+deploy**](/2012/08/03/git-deploy-or-how-i-learned-to-stop-worrying-and-love-deployment/).
 
 ### Requirements, documentation and functional designs (wireframes)
 Before I started coding I wrote down some guidelines made a few

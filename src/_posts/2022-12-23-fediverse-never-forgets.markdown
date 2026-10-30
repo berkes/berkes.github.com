@@ -40,7 +40,7 @@ operandi of the fediverse.
 
 In order for your Mastodon-post to reach hundreds of people, it is copied many
 times[3]. Aside from this being [rather
-inefficient](https://berk.es/https://berk.es/2022/11/08/fediverse-inefficiencies/),
+inefficient](/2022/11/08/fediverse-inefficiencies/),
 it means your [Right to be forgotten
 (GDPR)](https://gdpr.eu/right-to-be-forgotten/) is technically impossible to
 uphold on the fediverse. For a privacy-touting network, this is a problem. Or

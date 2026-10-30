@@ -15,9 +15,9 @@ Vandaar: [Microframeworks](http://drupaljam.nl/sessie/microframeworks-queen-drup
 
 ## Update: resources
 
-* [De presentatie](http://berk.es/microframeworks/#/this-qr) ([source](https://github.com/berkes/microframeworks/tree/develop))
+* [De presentatie](/microframeworks/#/this-qr) ([source](https://github.com/berkes/microframeworks/tree/develop))
 * [De voorbeeld applicatie, "questions"](https://github.com/berkes/microframeworks-questions)
-* [Overzicht van frameworks voor PHP, Python en Ruby](http://berk.es/microframeworks/#/voorbeelden).
+* [Overzicht van frameworks voor PHP, Python en Ruby](/microframeworks/#/voorbeelden).
 
 # Microframenworks: Queen Drupal en haar onderdanen #
 

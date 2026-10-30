@@ -21,7 +21,7 @@ in the first place. Yes, it might work (for you), but that is far from
 
 Between 2005 and now, I learned programming properly. I mean, OOP,
 unit-testing, patterns and all that (This also lead to me, [abandoning all
-my Drupal work, mostly](http://berk.es/2012/10/01/farewell-drupal/)).
+my Drupal work, mostly](/2012/10/01/farewell-drupal/)).
 
 None of my publicly released Drupal-modules ever
 resembled that progress I made; mainly because Drupal itself is not OOP. Has poor

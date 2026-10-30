@@ -13,7 +13,7 @@ Bitcoin is overal in het nieuws. [BBC](http://bitcoincharts.com/charts/mtgoxUSD#
 [NOS achtuurjournaal](http://nos.nl/artikel/490896-vijf-vragen-over-bitcoins.html). De reden is de [enorme wisselkoersstijging](http://bitcoincharts.com/charts/mtgoxUSD#rg90ztgSzm1g10zm2g25zv). Vanmiddag ging de prijs van 1 Bitcoin door de $100-grens: je betaalt dus $100 voor één Bitcoin. Begin dit jaar was dat nog minder dan $20.
 
 Laat vooropstaan dat ik Bitcoin een geweldige toekomst toedicht. Ik
-geloof erin; doe dat al [bijna twee jaar](http://berk.es/2011/05/29/bitcoins-de-revolutionaire-valuta-met-een-potentie-voor-de-teloorgang-van-ons-banksysteem/).
+geloof erin; doe dat al [bijna twee jaar](/2011/05/29/bitcoins-de-revolutionaire-valuta-met-een-potentie-voor-de-teloorgang-van-ons-banksysteem/).
 
 Opeens wil iedereen Bitcoin. Hieronder drie redenen waarom je dat nu
 misschien beter niet kunt doen. Of helemaal beter niet kunt doen.

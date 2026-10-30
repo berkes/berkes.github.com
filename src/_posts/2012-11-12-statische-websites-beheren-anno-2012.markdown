@@ -17,7 +17,7 @@ Github.
 * [Phrozn](http://www.phrozn.info/en/), in PHP, probeert Jekyll en Hyde
 te benaderen. 
 
-We zien dan ook een opleving van Static Site Generators, hoofdzakelijk aangedreven door git. Git is een revisiebeheersysteem waarmee je makkelijk kunt [releasen](http://berk.es/2012/08/03/git-deploy-or-how-i-learned-to-stop-worrying-and-love-deployment/), en makkelijk heel veel bestanden kunt beheren. 
+We zien dan ook een opleving van Static Site Generators, hoofdzakelijk aangedreven door git. Git is een revisiebeheersysteem waarmee je makkelijk kunt [releasen](/2012/08/03/git-deploy-or-how-i-learned-to-stop-worrying-and-love-deployment/), en makkelijk heel veel bestanden kunt beheren. 
 Deze generatie static site generators, gebruiken geen databases of complexe en dure pakketten, maar, heel eenvoudig, tekstbestandjes.  Gewoon een tekstbestand voor iedere pagina en artikeltje. Dit tekstbestandjes beheer je met git, een revisiebeheersysteem. Met wat scripts maak je van de tekstbestandjes daadwerkelijke webpagina's en die zet je online.
 
 Een Static Site Generator heeft enkele nadelen, maar ook enorme voordelen ten opzichte van
