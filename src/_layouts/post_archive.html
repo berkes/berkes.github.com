@@ -5,8 +5,13 @@ layout: default
   <header>
     <h1>{{ page.title }}</h1>
   </header> 
-  <div class="body">
-    {{ content }}
+  <div class="body row">
+    <div class="eight columns">
+      {{ content }}
+    </div>
+    <div class="four columns">
+      {% include image.yml %}
+    </div>
   </div>
   <footer>
     <p class="note">
