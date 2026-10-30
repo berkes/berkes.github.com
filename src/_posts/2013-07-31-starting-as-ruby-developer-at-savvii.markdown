@@ -48,7 +48,7 @@ Hate.
 I'll be putting my all my focus on Savvii, on making it
 a great hoster. But I expect to go back to some small side-projects once we are
 moving. Not sure how it will combine, but time will learn.
-[Berk.es](http://berk.es/about.html) will continue to exist, albeit
+[Berk.es](/about.html) will continue to exist, albeit
 dormant for a while.
 
 ## Savvii? WordPress hoster?

@@ -21,7 +21,7 @@ je ook "gewoon" een [TOR](http://torproject.org) proxy gebruiken.
 Maar voordat we TOR installeren eerst een beetje achtergrondinformatie. 
 Wat Piratebay doet, is niets meer dan verwijzingen naar een download plaatsen. 
 
-Je download de bestanden niet van de piratebay, maar van "peers", mensen zoals jij en ik. Die een film downloaden. Tijdens dat downloaden upload je ook altijd. Naar mensen zoals jij en ik. Jij upload de stukje die je al hebt. Ik kan die dan downloaden. En ze dan weer uploaden naar mensen die ze nog niet hebben. Dat blijft gewoon mogelijk. Wat de rechter verbood, is die verwijzing naar jou en mij en alle andere up- en downloaders vanaf Piratebay.org op te halen. Je hoeft dus alleen maar bij piratebay te komen, daarna gaat alles als vanouds. En dat kan met TOR. Meer informatie over wat TOR doet en is heb ik [al eerder beschreven](http://berk.es/2007/01/11/websites-veiliger-maken-met-privoxy/).
+Je download de bestanden niet van de piratebay, maar van "peers", mensen zoals jij en ik. Die een film downloaden. Tijdens dat downloaden upload je ook altijd. Naar mensen zoals jij en ik. Jij upload de stukje die je al hebt. Ik kan die dan downloaden. En ze dan weer uploaden naar mensen die ze nog niet hebben. Dat blijft gewoon mogelijk. Wat de rechter verbood, is die verwijzing naar jou en mij en alle andere up- en downloaders vanaf Piratebay.org op te halen. Je hoeft dus alleen maar bij piratebay te komen, daarna gaat alles als vanouds. En dat kan met TOR. Meer informatie over wat TOR doet en is heb ik [al eerder beschreven](/2007/01/11/websites-veiliger-maken-met-privoxy/).
 
 # TOR instellen op Ubuntu
 

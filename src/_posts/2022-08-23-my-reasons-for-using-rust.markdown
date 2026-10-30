@@ -34,7 +34,7 @@ even the performance, are less important or even irrelevant. For me.
 
 I've been developing [in Ruby and Rails since 2005](/tags.html#ruby-ref) and
 full-time [since
-2013](https://berk.es/2013/10/06/i-am-a-webdeveloper-using-ruby-rails-and-other-open-source/).
+2013](/2013/10/06/i-am-a-webdeveloper-using-ruby-rails-and-other-open-source/).
 
 I try not to advertise myself as an "X developer", but use the language that
 fits the use-case best. On a typical day, I'll write some Ruby, some Python,

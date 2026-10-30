@@ -12,7 +12,7 @@ tags:
 - ruby on rails
 lang: en
 ---
-This is an updated version of my [earlier post](http://berk.es/2011/05/28/mailcatcher-for-drupal-and-other-php-applications/). Since msmtp is no longer needed, things are a lot simpler, hence the new article.
+This is an updated version of my [earlier post](/2011/05/28/mailcatcher-for-drupal-and-other-php-applications/). Since msmtp is no longer needed, things are a lot simpler, hence the new article.
 
 **Problem:** on development (and test) you don't want to send out mail. But you *do* want to test it. You certainly don't want to be in my shoes when a client called me, telling she recieved dozens of confused and angry mails from users on her site, after I fired up cron on my local development machine. And sent out approximately 3000 notification mails to users, with stuff like "new post for you: "W000t, fieldz0rz developmentz in CCK is workinggggg!" (I am making this up now. Allthough.... ;) )
 

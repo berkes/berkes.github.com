@@ -18,7 +18,7 @@ And I develop in Ruby. And Rails. And then some more.
 
 # I also don't develop with or for Drupal.
 
-After my decision to stop all [Drupal Work](http://berk.es/2012/10/01/farewell-drupal/) I've honed my Rails skills. Improved my understanding of OO patterns, software architecture. Got to love TDD and BDD, and hardly ever regretted my decision.
+After my decision to stop all [Drupal Work](/2012/10/01/farewell-drupal/) I've honed my Rails skills. Improved my understanding of OO patterns, software architecture. Got to love TDD and BDD, and hardly ever regretted my decision.
 
 # I am a webdeveloper. Developing in Ruby, Rails. And using other tools.
 And then, an offer to help set-up a startup in my own town, a WordPress hoster, came along. Last Wednesday we launched our [MVP](http://www.startuplessonslearned.com/2009/03/minimum-viable-product.html) (yay, we launched!). And the custom parts of our infra are [mostly Ruby](http://translate.google.com/translate?sl=nl&tl=en&js=n&prev=_t&hl=nl&ie=UTF-8&u=http%3A%2F%2Fwww.savvii.nl%2Fblog%2Fsavvii-systeem-architectuur%2F&act=url). 
