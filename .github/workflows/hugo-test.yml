@@ -1,0 +1,64 @@
+name: Hugo port tests
+
+# Temporary workflow for the hugo-port branch (#159/#144): builds the Hugo
+# site, runs the URL parity check, regenerates the visual baselines
+# against the Hugo build, then runs the full Cypress suite with them.
+# Removed again at the cutover (#145) when build.yml flips to Hugo.
+
+on:
+  push:
+    branches:
+      - hugo-port
+  workflow_dispatch:
+
+jobs:
+  hugo-test:
+    runs-on: ubuntu-latest
+
+    steps:
+    - name: Checkout code
+      uses: actions/checkout@v4
+
+    - name: Install just
+      uses: extractions/setup-just@v4
+
+    - name: Install Hugo
+      run: pip install hugo
+
+    - name: Set up Node
+      uses: actions/setup-node@v4
+      with:
+        node-version: 20
+        cache: npm
+        cache-dependency-path: tests/package-lock.json
+
+    - name: Cache Cypress binary
+      uses: actions/cache@v4
+      with:
+        path: ~/.cache/Cypress
+        key: cypress-${{ runner.os }}-${{ hashFiles('tests/package-lock.json') }}
+
+    - name: URL parity + link check
+      run: just hugo-check
+
+    - name: Regenerate visual baselines against the Hugo build
+      run: just hugo-test --expose updateSnapshots=true --spec 'cypress/e2e/visual_regression.cy.js'
+
+    - name: Run full Cypress suite against the Hugo build
+      run: just hugo-test
+
+    - name: Upload regenerated baselines
+      uses: actions/upload-artifact@v4
+      with:
+        name: hugo-baselines
+        path: tests/cypress/snapshots/**/*.snap.png
+
+    - name: Upload test artifacts on failure
+      if: failure()
+      uses: actions/upload-artifact@v4
+      with:
+        name: cypress-artifacts
+        path: |
+          tests/cypress/screenshots
+          tests/cypress/videos
+          tests/cypress/snapshots/**/__diff_output__
