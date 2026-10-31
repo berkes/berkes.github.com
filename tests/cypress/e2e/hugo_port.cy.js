@@ -3,6 +3,16 @@
 // guard the migration's fragile spots.
 
 describe('Hugo port review findings', () => {
+  // The Discu comment script performs a runtime fetch to an external API,
+  // which rejects when CI has no external network. That rejection is
+  // unrelated to the render under test; the comment templates themselves
+  // are covered by the other assertions.
+  Cypress.on('uncaught:exception', (err) => {
+    if (err.message && err.message.includes('Failed to fetch')) {
+      return false;
+    }
+  });
+
   it('should show the about text on the about page, not only the photo', () => {
     cy.visit('/about.html');
     cy.contains('I am Bèr Kessels');
