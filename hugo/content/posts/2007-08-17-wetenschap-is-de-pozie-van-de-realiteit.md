@@ -1,0 +1,17 @@
+---
+layout: post_archive
+title: Wetenschap is de poëzie van de realiteit
+date: 2007-08-17
+created: 1187363039
+tags:
+- geloof
+- wetenschap
+- dawkins
+- atheïsme
+- bijgeloof
+lang: nl
+slug: "wetenschap-is-de-pozie-van-de-realiteit"
+---
+> There is real poetry in the real world.
+
+Science is the poetry of reality  --Richard Dawkins<embed style="width:400px; height:326px;" id="VideoPlayback" type="application/x-shockwave-flash" src="http://video.google.com/googleplayer.swf?docId=8669488783707640763&hl=nl" flashvars=""> </embed><!--more-->

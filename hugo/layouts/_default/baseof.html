@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+{{ $lang := "en" }}
+{{ with .Params.lang }}{{ $lang = . }}{{ end }}
+<html class="no-js" lang="{{ $lang }}">
+<head>
+  <meta charset="utf-8" />
+
+  <!-- Set the viewport width to device width for mobile -->
+  <meta name="viewport" content="width=device-width" />
+
+  <title>{{ .Title }}</title>
+  <meta name="author" content="{{ site.Params.author.name }}" />
+  <link href="http://feeds.feedburner.com/{{ site.Params.author.feedburner }}" rel="alternate" title="{{ .Title }} Feed" type="application/atom+xml" />
+  <link rel="author" href="/humans.txt" type="text/plain" />
+  <link rel="shortcut icon" href="/favicon.ico" type="image/x-icon" />
+  <link rel="canonical" href="{{ .Permalink }}" />
+
+  <!-- Included CSS Files -->
+  <link rel="stylesheet" href="/assets/stylesheets/foundation.css">
+  <link rel="stylesheet" href="/assets/stylesheets/pygments.css">
+  <link rel="stylesheet" href="/assets/stylesheets/app.css">
+
+  <script src="/assets/javascripts/modernizr.foundation.js"></script>
+
+  <!-- Fonts -->
+  <link href='https://fonts.googleapis.com/css?family=Arvo:400,400italic,700,700italic' rel='stylesheet' type='text/css'>
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=OFL+Sorts+Mill+Goudy+TT" media="screen, projection, print">
+</head>
+<body>
+	<!-- container -->
+	<div class="container">
+    <header>
+      <div class="row">
+        <a href="/" title="Home">
+          <img src="/assets/images/logo.png" alt="Logo" title="{{ site.Title }}" />
+        </a>
+      </div>
+
+      <nav id="main" class="row">
+        <div class="onion">
+        <ul>
+          <li>
+          <a href="/about.html">About</a>
+          </li>
+          <li>
+          <a href="/archive.html">Articles</a>
+          </li>
+          <li>
+          <a href="/over.html">Over (NL)</a>
+          </li>
+          <li>
+          <a href="/archief.html">Artikelen (NL)</a>
+          </li>
+          <li>
+            <a href="/pres.html">Presentations</a>
+          </li>
+        </ul>
+        </div>
+      </nav>
+    </header>
+    <section id="main-content" class="row">
+      {{ block "main" . }}{{ end }}
+    </section>
+
+    <footer class="main row">
+      <div class="contact four columns">
+        <p>
+            {{ site.Params.author.name }}<br />
+            {{ site.Params.tagline }}<br />
+            <a href='mailto:{{ site.Params.author.email }}'>{{ site.Params.author.email }}</a>
+          </p>
+          <p>
+            <a rel="me" href="http://github.com/{{ site.Params.author.github }}/">github.com/{{ site.Params.author.github }}</a><br />
+            <a rel="me" href="https://mastodon.nl/@berkes">@berkes on Mastodon</a>
+          </p>
+      </div>
+      <div class="four columns">
+        Copyright 2001-{{ now.Format "2006" }}
+        with a
+        <a href="http://creativecommons.org/licenses/by-sa/3.0/" rel="license">Creative Commons Attribute-Share-alike 3.0 Unported license</a>
+      </div>
+      <div class="four columns">
+        <a class="extra" href="/archive.html">Archive (All English articles)</a> <br />
+        <a class="extra" href="/archief.html">Archief (Alle Nederlandse artikelen)</a> <br />
+        <a class="extra" href="/tags.html">Tags</a> <br />
+        <a href="http://feeds.feedburner.com/{{ site.Params.author.feedburner }}"> RSS </a> <br />
+      </div>
+    </footer>
+  </div>
+</body>
+</html>

@@ -1,0 +1,3 @@
+{{ range .Site.Pages }}{{ .Permalink }}
+{{ end }}{{ range where .Site.RegularPages "Type" "posts" }}{{ .Permalink }}
+{{ end }}
