@@ -1,0 +1,401 @@
+<!DOCTYPE html>
+<html lang="nl">
+<head>
+  <meta charset="utf-8">
+  <meta name="generator" content="pandoc">
+  <meta name="author" content="Bèr berkes Kessels">
+  <meta name="keywords" content="scraping, cli, linux">
+  <title>Web Scraping 101</title>
+  <meta name="apple-mobile-web-app-capable" content="yes">
+  <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no, minimal-ui">
+  <link rel="stylesheet" href="./reveal.js//dist/reset.css">
+  <link rel="stylesheet" href="./reveal.js//dist/reveal.css">
+  <style>
+    .reveal .sourceCode {  /* see #7635 */
+      overflow: visible;
+    }
+    code{white-space: pre-wrap;}
+    span.smallcaps{font-variant: small-caps;}
+    div.columns{display: flex; gap: min(4vw, 1.5em);}
+    div.column{flex: auto; overflow-x: auto;}
+    div.hanging-indent{margin-left: 1.5em; text-indent: -1.5em;}
+    ul.task-list{list-style: none;}
+    ul.task-list li input[type="checkbox"] {
+      width: 0.8em;
+      margin: 0 0.8em 0.2em -1.6em;
+      vertical-align: middle;
+    }
+    .display.math{display: block; text-align: center; margin: 0.5rem auto;}
+  </style>
+  <link rel="stylesheet" href="./reveal.js//dist/theme/black.css" id="theme">
+  <link rel="stylesheet" href="style.css"/>
+</head>
+<body>
+  <div class="reveal">
+    <div class="slides">
+
+<section id="title-slide" data-background-image="" data-background-size="contain">
+  <h1 class="title">Web Scraping 101</h1>
+  <p class="subtitle">Introductie in Web Scraping</p>
+  <p class="author">Bèr <code>berkes</code> Kessels</p>
+</section>
+
+<section>
+<section id="web-scraping-101" class="title-slide slide level1"
+data-background-image="./title.gif">
+<h1 data-background-image="./title.gif">Web Scraping 101</h1>
+
+</section>
+<section id="over-deze-presentatie" class="slide level2">
+<h2>Over deze presentatie</h2>
+<ul>
+<li class="fragment">Is online: <a
+href="https://berk.es/scraping">berk.es/scraping</a>
+(github.com/berkes/scraping)</li>
+<li class="fragment">Bevat alle links</li>
+</ul>
+</section>
+<section id="over-mij" class="slide level2"
+data-background-image="./ber.jpg">
+<h2 data-background-image="./ber.jpg">Over mij</h2>
+<ul>
+<li class="fragment">Bèr <code>berkes</code> Kessels</li>
+<li class="fragment"><span class="citation"
+data-cites="berkes">@berkes</span> - LinkedIn, Twitter, Fediverse</li>
+<li class="fragment">Werkt aan Founder Led Sales en andere</li>
+<li class="fragment">Blog https://berk.es</li>
+</ul>
+</section>
+<section id="scraping" class="slide level2">
+<h2>Scraping</h2>
+<blockquote>
+<p>Web-scraping is een techniek waarbij software automatisch gegevens
+van websites verzamelt door de HTML-structuur van de pagina te
+analyseren en specifieke informatie te extraheren. Het wordt vaak
+gebruikt voor taken zoals het ophalen van nieuwsartikelen, het
+verzamelen van productprijzen of het analyseren van concurrenten op het
+web.</p>
+</blockquote>
+</section>
+<section class="slide level2">
+
+<figure>
+<img data-src="./info.gif" alt="Too much information" />
+<figcaption aria-hidden="true">Too much information</figcaption>
+</figure>
+</section>
+<section id="verschillende-opties" class="slide level2">
+<h2>Verschillende opties</h2>
+<p>Van simpel tot complex.</p>
+<ul>
+<li class="fragment">One-off - Parse één url.</li>
+<li class="fragment">Spider - Kruip door een hele site of groep
+sites.</li>
+<li class="fragment">Mirror - Als spider, maar bewaar de HTML en assets
+lokaal.</li>
+<li class="fragment">Schrijf een gespecialiseerde scraper.</li>
+</ul>
+</section>
+<section id="curl" class="slide level2">
+<h2>cURL</h2>
+<figure>
+<img data-src="./demo.gif" alt="Demo" />
+<figcaption aria-hidden="true">Demo</figcaption>
+</figure>
+</section>
+<section id="curl-1" class="slide level2">
+<h2>cURL</h2>
+<ul>
+<li class="fragment">Kan alleen maar dingen ophalen</li>
+<li class="fragment">Kan heel veel HTTP dingen: van headers tot obscure
+features</li>
+<li class="fragment">Snapt HTML niet</li>
+<li class="fragment">Overal beschikbaar</li>
+<li class="fragment">Kent bijna alle protocollen, niet alleen
+HTTP(s)</li>
+</ul>
+</section>
+<section id="wget" class="slide level2">
+<h2>wget</h2>
+<figure>
+<img data-src="./demo.gif" alt="Demo" />
+<figcaption aria-hidden="true">Demo</figcaption>
+</figure>
+</section>
+<section id="wget-1" class="slide level2">
+<h2>wget</h2>
+<ul>
+<li class="fragment">Kent enkel WWW en HTTP(s)</li>
+<li class="fragment">Heeft HTTP(s) features zoals redirects volgen</li>
+<li class="fragment">Snapt HTML een beetje</li>
+<li class="fragment">Heeft opties om links te volgen</li>
+<li class="fragment">Kan een site mirroren</li>
+</ul>
+</section>
+<section id="onderdelen" class="slide level2">
+<h2>Onderdelen</h2>
+<ul>
+<li class="fragment">Iets wat de boel ophaalt</li>
+<li class="fragment">Iets wat de boel parsed</li>
+<li class="fragment">Iets wat daaruit informatie haalt</li>
+</ul>
+</section>
+<section id="ophalen" class="slide level2">
+<h2>Ophalen</h2>
+<p>Alles wat HTTP kent of kan.</p>
+<ul>
+<li class="fragment">Mirroren: voordeel: eenmalig. nadeel:
+diskruimte.</li>
+</ul>
+</section>
+<section id="parsen" class="slide level2">
+<h2>Parsen</h2>
+<ul>
+<li class="fragment"><p>XPATH</p></li>
+<li class="fragment"><p>CSS selectors</p></li>
+<li class="fragment"><p>Goede HTML (bijna nooit)</p></li>
+<li class="fragment"><p>HTML parsers nodig</p></li>
+<li class="fragment"><p>Selector vinden en debuggen met developer
+tools.</p></li>
+<li class="fragment"><p>Addons of volledige IDEs om dit te
+vereenvoudigen.</p></li>
+</ul>
+</section>
+<section id="xpath-en-css-selectors" class="slide level2">
+<h2>Xpath en CSS selectors</h2>
+<ul>
+<li class="fragment"><p>Xpath is erg compleet. Kan bijna alles</p></li>
+<li class="fragment"><p>CSS selectors zijn eenvoudiger maar ingwikkelder
+dingen zijn meteen heel moeilijk.</p></li>
+<li class="fragment"><p>Balanceeract tussen fragiel en robuust</p></li>
+</ul>
+</section>
+<section id="selectors" class="slide level2">
+<h2>Selectors</h2>
+<figure>
+<img data-src="./demo.gif" alt="Demo" />
+<figcaption aria-hidden="true">Demo</figcaption>
+</figure>
+</section>
+<section id="een-scraper-programmeren" class="slide level2">
+<h2>Een scraper programmeren</h2>
+<ul>
+<li class="fragment">Veel frameworks en suites voor.</li>
+<li class="fragment">Oudste vaak Perl.</li>
+<li class="fragment">Bekendste Scrapy - Python.</li>
+</ul>
+</section>
+<section id="voorbeeld-scrapy" class="slide level2">
+<h2>Voorbeeld Scrapy</h2>
+<figure>
+<img data-src="./demo.gif" alt="Demo" />
+<figcaption aria-hidden="true">Demo</figcaption>
+</figure>
+</section>
+<section id="scrapy" class="slide level2">
+<h2>Scrapy</h2>
+<ul>
+<li class="fragment">Parrallel</li>
+<li class="fragment">Tooling: Logging, debugging, scheduling etc.</li>
+<li class="fragment">Meerdere spiders in één project beheren</li>
+<li class="fragment">ETL functies (naar database wegschrijven etc)</li>
+</ul>
+</section>
+<section id="voorbeeld-puppetteer" class="slide level2">
+<h2>Voorbeeld Puppetteer</h2>
+<figure>
+<img data-src="./demo.gif" alt="Demo" />
+<figcaption aria-hidden="true">Demo</figcaption>
+</figure>
+</section>
+<section id="puppetteer" class="slide level2">
+<h2>Puppetteer</h2>
+<ul>
+<li class="fragment">Eén voorbeeld van een full browser</li>
+<li class="fragment">Headless (headfull voor debugging)</li>
+<li class="fragment">Interactie DSL</li>
+<li class="fragment">Geen scraping framework</li>
+<li class="fragment">Scrapy kan ook headless browser</li>
+</ul>
+</section>
+<section id="samengevat" class="slide level2">
+<h2>Samengevat</h2>
+<ul>
+<li class="fragment">cURL of wget voor simpele requests</li>
+<li class="fragment">Scrapy voor complexere taken</li>
+<li class="fragment">Headless browser voor dynamische content</li>
+</ul>
+</section>
+<section id="pres" class="slide level2">
+<h2>Pres</h2>
+<ul>
+<li class="fragment"><a
+href="https://berk.es/scraping">berk.es/scraping</a></li>
+</ul>
+</section></section>
+    </div>
+  </div>
+
+  <script src="./reveal.js//dist/reveal.js"></script>
+
+  <!-- reveal.js plugins -->
+  <script src="./reveal.js//plugin/notes/notes.js"></script>
+  <script src="./reveal.js//plugin/search/search.js"></script>
+  <script src="./reveal.js//plugin/zoom/zoom.js"></script>
+
+  <script>
+
+      // Full list of configuration options available at:
+      // https://revealjs.com/config/
+      Reveal.initialize({
+        // Display controls in the bottom right corner
+        controls: true,
+
+        // Help the user learn the controls by providing hints, for example by
+        // bouncing the down arrow when they first encounter a vertical slide
+        controlsTutorial: true,
+
+        // Determines where controls appear, "edges" or "bottom-right"
+        controlsLayout: 'bottom-right',
+
+        // Visibility rule for backwards navigation arrows; "faded", "hidden"
+        // or "visible"
+        controlsBackArrows: 'faded',
+
+        // Display a presentation progress bar
+        progress: true,
+
+        // Display the page number of the current slide
+        slideNumber: false,
+
+        // 'all', 'print', or 'speaker'
+        showSlideNumber: 'all',
+
+        // Add the current slide number to the URL hash so that reloading the
+        // page/copying the URL will return you to the same slide
+        hash: true,
+
+        // Start with 1 for the hash rather than 0
+        hashOneBasedIndex: false,
+
+        // Flags if we should monitor the hash and change slides accordingly
+        respondToHashChanges: true,
+
+        // Push each slide change to the browser history
+        history: false,
+
+        // Enable keyboard shortcuts for navigation
+        keyboard: true,
+
+        // Enable the slide overview mode
+        overview: true,
+
+        // Disables the default reveal.js slide layout (scaling and centering)
+        // so that you can use custom CSS layout
+        disableLayout: false,
+
+        // Vertical centering of slides
+        center: true,
+
+        // Enables touch navigation on devices with touch input
+        touch: true,
+
+        // Loop the presentation
+        loop: false,
+
+        // Change the presentation direction to be RTL
+        rtl: false,
+
+        // see https://revealjs.com/vertical-slides/#navigation-mode
+        navigationMode: 'default',
+
+        // Randomizes the order of slides each time the presentation loads
+        shuffle: false,
+
+        // Turns fragments on and off globally
+        fragments: true,
+
+        // Flags whether to include the current fragment in the URL,
+        // so that reloading brings you to the same fragment position
+        fragmentInURL: true,
+
+        // Flags if the presentation is running in an embedded mode,
+        // i.e. contained within a limited portion of the screen
+        embedded: false,
+
+        // Flags if we should show a help overlay when the questionmark
+        // key is pressed
+        help: true,
+
+        // Flags if it should be possible to pause the presentation (blackout)
+        pause: true,
+
+        // Flags if speaker notes should be visible to all viewers
+        showNotes: false,
+
+        // Global override for autoplaying embedded media (null/true/false)
+        autoPlayMedia: null,
+
+        // Global override for preloading lazy-loaded iframes (null/true/false)
+        preloadIframes: null,
+
+        // Number of milliseconds between automatically proceeding to the
+        // next slide, disabled when set to 0, this value can be overwritten
+        // by using a data-autoslide attribute on your slides
+        autoSlide: 0,
+
+        // Stop auto-sliding after user input
+        autoSlideStoppable: true,
+
+        // Use this method for navigation when auto-sliding
+        autoSlideMethod: null,
+
+        // Specify the average time in seconds that you think you will spend
+        // presenting each slide. This is used to show a pacing timer in the
+        // speaker view
+        defaultTiming: null,
+
+        // Enable slide navigation via mouse wheel
+        mouseWheel: false,
+
+        // The display mode that will be used to show slides
+        display: 'block',
+
+        // Hide cursor if inactive
+        hideInactiveCursor: true,
+
+        // Time before the cursor is hidden (in ms)
+        hideCursorTime: 5000,
+
+        // Opens links in an iframe preview overlay
+        previewLinks: false,
+
+        // Transition style (none/fade/slide/convex/concave/zoom)
+        transition: 'slide',
+
+        // Transition speed (default/fast/slow)
+        transitionSpeed: 'default',
+
+        // Transition style for full page slide backgrounds
+        // (none/fade/slide/convex/concave/zoom)
+        backgroundTransition: 'fade',
+
+        // Number of slides away from the current that are visible
+        viewDistance: 3,
+
+        // Number of slides away from the current that are visible on mobile
+        // devices. It is advisable to set this to a lower number than
+        // viewDistance in order to save resources.
+        mobileViewDistance: 2,
+
+        // reveal.js plugins
+        plugins: [
+          RevealNotes,
+          RevealSearch,
+          RevealZoom
+        ]
+      });
+    </script>
+    </body>
+</html>

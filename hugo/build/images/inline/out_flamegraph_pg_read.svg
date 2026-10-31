@@ -1,0 +1,853 @@
+<?xml version="1.0" standalone="no"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<svg version="1.1" width="1200" height="494" onload="init(evt)" viewBox="0 0 1200 494" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+<!-- Flame graph stack visualization. See https://github.com/brendangregg/FlameGraph for latest version, and http://www.brendangregg.com/flamegraphs.html for examples. -->
+<!-- NOTES:  -->
+<defs>
+	<linearGradient id="background" y1="0" y2="1" x1="0" x2="0" >
+		<stop stop-color="#eeeeee" offset="5%" />
+		<stop stop-color="#eeeeb0" offset="95%" />
+	</linearGradient>
+</defs>
+<style type="text/css">
+	text { font-family:Verdana; font-size:12px; fill:rgb(0,0,0); }
+	#search, #ignorecase { opacity:0.1; cursor:pointer; }
+	#search:hover, #search.show, #ignorecase:hover, #ignorecase.show { opacity:1; }
+	#subtitle { text-anchor:middle; font-color:rgb(160,160,160); }
+	#title { text-anchor:middle; font-size:17px}
+	#unzoom { cursor:pointer; }
+	#frames > *:hover { stroke:black; stroke-width:0.5; cursor:pointer; }
+	.hide { display:none; }
+	.parent { opacity:0.5; }
+</style>
+<script type="text/ecmascript">
+<![CDATA[
+	"use strict";
+	var details, searchbtn, unzoombtn, matchedtxt, svg, searching, currentSearchTerm, ignorecase, ignorecaseBtn;
+	function init(evt) {
+		details = document.getElementById("details").firstChild;
+		searchbtn = document.getElementById("search");
+		ignorecaseBtn = document.getElementById("ignorecase");
+		unzoombtn = document.getElementById("unzoom");
+		matchedtxt = document.getElementById("matched");
+		svg = document.getElementsByTagName("svg")[0];
+		searching = 0;
+		currentSearchTerm = null;
+
+		// use GET parameters to restore a flamegraphs state.
+		var params = get_params();
+		if (params.x && params.y)
+			zoom(find_group(document.querySelector('[x="' + params.x + '"][y="' + params.y + '"]')));
+                if (params.s) search(params.s);
+	}
+
+	// event listeners
+	window.addEventListener("click", function(e) {
+		var target = find_group(e.target);
+		if (target) {
+			if (target.nodeName == "a") {
+				if (e.ctrlKey === false) return;
+				e.preventDefault();
+			}
+			if (target.classList.contains("parent")) unzoom();
+			zoom(target);
+			if (!document.querySelector('.parent')) {
+				clearzoom();
+				return;
+			}
+
+			// set parameters for zoom state
+			var el = target.querySelector("rect");
+			if (el && el.attributes && el.attributes.y && el.attributes._orig_x) {
+				var params = get_params()
+				params.x = el.attributes._orig_x.value;
+				params.y = el.attributes.y.value;
+				history.replaceState(null, null, parse_params(params));
+			}
+		}
+		else if (e.target.id == "unzoom") clearzoom();
+		else if (e.target.id == "search") search_prompt();
+		else if (e.target.id == "ignorecase") toggle_ignorecase();
+	}, false)
+
+	// mouse-over for info
+	// show
+	window.addEventListener("mouseover", function(e) {
+		var target = find_group(e.target);
+		if (target) details.nodeValue = "Function: " + g_to_text(target);
+	}, false)
+
+	// clear
+	window.addEventListener("mouseout", function(e) {
+		var target = find_group(e.target);
+		if (target) details.nodeValue = ' ';
+	}, false)
+
+	// ctrl-F for search
+	// ctrl-I to toggle case-sensitive search
+	window.addEventListener("keydown",function (e) {
+		if (e.keyCode === 114 || (e.ctrlKey && e.keyCode === 70)) {
+			e.preventDefault();
+			search_prompt();
+		}
+		else if (e.ctrlKey && e.keyCode === 73) {
+			e.preventDefault();
+			toggle_ignorecase();
+		}
+	}, false)
+
+	// functions
+	function get_params() {
+		var params = {};
+		var paramsarr = window.location.search.substr(1).split('&');
+		for (var i = 0; i < paramsarr.length; ++i) {
+			var tmp = paramsarr[i].split("=");
+			if (!tmp[0] || !tmp[1]) continue;
+			params[tmp[0]]  = decodeURIComponent(tmp[1]);
+		}
+		return params;
+	}
+	function parse_params(params) {
+		var uri = "?";
+		for (var key in params) {
+			uri += key + '=' + encodeURIComponent(params[key]) + '&';
+		}
+		if (uri.slice(-1) == "&")
+			uri = uri.substring(0, uri.length - 1);
+		if (uri == '?')
+			uri = window.location.href.split('?')[0];
+		return uri;
+	}
+	function find_child(node, selector) {
+		var children = node.querySelectorAll(selector);
+		if (children.length) return children[0];
+	}
+	function find_group(node) {
+		var parent = node.parentElement;
+		if (!parent) return;
+		if (parent.id == "frames") return node;
+		return find_group(parent);
+	}
+	function orig_save(e, attr, val) {
+		if (e.attributes["_orig_" + attr] != undefined) return;
+		if (e.attributes[attr] == undefined) return;
+		if (val == undefined) val = e.attributes[attr].value;
+		e.setAttribute("_orig_" + attr, val);
+	}
+	function orig_load(e, attr) {
+		if (e.attributes["_orig_"+attr] == undefined) return;
+		e.attributes[attr].value = e.attributes["_orig_" + attr].value;
+		e.removeAttribute("_orig_"+attr);
+	}
+	function g_to_text(e) {
+		var text = find_child(e, "title").firstChild.nodeValue;
+		return (text)
+	}
+	function g_to_func(e) {
+		var func = g_to_text(e);
+		// if there's any manipulation we want to do to the function
+		// name before it's searched, do it here before returning.
+		return (func);
+	}
+	function update_text(e) {
+		var r = find_child(e, "rect");
+		var t = find_child(e, "text");
+		var w = parseFloat(r.attributes.width.value) -3;
+		var txt = find_child(e, "title").textContent.replace(/\([^(]*\)$/,"");
+		t.attributes.x.value = parseFloat(r.attributes.x.value) + 3;
+
+		// Smaller than this size won't fit anything
+		if (w < 2 * 12 * 0.59) {
+			t.textContent = "";
+			return;
+		}
+
+		t.textContent = txt;
+		// Fit in full text width
+		if (/^ *$/.test(txt) || t.getSubStringLength(0, txt.length) < w)
+			return;
+
+		for (var x = txt.length - 2; x > 0; x--) {
+			if (t.getSubStringLength(0, x + 2) <= w) {
+				t.textContent = txt.substring(0, x) + "..";
+				return;
+			}
+		}
+		t.textContent = "";
+	}
+
+	// zoom
+	function zoom_reset(e) {
+		if (e.attributes != undefined) {
+			orig_load(e, "x");
+			orig_load(e, "width");
+		}
+		if (e.childNodes == undefined) return;
+		for (var i = 0, c = e.childNodes; i < c.length; i++) {
+			zoom_reset(c[i]);
+		}
+	}
+	function zoom_child(e, x, ratio) {
+		if (e.attributes != undefined) {
+			if (e.attributes.x != undefined) {
+				orig_save(e, "x");
+				e.attributes.x.value = (parseFloat(e.attributes.x.value) - x - 10) * ratio + 10;
+				if (e.tagName == "text")
+					e.attributes.x.value = find_child(e.parentNode, "rect[x]").attributes.x.value + 3;
+			}
+			if (e.attributes.width != undefined) {
+				orig_save(e, "width");
+				e.attributes.width.value = parseFloat(e.attributes.width.value) * ratio;
+			}
+		}
+
+		if (e.childNodes == undefined) return;
+		for (var i = 0, c = e.childNodes; i < c.length; i++) {
+			zoom_child(c[i], x - 10, ratio);
+		}
+	}
+	function zoom_parent(e) {
+		if (e.attributes) {
+			if (e.attributes.x != undefined) {
+				orig_save(e, "x");
+				e.attributes.x.value = 10;
+			}
+			if (e.attributes.width != undefined) {
+				orig_save(e, "width");
+				e.attributes.width.value = parseInt(svg.width.baseVal.value) - (10 * 2);
+			}
+		}
+		if (e.childNodes == undefined) return;
+		for (var i = 0, c = e.childNodes; i < c.length; i++) {
+			zoom_parent(c[i]);
+		}
+	}
+	function zoom(node) {
+		var attr = find_child(node, "rect").attributes;
+		var width = parseFloat(attr.width.value);
+		var xmin = parseFloat(attr.x.value);
+		var xmax = parseFloat(xmin + width);
+		var ymin = parseFloat(attr.y.value);
+		var ratio = (svg.width.baseVal.value - 2 * 10) / width;
+
+		// XXX: Workaround for JavaScript float issues (fix me)
+		var fudge = 0.0001;
+
+		unzoombtn.classList.remove("hide");
+
+		var el = document.getElementById("frames").children;
+		for (var i = 0; i < el.length; i++) {
+			var e = el[i];
+			var a = find_child(e, "rect").attributes;
+			var ex = parseFloat(a.x.value);
+			var ew = parseFloat(a.width.value);
+			var upstack;
+			// Is it an ancestor
+			if (0 == 0) {
+				upstack = parseFloat(a.y.value) > ymin;
+			} else {
+				upstack = parseFloat(a.y.value) < ymin;
+			}
+			if (upstack) {
+				// Direct ancestor
+				if (ex <= xmin && (ex+ew+fudge) >= xmax) {
+					e.classList.add("parent");
+					zoom_parent(e);
+					update_text(e);
+				}
+				// not in current path
+				else
+					e.classList.add("hide");
+			}
+			// Children maybe
+			else {
+				// no common path
+				if (ex < xmin || ex + fudge >= xmax) {
+					e.classList.add("hide");
+				}
+				else {
+					zoom_child(e, xmin, ratio);
+					update_text(e);
+				}
+			}
+		}
+		search();
+	}
+	function unzoom() {
+		unzoombtn.classList.add("hide");
+		var el = document.getElementById("frames").children;
+		for(var i = 0; i < el.length; i++) {
+			el[i].classList.remove("parent");
+			el[i].classList.remove("hide");
+			zoom_reset(el[i]);
+			update_text(el[i]);
+		}
+		search();
+	}
+	function clearzoom() {
+		unzoom();
+
+		// remove zoom state
+		var params = get_params();
+		if (params.x) delete params.x;
+		if (params.y) delete params.y;
+		history.replaceState(null, null, parse_params(params));
+	}
+
+	// search
+	function toggle_ignorecase() {
+		ignorecase = !ignorecase;
+		if (ignorecase) {
+			ignorecaseBtn.classList.add("show");
+		} else {
+			ignorecaseBtn.classList.remove("show");
+		}
+		reset_search();
+		search();
+	}
+	function reset_search() {
+		var el = document.querySelectorAll("#frames rect");
+		for (var i = 0; i < el.length; i++) {
+			orig_load(el[i], "fill")
+		}
+		var params = get_params();
+		delete params.s;
+		history.replaceState(null, null, parse_params(params));
+	}
+	function search_prompt() {
+		if (!searching) {
+			var term = prompt("Enter a search term (regexp " +
+			    "allowed, eg: ^ext4_)"
+			    + (ignorecase ? ", ignoring case" : "")
+			    + "\nPress Ctrl-i to toggle case sensitivity", "");
+			if (term != null) search(term);
+		} else {
+			reset_search();
+			searching = 0;
+			currentSearchTerm = null;
+			searchbtn.classList.remove("show");
+			searchbtn.firstChild.nodeValue = "Search"
+			matchedtxt.classList.add("hide");
+			matchedtxt.firstChild.nodeValue = ""
+		}
+	}
+	function search(term) {
+		if (term) currentSearchTerm = term;
+
+		var re = new RegExp(currentSearchTerm, ignorecase ? 'i' : '');
+		var el = document.getElementById("frames").children;
+		var matches = new Object();
+		var maxwidth = 0;
+		for (var i = 0; i < el.length; i++) {
+			var e = el[i];
+			var func = g_to_func(e);
+			var rect = find_child(e, "rect");
+			if (func == null || rect == null)
+				continue;
+
+			// Save max width. Only works as we have a root frame
+			var w = parseFloat(rect.attributes.width.value);
+			if (w > maxwidth)
+				maxwidth = w;
+
+			if (func.match(re)) {
+				// highlight
+				var x = parseFloat(rect.attributes.x.value);
+				orig_save(rect, "fill");
+				rect.attributes.fill.value = "rgb(230,0,230)";
+
+				// remember matches
+				if (matches[x] == undefined) {
+					matches[x] = w;
+				} else {
+					if (w > matches[x]) {
+						// overwrite with parent
+						matches[x] = w;
+					}
+				}
+				searching = 1;
+			}
+		}
+		if (!searching)
+			return;
+		var params = get_params();
+		params.s = currentSearchTerm;
+		history.replaceState(null, null, parse_params(params));
+
+		searchbtn.classList.add("show");
+		searchbtn.firstChild.nodeValue = "Reset Search";
+
+		// calculate percent matched, excluding vertical overlap
+		var count = 0;
+		var lastx = -1;
+		var lastw = 0;
+		var keys = Array();
+		for (k in matches) {
+			if (matches.hasOwnProperty(k))
+				keys.push(k);
+		}
+		// sort the matched frames by their x location
+		// ascending, then width descending
+		keys.sort(function(a, b){
+			return a - b;
+		});
+		// Step through frames saving only the biggest bottom-up frames
+		// thanks to the sort order. This relies on the tree property
+		// where children are always smaller than their parents.
+		var fudge = 0.0001;	// JavaScript floating point
+		for (var k in keys) {
+			var x = parseFloat(keys[k]);
+			var w = matches[keys[k]];
+			if (x >= lastx + lastw - fudge) {
+				count += w;
+				lastx = x;
+				lastw = w;
+			}
+		}
+		// display matched percent
+		matchedtxt.classList.remove("hide");
+		var pct = 100 * count / maxwidth;
+		if (pct != 100) pct = pct.toFixed(1)
+		matchedtxt.firstChild.nodeValue = "Matched: " + pct + "%";
+	}
+]]>
+</script>
+<rect x="0.0" y="0" width="1200.0" height="494.0" fill="url(#background)"  />
+<text id="title" x="600.00" y="24" >Flame Graph</text>
+<text id="subtitle" x="600.00" y="48" >flamegraph_pg_read</text>
+<text id="details" x="10.00" y="477" > </text>
+<text id="unzoom" x="10.00" y="24" class="hide">Reset Zoom</text>
+<text id="search" x="1090.00" y="24" >Search</text>
+<text id="ignorecase" x="1174.00" y="24" >ic</text>
+<text id="matched" x="1090.00" y="477" > </text>
+<g id="frames">
+<g >
+<title>Regexp#match (3000) (6 samples, 11.25%)</title><rect x="708.5" y="61" width="130.7" height="15.0" fill="rgb(209,183,28)" rx="2" ry="2" />
+<text  x="711.46" y="71.5" >Regexp#match (30..</text>
+</g>
+<g >
+<title>Sequel::Postgres::Database#execute (1) (53 samples, 99.39%)</title><rect x="11.3" y="285" width="1171.6" height="15.0" fill="rgb(209,151,14)" rx="2" ry="2" />
+<text  x="14.31" y="295.5" >Sequel::Postgres::Database#execute (1)</text>
+</g>
+<g >
+<title>Sequel::SequelMethods#convert_input_timestamp (1000) (35 samples, 65.63%)</title><rect x="370.0" y="125" width="779.9" height="15.0" fill="rgb(220,162,15)" rx="2" ry="2" />
+<text  x="372.98" y="135.5" >Sequel::SequelMethods#convert_input_timestamp (1000)</text>
+</g>
+<g >
+<title>Sequel::ThreadedConnectionPool#assign_connection (1) (0 samples, 0.00%)</title><rect x="1182.2" y="221" width="0.5" height="15.0" fill="rgb(214,213,47)" rx="2" ry="2" />
+<text  x="1185.21" y="231.5" ></text>
+</g>
+<g >
+<title>Sequel::SequelMethods#current (1) (0 samples, 0.00%)</title><rect x="1182.0" y="237" width="0.1" height="15.0" fill="rgb(208,106,2)" rx="2" ry="2" />
+<text  x="1184.95" y="247.5" ></text>
+</g>
+<g >
+<title>String#gsub! (1000) (3 samples, 5.63%)</title><rect x="857.1" y="61" width="68.6" height="15.0" fill="rgb(214,127,23)" rx="2" ry="2" />
+<text  x="860.10" y="71.5" >String#..</text>
+</g>
+<g >
+<title>Sequel::Postgres::DatasetMethods#server_version (1) (0 samples, 0.00%)</title><rect x="1188.1" y="301" width="0.2" height="15.0" fill="rgb(245,85,41)" rx="2" ry="2" />
+<text  x="1191.14" y="311.5" ></text>
+</g>
+<g >
+<title>Sequel::Dataset#all (1) (53 samples, 99.39%)</title><rect x="10.4" y="365" width="1177.9" height="15.0" fill="rgb(253,118,51)" rx="2" ry="2" />
+<text  x="13.45" y="375.5" >Sequel::Dataset#all (1)</text>
+</g>
+<g >
+<title>Time#initialize (1000) (0 samples, 0.00%)</title><rect x="451.9" y="77" width="7.9" height="15.0" fill="rgb(239,54,24)" rx="2" ry="2" />
+<text  x="454.92" y="87.5" ></text>
+</g>
+<g >
+<title>MatchData#end (2000) (0 samples, 0.00%)</title><rect x="697.8" y="61" width="10.7" height="15.0" fill="rgb(221,194,26)" rx="2" ry="2" />
+<text  x="700.76" y="71.5" ></text>
+</g>
+<g >
+<title>Sequel::Postgres::Adapter#execute_query (1) (2 samples, 3.75%)</title><rect x="12.3" y="173" width="54.2" height="15.0" fill="rgb(248,88,43)" rx="2" ry="2" />
+<text  x="15.31" y="183.5" >Seque..</text>
+</g>
+<g >
+<title>Sequel::Dataset#select_having_sql (1) (0 samples, 0.00%)</title><rect x="1186.2" y="301" width="0.2" height="15.0" fill="rgb(216,98,43)" rx="2" ry="2" />
+<text  x="1189.25" y="311.5" ></text>
+</g>
+<g >
+<title>Sequel::SequelMethods#synchronize (1) (0 samples, 0.00%)</title><rect x="1186.0" y="189" width="0.1" height="15.0" fill="rgb(229,26,42)" rx="2" ry="2" />
+<text  x="1188.96" y="199.5" ></text>
+</g>
+<g >
+<title>Sequel::SequelMethods#synchronize (1) (0 samples, 0.00%)</title><rect x="1184.2" y="285" width="0.2" height="15.0" fill="rgb(253,27,42)" rx="2" ry="2" />
+<text  x="1187.23" y="295.5" ></text>
+</g>
+<g >
+<title>Sequel::ThreadedConnectionPool#next_available (1) (0 samples, 0.00%)</title><rect x="1182.6" y="173" width="0.1" height="15.0" fill="rgb(229,126,53)" rx="2" ry="2" />
+<text  x="1185.55" y="183.5" ></text>
+</g>
+<g >
+<title>PG::Result#fname (4) (0 samples, 0.00%)</title><rect x="67.3" y="157" width="0.1" height="15.0" fill="rgb(208,93,43)" rx="2" ry="2" />
+<text  x="70.28" y="167.5" ></text>
+</g>
+<g >
+<title>Integer#times (1) (0 samples, 0.00%)</title><rect x="66.9" y="173" width="1.1" height="15.0" fill="rgb(250,82,39)" rx="2" ry="2" />
+<text  x="69.92" y="183.5" ></text>
+</g>
+<g >
+<title>Sequel::Postgres::Dataset#fetch_rows_set_cols (1) (0 samples, 0.00%)</title><rect x="66.5" y="189" width="1.9" height="15.0" fill="rgb(249,8,25)" rx="2" ry="2" />
+<text  x="69.48" y="199.5" ></text>
+</g>
+<g >
+<title>PG::Result#getvalue (4000) (1 samples, 1.88%)</title><rect x="1149.9" y="173" width="32.0" height="15.0" fill="rgb(253,79,52)" rx="2" ry="2" />
+<text  x="1152.95" y="183.5" >PG..</text>
+</g>
+<g >
+<title>Sequel::Database#literal_symbol (1) (0 samples, 0.00%)</title><rect x="1185.9" y="205" width="0.2" height="15.0" fill="rgb(209,81,33)" rx="2" ry="2" />
+<text  x="1188.90" y="215.5" ></text>
+</g>
+<g >
+<title>Sequel::ThreadedConnectionPool#sync (1) (0 samples, 0.00%)</title><rect x="1182.3" y="205" width="0.4" height="15.0" fill="rgb(224,143,32)" rx="2" ry="2" />
+<text  x="1185.30" y="215.5" ></text>
+</g>
+<g >
+<title>Sequel::Dataset#cache_get (1) (0 samples, 0.00%)</title><rect x="1189.5" y="301" width="0.3" height="15.0" fill="rgb(236,96,30)" rx="2" ry="2" />
+<text  x="1192.49" y="311.5" ></text>
+</g>
+<g >
+<title>Sequel::ThreadedConnectionPool#owned_connection (1) (0 samples, 0.00%)</title><rect x="1182.7" y="237" width="0.2" height="15.0" fill="rgb(249,52,24)" rx="2" ry="2" />
+<text  x="1185.72" y="247.5" ></text>
+</g>
+<g >
+<title>Sequel::Postgres::DatasetMethods#select_lock_sql (1) (0 samples, 0.00%)</title><rect x="1187.8" y="301" width="0.3" height="15.0" fill="rgb(235,205,16)" rx="2" ry="2" />
+<text  x="1190.77" y="311.5" ></text>
+</g>
+<g >
+<title>Sequel::Dataset#initialize_clone (1) (0 samples, 0.00%)</title><rect x="1189.3" y="317" width="0.5" height="15.0" fill="rgb(205,71,22)" rx="2" ry="2" />
+<text  x="1192.28" y="327.5" ></text>
+</g>
+<g >
+<title>Sequel::Postgres::Adapter#execute (1) (53 samples, 99.39%)</title><rect x="12.0" y="205" width="1170.0" height="15.0" fill="rgb(227,186,24)" rx="2" ry="2" />
+<text  x="14.97" y="215.5" >Sequel::Postgres::Adapter#execute (1)</text>
+</g>
+<g >
+<title>Sequel::Dataset#freeze (1) (0 samples, 0.00%)</title><rect x="1189.8" y="333" width="0.2" height="15.0" fill="rgb(243,206,51)" rx="2" ry="2" />
+<text  x="1192.83" y="343.5" ></text>
+</g>
+<g >
+<title>Sequel::Database#log_connection_yield (1) (2 samples, 3.75%)</title><rect x="12.4" y="157" width="54.1" height="15.0" fill="rgb(242,32,22)" rx="2" ry="2" />
+<text  x="15.42" y="167.5" >Seque..</text>
+</g>
+<g >
+<title>Sequel::Postgres::Database#_execute (1) (53 samples, 99.39%)</title><rect x="11.8" y="221" width="1170.2" height="15.0" fill="rgb(250,54,50)" rx="2" ry="2" />
+<text  x="14.82" y="231.5" >Sequel::Postgres::Database#_execute (1)</text>
+</g>
+<g >
+<title>Sequel::SequelMethods#synchronize (1) (0 samples, 0.00%)</title><rect x="1184.5" y="269" width="0.1" height="15.0" fill="rgb(208,89,2)" rx="2" ry="2" />
+<text  x="1187.50" y="279.5" ></text>
+</g>
+<g >
+<title>Sequel::Dataset#cache_set (1) (0 samples, 0.00%)</title><rect x="68.1" y="157" width="0.3" height="15.0" fill="rgb(208,134,35)" rx="2" ry="2" />
+<text  x="71.11" y="167.5" ></text>
+</g>
+<g >
+<title>Sequel::Postgres::Adapter#check_disconnect_errors (1) (2 samples, 3.75%)</title><rect x="12.2" y="189" width="54.3" height="15.0" fill="rgb(242,158,0)" rx="2" ry="2" />
+<text  x="15.17" y="199.5" >Seque..</text>
+</g>
+<g >
+<title>String#to_sym (4) (0 samples, 0.00%)</title><rect x="67.7" y="141" width="0.3" height="15.0" fill="rgb(223,34,47)" rx="2" ry="2" />
+<text  x="70.73" y="151.5" ></text>
+</g>
+<g >
+<title>Time#getlocal (1000) (1 samples, 1.88%)</title><rect x="1118.3" y="61" width="26.2" height="15.0" fill="rgb(239,4,5)" rx="2" ry="2" />
+<text  x="1121.34" y="71.5" >T..</text>
+</g>
+<g >
+<title>Sequel::Database#timezone (1000) (0 samples, 0.00%)</title><rect x="321.9" y="141" width="10.9" height="15.0" fill="rgb(216,29,31)" rx="2" ry="2" />
+<text  x="324.92" y="151.5" ></text>
+</g>
+<g >
+<title>Sequel::Dataset#select_lock_sql (1) (0 samples, 0.00%)</title><rect x="1187.9" y="285" width="0.2" height="15.0" fill="rgb(230,5,23)" rx="2" ry="2" />
+<text  x="1190.92" y="295.5" ></text>
+</g>
+<g >
+<title>Sequel::Dataset#sql_string_origin (1) (0 samples, 0.00%)</title><rect x="1187.0" y="301" width="0.2" height="15.0" fill="rgb(241,45,41)" rx="2" ry="2" />
+<text  x="1190.04" y="311.5" ></text>
+</g>
+<g >
+<title>Sequel::Postgres::Dataset#yield_hash_rows (1) (50 samples, 93.76%)</title><rect x="68.4" y="189" width="1113.6" height="15.0" fill="rgb(224,101,48)" rx="2" ry="2" />
+<text  x="71.36" y="199.5" >Sequel::Postgres::Dataset#yield_hash_rows (1)</text>
+</g>
+<g >
+<title>Sequel::SequelMethods#synchronize (1) (0 samples, 0.00%)</title><rect x="1184.1" y="285" width="0.1" height="15.0" fill="rgb(210,156,25)" rx="2" ry="2" />
+<text  x="1187.05" y="295.5" ></text>
+</g>
+<g >
+<title>&lt;Object::Object&gt;#call (1000) (2 samples, 3.75%)</title><rect x="236.1" y="173" width="48.2" height="15.0" fill="rgb(216,188,51)" rx="2" ry="2" />
+<text  x="239.09" y="183.5" >&lt;Obj..</text>
+</g>
+<g >
+<title>Sequel::Dataset#cache_sql? (1) (0 samples, 0.00%)</title><rect x="1184.4" y="301" width="0.2" height="15.0" fill="rgb(214,139,2)" rx="2" ry="2" />
+<text  x="1187.37" y="311.5" ></text>
+</g>
+<g >
+<title>all (53 samples, 100%)</title><rect x="10.0" y="445" width="1180.0" height="15.0" fill="rgb(228,145,40)" rx="2" ry="2" />
+<text  x="13.00" y="455.5" ></text>
+</g>
+<g >
+<title>Rational#* (1000) (1 samples, 1.88%)</title><rect x="1104.3" y="61" width="14.0" height="15.0" fill="rgb(211,10,3)" rx="2" ry="2" />
+<text  x="1107.27" y="71.5" ></text>
+</g>
+<g >
+<title>Kernel#respond_to? (1000) (0 samples, 0.00%)</title><rect x="1096.0" y="61" width="8.3" height="15.0" fill="rgb(236,219,9)" rx="2" ry="2" />
+<text  x="1099.03" y="71.5" ></text>
+</g>
+<g >
+<title>&lt;Class::Date&gt;#_parse (1000) (19 samples, 35.63%)</title><rect x="511.7" y="77" width="414.0" height="15.0" fill="rgb(224,78,49)" rx="2" ry="2" />
+<text  x="514.72" y="87.5" >&lt;Class::Date&gt;#_parse (1000)</text>
+</g>
+<g >
+<title>Sequel::Dataset#clone (1) (0 samples, 0.00%)</title><rect x="1188.6" y="349" width="1.4" height="15.0" fill="rgb(230,166,5)" rx="2" ry="2" />
+<text  x="1191.65" y="359.5" ></text>
+</g>
+<g >
+<title>PG::Result#ftype (4) (0 samples, 0.00%)</title><rect x="67.4" y="157" width="0.2" height="15.0" fill="rgb(246,118,53)" rx="2" ry="2" />
+<text  x="70.42" y="167.5" ></text>
+</g>
+<g >
+<title>Module#=== (1000) (0 samples, 0.00%)</title><rect x="405.0" y="109" width="4.7" height="15.0" fill="rgb(248,141,26)" rx="2" ry="2" />
+<text  x="407.95" y="119.5" ></text>
+</g>
+<g >
+<title>Thread::Mutex#synchronize (1) (0 samples, 0.00%)</title><rect x="1182.4" y="189" width="0.3" height="15.0" fill="rgb(222,12,21)" rx="2" ry="2" />
+<text  x="1185.37" y="199.5" ></text>
+</g>
+<g >
+<title>Sequel::Postgres::DatasetMethods#supports_cte? (1) (0 samples, 0.00%)</title><rect x="1186.9" y="285" width="0.1" height="15.0" fill="rgb(240,146,46)" rx="2" ry="2" />
+<text  x="1189.88" y="295.5" ></text>
+</g>
+<g >
+<title>Sequel::ThreadedConnectionPool#acquire (1) (0 samples, 0.00%)</title><rect x="1182.1" y="237" width="0.6" height="15.0" fill="rgb(226,1,35)" rx="2" ry="2" />
+<text  x="1185.15" y="247.5" ></text>
+</g>
+<g >
+<title>Sequel::Dataset#cache_get (1) (0 samples, 0.00%)</title><rect x="1184.4" y="285" width="0.2" height="15.0" fill="rgb(251,33,9)" rx="2" ry="2" />
+<text  x="1187.43" y="295.5" ></text>
+</g>
+<g >
+<title>Sequel::Dataset#cache_set (1) (0 samples, 0.00%)</title><rect x="1184.2" y="301" width="0.2" height="15.0" fill="rgb(236,120,30)" rx="2" ry="2" />
+<text  x="1187.17" y="311.5" ></text>
+</g>
+<g >
+<title>Sequel::Dataset#limit (1) (0 samples, 0.00%)</title><rect x="1188.3" y="365" width="1.7" height="15.0" fill="rgb(254,113,4)" rx="2" ry="2" />
+<text  x="1191.30" y="375.5" ></text>
+</g>
+<g >
+<title>Sequel::Dataset#select_columns_sql (1) (0 samples, 0.00%)</title><rect x="1184.6" y="301" width="0.2" height="15.0" fill="rgb(226,49,1)" rx="2" ry="2" />
+<text  x="1187.61" y="311.5" ></text>
+</g>
+<g >
+<title>Sequel::Dataset#_all (1) (53 samples, 99.39%)</title><rect x="10.6" y="349" width="1177.7" height="15.0" fill="rgb(227,17,21)" rx="2" ry="2" />
+<text  x="13.60" y="359.5" >Sequel::Dataset#_all (1)</text>
+</g>
+<g >
+<title>Kernel#clone (1) (0 samples, 0.00%)</title><rect x="1189.1" y="333" width="0.7" height="15.0" fill="rgb(242,61,35)" rx="2" ry="2" />
+<text  x="1192.09" y="343.5" ></text>
+</g>
+<g >
+<title>Sequel::ThreadedConnectionPool#hold (1) (53 samples, 99.39%)</title><rect x="11.5" y="253" width="1171.4" height="15.0" fill="rgb(207,155,17)" rx="2" ry="2" />
+<text  x="14.46" y="263.5" >Sequel::ThreadedConnectionPool#hold (1)</text>
+</g>
+<g >
+<title>&lt;Class::Time&gt;#make_time (1000) (10 samples, 18.75%)</title><rect x="925.7" y="77" width="218.8" height="15.0" fill="rgb(226,136,52)" rx="2" ry="2" />
+<text  x="928.72" y="87.5" >&lt;Class::Time&gt;#make_time (1000)</text>
+</g>
+<g >
+<title>Sequel::Database#to_application_timestamp (1000) (38 samples, 71.26%)</title><rect x="301.3" y="157" width="848.6" height="15.0" fill="rgb(215,142,33)" rx="2" ry="2" />
+<text  x="304.31" y="167.5" >Sequel::Database#to_application_timestamp (1000)</text>
+</g>
+<g >
+<title>Array#map (1) (0 samples, 0.00%)</title><rect x="66.7" y="173" width="0.2" height="15.0" fill="rgb(228,78,42)" rx="2" ry="2" />
+<text  x="69.74" y="183.5" ></text>
+</g>
+<g >
+<title>Thread::Mutex#synchronize (1) (0 samples, 0.00%)</title><rect x="68.2" y="125" width="0.2" height="15.0" fill="rgb(243,28,43)" rx="2" ry="2" />
+<text  x="71.24" y="135.5" ></text>
+</g>
+<g >
+<title>Hash#each_key (1) (0 samples, 0.00%)</title><rect x="1188.8" y="333" width="0.2" height="15.0" fill="rgb(214,8,15)" rx="2" ry="2" />
+<text  x="1191.85" y="343.5" ></text>
+</g>
+<g >
+<title>Thread::Mutex#synchronize (1) (0 samples, 0.00%)</title><rect x="1189.7" y="269" width="0.1" height="15.0" fill="rgb(252,141,51)" rx="2" ry="2" />
+<text  x="1192.69" y="279.5" ></text>
+</g>
+<g >
+<title>Kernel#is_a? (1000) (0 samples, 0.00%)</title><rect x="362.9" y="125" width="7.1" height="15.0" fill="rgb(207,102,21)" rx="2" ry="2" />
+<text  x="365.85" y="135.5" ></text>
+</g>
+<g >
+<title>Sequel::SequelMethods#convert_timestamp (1000) (37 samples, 69.38%)</title><rect x="332.8" y="141" width="817.1" height="15.0" fill="rgb(250,61,27)" rx="2" ry="2" />
+<text  x="335.77" y="151.5" >Sequel::SequelMethods#convert_timestamp (1000)</text>
+</g>
+<g >
+<title>Sequel::Postgres::DatasetMethods#select_sql (1) (0 samples, 0.00%)</title><rect x="1182.9" y="317" width="5.4" height="15.0" fill="rgb(239,137,22)" rx="2" ry="2" />
+<text  x="1185.95" y="327.5" ></text>
+</g>
+<g >
+<title>Fiber:1180 (53 samples, 99.39%)</title><rect x="10.0" y="413" width="1180.0" height="15.0" fill="rgb(239,98,9)" rx="2" ry="2" />
+<text  x="13.00" y="423.5" >Fiber:1180</text>
+</g>
+<g >
+<title>Sequel::Database#synchronize (1) (53 samples, 99.39%)</title><rect x="11.4" y="269" width="1171.5" height="15.0" fill="rgb(232,25,38)" rx="2" ry="2" />
+<text  x="14.37" y="279.5" >Sequel::Database#synchronize (1)</text>
+</g>
+<g >
+<title>Sequel::Dataset#literal_integer (1) (0 samples, 0.00%)</title><rect x="1187.6" y="269" width="0.2" height="15.0" fill="rgb(239,62,19)" rx="2" ry="2" />
+<text  x="1190.64" y="279.5" ></text>
+</g>
+<g >
+<title>Sequel::SequelMethods#synchronize (1) (0 samples, 0.00%)</title><rect x="1189.6" y="285" width="0.2" height="15.0" fill="rgb(217,202,41)" rx="2" ry="2" />
+<text  x="1192.60" y="295.5" ></text>
+</g>
+<g >
+<title>String#to_i (1000) (0 samples, 0.00%)</title><rect x="276.6" y="157" width="7.7" height="15.0" fill="rgb(240,146,46)" rx="2" ry="2" />
+<text  x="279.64" y="167.5" ></text>
+</g>
+<g >
+<title>Integer#** (1000) (0 samples, 0.00%)</title><rect x="663.8" y="61" width="7.0" height="15.0" fill="rgb(232,220,12)" rx="2" ry="2" />
+<text  x="666.82" y="71.5" ></text>
+</g>
+<g >
+<title>String#[]= (2000) (1 samples, 1.88%)</title><rect x="839.2" y="61" width="17.9" height="15.0" fill="rgb(211,35,1)" rx="2" ry="2" />
+<text  x="842.23" y="71.5" ></text>
+</g>
+<g >
+<title>[global]#[no method] (1) (53 samples, 99.39%)</title><rect x="10.0" y="397" width="1180.0" height="15.0" fill="rgb(225,127,8)" rx="2" ry="2" />
+<text  x="13.00" y="407.5" >[global]#[no method] (1)</text>
+</g>
+<g >
+<title>Sequel::SequelMethods#string_to_datetime (1000) (33 samples, 61.88%)</title><rect x="409.7" y="109" width="740.2" height="15.0" fill="rgb(245,57,49)" rx="2" ry="2" />
+<text  x="412.74" y="119.5" >Sequel::SequelMethods#string_to_datetime (1000)</text>
+</g>
+<g >
+<title>Sequel::Dataset#identifier_list_append (1) (0 samples, 0.00%)</title><rect x="1185.3" y="269" width="0.9" height="15.0" fill="rgb(244,202,47)" rx="2" ry="2" />
+<text  x="1188.32" y="279.5" ></text>
+</g>
+<g >
+<title>&lt;Class::Thread&gt;#current (1) (0 samples, 0.00%)</title><rect x="1182.0" y="221" width="0.1" height="15.0" fill="rgb(250,108,45)" rx="2" ry="2" />
+<text  x="1185.02" y="231.5" ></text>
+</g>
+<g >
+<title>Sequel::Dataset#each (1) (53 samples, 99.39%)</title><rect x="10.8" y="333" width="1177.5" height="15.0" fill="rgb(241,215,29)" rx="2" ry="2" />
+<text  x="13.75" y="343.5" >Sequel::Dataset#each (1)</text>
+</g>
+<g >
+<title>Sequel::ThreadedConnectionPool#sync (1) (0 samples, 0.00%)</title><rect x="1182.8" y="221" width="0.1" height="15.0" fill="rgb(210,69,14)" rx="2" ry="2" />
+<text  x="1185.79" y="231.5" ></text>
+</g>
+<g >
+<title>Sequel::Dataset#identifier_append (1) (0 samples, 0.00%)</title><rect x="1185.5" y="237" width="0.7" height="15.0" fill="rgb(209,113,37)" rx="2" ry="2" />
+<text  x="1188.55" y="247.5" ></text>
+</g>
+<g >
+<title>Method#call (1000) (39 samples, 73.14%)</title><rect x="284.3" y="173" width="865.6" height="15.0" fill="rgb(233,139,28)" rx="2" ry="2" />
+<text  x="287.25" y="183.5" >Method#call (1000)</text>
+</g>
+<g >
+<title>Sequel::Dataset#cache_get (1) (0 samples, 0.00%)</title><rect x="1184.0" y="301" width="0.2" height="15.0" fill="rgb(254,155,45)" rx="2" ry="2" />
+<text  x="1186.99" y="311.5" ></text>
+</g>
+<g >
+<title>Sequel::Postgres::Dataset#fetch_rows (1) (53 samples, 99.39%)</title><rect x="11.0" y="317" width="1171.9" height="15.0" fill="rgb(243,191,9)" rx="2" ry="2" />
+<text  x="14.00" y="327.5" >Sequel::Postgres::Dataset#fetch_rows (1)</text>
+</g>
+<g >
+<title>Sequel::SequelMethods#synchronize (1) (0 samples, 0.00%)</title><rect x="68.2" y="141" width="0.2" height="15.0" fill="rgb(234,35,47)" rx="2" ry="2" />
+<text  x="71.15" y="151.5" ></text>
+</g>
+<g >
+<title>Sequel::Dataset#columns= (1) (0 samples, 0.00%)</title><rect x="68.0" y="173" width="0.4" height="15.0" fill="rgb(237,93,40)" rx="2" ry="2" />
+<text  x="71.00" y="183.5" ></text>
+</g>
+<g >
+<title>Sequel::Dataset#literal_append (1) (0 samples, 0.00%)</title><rect x="1185.7" y="221" width="0.5" height="15.0" fill="rgb(249,15,51)" rx="2" ry="2" />
+<text  x="1188.66" y="231.5" ></text>
+</g>
+<g >
+<title>String#to_f (1000) (0 samples, 0.00%)</title><rect x="268.0" y="157" width="8.6" height="15.0" fill="rgb(236,198,2)" rx="2" ry="2" />
+<text  x="271.03" y="167.5" ></text>
+</g>
+<g >
+<title>Sequel::Dataset#select_select_sql (1) (0 samples, 0.00%)</title><rect x="1186.5" y="301" width="0.1" height="15.0" fill="rgb(228,178,43)" rx="2" ry="2" />
+<text  x="1189.51" y="311.5" ></text>
+</g>
+<g >
+<title>Sequel::Dataset#select_from_sql (1) (0 samples, 0.00%)</title><rect x="1184.9" y="301" width="1.3" height="15.0" fill="rgb(222,96,9)" rx="2" ry="2" />
+<text  x="1187.95" y="311.5" ></text>
+</g>
+<g >
+<title>Sequel::Dataset#literal_append (1) (0 samples, 0.00%)</title><rect x="1187.5" y="285" width="0.3" height="15.0" fill="rgb(245,163,18)" rx="2" ry="2" />
+<text  x="1190.46" y="295.5" ></text>
+</g>
+<g >
+<title>Array#each (1) (0 samples, 0.00%)</title><rect x="1185.4" y="253" width="0.8" height="15.0" fill="rgb(236,120,2)" rx="2" ry="2" />
+<text  x="1188.39" y="263.5" ></text>
+</g>
+<g >
+<title>ProductRepository#read (1) (53 samples, 99.39%)</title><rect x="10.2" y="381" width="1179.8" height="15.0" fill="rgb(205,56,41)" rx="2" ry="2" />
+<text  x="13.20" y="391.5" >ProductRepository#read (1)</text>
+</g>
+<g >
+<title>&lt;Class::Time&gt;#now (1000) (1 samples, 1.88%)</title><rect x="435.3" y="93" width="24.5" height="15.0" fill="rgb(225,67,52)" rx="2" ry="2" />
+<text  x="438.29" y="103.5" >&lt;..</text>
+</g>
+<g >
+<title>PG::Connection#exec (1) (2 samples, 3.75%)</title><rect x="12.6" y="141" width="53.8" height="15.0" fill="rgb(238,79,42)" rx="2" ry="2" />
+<text  x="15.59" y="151.5" >PG::C..</text>
+</g>
+<g >
+<title>Sequel::UnmodifiedIdentifiers::DatasetMethods#output_identifier (4) (0 samples, 0.00%)</title><rect x="67.6" y="157" width="0.4" height="15.0" fill="rgb(242,146,28)" rx="2" ry="2" />
+<text  x="70.56" y="167.5" ></text>
+</g>
+<g >
+<title>&lt;Class::Time&gt;#local (1000) (2 samples, 3.75%)</title><rect x="1055.4" y="61" width="40.6" height="15.0" fill="rgb(246,159,17)" rx="2" ry="2" />
+<text  x="1058.43" y="71.5" >&lt;Cl..</text>
+</g>
+<g >
+<title>Thread:1160 (53 samples, 99.39%)</title><rect x="10.0" y="429" width="1180.0" height="15.0" fill="rgb(224,201,17)" rx="2" ry="2" />
+<text  x="13.00" y="439.5" >Thread:1160</text>
+</g>
+<g >
+<title>Sequel::Dataset#source_list_append (1) (0 samples, 0.00%)</title><rect x="1185.1" y="285" width="1.1" height="15.0" fill="rgb(224,148,4)" rx="2" ry="2" />
+<text  x="1188.15" y="295.5" ></text>
+</g>
+<g >
+<title>Kernel#block_given? (1000) (0 samples, 0.00%)</title><rect x="1144.5" y="77" width="5.4" height="15.0" fill="rgb(226,162,24)" rx="2" ry="2" />
+<text  x="1147.53" y="87.5" ></text>
+</g>
+<g >
+<title>Sequel::Postgres::DatasetMethods#select_limit_sql (1) (0 samples, 0.00%)</title><rect x="1187.2" y="301" width="0.6" height="15.0" fill="rgb(227,132,12)" rx="2" ry="2" />
+<text  x="1190.24" y="311.5" ></text>
+</g>
+<g >
+<title>&lt;Class::Time&gt;#parse (1000) (31 samples, 58.13%)</title><rect x="459.8" y="93" width="690.1" height="15.0" fill="rgb(208,179,12)" rx="2" ry="2" />
+<text  x="462.78" y="103.5" >&lt;Class::Time&gt;#parse (1000)</text>
+</g>
+<g >
+<title>Class#new (1) (0 samples, 0.00%)</title><rect x="1187.1" y="285" width="0.1" height="15.0" fill="rgb(218,39,47)" rx="2" ry="2" />
+<text  x="1190.10" y="295.5" ></text>
+</g>
+<g >
+<title>Sequel::Dataset#execute (1) (53 samples, 99.39%)</title><rect x="11.1" y="301" width="1171.8" height="15.0" fill="rgb(240,60,25)" rx="2" ry="2" />
+<text  x="14.09" y="311.5" >Sequel::Dataset#execute (1)</text>
+</g>
+<g >
+<title>Sequel::Postgres::Database#check_database_errors (1) (53 samples, 99.39%)</title><rect x="11.7" y="237" width="1170.3" height="15.0" fill="rgb(249,121,21)" rx="2" ry="2" />
+<text  x="14.71" y="247.5" >Sequel::Postgres::Database#check_database_errors (1)</text>
+</g>
+<g >
+<title>MatchData#begin (2000) (1 samples, 1.88%)</title><rect x="670.8" y="61" width="27.0" height="15.0" fill="rgb(253,224,16)" rx="2" ry="2" />
+<text  x="673.79" y="71.5" >M..</text>
+</g>
+<g >
+<title>Sequel::Dataset#select_with_sql (1) (0 samples, 0.00%)</title><rect x="1186.8" y="301" width="0.2" height="15.0" fill="rgb(248,184,32)" rx="2" ry="2" />
+<text  x="1189.77" y="311.5" ></text>
+</g>
+</g>
+</svg>
