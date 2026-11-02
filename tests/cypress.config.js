@@ -10,6 +10,11 @@ module.exports = defineConfig({
       return require('./cypress/plugins/index.js')(on, config)
     },
     baseUrl: 'http://localhost:8000',
+    // Expose non-secret values from the environment to the specs. The
+    // Justfile recipes set BUILDER (jekyll|hugo) so the visual regression
+    // tests pick the matching baselines; CYPRESS_updateSnapshots is the
+    // image-snapshot plugin's regeneration switch.
+    expose: ['BUILDER'],
     // The site under test is a static build served from localhost: no
     // async data fetching, no animations. Elements that are going to
     // appear are there within milliseconds, so a failing assertion
