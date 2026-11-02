@@ -14,7 +14,7 @@ module.exports = defineConfig({
     // Justfile recipes set BUILDER (jekyll|hugo) so the visual regression
     // tests pick the matching baselines; CYPRESS_updateSnapshots is the
     // image-snapshot plugin's regeneration switch.
-    expose: ['BUILDER'],
+    expose: { BUILDER: process.env.BUILDER },
     // The site under test is a static build served from localhost: no
     // async data fetching, no animations. Elements that are going to
     // appear are there within milliseconds, so a failing assertion
