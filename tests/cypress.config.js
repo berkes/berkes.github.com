@@ -18,9 +18,10 @@ module.exports = defineConfig({
     // Page loads over localhost are near-instant; 30s default only
     // stalls reports on a wedged server.
     pageLoadTimeout: 10000,
-    // The only real asynchrony is the Discu comment script, which
-    // should settle (or fail its fetch) well within this.
-    responseTimeout: 5000,
+    // NOTE: responseTimeout intentionally stays at its 60s default:
+    // cy.screenshot() is capped by it, and the visual regression specs
+    // screenshot very tall pages (tags, archives) that legitimately
+    // take longer than a few seconds to capture.
     // Retry flaky tests when running headless (CI), never interactively.
     retries: {
       runMode: 2,
