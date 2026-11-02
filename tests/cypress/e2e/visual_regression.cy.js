@@ -12,6 +12,11 @@ describe('Visual Regression Tests', () => {
   const snapshotOptions = {
     failureThreshold: 0.01,
     failureThresholdType: 'percent',
+    // cy.screenshot() is capped by the global responseTimeout (5s, to
+    // fail stalled commands fast), but these pages are up to ~61000px
+    // tall and take ~23s to capture in CI. Give the screenshot itself
+    // the headroom it needs, without slowing down every other command.
+    timeout: 60000,
   };
 
   it('should match the homepage layout', () => {
