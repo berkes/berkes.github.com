@@ -15,7 +15,7 @@ describe('Visual Regression Tests', () => {
   // Justfile recipe tells us which build is being served via BUILDER;
   // default to the Jekyll baselines when unset (e.g. `cypress open`).
   const builderSnapshotsDir = () =>
-    Cypress.env('BUILDER') === 'hugo'
+    Cypress.expose?.('BUILDER') === 'hugo'
       ? cy.wrap('cypress/snapshots/hugo')
       : cy.wrap('');
 
