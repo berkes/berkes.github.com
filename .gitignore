@@ -5,10 +5,6 @@ Thumbs.db
 
 !.gitkeep
 
-.rbenv-version
-.ruby-version
-.rvmrc
-
 tests/node_modules
 tests/cypress/videos
 tests/cypress/screenshots

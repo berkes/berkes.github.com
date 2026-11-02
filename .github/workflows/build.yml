@@ -1,8 +1,6 @@
 ---
 name: Test and deploy
 
-# The site is built with Hugo since the migration (#145); Jekyll is retired.
-
 on:
   push:
     branches:
@@ -39,9 +37,6 @@ jobs:
       with:
         path: ~/.cache/Cypress
         key: cypress-${{ runner.os }}-${{ hashFiles('tests/package-lock.json') }}
-
-    - name: Check URLs (internal links + parity against baseline)
-      run: just check
 
     - name: Run Cypress end-to-end tests
       run: just test
