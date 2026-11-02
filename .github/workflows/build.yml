@@ -1,6 +1,8 @@
 ---
 name: Test and deploy
 
+# The site is built with Hugo since the migration (#145); Jekyll is retired.
+
 on:
   push:
     branches:
@@ -22,6 +24,9 @@ jobs:
     - name: Install just
       uses: extractions/setup-just@v4
 
+    - name: Install Hugo
+      run: pip install hugo
+
     - name: Set up Node
       uses: actions/setup-node@v4
       with:
@@ -35,13 +40,11 @@ jobs:
         path: ~/.cache/Cypress
         key: cypress-${{ runner.os }}-${{ hashFiles('tests/package-lock.json') }}
 
+    - name: Check URLs (internal links + parity against baseline)
+      run: just check
+
     - name: Run Cypress end-to-end tests
       run: just test
-
-    - name: Check URLs (internal links + parity against baseline)
-      run: |
-        just build
-        python3 scripts/check_urls.py build --baseline docs/migration/url-parity-baseline.txt --ignore docs/migration/known-dead-links.txt
 
     - name: Upload test artifacts on failure
       if: failure()

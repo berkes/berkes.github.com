@@ -9,16 +9,6 @@ describe('Visual Regression Tests', () => {
   // render environments (local vs CI). The tags page is ~61000px tall, so
   // even 0.01% covers thousands of pixels of noise while still catching
   // real regressions.
-  // The Jekyll (production) and Hugo (port) builds render slightly
-  // differently - the archive month-grouping fix alone changes the page
-  // height. Keep separate baselines per builder until the cutover. The
-  // Justfile recipe tells us which build is being served via BUILDER;
-  // default to the Jekyll baselines when unset (e.g. `cypress open`).
-  const builderSnapshotsDir = () =>
-    Cypress.expose?.('BUILDER') === 'hugo'
-      ? cy.wrap('cypress/snapshots/hugo')
-      : cy.wrap('');
-
   const snapshotOptions = {
     failureThreshold: 0.01,
     failureThresholdType: 'percent',
@@ -32,24 +22,18 @@ describe('Visual Regression Tests', () => {
   it('should match the homepage layout', () => {
     cy.visit('/');
     fontsReady();
-    builderSnapshotsDir().then((customSnapshotsDir) =>
-      cy.matchImageSnapshot('homepage', { ...snapshotOptions, customSnapshotsDir })
-    );
+    cy.matchImageSnapshot('homepage', snapshotOptions);
   });
 
   it('should match the archive page layout', () => {
     cy.visit('/archive.html');
     fontsReady();
-    builderSnapshotsDir().then((customSnapshotsDir) =>
-      cy.matchImageSnapshot('archive', { ...snapshotOptions, customSnapshotsDir })
-    );
+    cy.matchImageSnapshot('archive', snapshotOptions);
   });
 
   it('should match the tags page layout', () => {
     cy.visit('/tags.html');
     fontsReady();
-    builderSnapshotsDir().then((customSnapshotsDir) =>
-      cy.matchImageSnapshot('tags', { ...snapshotOptions, customSnapshotsDir })
-    );
+    cy.matchImageSnapshot('tags', snapshotOptions);
   });
 });
