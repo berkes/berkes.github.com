@@ -18,10 +18,10 @@ module.exports = defineConfig({
     // Page loads over localhost are near-instant; 30s default only
     // stalls reports on a wedged server.
     pageLoadTimeout: 10000,
-    // NOTE: responseTimeout intentionally stays at its 60s default:
-    // cy.screenshot() is capped by it, and the visual regression specs
-    // screenshot very tall pages (tags, archives) that legitimately
-    // take longer than a few seconds to capture.
+    // responseTimeout also caps cy.screenshot(), which the visual
+    // regression specs use on very tall pages (tags is ~61000px);
+    // 10s is plenty for those while failing everything else fast.
+    responseTimeout: 10000,
     // Retry flaky tests when running headless (CI), never interactively.
     retries: {
       runMode: 2,
