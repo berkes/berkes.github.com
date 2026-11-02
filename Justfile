@@ -43,7 +43,7 @@ test *args: build install
     server_pid=$!
     trap 'kill "$server_pid" 2>/dev/null || true' EXIT
     cd {{tests_dir}}
-    npx cypress run {{args}}
+    BUILDER=jekyll npx cypress run {{args}}
 
 # Build the site, then regenerate the visual regression baselines
 # (tests/cypress/snapshots/ - commit the new .snap.png files)
@@ -84,4 +84,16 @@ hugo-test *args: install
     server_pid=$!
     trap 'kill "$server_pid" 2>/dev/null || true' EXIT
     cd {{tests_dir}}
-    npx cypress run {{args}}
+    BUILDER=hugo npx cypress run {{args}}
+
+# Build the Hugo site, then regenerate the visual regression baselines
+# into tests/cypress/snapshots/hugo/ (commit the new .snap.png files)
+hugo-update-visual-diffs: install
+    #!/usr/bin/env bash
+    set -euo pipefail
+    just hugo-build
+    python3 -m http.server {{port}} --bind {{host}} --directory hugo/build &
+    server_pid=$!
+    trap 'kill "$server_pid" 2>/dev/null || true' EXIT
+    cd {{tests_dir}}
+    CYPRESS_updateSnapshots=true BUILDER=hugo npx cypress run --spec 'cypress/e2e/visual_regression.cy.js'

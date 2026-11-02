@@ -11,15 +11,13 @@ describe('Visual Regression Tests', () => {
   // real regressions.
   // The Jekyll (production) and Hugo (port) builds render slightly
   // differently - the archive month-grouping fix alone changes the page
-  // height. Keep separate baselines per builder until the cutover, and
-  // pick one by reading the generator meta tag the served build emits.
+  // height. Keep separate baselines per builder until the cutover. The
+  // Justfile recipe tells us which build is being served via BUILDER;
+  // default to the Jekyll baselines when unset (e.g. `cypress open`).
   const builderSnapshotsDir = () =>
-    cy
-      .get('meta[name="generator"]')
-      .invoke('attr', 'content')
-      .then((content) =>
-        content && content.startsWith('Hugo') ? 'cypress/snapshots/hugo' : ''
-      );
+    Cypress.env('BUILDER') === 'hugo'
+      ? cy.wrap('cypress/snapshots/hugo')
+      : cy.wrap('');
 
   const snapshotOptions = {
     failureThreshold: 0.01,
