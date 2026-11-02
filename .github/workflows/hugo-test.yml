@@ -41,17 +41,8 @@ jobs:
     - name: URL parity + link check
       run: just hugo-check
 
-    - name: Regenerate visual baselines against the Hugo build
-      run: just hugo-test --expose updateSnapshots=true --spec 'cypress/e2e/visual_regression.cy.js'
-
     - name: Run full Cypress suite against the Hugo build
       run: just hugo-test
-
-    - name: Upload regenerated baselines
-      uses: actions/upload-artifact@v4
-      with:
-        name: hugo-baselines
-        path: tests/cypress/snapshots/**/*.snap.png
 
     - name: Upload test artifacts on failure
       if: failure()
