@@ -6,11 +6,19 @@ const MOBILE_HEIGHT = 667; // iPhone 6/7/8 class
 const mobileViewport = () => cy.viewport(MOBILE_WIDTH, MOBILE_HEIGHT);
 
 describe('Mobile view', () => {
-  it('shows the hamburger and hides the inline menu on a small screen', () => {
+  it('shows the hamburger below the logo and hides the inline menu', () => {
     mobileViewport();
     cy.visit('/');
     cy.get('.nav-toggle-label').should('be.visible');
     cy.get('nav#main .onion ul').should('not.be.visible');
+    // The hamburger sits entirely below the logo - no overlap.
+    cy.get('header img[alt="Logo"]').then(($logo) => {
+      cy.get('.nav-toggle-label').then(($label) => {
+        expect($label[0].getBoundingClientRect().top).to.be.at.least(
+          $logo[0].getBoundingClientRect().bottom
+        );
+      });
+    });
   });
 
   it('opens a full-screen vertical menu from the hamburger', () => {

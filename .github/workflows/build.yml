@@ -41,6 +41,18 @@ jobs:
     - name: Run Cypress end-to-end tests
       run: just test
 
+    - name: "TEMP - regenerate visual baselines (hamburger position)"
+      if: always()
+      run: just update-visual-diffs
+      continue-on-error: true
+
+    - name: "TEMP - upload baselines"
+      if: always()
+      uses: actions/upload-artifact@v4
+      with:
+        name: visual-baselines
+        path: tests/cypress/snapshots/**/*.snap.png
+
     - name: Upload test artifacts on failure
       if: failure()
       uses: actions/upload-artifact@v4
