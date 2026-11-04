@@ -42,10 +42,12 @@ jobs:
       run: just test
 
     - name: "TEMP - regenerate visual baselines (mobile launch)"
+      if: always()
       run: just update-visual-diffs
       continue-on-error: true
 
     - name: "TEMP - upload baselines"
+      if: always()
       uses: actions/upload-artifact@v4
       with:
         name: visual-baselines
