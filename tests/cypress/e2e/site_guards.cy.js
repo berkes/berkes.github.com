@@ -1,8 +1,8 @@
-// Regression tests for findings from the Hugo port review (#159).
-// These assert behavior of the built site (Jekyll or Hugo alike) and
-// guard the migration's fragile spots.
+// Guards for fragile spots of the site, originally written from findings
+// during the Hugo port review (#159). They assert behavior of the built
+// site and stay relevant long after the migration.
 
-describe('Hugo port review findings', () => {
+describe('Site guards', () => {
   // The Discu comment script performs a runtime fetch to an external API,
   // which rejects when CI has no external network. That rejection is
   // unrelated to the render under test; the comment templates themselves

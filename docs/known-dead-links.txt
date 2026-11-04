@@ -1,3 +1,10 @@
+# Links that are known-dead and intentionally not fixed.
+#
+# Mostly 2000s-era linkrot in old posts. When a link from this list
+# appears in a dead-link report, it is not a new problem.
+# Historical context: this list originated as the ignore-file for the
+# migration-era URL checker (see docs/archive/).
+
 /%26lt%3B%3Fphp%20print%20%24node_url%20%3F%26gt%3B
 /%5B%5CS%5D*
 /%5B%5CS%5D%2A

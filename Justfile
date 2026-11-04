@@ -1,9 +1,8 @@
 # berk.es build and test tasks.
 #
-# Run `just --list` to see all available recipes. The site is built with Hugo
-# (hugo/hugo.yaml) into hugo/build/, and must be served on port 8000 (the
-# baseUrl in tests/cypress.config.js) for the Cypress tests to run.
-# Jekyll was retired in the Hugo migration (#145); the old src/ tree is gone.
+# Run `just --list` to see all available recipes. The site is built with
+# Hugo (hugo/hugo.yaml) into hugo/build/, and must be served on port 8000
+# (the baseUrl in tests/cypress.config.js) for the Cypress tests to run.
 
 port        := "8000"
 host        := "127.0.0.1"
@@ -43,10 +42,6 @@ test *args: build install
     trap 'kill "$server_pid" 2>/dev/null || true' EXIT
     cd {{tests_dir}}
     npx cypress run {{args}}
-
-# Build the site and run the URL parity + link checks against it
-check: build
-    python3 scripts/check_urls.py {{build_dir}} --baseline docs/migration/url-parity-baseline.txt --ignore docs/migration/known-dead-links.txt
 
 # Build the site, then regenerate the visual regression baselines
 # (tests/cypress/snapshots/ - commit the new .snap.png files)
