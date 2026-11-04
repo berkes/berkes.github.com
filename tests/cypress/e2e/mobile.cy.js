@@ -19,10 +19,14 @@ describe('Mobile view', () => {
     cy.get('.nav-toggle-label').click();
     cy.get('nav#main .onion ul').should('be.visible');
     // Full-screen: the list covers the viewport, vertically stacked.
+    // (A position:fixed overlay spans the viewport minus the underlying
+    // document's scrollbar, so allow that gutter rather than exact width.)
     cy.get('nav#main .onion ul').then(($ul) => {
       const rect = $ul[0].getBoundingClientRect();
-      expect(rect.width).to.equal(MOBILE_WIDTH);
-      expect(rect.height).to.equal(MOBILE_HEIGHT);
+      expect(rect.width).to.be.at.least(MOBILE_WIDTH - 20);
+      expect(rect.height).to.be.at.least(MOBILE_HEIGHT - 20);
+      expect(rect.top).to.equal(0);
+      expect(rect.left).to.equal(0);
     });
     cy.get('nav#main a[href="/about.html"]').should('be.visible');
     // And it navigates.
