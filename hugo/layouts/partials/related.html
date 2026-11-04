@@ -1,26 +1,19 @@
-{{ $page := . }}
-{{ $mytags := $page.Params.tags | default (slice) }}
-{{ if not (reflect.IsSlice $mytags) }}{{ $mytags = slice $mytags }}{{ end }}
-{{ $store := .Store }}
-{{ $store.Set "cands" slice }}
-{{ range $p := site.RegularPages }}
-  {{ if ne $p.RelPermalink $page.RelPermalink }}
-    {{ $ptags := $p.Params.tags | default (slice) }}
-    {{ if not (reflect.IsSlice $ptags) }}{{ $ptags = slice $ptags }}{{ end }}
-    {{ if gt (len (intersect $mytags $ptags)) 0 }}
-      {{ $store.Set "cands" ($store.Get "cands" | append $p) }}
-    {{ end }}
-  {{ end }}
-{{ end }}
+{{ $related := site.RegularPages.Related . }}
+{{/* The site is single-language Hugo; the lang front matter is a param,
+     so scope the suggestions to the post's own language explicitly. */}}
+{{ $related = where $related "Params.lang" .Params.lang }}
+{{ $related = $related | first 3 }}
+{{ if $related }}
 <aside>
-  {{ if eq $page.Params.lang "nl" }}
+  {{ if eq .Params.lang "nl" }}
   <h1>Lees verder:</h1>
   {{ else }}
   <h1>Read on:</h1>
   {{ end }}
   <ul>
-  {{ range first 3 ($store.Get "cands") }}
+  {{ range $related }}
     <li><span>{{ .Date.Format "January 02, 2006" }}</span> &raquo; <a href="{{ .RelPermalink }}">{{ .Title }}</a></li>
   {{ end }}
   </ul>
 </aside>
+{{ end }}

@@ -54,6 +54,15 @@ markup:
     renderer:
       unsafe: true
 
-# NOTE: related-posts are computed by layouts/partials/related.html
-# (manual tag-overlap), not by Hugo's native Related API - the config
-# below had no effect and is therefore not reproduced.
+# Related posts ("Read on / Lees verder"): ranked by tag overlap
+# (weight 80), falling back to recency (weight 10). Scoped to the
+# current language by .RegularPagesRelated.
+related:
+  includeNewer: false
+  indices:
+    - name: tags
+      weight: 80
+    - name: date
+      weight: 10
+  threshold: 0
+  toLower: true
