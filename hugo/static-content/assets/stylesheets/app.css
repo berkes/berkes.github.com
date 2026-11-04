@@ -62,7 +62,7 @@ article footer {
 article pre {
   border: 1px solid #cfcdcd;
   display: block;
-  width: 960px;
+  max-width: 100%;
   font-family: Monaco, Andale Mono, Courir New, monospace;
 
   padding: 1.3rem;
@@ -70,12 +70,6 @@ article pre {
 
   word-wrap: break-word;
   overflow: scroll;
-}
-@media only screen and (max-width: 960px) {
-  article pre {
-    width: auto;
-    margin-right: 1em;
-  }
 }
 article pre:hover,
 article pre:focus {
@@ -93,12 +87,7 @@ p > code {
  *                                  GRID                                   *
  ***************************************************************************/
 article figure.decorative {
-  width: 469px;
-}
-@media only screen and (max-width: 469px) {
-  article figure.decorative {
-    display: none;
-  }
+  max-width: 469px;
 }
 /***************************************************************************
  *                                  Tags                                   *
@@ -155,19 +144,6 @@ nav#main a {
 nav#main a.active, nav#main a:hover {
   background: transparent url("/assets/images/pointing_hand.png") no-repeat scroll 0px 8px;
   color: #212121;
-}
-@media only screen and (max-width: 767px) {
-  nav#main ul li {
-    display: block;
-    float: none;
-    width: 100%;
-  }
-  nav#main ul li a {
-    display: block;
-    padding: 0;
-    float: none;
-    width: 100%;
-  }
 }
 
 /***************************************************************************

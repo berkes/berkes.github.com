@@ -37,3 +37,35 @@ describe('Visual Regression Tests', () => {
     cy.matchImageSnapshot('tags', snapshotOptions);
   });
 });
+// Mobile view (single breakpoint, <=767px): separate snapshot set,
+// same pages, at a phone viewport. Regenerated together with the
+// desktop ones via `just update-visual-diffs`.
+describe('Visual Regression Tests (mobile)', () => {
+  beforeEach(() => {
+    cy.viewport(375, 667);
+  });
+
+  it('should match the homepage layout', () => {
+    cy.visit('/');
+    fontsReady();
+    cy.matchImageSnapshot('homepage-mobile', snapshotOptions);
+  });
+
+  it('should match the archive page layout', () => {
+    cy.visit('/archive.html');
+    fontsReady();
+    cy.matchImageSnapshot('archive-mobile', snapshotOptions);
+  });
+
+  it('should match the tags page layout', () => {
+    cy.visit('/tags.html');
+    fontsReady();
+    cy.matchImageSnapshot('tags-mobile', snapshotOptions);
+  });
+
+  it('should match a post page layout', () => {
+    cy.visit('/2022/12/23/fediverse-never-forgets/');
+    fontsReady();
+    cy.matchImageSnapshot('post-mobile', snapshotOptions);
+  });
+});
