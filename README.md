@@ -18,7 +18,11 @@ whenever `main` passes CI.
 ### Creating a new post
 
 1. Create `hugo/content/posts/YYYY-MM-DD-<slug>.md` — the filename's date
-   and slug determine the URL: `/:year/:month/:day/:slug/`.
+   and slug determine the URL: `/:year/:month/:day/:slug/`. You can
+   scaffold the file with front matter pre-filled:
+   `hugo new --source hugo posts/$(date +%F)-my-slug.md` (based on
+   `hugo/archetypes/`; new files start as `draft: true` — remove that
+   line when the post is ready to publish).
    The slug must be lowercase with single dashes (Hugo uses it verbatim,
    unlike the old Jekyll which collapsed dash-runs).
 2. Front matter:
@@ -42,7 +46,8 @@ whenever `main` passes CI.
 
 ### Adding a presentation
 
-1. Create `hugo/content/presentations/<name>.md` with:
+1. Create `hugo/content/presentations/<name>.md` — or scaffold it with
+   `hugo new --source hugo presentations/my-talk.md` — with:
 
    ```yaml
    ---

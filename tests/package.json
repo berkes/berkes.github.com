@@ -2,7 +2,6 @@
   "name": "berkes-tests",
   "version": "1.0.0",
   "description": "End-to-end tests for berk.es",
-  "main": "index.js",
   "scripts": {
     "test": "cypress open"
   },
