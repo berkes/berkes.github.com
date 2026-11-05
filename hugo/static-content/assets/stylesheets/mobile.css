@@ -98,14 +98,15 @@
     color: #212121;
   }
 
-  /* Hamburger becomes a close button while open. */
-  #nav-toggle:checked ~ .nav-toggle-label span:nth-child(1) {
+  /* Hamburger becomes a close button while open. The label is nested
+     inside the logo row, the checkbox is its sibling before that row. */
+  #nav-toggle:checked ~ .row .nav-toggle-label span:nth-child(1) {
     transform: translateY(9px) rotate(45deg);
   }
-  #nav-toggle:checked ~ .nav-toggle-label span:nth-child(2) {
+  #nav-toggle:checked ~ .row .nav-toggle-label span:nth-child(2) {
     opacity: 0;
   }
-  #nav-toggle:checked ~ .nav-toggle-label span:nth-child(3) {
+  #nav-toggle:checked ~ .row .nav-toggle-label span:nth-child(3) {
     transform: translateY(-9px) rotate(-45deg);
   }
 
