@@ -11,12 +11,15 @@ describe('Mobile view', () => {
     cy.visit('/');
     cy.get('.nav-toggle-label').should('be.visible');
     cy.get('nav#main .onion ul').should('not.be.visible');
-    // The hamburger sits entirely below the logo - no overlap.
+    // The hamburger shares the logo's row: right of it, vertically
+    // within its span.
     cy.get('header img[alt="Logo"]').then(($logo) => {
       cy.get('.nav-toggle-label').then(($label) => {
-        expect($label[0].getBoundingClientRect().top).to.be.at.least(
-          $logo[0].getBoundingClientRect().bottom
-        );
+        const logo = $logo[0].getBoundingClientRect();
+        const label = $label[0].getBoundingClientRect();
+        expect(label.top).to.be.at.least(logo.top - 10);
+        expect(label.bottom).to.be.at.most(logo.bottom + 10);
+        expect(label.left).to.be.greaterThan(logo.right);
       });
     });
   });

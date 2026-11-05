@@ -17,14 +17,24 @@
     padding: 0 12px;
   }
 
-  /* The 980px logo must never overflow the viewport. */
+  /* Logo and hamburger share one row: logo left, hamburger right. */
+  header .row {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+  header .row > a {
+    flex: 1 1 auto;
+    min-width: 0;
+  }
+  /* The 980px logo must never overflow the viewport; leave room for
+     the 44px hamburger plus its margin. */
   header .row img[alt="Logo"] {
     max-width: 100%;
     height: auto;
   }
 
-  /* Hamburger button: below the logo, floated right, so the first
-     element or title flows around it. */
+  /* Hamburger button, fixed at the right of the logo row. */
   #nav-toggle {
     /* Visually hidden but focusable; the label is the visible button. */
     position: absolute;
@@ -35,10 +45,9 @@
   }
   .nav-toggle-label {
     display: block;
-    float: right;
-    width: 44px;
+    flex: 0 0 44px;
     height: 44px;
-    margin: 0 12px 0 0;
+    margin: 0 12px 0 12px;
     cursor: pointer;
     z-index: 110;
   }
