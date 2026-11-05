@@ -22,14 +22,17 @@
     display: flex;
     align-items: center;
     justify-content: space-between;
+    margin: 12px 0;
   }
   header .row > a {
     flex: 1 1 auto;
     min-width: 0;
   }
   /* The 980px logo must never overflow the viewport; leave room for
-     the 44px hamburger plus its margin. */
+     the hamburger plus its margin. display: block removes the inline
+     baseline gap so align-items: center centers the image itself. */
   header .row img[alt="Logo"] {
+    display: block;
     max-width: 100%;
     height: auto;
   }
@@ -39,26 +42,37 @@
     /* Visually hidden but focusable; the label is the visible button. */
     position: absolute;
     opacity: 0;
-    width: 44px;
-    height: 44px;
+    width: 30px;
+    height: 30px;
     margin: 0;
   }
+  /* Flex column so the bars center inside the 30px box. The row's
+     align-items: center then puts the bars' center on the logo box's
+     center, which is also the visual glyph's center: the logo's baked-in
+     white padding is symmetric (~12px top/bottom at 980x84) and scales
+     uniformly with the image, so no per-viewport offset is needed. */
   .nav-toggle-label {
-    display: block;
-    flex: 0 0 44px;
-    height: 44px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    flex: 0 0 30px;
+    height: 30px;
     margin: 0 12px 0 12px;
     cursor: pointer;
     z-index: 110;
   }
   .nav-toggle-label span {
     display: block;
-    width: 30px;
+    width: 16px;
     height: 4px;
-    margin: 5px 7px;
+    margin-bottom: 5px;
     background-color: #212121;
     border-radius: 2px;
     transition: transform 0.2s ease, opacity 0.2s ease;
+  }
+  .nav-toggle-label span:last-child {
+    margin-bottom: 0;
   }
 
   /* Menu closed: the inline nav is hidden on mobile. */
