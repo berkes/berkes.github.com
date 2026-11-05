@@ -27,7 +27,7 @@ describe('Dark mode', () => {
       const bg = win.getComputedStyle(win.document.body).backgroundColor;
       expect(bg).to.equal('rgb(24, 24, 24)');
       const fg = win.getComputedStyle(win.document.body).color;
-      expect(fg).to.equal('rgb(232, 230, 230)');
+      expect(fg).to.equal('rgb(201, 199, 199)');
     });
   });
 

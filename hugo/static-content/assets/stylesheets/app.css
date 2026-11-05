@@ -1,6 +1,7 @@
 :root {
   --bg: #fff;
-  --fg: #212121;
+  --fg: #555;
+  --strong: #212121;
   --muted: #cfcdcd;
   --inline-code-bg: #eee;
   --label-bg: #fff;
@@ -154,7 +155,7 @@ nav#main a {
 }
 nav#main a.active, nav#main a:hover {
   background: transparent url("/assets/images/pointing_hand.png") no-repeat scroll 0px 8px;
-  color: var(--fg);
+  color: var(--strong);
 }
 
 /***************************************************************************
