@@ -34,21 +34,21 @@ describe('Dark mode', () => {
   it('swaps the logo to its light-on-dark variant', () => {
     emulateColorScheme('dark');
     cy.visit('/');
-    // CSS swaps the rendered image (content: url); the src attribute
-    // keeps the light original. Assert on the currentSrc the browser
-    // actually renders.
-    cy.get('header img[alt="Logo"]')
-      .should(($img) => {
-        expect($img[0].currentSrc).to.include('logo-dark.png');
-      });
+    // CSS swaps the rendered image via content: url(); the src
+    // attribute keeps the light original. Assert on the computed
+    // content - the mechanism that drives the swap.
+    cy.get('header img[alt="Logo"]').then(($img) => {
+      const content = getComputedStyle($img[0]).content;
+      expect(content).to.include('logo-dark.png');
+    });
   });
 
   it('keeps the light logo and palette when the system prefers light', () => {
     emulateColorScheme('light');
     cy.visit('/');
-    cy.get('header img[alt="Logo"]').should(($img) => {
-      expect($img[0].currentSrc).to.include('logo.png');
-      expect($img[0].currentSrc).not.to.include('logo-dark.png');
+    cy.get('header img[alt="Logo"]').then(($img) => {
+      const content = getComputedStyle($img[0]).content;
+      expect(content).not.to.include('logo-dark.png');
     });
     cy.window().then((win) => {
       expect(win.getComputedStyle(win.document.body).backgroundColor).to.equal(
