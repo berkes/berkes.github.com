@@ -26,9 +26,15 @@ module.exports = defineConfig({
     // need longer, see snapshotOptions in visual_regression.cy.js.
     responseTimeout: 5000,
     // Retry flaky tests when running headless (CI), never interactively.
-    retries: {
-      runMode: 2,
-      openMode: 0,
-    },
+    // Never retry in update mode: an update cannot succeed on retry,
+    // and retrying the very tall screenshots triples a slow run for
+    // nothing.
+    retries:
+      process.env.CYPRESS_updateSnapshots === 'true'
+        ? 0
+        : {
+            runMode: 2,
+            openMode: 0,
+          },
   },
 })

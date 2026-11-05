@@ -11,10 +11,26 @@ const snapshotOptions = {
     failureThreshold: 0.01,
     failureThresholdType: 'percent',
     // cy.screenshot() is capped by the global responseTimeout (5s, to
-    // fail stalled commands fast), but these pages are up to ~61000px
-    // tall and take ~23s to capture in CI. Give the screenshot itself
-    // the headroom it needs, without slowing down every other command.
-    timeout: 60000,
+    // fail stalled commands fast), but these pages are very tall and
+    // take tens of seconds to capture in CI - more on a slow local
+    // machine. Give the screenshot itself the headroom it needs,
+    // without slowing down every other command.
+    timeout: 120000,
+  };
+
+  // The tags page is absurdly tall (~61000px desktop, ~95000px mobile):
+  // a ~36M-pixel bitmap that is slow to capture, slow to diff, and can
+  // OOM a local Chrome. Clip it to the first 20000px - the header,
+  // intro and the bulk of the cloud. A layout regression shows up in
+  // the first screens; the remainder of the list is structurally
+  // identical.
+  const snapshotOptionsTall = {
+    ...snapshotOptions,
+    clip: { x: 0, y: 0, width: 1000, height: 20000 },
+  };
+  const snapshotOptionsTallMobile = {
+    ...snapshotOptions,
+    clip: { x: 0, y: 0, width: 375, height: 20000 },
   };
 
 describe('Visual Regression Tests', () => {
@@ -34,7 +50,7 @@ describe('Visual Regression Tests', () => {
   it('should match the tags page layout', () => {
     cy.visit('/tags.html');
     fontsReady();
-    cy.matchImageSnapshot('tags', snapshotOptions);
+    cy.matchImageSnapshot('tags', snapshotOptionsTall);
   });
 });
 // Mobile view (single breakpoint, <=767px): separate snapshot set,
@@ -60,7 +76,7 @@ describe('Visual Regression Tests (mobile)', () => {
   it('should match the tags page layout', () => {
     cy.visit('/tags.html');
     fontsReady();
-    cy.matchImageSnapshot('tags-mobile', snapshotOptions);
+    cy.matchImageSnapshot('tags-mobile', snapshotOptionsTallMobile);
   });
 
   it('should match a post page layout', () => {
