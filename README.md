@@ -123,6 +123,16 @@ additionally triggers the statichost.eu build webhook; statichost
 builds with Hugo (its build config is set in the statichost.eu
 dashboard) and serves the result at [berk.es](https://berk.es).
 
+## Dark mode
+
+The site follows the system color scheme (`prefers-color-scheme`) via
+pure CSS - no toggle, no JS. The palette lives in `app.css` (`:root`
+variables); `dark.css` reassigns them in one
+`@media (prefers-color-scheme: dark)` block, plus the light-on-dark
+artwork variants (`logo-dark.png`, `swallow_light_hr.png`,
+`pointing_hand_light.png`). Code blocks are always dark (pygments).
+The logo swaps via a `<picture>` element in the base layout.
+
 ## Known dead links
 
 Old posts contain linkrot (mostly 2000s-era external links). These are

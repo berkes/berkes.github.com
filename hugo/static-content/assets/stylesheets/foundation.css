@@ -72,15 +72,15 @@
 	sub {vertical-align: sub;}
 	sup {vertical-align: super;}
 	
-	body { background: #fff; font-family: "Helvetica Neue", "HelveticaNeue", Helvetica, Arial, "Lucida Grande", sans-serif; font-size: 13px; font-size: 1.3rem; line-height: 18px; color: #555; position: relative; -webkit-font-smoothing: antialiased; }
+	body { background: var(--bg); font-family: "Helvetica Neue", "HelveticaNeue", Helvetica, Arial, "Lucida Grande", sans-serif; font-size: 13px; font-size: 1.3rem; line-height: 18px; color: var(--fg); position: relative; -webkit-font-smoothing: antialiased; }
 	
 
 
 /*	--------------------------------------------------
 	:: Links
 	-------------------------------------------------- */
-	a { color: #2a85e8; text-decoration: none; line-height: inherit; }
-	a:hover { color: #11639d; }
+	a { color: var(--link, #2a85e8); text-decoration: none; line-height: inherit; }
+	a:hover { color: var(--link-hover, #11639d); }
 	a:focus { color: #cc4714; outline: none; }
 	p a, p a:visited { line-height: inherit; }
 	
@@ -104,7 +104,7 @@
 	-------------------------------------------------- */
 	table { background: #fff; -moz-border-radius: 3px; -webkit-border-radius: 3px; border-radius: 3px; margin: 0 0 18px; border: 1px solid #ddd;  }
 	
-	table thead, table tfoot { background: #f5f5f5; }
+	table thead, table tfoot { background: var(--table-bg, #f5f5f5); }
 	table thead tr th,
 	table tfoot tr th,
 	table tbody tr td,
@@ -116,8 +116,8 @@
 	table thead tr th:last-child, table tfoot tr td:last-child { border-right: none; }
 
 	table tbody tr.even,
-	table tbody tr.alt { background: #f9f9f9; }
-	table tbody tr:nth-child(even) { background: #f9f9f9; }
+	table tbody tr.alt { background: var(--table-bg, #f9f9f9); }
+	table tbody tr:nth-child(even) { background: var(--table-bg, #f9f9f9); }
 	table tbody tr td { color: #333; padding: 9px 10px; vertical-align: top; border: none; }
 
 /* -------------------------------------------------- 
@@ -142,7 +142,7 @@
 /*	--------------------------------------------------
     :: Typography
 	-------------------------------------------------- */
-	h1, h2, h3, h4, h5, h6 { color: #181818; font-weight: bold; line-height: 1.25 }
+	h1, h2, h3, h4, h5, h6 { color: var(--heading, #181818); font-weight: bold; line-height: 1.25 }
 	h1 a, h2 a, h3 a, h4 a, h5 a, h6 a { font-weight: inherit; }
 	h1 { font-size: 46px; font-size: 4.6rem; margin-bottom: 12px;}
 	h2 { font-size: 35px; font-size: 3.5rem; margin-bottom: 9px; }
@@ -151,7 +151,7 @@
 	h5 { font-size: 18px; font-size: 1.8rem; font-weight: normal; margin-bottom: 3px;  }
 	h6 { font-size: 15px; font-size: 1.5rem; font-weight: normal; }
 
-	.subheader { color: #777; font-weight: 300; margin-bottom: 24px; }
+	.subheader { color: var(--subheader, #777); font-weight: 300; margin-bottom: 24px; }
 
 	p { font-size: 13px; font-size: 1.3rem; line-height: 1.25; margin: 0 0 18px; }
 	p img { margin: 0; }
@@ -161,7 +161,7 @@
 	strong, b { font-weight: bold; line-height: inherit; }
 	small { font-size: 60%; line-height: inherit; }
 	
-	h1 small, h2 small, h3 small, h4 small, h5 small { color: #777; }
+	h1 small, h2 small, h3 small, h4 small, h5 small { color: var(--subheader, #777); }
 	
 	/*	Blockquotes  */
 	blockquote, blockquote p { line-height: 20px; color: #777; }

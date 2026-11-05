@@ -20,6 +20,7 @@
   <link rel="stylesheet" href="/assets/stylesheets/pygments.css">
   <link rel="stylesheet" href="/assets/stylesheets/app.css">
   <link rel="stylesheet" href="/assets/stylesheets/mobile.css">
+  <link rel="stylesheet" href="/assets/stylesheets/dark.css">
 
   <script src="/assets/javascripts/modernizr.foundation.js"></script>
 
@@ -34,7 +35,10 @@
       <input type="checkbox" id="nav-toggle" aria-label="Open menu" />
       <div class="row">
         <a href="/" title="Home">
-          <img src="/assets/images/logo.png" alt="Logo" title="{{ site.Title }}" />
+          <picture>
+            <source srcset="/assets/images/logo-dark.png" media="(prefers-color-scheme: dark)" />
+            <img src="/assets/images/logo.png" alt="Logo" title="{{ site.Title }}" />
+          </picture>
         </a>
         <label for="nav-toggle" class="nav-toggle-label" aria-label="Menu">
           <span></span><span></span><span></span>
