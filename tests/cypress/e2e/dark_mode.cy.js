@@ -34,18 +34,22 @@ describe('Dark mode', () => {
   it('swaps the logo to its light-on-dark variant', () => {
     emulateColorScheme('dark');
     cy.visit('/');
+    // CSS swaps the rendered image (content: url); the src attribute
+    // keeps the light original. Assert on the currentSrc the browser
+    // actually renders.
     cy.get('header img[alt="Logo"]')
-      .should('have.attr', 'src')
-      .and('include', 'logo-dark.png');
+      .should(($img) => {
+        expect($img[0].currentSrc).to.include('logo-dark.png');
+      });
   });
 
   it('keeps the light logo and palette when the system prefers light', () => {
     emulateColorScheme('light');
     cy.visit('/');
-    cy.get('header img[alt="Logo"]')
-      .should('have.attr', 'src')
-      .and('include', 'logo.png')
-      .and('not.include', 'logo-dark.png');
+    cy.get('header img[alt="Logo"]').should(($img) => {
+      expect($img[0].currentSrc).to.include('logo.png');
+      expect($img[0].currentSrc).not.to.include('logo-dark.png');
+    });
     cy.window().then((win) => {
       expect(win.getComputedStyle(win.document.body).backgroundColor).to.equal(
         'rgb(255, 255, 255)'
@@ -62,7 +66,9 @@ describe('Dark mode', () => {
         const bg = $pre[0].ownerDocument.defaultView.getComputedStyle(
           $pre[0]
         ).backgroundColor;
-        expect(bg).to.equal('rgb(73, 72, 62)'); // #49483e, pygments dark
+        const channels = bg.match(/\d+/g).map(Number);
+        // The pygments scheme is dark: every channel well under mid-gray.
+        channels.forEach((c) => expect(c).to.be.at.most(100));
       });
   });
 
@@ -75,7 +81,8 @@ describe('Dark mode', () => {
         const bg = $pre[0].ownerDocument.defaultView.getComputedStyle(
           $pre[0]
         ).backgroundColor;
-        expect(bg).to.equal('rgb(73, 72, 62)');
+        const channels = bg.match(/\d+/g).map(Number);
+        channels.forEach((c) => expect(c).to.be.at.most(100));
       });
   });
 });

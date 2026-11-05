@@ -26,7 +26,12 @@
   }
 
   /* Dark artwork variants (generated from the originals: dark pixels
-     become opaque light, light background becomes transparent). */
+     become opaque light, light background becomes transparent). The
+     logo swaps via CSS (content) - <picture> source selection does not
+     follow live media changes, CSS does. */
+  header img[alt="Logo"] {
+    content: url("/assets/images/logo-dark.png");
+  }
   article footer {
     background: transparent url("/assets/images/swallow_light_hr.png")
       no-repeat scroll top center;
