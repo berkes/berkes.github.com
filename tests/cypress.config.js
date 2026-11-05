@@ -7,6 +7,11 @@ module.exports = defineConfig({
       addMatchImageSnapshotPlugin(on, config)
     },
     baseUrl: 'http://localhost:8000',
+    // Cypress 16 does not surface CYPRESS_* env vars to the specs by
+    // itself; the image-snapshot plugin reads updateSnapshots via
+    // Cypress.expose(), so map it explicitly. Set by
+    // `just update-visual-diffs` (CYPRESS_updateSnapshots=true).
+    expose: { updateSnapshots: process.env.CYPRESS_updateSnapshots === 'true' },
     // The site under test is a static build served from localhost: no
     // async data fetching, no animations. Elements that are going to
     // appear are there within milliseconds, so a failing assertion
@@ -21,9 +26,15 @@ module.exports = defineConfig({
     // need longer, see snapshotOptions in visual_regression.cy.js.
     responseTimeout: 5000,
     // Retry flaky tests when running headless (CI), never interactively.
-    retries: {
-      runMode: 2,
-      openMode: 0,
-    },
+    // Never retry in update mode: an update cannot succeed on retry,
+    // and retrying the very tall screenshots triples a slow run for
+    // nothing.
+    retries:
+      process.env.CYPRESS_updateSnapshots === 'true'
+        ? 0
+        : {
+            runMode: 2,
+            openMode: 0,
+          },
   },
 })

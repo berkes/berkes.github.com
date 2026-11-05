@@ -18,3 +18,12 @@ import './commands'
 import { addMatchImageSnapshotCommand } from '@simonsmith/cypress-image-snapshot/command'
 
 addMatchImageSnapshotCommand()
+// The Discu comment script performs a runtime fetch to an external API,
+// which rejects when CI has no external network. That rejection is
+// unrelated to any render under test; comment templates are covered by
+// explicit assertions instead.
+Cypress.on('uncaught:exception', (err) => {
+  if (err.message && err.message.includes('Failed to fetch')) {
+    return false
+  }
+})

@@ -1,0 +1,151 @@
+/***************************************************************************
+ *                              MOBILE                                     *
+ * One breakpoint: 767px (aligned with Foundation's grid collapse).        *
+ * Below it: hamburger nav, stacked layout, contained overflow, tighter    *
+ * whitespace. Above it: the desktop layout, untouched.                     *
+ ***************************************************************************/
+
+/* The hamburger is mobile-only. */
+.nav-toggle-label,
+#nav-toggle {
+  display: none;
+}
+
+@media only screen and (max-width: 767px) {
+  /* Whitespace adapts: smaller gutters than the desktop 20px. */
+  .container {
+    padding: 0 12px;
+  }
+
+  /* Logo and hamburger share one row: logo left, hamburger right. */
+  header .row {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 12px 0;
+  }
+  header .row > a {
+    flex: 1 1 auto;
+    min-width: 0;
+  }
+  /* The 980px logo must never overflow the viewport; leave room for
+     the hamburger plus its margin. display: block removes the inline
+     baseline gap so align-items: center centers the image itself. */
+  header .row img[alt="Logo"] {
+    display: block;
+    max-width: 100%;
+    height: auto;
+  }
+
+  /* Hamburger button, fixed at the right of the logo row. */
+  #nav-toggle {
+    /* Visually hidden but focusable; the label is the visible button. */
+    position: absolute;
+    opacity: 0;
+    width: 30px;
+    height: 30px;
+    margin: 0;
+  }
+  /* Flex column so the bars center inside the 30px box. The row's
+     align-items: center then puts the bars' center on the logo box's
+     center, which is also the visual glyph's center: the logo's baked-in
+     white padding is symmetric (~12px top/bottom at 980x84) and scales
+     uniformly with the image, so no per-viewport offset is needed. */
+  .nav-toggle-label {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    flex: 0 0 30px;
+    height: 30px;
+    margin: 0 12px 0 12px;
+    cursor: pointer;
+    z-index: 110;
+  }
+  .nav-toggle-label span {
+    display: block;
+    width: 16px;
+    height: 4px;
+    margin-bottom: 5px;
+    background-color: #212121;
+    border-radius: 2px;
+    transition: transform 0.2s ease, opacity 0.2s ease;
+  }
+  .nav-toggle-label span:last-child {
+    margin-bottom: 0;
+  }
+
+  /* Menu closed: the inline nav is hidden on mobile. */
+  nav#main .onion ul {
+    display: none;
+  }
+
+  /* Menu open: full-screen vertical list. */
+  #nav-toggle:checked ~ nav#main .onion ul {
+    display: flex;
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    margin: 0;
+    padding: 20% 1em 0 1em;
+    flex-direction: column;
+    align-items: center;
+    background: #fff;
+    z-index: 100;
+  }
+  #nav-toggle:checked ~ nav#main .onion {
+    background: none;
+  }
+  nav#main ul li {
+    display: block;
+    padding: 0.6em 0;
+  }
+  nav#main a {
+    padding: 0;
+    font-size: 1.6em;
+  }
+  nav#main a.active,
+  nav#main a:hover {
+    background: none;
+    color: #212121;
+  }
+
+  /* Hamburger becomes a close button while open. The label is nested
+     inside the logo row, the checkbox is its sibling before that row. */
+  #nav-toggle:checked ~ .row .nav-toggle-label span:nth-child(1) {
+    transform: translateY(9px) rotate(45deg);
+  }
+  #nav-toggle:checked ~ .row .nav-toggle-label span:nth-child(2) {
+    opacity: 0;
+  }
+  #nav-toggle:checked ~ .row .nav-toggle-label span:nth-child(3) {
+    transform: translateY(-9px) rotate(-45deg);
+  }
+
+  /* Aside/decorative images drop below the content and fit the screen. */
+  article figure.decorative {
+    max-width: 100%;
+  }
+  article figure img,
+  article figure img[src*="/images/"] {
+    max-width: 100%;
+    height: auto;
+  }
+
+  /* Nothing may introduce horizontal scrolling. */
+  article pre {
+    width: auto;
+    max-width: 100%;
+    overflow-x: scroll;
+    -webkit-overflow-scrolling: touch;
+  }
+  img,
+  embed,
+  object,
+  video {
+    max-width: 100%;
+    height: auto;
+  }
+}
