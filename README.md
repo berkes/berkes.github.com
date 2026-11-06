@@ -42,7 +42,7 @@ whenever `main` passes CI.
 3. Optional woodcut: drop `hugo/static-content/images/:year/:month/:day/:slug.png`.
    If the file exists the layout renders it as the decorative figure;
    without it, no image is rendered.
-4. `just build && just serve` → check `http://127.0.0.1:8000/…`.
+4. `just serve` → check `http://127.0.0.1:1313/…` (Hugo's default; `just serve --port 8000` for :8000).
 
 ### Adding a presentation
 
@@ -73,10 +73,10 @@ Run `just` alone to list them. Recipes:
 
 | Command | What it does | When to use it |
 |---|---|---|
-| `just build` | Build the site into `hugo/build/` | After content/layout changes; always before serve/test |
-| `just serve` | Serve `hugo/build/` at :8000 | To click through the built site locally |
-| `just test` | Build + run the full Cypress suite headless against the build | Before every push; CI runs this on PRs and main |
-| `just update-visual-diffs` | Build + regenerate the visual regression baselines | Only after an *intentional* visual change (see below) |
+| `just build` | Build the site into `hugo/build/` | To produce the static output (deploys use statichost.eu, not this) |
+| `just serve` | Preview the site with `hugo server` (flags pass through, e.g. `--port 8000`) | To click through the site locally |
+| `just test` | Run the full Cypress suite headless against `hugo server` on :8000 | Before every push; CI runs this on PRs and main |
+| `just update-visual-diffs` | Regenerate the visual regression baselines (via `just test`) | Only after an *intentional* visual change (see below) |
 | `just install` | Install test dependencies (`tests/node_modules`) | Rarely; `test` runs it automatically |
 
 ### Updating e2e snapshots
