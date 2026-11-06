@@ -1,0 +1,14 @@
+{{/* Gallery grid of works. Pass a page collection via `works`. */}}
+<ul class="gallery">
+    {{ range .works }}
+    <li>
+        {{ $image := .Resources.Get .Params.image }}
+        {{ with $image }}
+        <a href="{{ $.RelPermalink }}">
+            <img src="{{ .RelPermalink }}" alt="Screenshot of {{ $.Title }}" loading="lazy">
+        </a>
+        {{ end }}
+        <p><a href="{{ .RelPermalink }}">{{ .Title }}</a></p>
+    </li>
+    {{ end }}
+</ul>
