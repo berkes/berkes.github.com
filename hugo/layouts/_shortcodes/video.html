@@ -1,0 +1,15 @@
+{{ $src := .Get "src" }}
+{{ $controls := .Get "controls" | default "true" }}
+{{ $loop := .Get "loop" | default "false" }}
+{{ $muted := .Get "muted" | default "false" }}
+{{ $autoplay := .Get "autoplay" | default "false" }}
+{{ $position := .Get "position" | default "none" }}
+{{ $size := .Get "size" | default "medium" }}
+
+{{ $classes := slice "float-container" }}
+{{ $classes = $classes | append (printf "position-%s" $position) }}
+{{ $classes = $classes | append (printf "size-%s" $size) }}
+
+<video src="{{ $src }}" {{ if $autoplay }}autoplay{{ end }} {{ if eq $controls "true" }}controls{{ end }} {{ if eq $loop "true" }}loop{{ end }} {{ if eq $muted "true" }}muted{{ end }} class="{{ delimit $classes " " }}">
+
+</video>

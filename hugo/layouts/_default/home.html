@@ -19,6 +19,14 @@ Ik ben Bèr Kessels, een freelance softwareontwikkelaar. Ik ontwikkel geavanceer
 </section>
 </div>
 <div class="row">
+<section class="twelve columns works" lang="en">
+<h2>Selected works</h2>
+{{ $selected := where (where site.RegularPages "Type" "works") "Params.selected" true }}
+{{ partial "works-gallery.html" (dict "works" $selected) }}
+<a href="{{ "works/" | relURL }}">All works &raquo;</a>
+</section>
+</div>
+<div class="row">
 <section class="six columns posts" lang="en">
 <h2>English Articles</h2>
 <ul class="posts">

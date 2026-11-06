@@ -86,6 +86,8 @@ hugo/
   content/           # posts/, presentations/ and the top-level pages
   layouts/           # templates (port of the old Jekyll layouts)
   static-content/     # images, assets, legacy standalone pages (served at /)
+hugo/content/works/   # Art works (page bundles with images/videos,
+                      # merged from art.berk.es)
 tests/               # Cypress e2e suite
 docs/
   known-dead-links.txt  # known-dead links, intentionally unfixed
