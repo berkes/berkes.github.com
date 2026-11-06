@@ -1,7 +1,7 @@
 {{ define "main" }}
 <article>
   <header>
-    <h1>Art &amp; Works</h1>
+    <h1>{{ .Title }}</h1>
   </header>
   <div class="body row">
     <div class="twelve columns">
@@ -12,7 +12,8 @@
         people, or data. Artificial, but not intelligent. My primary goal is to
         have fun - <em>the process is the goal</em>.
       </p>
-      {{ partial "works-gallery.html" (dict "works" .Pages.ByDate.Reverse) }}
+      {{ $works := where site.RegularPages "Type" "works" }}
+      {{ partial "works-gallery.html" (dict "works" $works.ByDate.Reverse) }}
       <p>
         For collaboration, ideas, artwork enquiries, and commissions, please
         contact me via email at <a href="mailto:ber@berk.es">ber@berk.es</a>.
