@@ -24,7 +24,7 @@ build *args:
 # Preview the site with Hugo's built-in server (Ctrl-C to stop).
 # Append `hugo server` flags as needed, e.g. `just serve --port 8000`.
 serve *args:
-    hugo --source hugo server --bind {{host}} {{args}}
+    hugo --source hugo server --bind {{host}} --port {{port}} {{args}}
 
 # Install the test dependencies (skipped when already installed)
 install:
