@@ -1,0 +1,26 @@
+{{/*
+Float shortcode - wraps content in a floating container.
+
+Usage:
+  {{< f position="left" size="medium" layout="row" >}}
+  ![image](image.png)
+  {{< /f >}}
+
+Parameters:
+  position: "left" (default) or "right" - float direction
+  size: "small" (12.5%), "medium" (25%), "large" (50%) - width of float container
+  layout: "row" (default) or "column" - horizontal or vertical arrangement
+*/}}
+
+{{ $position := .Get "position" | default "left" }}
+{{ $size := .Get "size" | default "medium" }}
+{{ $layout := .Get "layout" | default "row" }}
+
+{{ $classes := slice "float-container" }}
+{{ $classes = $classes | append (printf "position-%s" $position) }}
+{{ $classes = $classes | append (printf "size-%s" $size) }}
+{{ $classes = $classes | append (printf "layout-%s" $layout) }}
+
+<div class="{{ delimit $classes " " }}">
+  {{ .Inner | markdownify }}
+</div>

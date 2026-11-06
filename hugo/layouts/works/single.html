@@ -1,0 +1,22 @@
+{{ define "main" }}
+<article class="work-page {{ .File.ContentBaseName }}">
+  <div class="body row">
+    <div class="four columns metadata">
+      {{ $image := .Params.image | default "" }}
+      {{ if $image }}{{ $img := .Resources.Get $image }}{{ if $img }}
+      <img src="{{ $img.RelPermalink }}" alt="{{ .Title }}" class="marked-image" loading="lazy">
+      {{ end }}{{ end }}
+      <h1>{{ .Title }}</h1>
+      {{ with .GetTerms "tags" }}
+      <ul class="tags">
+        {{ range . }}
+        <li class="tag"><a href="{{ .RelPermalink }}">{{ .LinkTitle }}</a></li>
+        {{ end }}
+      </ul>
+      {{ end }}
+      <div class="work-date">{{ .Date.Format "January - 2006" }}</div>
+    </div>
+    <div class="eight columns content">{{ .Content }}</div>
+  </div>
+</article>
+{{ end }}
