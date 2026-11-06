@@ -49,15 +49,22 @@
   /* header_pretty.png is a 1x3 gray tile; a color does the same job. */
   nav#main {
     background: none;
-    background-color: #232323;
   }
   nav#main .onion {
-    background: none;
+    background: var(--bg);
   }
 
   /* Code highlight stays dark in both modes (pygments.css); keep the
      inline-code and pre chrome consistent with that. */
   article pre {
     border: 1px solid var(--pre-border);
+  }
+
+  /* Mobile view */
+  .nav-toggle-label span {
+    background-color: var(--label-fg);
+  }
+  #nav-toggle:checked ~ nav#main .onion ul {
+    background: var(--bg);
   }
 }
