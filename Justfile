@@ -6,7 +6,6 @@
 
 port        := "8000"
 host        := "127.0.0.1"
-build_dir   := "hugo/build"
 tests_dir   := "tests"
 
 # List the available recipes
@@ -22,9 +21,10 @@ build *args:
     command -v hugo >/dev/null || { echo "hugo not found; install Hugo extended (e.g. pip install hugo)"; exit 1; }
     hugo --source hugo {{args}}
 
-# Serve the built site at the given port (default 8000, Ctrl-C to stop)
-serve port=port:
-    python3 -m http.server {{port}} --bind {{host}} --directory {{build_dir}}
+# Preview the site with Hugo's built-in server (Ctrl-C to stop).
+# Append `hugo server` flags as needed, e.g. `just serve --port 8000`.
+serve *args:
+    hugo --source hugo server --bind {{host}} --port {{port}} {{args}}
 
 # Install the test dependencies (skipped when already installed)
 install:
@@ -33,23 +33,19 @@ install:
     cd {{tests_dir}}
     [ -d node_modules/cypress ] || npm ci
 
-# Build the site, then run all Cypress tests headless against it
-test *args: build install
+# Serve the site with hugo server (which also builds it), then run all
+# Cypress tests headless against it
+test *args: install
     #!/usr/bin/env bash
     set -euo pipefail
-    python3 -m http.server {{port}} --bind {{host}} --directory {{build_dir}} &
+    just serve &
     server_pid=$!
     trap 'kill "$server_pid" 2>/dev/null || true' EXIT
+    i=0
+    until curl -sf -o /dev/null "http://{{host}}:{{port}}/"; do
+        i=$((i + 1))
+        if [ "$i" -ge 30 ]; then echo "hugo server did not come up on {{host}}:{{port}}"; exit 1; fi
+        sleep 1
+    done
     cd {{tests_dir}}
     npx cypress run {{args}}
-
-# Build the site, then regenerate the visual regression baselines
-# (tests/cypress/snapshots/ - commit the new .snap.png files)
-update-visual-diffs: build install
-    #!/usr/bin/env bash
-    set -euo pipefail
-    python3 -m http.server {{port}} --bind {{host}} --directory {{build_dir}} &
-    server_pid=$!
-    trap 'kill "$server_pid" 2>/dev/null || true' EXIT
-    cd {{tests_dir}}
-    CYPRESS_updateSnapshots=true npx cypress run --spec 'cypress/e2e/visual_regression.cy.js'

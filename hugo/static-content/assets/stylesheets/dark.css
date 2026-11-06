@@ -1,0 +1,70 @@
+/***************************************************************************
+ *                              DARK MODE                                  *
+ * Follows the system preference (prefers-color-scheme). No toggle, no    *
+ * localStorage, no JS. Almost everything flows from the palette variables *
+ * declared in app.css (:root) and consumed via var() in app/foundation;  *
+ * this block only reassigns them, plus the few dark artwork variants.    *
+ * Code highlight (pygments.css) is intentionally always dark, in both    *
+ * modes.                                                                  *
+ ***************************************************************************/
+
+@media (prefers-color-scheme: dark) {
+  :root {
+    --bg: #181818;
+    --fg: #c9c7c7;
+    --strong: #e8e6e6;
+    --muted: #767373;
+    --inline-code-bg: #2b2b2b;
+    --label-bg: #181818;
+    --label-fg: #e8e6e6;
+    --label-border: #e8e6e6;
+    --pre-border: #49483e;
+    --link: #7ab7f5;
+    --link-hover: #a9cdf8;
+    --heading: #f0efef;
+    --subheader: #a5a3a3;
+    --table-bg: #232323;
+  }
+
+  /* Dark artwork variants (generated from the originals: dark pixels
+     become opaque light, light background becomes transparent). The
+     logo swaps via CSS (content) - <picture> source selection does not
+     follow live media changes, CSS does. */
+  header img[alt="Logo"] {
+    content: url("/assets/images/logo-dark.png");
+  }
+  article footer {
+    background: transparent url("/assets/images/swallow_light_hr.png")
+      no-repeat scroll top center;
+  }
+  footer.main {
+    background: transparent url("/assets/images/swallow_light_hr.png")
+      no-repeat scroll top center;
+  }
+  nav#main a.active,
+  nav#main a:hover {
+    background: transparent url("/assets/images/pointing_hand_light.png")
+      no-repeat scroll 0px 8px;
+  }
+  /* header_pretty.png is a 1x3 gray tile; a color does the same job. */
+  nav#main {
+    background: none;
+  }
+  nav#main .onion {
+    background: var(--bg);
+  }
+
+  /* Code highlight stays dark in both modes (pygments.css); keep the
+     inline-code and pre chrome consistent with that. */
+  article pre {
+    border: 1px solid var(--pre-border);
+  }
+
+  /* Mobile view */
+  .nav-toggle-label span {
+    background-color: var(--label-fg);
+  }
+  #nav-toggle:checked ~ nav#main .onion ul {
+    background: var(--bg);
+  }
+}

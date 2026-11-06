@@ -42,7 +42,7 @@ whenever `main` passes CI.
 3. Optional woodcut: drop `hugo/static-content/images/:year/:month/:day/:slug.png`.
    If the file exists the layout renders it as the decorative figure;
    without it, no image is rendered.
-4. `just build && just serve` → check `http://127.0.0.1:8000/…`.
+4. `just serve` → check `http://127.0.0.1:1313/…` (Hugo's default; `just serve --port 8000` for :8000).
 
 ### Adding a presentation
 
@@ -73,33 +73,10 @@ Run `just` alone to list them. Recipes:
 
 | Command | What it does | When to use it |
 |---|---|---|
-| `just build` | Build the site into `hugo/build/` | After content/layout changes; always before serve/test |
-| `just serve` | Serve `hugo/build/` at :8000 | To click through the built site locally |
-| `just test` | Build + run the full Cypress suite headless against the build | Before every push; CI runs this on PRs and main |
-| `just update-visual-diffs` | Build + regenerate the visual regression baselines | Only after an *intentional* visual change (see below) |
+| `just build` | Build the site into `hugo/build/` | To produce the static output (deploys use statichost.eu, not this) |
+| `just serve` | Preview the site with `hugo server` (flags pass through, e.g. `--port 8000`) | To click through the site locally |
+| `just test` | Run the full Cypress suite headless against `hugo server` on :8000 | Before every push; CI runs this on PRs and main |
 | `just install` | Install test dependencies (`tests/node_modules`) | Rarely; `test` runs it automatically |
-
-### Updating e2e snapshots
-
-The visual regression tests (`tests/cypress/e2e/visual_regression.cy.js`)
-screenshot the homepage, archive and tags pages and compare against the
-committed baselines in `tests/cypress/snapshots/`.
-
-When you *intentionally* changed the rendering of one of those pages:
-
-1. Run `just update-visual-diffs`.
-2. **Review the regenerated `.snap.png` files** — open them next to the
-   served site (`just serve`) and eyeball the change. Never blind-commit:
-   a regenerated baseline that "fixes" a test could be rubber-stamping
-   a regression.
-3. Commit the new `.snap.png` files *together with* the change that
-   caused them, so the diff tells one story.
-
-Triage tips from `__diff_output__/` (produced on failure):
-- Layout-shaped red blocks (missing/extra sections) → regression, fix
-  the site.
-- Antialiasing speckle or reordering of equal content → safe to update
-  baselines.
 
 ## Repository layout
 
@@ -109,7 +86,7 @@ hugo/
   content/           # posts/, presentations/ and the top-level pages
   layouts/           # templates (port of the old Jekyll layouts)
   static-content/     # images, assets, legacy standalone pages (served at /)
-tests/               # Cypress e2e suite + visual baselines
+tests/               # Cypress e2e suite
 docs/
   known-dead-links.txt  # known-dead links, intentionally unfixed
   archive/              # historical migration documents
@@ -123,9 +100,18 @@ additionally triggers the statichost.eu build webhook; statichost
 builds with Hugo (its build config is set in the statichost.eu
 dashboard) and serves the result at [berk.es](https://berk.es).
 
+## Dark mode
+
+The site follows the system color scheme (`prefers-color-scheme`) via
+pure CSS - no toggle, no JS. The palette lives in `app.css` (`:root`
+variables); `dark.css` reassigns them in one
+`@media (prefers-color-scheme: dark)` block, plus the light-on-dark
+artwork variants (`logo-dark.png`, `swallow_light_hr.png`,
+`pointing_hand_light.png`). Code blocks are always dark (pygments).
+The logo swaps via a `<picture>` element in the base layout.
+
 ## Known dead links
 
 Old posts contain linkrot (mostly 2000s-era external links). These are
 documented, not fixed: see `docs/known-dead-links.txt`. If a dead-link
 report matches an entry there, it is not a new problem.
-
