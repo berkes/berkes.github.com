@@ -38,7 +38,7 @@ install:
 test *args: install
     #!/usr/bin/env bash
     set -euo pipefail
-    hugo --source hugo server --port {{port}} --bind {{host}} &
+    just serve &
     server_pid=$!
     trap 'kill "$server_pid" 2>/dev/null || true' EXIT
     i=0
@@ -49,9 +49,3 @@ test *args: install
     done
     cd {{tests_dir}}
     npx cypress run {{args}}
-
-# Regenerate the visual regression baselines (tests/cypress/snapshots/ -
-# commit the new .snap.png files) by running the visual spec through `test`
-# with CYPRESS_updateSnapshots=true.
-update-visual-diffs:
-    CYPRESS_updateSnapshots=true just test --spec 'cypress/e2e/visual_regression.cy.js'

@@ -76,30 +76,7 @@ Run `just` alone to list them. Recipes:
 | `just build` | Build the site into `hugo/build/` | To produce the static output (deploys use statichost.eu, not this) |
 | `just serve` | Preview the site with `hugo server` (flags pass through, e.g. `--port 8000`) | To click through the site locally |
 | `just test` | Run the full Cypress suite headless against `hugo server` on :8000 | Before every push; CI runs this on PRs and main |
-| `just update-visual-diffs` | Regenerate the visual regression baselines (via `just test`) | Only after an *intentional* visual change (see below) |
 | `just install` | Install test dependencies (`tests/node_modules`) | Rarely; `test` runs it automatically |
-
-### Updating e2e snapshots
-
-The visual regression tests (`tests/cypress/e2e/visual_regression.cy.js`)
-screenshot the homepage, archive and tags pages and compare against the
-committed baselines in `tests/cypress/snapshots/`.
-
-When you *intentionally* changed the rendering of one of those pages:
-
-1. Run `just update-visual-diffs`.
-2. **Review the regenerated `.snap.png` files** — open them next to the
-   served site (`just serve`) and eyeball the change. Never blind-commit:
-   a regenerated baseline that "fixes" a test could be rubber-stamping
-   a regression.
-3. Commit the new `.snap.png` files *together with* the change that
-   caused them, so the diff tells one story.
-
-Triage tips from `__diff_output__/` (produced on failure):
-- Layout-shaped red blocks (missing/extra sections) → regression, fix
-  the site.
-- Antialiasing speckle or reordering of equal content → safe to update
-  baselines.
 
 ## Repository layout
 
@@ -138,4 +115,3 @@ The logo swaps via a `<picture>` element in the base layout.
 Old posts contain linkrot (mostly 2000s-era external links). These are
 documented, not fixed: see `docs/known-dead-links.txt`. If a dead-link
 report matches an entry there, it is not a new problem.
-
