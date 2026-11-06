@@ -100,13 +100,6 @@ additionally triggers the statichost.eu build webhook; statichost
 builds with Hugo (its build config is set in the statichost.eu
 dashboard) and serves the result at [berk.es](https://berk.es).
 
-## Fonts
-
-Arvo and OFL Sorts Mill Goudy TT are vendored locally
-(`hugo/static-content/assets/fonts/`, `stylesheets/fonts-*.css`) - no
-Google Fonts CDN. Both are SIL Open Font License; to update, download
-new woff2 files and adjust the `@font-face` blocks.
-
 ## Dark mode
 
 The site follows the system color scheme (`prefers-color-scheme`) via
