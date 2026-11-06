@@ -12,9 +12,7 @@ export default defineConfig({
     // stalls reports on a wedged server.
     pageLoadTimeout: 10000,
     // responseTimeout is the general cap; 5s fails stalled commands
-    // quickly. The visual specs override this per-command: their very
-    // tall screenshots (tags is ~61000px, ~23s to capture) legitimately
-    // need longer, see snapshotOptions in visual_regression.cy.js.
+    // quickly.
     responseTimeout: 5000,
   },
 })
