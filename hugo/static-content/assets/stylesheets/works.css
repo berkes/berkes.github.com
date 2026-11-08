@@ -20,6 +20,7 @@ ul.gallery li {
   flex: 0 0 calc(33.333% - 1.4rem);
   display: flex;
   flex-direction: column;
+  margin-left: 0; /* Override the default in-content li margin */
 }
 ul.gallery li img {
   display: block;
@@ -63,73 +64,4 @@ article.work-page .content img,
 article.work-page .content video {
   max-width: 100%;
   height: auto;
-}
-
-/* Float shortcode (works pages): floated figure containers. */
-.float-container {
-  display: flex;
-  flex-wrap: wrap;
-  gap: 0.5em;
-  margin: 0 1em 1em 0;
-  flex-direction: row;
-  align-items: flex-start;
-}
-.float-container.position-left {
-  float: left;
-}
-.float-container.position-right {
-  float: right;
-  margin: 0 0 1em 1em;
-}
-.float-container.size-small {
-  max-width: 12.5%;
-}
-.float-container.size-medium {
-  max-width: 25%;
-}
-.float-container.size-large {
-  max-width: 50%;
-}
-.float-container > img {
-  flex: 1;
-  min-width: 0;
-  max-width: none;
-  height: auto;
-}
-.float-container.layout-column {
-  flex-direction: column;
-}
-.float-container.layout-column > img {
-  display: block;
-  max-width: 100%;
-  height: auto;
-}
-.clearfix {
-  clear: both;
-}
-
-/* One breakpoint, aligned with the rest of the site (mobile.css). */
-@media only screen and (max-width: 767px) {
-  ul.gallery {
-    flex-direction: column;
-    gap: 1rem;
-  }
-  ul.gallery li {
-    flex: 0 0 100%;
-  }
-  .float-container.size-small,
-  .float-container.size-medium,
-  .float-container.size-large,
-  .float-container.position-left,
-  .float-container.position-right {
-    float: none;
-    display: block;
-    width: 100%;
-    max-width: 100%;
-    margin: 0 0 1em 0;
-  }
-  .float-container.layout-row {
-    display: flex;
-    flex-direction: row;
-  }
 }
