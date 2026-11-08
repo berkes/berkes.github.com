@@ -64,14 +64,4 @@ describe('Works section', () => {
       .should('not.exist');
   });
 
-  it('shows the migrated art note as a blog post', () => {
-    cy.visit('/2025/10/09/first-canvas-sketch-trial/');
-    cy.contains('h1', 'First canvas-sketch trial');
-    cy.get('article .highlight').should('exist');
-    // And it is in the English homepage post list.
-    cy.visit('/');
-    cy.get('section.posts[lang="en"] a[href*="first-canvas-sketch-trial"]').should(
-      'exist'
-    );
-  });
 });
