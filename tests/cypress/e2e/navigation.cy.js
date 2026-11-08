@@ -20,7 +20,7 @@ describe('Navigation Tests', () => {
     cy.url().should('include', '/pres.html');
     cy.go('back');
     cy.contains('Tags').click();
-    cy.url().should('include', '/tags.html');
+    cy.url().should('include', '/tags/');
     cy.go('back');
   });
 

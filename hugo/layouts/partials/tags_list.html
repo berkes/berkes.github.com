@@ -2,11 +2,12 @@
 {{ if eq .Params.lang "nl" }}
     {{ $conjunction = " en " }}
 {{ end }}
-{{ with .Params.tags }}
+
+{{ with .GetTerms "tags" }}
     {{ $links := slice }}
     {{ range . }}
-        {{ $links = $links | append (printf `<a href="/tags.html#%s-ref">%s</a>` (. | urlize) .) }}
+        {{ $links = $links | append (printf `<a href="%s">%s</a>` .RelPermalink .LinkTitle) }}
     {{ end }}
 
-    In {{ delimit $links ", "  $conjunction | safeHTML }}.
+    {{ delimit $links ", "  $conjunction | safeHTML }}
 {{ end }}
