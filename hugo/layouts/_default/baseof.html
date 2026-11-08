@@ -103,5 +103,8 @@
       </div>
     </footer>
   </div>
+  {{ if .Params.deferred_js }}
+    <script src="./{{ .Params.deferred_js }}"></script>
+  {{ end }}
 </body>
 </html>
