@@ -1,0 +1,19 @@
+{{/*
+Grid shortcode - places content in a grid
+
+Usage:
+  {{< grid columns=2>
+  ![image](image.png)
+  ![image2](image2.png)
+  {{< /grid >}}
+
+Parameters:
+  columns: amount of columns in the grid. Rows are automatically created.
+*/}}
+
+{{ $columns := .Get "columns" | default 1 }}
+{{ $classes := slice "shortcode-grid" }}
+
+<div class="{{ delimit $classes " " }}" style="grid-template-columns: repeat({{ $columns }}, 1fr);">
+  {{ .Inner | markdownify }}
+</div>
