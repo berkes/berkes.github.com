@@ -5,13 +5,16 @@ layout: page
 url: /about.html
 ---
 
-I am Bèr Kessels, a freelance **software developer**. I develop **cutting edge
-software and web-applications**, with **Open Source** and modern technology.
+I am Bèr Kessels, formerly a freelance **software developer**, now an artist.
+
+I used to develop **cutting edge software and web-applications**, with **Open Source** and modern technology.
+Most of the content on this website still covers these topics.
 
 My handle on most networks is **berkes**.
 
-I currently write software to automate administration and streamline bookkeeping for small businesses.
-Modern, opinionated and optimized.
+I make art, using technology. Software that generates algorythmic art. Math to
+make interactive visualisations. Hardware and computers that power
+installations. Everything where art and techology intersect.
 
 My broad interest and decades of experience in software development, allows me
 to take many factors, users, current and upcoming tech, and all stakeholders into

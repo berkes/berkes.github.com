@@ -4,9 +4,15 @@ lang: nl
 layout: page
 url: /over.html
 ---
-Ik ben Bèr Kessels, een freelance **softwareontwikkelaar**. Ik ontwikkel **geavanceerde software en web-applicaties** met behulp van **Open Source** en moderne techniek.
+Ik ben Bèr Kessels, voorheen freelance **softwareontwikkelaar**, nu een kunstenaar.
+
+Ik ontwikkelde **geavanceerde software en web-applicaties** met behulp van **Open Source** en moderne techniek.Veel van de inhoud op deze website gaat nog altijd over deze onderwerpen.
 
 Mijn gebruikersnaam op de meeste netwerken is **berkes**.
+
+Ik maak kunst, gebruikmaked van technologie. Software die _generative art_, algorimische kunst, maakt. Wiskunde 
+om interactive visualisaties te maken. Hardware en computers die installaties aansturen. Alles, waar kunst en
+technologie elkaar snijden.
 
 Momenteel schrijf ik software om de administratie te automatiseren en de boekhouding voor kleine bedrijven te stroomlijnen. Modern, eigenzinnig en geoptimaliseerd.
 
