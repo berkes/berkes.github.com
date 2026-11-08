@@ -15,10 +15,8 @@
     <time datetime="{{ .Date.Format "2006-01-02T15:04:05Z07:00" }}"
     pubdate="pubdate">
       Posted on {{ .Date.Format "January 02, 2006" }}
-    </time>
-    {{ with .Params.tags }}
-      {{ partial "tags_list.html" . }}
-    {{ end }}
+    </time>.
+    {{ partial "tags_list.html" . }}
     {{ partial "source.html" . }}
   </footer>
 </article>

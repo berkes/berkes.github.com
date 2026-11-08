@@ -1,3 +1,12 @@
-{{ range . }}
-  <a href="/tags.html#{{ . | urlize }}-ref">{{ . }}</a>
+{{ $conjunction := " and " }}
+{{ if eq .Params.lang "nl" }}
+    {{ $conjunction = " en " }}
+{{ end }}
+{{ with .Params.tags }}
+    {{ $links := slice }}
+    {{ range . }}
+        {{ $links = $links | append (printf `<a href="/tags.html#%s-ref">%s</a>` (. | urlize) .) }}
+    {{ end }}
+
+    In {{ delimit $links ", "  $conjunction | safeHTML }}.
 {{ end }}
