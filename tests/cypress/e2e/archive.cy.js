@@ -31,7 +31,7 @@ describe('Archive Page Tests', () => {
     cy.url().should('include', '/about.html');
     cy.go('back');
     cy.contains('Tags').click();
-    cy.url().should('include', '/tags.html');
+    cy.url().should('include', '/tags/');
     cy.go('back');
     cy.contains('Presentations').click();
     cy.url().should('include', '/pres.html');

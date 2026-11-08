@@ -25,9 +25,7 @@
     </time>
     in
     {{ with .Params.location }}{{ . }}{{ end }}
-    {{ with .Params.tags }}
-      {{ partial "tags_list.html" . }}
-    {{ end }}
+    {{ partial "tags_list.html" . }}
   </footer>
 </article>
 

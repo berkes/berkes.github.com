@@ -4,7 +4,7 @@ tagline: "Bèr Kessels is an Open Source Webdeveloper."
 defaultContentLanguage: "en"
 timezone: "Europe/Amsterdam"
 publishDir: "build"
-disableKinds: ["taxonomy", "term", "RSS", "section", "sitemap"]
+disableKinds: ["rss", "section", "sitemap"]
 buildFuture: true
 
 params:
