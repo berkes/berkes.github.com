@@ -53,7 +53,7 @@ describe('Mobile view', () => {
   });
 
   // Nothing may introduce horizontal scrolling on the key pages.
-  const pages = ['/', '/about.html', '/archive.html', '/tags.html', '/pres.html'];
+  const pages = ['/', '/about.html', '/archive.html', '/tags/', '/pres.html'];
   pages.forEach((path) => {
     it(`has no horizontal scrolling on ${path}`, () => {
       mobileViewport();

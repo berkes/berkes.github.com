@@ -1,6 +1,6 @@
 describe('Tags Page Tests', () => {
   beforeEach(() => {
-    cy.visit('/tags.html');
+    cy.visit('/tags/');
   });
 
   it('should display the correct title', () => {
