@@ -1,0 +1,52 @@
+
+/* Float shortcode: floated figure containers. */
+.float-container {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.5em;
+  margin: 0 1em 1em 0;
+  flex-direction: row;
+  align-items: flex-start;
+}
+.float-container.position-left {
+  float: left;
+}
+.float-container.position-right {
+  float: right;
+  margin: 0 0 1em 1em;
+}
+.float-container.size-small {
+  max-width: 12.5%;
+}
+.float-container.size-medium {
+  max-width: 25%;
+}
+.float-container.size-large {
+  max-width: 50%;
+}
+.float-container > img {
+  flex: 1;
+  min-width: 0;
+  max-width: none;
+  height: auto;
+}
+.float-container.layout-column {
+  flex-direction: column;
+}
+.float-container.layout-column > img {
+  display: block;
+  max-width: 100%;
+  height: auto;
+}
+
+/** Clear shortcode **/
+.clearfix {
+  clear: both;
+}
+
+/** Grid shortcode **/
+.shortcode-grid {
+    display: grid;
+    column-gap: 1em;
+    row-gap: 1em;
+}
