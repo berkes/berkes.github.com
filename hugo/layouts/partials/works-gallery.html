@@ -3,11 +3,11 @@
     {{ range .works }}
     <li>
         {{ $image := .Resources.Get .Params.image }}
-        {{ with $image }}
-        <a href="{{ $.RelPermalink }}">
+        <a href="{{ .RelPermalink }}">
+            {{ with $image }}
             <img src="{{ .RelPermalink }}" alt="Screenshot of {{ $.Title }}" loading="lazy">
+            {{ end }}
         </a>
-        {{ end }}
         <p><a href="{{ .RelPermalink }}">{{ .Title }}</a></p>
     </li>
     {{ end }}

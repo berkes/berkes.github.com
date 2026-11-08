@@ -30,7 +30,11 @@
   <link rel="stylesheet" href="/assets/stylesheets/fonts-arvo.css">
   <link rel="stylesheet" href="/assets/stylesheets/fonts-ofl.css" media="screen, projection, print">
 </head>
-<body>
+<body class="
+    {{- if .IsHome}}home{{ end -}}
+    {{- if eq .Kind `page` }}{{ .Section | singularize }}{{ else }}{{ .Section }}{{ end -}}
+    {{- if and (eq .Type `page`) (ne .IsHome true) }}page{{ end -}}
+">
 	<!-- container -->
 	<div class="container">
     <header>

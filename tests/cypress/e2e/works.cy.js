@@ -5,10 +5,10 @@
 describe('Works section', () => {
   it('shows the selected-works gallery on the homepage', () => {
     cy.visit('/');
-    cy.contains('h2', 'Selected works');
+    cy.contains('h2', 'Selected work');
+    cy.contains('All work »').should('have.attr', 'href', '/works/');
     cy.get('ul.gallery a[href="/works/noodle-love/"]').should('exist');
     cy.get('ul.gallery a[href="/works/metromap/"]').should('exist');
-    cy.contains('All works »').should('have.attr', 'href', '/works/');
   });
 
   it('lists all works on the overview, with the creative-coder intro', () => {
