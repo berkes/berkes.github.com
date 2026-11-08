@@ -9,6 +9,7 @@ software and web-applications, with Open Source and modern technology.
 <a href="about.html">More »</a>
 </p>
 </section>
+
 <section class="six columns about" lang="nl">
 <h2>Over Bèr Kessels</h2>
 <p>
@@ -16,6 +17,17 @@ Ik ben Bèr Kessels, een freelance softwareontwikkelaar. Ik ontwikkel geavanceer
 <br/>
 <a href="over.html">Meer »</a>
 </p>
+</section>
+</div>
+
+<div class="row">
+<section class="twelve columns works" lang="en">
+<h2>
+    Selected work
+    <a class="link" href="{{ "works/" | relURL }}"><small>All work »</small></a>
+</h2>
+{{ $selected := where (where site.RegularPages "Type" "works") "Params.selected" true }}
+{{ partial "works-gallery.html" (dict "works" $selected) }}
 </section>
 </div>
 <div class="row">

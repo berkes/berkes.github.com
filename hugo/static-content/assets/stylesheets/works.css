@@ -1,0 +1,67 @@
+/***************************************************************************
+ *                        ART & WORKS SECTION                              *
+ * Ported from art-site (art.berk.es) into this site's system: the work   *
+ * pages use the site's grid columns and typography; only the gallery     *
+ * grid and the float shortcode need their own rules. Colors flow from    *
+ * the site palette variables, so dark mode works without exceptions.     *
+ ***************************************************************************/
+
+/* Gallery grid (homepage "Selected works" and the works overview). */
+ul.gallery {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 2rem;
+  align-items: stretch;
+}
+ul.gallery li {
+  flex: 0 0 calc(33.333% - 1.4rem);
+  display: flex;
+  flex-direction: column;
+  margin-left: 0; /* Override the default in-content li margin */
+}
+ul.gallery li img {
+  display: block;
+  max-width: 100%;
+  margin-bottom: 0.5rem;
+}
+ul.gallery li p {
+  margin: 0.5rem 0 0 0;
+  margin-top: auto;
+}
+ul.gallery li p a {
+  color: var(--fg);
+}
+
+/* Work page metadata column. */
+article.work-page .metadata img.marked-image {
+  display: block;
+  max-width: 100%;
+  height: auto;
+  margin-bottom: 1em;
+}
+article.work-page .metadata ul.tags {
+  list-style: none;
+  margin: 0.5em 0;
+  padding: 0;
+  color: var(--muted);
+}
+article.work-page .metadata ul.tags li.tag {
+  display: inline;
+}
+article.work-page .metadata ul.tags li.tag:after {
+  content: "  \00b7  ";
+}
+article.work-page .metadata ul.tags li.tag:last-child:after {
+  content: "";
+}
+article.work-page .metadata .work-date {
+  color: var(--muted);
+}
+article.work-page .content img,
+article.work-page .content video {
+  max-width: 100%;
+  height: auto;
+}
