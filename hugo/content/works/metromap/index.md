@@ -6,6 +6,7 @@ lang: en
 selected: true
 params:
   image: metromap_1.png
+  sourcecode: https://github.com/berkes/art/blob/main/processing/MetroMap/MetroMap.pde
 ---
 
 MetroMap is a generative art piece that creates abstract metro-style transit maps through algorithmic processes.
