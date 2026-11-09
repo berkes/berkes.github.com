@@ -3,7 +3,7 @@ title: "MetroMap"
 date: 2025-04-17
 summary: "Generative metro-style maps through algorithmic line generation"
 lang: en
-selected: true
+selected: false
 tags:
   - processing
   - colorful
