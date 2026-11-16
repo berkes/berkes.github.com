@@ -6,7 +6,7 @@ describe('Works section', () => {
   it('shows the selected-works gallery on the homepage', () => {
     cy.visit('/');
     cy.contains('h2', 'Selected work');
-    cy.contains('All work »').should('have.attr', 'href', '/works/');
+    cy.contains('All work »').should('have.attr', 'href', '/works.html');
     cy.get('ul.gallery a[href="/works/noodle-love/"]').should('exist');
   });
 
