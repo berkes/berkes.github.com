@@ -11,7 +11,7 @@ describe('Works section', () => {
   });
 
   it('lists all works on the overview, with the creative-coder intro', () => {
-    cy.visit('/works/');
+    cy.visit('/works.html');
     cy.contains('h1', 'Art & Works');
     cy.contains('Creative Coder');
     cy.contains('ber@berk.es');
@@ -38,15 +38,15 @@ describe('Works section', () => {
 
   it('has the Art menu entry on desktop and in the mobile hamburger', () => {
     cy.visit('/');
-    cy.get('nav#main a[href="/works/"]').should('be.visible');
+    cy.get('nav#main a[href="/works.html"]').should('be.visible');
     cy.viewport(375, 667);
     cy.get('.nav-toggle-label').click();
-    cy.get('nav#main a[href="/works/"]').should('be.visible');
+    cy.get('nav#main a[href="/works.html"]').should('be.visible');
   });
 
   it('has no horizontal scrolling on the works pages', () => {
     cy.viewport(375, 667);
-    ['/works/', '/works/kroos/', '/works/noodle-love/'].forEach((path) => {
+    ['/works.html', '/works/kroos/', '/works/noodle-love/'].forEach((path) => {
       cy.visit(path);
       cy.window().then((win) => {
         expect(win.document.documentElement.scrollWidth).to.be.at.most(
