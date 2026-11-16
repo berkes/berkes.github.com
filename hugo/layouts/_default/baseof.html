@@ -16,18 +16,9 @@
   <link rel="canonical" href="{{ .Permalink }}" />
 
   <!-- Included CSS Files -->
-  <link rel="stylesheet" href="/assets/stylesheets/foundation.css">
-  <link rel="stylesheet" href="/assets/stylesheets/pygments.css">
-  <link rel="stylesheet" href="/assets/stylesheets/app.css">
-  <link rel="stylesheet" href="/assets/stylesheets/mobile.css">
-  <link rel="stylesheet" href="/assets/stylesheets/dark.css">
-  <link rel="stylesheet" href="/assets/stylesheets/shortcodes.css">
-  <link rel="stylesheet" href="/assets/stylesheets/works.css">
+{{ partial "css.html" . }}
 
 
-  <!-- Fonts: vendored locally (see assets/fonts/ and stylesheets/fonts-*.css) -->
-  <link rel="stylesheet" href="/assets/stylesheets/fonts-arvo.css">
-  <link rel="stylesheet" href="/assets/stylesheets/fonts-ofl.css" media="screen, projection, print">
 </head>
 <body class="
     {{- if .IsHome}}home{{ end -}}
