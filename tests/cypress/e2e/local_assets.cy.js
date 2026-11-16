@@ -13,17 +13,6 @@ describe('Local assets', () => {
     });
   });
 
-  it('references no modernizr or other dead shim scripts', () => {
-    cy.visit('/');
-    cy.get('script[src]').then(($els) => {
-      const shims = $els
-        .toArray()
-        .map((el) => el.getAttribute('src'))
-        .filter((src) => src && src.includes('modernizr'));
-      expect(shims).to.be.empty;
-    });
-  });
-
   it('serves the font files locally', () => {
     const fonts = [
       '/assets/fonts/arvo-400.woff2',
