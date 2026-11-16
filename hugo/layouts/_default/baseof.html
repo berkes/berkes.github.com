@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 {{ $lang := "en" }}
 {{ with .Params.lang }}{{ $lang = . }}{{ end }}
-<html class="no-js" lang="{{ $lang }}">
+<html lang="{{ $lang }}">
 <head>
   <meta charset="utf-8" />
 
@@ -24,7 +24,6 @@
   <link rel="stylesheet" href="/assets/stylesheets/shortcodes.css">
   <link rel="stylesheet" href="/assets/stylesheets/works.css">
 
-  <script src="/assets/javascripts/modernizr.foundation.js"></script>
 
   <!-- Fonts: vendored locally (see assets/fonts/ and stylesheets/fonts-*.css) -->
   <link rel="stylesheet" href="/assets/stylesheets/fonts-arvo.css">
