@@ -1,0 +1,28 @@
+/* The main navigation: desktop strip + mobile hamburger (#189). */
+nav#main ul li {
+  display: inline;
+  white-space: nowrap;
+}
+nav#main {
+  background: transparent url("/assets/images/header_pretty.png") repeat-x scroll top right;
+}
+nav#main .onion {
+  background: transparent url("/assets/images/header_pretty.png") repeat-x scroll bottom right;
+}
+nav#main ul {
+  list-style: none;
+  text-align: center;
+  border: 0;
+  padding: 14px 0 10px 0;
+}
+nav#main a {
+  font-size: 1.4em;
+  font-family: "OFL Sorts Mill Goudy TT", serif;
+  color: var(--muted);
+  padding: 0 33px;
+  text-decoration: none;
+}
+nav#main a.active, nav#main a:hover {
+  background: transparent url("/assets/images/pointing_hand.png") no-repeat scroll 0px 8px;
+  color: var(--strong);
+}

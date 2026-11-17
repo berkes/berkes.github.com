@@ -36,32 +36,85 @@ ul.gallery li p a {
 }
 
 /* Work page metadata column. */
-article.work-page .metadata img.marked-image {
+article.work-page .work-metadata img.marked-image {
   display: block;
   max-width: 100%;
   height: auto;
   margin-bottom: 1em;
 }
-article.work-page .metadata ul.tags {
+article.work-page .work-metadata ul.tags {
   list-style: none;
   margin: 0.5em 0;
   padding: 0;
   color: var(--muted);
 }
-article.work-page .metadata ul.tags li.tag {
+article.work-page .work-metadata ul.tags li.tag {
   display: inline;
 }
-article.work-page .metadata ul.tags li.tag:after {
+article.work-page .work-metadata ul.tags li.tag:after {
   content: "  \00b7  ";
 }
-article.work-page .metadata ul.tags li.tag:last-child:after {
+article.work-page .work-metadata ul.tags li.tag:last-child:after {
   content: "";
 }
-article.work-page .metadata .work-date {
+article.work-page .work-metadata .work-date {
   color: var(--muted);
 }
-article.work-page .content img,
-article.work-page .content video {
+article.work-page .work-content img,
+article.work-page .work-content video {
   max-width: 100%;
   height: auto;
+}
+
+
+/* Float shortcode: floated figure containers. */
+.float-container {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.5em;
+  margin: 0 1em 1em 0;
+  flex-direction: row;
+  align-items: flex-start;
+}
+.float-container.position-left {
+  float: left;
+}
+.float-container.position-right {
+  float: right;
+  margin: 0 0 1em 1em;
+}
+.float-container.size-small {
+  max-width: 12.5%;
+}
+.float-container.size-medium {
+  max-width: 25%;
+}
+.float-container.size-large {
+  max-width: 50%;
+}
+.float-container > img {
+  flex: 1;
+  min-width: 0;
+  max-width: none;
+  height: auto;
+}
+.float-container.layout-column {
+  flex-direction: column;
+}
+.float-container.layout-column > img {
+  display: block;
+  max-width: 100%;
+  height: auto;
+}
+
+/** Clear shortcode **/
+.clearfix {
+  clear: both;
+}
+
+/** Grid shortcode **/
+.shortcode-grid {
+    display: grid;
+    column-gap: 1em;
+    row-gap: 1em;
 }

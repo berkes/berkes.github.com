@@ -11,27 +11,67 @@
   display: none;
 }
 
+/* Foundation's mobile typography carried over (#189). */
+@media handheld, only screen and (max-width: 767px) {
+h1 { font-size: 32px; font-size: 3.2rem; line-height: 1.3; }
+h2 { font-size: 28px; font-size: 2.8rem; line-height: 1.3; }
+h3 { font-size: 21px; font-size: 2.1rem; line-height: 1.3; }
+h4 { font-size: 18px; font-size: 1.8rem; line-height: 1.2; }
+h5 { font-size: 16px; font-size: 1.6rem; line-height: 1.2; }
+h6 { font-size: 15px; font-size: 1.5rem; line-height: 1.2; }
+/* font-size deliberately not overridden: base.css's `.site, p`
+   wins in the old cascade too. line-height stands - nothing
+   outside this block sets it for p. */
+body, p { line-height: 1.4; }
+}
+
 @media only screen and (max-width: 767px) {
   /* Whitespace adapts: smaller gutters than the desktop 20px. */
-  .container {
+  .site {
     padding: 0 12px;
   }
 
+  /* The flex columns stack; rows lose their minimum width. */
+  .site-branding,
+  nav#main,
+  main#main-content,
+  footer.site-footer {
+    min-width: 0;
+  }
+  .split,
+  .home-grid,
+  .article-body,
+  .work-body,
+  footer.site-footer {
+    flex-direction: column;
+    gap: 0;
+  }
+  .split > *,
+  .home-grid > *,
+  .article-content,
+  .article-aside,
+  .work-metadata,
+  .work-content,
+  footer.site-footer > div {
+    flex: 0 0 auto;
+    width: 100%;
+  }
+
   /* Logo and hamburger share one row: logo left, hamburger right. */
-  header .row {
+  .site-branding {
     display: flex;
     align-items: center;
     justify-content: space-between;
     margin: 12px 0;
   }
-  header .row > a {
+  .site-branding > a {
     flex: 1 1 auto;
     min-width: 0;
   }
   /* The 980px logo must never overflow the viewport; leave room for
      the hamburger plus its margin. display: block removes the inline
      baseline gap so align-items: center centers the image itself. */
-  header .row img[alt="Logo"] {
+  .site-branding img[alt="Logo"] {
     display: block;
     max-width: 100%;
     height: auto;
@@ -114,13 +154,13 @@
 
   /* Hamburger becomes a close button while open. The label is nested
      inside the logo row, the checkbox is its sibling before that row. */
-  #nav-toggle:checked ~ .row .nav-toggle-label span:nth-child(1) {
+  #nav-toggle:checked ~ .site-branding .nav-toggle-label span:nth-child(1) {
     transform: translateY(9px) rotate(45deg);
   }
-  #nav-toggle:checked ~ .row .nav-toggle-label span:nth-child(2) {
+  #nav-toggle:checked ~ .site-branding .nav-toggle-label span:nth-child(2) {
     opacity: 0;
   }
-  #nav-toggle:checked ~ .row .nav-toggle-label span:nth-child(3) {
+  #nav-toggle:checked ~ .site-branding .nav-toggle-label span:nth-child(3) {
     transform: translateY(-9px) rotate(-45deg);
   }
 

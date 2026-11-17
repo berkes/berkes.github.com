@@ -1,0 +1,85 @@
+/* Page scaffolding and the flexbox grid (#189). Replaces
+   Foundation's float grid with the same geometry: rows are centered
+   at max-width 980px; columns keep the exact widths and gutters
+   the old grid used, so the pages look identical. Layout lives here,
+   not in the markup. */
+
+/* Page wrapper (was .container). Named .site because the body
+   element already carries a "page" class on standalone pages. */
+.site {
+  padding: 0 20px;
+}
+
+/* The centered rows: branding, nav, content, footer. flow-root
+   contains the children's margins (the old grid used zoom:1 for
+   the same effect). */
+main#main-content {
+  display: flow-root;
+}
+.site-branding,
+nav#main,
+main#main-content,
+footer.site-footer {
+  width: 100%;
+  max-width: 980px;
+  min-width: 727px;
+  /* Axis-specific: `margin: 0 auto` here would clobber the
+     footer's own margin-top. */
+  margin-left: auto;
+  margin-right: auto;
+}
+
+/* Home page rhythm: each home block gets breathing room. */
+.home-grid,
+.home .selected-works {
+  margin-top: 2em;
+}
+
+/* Two-up splits (home intro, home article lists, about, pres). */
+.split,
+.home-grid {
+  display: flex;
+  gap: 4.4%;
+}
+.split > *,
+.home-grid > * {
+  flex: 0 0 47.8%;
+  min-width: 0;
+}
+
+/* Article body: content with a narrow aside (posts, archive). */
+.article-body {
+  display: flex;
+  gap: 4.4%;
+}
+.article-content {
+  flex: 0 0 65.2%;
+  min-width: 0;
+}
+.article-aside {
+  flex: 0 0 30.37%;
+  min-width: 0;
+}
+
+/* Work pages: metadata column next to the content. */
+.work-body {
+  display: flex;
+  gap: 4.4%;
+}
+.work-metadata {
+  flex: 0 0 30.37%;
+  min-width: 0;
+}
+.work-content {
+  flex: 0 0 65.2%;
+  min-width: 0;
+}
+
+/* Footer: three columns. */
+footer.site-footer {
+  display: flex;
+  gap: 4.4%;
+}
+footer.site-footer > div {
+  flex: 0 0 30.37%;
+}

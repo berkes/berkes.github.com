@@ -16,29 +16,19 @@
   <link rel="canonical" href="{{ .Permalink }}" />
 
   <!-- Included CSS Files -->
-  <link rel="stylesheet" href="/assets/stylesheets/foundation.css">
-  <link rel="stylesheet" href="/assets/stylesheets/pygments.css">
-  <link rel="stylesheet" href="/assets/stylesheets/app.css">
-  <link rel="stylesheet" href="/assets/stylesheets/mobile.css">
-  <link rel="stylesheet" href="/assets/stylesheets/dark.css">
-  <link rel="stylesheet" href="/assets/stylesheets/shortcodes.css">
-  <link rel="stylesheet" href="/assets/stylesheets/works.css">
+{{ partial "css.html" . }}
 
 
-  <!-- Fonts: vendored locally (see assets/fonts/ and stylesheets/fonts-*.css) -->
-  <link rel="stylesheet" href="/assets/stylesheets/fonts-arvo.css">
-  <link rel="stylesheet" href="/assets/stylesheets/fonts-ofl.css" media="screen, projection, print">
 </head>
 <body class="
     {{- if .IsHome}}home{{ end -}}
     {{- if eq .Kind `page` }}{{ .Section | singularize }}{{ else }}{{ .Section }}{{ end -}}
     {{- if and (eq .Type `page`) (ne .IsHome true) }}page{{ end -}}
 ">
-	<!-- container -->
-	<div class="container">
-    <header>
+	<div class="site">
+    <header class="site-header">
       <input type="checkbox" id="nav-toggle" aria-label="Open menu" />
-      <div class="row">
+      <div class="site-branding">
         <a href="/" title="Home">
           <img src="/assets/images/logo.png" alt="Logo" title="{{ site.Title }}" />
         </a>
@@ -47,7 +37,7 @@
         </label>
       </div>
 
-      <nav id="main" class="row">
+      <nav id="main">
         <div class="onion">
         <ul>
           <li>
@@ -72,12 +62,12 @@
         </div>
       </nav>
     </header>
-    <section id="main-content" class="row">
+    <main id="main-content">
       {{ block "main" . }}{{ end }}
-    </section>
+    </main>
 
-    <footer class="main row">
-      <div class="contact four columns">
+    <footer class="site-footer">
+      <div class="footer-contact">
         <p>
             {{ site.Params.author.name }}<br />
             {{ site.Params.tagline }}<br />
@@ -88,12 +78,12 @@
             <a rel="me" href="https://mastodon.nl/@berkes">@berkes on Mastodon</a>
           </p>
       </div>
-      <div class="four columns">
+      <div class="footer-license">
         Copyright 2001-{{ now.Format "2006" }}
         with a
         <a href="https://creativecommons.org/licenses/by-sa/3.0/" rel="license">Creative Commons Attribute-Share-alike 3.0 Unported license</a>
       </div>
-      <div class="four columns">
+      <div class="footer-links">
         <a class="extra" href="/archive.html">Archive (All English articles)</a> <br />
         <a class="extra" href="/archief.html">Archief (Alle Nederlandse artikelen)</a> <br />
         <a class="extra" href="/tags/">Tags</a> <br />

@@ -1,13 +1,13 @@
 {{ define "main" }}
-<h1 class="row">{{ .Title }}</h1>
-<div id="post" class="row">
-  <div class="six columns">
+<h1>{{ .Title }}</h1>
+<div class="split">
+  <div class="split-half">
     <figure>
       <img src="/images/inline/ber_kessels_presenting.png" alt="Bèr Kessels giving a presentation"/>
       <figcaption>By <a href="https://www.flickr.com/photos/incanus/4929415372/in/photostream/">Justin Miller</a>. CC-BY-NC 2.0</figcaption>
     </figure>
   </div>
-  <div class="six columns">
+  <div class="split-half">
     {{ .Content }}
     <ul class="posts">
     {{ range (where site.RegularPages "Type" "presentations").ByDate.Reverse }}
