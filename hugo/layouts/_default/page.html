@@ -1,6 +1,6 @@
 {{ define "main" }}
-<div id="post" class="row">
-  <div class="six columns">
+<div class="split">
+  <div class="split-half">
     <figure>
       {{ if eq .Params.lang "nl" }}
         <img src="/images/inline/ber_kessels.png" alt="Zwartwit portret van Bèr Kessels"/>
@@ -12,7 +12,7 @@
       {{ end }}
     </figure>
   </div>
-  <div class="six columns">
+  <div class="split-half">
     {{ .Content }}
   </div>
 </div>

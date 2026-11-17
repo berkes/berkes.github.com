@@ -1,6 +1,6 @@
 {{ define "main" }}
-<div class="row">
-<section class="six columns about" lang="en">
+<div class="home-grid">
+<section class="intro" lang="en">
 <h2>About Bèr Kessels</h2>
 <p>
 I am Bèr Kessels. Formerly a freelance software developer, now artist.
@@ -9,7 +9,7 @@ I am Bèr Kessels. Formerly a freelance software developer, now artist.
 </p>
 </section>
 
-<section class="six columns about" lang="nl">
+<section class="intro" lang="nl">
 <h2>Over Bèr Kessels</h2>
 <p>
 Ik ben Bèr Kessels. Voorheen een freelance softwareontwikkelaar, nu kunstenaar.
@@ -19,8 +19,7 @@ Ik ben Bèr Kessels. Voorheen een freelance softwareontwikkelaar, nu kunstenaar.
 </section>
 </div>
 
-<div class="row">
-<section class="twelve columns works" lang="en">
+<section class="selected-works" lang="en">
 <h2>
     Selected work
     <a class="link" href="{{ "works.html" | relURL }}"><small>All work »</small></a>
@@ -28,9 +27,8 @@ Ik ben Bèr Kessels. Voorheen een freelance softwareontwikkelaar, nu kunstenaar.
 {{ $selected := where (where site.RegularPages "Type" "works") "Params.selected" true }}
 {{ partial "works-gallery.html" (dict "works" $selected) }}
 </section>
-</div>
-<div class="row">
-<section class="six columns posts" lang="en">
+<div class="home-grid">
+<section class="article-list" lang="en">
 <h2>English Articles</h2>
 <ul class="posts">
   {{ range first 25 (where (where site.RegularPages "Type" "posts") "Params.lang" "en") }}
@@ -39,7 +37,7 @@ Ik ben Bèr Kessels. Voorheen een freelance softwareontwikkelaar, nu kunstenaar.
 </ul>
 <a href="archive.html">Archive »</a>
 </section>
-<section class="six columns posts" lang="nl">
+<section class="article-list" lang="nl">
 <h2>Nederlandse Artikelen</h2>
 <ul class="posts">
   {{ range first 25 (where (where site.RegularPages "Type" "posts") "Params.lang" "nl") }}

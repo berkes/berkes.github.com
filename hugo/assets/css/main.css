@@ -1,12 +1,12 @@
 /* Entry point: css.Build inlines these in order (see
-   layouts/_partials/css.html). Split per #189; content still the
-   pre-rewrite stylesheets - parity first, rewrite in later steps. */
-@import "foundation.css";
-@import "pygments.css";
-@import "app.css";
+   layouts/_partials/css.html). Flat, one level, named after what
+   they style (#189). */
+@import "reset.css";
+@import "fonts.css";
+@import "base.css";
+@import "layout.css";
+@import "nav.css";
+@import "works.css";
+@import "code.css";
 @import "mobile.css";
 @import "dark.css";
-@import "shortcodes.css";
-@import "works.css";
-@import "fonts-arvo.css";
-@import "fonts-ofl.css";
