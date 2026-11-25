@@ -2,45 +2,10 @@
    Non-grid rules carried over from Foundation plus the site's own
    content styles (#189). */
 
-/* Zurb Foundation v2.2.1, dieted (#176): rules whose selectors
-   reference classes that no built page or shipped script uses are
-   removed. Kept: reset, typography, the grid, tables, forms, and
- * every rule that can still match. Verified visually lossless:
- * before/after screenshots of 9 pages x 2 viewports are
- * pixel-identical (modulo autoplay-video frames and the external
- * comment script, which are nondeterministic). */
-html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym, address, big, cite, code, del, dfn, em, img, ins, kbd, q, s, samp, small, strike, strong, sub, sup, tt, var, b, u, i, center, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td, article, aside, canvas, details, embed, figure, figcaption, footer, header, hgroup, menu, nav, output, ruby, section, summary, time, mark, audio, video {
-		margin: 0;
-		padding: 0;
-		border: 0;
-		font: inherit;
-		vertical-align: baseline;
-	}
-html {
-		font-size: 62.5%;
-	}
-article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, section {
-		display: block;
-	}
-body {
-		line-height: 1;
-	}
-ol, ul {
-		list-style: none;
-	}
-blockquote, q {
-		quotes: none;
-	}
-blockquote:before, blockquote:after, q:before, q:after {
-		content: '';
-		content: none;
-	}
-table {
-		border-collapse: collapse;
-		border-spacing: 0;
-	}
-sub {vertical-align: sub;}
-sup {vertical-align: super;}
+/* Foundation sized root text at 62.5% so that 1rem = 10px; every
+   rem value below depends on it. reset.css owns the reset itself. */
+html { font-size: 62.5%; }
+
 body { background: var(--bg); font-family: "Helvetica Neue", "HelveticaNeue", Helvetica, Arial, "Lucida Grande", sans-serif; font-size: 13px; font-size: 1.3rem; line-height: 18px; color: var(--fg); position: relative; -webkit-font-smoothing: antialiased; }
 a { color: var(--link, #2a85e8); text-decoration: none; line-height: inherit; }
 a:hover { color: var(--link-hover, #11639d); }
@@ -60,11 +25,6 @@ table thead tr th:first-child, table tfoot tr td:first-child { border-left: none
 table thead tr th:last-child, table tfoot tr td:last-child { border-right: none; }
 table tbody tr:nth-child(even) { background: var(--table-bg, #f9f9f9); }
 table tbody tr td { color: #333; padding: 9px 10px; vertical-align: top; border: none; }
-.highlight { background: #ff0; }
-#googlemap img, object, embed { max-width: none; }
-#map_canvas embed { max-width: none; }
-#map_canvas img { max-width: none; }
-#map_canvas object { max-width: none; }
 h1, h2, h3, h4, h5, h6 { color: var(--heading, #181818); font-weight: bold; line-height: 1.25 }
 h1 a, h2 a, h3 a, h4 a, h5 a, h6 a { font-weight: inherit; }
 h1 { font-size: 46px; font-size: 4.6rem; margin-bottom: 12px;}
@@ -104,60 +64,6 @@ h2, h3 { page-break-after: avoid; }
 }
 img, object, embed { max-width: 100%; height: auto; }
 img { -ms-interpolation-mode: bicubic; }
-#map_canvas img {max-width: none!important;}
-.button {
-		background: #00a6fc;
-		display: inline-block;
-		text-align: center;
-		padding: 9px 34px 11px;
-		color: #fff;
-		text-decoration: none;
-		font-weight: bold;
-		font-size: 13px; font-size: 1.3rem;
-		line-height: 1;
-		font-family: "Helvetica Neue", "Helvetica", Arial, Verdana, sans-serif;
-		position: relative;
-		cursor: pointer;
-		border: none;
-		outline: none;
-		margin: 0;
-	}
-input[type=submit].button, button.button { -webkit-appearance: none; }
-button::-moz-focus-inner, input[type="reset"]::-moz-focus-inner, input[type="button"]::-moz-focus-inner, input[type="submit"]::-moz-focus-inner, input[type="file"] > input[type="button"]::-moz-focus-inner {
-		border: none;
-	}
-.button.radius {
-		-moz-border-radius: 3px;
-		-webkit-border-radius: 3px;
-		border-radius: 3px;
-	}
-.large.button { font-size: 18px; padding: 11px 48px 13px; width: auto; }
-.white.button { background-color: #e9e9e9; color: #333; }
-.button:hover, .button:focus { background-color: #0192dd; color: #fff; }
-.white.button:hover, .white.button:focus { background-color: #dadada; color: #333; }
-.button[disabled] { opacity: 0.6; cursor: default; }
-@-moz-document url-prefix("http://") {
-
-input[type=submit].button::-moz-focus-inner, button.button::-moz-focus-inner { border: 0; padding: 0; }
-input[type=submit].large.button { padding: 9px 48px 10px; }
-
-}
-form { margin: 0 0 18px; }
-form label { display: block; font-size: 13px; line-height: 18px; cursor: pointer; margin-bottom: 9px; }
-textarea { border-right: 1px solid #bbb; border-bottom: 1px solid #bbb; }
-textarea, select { display: block; margin-bottom: 9px; }
-label + textarea, label + select { margin-top: -9px; }
-textarea { max-width: 100%; }
-textarea { font-size: 13px; padding: 4px 3px 2px; background: #fff; }
-textarea:focus { outline: none !important; }
-textarea:focus { background: #f9f9f9; }
-textarea[disabled] { background-color: #ddd; }
-textarea { width: 254px; box-sizing: border-box; -webkit-box-sizing: border-box; -moz-box-sizing: border-box; }
-input.large, textarea.large { width: 434px; }
-form fieldset { padding: 9px 9px 2px 9px; border: solid 1px #ddd; margin: 18px 0; }
-small.error { margin-top: -6px; display: block; margin-bottom: 9px; font-size: 11px; color: #C00000; width: 254px; box-sizing: border-box; -webkit-box-sizing: border-box; -moz-box-sizing: border-box; }
-.large + small.error { width: 434px; }
-div.caption { background:transparent; filter:progid:DXImageTransform.Microsoft.gradient(startColorstr=#99000000,endColorstr=#99000000);zoom: 1; }
 
 :root {
   --bg: #fff;
@@ -265,32 +171,6 @@ p > code {
 article figure.decorative {
   max-width: 469px;
 }
-/***************************************************************************
- *                                  Tags                                   *
- ***************************************************************************/
-.label {
-  position:relative;
-}
-.label .size {
-  position:absolute;
-  top:-4px;
-  right:-4px;
-  background-color: var(--label-bg);
-  color: var(--label-fg);
-  padding:2px;
-  font-family:tahoma, arial, 'sans-serif';
-  font-size:9px;
-  font-weight:bold;
-
-  border: 1px solid var(--label-border);
-  -webkit-border-radius: 2px;
-  -moz-border-radius: 2px;
-  border-radius: 2px;
-}
-.label:hover .size {
-  display:none;
-}
-
 /***************************************************************************
  *                                 FOOTER                                  *
  ***************************************************************************/

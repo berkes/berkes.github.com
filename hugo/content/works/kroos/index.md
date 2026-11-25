@@ -44,6 +44,6 @@ The piece supports different distribution patterns: random frogs from all edges,
 
 ## Live playground
 
-<button id="control-play" class="button">Play</button>
+<button id="control-play" class="video-control">Play</button>
 <canvas id="playground-canvas">
 </canvas>
