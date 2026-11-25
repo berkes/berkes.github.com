@@ -17,7 +17,7 @@ html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockq
 		vertical-align: baseline;
 	}
 html {
-		font-size: 62.5%; 
+		font-size: 62.5%;
 	}
 article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, section {
 		display: block;
@@ -233,7 +233,7 @@ article footer {
   margin-top: 30px;
   padding-top: 52px;
   /** 22px for the swallow, 30 for whitespace **/
-  background: transparent url("/assets/images/swallow_black_hr.png") no-repeat scroll top center;
+  background: transparent url("/assets/images/swallow_hr_light.png") no-repeat scroll top center;
 }
 article pre {
   border: 1px solid var(--pre-border);
@@ -298,7 +298,7 @@ footer.site-footer {
   margin-top: 30px;
   padding-top: 52px;
   /** 22px for the swallow, 30 for whitespace **/
-  background: transparent url("/assets/images/swallow_black_hr.png") no-repeat scroll top center;
+  background: transparent url("/assets/images/swallow_hr_light.png") no-repeat scroll top center;
 }
 footer p {
   margin-top: 1em;
