@@ -79,9 +79,9 @@ describe('Mobile view', () => {
   it('drops the aside (woodcut) image below the content on a post', () => {
     mobileViewport();
     cy.visit('/2022/12/23/fediverse-never-forgets/');
-    cy.get('article .body').then(($body) => {
+    cy.get('article .article-content').then(($body) => {
       cy.get('article figure').then(($figure) => {
-        // The figure (aside column) must start below the body column.
+        // The figure (aside column) must start below the content column.
         expect($figure[0].getBoundingClientRect().top).to.be.greaterThan(
           $body[0].getBoundingClientRect().top
         );

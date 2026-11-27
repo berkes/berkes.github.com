@@ -108,7 +108,7 @@ The site follows the system color scheme (`prefers-color-scheme`) via
 pure CSS - no toggle, no JS. The palette lives in `app.css` (`:root`
 variables); `dark.css` reassigns them in one
 `@media (prefers-color-scheme: dark)` block, plus the light-on-dark
-artwork variants (`logo-dark.png`, `swallow_light_hr.png`,
+artwork variants (`logo-dark.png`, `swallow_hr_dark.png`,
 `pointing_hand_light.png`). Code blocks are always dark (pygments).
 The logo swaps via a `<picture>` element in the base layout.
 

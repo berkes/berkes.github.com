@@ -3,13 +3,13 @@
   <header>
     <h1>{{ .Title }}</h1>
   </header>
-  <div class="body row">
-    <div class="eight columns">
+  <div class="article-body">
+    <div class="article-content">
       {{ .Content }}
     </div>
-    <div class="four columns">
+    <aside class="article-aside">
       {{ partial "woodcut.html" . }}
-    </div>
+    </aside>
   </div>
   <footer>
     <p class="note">

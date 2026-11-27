@@ -1,0 +1,164 @@
+/***************************************************************************
+ *                        ART & WORKS SECTION                              *
+ * Ported from art-site (art.berk.es) into this site's system: the work   *
+ * pages use the site's grid columns and typography; only the gallery     *
+ * grid and the float shortcode need their own rules. Colors flow from    *
+ * the site palette variables, so dark mode works without exceptions.     *
+ ***************************************************************************/
+
+/* Gallery grid (homepage "Selected works" and the works overview). */
+ul.gallery {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 2rem;
+  align-items: stretch;
+}
+ul.gallery li {
+  flex: 0 0 calc(33.333% - 1.4rem);
+  display: flex;
+  flex-direction: column;
+  margin-left: 0; /* Override the default in-content li margin */
+}
+ul.gallery li img {
+  display: block;
+  max-width: 100%;
+  margin-bottom: 0.5rem;
+}
+ul.gallery li p {
+  margin: 0.5rem 0 0 0;
+  margin-top: auto;
+}
+ul.gallery li p a {
+  color: var(--fg);
+}
+
+/* Work page metadata column. */
+article.work-page .work-metadata img.marked-image {
+  display: block;
+  max-width: 100%;
+  height: auto;
+  margin-bottom: 1em;
+}
+article.work-page .work-metadata ul.tags {
+  list-style: none;
+  margin: 0.5em 0;
+  padding: 0;
+  color: var(--muted);
+}
+article.work-page .work-metadata ul.tags li.tag {
+  display: inline;
+}
+article.work-page .work-metadata ul.tags li.tag:after {
+  content: "  \00b7  ";
+}
+article.work-page .work-metadata ul.tags li.tag:last-child:after {
+  content: "";
+}
+article.work-page .work-metadata .work-date {
+  color: var(--muted);
+}
+article.work-page .work-content img,
+article.work-page .work-content video {
+  max-width: 100%;
+  height: auto;
+}
+
+
+/* Float shortcode: floated figure containers. */
+.float-container {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.5em;
+  margin: 0 1em 1em 0;
+  flex-direction: row;
+  align-items: flex-start;
+}
+.float-container.position-left {
+  float: left;
+}
+.float-container.position-right {
+  float: right;
+  margin: 0 0 1em 1em;
+}
+.float-container.size-small {
+  max-width: 12.5%;
+}
+.float-container.size-medium {
+  max-width: 25%;
+}
+.float-container.size-large {
+  max-width: 50%;
+}
+.float-container > img {
+  flex: 1;
+  min-width: 0;
+  max-width: none;
+  height: auto;
+}
+.float-container.layout-column {
+  flex-direction: column;
+}
+.float-container.layout-column > img {
+  display: block;
+  max-width: 100%;
+  height: auto;
+}
+
+/** Clear shortcode **/
+.clearfix {
+  clear: both;
+}
+
+/** Grid shortcode **/
+.shortcode-grid {
+    display: grid;
+    column-gap: 1em;
+    row-gap: 1em;
+}
+
+/* Prominent link from a work page to the live piece (was a zurb
+   "button" - now styled individually, #189). */
+.work-link {
+  display: inline-block;
+  background-color: #e9e9e9;
+  color: #333;
+  text-align: center;
+  text-decoration: none;
+  font-weight: bold;
+  font-size: 18px;
+  line-height: 1;
+  font-family: "Helvetica Neue", Helvetica, Arial, Verdana, sans-serif;
+  padding: 11px 48px 13px;
+  border: none;
+  border-radius: 3px;
+}
+.work-link:hover,
+.work-link:focus {
+  background-color: #dadada;
+  color: #333;
+}
+
+/* Video control button on work pages (was a zurb "button"). */
+.video-control {
+  display: inline-block;
+  background: #00a6fc;
+  color: #fff;
+  text-align: center;
+  text-decoration: none;
+  font-weight: bold;
+  font-size: 13px;
+  font-size: 1.3rem;
+  line-height: 1;
+  font-family: "Helvetica Neue", Helvetica, Arial, Verdana, sans-serif;
+  padding: 9px 34px 11px;
+  border: none;
+  cursor: pointer;
+}
+.video-control:hover,
+.video-control:focus {
+  background-color: #0192dd;
+  color: #fff;
+}

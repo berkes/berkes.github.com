@@ -18,7 +18,7 @@ params:
 
 Lost in Love is a web application where you create and share a unique maze generated from two names.
 
-<a class="button large radius white" href="https://love.berk.es" target="_blank">See the app (love.berk.es)</a>
+<a class="work-link" href="https://love.berk.es" target="_blank">See the app (love.berk.es)</a>
 
 ## Conceptual Idea
 

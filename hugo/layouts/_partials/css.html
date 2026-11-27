@@ -1,0 +1,19 @@
+{{/* One bundled, minified stylesheet via css.Build (#189).
+       Development (hugo server) keeps it readable; production gets
+       it minified and fingerprinted with an SRI hash. */}}
+{{ with resources.Get "css/main.css" }}
+  {{ $opts := dict
+    "minify" (cond hugo.IsDevelopment false true)
+    "targetPath" "assets/stylesheets/main.css"
+    "externals" (slice "/assets/*")
+  }}
+  {{ with . | css.Build $opts }}
+    {{ if hugo.IsDevelopment }}
+      <link rel="stylesheet" href="{{ .RelPermalink }}">
+    {{ else }}
+      {{ with . | fingerprint }}
+        <link rel="stylesheet" href="{{ .RelPermalink }}" integrity="{{ .Data.Integrity }}" crossorigin="anonymous">
+      {{ end }}
+    {{ end }}
+  {{ end }}
+{{ end }}

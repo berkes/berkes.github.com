@@ -1,7 +1,7 @@
 {{ define "main" }}
 <article class="work-page {{ .File.ContentBaseName }}">
-  <div class="body row">
-    <div class="four columns metadata">
+  <div class="work-body">
+    <div class="work-metadata">
       {{ $image := .Params.image | default "" }}
       {{ if $image }}{{ $img := .Resources.Get $image }}{{ if $img }}
       <img src="{{ $img.RelPermalink }}" alt="{{ .Title }}" class="marked-image" loading="lazy">
@@ -18,7 +18,7 @@
       {{ end }}
       <div class="work-date">{{ .Date.Format "January - 2006" }}</div>
     </div>
-    <div class="eight columns content">{{ .Content }}</div>
+    <div class="work-content">{{ .Content }}</div>
   </div>
 </article>
 {{ end }}

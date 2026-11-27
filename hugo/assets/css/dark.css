@@ -34,11 +34,11 @@
     content: url("/assets/images/logo-dark.png");
   }
   article footer {
-    background: transparent url("/assets/images/swallow_light_hr.png")
+    background: transparent url("/assets/images/swallow_hr_dark.png")
       no-repeat scroll top center;
   }
-  footer.main {
-    background: transparent url("/assets/images/swallow_light_hr.png")
+  footer.site-footer {
+    background: transparent url("/assets/images/swallow_hr_dark.png")
       no-repeat scroll top center;
   }
   nav#main a.active,
